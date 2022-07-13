@@ -1,7 +1,7 @@
 <Doctype HTML>
   <html>
     <head>
-      <title>test</title>
+      <title>Test</title>
     </head>
     <body>
       <?php echo "working"; ?>
