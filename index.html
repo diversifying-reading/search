@@ -1,7 +1,9 @@
 <?php
 
-$db = new SQLite3('test.db');
+$db = new SQLite3('sample.sqlite');
 
-$version = $db->querySingle('SELECT SQLITE_VERSION()');
+$res = $db->query('SELECT * FROM Sheet1');
 
-echo $version . "\n";
+while ($row = $res->fetchArray()) {
+    echo "{$row['id']} {$row['name']} {$row['price']} \n";
+}
