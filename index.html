@@ -1,46 +1,47 @@
 <html>
-<head>
-<title>Test</title>
+  <head>
+    <title>Test</title>
 
-<script type="text/javascript">
-var path = 'sample.sqlite';
-var xhr = new XMLHttpRequest();
-xhr.open('GET', path, true);
-xhr.responseType = 'arraybuffer';
+    <script type="text/javascript">
+      var path = 'sample.sqlite';
+      var xhr = new XMLHttpRequest();
+      xhr.open('GET', path, true);
+      xhr.responseType = 'arraybuffer';
 
-xhr.onload = function(e) {
-  var uInt8Array = new Uint8Array(this.response);
-  var db = new SQL.Database(uInt8Array);
-  var contents = db.exec("SELECT * FROM Playlist");
+      xhr.onload = function(e) {
+        var uInt8Array = new Uint8Array(this.response);
+        var db = new SQL.Database(uInt8Array);
+        var contents = db.exec("SELECT * FROM Playlist");
 
-  var table_string = '<table>';
-  if (contents) {
-    table_string += '<tr>';
-    for (var index in contents[0].columns) {
-      table_string += '<th>' + contents[0].columns[index] + '</th>';
-    } 
-    table_string += '</tr>';
-    for (var row_index in contents[0].values) {
-      table_string += '<tr>';
-      for (var col_index in contents[0].values[row_index]) {
-        table_string += '<td>' + contents[0].values[row_index][col_index] + '</td>';
+        var table_string = '<table>';
+        if (contents) {
+          table_string += '<tr>';
+          for (var index in contents[0].columns) {
+            table_string += '<th>' + contents[0].columns[index] + '</th>';
+          } 
+          table_string += '</tr>';
+          for (var row_index in contents[0].values) {
+            table_string += '<tr>';
+            for (var col_index in contents[0].values[row_index]) {
+              table_string += '<td>' + contents[0].values[row_index][col_index] + '</td>';
+            }
+            table_string += '</tr>';
+          }
+
+          }
+
+      table_string += '</table>';
+          //alert(table_string);
+          document.getElementById("res").innerHTML = table_string;    
       }
-      table_string += '</tr>';
-    }
+      xhr.send();
 
-    }
+    </script>
+  </head>
+  <body>
 
-table_string += '</table>';
-    //alert(table_string);
-    document.getElementById("res").innerHTML = table_string;    
-}
-xhr.send();
-
-</script>
-</head>
-<body>
-
-<h1>Database Data</h1>
-<p id="res"></p>
-</body>
+    <h1>Database Data</h1>
+    <p id="res"></p>
+    
+  </body>
 </html>
