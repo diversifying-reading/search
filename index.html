@@ -1,16 +1,9 @@
 <html>
 <head>
-<title>Title</title>
-<script type="text/javascript" src="https://raw.githubusercontent.com/kripken/sql.js/master/js/sql.js"></script>
-<script type="text/javascript" src="https://raw.githubusercontent.com/kripken/sql.js/master/js/worker.sql.js"></script>
-<!--
-<script type="text/javascript" src="sql.js"></script>
-<script type="text/javascript" src="worker.sql.js"></script>
--->
+<title>Test</title>
 
 <script type="text/javascript">
 var path = 'sample.sqlite';
-//var path = "sample.sqlite"
 var xhr = new XMLHttpRequest();
 xhr.open('GET', path, true);
 xhr.responseType = 'arraybuffer';
@@ -18,9 +11,7 @@ xhr.responseType = 'arraybuffer';
 xhr.onload = function(e) {
   var uInt8Array = new Uint8Array(this.response);
   var db = new SQL.Database(uInt8Array);
-  //var contents = db.exec("SELECT name FROM sqlite_master where type='table'");
   var contents = db.exec("SELECT * FROM Playlist");
-  //alert(JSON.stringify(contents));
 
   var table_string = '<table>';
   if (contents) {
