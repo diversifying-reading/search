@@ -1,9 +1,20 @@
-<?php
+<!doctype HTML>
+  <html>
+    <head>
+      <title>Sample Program</title>
+    </head>
+    <body>
+      <?php
 
-$db = new SQLite3('sample.sqlite');
+        $db = new SQLite3('sample.sqlite');
 
-$res = $db->query('SELECT * FROM Sheet1');
+        $res = $db->query('SELECT * FROM Sheet1');
 
-while ($row = $res->fetchArray()) {
-    echo "{$row['Title']} {$row['Author']} \n";
-}
+        while ($row = $res->fetchArray()) {
+            echo "{$row['Title']} {$row['Author']} \n";
+        }
+        ?>
+        
+    </body>
+  </html>
+
