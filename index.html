@@ -1,14 +1,7 @@
-<!doctype html>
-<html>
-  
-  <?php
+<?php
 
-  $db = new SQLite3('sample.sqlite');
+$db = new SQLite3('test.db');
 
-  $version = $db->querySingle('SELECT SQLITE_VERSION()');
+$version = $db->querySingle('SELECT SQLITE_VERSION()');
 
-  echo $version . "\n";
-  
-  ?>
-
-</html>
+echo $version . "\n";
