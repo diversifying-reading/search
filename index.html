@@ -5,5 +5,5 @@ $db = new SQLite3('sample.sqlite');
 $res = $db->query('SELECT * FROM Sheet1');
 
 while ($row = $res->fetchArray()) {
-    echo "{$row['id']} {$row['name']} {$row['price']} \n";
+    echo "{$row['Title']} {$row['Author']} \n";
 }
