@@ -5,9 +5,8 @@
   </head>
   
   <body>
-     <button onclick='do_something()' style='background-color:#333333;color:#FFFFFF;border-radius:5px'>Hello</button>
      
-    <p id='test'>Hello</p>
+    <p id='text'>loading</p>
       
     <script>
     
@@ -2356,7 +2355,7 @@
       var data_string = JSON.stringify(data);
       
       function do_something(){
-                document.getElementById('test').innerHTML = data_string;
+                document.getElementById('text').innerHTML = data_string;
       }
       do_something()
     </script>
