@@ -1,1 +1,2355 @@
-
+<!doctype html>
+<html>
+  <head>
+    <title>Test Title</title>
+  </head>
+  
+  <body>
+    <script>
+      var data = [
+    {
+        "title": "The Midnight Lie",
+        "author": "Marie Rutkowski  ",
+        "fantasy": "Y",
+        "romance": "Y",
+        "prose": "Y"
+    },
+    {
+        "title": "Thorn",
+        "author": "Intisar Khanani",
+        "fantasy": "Y",
+        "prose": "Y",
+        "arabOrArabamerican": "Y",
+        "ownvoices": "Y"
+    },
+    {
+        "title": "You Asked For Perfect",
+        "author": "Laura Silverman",
+        "fiction": "Y",
+        "romance": "Y",
+        "prose": "Y",
+        "arabOrArabamerican": "Y",
+        "jewish": "Y",
+        "muslim": "Y"
+    },
+    {
+        "title": "They Both Die at the End",
+        "author": "Adam Silvera",
+        "dystopian": "Y",
+        "prose": "Y",
+        "latinx": "Y",
+        "lgbtqia": "Y",
+        "mlmOrNblm": "Y",
+        "closetsafe": "Y"
+    },
+    {
+        "title": "Surrender Your Sons",
+        "author": "Adam Sass",
+        "fiction": "Y",
+        "romance": "Y",
+        "prose": "Y",
+        "lgbtqia": "Y",
+        "mlmOrNblm": "Y",
+        "mentalhealth": "Y"
+    },
+    {
+        "title": "Honey Girl",
+        "author": "Morgan Rogers",
+        "fiction": "Y",
+        "romance": "Y",
+        "prose": "Y",
+        "africanamericanOrBlack": "Y",
+        "aapi": "Y",
+        "lgbtqia": "Y",
+        "wlwOrNblw": "Y",
+        "ownvoices": "Y",
+        "newAdultAdultBookWithTeenInterest": "Y"
+    },
+    {
+        "title": "The Seven Husbands of Evelyn Hugo",
+        "author": "Taylor Jenkins Reid",
+        "historicalfiction": "Y",
+        "prose": "Y",
+        "latinx": "Y",
+        "lgbtqia": "Y",
+        "wlwOrNblw": "Y",
+        "closetsafe": "Y",
+        "mentalhealth": "Y",
+        "depression": "Y",
+        "newAdultAdultBookWithTeenInterest": "Y"
+    },
+    {
+        "title": "Wilder Girls",
+        "author": "Rory Power",
+        "fiction": "Y",
+        "dystopian": "Y",
+        "prose": "Y",
+        "lgbtqia": "Y",
+        "wlwOrNblw": "Y",
+        "closetsafe": "Y"
+    },
+    {
+        "title": "All Out",
+        "author": "Saundra Mitchell",
+        "nonfiction": "Y",
+        "prose": "Y",
+        "lgbtqia": "Y",
+        "wlwOrNblw": "Y",
+        "mlmOrNblm": "Y",
+        "trans": "Y"
+    },
+    {
+        "title": "The Song of Achilles",
+        "author": "Madeline Miller",
+        "mythology": "Y",
+        "prose": "Y",
+        "lgbtqia": "Y",
+        "mlmOrNblm": "Y",
+        "newAdultAdultBookWithTeenInterest": "Y"
+    },
+    {
+        "title": "Heartstopper",
+        "author": "Alice Oseman",
+        "fiction": "Y",
+        "romance": "Y",
+        "graphicnovel": "Y",
+        "lgbtqia": "Y",
+        "mlmOrNblm": "Y",
+        "trans": "Y"
+    },
+    {
+        "title": "Gone to the Woods",
+        "author": "Gary Paulsen",
+        "memoir": "Y",
+        "prose": "Y",
+        "mentalhealth": "Y",
+        "ptsd": "Y"
+    },
+    {
+        "title": "Kira-Kira",
+        "author": "Cynthia Kadohata",
+        "historicalfiction": "Y",
+        "prose": "Y",
+        "aapi": "Y",
+        "migrantstories": "Y",
+        "middleGrade": "Y"
+    },
+    {
+        "title": "Loveless",
+        "author": "Alice Oseman",
+        "fiction": "Y",
+        "prose": "Y",
+        "lgbtqia": "Y",
+        "aroace": "Y"
+    },
+    {
+        "title": "Red, White, & Royal Blue",
+        "author": "Casey McQuiston",
+        "fiction": "Y",
+        "romance": "Y",
+        "prose": "Y",
+        "latinx": "Y",
+        "lgbtqia": "Y",
+        "mlmOrNblm": "Y",
+        "newAdultAdultBookWithTeenInterest": "Y"
+    },
+    {
+        "title": "One Last Stop",
+        "author": "Casey McQuiston",
+        "fiction": "Y",
+        "romance": "Y",
+        "prose": "Y",
+        "aapi": "Y",
+        "lgbtqia": "Y",
+        "wlwOrNblw": "Y",
+        "newAdultAdultBookWithTeenInterest": "Y"
+    },
+    {
+        "title": "Six of Crows",
+        "author": "Leigh Bardugo   ",
+        "fantasy": "Y",
+        "prose": "Y",
+        "africanamericanOrBlack": "Y",
+        "arabOrArabamerican": "Y",
+        "lgbtqia": "Y",
+        "mlmOrNblm": "Y",
+        "closetsafe": "Y",
+        "mentalhealth": "Y",
+        "physicaldisability": "Y",
+        "ptsd": "Y"
+    },
+    {
+        "title": "Girl, Serpent, Thorn",
+        "author": "Melissa Bashardoust",
+        "fantasy": "Y",
+        "prose": "Y",
+        "lgbtqia": "Y",
+        "wlwOrNblw": "Y",
+        "closetsafe": "Y"
+    },
+    {
+        "title": "Looking For Alaska",
+        "author": "John Green",
+        "fiction": "Y",
+        "prose": "Y",
+        "mentalhealth": "Y",
+        "depression": "Y"
+    },
+    {
+        "title": "Lobizona",
+        "author": "Romina Garber",
+        "urbanfantasy": "Y",
+        "prose": "Y",
+        "latinx": "Y"
+    },
+    {
+        "title": "How It Feels To Float",
+        "author": "Helena Fox",
+        "fiction": "Y",
+        "prose": "Y",
+        "mentaldisability": "Y",
+        "mentalhealth": "Y",
+        "depression": "Y"
+    },
+    {
+        "title": "Falling Leaves",
+        "author": "Adeline Yen Mah",
+        "memoir": "Y",
+        "nonfiction": "Y",
+        "prose": "Y",
+        "aapi": "Y",
+        "ownvoices": "Y",
+        "newAdultAdultBookWithTeenInterest": "Y"
+    },
+    {
+        "title": "Just Mercy",
+        "author": "Bryan Stevenson",
+        "memoir": "Y",
+        "nonfiction": "Y",
+        "prose": "Y",
+        "africanamericanOrBlack": "Y",
+        "ownvoices": "Y",
+        "newAdultAdultBookWithTeenInterest": "Y"
+    },
+    {
+        "title": "The House on the Ceraulean Sea",
+        "author": "T.J. Klune",
+        "urbanfantasy": "Y",
+        "prose": "Y",
+        "lgbtqia": "Y",
+        "mlmOrNblm": "Y",
+        "closetsafe": "Y",
+        "newAdultAdultBookWithTeenInterest": "Y"
+    },
+    {
+        "title": "We Contain Multitudes",
+        "author": "Sarah Henstra",
+        "fiction": "Y",
+        "romance": "Y",
+        "prose": "Y",
+        "lgbtqia": "Y",
+        "mlmOrNblm": "Y"
+    },
+    {
+        "title": "Her Royal Highness",
+        "author": "Rachel Hawkins",
+        "fiction": "Y",
+        "romance": "Y",
+        "prose": "Y",
+        "lgbtqia": "Y",
+        "wlwOrNblw": "Y"
+    },
+    {
+        "title": "Upright Women Wanted",
+        "author": "Sarah Gailey",
+        "historicalfiction": "Y",
+        "prose": "Y",
+        "lgbtqia": "Y",
+        "wlwOrNblw": "Y",
+        "newAdultAdultBookWithTeenInterest": "Y"
+    },
+    {
+        "title": "The Last True Poets of the Sea",
+        "author": "Julia Drake",
+        "fiction": "Y",
+        "prose": "Y",
+        "lgbtqia": "Y",
+        "wlwOrNblw": "Y",
+        "closetsafe": "Y"
+    },
+    {
+        "title": "Legendborn",
+        "author": "Tracy Deonn",
+        "urbanfantasy": "Y",
+        "prose": "Y",
+        "africanamericanOrBlack": "Y",
+        "ownvoices": "Y"
+    },
+    {
+        "title": "I Wish You All the Best",
+        "author": "Mason Deaver",
+        "fiction": "Y",
+        "prose": "Y",
+        "africanamericanOrBlack": "Y",
+        "lgbtqia": "Y",
+        "nonbinairygenderfluid": "Y"
+    },
+    {
+        "title": "Children of Blood and Bone",
+        "author": "Toni Adeyemi",
+        "fantasy": "Y",
+        "prose": "Y",
+        "africanamericanOrBlack": "Y",
+        "ownvoices": "Y"
+    },
+    {
+        "title": "The Miseducation of Cameron Post",
+        "author": "Emily M. Danforth",
+        "fiction": "Y",
+        "prose": "Y",
+        "lgbtqia": "Y",
+        "wlwOrNblw": "Y"
+    },
+    {
+        "title": "Beauty Queens",
+        "author": "Libba Bray",
+        "fiction": "Y",
+        "prose": "Y",
+        "africanamericanOrBlack": "Y",
+        "lgbtqia": "Y",
+        "trans": "Y"
+    },
+    {
+        "title": "Aristotle and Dante Discover the Secrets of the Universe",
+        "author": "Benjamin Alire Sáenez",
+        "fiction": "Y",
+        "romance": "Y",
+        "prose": "Y",
+        "latinx": "Y",
+        "lgbtqia": "Y",
+        "mlmOrNblm": "Y",
+        "closetsafe": "Y",
+        "ownvoices": "Y"
+    },
+    {
+        "title": "The Priory of the Orange Tree",
+        "author": "Samantha Shannon",
+        "fantasy": "Y",
+        "prose": "Y",
+        "lgbtqia": "Y",
+        "wlwOrNblw": "Y",
+        "newAdultAdultBookWithTeenInterest": "Y"
+    },
+    {
+        "title": "Love From A to Z",
+        "author": "SK Ali",
+        "fiction": "Y",
+        "romance": "Y",
+        "prose": "Y",
+        "arabOrArabamerican": "Y",
+        "ownvoices": "Y",
+        "muslim": "Y",
+        "physicaldisability": "Y"
+    },
+    {
+        "title": "Refugee",
+        "author": "Alan Gratz",
+        "historicalfiction": "Y",
+        "prose": "Y",
+        "latinx": "Y",
+        "arabOrArabamerican": "Y",
+        "migrantstories": "Y",
+        "jewish": "Y",
+        "muslim": "Y",
+        "middleGrade": "Y"
+    },
+    {
+        "title": "Indivisible",
+        "author": "Daniel Aleman",
+        "memoir": "Y",
+        "nonfiction": "Y",
+        "prose": "Y",
+        "arabOrArabamerican": "Y",
+        "lgbtqia": "Y",
+        "mlmOrNblm": "Y",
+        "closetsafe": "Y",
+        "migrantstories": "Y",
+        "muslim": "Y",
+        "middleGrade": "Y"
+    },
+    {
+        "title": "Color Me In",
+        "author": "Natasha E. Diaz",
+        "fiction": "Y",
+        "africanamericanOrBlack": "Y",
+        "jewish": "Y"
+    },
+    {
+        "title": "It’s a Whole Spiel",
+        "author": "edited by Katherine Locke & Laura Silverman",
+        "fiction": "Y",
+        "ownvoices": "Y",
+        "jewish": "Y"
+    },
+    {
+        "title": "Once More with Chutzpah",
+        "author": "Haley Neil",
+        "fiction": "Y",
+        "romance": "Y",
+        "lgbtqia": "Y",
+        "ownvoices": "Y",
+        "jewish": "Y"
+    },
+    {
+        "title": "Dear Rachel Maddow",
+        "author": "Adrienne Kisner",
+        "fiction": "Y",
+        "lgbtqia": "Y",
+        "mentalhealth": "Y"
+    },
+    {
+        "title": "Winning",
+        "author": "Lara Deloza",
+        "fiction": "Y",
+        "romance": "Y",
+        "lgbtqia": "Y",
+        "wlwOrNblw": "Y"
+    },
+    {
+        "title": "Trell",
+        "author": "Dick Lher",
+        "fiction": "Y",
+        "mystery": "Y",
+        "africanamericanOrBlack": "Y",
+        "ownvoices": "Y"
+    },
+    {
+        "title": "Drag  Teen",
+        "author": "Jeffery Self",
+        "fiction": "Y",
+        "romance": "Y",
+        "lgbtqia": "Y",
+        "ownvoices": "Y"
+    },
+    {
+        "title": "City of Saints & Thieves",
+        "author": "Natalie C. Anderson",
+        "fiction": "Y",
+        "mystery": "Y",
+        "africanamericanOrBlack": "Y",
+        "ownvoices": "Y"
+    },
+    {
+        "title": "Allegedly",
+        "author": "Tiffany D. Jackson",
+        "fiction": "Y",
+        "africanamericanOrBlack": "Y",
+        "ownvoices": "Y"
+    },
+    {
+        "title": "I Kissed Shara Wheeler: A Novel",
+        "author": "Casey McQuiston",
+        "fiction": "Y",
+        "lgbtqia": "Y",
+        "wlwOrNblw": "Y"
+    },
+    {
+        "title": "She Gets the Girl",
+        "author": "Rachael Lippincott, Alyson Derrick",
+        "fiction": "Y",
+        "aapi": "Y",
+        "lgbtqia": "Y",
+        "wlwOrNblw": "Y"
+    },
+    {
+        "title": "Miss Meteor",
+        "author": "Tehlor Kay Mejia, Anna-Marie McLemore",
+        "fantasy": "Y",
+        "fiction": "Y",
+        "romance": "Y",
+        "latinx": "Y",
+        "lgbtqia": "Y",
+        "trans": "Y"
+    },
+    {
+        "title": "A Very Large Expanse of Sea",
+        "author": "Tahereh Mafi",
+        "fiction": "Y",
+        "historicalfiction": "Y",
+        "ownvoices": "Y",
+        "muslim": "Y"
+    },
+    {
+        "title": "Not My Problem",
+        "author": "Ciara Smyth",
+        "fiction": "Y",
+        "romance": "Y",
+        "lgbtqia": "Y",
+        "wlwOrNblw": "Y"
+    },
+    {
+        "title": "A Land of Permanent Goodbyes",
+        "author": "Atia Abawi",
+        "fiction": "Y",
+        "historicalfiction": "Y",
+        "arabOrArabamerican": "Y",
+        "migrantstories": "Y",
+        "muslim": "Y"
+    },
+    {
+        "title": "The Gilded Ones",
+        "author": "Namina Forna",
+        "fantasy": "Y",
+        "fiction": "Y",
+        "africanamericanOrBlack": "Y",
+        "ownvoices": "Y"
+    },
+    {
+        "title": "The Love Curse of Melody McIntyre",
+        "author": "Robin Talley",
+        "fiction": "Y",
+        "lgbtqia": "Y",
+        "wlwOrNblw": "Y"
+    },
+    {
+        "title": "Required Reading for the Disenfranchised Freshman",
+        "author": "Kristen R. Lee",
+        "fiction": "Y",
+        "africanamericanOrBlack": "Y"
+    },
+    {
+        "title": "The New Girl",
+        "author": "Jesse Q. Sutanto",
+        "fiction": "Y",
+        "mystery": "Y",
+        "aapi": "Y",
+        "ownvoices": "Y"
+    },
+    {
+        "title": "Patron Saints of Nothing",
+        "author": "Randy Ribay",
+        "fiction": "Y",
+        "aapi": "Y"
+    },
+    {
+        "title": "Charming as a Verb",
+        "author": "Ben Philippe",
+        "fiction": "Y",
+        "romance": "Y",
+        "africanamericanOrBlack": "Y"
+    },
+    {
+        "title": "The Big Lie",
+        "author": "Julie Mayhew",
+        "fiction": "Y",
+        "dystopian": "Y",
+        "lgbtqia": "Y",
+        "wlwOrNblw": "Y"
+    },
+    {
+        "title": "Can't Take That Away",
+        "author": "Steven Salvatore",
+        "fiction": "Y",
+        "lgbtqia": "Y",
+        "nonbinairygenderfluid": "Y"
+    },
+    {
+        "title": "Witches Steeped in Gold",
+        "author": "Ciannon Smart",
+        "fantasy": "Y",
+        "fiction": "Y",
+        "africanamericanOrBlack": "Y"
+    },
+    {
+        "title": "A Song of Wraiths and Ruin",
+        "author": "Roseanne A. Brown",
+        "fantasy": "Y",
+        "fiction": "y",
+        "africanamericanOrBlack": "y"
+    },
+    {
+        "title": "Perfect on Paper",
+        "author": "Sophie Gonzales",
+        "fiction": "Y",
+        "romance": "Y",
+        "lgbtqia": "Y"
+    },
+    {
+        "title": "The Girl Who Fell Beneath The Sea",
+        "author": "Axie Oh",
+        "fantasy": "Y",
+        "fiction": "Y",
+        "mythology": "Y",
+        "aapi": "Y"
+    },
+    {
+        "title": "The Lost Dreamer ",
+        "author": "Lizz Huerta",
+        "fantasy": "Y",
+        "fiction": "Y",
+        "mythology": "Y",
+        "latinx": "Y",
+        "nativeamerican": "Y"
+    },
+    {
+        "title": "A Magic Steeped in Poison",
+        "author": "Judy I. Lin",
+        "fantasy": "Y",
+        "fiction": "Y",
+        "mythology": "Y",
+        "aapi": "Y"
+    },
+    {
+        "title": "The summer of bitter and sweet",
+        "author": "Jenny Ferguson",
+        "fiction": "Y",
+        "nativeamerican": "Y"
+    },
+    {
+        "title": "Home Field Advantage",
+        "author": "Dahlia Adler",
+        "fiction": "Y",
+        "romance": "Y",
+        "lgbtqia": "Y",
+        "wlwOrNblw": "Y"
+    },
+    {
+        "title": "The Red Palace",
+        "author": "June Hur",
+        "fiction": "Y",
+        "historicalfiction": "Y",
+        "mystery": "Y",
+        "aapi": "Y"
+    },
+    {
+        "title": "All That’s Left in the World",
+        "author": "Erik J. Brown",
+        "fiction": "Y",
+        "dystopian": "Y",
+        "lgbtqia": "Y",
+        "mlmOrNblm": "Y"
+    },
+    {
+        "title": "She Drives Me Crazy",
+        "author": "Kelly Quindlen",
+        "fiction": "Y",
+        "romance": "Y",
+        "lgbtqia": "Y",
+        "wlwOrNblw": "Y"
+    },
+    {
+        "title": "The Lesbiana's Guide to Catholic School",
+        "author": "Sonora Reyes",
+        "fiction": "Y",
+        "romance": "Y",
+        "latinx": "Y",
+        "lgbtqia": "Y",
+        "wlwOrNblw": "Y"
+    },
+    {
+        "title": "The Many Half-Lived Lives of Sam Sylvester",
+        "author": "Maya MacGregor",
+        "fiction": "Y",
+        "mystery": "Y",
+        "lgbtqia": "Y",
+        "nonbinairygenderfluid": "Y",
+        "autism": "Y"
+    },
+    {
+        "title": "Burn Down, Rise Up",
+        "author": "Vincent Tirado",
+        "fiction": "Y",
+        "scifi": "Y",
+        "mystery": "Y",
+        "africanamericanOrBlack": "Y"
+    },
+    {
+        "title": "The Forest of Stolen Girls",
+        "author": "June Hur",
+        "fiction": "Y",
+        "historicalfiction": "Y",
+        "mystery": "Y",
+        "aapi": "Y"
+    },
+    {
+        "title": "Ace of Spades",
+        "author": "Faridah Àbíké-Íyímídé",
+        "fiction": "Y",
+        "mystery": "Y",
+        "africanamericanOrBlack": "Y"
+    },
+    {
+        "title": "The City Beautiful",
+        "author": "Aden Polydoros",
+        "fiction": "Y",
+        "historicalfiction": "Y",
+        "mythology": "Y",
+        "jewish": "Y"
+    },
+    {
+        "title": "The State of Grace",
+        "author": " Rachael Lucas",
+        "fiction": "Y",
+        "autism": "Y"
+    },
+    {
+        "title": "Can You See Me",
+        "author": "Rebecca Westcott and Libby Scoot",
+        "fiction": "Y",
+        "autism": "Y"
+    },
+    {
+        "title": "Both Sides Now",
+        "author": "Peyton Thomas",
+        "fiction": "Y",
+        "lgbtqia": "Y",
+        "trans": "Y"
+    },
+    {
+        "title": "Why We Fly",
+        "author": "Gilly Segal and Kimberly Jones"
+    },
+    {
+        "title": "Hero ",
+        "author": "Perry Moore",
+        "fantasy": "Y",
+        "fiction": "Y",
+        "urbanfantasy": "Y",
+        "lgbtqia": "Y",
+        "mlmOrNblm": "Y"
+    },
+    {
+        "title": "Not So Pure and Simple",
+        "author": "Lamar Giles",
+        "fiction": "Y",
+        "africanamericanOrBlack": "Y"
+    },
+    {
+        "title": "White Smoke",
+        "author": "Tiffany D. Jackson",
+        "fantasy": "Y",
+        "fiction": "Y",
+        "urbanfantasy": "Y",
+        "africanamericanOrBlack": "Y"
+    },
+    {
+        "title": "A River of Royal Blood",
+        "author": "Amanda Joy",
+        "fantasy": "Y",
+        "fiction": "Y",
+        "africanamericanOrBlack": "Y"
+    },
+    {
+        "title": "Monday's Not Coming",
+        "author": "Tiffany D. Jackson",
+        "fiction": "Y",
+        "africanamericanOrBlack": "Y",
+        "autism": "Y"
+    },
+    {
+        "title": "Sisters of the Snake",
+        "author": "Sarena Nanua, Sasha Nanua",
+        "fantasy": "Y",
+        "aapi": "Y"
+    },
+    {
+        "title": "Akata Witch",
+        "author": "Nnedi Okorafor",
+        "fantasy": "Y",
+        "fiction": "Y",
+        "africanamericanOrBlack": "Y"
+    },
+    {
+        "title": "Girl on Fire",
+        "author": "Alicia Keys and Andrew Weiner, illustrated by Brittney Williams",
+        "fiction": "Y",
+        "graphicnovel": "Y",
+        "africanamericanOrBlack": "Y"
+    },
+    {
+        "title": "Messy Roots: A Graphic Memoir of a Wuhanese American",
+        "author": "Laura Gao",
+        "nonfiction": "Y",
+        "graphicnovel": "Y",
+        "aapi": "Y"
+    },
+    {
+        "title": "Squad",
+        "author": "Written by Maggie Tokuda-Hall and illustrated by Lisa Sterle",
+        "fantasy": "Y",
+        "fiction": "Y",
+        "urbanfantasy": "Y",
+        "graphicnovel": "Y",
+        "lgbtqia": "Y"
+    },
+    {
+        "title": "Displacement",
+        "author": "Kiku Hughes",
+        "fiction": "Y",
+        "historicalfiction": "Y",
+        "aapi": "Y"
+    },
+    {
+        "title": "Persepolis",
+        "author": "Marjane Satrapi",
+        "memoir": "Y",
+        "nonfiction": "Y",
+        "graphicnovel": "Y",
+        "migrantstories": "Y",
+        "ownvoices": "Y",
+        "muslim": "Y"
+    },
+    {
+        "title": "American Born Chinese",
+        "author": "Gene Yang",
+        "memoir": "Y",
+        "nonfiction": "Y",
+        "aapi": "Y"
+    },
+    {
+        "title": "Across the Tracks: Remembering Greenwood, Black Wall Street, and the Tulsa Race Massacre",
+        "author": "Alverne Ball. Art by Stacey Robinson",
+        "historicalfiction": "Y",
+        "nonfiction": "Y",
+        "graphicnovel": "Y",
+        "africanamericanOrBlack": "Y"
+    },
+    {
+        "title": "The Black Panther Party",
+        "author": "By David F. Walker. Art by Marcus Kwame Anderson",
+        "historicalfiction": "Y",
+        "nonfiction": "Y",
+        "graphicnovel": "Y",
+        "africanamericanOrBlack": "Y"
+    },
+    {
+        "title": "Dread Nation",
+        "author": "Justina Ireland",
+        "fantasy": "Y",
+        "historicalfiction": "Y",
+        "africanamericanOrBlack": "Y"
+    },
+    {
+        "title": "The Great Mrs. Elias",
+        "author": "Barbara Chase Riboud",
+        "historicalfiction": "Y",
+        "prose": "Y",
+        "africanamericanOrBlack": "Y",
+        "ownvoices": "Y",
+        "newAdultAdultBookWithTeenInterest": "Y"
+    },
+    {
+        "title": "Harsh Times",
+        "author": "Mario Vargas Llosa",
+        "historicalfiction": "Y",
+        "prose": "Y",
+        "latinx": "Y",
+        "ownvoices": "Y",
+        "newAdultAdultBookWithTeenInterest": "Y"
+    },
+    {
+        "title": "Other Words from Home",
+        "author": "Jasmine Warga",
+        "fiction": "Y",
+        "prose": "Y",
+        "arabOrArabamerican": "Y",
+        "migrantstories": "Y",
+        "ownvoices": "Y",
+        "middleGrade": "Y"
+    },
+    {
+        "title": "Small World",
+        "author": "Jonathan Evision",
+        "historicalfiction": "Y",
+        "prose": "Y",
+        "africanamericanOrBlack": "Y",
+        "aapi": "Y",
+        "nativeamerican": "Y",
+        "ownvoices": "Y",
+        "newAdultAdultBookWithTeenInterest": "Y"
+    },
+    {
+        "title": "Violeta",
+        "author": "Isabel Allende",
+        "historicalfiction": "Y",
+        "prose": "Y",
+        "latinx": "Y",
+        "newAdultAdultBookWithTeenInterest": "Y"
+    },
+    {
+        "title": "Slip",
+        "author": "Marika McCoola and Aatmaja Pandajo"
+    },
+    {
+        "title": "Growing Pangs",
+        "author": "Kathryn Ormsbee and Molly Brooks",
+        "fiction": "Y",
+        "graphicnovel": "Y",
+        "mentaldisability": "Y",
+        "ocd": "Y"
+    },
+    {
+        "title": "The Real Riley Mays",
+        "author": "Rachel Elliott",
+        "fiction": "Y",
+        "graphicnovel": "Y",
+        "lgbtqia": "Y",
+        "wlwOrNblw": "Y",
+        "mlmOrNblm": "Y",
+        "trans": "Y"
+    },
+    {
+        "title": "Red Scare",
+        "author": "Liam Francis Welsh",
+        "historicalfiction": "Y",
+        "graphicnovel": "Y",
+        "physicaldisability": "Y"
+    },
+    {
+        "title": "Deep in Providence",
+        "author": "Riss M. Nielson",
+        "urbanfantasy": "Y",
+        "prose": "Y",
+        "africanamericanOrBlack": "Y",
+        "aapi": "Y",
+        "latinx": "Y",
+        "lgbtqia": "Y",
+        "wlwOrNblw": "Y",
+        "mentalhealth": "Y"
+    },
+    {
+        "title": "Fight + Flight",
+        "author": "Jules Machias",
+        "fiction": "Y",
+        "graphicnovel": "Y",
+        "mentaldisability": "Y",
+        "physicaldisability": "Y",
+        "middleGrade": "Y"
+    },
+    {
+        "title": "Finding Jupiter",
+        "author": "Kelis Rowe",
+        "fiction": "Y",
+        "romance": "Y",
+        "prose": "Y",
+        "lgbtqia": "Y",
+        "mlmOrNblm": "Y"
+    },
+    {
+        "title": "Flip the Script",
+        "author": "Lyla Lee",
+        "fiction": "Y",
+        "romance": "Y",
+        "prose": "Y",
+        "aapi": "Y",
+        "lgbtqia": "Y",
+        "wlwOrNblw": "Y"
+    },
+    {
+        "title": "Radio Silence",
+        "author": "Alice Oseman",
+        "fiction": "Y",
+        "prose": "Y",
+        "mentalhealth": "Y",
+        "depression": "Y"
+    },
+    {
+        "title": "Man O' War",
+        "author": "Cory McCarthy"
+    },
+    {
+        "title": "Milo and Marcus at the End of the World",
+        "author": "Kevin Christopher Snipes",
+        "romance": "Y",
+        "urbanfantasy": "Y",
+        "prose": "Y",
+        "lgbtqia": "Y",
+        "mlmOrNblm": "Y"
+    },
+    {
+        "title": "The Love & Lies of Rukhsana Ali",
+        "author": "Sabina Khan",
+        "romance": "Y",
+        "prose": "Y",
+        "arabOrArabamerican": "Y",
+        "lgbtqia": "Y",
+        "wlwOrNblw": "Y",
+        "ownvoices": "Y",
+        "muslim": "Y",
+        "mentalhealth": "Y"
+    },
+    {
+        "title": "Onyeka and the Academy of the Sun",
+        "author": "Tola Okogwu",
+        "urbanfantasy": "Y",
+        "prose": "Y",
+        "africanamericanOrBlack": "Y",
+        "ownvoices": "Y",
+        "middleGrade": "Y"
+    },
+    {
+        "title": "The Curiosities",
+        "author": "Zana Fraillon",
+        "urbanfantasy": "Y",
+        "graphicnovel": "Y",
+        "aapi": "Y",
+        "ownvoices": "Y",
+        "mentaldisability": "Y",
+        "physicaldisability": "Y",
+        "middleGrade": "Y"
+    },
+    {
+        "title": "Falling Short ",
+        "author": "Ernesto Cisneros",
+        "fiction": "Y",
+        "prose": "Y",
+        "latinx": "Y",
+        "middleGrade": "Y"
+    },
+    {
+        "title": "Shadows Cast By Stars",
+        "author": "Catherine Knutson",
+        "urbanfantasy": "Y",
+        "prose": "Y",
+        "nativeamerican": "Y"
+    },
+    {
+        "title": "Felix Ever After",
+        "author": "Kacen Callendar",
+        "fiction": "Y",
+        "romance": "Y",
+        "prose": "Y",
+        "africanamericanOrBlack": "Y",
+        "lgbtqia": "Y",
+        "mlmOrNblm": "Y",
+        "trans": "Y",
+        "ownvoices": "Y"
+    },
+    {
+        "title": "Lakelore",
+        "author": "Anna Marie McLenore",
+        "fantasy": "Y",
+        "prose": "Y",
+        "latinx": "Y",
+        "lgbtqia": "Y",
+        "trans": "Y",
+        "nonbinairygenderfluid": "Y",
+        "mentaldisability": "Y",
+        "physicaldisability": "Y",
+        "autism": "Y"
+    },
+    {
+        "title": "The Sword of Summer",
+        "author": "Rick Riordan",
+        "fantasy": "Y",
+        "prose": "Y",
+        "latinx": "Y",
+        "lgbtqia": "Y",
+        "mlmOrNblm": "Y",
+        "trans": "Y",
+        "closetsafe": "Y",
+        "middleGrade": "Y"
+    },
+    {
+        "title": "Act Cool",
+        "author": "Toblyn McSmith",
+        "fiction": "Y",
+        "prose": "Y",
+        "lgbtqia": "Y",
+        "trans": "Y"
+    },
+    {
+        "title": "Simon vs. the Homosapien's Agenda",
+        "author": "Becky Albertalli",
+        "fiction": "Y",
+        "prose": "Y",
+        "lgbtqia": "Y",
+        "mlmOrNblm": "Y"
+    },
+    {
+        "title": "How it all Blew Up",
+        "author": "Arvin Ahmadi",
+        "fiction": "Y",
+        "prose": "Y",
+        "arabOrArabamerican": "Y",
+        "lgbtqia": "Y",
+        "mlmOrNblm": "Y",
+        "migrantstories": "Y",
+        "ownvoices": "Y",
+        "muslim": "Y"
+    },
+    {
+        "title": "What if it's Us",
+        "author": "Becky Albertalli and Adam Silvera",
+        "fiction": "Y",
+        "romance": "Y",
+        "prose": "Y",
+        "lgbtqia": "Y",
+        "mlmOrNblm": "Y"
+    },
+    {
+        "title": "Dreadnought",
+        "author": "April Daniels",
+        "dystopian": "Y",
+        "prose": "Y",
+        "lgbtqia": "Y",
+        "trans": "Y"
+    },
+    {
+        "title": "Labyrinth Lost",
+        "author": "Zoradia Cordova",
+        "urbanfantasy": "Y",
+        "prose": "Y",
+        "africanamericanOrBlack": "Y",
+        "latinx": "Y",
+        "lgbtqia": "Y",
+        "wlwOrNblw": "Y",
+        "closetsafe": "Y"
+    },
+    {
+        "title": "Carry On",
+        "author": "Rainbow Rowell",
+        "fantasy": "Y",
+        "prose": "Y",
+        "lgbtqia": "Y",
+        "mlmOrNblm": "Y"
+    },
+    {
+        "title": "Symptoms of Being Human",
+        "author": "Jeff Garvin",
+        "fiction": "Y",
+        "prose": "Y",
+        "lgbtqia": "Y",
+        "trans": "Y"
+    },
+    {
+        "title": "Some Girls Do",
+        "author": "Jennifer Dugan",
+        "fiction": "Y",
+        "romance": "Y",
+        "prose": "Y",
+        "lgbtqia": "Y",
+        "wlwOrNblw": "Y"
+    },
+    {
+        "title": "Clap When You Land",
+        "author": "Elizabeth Acevedo",
+        "fiction": "Y",
+        "romance": "Y",
+        "verse": "Y",
+        "africanamericanOrBlack": "Y",
+        "latinx": "Y",
+        "lgbtqia": "Y",
+        "wlwOrNblw": "Y",
+        "ownvoices": "Y",
+        "mentalhealth": "Y"
+    },
+    {
+        "title": "The Falling in Love Montage",
+        "author": "Ciara Smyth",
+        "fiction": "Y",
+        "romance": "Y",
+        "prose": "Y",
+        "lgbtqia": "Y",
+        "wlwOrNblw": "Y"
+    },
+    {
+        "title": "Hello (From Here)",
+        "author": "Chandler Baker and Wesley King",
+        "fiction": "Y",
+        "prose": "Y",
+        "lgbtqia": "Y",
+        "mlmOrNblm": "Y"
+    },
+    {
+        "title": "This One Summer",
+        "author": "Mariko and Jillian Tamaki",
+        "fiction": "Y",
+        "graphicnovel": "Y",
+        "lgbtqia": "Y"
+    },
+    {
+        "title": "Sweet & Bitter Magic",
+        "author": "Adrienne Tooley",
+        "fantasy": "Y",
+        "prose": "Y",
+        "lgbtqia": "Y",
+        "wlwOrNblw": "Y"
+    },
+    {
+        "title": "You Should See Me in a Crown",
+        "author": "Leah Johnson",
+        "fiction": "Y",
+        "prose": "Y",
+        "africanamericanOrBlack": "Y",
+        "lgbtqia": "Y",
+        "wlwOrNblw": "Y",
+        "ownvoices": "Y"
+    },
+    {
+        "title": "I Think I Love You",
+        "author": "Auriane Desombre",
+        "fiction": "Y",
+        "romance": "Y",
+        "prose": "Y",
+        "aapi": "Y",
+        "lgbtqia": "Y",
+        "wlwOrNblw": "Y"
+    },
+    {
+        "title": "The Color Purple"
+    },
+    {
+        "title": "Of Fire and Stars"
+    },
+    {
+        "title": "Crier's War",
+        "author": "Nina Valera",
+        "fantasy": "Y",
+        "lgbtqia": "Y",
+        "wlwOrNblw": "Y"
+    },
+    {
+        "title": "The Henna Wars"
+    },
+    {
+        "title": "These Witches Don't Burn"
+    },
+    {
+        "title": "You Know Me Well"
+    },
+    {
+        "title": "Starting From Here",
+        "author": "Lisa Jenn Bigelow",
+        "fiction": "Y",
+        "lgbtqia": "Y",
+        "wlwOrNblw": "Y",
+        "mentalhealth": "Y"
+    },
+    {
+        "title": "Little & Lion"
+    },
+    {
+        "title": "History is All You Left Me"
+    },
+    {
+        "title": "Boyfriend Material",
+        "author": "Alexis Hall",
+        "fiction": "Y",
+        "romance": "Y",
+        "prose": "Y",
+        "lgbtqia": "Y",
+        "mlmOrNblm": "Y"
+    },
+    {
+        "title": "Plain Bad Heroines",
+        "author": "Emily M. Danforth",
+        "historicalfiction": "Y",
+        "mystery": "Y",
+        "prose": "Y",
+        "lgbtqia": "Y",
+        "wlwOrNblw": "Y"
+    },
+    {
+        "title": "The Never Tilting World",
+        "author": "Rin Chupeco",
+        "fantasy": "Y",
+        "prose": "Y",
+        "lgbtqia": "Y",
+        "wlwOrNblw": "Y"
+    },
+    {
+        "title": "Cinderella Is Dead",
+        "author": "Kaylan Bayron",
+        "fantasy": "Y",
+        "prose": "Y",
+        "africanamericanOrBlack": "Y",
+        "lgbtqia": "Y",
+        "aroace": "Y"
+    },
+    {
+        "title": "Bodymap",
+        "author": "Leah Lakshmi Piepzna-Samarasinha",
+        "memoir": "Y",
+        "verse": "Y",
+        "africanamericanOrBlack": "Y",
+        "lgbtqia": "Y",
+        "wlwOrNblw": "Y",
+        "ownvoices": "Y",
+        "mentaldisability": "Y",
+        "physicaldisability": "Y"
+    },
+    {
+        "title": "Last Night at the Telegraph Club",
+        "author": "Malinda Lo",
+        "historicalfiction": "Y",
+        "prose": "Y",
+        "aapi": "Y",
+        "lgbtqia": "Y",
+        "wlwOrNblw": "Y"
+    },
+    {
+        "title": "First Spring Grass Fire",
+        "author": "Rae Spoon",
+        "memoir": "Y",
+        "prose": "Y",
+        "lgbtqia": "Y",
+        "wlwOrNblw": "Y",
+        "trans": "Y",
+        "mentalhealth": "Y"
+    },
+    {
+        "title": "Juliet Takes A Breath",
+        "author": "Gabby Rivera",
+        "fiction": "Y",
+        "prose": "Y",
+        "latinx": "Y",
+        "lgbtqia": "Y",
+        "wlwOrNblw": "Y",
+        "ownvoices": "Y"
+    },
+    {
+        "title": "The Second Mango",
+        "author": "Shira Glassman",
+        "fantasy": "Y",
+        "prose": "Y",
+        "lgbtqia": "Y",
+        "wlwOrNblw": "Y",
+        "ownvoices": "Y",
+        "jewish": "Y"
+    },
+    {
+        "title": "Lies We Tell Ourselves",
+        "author": "Robin Talley",
+        "historicalfiction": "Y",
+        "prose": "Y",
+        "africanamericanOrBlack": "Y",
+        "lgbtqia": "Y",
+        "wlwOrNblw": "Y"
+    },
+    {
+        "title": "I Am Not Your Perfect Mexican Daughter",
+        "author": "Erika L. Sánchez",
+        "fiction": "Y",
+        "prose": "Y",
+        "latinx": "Y",
+        "ownvoices": "Y",
+        "mentalhealth": "Y"
+    },
+    {
+        "title": "War of Streets and Houses",
+        "author": "Sophie Yanow",
+        "historicalfiction": "Y",
+        "graphicnovel": "Y",
+        "africanamericanOrBlack": "Y",
+        "lgbtqia": "Y",
+        "wlwOrNblw": "Y",
+        "ownvoices": "Y"
+    },
+    {
+        "title": "When We Were Outlaws",
+        "author": "Jeanne Cordova",
+        "memoir": "Y",
+        "nonfiction": "Y",
+        "prose": "Y",
+        "latinx": "Y",
+        "lgbtqia": "Y",
+        "wlwOrNblw": "Y",
+        "ownvoices": "Y",
+        "newAdultAdultBookWithTeenInterest": "Y"
+    },
+    {
+        "title": "Indigo Springs",
+        "author": "A. M. Dellamonica",
+        "urbanfantasy": "Y",
+        "mystery": "Y",
+        "prose": "Y",
+        "lgbtqia": "Y",
+        "wlwOrNblw": "Y",
+        "mentalhealth": "Y",
+        "newAdultAdultBookWithTeenInterest": "Y"
+    },
+    {
+        "title": "When I Was Straight",
+        "author": "Julie Marie Wade",
+        "memoir": "Y",
+        "verse": "Y",
+        "lgbtqia": "Y",
+        "wlwOrNblw": "Y",
+        "ownvoices": "Y",
+        "mentalhealth": "Y",
+        "newAdultAdultBookWithTeenInterest": "Y"
+    },
+    {
+        "title": "All The Good Children ",
+        "author": "Danya Ingram",
+        "scifi": "Y",
+        "prose": "Y",
+        "lgbtqia": "Y",
+        "wlwOrNblw": "Y",
+        "newAdultAdultBookWithTeenInterest": "Y"
+    },
+    {
+        "title": "The House You Pass on the Way",
+        "author": "Jaqueline Woodson",
+        "fiction": "Y",
+        "prose": "Y",
+        "africanamericanOrBlack": "Y",
+        "lgbtqia": "Y",
+        "wlwOrNblw": "Y"
+    },
+    {
+        "title": "Empress of the World",
+        "author": "Sara Ryan",
+        "fiction": "Y",
+        "romance": "Y",
+        "prose": "Y",
+        "lgbtqia": "Y",
+        "wlwOrNblw": "Y"
+    },
+    {
+        "title": "Ophie’s Ghosts",
+        "author": "Justina Ireland",
+        "fantasy": "Y",
+        "fiction": "Y",
+        "historicalfiction": "Y",
+        "africanamericanOrBlack": "Y",
+        "middleGrade": "Y"
+    },
+    {
+        "title": "Enter Title Here",
+        "author": "Naomi Kanakia",
+        "fiction": "Y",
+        "aapi": "Y",
+        "ownvoices": "Y",
+        "mentalhealth": "Y"
+    },
+    {
+        "title": "Jack of Hearts (and Other Parts)",
+        "author": "L. C. Rosen",
+        "fiction": "Y",
+        "romance": "Y",
+        "lgbtqia": "Y"
+    },
+    {
+        "title": "Camp (novel)",
+        "author": "L. C. Rosen",
+        "fiction": "Y",
+        "romance": "Y",
+        "prose": "Y",
+        "lgbtqia": "Y"
+    },
+    {
+        "title": "Written in the Stars",
+        "author": "Alexandria Bellefleur",
+        "fiction": "Y",
+        "romance": "Y",
+        "prose": "Y",
+        "lgbtqia": "Y",
+        "wlwOrNblw": "Y"
+    },
+    {
+        "title": "This Is Kind of an Epic Love Story",
+        "author": "Kacen Callendar",
+        "fiction": "Y",
+        "romance": "Y",
+        "prose": "Y",
+        "lgbtqia": "Y",
+        "mlmOrNblm": "Y"
+    },
+    {
+        "title": "Cemetery Boys",
+        "author": "Aiden Thomas",
+        "fantasy": "Y",
+        "prose": "Y",
+        "latinx": "Y",
+        "lgbtqia": "Y",
+        "mlmOrNblm": "Y",
+        "trans": "Y",
+        "ownvoices": "Y"
+    },
+    {
+        "title": "Will Grayson, Will Grayson",
+        "author": "John Green",
+        "fiction": "Y",
+        "prose": "Y",
+        "lgbtqia": "Y",
+        "mlmOrNblm": "Y"
+    },
+    {
+        "title": "Turtles All The Way Down",
+        "author": "John Green",
+        "fiction": "Y",
+        "prose": "Y",
+        "mentaldisability": "Y",
+        "physicaldisability": "Y",
+        "ocd": "Y"
+    },
+    {
+        "title": "Where They Burn Books, They Also Burn People",
+        "author": "Marcos Antonio Hernandez",
+        "historicalfiction": "Y",
+        "prose": "Y",
+        "latinx": "Y",
+        "newAdultAdultBookWithTeenInterest": "Y"
+    },
+    {
+        "title": "When We Collided",
+        "author": "Emery Lord",
+        "fiction": "Y",
+        "prose": "Y",
+        "mentalhealth": "Y"
+    },
+    {
+        "title": "Reasons To Stay Alive",
+        "author": "Matt Haig",
+        "memoir": "Y",
+        "prose": "Y",
+        "ownvoices": "Y",
+        "mentalhealth": "Y",
+        "depression": "Y",
+        "newAdultAdultBookWithTeenInterest": "Y"
+    },
+    {
+        "title": "Insignificant Events In the Life of a Cactus",
+        "author": "Dusti Bowling",
+        "fiction": "Y",
+        "prose": "Y",
+        "physicaldisability": "Y",
+        "middleGrade": "Y"
+    },
+    {
+        "title": "The Cat I Never Named",
+        "author": "Amra Sabic-El-Rayess and Laura L. Sullivan",
+        "memoir": "Y",
+        "nonfiction": "Y",
+        "prose": "Y",
+        "arabOrArabamerican": "Y",
+        "migrantstories": "Y",
+        "ownvoices": "Y",
+        "muslim": "Y",
+        "mentalhealth": "Y",
+        "ptsd": "Y"
+    },
+    {
+        "title": "The Red Pencil",
+        "author": "Andrea Davis Pinkney",
+        "historicalfiction": "Y",
+        "verse": "Y",
+        "africanamericanOrBlack": "Y",
+        "migrantstories": "Y",
+        "ownvoices": "Y",
+        "middleGrade": "Y"
+    },
+    {
+        "title": "Let's Talk About Love",
+        "author": "Claire Kahn",
+        "fiction": "Y",
+        "romance": "Y",
+        "prose": "Y",
+        "africanamericanOrBlack": "Y",
+        "lgbtqia": "Y",
+        "aroace": "Y",
+        "ownvoices": "Y"
+    },
+    {
+        "title": "Kings, Queens, and In-Betweens",
+        "author": "Tanya Boteju",
+        "fiction": "Y",
+        "romance": "Y",
+        "lgbtqia": "Y",
+        "wlwOrNblw": "Y"
+    },
+    {
+        "title": "The Voting Booth",
+        "author": "Brandy Colbert",
+        "fiction": "Y",
+        "romance": "Y",
+        "africanamericanOrBlack": "Y",
+        "newAdultAdultBookWithTeenInterest": "Y"
+    },
+    {
+        "title": "How I Paid for College: A Novel of Sex, Theft, Friendship & Musical Theater",
+        "author": "Marc Acito",
+        "fiction": "Y",
+        "lgbtqia": "Y",
+        "ownvoices": "Y",
+        "newAdultAdultBookWithTeenInterest": "Y"
+    },
+    {
+        "title": "From a Whisper to a Rallying Cry: The Killing of Vincent Chin and the Trial that Galvanized the Asian American Movement",
+        "author": "Paula Yoo",
+        "nonfiction": "Y",
+        "aapi": "Y"
+    },
+    {
+        "title": "The Harlem Hellfighters",
+        "author": "Max Brooks",
+        "nonfiction": "Y",
+        "graphicnovel": "Y"
+    },
+    {
+        "title": "Redbone: The True Story of a Native American Rock Band",
+        "author": "Christian Staebler",
+        "nonfiction": "Y",
+        "graphicnovel": "Y",
+        "nativeamerican": "Y",
+        "ownvoices": "Y"
+    },
+    {
+        "title": "Wintergirls",
+        "author": "Laurie Halse Anderson",
+        "fiction": "Y",
+        "mentalhealth": "Y",
+        "depression": "Y"
+    },
+    {
+        "title": "Hell Followed With Us",
+        "author": "Andrew Joseph White",
+        "fantasy": "Y",
+        "prose": "Y",
+        "lgbtqia": "Y",
+        "mlmOrNblm": "Y",
+        "trans": "Y",
+        "ownvoices": "Y",
+        "mentaldisability": "Y",
+        "physicaldisability": "Y",
+        "autism": "Y"
+    },
+    {
+        "title": "We All Fall Down",
+        "author": "Rose Szabo",
+        "fantasy": "Y",
+        "prose": "Y",
+        "africanamericanOrBlack": "Y",
+        "lgbtqia": "Y",
+        "wlwOrNblw": "Y",
+        "ownvoices": "Y"
+    },
+    {
+        "title": "The Gravity of Missing Things",
+        "author": "Marisa Urgo",
+        "mystery": "Y",
+        "prose": "Y"
+    },
+    {
+        "title": "The Guinevere Deception",
+        "author": "Kiersten White",
+        "fantasy": "Y",
+        "prose": "Y",
+        "lgbtqia": "Y"
+    },
+    {
+        "title": "Love & Other Disasters",
+        "author": "Anita Kelly",
+        "romance": "Y",
+        "prose": "Y",
+        "lgbtqia": "Y",
+        "trans": "Y",
+        "nonbinairygenderfluid": "Y"
+    },
+    {
+        "title": "All Our Hidden Gifts",
+        "author": "Caroline O'Donoghue",
+        "fantasy": "Y",
+        "prose": "Y",
+        "aapi": "Y",
+        "lgbtqia": "Y",
+        "trans": "Y",
+        "nonbinairygenderfluid": "Y"
+    },
+    {
+        "title": "All the Bright Places",
+        "author": "Jennifer Niven",
+        "fiction": "Y",
+        "prose": "Y",
+        "mentalhealth": "Y",
+        "depression": "Y"
+    },
+    {
+        "title": "We Set the Dark on Fire",
+        "author": "Tehlor Kay Mejia",
+        "fantasy": "Y",
+        "romance": "Y",
+        "prose": "Y",
+        "latinx": "Y",
+        "lgbtqia": "Y",
+        "wlwOrNblw": "Y",
+        "closetsafe": "Y"
+    },
+    {
+        "title": "It's Trevor Noah: Born A Crime",
+        "author": "Trevor Noah",
+        "memoir": "Y",
+        "prose": "Y",
+        "africanamericanOrBlack": "Y",
+        "newAdultAdultBookWithTeenInterest": "Y"
+    },
+    {
+        "title": "Vicious",
+        "author": "V. E. Schwab",
+        "fantasy": "Y",
+        "prose": "Y",
+        "lgbtqia": "Y",
+        "aroace": "Y",
+        "closetsafe": "Y"
+    },
+    {
+        "title": "The Mermaid, the Witch, and the Sea",
+        "author": "Maggie Tokuda-Hall",
+        "fantasy": "Y",
+        "prose": "Y",
+        "lgbtqia": "Y",
+        "wlwOrNblw": "Y",
+        "nonbinairygenderfluid": "Y"
+    },
+    {
+        "title": "Malice",
+        "author": "Heather Walter",
+        "fantasy": "Y",
+        "prose": "Y",
+        "lgbtqia": "Y",
+        "wlwOrNblw": "Y"
+    },
+    {
+        "title": "The Grimrose Girls",
+        "author": "Laura Pohl",
+        "fantasy": "Y",
+        "prose": "Y",
+        "lgbtqia": "Y",
+        "aroace": "Y",
+        "closetsafe": "Y"
+    },
+    {
+        "title": "Under the Udala Trees",
+        "author": "Chinelo Okparanta",
+        "fiction": "Y",
+        "prose": "Y",
+        "africanamericanOrBlack": "Y",
+        "lgbtqia": "Y",
+        "wlwOrNblw": "Y",
+        "migrantstories": "Y",
+        "ownvoices": "Y"
+    },
+    {
+        "title": "The City of Devil",
+        "author": "Manil Suri",
+        "dystopian": "Y",
+        "prose": "Y",
+        "africanamericanOrBlack": "Y",
+        "aapi": "Y",
+        "arabOrArabamerican": "Y",
+        "lgbtqia": "Y",
+        "mlmOrNblm": "Y",
+        "ownvoices": "Y",
+        "muslim": "Y",
+        "newAdultAdultBookWithTeenInterest": "Y"
+    },
+    {
+        "title": "Mundo Cruel",
+        "author": "Luis Negrón",
+        "memoir": "Y",
+        "prose": "Y",
+        "latinx": "Y",
+        "lgbtqia": "Y",
+        "mlmOrNblm": "Y",
+        "ownvoices": "Y",
+        "newAdultAdultBookWithTeenInterest": "Y"
+    },
+    {
+        "title": "Life is Wonderful, People are Terrific",
+        "author": "Meliza Bañales",
+        "fiction": "Y",
+        "prose": "Y",
+        "latinx": "Y",
+        "lgbtqia": "Y",
+        "newAdultAdultBookWithTeenInterest": "Y"
+    },
+    {
+        "title": "Small Town Pride",
+        "author": "Phil Stamper",
+        "fiction": "Y",
+        "lgbtqia": "Y",
+        "middleGrade": "Y"
+    },
+    {
+        "title": "The Civil War of Amos Abernathy",
+        "author": "Michael Leali",
+        "fiction": "Y",
+        "lgbtqia": "Y",
+        "middleGrade": "Y"
+    },
+    {
+        "title": "From The Desk of Zoey",
+        "author": "Janae Marks",
+        "fiction": "Y",
+        "africanamericanOrBlack": "Y",
+        "middleGrade": "Y"
+    },
+    {
+        "title": "Girl In Pieces",
+        "author": "Kathleen Glasgow",
+        "fiction": "Y",
+        "prose": "Y",
+        "mentalhealth": "Y",
+        "depression": "Y"
+    },
+    {
+        "title": "Marcelo in the Real World",
+        "author": "Francisco X. Stork",
+        "fiction": "Y",
+        "prose": "Y",
+        "latinx": "Y",
+        "mentaldisability": "Y",
+        "autism": "Y"
+    },
+    {
+        "title": "All-American Muslim Girl",
+        "author": "Nadine Jolie Courtney",
+        "fiction": "Y",
+        "prose": "Y",
+        "arabOrArabamerican": "Y",
+        "muslim": "Y"
+    },
+    {
+        "title": "Bianca & Roja ",
+        "author": "Anna-Marie McLemore",
+        "fantasy": "Y",
+        "prose": "Y",
+        "latinx": "Y",
+        "ownvoices": "Y"
+    },
+    {
+        "title": "Honor Girl: A Graphic Memoir",
+        "author": "Maggie Thrash",
+        "memoir": "Y",
+        "nonfiction": "Y",
+        "graphicnovel": "Y",
+        "lgbtqia": "Y"
+    },
+    {
+        "title": "Girls Made of Snow and Glass",
+        "author": "Melissa Bashardoust",
+        "fantasy": "Y",
+        "prose": "Y",
+        "lgbtqia": "Y",
+        "wlwOrNblw": "Y"
+    },
+    {
+        "title": "In Deeper Waters",
+        "author": "F.T. Lukens",
+        "fantasy": "Y",
+        "prose": "Y",
+        "lgbtqia": "Y",
+        "mlmOrNblm": "Y"
+    },
+    {
+        "title": "A Spindle Splintered",
+        "author": "Alex E. Harrow",
+        "fantasy": "Y",
+        "prose": "Y",
+        "lgbtqia": "Y",
+        "wlwOrNblw": "Y",
+        "physicaldisability": "Y"
+    },
+    {
+        "title": "Girls of Paper and Fire",
+        "author": "Natasha Ngan",
+        "fantasy": "Y",
+        "prose": "Y",
+        "lgbtqia": "Y",
+        "wlwOrNblw": "Y"
+    },
+    {
+        "title": "The Midnight Girls",
+        "author": "Alicia Jasinka"
+    },
+    {
+        "title": "Aces Wild",
+        "author": "Amanda Dewitt"
+    },
+    {
+        "title": "The Girl From The Sea",
+        "author": "Molly Knox Ostera"
+    },
+    {
+        "title": "Dark Rise",
+        "author": "C.S. Pacat"
+    },
+    {
+        "title": "Lawn Boy",
+        "author": "Jonathan Evision"
+    },
+    {
+        "title": "The Meaning of Birds",
+        "author": "Jaye Robin Brown"
+    },
+    {
+        "title": "Redwood and Ponytail",
+        "author": "K.A. Holt"
+    },
+    {
+        "title": "Orpheus Girls",
+        "author": "Brynne Rebelle-Henry"
+    },
+    {
+        "title": "Laura Dean Keeps Breaking Up With Me",
+        "author": "Mariko Tamaki and Rosemary Valero-O'Connell"
+    },
+    {
+        "title": "Hana & Ishu's Guide to Fake Dating"
+    },
+    {
+        "title": "Black Sun"
+    },
+    {
+        "title": "She Who Became the Sun"
+    },
+    {
+        "title": "The Chosen and the Beautiful"
+    },
+    {
+        "title": "This Poison Heart"
+    },
+    {
+        "title": "The Stars and the Blackness Between Them"
+    },
+    {
+        "title": "The Devotion of Delfenor "
+    },
+    {
+        "title": "Rise to the Sun"
+    },
+    {
+        "title": "Lycanthropy and Other Chronic Illnesses",
+        "author": "By Kristen O’Neal",
+        "physicaldisability": "Y"
+    },
+    {
+        "title": "Welcome Back Maple Mehta Cohen",
+        "author": "Kate McGovern ",
+        "fiction": "Y",
+        "aapi": "Y",
+        "jewish": "Y",
+        "middleGrade": "Y"
+    },
+    {
+        "title": "Take Back the Block",
+        "author": "Chrystal D. Giles",
+        "fiction": "Y",
+        "africanamericanOrBlack": "Y",
+        "middleGrade": "Y"
+    },
+    {
+        "title": "Yusuf Azeem Is Not a Hero",
+        "author": "Saadia Faruqi",
+        "fiction": "Y",
+        "aapi": "Y",
+        "arabOrArabamerican": "Y",
+        "muslim": "Y",
+        "middleGrade": "Y"
+    },
+    {
+        "title": "Alma Presses Play",
+        "author": "Tina Cane",
+        "fiction": "Y",
+        "historicalfiction": "Y",
+        "verse": "Y",
+        "aapi": "Y"
+    },
+    {
+        "title": "Don't Ask Me Where I'm From",
+        "author": "Jennifer De Leon",
+        "fiction": "Y",
+        "latinx": "Y"
+    },
+    {
+        "title": "The Coldest Touch",
+        "author": "Isabel Sterling",
+        "fiction": "Y",
+        "urbanfantasy": "Y",
+        "lgbtqia": "Y",
+        "wlwOrNblw": "Y"
+    },
+    {
+        "title": "Ahmed Aziz’s Epic Year",
+        "author": "Nina Hamza",
+        "fiction": "Y",
+        "aapi": "Y",
+        "middleGrade": "Y"
+    },
+    {
+        "title": "You're Welcome, Universe",
+        "author": "Whitney Gardner",
+        "fiction": "Y",
+        "aapi": "Y",
+        "physicaldisability": "Y",
+        "mutedeafblind": "Y"
+    },
+    {
+        "title": "Five Flavors of Dumb",
+        "author": "Antony John",
+        "fiction": "Y",
+        "physicaldisability": "Y",
+        "mutedeafblind": "Y"
+    },
+    {
+        "title": "What the Night Sings",
+        "author": "Vesper Stamper",
+        "historicalfiction": "Y",
+        "verse": "Y",
+        "graphicnovel": "Y",
+        "jewish": "Y"
+    },
+    {
+        "title": "Here and Queer: A Queer Girl's Guide to Life",
+        "author": "Rowan Ellis, Jacky Sheridan (Illustrator)",
+        "nonfiction": "Y",
+        "graphicnovel": "Y",
+        "lgbtqia": "Y",
+        "wlwOrNblw": "Y"
+    },
+    {
+        "title": "Just Your Local Bisexual Disaster",
+        "author": "Andrea Mosqueda",
+        "fiction": "Y",
+        "romance": "Y",
+        "latinx": "Y",
+        "lgbtqia": "Y"
+    },
+    {
+        "title": "The Loophole",
+        "author": "Naz Kutub",
+        "urbanfantasy": "Y",
+        "aapi": "Y",
+        "lgbtqia": "Y",
+        "muslim": "Y"
+    },
+    {
+        "title": "The Witchery",
+        "author": "S. Isabelle",
+        "urbanfantasy": "Y",
+        "africanamericanOrBlack": "Y"
+    },
+    {
+        "title": "Youngblood",
+        "author": "Sasha Laurens",
+        "urbanfantasy": "Y",
+        "lgbtqia": "Y",
+        "wlwOrNblw": "Y"
+    },
+    {
+        "title": "Everything You Wanted to Know About Indians but Were Afraid to Ask",
+        "author": "Anton Treuer",
+        "nonfiction": "Y",
+        "nativeamerican": "Y"
+    },
+    {
+        "title": "The Marrow Thieves",
+        "author": "Cherie Dimaline",
+        "scifi": "Y",
+        "urbanfantasy": "Y",
+        "nativeamerican": "Y"
+    },
+    {
+        "title": "The Last Mapmaker ",
+        "author": "Christina Soontornvat",
+        "fantasy": "Y",
+        "prose": "Y",
+        "aapi": "Y"
+    },
+    {
+        "title": "Boys Run The Riot",
+        "author": "Keito Gake",
+        "fiction": "Y",
+        "graphicnovel": "Y",
+        "aapi": "Y",
+        "lgbtqia": "Y",
+        "trans": "Y"
+    },
+    {
+        "title": "Asadora!",
+        "author": "Naok Ursawa",
+        "fantasy": "Y",
+        "graphicnovel": "Y",
+        "africanamericanOrBlack": "Y",
+        "ownvoices": "Y"
+    },
+    {
+        "title": "They Called Us Enemy",
+        "author": "George Takei",
+        "memoir": "Y",
+        "nonfiction": "Y",
+        "graphicnovel": "Y",
+        "aapi": "Y",
+        "ownvoices": "Y"
+    },
+    {
+        "title": "March",
+        "author": "John Lewis",
+        "memoir": "Y",
+        "nonfiction": "Y",
+        "graphicnovel": "Y",
+        "africanamericanOrBlack": "Y",
+        "ownvoices": "Y"
+    },
+    {
+        "title": "Fat Chance, Charlie Vega",
+        "author": "Crystal Maldonado",
+        "fiction": "Y",
+        "prose": "Y",
+        "latinx": "Y"
+    },
+    {
+        "title": "Fiece as the Wind",
+        "author": "Tara Wilson",
+        "fiction": "Y",
+        "prose": "Y",
+        "aapi": "Y"
+    },
+    {
+        "title": "Solo Leveling",
+        "author": "Chugong",
+        "scifi": "Y",
+        "graphicnovel": "Y",
+        "aapi": "Y"
+    },
+    {
+        "title": "Fifteen Hundred Miles from the Sun",
+        "author": "Jonny Garza",
+        "fiction": "Y",
+        "prose": "Y",
+        "lgbtqia": "Y",
+        "mlmOrNblm": "Y"
+    },
+    {
+        "title": "The Great Bear",
+        "author": "David A. Robertson",
+        "fantasy": "Y",
+        "prose": "Y",
+        "nativeamerican": "Y"
+    },
+    {
+        "title": "One of the Good Ones",
+        "author": "Makia and Maritza Moulite",
+        "fiction": "Y",
+        "prose": "Y",
+        "africanamericanOrBlack": "Y",
+        "ownvoices": "Y"
+    },
+    {
+        "title": "The Ones We're Meant to Find",
+        "author": "Joan He",
+        "fiction": "Y",
+        "dystopian": "Y",
+        "prose": "Y",
+        "latinx": "Y"
+    },
+    {
+        "title": "The Other Merlin",
+        "author": "Robin Schneider",
+        "historicalfiction": "Y",
+        "prose": "Y",
+        "lgbtqia": "Y",
+        "mlmOrNblm": "Y"
+    },
+    {
+        "title": "The Other Side of Perfect",
+        "author": "Mariko Turk",
+        "fiction": "Y",
+        "prose": "Y",
+        "aapi": "Y",
+        "ownvoices": "Y"
+    },
+    {
+        "title": "Perfectly Parvin",
+        "author": "Olivia Abtahi",
+        "fiction": "Y",
+        "prose": "Y",
+        "arabOrArabamerican": "Y",
+        "ownvoices": "Y",
+        "muslim": "Y"
+    },
+    {
+        "title": "Pumpkin",
+        "author": "Julie Murphy",
+        "fiction": "Y",
+        "prose": "Y",
+        "lgbtqia": "Y"
+    },
+    {
+        "title": "Somewhere Between Bitter and Sweet",
+        "author": "Laekan Zea Kemp",
+        "fiction": "Y",
+        "prose": "Y",
+        "latinx": "Y",
+        "migrantstories": "Y",
+        "ownvoices": "Y"
+    },
+    {
+        "title": "The Surprising Power of a Good Dumpling",
+        "author": "Wai Chim",
+        "fiction": "Y",
+        "prose": "Y",
+        "aapi": "Y",
+        "migrantstories": "Y",
+        "ownvoices": "Y",
+        "mentalhealth": "Y"
+    },
+    {
+        "title": "Home is not a Country",
+        "author": "Safia Elhillo",
+        "fiction": "Y",
+        "prose": "Y",
+        "arabOrArabamerican": "Y",
+        "muslim": "Y"
+    },
+    {
+        "title": "Hunting by Stars",
+        "author": "Cherie Dimaline",
+        "fiction": "Y",
+        "dystopian": "Y",
+        "prose": "Y",
+        "nativeamerican": "Y"
+    },
+    {
+        "title": "Kneel",
+        "author": "Candace Bufford",
+        "fiction": "Y",
+        "prose": "Y",
+        "africanamericanOrBlack": "Y"
+    },
+    {
+        "title": "Like Other Girls",
+        "author": "Britta Lundin",
+        "fiction": "Y",
+        "prose": "Y",
+        "lgbtqia": "Y",
+        "wlwOrNblw": "Y"
+    },
+    {
+        "title": "List of Ten",
+        "author": "Halli Gomez",
+        "fiction": "Y",
+        "prose": "Y",
+        "mentaldisability": "Y",
+        "mentalhealth": "Y",
+        "physicaldisability": "Y",
+        "ocd": "Y"
+    },
+    {
+        "title": "Love in English",
+        "author": "Marie E. Andreu",
+        "fiction": "Y",
+        "prose": "Y",
+        "latinx": "Y",
+        "migrantstories": "Y",
+        "ownvoices": "Y"
+    },
+    {
+        "title": "The Mirror Season",
+        "author": "Anna-Marie McLenore",
+        "fiction": "Y",
+        "prose": "Y",
+        "latinx": "Y"
+    },
+    {
+        "title": "When We Make It",
+        "author": "Elisabet Velasquez",
+        "historicalfiction": "Y",
+        "prose": "Y",
+        "latinx": "Y"
+    },
+    {
+        "title": "When I Was With Her",
+        "author": "Nita Tyndall",
+        "fiction": "Y",
+        "prose": "Y",
+        "lgbtqia": "Y",
+        "wlwOrNblw": "Y",
+        "mentalhealth": "Y"
+    },
+    {
+        "title": "The Words in my Hands",
+        "author": "Asphyxia",
+        "fiction": "Y",
+        "prose": "Y",
+        "mutedeafblind": "Y"
+    },
+    {
+        "title": "Cheer Up!",
+        "author": "Crystal Frasier",
+        "fiction": "Y",
+        "graphicnovel": "Y",
+        "lgbtqia": "Y",
+        "trans": "Y"
+    },
+    {
+        "title": "The Passing Playbook",
+        "author": "Isaac Fitzsimons",
+        "fiction": "Y",
+        "prose": "Y",
+        "lgbtqia": "Y",
+        "mlmOrNblm": "Y",
+        "trans": "Y"
+    },
+    {
+        "title": "Boy, Everywhere",
+        "author": "A.M. Dassu",
+        "fiction": "Y",
+        "prose": "Y",
+        "arabOrArabamerican": "Y",
+        "migrantstories": "Y",
+        "ownvoices": "Y",
+        "muslim": "Y"
+    },
+    {
+        "title": "Dawn Raid",
+        "author": "Pauline Vaeluaga Smith",
+        "historicalfiction": "Y",
+        "prose": "Y",
+        "aapi": "Y",
+        "ownvoices": "Y"
+    },
+    {
+        "title": "Genius Under the Table: Growing Up Behind the Iron Curtain",
+        "author": "Eugene Yelchin",
+        "memoir": "Y",
+        "prose": "Y",
+        "ownvoices": "Y",
+        "jewish": "Y"
+    },
+    {
+        "title": "Amazona",
+        "author": "Canizales",
+        "fiction": "Y",
+        "graphicnovel": "Y",
+        "latinx": "Y",
+        "nativeamerican": "Y"
+    },
+    {
+        "title": "Rabbit Chase",
+        "author": "Elizabeth Lapensee",
+        "fiction": "Y",
+        "graphicnovel": "Y",
+        "nativeamerican": "Y",
+        "nonbinairygenderfluid": "Y"
+    },
+    {
+        "title": "Brother Alive",
+        "author": "Zain Khalid",
+        "fiction": "Y",
+        "prose": "Y",
+        "africanamericanOrBlack": "Y",
+        "aapi": "Y",
+        "arabOrArabamerican": "Y",
+        "migrantstories": "Y",
+        "ownvoices": "Y",
+        "muslim": "Y"
+    }
+]
+      var data_string = JSON.stringify(data);
+    </script>
+    <h1> Hello World </h1>
+  </body>
+</html>
