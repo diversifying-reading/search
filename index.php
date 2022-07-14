@@ -5,7 +5,7 @@
     </head>
     
     <body>
-      <?php>
+      <?php
         open('sample.sqlite');
 
 
