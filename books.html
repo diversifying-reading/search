@@ -5,6 +5,9 @@
   </head>
   
   <body>
+    <h1 id= 'test'> Hello World </h1>
+    do_something()
+    
     <script>
       var data = [
     {
@@ -2349,7 +2352,12 @@
     }
 ]
       var data_string = JSON.stringify(data);
+      var test_string = 'Goodbye';
+      
+      def do_something(){
+                document.getElementById('test').innerHTML = test_string;
+      }
+      
     </script>
-    <h1> Hello World </h1>
   </body>
 </html>
