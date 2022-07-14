@@ -5,9 +5,11 @@
   </head>
   
   <body>
+    <p id='test'>Hello</p>
     <script>
       const sqlite3 = require('sqlite3');
       const db = new sqlite3.Database('./sample.sqlite');
+      document.getElementById('test').innerHTML = 'Goodbye';
       db.get('SELECT Author FROM Sheet1')
     </script>
   </body>
