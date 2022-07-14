@@ -10,7 +10,7 @@
       
     <script>
     
-      var data = [
+      const data = [
     {
         "title": "The Midnight Lie",
         "author": "Marie Rutkowski  ",
@@ -2352,12 +2352,13 @@
         "muslim": "Y"
     }
 ]
-      var data_string = JSON.stringify(data);
+      const data_string = JSON.stringify(data);
       
-      function do_something(){
+      function change_text_to_all_books(){
                 document.getElementById('text').innerHTML = data_string;
       }
-      do_something()
+      change_text_to_all_books()
+      
     </script>
   </body>
 </html>
