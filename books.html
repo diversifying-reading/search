@@ -10,11 +10,6 @@
     <p id='test'>Hello</p>
       
     <script>
-      var test_string = 'Goodbye';
-      
-      function do_something(){
-                document.getElementById('test').innerHTML = test_string;
-      }
     
       var data = [
     {
@@ -2359,7 +2354,11 @@
     }
 ]
       var data_string = JSON.stringify(data);
-
+      
+      function do_something(){
+                document.getElementById('test').innerHTML = data_string;
+      }
+      
     </script>
   </body>
 </html>
