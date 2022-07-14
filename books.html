@@ -5,11 +5,17 @@
   </head>
   
   <body>
-     <button id='test1' 
-            onclick='do_something()' style='background-color:#333333;color:#FFFFFF;border-radius:5px'>Hello</button>
+     <button onclick='do_something()' style='background-color:#333333;color:#FFFFFF;border-radius:5px'>Hello</button>
+     
     <p id='test'>Hello</p>
-    
+      
     <script>
+      var test_string = 'Goodbye';
+      
+      function do_something(){
+                document.getElementById('test').innerHTML = test_string;
+      }
+    
       var data = [
     {
         "title": "The Midnight Lie",
@@ -2353,12 +2359,7 @@
     }
 ]
       var data_string = JSON.stringify(data);
-      var test_string = 'Goodbye';
-      
-      def do_something(){
-                document.getElementById('test').innerHTML = 'Goodbye';
-      }
-      
+
     </script>
   </body>
 </html>
