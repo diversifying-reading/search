@@ -1,7 +1,7 @@
 <Doctype HTML>
   <html>
     <head>
-      <title>title</title>
+      <title>Test</title>
     </head>
     
     <body>
@@ -14,10 +14,10 @@
 
         $db = new MyDB();
         if(!$db) {
-        echo $db->lastErrorMsg();
+          echo $db->lastErrorMsg();
         }
         else {
-        echo "Opened database successfully \n" ;
+          echo "Opened database successfully \n" ;
         }
 
         $sql =<<<eof
@@ -25,10 +25,10 @@
         eof;
 
         $ret="$db-">query($sql);
+      
         while($row=$ret->fetchArray(SQLITE3_ASSOC)){
-
-        echo "ID = " . $row['ID'] . "\n";
-        echo "Title of book = " . $row['Title']. " " . $row['Author'];
+          echo "ID = " . $row['ID'] . "\n";
+          echo "Title of book = " . $row['Title']. " " . $row['Author'];
         }
 
         echo "Operation done successfully\n";
