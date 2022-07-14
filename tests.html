@@ -1,5 +1,8 @@
 <?php
 
-print_r(SQLite3::version());
+if (class_exists('SQLite3')) {
+  echo 'Yes!';
+else
+  echo 'No!';
 
 ?>
