@@ -8,6 +8,7 @@
     
     <img src='images/AllOut,SaundraMitchell.jpeg'>
     <p id='text'>Not Working</p>
+    <p id='test'>Requirements Not Working</p>
     <script>
     
       const data = [
@@ -2354,13 +2355,25 @@
 ]
       var image_source = 'images/AllOut,SaundraMitchell.jpeg'
 
+      const all_tags = ["fantasy", "fiction", "scifi", "romance",	"urbanfantasy",	"historicalfiction",	"memoir",	"nonfiction", 
+                        "mythology",	"dystopian", "mystery",	"verse", "prose",	"graphicnovel",	"africanamericanOrBlack",	"aapi",
+                        "latinx",	"arabOrArabamerican", "nativeamerican",	"lgbtqia",	"wlwOrNblm", "mlmOrNblm",	"nonbinairygenderfluid",
+                        "aroace",	"closetsafe",	"migrantstories",	"ownvoices",	"jewish",	"muslim",	"mentaldisability",	"mentalhealth",
+                        "physicaldisability", "autism",	"depression",	"ptsd",	"ocd",	"mutedeafblind",	"middlegrade",	"newAdultAdultBookWithTeenInterest"]
+      
+      var requirements = "";
       var filtered_data = "";
+      
+      all_tags.forEach(find_required_tags)
       
       data.forEach(filter);
       filtered_data += "<img src= '" +image_source+"'>";
       document.getElementById("text").innerHTML = filtered_data; 
-
+      document.getElementById("test").innerHTML = requirements;
       
+      function find_required_tags(value){
+        requirements += urlParams.get(value)
+
       function filter(value) {
         filtered_data += value.title + "<br>";
       }
