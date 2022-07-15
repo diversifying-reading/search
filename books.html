@@ -2359,7 +2359,7 @@
       document.getElementById("text").innerHTML = filtered_data;
 
       function filter(array) {
-        filtered_data += array + "<br>";
+        filtered_data += stringify(array) + "<br>";
       }
       
       function change_text_to_all_books(){
