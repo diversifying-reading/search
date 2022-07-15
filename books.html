@@ -7,7 +7,7 @@
   <body>
     
     <p id='text'>Not Working</p>
-    
+    <img src='images/AllOut,SaundraMitchell.jpeg'>
     <script>
     
       const data = [
@@ -2352,12 +2352,9 @@
         "muslim": "Y"
     }
 ]
-            
-      data_string = JSON.stringify(data)
-      
+                  
       var filtered_data = "";
       data.forEach(filter);
-      filtered_data.forEach(add_images);
       document.getElementById("text").innerHTML = filtered_data; 
 
       function filter(value) {
