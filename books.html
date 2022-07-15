@@ -2372,7 +2372,7 @@
       document.getElementById("test").innerHTML = requirements;
       
       function find_required_tags(value){
-        requirements += value
+        requirements += urlParams.get(value)
       }
 
       function filter(value) {
