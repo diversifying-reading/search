@@ -2354,10 +2354,18 @@
 ]
       const data_string = JSON.stringify(data);
       
+      var filtered_data = "";
+      data.forEach(filter);
+      document.getElementById("text").innerHTML = filtered_data;
+
+      function filter(value, index, array) {
+        filtered_data += value + "<br>";
+      }
+      
       function change_text_to_all_books(){
                 document.getElementById('text').innerHTML = data_string;
       }
-      change_text_to_all_books()
+
       
     </script>
   </body>
