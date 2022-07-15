@@ -2358,8 +2358,8 @@
       data.forEach(filter);
       document.getElementById("text").innerHTML = filtered_data;
 
-      function filter(value, index, array) {
-        filtered_data += value + "<br>";
+      function filter(value) {
+        filtered_data += string(value) + "<br>";
       }
       
       function change_text_to_all_books(){
