@@ -2352,11 +2352,21 @@
         "muslim": "Y"
     }
 ]
+      
+      const numbers = [45, 4, 9, 16, 25];
+      let txt = "";
+      numbers.forEach(myFunction);
+
+      function myFunction(value, index, array) {
+        txt += value + "<br>";
+      }
+      
+      
       const data_string = JSON.stringify(data);
       
       var filtered_data = "";
-      data.forEach(filter());
-      document.getElementById("text").innerHTML = filtered_data;
+      data.forEach(filter);
+      document.getElementById("text").innerHTML = txt;
 
       function filter() {
         filtered_data += "title" + "<br>";
