@@ -2357,13 +2357,12 @@
       var filtered_data = "";
       data.forEach(filter);
       filtered_data.forEach(add_images);
+      document.getElementById("text").innerHTML = filtered_data; 
 
       function filter(value) {
         filtered_data += value.title + "<br>";
       }
                   
-      document.getElementById("text").innerHTML = filtered_data; 
-      
     </script>
   </body>
 </html>
