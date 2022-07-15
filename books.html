@@ -2372,7 +2372,9 @@
       document.getElementById("test").innerHTML = requirements;
       
       function find_required_tags(value){
-        requirements += window.location.href.includes(value);
+        if (window.location.href.includes(value)){
+         requirements += value 
+        }
       }
 
       function filter(value) {
