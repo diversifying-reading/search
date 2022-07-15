@@ -2355,13 +2355,19 @@
             
       var filtered_data = "";
       data.forEach(filter);
-      document.getElementById("text").innerHTML = filtered_data;
+      filtered_data.forEach(add_images);
 
       function filter(value) {
         filtered_data += value.title + "<br>";
       }
-
-
+      
+      image_src = '/images/All Out, Saundra Mitchell.jpeg'
+      
+      function add_images(value) {
+        filtered_data += '<img src=' + image_src + '>' + '<br>'
+      }
+      
+      document.getElementById("text").innerHTML = filtered_data; 
       
     </script>
   </body>
