@@ -6,8 +6,8 @@
   
   <body>
     
-    <p id='text'>Not Working</p>
     <img src='images/AllOut,SaundraMitchell.jpeg'>
+    <p id='text'>Not Working</p>
     <script>
     
       const data = [
@@ -2352,15 +2352,19 @@
         "muslim": "Y"
     }
 ]
-                  
+      var image_source = 'images/AllOut,SaundraMitchell.jpeg'
+
       var filtered_data = "";
+      
       data.forEach(filter);
+      filtered_data += image_source
       document.getElementById("text").innerHTML = filtered_data; 
 
+      
       function filter(value) {
         filtered_data += value.title + "<br>";
       }
-                  
+                 
     </script>
   </body>
 </html>
