@@ -2355,11 +2355,11 @@
       const data_string = JSON.stringify(data);
       
       var filtered_data = "";
-      data.forEach(filter(array));
+      data.forEach(filter());
       document.getElementById("text").innerHTML = filtered_data;
 
-      function filter(array) {
-        filtered_data += stringify(array) + "<br>";
+      function filter() {
+        filtered_data += "title" + "<br>";
       }
       
       function change_text_to_all_books(){
