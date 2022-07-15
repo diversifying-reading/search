@@ -2372,7 +2372,8 @@
       document.getElementById("test").innerHTML = requirements;
       
       function find_required_tags(value){
-        requirements += urlParams.get(value)
+        requirements += value
+      }
 
       function filter(value) {
         filtered_data += value.title + "<br>";
