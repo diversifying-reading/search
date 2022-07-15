@@ -6,7 +6,7 @@
   
   <body>
      
-    <p id='text'>loading</p>
+    <p id='text'>Not Working</p>
       
     <script>
     
@@ -2362,19 +2362,17 @@
       }
       
       
+      
       const data_string = JSON.stringify(data);
       
       var filtered_data = "";
       data.forEach(filter);
-      document.getElementById("text").innerHTML = txt;
+      document.getElementById("text").innerHTML = filtered_data;
 
       function filter() {
-        filtered_data += "title" + "<br>";
+        filtered_data += "book" + "<br>";
       }
-      
-      function change_text_to_all_books(){
-                document.getElementById('text').innerHTML = data_string;
-      }
+
 
       
     </script>
