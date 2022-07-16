@@ -17,7 +17,7 @@
       .pressed:active {
         border-radius: 5px;
         border-color: #999999;
-        color: #e0e0e0;
+        color: #888888;
         text-shadow: 0 1px 1px #000000;
         background: #001324;
         background: linear-gradient(to bottom, #ced8e0 0%,#adbbc7 44%,#8b9aa6 100%);
@@ -39,7 +39,7 @@
       
       .unpressed:active {
         border-color:#9c9c9c;
-        color: #e0e0e0;
+        color: #888888;
         text-shadow: 0 1px 1px #000000;
         background: #001324;
         background: linear-gradient(to bottom, #97a5b0 0%,#adbbc7 77%,#ced8e0 100%);
@@ -2426,7 +2426,7 @@
         required_tags.forEach(url_format_tags)
         
         button_list += '<button onclick="window.location.href=' + "'https://diversifying-reading.github.io/search/books?" + 
-          required_tag_url_format + value + "'" + '"' + " class='" + pressed_status +"'" + '>' + value + '</button> ';
+          required_tag_url_format + value + "'" + '"' + " class='" + pressed_status +"'" + '"' + '>' + value + '</button> ';
 
       }
           
