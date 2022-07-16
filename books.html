@@ -2361,7 +2361,7 @@
                         "aroace",	"closetsafe",	"migrantstories",	"ownvoices",	"jewish",	"muslim",	"mentaldisability",	"mentalhealth",
                         "physicaldisability", "autism",	"depression",	"ptsd",	"ocd",	"mutedeafblind",	"middlegrade",	"newAdultAdultBookWithTeenInterest"]
       
-      var requirements = "";
+      var required_tags = "";
       var filtered_data = "";
       
       all_tags.forEach(find_required_tags)
@@ -2373,12 +2373,37 @@
       
       function find_required_tags(value){
         if (window.location.href.includes(value)){
-         requirements += value 
+         required_tags += value 
+        }
+      }
+      
+      function check_book_for_requirements(value) {
+        var required_tag_count = required_tags.length;
+        var valid = 0;
+        
+        for(var i = 0; i < required_tag_count; i++) { //for each required tag; i=each required tag
+          var required_tag = required_tags[i];
+          var book_count = Object.keys(value).length;
+        }
+          
+        for(var t = 0; t < book_count; t ++) { //for each tag in each book; t=each tag
+         if (i == t){
+           valid += 1;
+         }
+        }
+        
+        if valid == required_tag_count {
+          return true
+        }
+        else {
+          return false
         }
       }
 
       function filter(value) {
-        filtered_data += value.title + "<br>";
+        if (check_book_for_requirements){
+          filtered_data += value.title + "<br>";
+        }
       }
                  
     </script>
