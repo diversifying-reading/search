@@ -6,7 +6,6 @@
   
   <body>
     
-    <img src='images/AllOut,SaundraMitchell.jpeg'>
     <p id='text'>Not Working</p>
     <p id='test'>Requirements Not Working</p>
     <script>
@@ -2369,14 +2368,14 @@
       data.forEach(filter);
       filtered_data += "<img src= '" +image_source+"'>";
       
-      if (filtered_data != ""){
+      if (filtered_data != ""){ //checks if filtered_data has any books
         document.getElementById("text").innerHTML = filtered_data; 
       }
       else {
         document.getElementById("text").innerHTML = "No books under these tags";  
       }
       
-      if (required_tags != ""){
+      if (required_tags != ""){ //checks if required_tags has any tags
         document.getElementById("test").innerHTML = required_tags;
       }
       else {
@@ -2391,21 +2390,20 @@
       
       function check_book_for_required_tags(book) {
         var required_tag_count = required_tags.length;
-        var valid = 0;
+        var valid_tags = 0;
         
         for(var i = 0; i < required_tag_count; i++) { //for each required tag; i=each required tag
           var required_tag = required_tags[i];
-          var book_count = Object.keys(book).length;
           
           Object.keys(book).forEach(function(key) { //for each key in the book run this function
             if (required_tag == key){
-             valid += 1;
+             valid_tags += 1;
             }              
           });
           
         }
         
-        if valid == required_tag_count {
+        if valid_tags == required_tag_count { //if every required tag is in the book's tags
           return true
         }
         else {
