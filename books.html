@@ -2,6 +2,16 @@
 <html>
   <head>
     <title>Test Title</title>
+    
+    <style>
+      .unpressed {
+      }
+      
+      .pressed {
+        background-color:grey
+      }
+    </style>
+    
   </head>
   
   <body>
@@ -2378,7 +2388,7 @@
         required_tags.forEach(url_format_tags)
         
         button_list += '<button onclick="window.location.href=' + "'https://diversifying-reading.github.io/search/books?" + 
-          required_tag_url_format + value + "'"+ '">' + value + '</button>';
+          required_tag_url_format + value + "'" + 'class="pressed"' + '">' + value + '</button>';
         
       }
           
