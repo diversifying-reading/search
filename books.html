@@ -6,8 +6,8 @@
   
   <body>
     
+    <p id='buttons'>Buttons Not Working</p>    
     <p id='text'>Not Working</p>
-    <p id='buttons'>Buttons Not Working</p>
     <script>
     
       const data = [
@@ -2375,9 +2375,16 @@
       
       
       function make_buttons(value){
-        button_list += '<button onclick="window.location.href=' + "'https://www.youtube.com'" + '">Next</button>'
+        required_tag_url_format = "";
+        forEach.required_tags(url_format_tags)
+        
+        button_list += '<button onclick="window.location.href=' + "'https://diversifying-reading.github.io/search/books?" + 
+          required_tag_url_format + "'"+ '">' + value + '</button>';
       }
-      
+            
+      function url_format_tags(value){ //value = required tag in url
+        required_tag_url_format += value + '&';
+        
       function find_required_tags(value) {
         if (window.location.href.includes(value)){
          required_tags.push(value);
