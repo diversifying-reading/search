@@ -285,8 +285,9 @@
         required_tag_url_format = "";
         required_tags.forEach(url_format_tags);
         
+        document.getElementById("test").innerHTML = required_tags;
+        
         if (required_tags.includes(value)){
-          document.getElementById("test").innerHTML = required_tags;
           pressed_status = "pressed";
         }
         else {
