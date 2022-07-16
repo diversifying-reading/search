@@ -4,32 +4,13 @@
     <title>Test Title</title>
     
     <style>
-      .pressed {
-        border-color:#8a8a8a;
-        color: #e3e3e3;
-        margin-top: 2px;
-        margin-bottom: 2px;
-        text-shadow: 0 1px 1px #000000;
-        background: #001324;
-        background: linear-gradient(to bottom, #97a5b0 0%,#adbbc7 77%,#ced8e0 100%);
-        box-shadow: inset 0px 5px 5px 1px rgba(0, 0, 0, .3);
-      }
-      .pressed:active {
-        border-radius: 5px;
-        border-color: #999999;
-        color: #369ceb;
-        text-shadow: 0 1px 1px #000000;
-        background: #001324;
-        background: linear-gradient(to bottom, #ced8e0 0%,#adbbc7 44%,#8b9aa6 100%);
-        box-shadow:  0px 2px 5px 1px rgba(155, 155, 155, .5);
-      }
-      
+
       .unpressed {
         border-radius: 5px;
         border-color: #999999;
         margin-top: 2px;
         margin-bottom: 2px;        
-        color: #369ceb;
+        color: #2789f2;
         text-shadow: 0 1px 1px #000000;
         background: #001324;
         background: linear-gradient(to bottom, #ced8e0 0%,#adbbc7 44%,#8b9aa6 100%);
@@ -2421,12 +2402,12 @@
       
       
       function make_buttons(value){
-        pressed_status = "pressed";
+        pressed_status = "unpressed";
         required_tag_url_format = "";
         required_tags.forEach(url_format_tags)
         
         button_list += '<button onclick="window.location.href=' + "'https://diversifying-reading.github.io/search/books?" + 
-          required_tag_url_format + value + "'" + '"' + " class='" + pressed_status +"'" + '"' + '>' + value + '</button> ';
+          required_tag_url_format + value + "'" + '"' + " class='unpressed'" + '">' + value + '</button> ';
 
       }
           
