@@ -103,7 +103,8 @@
         var required_tag_count = required_tags.length;
         var valid_tags = 0;
         var book_tags = Object.keys(value);
-        document.getElementById("one").innerHTML = Array.isArray(book_tags);
+        document.getElementById("one").innerHTML = book_tags.includes("prose");
+;
 
         for(var i = 0; i < required_tag_count; i++) { //for each required tag; i=index value of required tag
           var required_tag = required_tags[i];
