@@ -99,7 +99,6 @@
       function filter(value) {
         var required_tag_count = required_tags.length;
         var valid_tags = 0;
-        var valid = null
         
         for(var i = 0; i < required_tag_count; i++) { //for each required tag; i=index value of required tag
           var required_tag = required_tags[i];
@@ -111,20 +110,13 @@
         }
         
         if valid_tags == required_tag_count { //if every required tag is in the book's tags
-          var valid = true
-        }
-        else {
-          var valid = false;
-        }
-      }
-        
-        if (valid){
           filtered_data += value.title + "<br>";
         }
         else {
           filtered_data += "not_included: " + value.title;
         }
       }
+
                  
     </script>
   </body>
