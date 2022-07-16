@@ -2395,11 +2395,9 @@
         for(var i = 0; i < required_tag_count; i++) { //for each required tag; i=each required tag
           var required_tag = required_tags[i];
           
-          Object.keys(book).forEach(function(key) { //for each key in the book run this function
-            if (required_tag == key){
-             valid_tags += 1;
-            }              
-          });
+          if Object.keys.includes(required_tag) {//if the book tags include the required tag
+            valid_tags += 1
+          }
           
         }
         
