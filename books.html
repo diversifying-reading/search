@@ -17,8 +17,8 @@
       .pressed:active {
         border-radius: 5px;
         border-color: #999999;
-        color: #000000;
-        text-shadow: 0 1px 1px #ffffff;
+        color: #e0e0e0;
+        text-shadow: 0 1px 1px #000000;
         background: #001324;
         background: linear-gradient(to bottom, #ced8e0 0%,#adbbc7 44%,#8b9aa6 100%);
         box-shadow:  0px 2px 5px 1px rgba(155, 155, 155, .5);
@@ -29,8 +29,8 @@
         border-color: #999999;
         margin-top: 2px;
         margin-bottom: 2px;        
-        color: #000000;
-        text-shadow: 0 1px 1px #ffffff;
+        color: #e0e0e0;
+        text-shadow: 0 1px 1px #000000;
         background: #001324;
         background: linear-gradient(to bottom, #ced8e0 0%,#adbbc7 44%,#8b9aa6 100%);
         box-shadow:  0px 2px 5px 1px rgba(155, 155, 155, .5);
@@ -39,7 +39,7 @@
       
       .unpressed:active {
         border-color:#9c9c9c;
-        color: #ffffff;
+        color: #e0e0e0;
         text-shadow: 0 1px 1px #000000;
         background: #001324;
         background: linear-gradient(to bottom, #97a5b0 0%,#adbbc7 77%,#ced8e0 100%);
@@ -2433,9 +2433,9 @@
       function url_format_tags(value) { //value = required tag in url
         required_tag_url_format += value + '&';
         
-        if (required_tags.include(value)){
-          pressed_status = "pressed";
-        }
+//         if (required_tags.include(value)){
+//           pressed_status = "pressed";
+//         }
       }
         
       function find_required_tags(value) {
