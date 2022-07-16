@@ -2396,12 +2396,13 @@
         for(var i = 0; i < required_tag_count; i++) { //for each required tag; i=each required tag
           var required_tag = required_tags[i];
           var book_count = Object.keys(value).length;
-        }
           
-        for(var t = 0; t < book_count; t ++) { //for each tag in each book; t=each tag
-         if (i == t){
-           valid += 1;
-         }
+          for(var t = 0; t < book_count; t ++) { //for each tag in each book; t=each tag
+           if (i == t){
+             valid += 1;
+           }
+          }
+          
         }
         
         if valid == required_tag_count {
