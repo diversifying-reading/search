@@ -4,14 +4,33 @@
     <title>Test Title</title>
     
     <style>
-      .unpressed {
+      .pressed {
         background-color:green;
       }
       
-      .pressed {
-        border-color:black;
-        background-color:#DCDCDC;
+      .unpressed {
+        display: inline-block;
+        padding: 15px 25px;
+        font-size: 24px;
+        cursor: pointer;
+        text-align: center;
+        text-decoration: none;
+        outline: none;
+        color: #fff;
+        background-color: #DCDCDC;
+        border: 1px #696969;
+        border-radius: 15px;
+        box-shadow: 0 9px #999;        
       }
+      
+      .unpressed:hover {background-color: #3e8e41}
+
+      .unpressed:active {
+        background-color: #3e8e41;
+        box-shadow: 0 5px #666;
+        transform: translateY(4px);
+      }
+      
     </style>
     
   </head>
@@ -2392,7 +2411,7 @@
         required_tags.forEach(url_format_tags)
         
         button_list += '<button onclick="window.location.href=' + "'https://diversifying-reading.github.io/search/books?" + 
-          required_tag_url_format + value + "'" + " class='pressed'" + '>' + value + '</button>';
+          required_tag_url_format + value + "'" + " class='unpressed'" + '>' + value + '</button> ';
         //<button onclick="window.location.href='https://diversifying-reading.github.io/search/books?fiction&fantasy' class="pressed">fantasy</button>
       }
           
