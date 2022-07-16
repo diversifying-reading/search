@@ -6,6 +6,7 @@
   
   <body>
     <p id='one'>1</p>
+    <p id='two'>2</p>
     
     <p id='text'>Not Working</p>
     <p id='test'>Requirements Not Working</p>
@@ -104,7 +105,7 @@
         var valid_tags = 0;
         var book_tags = Object.keys(value);
         document.getElementById("one").innerHTML = book_tags.includes("prose");
-;
+        document.getElementById("two").innerHTML = required_tags;
 
         for(var i = 0; i < required_tag_count; i++) { //for each required tag; i=index value of required tag
           var required_tag = required_tags[i];
