@@ -2396,16 +2396,16 @@
           var required_tag = required_tags[i];
           
           if Object.keys.includes(required_tag) {//if the book tags include the required tag
-            valid_tags += 1
+            valid_tags += 1;
           }
           
         }
         
         if valid_tags == required_tag_count { //if every required tag is in the book's tags
-          return true
+          return true;
         }
         else {
-          return false
+          return false;
         }
       }
 
