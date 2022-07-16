@@ -2413,7 +2413,7 @@
       }
 
       function filter(value) {
-        if (check_book_for_requirements){
+        if (check_book_for_requirements(value)){
           filtered_data += value.title + "<br>";
         }
       }
