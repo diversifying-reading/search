@@ -2356,6 +2356,15 @@
 //       var image_source = 'images/AllOut,SaundraMitchell.jpeg';
 //       filtered_data += "<img src= '" +image_source+"'>";
       
+      const all_tags = ["fantasy", "fiction", "scifi", "romance",	"urbanfantasy",	"historicalfiction",	"memoir",	"nonfiction", 
+                        "mythology",	"dystopian", "mystery",	"verse", "prose",	"graphicnovel",	"africanamericanOrBlack",	"aapi",
+                        "latinx",	"arabOrArabamerican", "nativeamerican",	"lgbtqia",	"wlwOrNblm", "mlmOrNblm",	"nonbinairygenderfluid",
+                        "aroace",	"closetsafe",	"migrantstories",	"ownvoices",	"jewish",	"muslim",	"mentaldisability",	"mentalhealth",
+                        "physicaldisability", "autism",	"depression",	"ptsd",	"ocd",	"mutedeafblind",	"middlegrade",	"newAdultAdultBookWithTeenInterest"];
+      
+      var required_tags = [];
+      var filtered_data = "";
+      
       all_tags.forEach(find_required_tags)
       
       data.forEach(filter);
@@ -2392,7 +2401,7 @@
           filtered_data += value.title + "<br>";
         }
         else {
-          filtered_data += "not_included: " + value.title;
+          filtered_data += "not_included: " + value.title + "<br>";
         }
         
       }
