@@ -6,10 +6,19 @@
   
   <body>
     
+    <p id='one'>1</p>
+    <p id='two'>2</p>
+    <p id='three'>3</p>
+    <p id='four'>4</p>
+    
+    
     <p id='text'>Not Working</p>
     <p id='test'>Requirements Not Working</p>
+    
     <script>
     
+    document.getElementById("one").innerHTML = "one";
+      
       const data = [
     {
         "title": "Girls of Paper and Fire",
@@ -74,6 +83,7 @@
         "muslim": "Y"
     }
   ];
+      
       const all_tags = ["fantasy", "fiction", "scifi", "romance",	"urbanfantasy",	"historicalfiction",	"memoir",	"nonfiction", 
                         "mythology",	"dystopian", "mystery",	"verse", "prose",	"graphicnovel",	"africanamericanOrBlack",	"aapi",
                         "latinx",	"arabOrArabamerican", "nativeamerican",	"lgbtqia",	"wlwOrNblm", "mlmOrNblm",	"nonbinairygenderfluid",
@@ -83,10 +93,16 @@
       var required_tags = "";
       var filtered_data = "";
       
+      document.getElementById("two").innerHTML = "two";
+
       all_tags.forEach(find_required_tags)
       
+      document.getElementById("three").innerHTML = "three";
+
       data.forEach(filter);
       
+      document.getElementById("four").innerHTML = "four";
+
       document.getElementById("text").innerHTML = filtered_data; 
       document.getElementById("test").innerHTML = required_tags;
       
