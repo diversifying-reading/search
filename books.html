@@ -9,26 +9,22 @@
       }
       
       .unpressed {
-        display: inline-block;
-        padding: 15px 25px;
-        font-size: 24px;
-        cursor: pointer;
-        text-align: center;
-        text-decoration: none;
-        outline: none;
-        color: #fff;
-        background-color: #DCDCDC;
-        border: 1px #696969;
-        border-radius: 15px;
-        box-shadow: 0 9px #999;        
+        background: #a00;
+        background: -webkit-linear-gradient(top, #a90329 0%,#8f0222 44%,#6d0019 100%);
+        background: linear-gradient(to bottom, #a90329 0%,#8f0222 44%,#6d0019 100%);
+        text-shadow: 0 1px 1px #301;
+        -webkit-box-shadow:  0px 2px 5px 1px rgba(155, 155, 155, .5);
+        box-shadow:  0px 2px 5px 1px rgba(155, 155, 155, .5);
       }
       
-      .unpressed:hover {background-color: #3e8e41}
-
       .unpressed:active {
-        background-color: #3e8e41;
-        box-shadow: 0 5px #666;
-        transform: translateY(4px);
+        background: #a00;
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#6d0019), color-stop(56%,#8f0222), color-stop(100%,#a90329));
+        background: linear-gradient(to bottom, #6d0019 0%,#8f0222 56%,#a90329 100%);
+        text-shadow: none;
+        -webkit-box-shadow: inset 0px 5px 5px 1px rgba(0, 0, 0, .3);
+        box-shadow: inset 0px 5px 5px 1px rgba(0, 0, 0, .3);
+ 
       }
       
     </style>
