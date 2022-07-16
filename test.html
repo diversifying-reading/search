@@ -87,7 +87,7 @@
       var required_tags = ["",""];
       var filtered_data = "";
       
-//       all_tags.forEach(find_required_tags)
+      all_tags.forEach(find_required_tags)
       
       data.forEach(filter);
       
@@ -96,7 +96,7 @@
       
       function find_required_tags(value) {
         if (window.location.href.includes(value)){
-         required_tags += value 
+         required_tags.push(value);
         }
       }   
 
