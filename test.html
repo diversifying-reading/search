@@ -101,11 +101,12 @@
       function filter(value) {
         var required_tag_count = required_tags.length;
         var valid_tags = 0;
+        var book_tags = Object.keys(value);
         
         for(var i = 0; i < required_tag_count; i++) { //for each required tag; i=index value of required tag
           var required_tag = required_tags[i];
           
-          if Object.keys(value).includes(required_tag) { //if the book tags include the required tag
+          if book_tags.includes(required_tag) { //if the book tags include the required tag
             valid_tags += 1;
           }
           
