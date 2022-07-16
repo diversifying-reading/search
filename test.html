@@ -6,7 +6,10 @@
   
   <body>
     <p id='one'>1</p>
-    
+    <p id='two'>2</p>
+    <p id='three'>3</p>
+    <p id='four'>4</p>
+
     <p id='text'>Not Working</p>
     <p id='test'>Requirements Not Working</p>
     
@@ -103,7 +106,10 @@
         var required_tag_count = required_tags.length;
         var valid_tags = 0;
         var book_tags = Object.keys(value);
-        document.getElementById("one").innerHTML = book_tags.includes(required_tags[0]);
+        document.getElementById("one").innerHTML = required_tags
+        document.getElementById("two").innerHTML = required_tags[0]
+        document.getElementById("three").innerHTML = book_tags
+        document.getElementById("four").innerHTML = book_tags.includes(required_tags[0]);
 
         for(var i = 0; i < required_tag_count; i++) { //for each required tag; i=index value of required tag
           var required_tag = required_tags[i];
