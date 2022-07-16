@@ -2351,14 +2351,14 @@
         "ownvoices": "Y",
         "muslim": "Y"
     }
-]
-      var image_source = 'images/AllOut,SaundraMitchell.jpeg'
+];
+      var image_source = 'images/AllOut,SaundraMitchell.jpeg';
 
       const all_tags = ["fantasy", "fiction", "scifi", "romance",	"urbanfantasy",	"historicalfiction",	"memoir",	"nonfiction", 
                         "mythology",	"dystopian", "mystery",	"verse", "prose",	"graphicnovel",	"africanamericanOrBlack",	"aapi",
                         "latinx",	"arabOrArabamerican", "nativeamerican",	"lgbtqia",	"wlwOrNblm", "mlmOrNblm",	"nonbinairygenderfluid",
                         "aroace",	"closetsafe",	"migrantstories",	"ownvoices",	"jewish",	"muslim",	"mentaldisability",	"mentalhealth",
-                        "physicaldisability", "autism",	"depression",	"ptsd",	"ocd",	"mutedeafblind",	"middlegrade",	"newAdultAdultBookWithTeenInterest"]
+                        "physicaldisability", "autism",	"depression",	"ptsd",	"ocd",	"mutedeafblind",	"middlegrade",	"newAdultAdultBookWithTeenInterest"];
       
       var required_tags = "";
       var filtered_data = "";
@@ -2368,7 +2368,7 @@
       data.forEach(filter);
       filtered_data += "<img src= '" +image_source+"'>";
       
-      if (filtered_data != ""){ //checks if filtered_data has any books
+      if (filtered_data != "") { //checks if filtered_data has any books
         document.getElementById("text").innerHTML = filtered_data; 
       }
       else {
@@ -2382,20 +2382,20 @@
         document.getElementById("test").innerHTML = "No selected tags" 
       }
       
-      function find_required_tags(value){
+      function find_required_tags(value) {
         if (window.location.href.includes(value)){
          required_tags += value 
         }
       }
       
-      function check_book_for_required_tags(value) {
+      function check_book_for_required_tags(value) { //value = the book's key-value pairs
         var required_tag_count = required_tags.length;
         var valid_tags = 0;
         
-        for(var i = 0; i < required_tag_count; i++) { //for each required tag; i=each required tag
+        for(var i = 0; i < required_tag_count; i++) { //for each required tag; i=index value of required tag
           var required_tag = required_tags[i];
           
-          if Object.keys.includes(required_tag) {//if the book tags include the required tag
+          if Object.keys.includes(required_tag) { //if the book tags include the required tag
             valid_tags += 1;
           }
           
