@@ -2434,13 +2434,15 @@
         
         if (required_tags.includes(value)){
           pressed_status = "pressed";
+          value_in_new_url = "";
         }
         else {
           pressed_status = "unpressed";
+          value_in_new_url = value;
         }
-        
+
         button_list += '<button onclick="window.location.href=' + "'https://diversifying-reading.github.io/search/books?" + 
-          required_tag_url_format + value + "'" + '"' + " class='" + pressed_status + "'" + '">' + value + '</button> ';
+          required_tag_url_format + value_in_new_url + "'" + '"' + " class='" + pressed_status + "'" + '">' + value + '</button> ';
 
       }
           
