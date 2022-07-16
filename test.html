@@ -112,7 +112,7 @@
         document.getElementById("one").innerHTML = book_tags;
         document.getElementById("two").innerHTML = book_tags[0];
         document.getElementById("three").innerHTML = required_tags;
-        document.getElementById("four").innerHTML = book_tags.include(required_tags[0]);
+        document.getElementById("four").innerHTML = book_tags.include("prose");
 
         for(var i = 0; i < required_tag_count; i++) { //for each required tag; i=index value of required tag
           var required_tag = required_tags[i];
