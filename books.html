@@ -2389,15 +2389,15 @@
         }
       }
       
-      function check_book_for_requirements(value) {
+      function check_book_for_required_tags(book) {
         var required_tag_count = required_tags.length;
         var valid = 0;
         
         for(var i = 0; i < required_tag_count; i++) { //for each required tag; i=each required tag
           var required_tag = required_tags[i];
-          var book_count = Object.keys(value).length;
+          var book_count = Object.keys(book).length;
           
-          Object.keys(value).forEach(function(key) {
+          Object.keys(book).forEach(function(key) { //for each key in the book run this function
             if (required_tag == key){
              valid += 1;
             }              
@@ -2414,7 +2414,7 @@
       }
 
       function filter(value) {
-        if (check_book_for_requirements(value)){
+        if (check_book_for_required_tags(value)){
           filtered_data += value.title + "<br>";
         }
       }
