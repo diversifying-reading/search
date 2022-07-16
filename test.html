@@ -281,9 +281,15 @@
       
       
       function make_buttons(value){
-        pressed_status = "unpressed";
         required_tag_url_format = "";
-        required_tags.forEach(url_format_tags)
+        required_tags.forEach(url_format_tags);
+        
+        if (required_tags.include(value)){
+          pressed_status = "pressed";
+        }
+        else {
+          pressed_status = "unpressed";
+        }
         
         button_list += '<button onclick="window.location.href=' + "'https://diversifying-reading.github.io/search/test?" + 
           required_tag_url_format + value + "'" + '"' + " class='" + pressed_status + "'" + '">' + value + '</button> ';
