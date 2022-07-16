@@ -17,7 +17,7 @@
       .pressed:active {
         border-radius: 5px;
         border-color: #999999;
-        color: #618bab;
+        color: #369ceb;
         text-shadow: 0 1px 1px #000000;
         background: #001324;
         background: linear-gradient(to bottom, #ced8e0 0%,#adbbc7 44%,#8b9aa6 100%);
@@ -29,7 +29,7 @@
         border-color: #999999;
         margin-top: 2px;
         margin-bottom: 2px;        
-        color: #618bab;
+        color: #369ceb;
         text-shadow: 0 1px 1px #000000;
         background: #001324;
         background: linear-gradient(to bottom, #ced8e0 0%,#adbbc7 44%,#8b9aa6 100%);
@@ -2421,7 +2421,7 @@
       
       
       function make_buttons(value){
-        pressed_status = "unpressed";
+        pressed_status = "pressed";
         required_tag_url_format = "";
         required_tags.forEach(url_format_tags)
         
@@ -2433,9 +2433,9 @@
       function url_format_tags(value) { //value = required tag in url
         required_tag_url_format += value + '&';
         
-        if (required_tags.include(value)){
-          pressed_status = "pressed";
-        }
+//         if (required_tags.include(value)){
+//           pressed_status = "pressed";
+//         }
       }
         
       function find_required_tags(value) {
