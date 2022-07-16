@@ -14,7 +14,7 @@
       }
       .pressed:active {
         border-radius: 5px;
-        border-color: #a3a3a3;
+        border-color: #999999;
         margain: 3px 5px;
         color: #000000;
         text-shadow: 0 1px 1px #ffffff;
@@ -25,7 +25,7 @@
       
       .unpressed {
         border-radius: 5px;
-        border-color: #a3a3a3;
+        border-color: #999999;
         margain: 3px 5px;
         color: #000000;
         text-shadow: 0 1px 1px #ffffff;
@@ -2409,7 +2409,7 @@
       var required_tags = [];
       var filtered_data = "";
       var button_list = "";
-      
+
       all_tags.forEach(find_required_tags)
       all_tags.forEach(make_buttons)
       data.forEach(filter);
@@ -2419,16 +2419,21 @@
       
       
       function make_buttons(value){
+        pressed_status = "unpressed";
         required_tag_url_format = "";
         required_tags.forEach(url_format_tags)
         
         button_list += '<button onclick="window.location.href=' + "'https://diversifying-reading.github.io/search/books?" + 
-          required_tag_url_format + value + "'" + " class='unpressed'" + '>' + value + '</button> ';
+          required_tag_url_format + value + "'" + " class='" + pressed_status + "'" + '>' + value + '</button> ';
         //<button onclick="window.location.href='https://diversifying-reading.github.io/search/books?fiction&fantasy' class="pressed">fantasy</button>
       }
           
       function url_format_tags(value) { //value = required tag in url
         required_tag_url_format += value + '&';
+        
+        if (required_tags.include(value)){
+          pressed_status = "pressed";
+        }
       }
         
       function find_required_tags(value) {
