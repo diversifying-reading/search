@@ -2388,7 +2388,7 @@
         }
       }
       
-      function check_book_for_required_tags(book) {
+      function check_book_for_required_tags(value) {
         var required_tag_count = required_tags.length;
         var valid_tags = 0;
         
@@ -2410,7 +2410,7 @@
       }
 
       function filter(value) {
-        if (check_book_for_required_tags(value)){
+        if (check_book_for_required_tags){
           filtered_data += value.title + "<br>";
         }
       }
