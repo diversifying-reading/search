@@ -2358,7 +2358,7 @@
       
       const all_tags = ["fantasy", "fiction", "scifi", "romance",	"urbanfantasy",	"historicalfiction",	"memoir",	"nonfiction", 
                         "mythology",	"dystopian", "mystery",	"verse", "prose",	"graphicnovel",	"africanamericanOrBlack",	"aapi",
-                        "latinx",	"arabOrArabamerican", "nativeamerican",	"lgbtqia",	"wlwOrNblm", "mlmOrNblm",	"nonbinairygenderfluid",
+                        "latinx",	"arabOrArabamerican", "nativeamerican",	"lgbtqia",	"wlwOrNblw", "mlmOrNblm",	"nonbinairygenderfluid",
                         "aroace",	"closetsafe",	"migrantstories",	"ownvoices",	"jewish",	"muslim",	"mentaldisability",	"mentalhealth",
                         "physicaldisability", "autism",	"depression",	"ptsd",	"ocd",	"mutedeafblind",	"middlegrade",	"newAdultAdultBookWithTeenInterest"];
       
@@ -2394,9 +2394,6 @@
         
         if (valid_tags == required_tag_count) { //if every required tag is in the book's tags
           filtered_data += value.title + "<br>";
-        }
-        else {
-          filtered_data += "not_included: " + value.title + "<br>";
         }
         
       }
