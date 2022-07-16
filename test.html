@@ -60,6 +60,7 @@
   
   <body>    
     <br>
+    <p id='test'>test</p>
     <p id='buttons'>Buttons Not Working</p>    
     <p id='text'>Not Working</p>
     <script>
@@ -285,6 +286,7 @@
         required_tags.forEach(url_format_tags);
         
         if (required_tags.includes(value)){
+          document.getElementById("test").innerHTML = required_tags;
           pressed_status = "pressed";
         }
         else {
