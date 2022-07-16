@@ -111,11 +111,11 @@
   
         document.getElementById("one").innerHTML = book_tags;
         document.getElementById("two").innerHTML = required_tags;
-        document.getElementById("three").innerHTML = Array.isArray(book_tags);
 
         for(var i = 0; i < required_tag_count; i++) { //for each required tag; i=index value of required tag
           var required_tag = required_tags[i];
-          document.getElementById("four").innerHTML = book_tags.includes("prose");
+          document.getElementById("four").innerHTML = required_tag;
+          document.getElementById("three").innerHTML = book_tags.includes(required_tag);
 
 //           if book_tags.includes(required_tag) { //if the book tags include the required tag
 //             valid_tags += 1;
