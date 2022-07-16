@@ -5,7 +5,7 @@
   </head>
   
   <body>
-    
+    <p id='one'>1</p>
     <p id='buttons'>Buttons Not Working</p>    
     <p id='text'>Not Working</p>
     <script>
@@ -2375,15 +2375,16 @@
       
       
       function make_buttons(value){
-        required_tag_url_format = "fiction&";
-//         forEach.required_tags(url_format_tags)
+        required_tag_url_format = "";
+        forEach.required_tags(url_format_tags)
         
         button_list += '<button onclick="window.location.href=' + "'https://diversifying-reading.github.io/search/books?" + 
           required_tag_url_format + "'"+ '">' + value + '</button>';
       }
             
       function url_format_tags(value){ //value = required tag in url
-        required_tag_url_format += value + '&';
+        document.getElementById("one").innerHTML = value; 
+//         required_tag_url_format += value + '&';
       }
         
       function find_required_tags(value) {
