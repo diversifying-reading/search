@@ -7,7 +7,7 @@
   <body>
     
     <p id='text'>Not Working</p>
-    <p>paragraph <h1> heading </h1> after </p>
+    <p id='buttons'>Buttons Not Working</p>
     <script>
     
       const data = [
@@ -2364,12 +2364,18 @@
       
       var required_tags = [];
       var filtered_data = "";
+      var button_list = "";
       
       all_tags.forEach(find_required_tags)
-      
+      all_tags.forEach(make_buttons)
       data.forEach(filter);
       
       document.getElementById("text").innerHTML = filtered_data; 
+      
+      
+      function make_buttons(value){
+        button_list += '<a href="youtube.com">This is a link</a>'
+      }
       
       function find_required_tags(value) {
         if (window.location.href.includes(value)){
