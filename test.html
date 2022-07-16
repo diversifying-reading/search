@@ -37,11 +37,10 @@
         text-shadow: 0 1px 1px #fafafa;
         background: linear-gradient(to bottom, #e4e7eb 0%,#afb5ba 44%, #91969c 100%);
         box-shadow: 0px 2px 5px 1px rgba(0, 0, 0, .5);                        
-        border-color: #000000;
-/*         border-top-color: #bdc2c7;
+        border-top-color: #bdc2c7;
         border-left-color: #bdc2c7;
         border-right-color: #5c646b;
-        border-bottom-color: #5c646b; */
+        border-bottom-color: #5c646b;
       }
 
       
@@ -285,12 +284,12 @@
         required_tag_url_format = "";
         required_tags.forEach(url_format_tags);
         
-//         if (required_tags.include(value)){
+        if (required_tags.includes(value)){
+          pressed_status = "pressed";
+        }
+        else {
           pressed_status = "unpressed";
-//         }
-//         else {
-//           pressed_status = "unpressed";
-//         }
+        }
         
         button_list += '<button onclick="window.location.href=' + "'https://diversifying-reading.github.io/search/test?" + 
           required_tag_url_format + value + "'" + '"' + " class='" + pressed_status + "'" + '">' + value + '</button> ';
