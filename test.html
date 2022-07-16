@@ -1,1 +1,131 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Test Title</title>
+  </head>
+  
+  <body>
+    
+    <p id='text'>Not Working</p>
+    <p id='test'>Requirements Not Working</p>
+    <script>
+    
+      const data = [
+    {
+        "title": "Girls of Paper and Fire",
+        "author": "Natasha Ngan",
+        "fantasy": "Y",
+        "prose": "Y",
+        "lgbtqia": "Y",
+        "wlwOrNblw": "Y"
+    },
+    {
+        "title": "Boy, Everywhere",
+        "author": "A.M. Dassu",
+        "fiction": "Y",
+        "prose": "Y",
+        "arabOrArabamerican": "Y",
+        "migrantstories": "Y",
+        "ownvoices": "Y",
+        "muslim": "Y"
+    },
+    {
+        "title": "Dawn Raid",
+        "author": "Pauline Vaeluaga Smith",
+        "historicalfiction": "Y",
+        "prose": "Y",
+        "aapi": "Y",
+        "ownvoices": "Y"
+    },
+    {
+        "title": "Genius Under the Table: Growing Up Behind the Iron Curtain",
+        "author": "Eugene Yelchin",
+        "memoir": "Y",
+        "prose": "Y",
+        "ownvoices": "Y",
+        "jewish": "Y"
+    },
+    {
+        "title": "Amazona",
+        "author": "Canizales",
+        "fiction": "Y",
+        "graphicnovel": "Y",
+        "latinx": "Y",
+        "nativeamerican": "Y"
+    },
+    {
+        "title": "Rabbit Chase",
+        "author": "Elizabeth Lapensee",
+        "fiction": "Y",
+        "graphicnovel": "Y",
+        "nativeamerican": "Y",
+        "nonbinairygenderfluid": "Y"
+    },
+    {
+        "title": "Brother Alive",
+        "author": "Zain Khalid",
+        "fiction": "Y",
+        "prose": "Y",
+        "africanamericanOrBlack": "Y",
+        "aapi": "Y",
+        "arabOrArabamerican": "Y",
+        "migrantstories": "Y",
+        "ownvoices": "Y",
+        "muslim": "Y"
+    }
+  ];
+      const all_tags = ["fantasy", "fiction", "scifi", "romance",	"urbanfantasy",	"historicalfiction",	"memoir",	"nonfiction", 
+                        "mythology",	"dystopian", "mystery",	"verse", "prose",	"graphicnovel",	"africanamericanOrBlack",	"aapi",
+                        "latinx",	"arabOrArabamerican", "nativeamerican",	"lgbtqia",	"wlwOrNblm", "mlmOrNblm",	"nonbinairygenderfluid",
+                        "aroace",	"closetsafe",	"migrantstories",	"ownvoices",	"jewish",	"muslim",	"mentaldisability",	"mentalhealth",
+                        "physicaldisability", "autism",	"depression",	"ptsd",	"ocd",	"mutedeafblind",	"middlegrade",	"newAdultAdultBookWithTeenInterest"];
+      
+      var required_tags = "";
+      var filtered_data = "";
+      
+      all_tags.forEach(find_required_tags)
+      
+      data.forEach(filter);
+      
+      document.getElementById("text").innerHTML = filtered_data; 
+      document.getElementById("test").innerHTML = required_tags;
+      
+      function find_required_tags(value) {
+        if (window.location.href.includes(value)){
+         required_tags += value 
+        }
+      }   
 
+      function filter(value) {
+        var required_tag_count = required_tags.length;
+        var valid_tags = 0;
+        var valid = null
+        
+        for(var i = 0; i < required_tag_count; i++) { //for each required tag; i=index value of required tag
+          var required_tag = required_tags[i];
+          
+          if Object.keys.includes(required_tag) { //if the book tags include the required tag
+            valid_tags += 1;
+          }
+          
+        }
+        
+        if valid_tags == required_tag_count { //if every required tag is in the book's tags
+          var valid = true
+        }
+        else {
+          var valid = false;
+        }
+      }
+        
+        if (valid){
+          filtered_data += value.title + "<br>";
+        }
+        else {
+          filtered_data += "not_included: " + value.title;
+        }
+      }
+                 
+    </script>
+  </body>
+</html>
