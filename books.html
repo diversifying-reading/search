@@ -2426,16 +2426,16 @@
         required_tags.forEach(url_format_tags)
         
         button_list += '<button onclick="window.location.href=' + "'https://diversifying-reading.github.io/search/books?" + 
-          required_tag_url_format + value + "'" + '"' + " class='unpressed'" + '>' + value + '</button> ';
+          required_tag_url_format + value + "'" + '"' + " class='" + pressed_status +"'" + '>' + value + '</button> ';
 
       }
           
       function url_format_tags(value) { //value = required tag in url
         required_tag_url_format += value + '&';
         
-//         if (required_tags.include(value)){
-//           pressed_status = "pressed";
-//         }
+        if (required_tags.include(value)){
+          pressed_status = "pressed";
+        }
       }
         
       function find_required_tags(value) {
