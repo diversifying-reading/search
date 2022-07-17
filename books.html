@@ -2430,15 +2430,17 @@
       
       
       function make_buttons(value){
-        
+        console.log('2' + required_tags);
         required_tags_for_button = required_tags;
+        console.log('3' + required_tags_for_button);
         
         if (required_tags.includes(value)){
           pressed_status = "pressed";
           required_tags_for_button.splice(required_tags_for_button.indexOf(value)); // get rid of button's tag (value) from required tags for button 
-          console.log(required_tags_for_button.indexOf(value));
-          console.log(required_tags);
-          console.log(value);
+          console.log('4' + required_tags_for_button.indexOf(value));
+          console.log('5' + required_tags);
+          console.log('6' + required_tags_for_button);
+          console.log('7' + value);
 
         }
         else {
@@ -2466,6 +2468,7 @@
            }
          }
           document.getElementById("test").innerHTML = required_tags;
+         console.log("1" + required_tags;
       }   
 
       function filter(value) {
