@@ -60,7 +60,6 @@
   
   <body>    
     <br>
-    <p id='test'>test</p>
     <p id='buttons'>Buttons Not Working</p>    
     <p id='text'>Not Working</p>
     <script>
@@ -2434,15 +2433,15 @@
         
         if (required_tags.includes(value)){
           pressed_status = "pressed";
-          required_tags_for_button = required_tags.splice(required_tags.indexOf(value));
+//          required_tags_for_button = required_tags.splice(required_tags.indexOf(value));
         }
         else {
           pressed_status = "unpressed";
-          required_tags_for_button = required_tags;
+//          required_tags_for_button = required_tags;
         }
         
         required_tag_url_format = "";
-        required_tags_for_button.forEach(url_format_tags);
+        required_tags.forEach(url_format_tags);
         
         button_list += '<button onclick="window.location.href=' + "'https://diversifying-reading.github.io/search/books?" + 
           required_tag_url_format + value + "'" + '"' + " class='" + pressed_status + "'" + '">' + value + '</button> ';
@@ -2461,7 +2460,7 @@
              required_tags.push(value);
            }
          }
-          document.getElementById("test").innerHTML = required_tags;
+
          console.log("1" + required_tags);
       }   
 
