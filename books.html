@@ -2431,13 +2431,14 @@
       
       function make_buttons(value){
         //required_tags_for_button = required_tags - value
-        required_tags_for_button = required_tags.splice(required_tags.indexOf(value));
         
         if (required_tags.includes(value)){
           pressed_status = "pressed";
+          required_tags_for_button = required_tags.splice(required_tags.indexOf(value));
         }
         else {
           pressed_status = "unpressed";
+          required_tags_for_button = required_tags;
         }
         
         required_tag_url_format = "";
