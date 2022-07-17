@@ -2436,6 +2436,10 @@
         if (required_tags.includes(value)){
           pressed_status = "pressed";
           required_tags_for_button.splice(required_tags_for_button.indexOf(value)); // get rid of button's tag (value) from required tags for button 
+          console.log(required_tags_for_button.indexOf(value));
+          console.log(required_tags);
+          console.log(value);
+
         }
         else {
           pressed_status = "unpressed";
