@@ -19,8 +19,8 @@
       .pressed:active { 
         margin-bottom: 2px;        
         border-radius: 5px;
-        color: #eeeeee;
-        text-shadow: 0 1px 1px #000000;
+        color: #000000;
+        text-shadow: 0 1px 1px #fafafa;
         background: linear-gradient(to bottom, #e4e7eb 0%,#afb5ba 44%, #91969c 100%);
         box-shadow: 0px 2px 5px 1px rgba(0, 0, 0, .5);                        
         border-top-color: #bdc2c7;
@@ -60,8 +60,7 @@
   
   <body>    
     <br>
-    <p id='tag1'>Tag List 1</p>
-    <p id='tag2'>Tag List 2</p>
+    <p id='test'>test</p>
     <p id='buttons'>Buttons Not Working</p>    
     <p id='text'>Not Working</p>
     <script>
@@ -2416,7 +2415,7 @@
                         "mythology",	"dystopian", "mystery",	"verse", "prose",	"graphicnovel",	"africanamericanOrBlack",	"aapi",
                         "latinx",	"arabOrArabamerican", "nativeamerican",	"lgbtqia",	"wlwOrNblw", "mlmOrNblm",	"nonbinairygenderfluid",
                         "aroace",	"closetsafe",	"migrantstories",	"ownvoices",	"jewish",	"muslim",	"mentaldisability",	"mentalhealth",
-                        "physicaldisability", "autism",	"depression",	"ptsd",	"ocd",	"mutedeafblind",	"middleGrade",	"newAdultAdultBookWithTeenInterest"];
+                        "physicaldisability", "autism",	"depression",	"ptsd",	"ocd",	"mutedeafblind",	"middlegrade",	"newAdultAdultBookWithTeenInterest"];
       
       var required_tags = [];
       var filtered_data = "";
@@ -2431,25 +2430,19 @@
       
       
       function make_buttons(value){
+        required_tag_url_format = "";
+        required_tags.forEach(url_format_tags);
         
-        required_tags_for_button = required_tags;
-        
+       
         if (required_tags.includes(value)){
           pressed_status = "pressed";
-          required_tags_for_button.splice(required_tags_for_button.indexOf(value)); // get rid of button's tag (value) from required tags for button 
         }
         else {
           pressed_status = "unpressed";
         }
         
-        required_tag_url_format = "";
-        required_tags_for_button.forEach(url_format_tags);
-        
         button_list += '<button onclick="window.location.href=' + "'https://diversifying-reading.github.io/search/books?" + 
           required_tag_url_format + value + "'" + '"' + " class='" + pressed_status + "'" + '">' + value + '</button> ';
-      
-       document.getElementById("tag1").innerHTML = required_tags; 
-      document.getElementById("tag2").innerHTML = required_tags_for_button; 
 
       }
           
@@ -2462,13 +2455,13 @@
         var paramString = urlString.split('?')[1];
 
         for(let param of paramString.split('&')){
-          if (param == value){
-            required_tags.push(value)
-          }
-        }
-
+           if (param == value){
+             required_tags.push(value);
+           }
+         }
+          document.getElementById("test").innerHTML = required_tags;
       }   
-      
+
       function filter(value) {
         var required_tag_count = required_tags.length;
         var valid_tags = 0;
@@ -2476,7 +2469,7 @@
   
         for(var i = 0; i < required_tag_count; i++) { //for each required tag; i=index value of required tag
           var required_tag = required_tags[i];
-    
+
           if (book_tags.includes(required_tag)) { //if the book tags include the required tag
             valid_tags += 1;
           }
