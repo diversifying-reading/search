@@ -2431,25 +2431,20 @@
       function make_buttons(value){
         
         required_tags_for_button = required_tags;
-
-        if (pressed_status == "pressed") { 
-          console.log('1');
-//          required_tags_for_button.splice(required_tags_for_button.indexOf(value));
-//          get rid of button's tag (value) from required tags for button 
-        }
-
-        required_tag_url_format = "";
-        required_tags.forEach(url_format_tags);
         
         if (required_tags.includes(value)){
           pressed_status = "pressed";
           value_in_new_url = "";
+          required_tags_for_button.splice(required_tags_for_button.indexOf(value)); // get rid of button's tag (value) from required tags for button 
         }
         else {
           pressed_status = "unpressed";
           value_in_new_url = value;
         }
-
+        
+        required_tag_url_format = "";
+        required_tags.forEach(url_format_tags);
+        
         button_list += '<button onclick="window.location.href=' + "'https://diversifying-reading.github.io/search/books?" + 
           required_tag_url_format + value_in_new_url + "'" + '"' + " class='" + pressed_status + "'" + '">' + value + '</button> ';
 
