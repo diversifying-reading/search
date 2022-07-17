@@ -60,6 +60,8 @@
   
   <body>    
     <br>
+    <p id='tag1'>Tag List 1</p>
+    <p id='tag2'>Tag List 2</p>
     <p id='buttons'>Buttons Not Working</p>    
     <p id='text'>Not Working</p>
     <script>
@@ -2447,6 +2449,9 @@
         
         button_list += '<button onclick="window.location.href=' + "'https://diversifying-reading.github.io/search/books?" + 
           required_tag_url_format + value_in_new_url + "'" + '"' + " class='" + pressed_status + "'" + '">' + value + '</button> ';
+      
+       document.getElementById("tag1").innerHTML = required_tags; 
+      document.getElementById("tag2").innerHTML = required_tags_for_button; 
 
       }
           
@@ -2473,7 +2478,7 @@
   
         for(var i = 0; i < required_tag_count; i++) { //for each required tag; i=index value of required tag
           var required_tag = required_tags[i];
-
+    
           if (book_tags.includes(required_tag)) { //if the book tags include the required tag
             valid_tags += 1;
           }
