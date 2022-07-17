@@ -2457,10 +2457,8 @@
       function find_required_tags(value) {
         var urlString = window.location.href;
         var paramString = urlString.split('?')[1];
-        console.log(value);
 
         for(let param of paramString.split('&')){
-          console.log(value);
           if (param == value){
             required_tags.push(value)
           }
