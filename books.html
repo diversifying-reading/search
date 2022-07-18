@@ -2419,7 +2419,8 @@
       var required_tags = [];
       var filtered_data = "";
       var button_list = "";
-
+      var button_balue = "";
+      
       all_tags.forEach(find_required_tags)
       all_tags.forEach(make_buttons)
       data.forEach(filter);
@@ -2430,7 +2431,7 @@
       
       function make_buttons(value){
         
-        var button_value = value;
+        button_value = value;
         
         if (required_tags.includes(value)){
           pressed_status = "pressed";
