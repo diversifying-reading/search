@@ -2420,6 +2420,7 @@
       var filtered_data = "";
       var button_list = "";
       var button_value = "";
+      var value_in_url = '';
       
       all_tags.forEach(find_required_tags)
       all_tags.forEach(make_buttons)
@@ -2432,6 +2433,7 @@
       function make_buttons(value){
         
         button_value = value;
+        value_in_url = value;
         
         if (required_tags.includes(value)){
           pressed_status = "pressed";
@@ -2444,7 +2446,7 @@
         required_tags.forEach(url_format_tags);
         
         button_list += '<button onclick="window.location.href=' + "'https://diversifying-reading.github.io/search/books?" + 
-          required_tag_url_format + value + "'" + '"' + " class='" + pressed_status + "'" + '">' + value + '</button> ';
+          required_tag_url_format + value_in_url + "'" + '"' + " class='" + pressed_status + "'" + '">' + value + '</button> ';
       }
           
       function url_format_tags(value) { //value = required tag in url
@@ -2452,6 +2454,9 @@
         if (button_value == value){
             if (pressed_status == "unpressed"){
               required_tag_url_format += value + '&';
+            }
+            else{
+              value_in_url = '';
             }
         }
         else{
