@@ -2449,7 +2449,7 @@
       function url_format_tags(value) { //value = required tag in url
         
         if (button_value == value){
-            if (pressed_status != pressed){
+            if (pressed_status == "unpressed"){
               required_tag_url_format += value + '&';
             }
         }
