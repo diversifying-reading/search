@@ -2417,11 +2417,18 @@
                         "aroace",	"closetsafe",	"migrantstories",	"ownvoices",	"jewish",	"muslim",	"mentaldisability",	"mentalhealth",
                         "physicaldisability", "autism",	"depression",	"ptsd",	"ocd",	"mutedeafblind",	"middleGrade",	"newAdultAdultBookWithTeenInterest"];
       
+      const tag_display_list = ["Fantasy", "Fiction", "Sci-Fi", "Romance",	"Urban Fantasy",	"Historical Fiction",	"Memoir",	"Non-Fiction", 
+                        "Mythology",	"Dystopian", "Mystery",	"Verse", "Prose",	"Graphic Novel",	"African American or Black",	"AAPI",
+                        "Latinx",	"Arab or Arab American", "Native American",	"LGBTQIA+",	"WLW or NBLW", "MLM or NBLM",	"Non-Binary or Genderfluid",
+                        "Aroace",	"Closet Safe",	"Migrant Stories",	"Own Voices",	"Jewish",	"Muslim",	"Mental Disability",	"Mental Health",
+                        "Physical Disability", "Autism",	"Depression",	"PTSD",	"OCD",	"Mute/Deaf/Blind",	"Middle Grade",	"New Adult or Adult Book With Teen Interest"];
+      
       var required_tags = [];
       var filtered_data = "";
       var button_list = "";
       var button_value = "";
-      var value_in_url = '';
+      var value_in_url = "";
+      var button_count = 0;
       
       all_tags.forEach(find_required_tags)
       all_tags.forEach(make_buttons)
@@ -2433,6 +2440,7 @@
       
       function make_buttons(value){
         
+        button_count += 1;
         button_value = value;
         value_in_url = value;
         
@@ -2447,7 +2455,7 @@
         required_tags.forEach(url_format_tags);
         
         button_list += '<button onclick="window.location.href=' + "'https://diversifying-reading.github.io/search/?" + 
-          required_tag_url_format + value_in_url + "'" + '"' + " class='" + pressed_status + "'" + '">' + value + '</button> ';
+          required_tag_url_format + value_in_url + "'" + '"' + " class='" + pressed_status + "'" + '">' + tag_display_list[button_count] + '</button>';
       }
           
       function url_format_tags(value) { //value = required tag in url
