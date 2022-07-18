@@ -2440,7 +2440,7 @@
         }
         
         required_tag_url_format = "";
-        required_tags.forEach(url_format_tags);
+        required_tags.forEach(url_format_tags(button_value));
         
         button_list += '<button onclick="window.location.href=' + "'https://diversifying-reading.github.io/search/books?" + 
           required_tag_url_format + value + "'" + '"' + " class='" + pressed_status + "'" + '">' + value + '</button> ';
