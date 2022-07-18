@@ -2430,6 +2430,8 @@
       
       function make_buttons(value){
         
+        var button_value = value;
+        
         if (required_tags.includes(value)){
           pressed_status = "pressed";
         }
@@ -2445,7 +2447,15 @@
       }
           
       function url_format_tags(value) { //value = required tag in url
-        required_tag_url_format += value + '&';
+        
+        if (button_value == value){
+            if (pressed_status != pressed){
+              required_tag_url_format += value + '&';
+            }
+        }
+        else{
+          required_tag_url_format += value + '&';
+        }
       }
         
       function find_required_tags(value) {
