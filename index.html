@@ -2496,6 +2496,9 @@
         var required_tag_count = required_tags.length;
         var valid_tags = 0;
         var book_tags = Object.keys(value);
+        
+        book_tags.shift();
+        book_tags.shift();
   
         for(var i = 0; i < required_tag_count; i++) { //for each required tag; i=index value of required tag
           var required_tag = required_tags[i];
