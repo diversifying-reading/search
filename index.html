@@ -69,8 +69,8 @@
     <button href="diversifying-reading.github.io/home" style:font-size=12px;>Not sure what a tag means?</button> 
     <p id='text'>Not Working</p>
     <input id="address" type="text" onkeypress="search(event)" placeholder="Type something here">
+    <ul id="search_list"></ul>
 
-    
     <script>
     
       const data = [
@@ -2437,11 +2437,14 @@
       var button_value = "";
       var value_in_url = "";
       var button_count = 0;
+      var search_data = [];
       
-      all_tags.forEach(find_required_tags)
-      all_tags.forEach(make_buttons)
+      all_tags.forEach(find_required_tags);
+      all_tags.forEach(make_buttons);
+      search_data = data.forEach(search_format);
       data.forEach(filter);
       
+      document.getElementById("search_list").innerHTML = search_data; 
       document.getElementById("text").innerHTML = filtered_data; 
       document.getElementById("buttons").innerHTML = button_list;
       
@@ -2517,10 +2520,12 @@
         }
         
       }
+      
       function search_func(){
         address=document.getElementById("address").value;
         //write your specific code from here	
         alert("You are searching: " + address);
+        console.log(search_data)
       }
       
       function search(e){
@@ -2530,6 +2535,10 @@
             console.log("working!")
           }
         return false;
+      }
+      
+      function search_format(value){
+        search_data += "<li><a href='#'>" + value.title + "</a></list>"
       }
                  
     </script>
