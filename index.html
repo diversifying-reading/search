@@ -2441,7 +2441,7 @@
       
       all_tags.forEach(find_required_tags);
       all_tags.forEach(make_buttons);
-      search_data = data.forEach(search_format);
+      data.forEach(search_format);
       data.forEach(filter);
       
       document.getElementById("search_list").innerHTML = search_data; 
@@ -2531,14 +2531,14 @@
       function search(e){
         address=document.getElementById("address").value;
           if(e.keyCode === 13){
-            search_func()
-            console.log("working!")
+            search_func();
+            console.log("working!");
           }
         return false;
       }
       
       function search_format(value){
-        search_data += "<li><a href='#'>" + value.title + "</a></list>"
+        search_data += "<li><a href='#'>" + value.title + "</a></list>";
       }
                  
     </script>
