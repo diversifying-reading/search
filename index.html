@@ -5,7 +5,38 @@
     <link rel="icon" href="images/favicon.png">
 
     <style>
-     
+     #address {
+      background-image: url('/css/searchicon.png');
+      background-position: 10px 12px;
+      background-repeat: no-repeat;
+      width: 100%;
+      font-size: 16px;
+      padding: 12px 20px 12px 40px;
+      border: 1px solid #ddd;
+      margin-bottom: 12px;
+    }
+
+    #ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    #ul li a {
+      border: 1px solid #ddd;
+      margin-top: -1px; /* Prevent double borders */
+      background-color: #f6f6f6;
+      padding: 12px;
+      text-decoration: none;
+      font-size: 18px;
+      color: black;
+      display: block
+    }
+
+    #ul li a:hover:not(.header) {
+      background-color: #eee;
+    }
+      
       .pressed { 
         margin-bottom: 2px;        
         margin-right: 2px;
@@ -2441,9 +2472,9 @@
       
       all_tags.forEach(find_required_tags);
       all_tags.forEach(make_buttons);
-      data.forEach(search_format);
       data.forEach(filter);
-      
+      filtered_data.forEach(search_format);
+
       document.getElementById("search_list").innerHTML = search_data; 
       document.getElementById("text").innerHTML = filtered_data; 
       document.getElementById("buttons").innerHTML = button_list;
@@ -2522,17 +2553,28 @@
       }
       
       function search_func(){
-        address=document.getElementById("address").value;
-        //write your specific code from here	
-        alert("You are searching: " + address);
-        console.log(search_data)
+        var input, filter, ul, li, a, i, txtValue;
+        input = document.getElementById('address');
+        filter = input.value.toUpperCase();
+        ul = document.getElementById("ul");
+        li = ul.getElementsByTagName('li');
+        
+        for (i = 0; i < li.length; i++) {
+          a = li[i].getElementsByTagName("a")[0];
+          txtValue = a.textContent || a.innerText;
+          if (txtValue.toUpperCase().indexOf(filter) > -1) {
+            li[i].style.display = "";
+          } else {
+            li[i].style.display = "none";
+          }
+        }
+        console.log("working?")
       }
       
       function search(e){
         address=document.getElementById("address").value;
           if(e.keyCode === 13){
             search_func();
-            console.log("working!");
           }
         return false;
       }
