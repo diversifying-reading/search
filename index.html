@@ -5,38 +5,6 @@
     <link rel="icon" href="images/favicon.png">
 
     <style>
-     #address {
-      background-image: url('/images/search-icon.png');
-      background-position: 10px 12px;
-      background-repeat: no-repeat;
-      width: 100%;
-      font-size: 16px;
-      padding: 12px 20px 12px 40px;
-      border: 1px solid #ddd;
-      margin-bottom: 12px;
-    }
-
-    #ul {
-      list-style-type: none;
-      padding: 0;
-      margin: 0;
-    }
-
-    #ul li a {
-      border: 1px solid #ddd;
-      margin-top: -1px; /* Prevent double borders */
-      background-color: #f6f6f6;
-      padding: 12px;
-      text-decoration: none;
-      font-size: 18px;
-      color: black;
-      display: block
-    }
-
-    #ul li a:hover:not(.header) {
-      background-color: #eee;
-    }
-      
       .pressed { 
         margin-bottom: 2px;        
         margin-right: 2px;
@@ -100,7 +68,6 @@
     <button href="diversifying-reading.github.io/home" style:font-size=12px;>Not sure what a tag means?</button> 
     <p id='text'>Not Working</p>
     <input id="address" type="text" onkeypress="search(event)" placeholder="Type something here">
-    <ul id="search_list"></ul>
 
     <script>
     
@@ -2464,7 +2431,6 @@
       
       var required_tags = [];
       var filtered_data = "";
-      const filtered_data_list = ["Evan", "Rayne", "Mom", "Dad"];
       var button_list = "";
       var button_value = "";
       var value_in_url = "";
@@ -2474,7 +2440,6 @@
       all_tags.forEach(find_required_tags);
       all_tags.forEach(make_buttons);
       data.forEach(filter);
-      filtered_data_list.forEach(search_format);
 
       document.getElementById("search_list").innerHTML = search_data; 
       document.getElementById("text").innerHTML = filtered_data; 
@@ -2576,6 +2541,7 @@
         address=document.getElementById("address").value;
           if(e.keyCode === 13){
             search_func();
+            alert("working!);
           }
         return false;
       }
