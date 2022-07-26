@@ -2440,17 +2440,16 @@
       var button_value = "";
       var value_in_url = "";
       var button_count = 0;
-      var search_data = "";
+      var search_data = "search_data";
       
       all_tags.forEach(find_required_tags);
       all_tags.forEach(make_buttons);
       data.forEach(filter);
       filtered_data_list.forEach(search_format);
       
-      document.getElementById("search_list").innerHTML = search_data; 
       document.getElementById("text").innerHTML = filtered_data; 
       document.getElementById("buttons").innerHTML = button_list;
-      
+      document.getElementById("search_list").innerHTML = search_data;       
       
       function make_buttons(value){
         
@@ -2553,7 +2552,7 @@
       }
       
       function search_format(value){
-        document.getElementById("search_list").innerHTML += value;
+        search_data += value;
       }
                  
     </script>
