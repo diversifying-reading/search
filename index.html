@@ -2440,7 +2440,7 @@
       var button_value = "";
       var value_in_url = "";
       var button_count = 0;
-      var search_data = "search_data";
+      var search_data = "";
       
       all_tags.forEach(find_required_tags);
       all_tags.forEach(make_buttons);
@@ -2552,7 +2552,7 @@
       }
       
       function search_format(value){
-        search_data +=   '<li><a href="#">'+value+'</a></li>';
+        search_data +=   '<li>'+value+'</li>';
       }
                  
     </script>
