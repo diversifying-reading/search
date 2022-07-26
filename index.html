@@ -2532,7 +2532,7 @@
           li = ul.getElementsByTagName("li");
           
         for (i = 0; i < li.length; i++) {
-              a = li[i].getElementsByTagName("a")[0];
+              a = li[i].getElementsById("search_listed")[0];
               txtValue = a.textContent || a.innerText;
               if (txtValue.toUpperCase().indexOf(filter) > -1) {
                   li[i].style.display = "";
@@ -2552,7 +2552,7 @@
       }
       
       function search_format(value){
-        search_data +=   '<li>'+value+'</li>';
+        search_data +=   '<li id="search_listed">'+value+'</li>';
       }
                  
     </script>
