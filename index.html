@@ -58,39 +58,7 @@
         background: linear-gradient(to bottom, #97a5b0 0%,#adbbc7 77%,#bcc6cf 100%);
         box-shadow: inset 0px 5px 5px 1px rgba(0, 0, 0, .3);
       }
-      
-      #address {
-        background-image: url('/css/searchicon.png');
-        background-position: 10px 12px;
-        background-repeat: no-repeat;
-        width: 100%;
-        font-size: 16px;
-        padding: 12px 20px 12px 40px;
-        border: 1px solid #ddd;
-        margin-bottom: 12px;
-      }
-
-      #search_list {
-        list-style-type: none;
-        padding: 0;
-        margin: 0;
-      }
-
-      #search_list li a {
-        border: 1px solid #ddd;
-        margin-top: -1px; /* Prevent double borders */
-        background-color: #f6f6f6;
-        padding: 12px;
-        text-decoration: none;
-        font-size: 18px;
-        color: black;
-        display: block
-      }
-
-      #search_list li a:hover:not(.header) {
-        background-color: #eee;
-      }
-      
+            
     </style>
     
   </head>
@@ -2476,6 +2444,7 @@
       all_tags.forEach(find_required_tags);
       all_tags.forEach(make_buttons);
       data.forEach(filter);
+      filtered_data.forEach(search_format);
 
       document.getElementById("search_list").innerHTML = search_data; 
       document.getElementById("text").innerHTML = filtered_data; 
@@ -2560,7 +2529,8 @@
           filter = input.value.toUpperCase();
           ul = document.getElementById("search_data");
           li = ul.getElementsByTagName("li");
-          for (i = 0; i < li.length; i++) {
+          
+        for (i = 0; i < li.length; i++) {
               a = li[i].getElementsByTagName("a")[0];
               txtValue = a.textContent || a.innerText;
               if (txtValue.toUpperCase().indexOf(filter) > -1) {
@@ -2569,6 +2539,7 @@
                   li[i].style.display = "none";
               }
           }
+        
       }
       
       function search(e){
