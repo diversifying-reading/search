@@ -5,6 +5,8 @@
     <link rel="icon" href="images/favicon.png">
 
     <style>
+      box-sizing: border-box;
+
       .pressed { 
         margin-bottom: 2px;        
         margin-right: 2px;
@@ -46,7 +48,6 @@
         border-bottom-color: #5c646b;
       }
 
-      
       .unpressed:active { 
         margin-bottom: 2px;        
         margin-right: 2px;
@@ -58,6 +59,38 @@
         box-shadow: inset 0px 5px 5px 1px rgba(0, 0, 0, .3);
       }
       
+      #address {
+        background-image: url('/css/searchicon.png');
+        background-position: 10px 12px;
+        background-repeat: no-repeat;
+        width: 100%;
+        font-size: 16px;
+        padding: 12px 20px 12px 40px;
+        border: 1px solid #ddd;
+        margin-bottom: 12px;
+      }
+
+      #search_list {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+      }
+
+      #search_list li a {
+        border: 1px solid #ddd;
+        margin-top: -1px; /* Prevent double borders */
+        background-color: #f6f6f6;
+        padding: 12px;
+        text-decoration: none;
+        font-size: 18px;
+        color: black;
+        display: block
+      }
+
+      #search_list li a:hover:not(.header) {
+        background-color: #eee;
+      }
+      
     </style>
     
   </head>
@@ -65,10 +98,13 @@
   <body>    
     
     <p id='buttons'>Buttons Not Working</p>    
+    
     <button href="diversifying-reading.github.io/home" style:font-size=12px;>Not sure what a tag means?</button> 
     <p id='text'>Not Working</p>
     <input id="address" type="text" onkeypress="search(event)" placeholder="Type something here">
-    <p id='search_list'></p>
+    <ul id='search_list'>
+        <li><a href="#">Not Working!</a></li>      
+    </ul>
     <script>
     
       const data = [
@@ -2519,7 +2555,20 @@
       }
       
       function search_func(){
-        console.log("working?")
+          var input, filter, ul, li, a, i, txtValue;
+          input = document.getElementById("address");
+          filter = input.value.toUpperCase();
+          ul = document.getElementById("search_data");
+          li = ul.getElementsByTagName("li");
+          for (i = 0; i < li.length; i++) {
+              a = li[i].getElementsByTagName("a")[0];
+              txtValue = a.textContent || a.innerText;
+              if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                  li[i].style.display = "";
+              } else {
+                  li[i].style.display = "none";
+              }
+          }
       }
       
       function search(e){
