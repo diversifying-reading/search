@@ -2532,7 +2532,8 @@
           li = ul.getElementsByTagName("li");
           
         for (i = 0; i < li.length; i++) {
-              a = li[i].getElementsById("search_listed")[0];
+              //a = li[i].getElementsByTag("a")[0];
+              a = li[i].innerHTML[0]
               txtValue = a.textContent || a.innerText;
               if (txtValue.toUpperCase().indexOf(filter) > -1) {
                   li[i].style.display = "";
