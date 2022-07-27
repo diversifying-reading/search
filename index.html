@@ -4,9 +4,8 @@
     <title>Diversifying Reading</title>
     <link rel="icon" href="images/favicon.png">
 
-    <style>
-      box-sizing: border-box;
-
+    <style>      
+      
       .pressed { 
         margin-bottom: 2px;        
         margin-right: 2px;
@@ -2519,7 +2518,7 @@
         
         if (valid_tags == required_tag_count) { //if every required tag is in the book's tags
           filtered_data += value.title + " written by " + value.author + '<br> -tags: ' + book_tags + '<br><br>';
-          filtered_data_list.push(value.title);
+          filtered_data_list.push(value.title + ';' + value.author);
         }
         
       }
@@ -2547,6 +2546,7 @@
         address=document.getElementById("address").value;
           if(e.keyCode === 13){
             search_func();
+            this.blur();
           }
         return false;
       }
