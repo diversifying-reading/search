@@ -2562,7 +2562,8 @@
       
       function search_and_tag_filter(value){
         for (i = 0; i < search_data_list.length; i++) {
-          if filtered_data_list.includes(search_data_list[i]){
+          search_value = search_data_list[i];
+          if filtered_data_list.includes(search_value){
             filtered_data += value.title + " written by " + value.author + '<br> -tags: ' + book_tags + '<br><br>';
           }
         }
