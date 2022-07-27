@@ -2440,13 +2440,14 @@
       var value_in_url = "";
       var button_count = 0;
       var search_data = "";
+      var search_data_list = [];
       
       all_tags.forEach(find_required_tags);
       all_tags.forEach(make_buttons);
       data.forEach(filter);
       filtered_data_list.forEach(search_format);
       
-      document.getElementById("text").innerHTML = filtered_data; 
+      document.getElementById("text").innerHTML = search_and_tag_filtered_data; 
       document.getElementById("buttons").innerHTML = button_list;
       document.getElementById("search_list").innerHTML = search_data;       
       
@@ -2545,14 +2546,18 @@
       function search(e){
         address=document.getElementById("address").value;
           if(e.which==13||e.keyCode === 13){
-            this.blur();
             search_func();
           }
         return false;
       }
       
       function search_format(value){
-        search_data += '<li><a href="#">'+value+'</a></li>'
+        search_data += '<li><a href="#">'+value+'</a></li>';
+        search_data_list.push(value);
+      }
+      
+      function search_and_tag_filter(value){
+        
       }
                  
     </script>
