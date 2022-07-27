@@ -2441,6 +2441,7 @@
       var button_count = 0;
       var search_data = "";
       var search_data_list = [];
+      var book_tags_list = [];
       
       all_tags.forEach(find_required_tags);
       all_tags.forEach(make_buttons);
@@ -2505,7 +2506,7 @@
         var required_tag_count = required_tags.length;
         var valid_tags = 0;
         var book_tags = Object.keys(value);
-        
+                
         book_tags.shift();
         book_tags.shift();
   
@@ -2519,12 +2520,13 @@
         }
         
         if (valid_tags == required_tag_count) { //if every required tag is in the book's tags
-          add_formated_to_filtered_data(value, book_tags);
+          add_formated_to_filtered_data_list(value, book_tags);
+          book_tags_list.push(book_tags);
         }
         
       }
       
-      function add_formated_to_filtered_data(value, book_tags){
+      function add_formated_to_filtered_data_list(value, book_tags){
           filtered_data_list.push(value.title + " written by " + value.author, value);
       }
       
@@ -2563,7 +2565,7 @@
       function search_and_tag_filter(value){
         for (i = 0; i < search_data_list.length; i++) {
           //if search_data_list.includes(value){
-            filtered_data += value.title + " written by " + value.author + '<br> -tags: ' + book_tags + '<br><br>';
+            filtered_data += value.title + " written by " + value.author + '<br> -tags: ' + book_tags_list[i] + '<br><br>';
           //}
         }
       }
