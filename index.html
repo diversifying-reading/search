@@ -2521,13 +2521,13 @@
         
         if (valid_tags == required_tag_count) { //if every required tag is in the book's tags
           add_formated_to_filtered_data_list(value, book_tags);
-          book_tags_list.push(book_tags);
         }
         
       }
       
       function add_formated_to_filtered_data_list(value, book_tags){
           filtered_data_list.push(value.title + " written by " + value.author, value);
+          book_tags_list.push(book_tags);
       }
       
       function search_func(){
