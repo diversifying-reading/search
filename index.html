@@ -2442,6 +2442,7 @@
       var search_data = "";
       var search_data_list = [];
       var filtered_data_title_and_author = [];
+      var current_input = '';
       
       all_tags.forEach(find_required_tags);
       all_tags.forEach(make_buttons);
@@ -2449,7 +2450,7 @@
       filtered_data_title_and_author.forEach(search_format);
       filtered_data_list.forEach(search_and_tag_filter);
       
-      document.getElementById("input").value = "more text";
+      document.getElementById("input").value = current_input;
       
       document.getElementById("text").innerHTML = filtered_data; 
       document.getElementById("buttons").innerHTML = button_list;
@@ -2538,7 +2539,8 @@
           filter = input.value.toUpperCase();
           ul = document.getElementById("search_list");
           li = ul.getElementsByTagName("li");
-          
+          current_input = input;
+            
         for (i = 0; i < li.length; i++) {
               a = li[i].getElementsByTagName("a")[0];
               txtValue = a.textContent || a.innerText;
