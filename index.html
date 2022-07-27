@@ -64,7 +64,7 @@
   
   <body>    
     
-    <input id="address" type="text" onkeypress="search(event)" placeholder="Search by Title or Author">
+    <input id="input" type="text" onkeypress="search(event)" placeholder="Search by Title or Author">
     <ul id='search_list'>
         <li><a href="#">Not Working!</a></li>      
     </ul>
@@ -2448,7 +2448,9 @@
       data.forEach(filter);
       filtered_data_title_and_author.forEach(search_format);
       filtered_data_list.forEach(search_and_tag_filter);
-        
+      
+      document.getElementById("email").value = "more text";
+      
       document.getElementById("text").innerHTML = filtered_data; 
       document.getElementById("buttons").innerHTML = button_list;
       document.getElementById("search_list").innerHTML = search_data;       
@@ -2469,7 +2471,7 @@
         required_tags.forEach(url_format_tags);
         
         button_list += '<button onclick="window.location.href=' + "'https://diversifying-reading.github.io/search/?" + 
-          required_tag_url_format + value_in_url + "'" + '"' + " class='" + pressed_status + "'" + '">' + tag_display_list[button_count] + '</button>';
+        required_tag_url_format + value_in_url + "'" + '"' + " class='" + pressed_status + "'" + '">' + tag_display_list[button_count] + '</button>';
         
         button_count += 1;
       }
@@ -2532,7 +2534,7 @@
       
       function search_func(){
           var input, filter, ul, li, a, i, txtValue;
-          input = document.getElementById("address");
+          input = document.getElementById("input");
           filter = input.value.toUpperCase();
           ul = document.getElementById("search_list");
           li = ul.getElementsByTagName("li");
@@ -2550,7 +2552,7 @@
       }
       
       function search(e){
-        address=document.getElementById("address").value;
+        address=document.getElementById("input").value;
           if(e.which==13||e.keyCode === 13){
             search_func();
           }
