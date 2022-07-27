@@ -2441,7 +2441,6 @@
       var button_count = 0;
       var search_data = "";
       var search_data_list = [];
-      var book_tags_list = [];
       
       all_tags.forEach(find_required_tags);
       all_tags.forEach(make_buttons);
@@ -2526,8 +2525,7 @@
       }
       
       function add_formated_to_filtered_data_list(value, book_tags){
-          filtered_data_list.push(value.title + " written by " + value.author, value);
-          book_tags_list.push(book_tags);
+          filtered_data_list.push(value.title + " written by " + value.author + '<br> -tags: ' + book_tags + '<br><br>');
       }
       
       function search_func(){
@@ -2565,7 +2563,7 @@
       function search_and_tag_filter(value){
         for (i = 0; i < search_data_list.length; i++) {
           //if search_data_list.includes(value){
-            filtered_data += value.title + " written by " + value.author + '<br> -tags: ' + book_tags_list[i] + '<br><br>';
+            filtered_data += filtered_data[i];
           //}
         }
       }
