@@ -2442,7 +2442,7 @@
       var search_data = "";
       var search_data_list = [];
       var filtered_data_title_and_author = [];
-      var current_input = 'input';
+      var current_input = '';
       
       all_tags.forEach(find_required_tags);
       all_tags.forEach(make_buttons);
@@ -2513,6 +2513,7 @@
         for(let param of paramString.split('&')){
          if (param == 'search'){
            current_input = param;
+           console.log("Yes!");
          }
         }
       }
