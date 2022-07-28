@@ -2443,14 +2443,13 @@
       var search_data_list = [];
       var filtered_data_title_and_author = [];
       
+      search_from_url();
       all_tags.forEach(find_required_tags);
       all_tags.forEach(make_buttons);
       data.forEach(filter);
       filtered_data_title_and_author.forEach(search_format);
       filtered_data_list.forEach(search_and_tag_filter);
-      
-      search_from_url();
-      
+            
       document.getElementById("text").innerHTML = filtered_data; 
       document.getElementById("buttons").innerHTML = button_list;
       document.getElementById("search_list").innerHTML = search_data;       
