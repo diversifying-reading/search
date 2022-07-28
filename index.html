@@ -2556,10 +2556,10 @@
               txtValue = a.textContent || a.innerText;
               if (txtValue.toUpperCase().indexOf(filter) > -1) {
                   li[i].style.display = "";
-                  search_data_list.splice(i, 1);
-                  // remove from search_data_list
               } else {
                   li[i].style.display = "none";
+                  search_data_list.splice(i, 1);
+                  // remove from search_data_list
               }
           }
       }
