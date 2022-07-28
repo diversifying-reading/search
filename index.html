@@ -2508,8 +2508,9 @@
       function search_from_url() {
         var urlString = window.location.href;
         var paramString = urlString.split('?')[1];
-        
+
         for(let param of paramString.split('&')){
+         console.log(param);
          if (param == 'search'){
            document.getElementById("input").value = param;
          }
