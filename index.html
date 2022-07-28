@@ -2450,6 +2450,7 @@
       filtered_data_title_and_author.forEach(search_format);
       filtered_data_list.forEach(search_and_tag_filter);
       
+      find_search_from_url();
       document.getElementById("input").value = current_input;
       
       document.getElementById("text").innerHTML = filtered_data; 
@@ -2505,6 +2506,17 @@
 
       }   
 
+      function find_search_from_url() {
+        var urlString = window.location.href;
+        var paramString = urlString.split('?')[1];
+        
+        for(let param of paramString.split('&')){
+         if (param == 'search'){
+           current_input = param;
+         }
+        }
+      }
+      
       function filter(value) {
         var required_tag_count = required_tags.length;
         var valid_tags = 0;
@@ -2539,7 +2551,6 @@
           filter = input.value.toUpperCase();
           ul = document.getElementById("search_list");
           li = ul.getElementsByTagName("li");
-          current_input = input + 'working!';
             
         for (i = 0; i < li.length; i++) {
               a = li[i].getElementsByTagName("a")[0];
