@@ -2549,7 +2549,7 @@
           filter = input.value.toUpperCase();
           ul = document.getElementById("search_list");
           li = ul.getElementsByTagName("li");
-          window.location.assign('https://diversifying-reading.github.io/search/?' + required_tag_url_format + 'search=' + input);
+          window.location.assign('https://diversifying-reading.github.io/search/?' + required_tag_url_format + 'search=' + input.value);
         
         for (i = 0; i < li.length; i++) {
               a = li[i].getElementsByTagName("a")[0];
