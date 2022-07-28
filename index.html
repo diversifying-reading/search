@@ -2443,13 +2443,15 @@
       var search_data_list = [];
       var filtered_data_title_and_author = [];
       
-      search_from_url();
+      search_from_url(); //input value set to url search param value
       all_tags.forEach(find_required_tags);
       all_tags.forEach(make_buttons);
       data.forEach(filter);
       filtered_data_title_and_author.forEach(search_format);
       filtered_data_list.forEach(search_and_tag_filter);
-            
+      
+      match_search_data_to_url();
+      
       document.getElementById("text").innerHTML = filtered_data; 
       document.getElementById("buttons").innerHTML = button_list;
       document.getElementById("search_list").innerHTML = search_data;       
@@ -2544,9 +2546,8 @@
       }
       
       function search_func(){
-          var input, filter, ul, li, a, i, txtValue;
-          input = document.getElementById("input");
-          filter = input.value.toUpperCase();
+          var filter, ul, li, a, i, txtValue;
+          filter = document.getElementById("input").value.toUpperCase();
           ul = document.getElementById("search_list");
           li = ul.getElementsByTagName("li");
         
@@ -2555,6 +2556,8 @@
               txtValue = a.textContent || a.innerText;
               if (txtValue.toUpperCase().indexOf(filter) > -1) {
                   li[i].style.display = "";
+                  search_data_list.splice(i, 1);
+                  // remove from search_data_list
               } else {
                   li[i].style.display = "none";
               }
@@ -2575,14 +2578,21 @@
         search_data_list.push(value);
       }
       
-      function search_and_tag_filter(value){
-        for (i = 0; i < search_data_list.length; i++) {
-          if (value.includes(search_data_list[i])){
-            filtered_data += filtered_data_list[i];
+      function search_and_tag_filter(value){ //filtered_data_list.forEach() filter filtered_data to only include values inside search_data
+        for (i = 0; i < search_data_list.length; i++) {       
+          if (value.includes(search_data_list[i])){           
+            filtered_data += filtered_data_list[i];           
           }
         }
       }
-                 
+      
+      function match_search_data_to_url(){
+        
+      }
+      
+      // update search_data_list after search_func
+      // update url after clicking enter
+      // update search_data_list and reformat search_data after loading the page to match url value 
     </script>
   </body>
 </html>
