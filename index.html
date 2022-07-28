@@ -2511,7 +2511,7 @@
         for(let param of paramString.split('&')){
          console.log(param);
          if (param.includes('search')){
-           document.getElementById("input").value = param.split('=');
+           document.getElementById("input").value = param.split('=')[1];
          }
         }
       }
