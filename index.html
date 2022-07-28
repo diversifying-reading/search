@@ -2450,8 +2450,7 @@
       filtered_data_title_and_author.forEach(search_format);
       filtered_data_list.forEach(search_and_tag_filter);
       
-      find_search_from_url();
-      document.getElementById("input").value = current_input;
+      search_from_url();
       
       document.getElementById("text").innerHTML = filtered_data; 
       document.getElementById("buttons").innerHTML = button_list;
@@ -2506,14 +2505,13 @@
 
       }   
 
-      function find_search_from_url() {
+      function search_from_url() {
         var urlString = window.location.href;
         var paramString = urlString.split('?')[1];
         
         for(let param of paramString.split('&')){
          if (param == 'search'){
-           current_input = param;
-           console.log("Yes!");
+           document.getElementById("input").value = param;
          }
         }
       }
