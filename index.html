@@ -2474,7 +2474,7 @@
         
         required_tag_url_format = "";
         required_tags.forEach(url_format_tags);
-        search_value = '&search=' + search_from_url()
+        search_value = 'search=' + search_from_url()
         
         if (required_tag_url_format != ""){
           required_tag_url_format.slice(0, -1);
@@ -2494,7 +2494,7 @@
               required_tag_url_format += value + '&';
             }
             else{
-              value_in_url = '';
+              value_in_url = '&';
             }
         }
         else{
