@@ -2441,7 +2441,6 @@
       var button_count = 0;
       var search_data = "";
       var search_data_list = [];
-      var filtered_data_title_and_author = [];
       
       if (search_from_url() != 'undefined'){
         document.getElementById("input").value = search_from_url(); //input value set to url search param value
@@ -2450,7 +2449,7 @@
       all_tags.forEach(find_required_tags);
       all_tags.forEach(make_buttons);
       data.forEach(filter);
-      filtered_data_title_and_author.forEach(search_format);
+      filtered_data_list.forEach(search_format);
       filtered_data_list.forEach(search_and_tag_filter);
       
       match_search_data_to_url();
@@ -2547,7 +2546,6 @@
       
       function add_formated_to_filtered_data_list(value, book_tags){
           filtered_data_list.push(value.title + " written by " + value.author + '<br> -tags: ' + book_tags + '<br><br>');
-          filtered_data_title_and_author.push(value.title + " written by " + value.author);
       }
       
       function search_func(){
