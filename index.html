@@ -3106,9 +3106,10 @@
       }
       
       function search_and_tag_filter(value){ // filtered_data_list.forEach() filter filtered_data to only include values inside search_data
+        console.log(filtered_data_list);
         for (i = 0; i < search_data_list.length; i++) {       
           if (value == search_data_list[i]){
-            //filtered_data += filtered_data_list[i];           
+            filtered_data += filtered_data_list[i];           
           }
         }
       }
