@@ -2549,9 +2549,7 @@
       function search_func(){
           var filter, ul, li, a, i, txtValue;
           filter = search_from_url(); //document.getElementById("input").value.toUpperCase();
-          console.log(filter);
           filter = filter.toUpperCase();
-          console.log(filter);
           ul = document.getElementById("search_list");
           li = ul.getElementsByTagName("li");
         
@@ -2571,6 +2569,7 @@
       function search(e){
         address=document.getElementById("input").value;
           if(e.which==13||e.keyCode === 13){
+            window.location.href = window.location.href.split('search=')[0] + document.getElementById("input").value
             search_func();
           }
         return false;
@@ -2582,6 +2581,7 @@
       }
       
       function search_and_tag_filter(value){ //filtered_data_list.forEach() filter filtered_data to only include values inside search_data
+        console.log(search_data_list);
         for (i = 0; i < search_data_list.length; i++) {       
           if (value.includes(search_data_list[i])){           
             filtered_data += filtered_data_list[i];           
@@ -2593,9 +2593,9 @@
         
       }
       
-      // update search_data_list after search_func
       // update url after clicking enter
-      // update search_data_list and reformat search_data after loading the page to match url value 
+      // match tag and search
+      
     </script>
   </body>
 </html>
