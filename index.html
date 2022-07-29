@@ -2546,7 +2546,9 @@
       
       function search_func(){
           var filter, ul, li, a, i, txtValue;
-          filter = search_from_url().toUpperCase(); //document.getElementById("input").value.toUpperCase();
+          filter = search_from_url(); //document.getElementById("input").value.toUpperCase();
+          console.log(filter);
+          filter = filter.toUpperCase();
           console.log(filter);
           ul = document.getElementById("search_list");
           li = ul.getElementsByTagName("li");
