@@ -2443,7 +2443,10 @@
       var search_data_list = [];
       var filtered_data_title_and_author = [];
       
-      document.getElementById("input").value = search_from_url(); //input value set to url search param value
+      if (search_from_url() != 'undefined'){
+        document.getElementById("input").value = search_from_url(); //input value set to url search param value
+      }
+      
       all_tags.forEach(find_required_tags);
       all_tags.forEach(make_buttons);
       data.forEach(filter);
