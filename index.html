@@ -2443,7 +2443,7 @@
       var search_data_list = [];
       var filtered_data_title_and_author = [];
       
-      search_from_url(); //input value set to url search param value
+      document.getElementById("input").value = search_from_url(); //input value set to url search param value
       all_tags.forEach(find_required_tags);
       all_tags.forEach(make_buttons);
       data.forEach(filter);
@@ -2510,9 +2510,8 @@
         var paramString = urlString.split('?')[1];
 
         for(let param of paramString.split('&')){
-         console.log(param);
          if (param.includes('search')){
-           document.getElementById("input").value = param.split('=')[1];
+            return param.split('=')[1];
          }
         }
       }
