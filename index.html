@@ -3097,6 +3097,9 @@
         if(e.which==13||e.keyCode === 13){
           window.location.href = window.location.href.split('search=')[0] + 'search=' + address;
           search_func();
+          search_and_tag_filter(value);
+          document.getElementById("text").innerHTML = filtered_data; 
+          console.log("working!")
         }
         return false;
       }
