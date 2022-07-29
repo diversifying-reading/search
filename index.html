@@ -3081,7 +3081,7 @@
               } else {
                   li[i].style.display = "none";
                   console.log(search_data_list);
-                  search_data_list.splice(i, 1);
+                  search_data_list = search_data_list.splice(i, 1);
                   console.log(search_data_list);
                   // remove from search_data_list
               }
@@ -3115,8 +3115,10 @@
         }
       }
       
+      
       // match tag and search
       // link books
+      // change book display to use display tag names
     </script>
   </body>
 </html>
