@@ -2440,7 +2440,7 @@
       var value_in_url = "";
       var button_count = 0;
       var search_data = "";
-      var search_data_list = [];
+      var search_data_list = filtered_data_list;
       
       if (search_from_url() != 'undefined'){
         document.getElementById("input").value = search_from_url(); //input value set to url search param value
@@ -2579,7 +2579,6 @@
       
       function search_format(value){
         search_data += '<li><a href="#">'+value+'</a></li>';
-        search_data_list.push(value);
       }
       
       function search_and_tag_filter(value){ //filtered_data_list.forEach() filter filtered_data to only include values inside search_data
