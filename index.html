@@ -2476,7 +2476,7 @@
         required_tags.forEach(url_format_tags);
         search_value = 'search=' + search_from_url()
         
-        button_list += '<button onclick="window.location.href=' + "'" + window.location.href.split('?')[0] + '?' + required_tag_url_format + value_in_url + search_value + "'" +
+        button_list += '<button onclick="window.location.href=' + "'" + window.location.href.split('?')[0] + '?' + required_tag_url_format + value_in_url + '&' + search_value + "'" +
         '"' + " class='" + pressed_status + "'" + '">' + tag_display_list[button_count] + '</button>';
         
         button_count += 1;
@@ -2550,8 +2550,14 @@
       
       function search_func(){
           var filter, ul, li, a, i, txtValue;
-          filter = search_from_url(); //document.getElementById("input").value.toUpperCase();
-          filter = filter.toUpperCase();
+          
+          if (search_from_url() != 'undefined'){
+            filter = search_from_url(); 
+            filter = filter.toUpperCase();
+          }
+          else{
+            filter = '';
+          }
           ul = document.getElementById("search_list");
           li = ul.getElementsByTagName("li");
         
