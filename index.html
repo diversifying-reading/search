@@ -2477,12 +2477,13 @@
         search_value = '&search=' + search_from_url()
         
         if (required_tag_url_format != ""){
-          required_tag_url_format.slice(0, -2);
+          console.log(required_tag_url_format);
+          required_tag_url_format = required_tag_url_format.slice(0, -1);
+          console.log(required_tag_url_format);
         }
         
         button_list += '<button onclick="window.location.href=' + "'" + window.location.href.split('?')[0] + '?' + required_tag_url_format + value_in_url + search_value + "'" +
         '"' + " class='" + pressed_status + "'" + '">' + tag_display_list[button_count] + '</button>';
-        console.log(search_value);
         
         button_count += 1;
       }
