@@ -2476,10 +2476,8 @@
         required_tags.forEach(url_format_tags);
         search_value = '&search=' + search_from_url()
         
-        if (required_tag_url_format != ""){
-          console.log(required_tag_url_format);
+        if (value_in_url != ""){
           required_tag_url_format = required_tag_url_format.slice(0, -1);
-          console.log(required_tag_url_format);
         }
         
         button_list += '<button onclick="window.location.href=' + "'" + window.location.href.split('?')[0] + '?' + required_tag_url_format + value_in_url + search_value + "'" +
