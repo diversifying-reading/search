@@ -2580,11 +2580,17 @@
       }
       
       function search(e){
-        address=document.getElementById("input").value;
-          if(e.which==13||e.keyCode === 13){
-            window.location.href = window.location.href.split('search=')[0] + 'search=' + document.getElementById("input").value
-            search_func();
-          }
+        if (document.getElementById("input").value != ""){
+          address = document.getElementById("input").value;
+        }
+        else{
+          address = 'undefined';
+        }
+        
+        if(e.which==13||e.keyCode === 13){
+          window.location.href = window.location.href.split('search=')[0] + 'search=' + address;
+          search_func();
+        }
         return false;
       }
       
