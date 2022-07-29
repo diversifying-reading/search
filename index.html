@@ -2957,7 +2957,7 @@
       filtered_data_list.forEach(search_format);
       filtered_data_list.forEach(search_and_tag_filter);
       
-      match_search_data_to_url();
+      match_filtered_data_to_search(); 
 
       document.getElementById("text").innerHTML = filtered_data; 
       document.getElementById("buttons").innerHTML = button_list;
@@ -3038,11 +3038,13 @@
         var required_tag_count = required_tags.length;
         var valid_tags = 0;
         var book_tags = Object.keys(value);
-                
+        
+        console.log(book_tags);
         book_tags.shift();
         book_tags.shift();
         book_tags.shift();
-  
+        console.log(book_tags);
+        
         for(var i = 0; i < required_tag_count; i++) { //for each required tag; i=index value of required tag
           var required_tag = required_tags[i];
 
@@ -3110,20 +3112,17 @@
       
       function search_and_tag_filter(value){ //filtered_data_list.forEach() filter filtered_data to only include values inside search_data
         for (i = 0; i < search_data_list.length; i++) {       
-          if (value.includes(search_data_list[i])){           
+          if (value == search_data_list[i]){
             filtered_data += filtered_data_list[i];           
           }
         }
       }
       
-      function match_search_data_to_url(){
+      function match_search_data_to_ur(){
         
       }
       
-      // update url after clicking enter
       // match tag and search
-      // filtered_data_list only has half but filtered_data somehow has all
-      // search data list loses half after going through most
     </script>
   </body>
 </html>
