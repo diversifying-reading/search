@@ -2944,7 +2944,6 @@
       var value_in_url = "";
       var button_count = 0;
       var search_data = "";
-      var search_data_list = filtered_data_list;
       
       if (search_from_url() != 'undefined'){
         document.getElementById("input").value = decodeURIComponent(search_from_url()); //input value set to url search param value
@@ -2953,6 +2952,9 @@
       all_tags.forEach(find_required_tags);
       all_tags.forEach(make_buttons);
       data.forEach(filter);
+      
+      var search_data_list = filtered_data_list.map((x) => x);
+      
       filtered_data_list.forEach(search_format);
       filtered_data_list.forEach(search_and_tag_filter);
       
@@ -2962,6 +2964,9 @@
       
       search_func();
 
+      
+      
+      
       function make_buttons(value){
         
         button_value = value;
@@ -3060,7 +3065,6 @@
       }
       
       function search_func(){
-        console.log(filtered_data_list);
         var filter, ul, li, a, i, txtValue;
 
         if (search_from_url() != 'undefined'){
@@ -3073,7 +3077,6 @@
 
         ul = document.getElementById("search_list");
         li = ul.getElementsByTagName("li");
-        console.log(filtered_data_list);
         for (i = li.length-1; i >= 0; i--) {
           a = li[i].getElementsByTagName("a")[0];
           txtValue = a.textContent || a.innerText;
@@ -3083,11 +3086,9 @@
           else {
             li[i].style.display = "none";
             search_data_list.splice(i, 1);
-            console.log("Working!", filtered_data_list);
             // remove from search_data_list
           }
         }
-        console.log(filtered_data_list);
       }
       
       function search(e){
