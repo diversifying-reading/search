@@ -2954,6 +2954,7 @@
       data.forEach(filter);
       
       var search_data_list = filtered_data_list.map((x) => x);
+      search_func();
       
       filtered_data_list.forEach(search_format);
       filtered_data_list.forEach(search_and_tag_filter);
@@ -3113,9 +3114,6 @@
       function search_and_tag_filter(value){ // filtered_data_list.forEach()
         if (search_data_list.includes(value)){
           filtered_data += value;
-          console.log(search_data_list);
-          console.log(value);
-          console.log(filtered_data);
         }
       }
       
