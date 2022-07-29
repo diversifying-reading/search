@@ -2451,10 +2451,12 @@
       filtered_data_list.forEach(search_and_tag_filter);
       
       match_search_data_to_url();
-      
+
       document.getElementById("text").innerHTML = filtered_data; 
       document.getElementById("buttons").innerHTML = button_list;
       document.getElementById("search_list").innerHTML = search_data;       
+      
+      search_func();
 
       function make_buttons(value){
         
