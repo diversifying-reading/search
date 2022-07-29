@@ -3063,7 +3063,7 @@
           var filter, ul, li, a, i, txtValue;
           
           if (search_from_url() != 'undefined'){
-            filter = search_from_url(); 
+            filter = decodeURIComponent(search_from_url()); 
             filter = filter.toUpperCase();
           }
           else{
