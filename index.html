@@ -3083,11 +3083,13 @@
           txtValue = a.textContent || a.innerText;
           if (txtValue.toUpperCase().indexOf(filter) > -1) {
             li[i].style.display = "";
-            search_data_list.splice(i, 1);
-            // remove from search_data_list
+            search_value += li[i];
           } 
           else {
-            li[i].style.display = "none";
+            li[i].style.display = "none"; // don't display
+            search_data_list.splice(i, 1);
+            search_value += li[i];
+            // remove from search_data_list
           }
         }
       }
