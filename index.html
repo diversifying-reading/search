@@ -3111,8 +3111,9 @@
         search_data += '<li><a href="#">'+value+'</a></li>';
       }
       
-      function search_and_tag_filter(value){ // search_data_list.forEach() 
-//        filtered_data += filtered_data_list[filtered_data_list.indexOf(value)];
+      function search_and_tag_filter(value){ // search_data_list.forEach()
+        console.log(value);
+        filtered_data += filtered_data_list[filtered_data_list.indexOf(value)];
       }
       
       // match tag and search
