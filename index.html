@@ -3082,16 +3082,17 @@
           a = li[i].getElementsByTagName("a")[0];
           txtValue = a.textContent || a.innerText;
           if (txtValue.toUpperCase().indexOf(filter) > -1) {
-            li[i].style.display = "";
+//            li[i].style.display = "";
             search_data += li[i];
           } 
           else {
-            li[i].style.display = "none"; // don't display
+//            li[i].style.display = "none"; // don't display
             search_data_list.splice(i, 1);
             search_data += li[i];
             // remove from search_data_list
           }
         }
+        document.getElementById("search_list").innerHTML = search_data;       
       }
       
       function search(e){
