@@ -136,7 +136,7 @@
       all_tags.forEach(make_buttons);
       data.forEach(filter);
       
-      var search_data_list = filtered_data_list.map((x) => x);
+      var search_data_list = [];
       search_func();
       
       filtered_data_list.forEach(search_format);
@@ -259,21 +259,10 @@
           filter = '';
         }
 
-        ul = document.getElementById("search_list");
-        li = ul.getElementsByTagName("li");
-        for (i = li.length - 1; i >= 0; i--) { 
-          a = li[i].getElementsByTagName("a")[0];
-          txtValue = a.textContent || a.innerText;
-          if (txtValue.toUpperCase().indexOf(filter) > -1) {
-            li[i].style.display = "";
+        for (i = filtered_data_list.length; i <= 0; i++) { 
+          if (filtered_data_list[i].toUpperCase().indexOf(filter) > -1) {
+            search_data_list += filtered_data_list[i]
           } 
-          else {
-            li[i].style.display = "none"; // don't display
-            console.log(search_data_list, i);
-            search_data_list.splice(i, 1);
-            console.log(search_data_list);
-            // remove from search_data_list
-          }
         }
       }
       
