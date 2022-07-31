@@ -3045,7 +3045,10 @@
         book_tags.pop();
         
         for(var i = 0; i < book_tags.length; i++){
-          book_tags_string += display_book_tags(book_tags[i])
+          book_tags_string += display_book_tags(book_tags[i]);
+          if (i < books.length - 1){
+            book_tags_string += ', ';
+          }
         }
         
         book_tags_string.slice(0, -3);
@@ -3066,7 +3069,7 @@
       }
       
       function display_book_tags(value){
-         return tag_display_list[all_tags.indexOf(value)] + ', ';
+         return tag_display_list[all_tags.indexOf(value)]
       }
       
       function add_formated_to_filtered_data_list(value, book_tags_string){
