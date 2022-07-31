@@ -264,14 +264,13 @@
         for (i = 0; i < filtered_data_list.length; i++) { 
           if (filtered_data_list[i].toUpperCase().indexOf(filter) > -1) {
             search_data_list.push(filtered_data_list[i]);
-            li[i].style.display = ""; 
-            console.log('display');
+            li[i].style.display = "none"; 
           } 
           else{
             li[i].style.display = "none"; // don't display
-            console.log("don't display");
           }
         }
+        document.getElementById("text").innerHTML = search_data_list;
       }
       
       function search(e){
