@@ -2992,6 +2992,7 @@
         '"' + " class='" + pressed_status + "'" + '">' + tag_display_list[button_count] + '</button>';
         
         button_count += 1;
+
       }
       
           
@@ -3086,6 +3087,7 @@
         }
         filtered_data = '';
         search_data_list.forEach(search_and_tag_filter);
+        document.getElementById("text").innerHTML = filtered_data;
       }
       
       function search(e){
