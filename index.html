@@ -5,7 +5,17 @@
     <link rel="icon" href="images/favicon.png">
 
     <style>      
-      
+
+      .book_block{
+        background-color: #aaaaaa;
+        padding: 5px;
+        border-radius: 3px;
+        line-height: 2;
+  	    width: 99%;
+	      text-align: center;
+
+      }
+
       .pressed { 
         margin-bottom: 2px;        
         margin-right: 2px;
@@ -2944,6 +2954,7 @@
       var value_in_url = "";
       var button_count = 0;
       var search_data = "";
+      var book_blocks = [];
       
       if (search_from_url() != 'undefined'){
         document.getElementById("input").value = decodeURIComponent(search_from_url()); //input value set to url search param value
@@ -2958,7 +2969,7 @@
       filtered_data_list.forEach(search_format);
       filtered_data_list.forEach(search_and_tag_filter);
             
-      document.getElementById("text").innerHTML = filtered_data; 
+      document.getElementById("text").innerHTML = book_blocks; 
       document.getElementById("buttons").innerHTML = button_list;
       document.getElementById("search_list").innerHTML = search_data;       
       
@@ -3074,6 +3085,7 @@
       
       function add_formated_to_filtered_data_list(value, book_tags_string){
           filtered_data_list.push(value.title + " written by " + value.author + '<br> -tags: ' + book_tags_string + '<br><br>');
+	        book_blocks.push("<p class=book_block>" + value.title + " written by " + value.author + '<br> -tags: ' + book_tags_string + '<br><br> </p>');
       }
       
       function search_func(){
@@ -3127,7 +3139,7 @@
       }
       
       function search_and_tag_filter(value){
-        filtered_data += filtered_data_list[filtered_data_list.indexOf(value)];
+        filtered_data += book_blocks[filtered_data_list.indexOf(value)];
       }
       
       // match tag and search
