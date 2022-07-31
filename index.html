@@ -264,13 +264,14 @@
         for (i = 0; i < filtered_data_list.length; i++) { 
           if (filtered_data_list[i].toUpperCase().indexOf(filter) > -1) {
             search_data_list.push(filtered_data_list[i]);
-            li[i].style.display = "none"; 
+            li[i].style.display = "none"; // don't display
           } 
           else{
             li[i].style.display = "none"; // don't display
           }
         }
-        document.getElementById("text").innerHTML = search_data_list;
+        search_data_list.forEach(search_and_tag_filter);
+        document.getElementById("text").innerHTML = filtered_data;
       }
       
       function search(e){
@@ -292,7 +293,7 @@
         search_data += '<li><a href="#">'+value+'</a></li>';
       }
       
-      function search_and_tag_filter(value){ // search_data_list.forEach()
+      function search_and_tag_filter(value){
         filtered_data += filtered_data_list[filtered_data_list.indexOf(value)];
       }
       
