@@ -137,7 +137,6 @@
       data.forEach(filter);
       
       var search_data_list = [];
-      search_func();
       
       filtered_data_list.forEach(search_format);
       filtered_data_list.forEach(search_and_tag_filter);
@@ -249,7 +248,7 @@
       }
       
       function search_func(){
-        var filter, ul, li, a, i, txtValue;
+        var filter, ul, li, i;
 
         if (search_from_url() != 'undefined'){
           filter = decodeURIComponent(search_from_url()); 
