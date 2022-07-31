@@ -3120,7 +3120,7 @@
       }
       
       function search_format(value){
-        search_data += '<li><a href="#">'+value+'</a></li>';
+        search_data += '<li><a href="#">'+value.split("<br>")[0]+'</a></li>';
       }
       
       function search_and_tag_filter(value){
