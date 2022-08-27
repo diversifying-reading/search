@@ -4514,7 +4514,7 @@
       var search_data = "";
       var book_blocks = [];
       
-      if (search_from_url() != 'undefined'){
+      if (search_from_url() != 'undefined' and search_from_url() != ''){
         document.getElementById("input").value = decodeURIComponent(search_from_url()); //input value set to url search param value
       }
       
@@ -4649,7 +4649,7 @@
       function search_func(){
         var filter, ul, li, i;
 
-        if (search_from_url() != 'undefined'){
+        if (search_from_url() != 'undefined' and search_from_url() != ''){
           filter = decodeURIComponent(search_from_url()); 
           filter = filter.toUpperCase();
         }
