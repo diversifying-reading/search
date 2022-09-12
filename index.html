@@ -4666,12 +4666,14 @@
       function search_from_url() {
         var urlString = window.location.href;
         var paramString = urlString.split('?')[1];
-
+	
+	if (paramString != ''){
         for(let param of paramString.split('&')){
          if (param.includes('search')){
             return param.split('=')[1];
          }
         }
+	}
       }
       
       function filter(value) {
