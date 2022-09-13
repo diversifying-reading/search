@@ -4669,7 +4669,7 @@
       function search_from_url() {
         var paramString = url.split('?')[1];
 	      
-	if (paramString != ''){
+	if (paramString != '' && typeof paramString != "undefined"){
         for(let param of paramString.split('&')){
          if (param.includes('search')){
             return param.split('=')[1];
