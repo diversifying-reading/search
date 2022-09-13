@@ -4557,7 +4557,7 @@
 
 //       var image_source = 'images/AllOut,SaundraMitchell.jpeg';
 //       filtered_data += "<img src= '" +image_source+"'>";
-      
+//	autism memoir and mystery tags don't work
       const all_tags = ["fantasy", "fiction", "scifi", "romance",	"urbanfantasy",	"historicalfiction",	"memoir",	"nonfiction", 
                         "mythology",	"dystopian", "mystery",	"verse", "prose",	"graphicnovel",	"africanamericanOrBlack",	"aapi",
                         "latinx",	"arabOrArabamerican", "nativeamerican",	"lgbtqia",	"wlwOrNblw", "mlmOrNblm",	"nonbinairygenderfluid",
@@ -4568,7 +4568,7 @@
                         "Mythology",	"Dystopian", "Mystery",	"Verse", "Prose",	"Graphic Novel",	"African American or Black",	"AAPI",
                         "Latinx",	"Arab or Arab American", "Native American",	"LGBTQIA+",	"WLW or NBLW", "MLM or NBLM",	"Non-Binary or Genderfluid",
                         "Aroace",	"Closet Safe",	"Migrant Stories",	"Own Voices",	"Jewish",	"Muslim",	"Mental Disability",	"Mental Health",
-                        "Physical Disability", "Autism",	"Depression",	"PTSD",	"OCD",	"Mute/Deaf/Blind",	"Middle Grade",	"New Adult or Adult Book With Teen Interest"];
+                        "Physical Disability", "Gender Queer",	"Depression",	"PTSD",	"OCD",	"Mute/Deaf/Blind",	"Middle Grade",	"New Adult or Adult Book With Teen Interest"];
       
       var required_tags = [];
       var filtered_data = "";
@@ -4605,11 +4605,31 @@
       function correct_url(){
 //	if param 'search' is not included in paramString (already includes line 'if param.includes("search")' maybe if paramString includes might work? rewrite with selections
 //	if url exactly equals 'https://diversifying-reading.github.io/search/" or "https://diversifying-reading.github.io/search" rewrite with selections
-//window.location.href.split('?')[0] + '?' + required_tag_url_format + value_in_url + search_value 
-      if (url == 'https://diversifying-reading.github.io/search/?search' || url == 'https://diversifying-reading.github.io/search/' ){
+//
+
+	      
+      if (url == 'https://diversifying-reading.github.io/search/?search' || url == 'https://diversifying-reading.github.io/search/'){
 	window.location.href = 'https://diversifying-reading.github.io/search/?search=undefined';
 	}
-	      
+      else if (url.includes("?") == False || 
+	      else{
+		var paramString = url.split('?')[1];
+		var valid = 0;
+		      
+		for(let param of paramString.split('&')){
+		   if (param == 'search'){
+		     valid = 1;
+		   }
+		 }
+		 if (valid == 0){
+			 if (required_tag_url_format == ''){
+				window.location.href = 'https://diversifying-reading.github.io/search/?search=undefined';
+			 }
+			 else {
+				window.location.href.split('?')[0] + '?' + required_tag_url_format.slice(0, -1) + '&search=undefined'; 
+			 }
+		 }
+	      }
       }
 	    
       function make_buttons(value){
