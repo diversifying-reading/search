@@ -4557,18 +4557,18 @@
 
 //       var image_source = 'images/AllOut,SaundraMitchell.jpeg';
 //       filtered_data += "<img src= '" +image_source+"'>";
-//	autism memoir and mystery tags don't work
-      const all_tags = ["fantasy", "fiction", "scifi", "romance",	"urbanfantasy",	"historicalfiction",	"memoir",	"nonfiction", 
-                        "mythology",	"dystopian", "mystery",	"verse", "prose",	"graphicnovel",	"africanamericanOrBlack",	"aapi",
+
+      const all_tags = ["fantasy", "fiction", "scifi", "romance",	"urbanfantasy",	"historicalfiction",	"memoirautobiograohy",	"nonfiction", 
+                        "mythology",	"dystopian", "mysteryHorror",	"verse", "prose",	"graphicnovel",	"africanamericanOrBlack",	"aapi",
                         "latinx",	"arabOrArabamerican", "nativeamerican",	"lgbtqia",	"wlwOrNblw", "mlmOrNblm",	"nonbinairygenderfluid",
                         "aroace",	"closetsafe",	"migrantstories",	"ownvoices",	"jewish",	"muslim",	"mentaldisability",	"mentalhealth",
-                        "physicaldisability", "autism",	"depression",	"ptsd",	"ocd",	"mutedeafblind",	"middleGrade",	"newAdultAdultBookWithTeenInterest"];
+                        "physicaldisability", "autismAdhd",	"depression",	"ptsd",	"ocd",	"mutedeafblind",	"middleGrade",	"newAdultAdultBookWithTeenInterest"];
       
-      const tag_display_list = ["Fantasy", "Fiction", "Sci-Fi", "Romance",	"Urban Fantasy",	"Historical Fiction",	"Memoir",	"Non-Fiction", 
-                        "Mythology",	"Dystopian", "Mystery",	"Verse", "Prose",	"Graphic Novel",	"African American or Black",	"AAPI",
+      const tag_display_list = ["Fantasy", "Fiction", "Sci-Fi", "Romance",	"Urban Fantasy",	"Historical Fiction",	"Memoir or Autobiography",	"Non-Fiction", 
+                        "Mythology",	"Dystopian", "Mystery or Horror",	"Verse", "Prose",	"Graphic Novel",	"African American or Black",	"AAPI",
                         "Latinx",	"Arab or Arab American", "Native American",	"LGBTQIA+",	"WLW or NBLW", "MLM or NBLM",	"Non-Binary or Genderfluid",
                         "Aroace",	"Closet Safe",	"Migrant Stories",	"Own Voices",	"Jewish",	"Muslim",	"Mental Disability",	"Mental Health",
-                        "Physical Disability", "Gender Queer",	"Depression",	"PTSD",	"OCD",	"Mute/Deaf/Blind",	"Middle Grade",	"New Adult or Adult Book With Teen Interest"];
+                        "Physical Disability", "Autism or ADHD",	"Depression",	"PTSD",	"OCD",	"Mute/Deaf/Blind",	"Middle Grade",	"New Adult or Adult Book With Teen Interest"];
       
       var required_tags = [];
       var filtered_data = "";
@@ -4600,7 +4600,7 @@
       
       search_func();
       
-      correct_url();
+      //correct_url();
 	
       function correct_url(){
 //	if param 'search' is not included in paramString (already includes line 'if param.includes("search")' maybe if paramString includes might work? rewrite with selections
