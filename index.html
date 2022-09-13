@@ -4554,7 +4554,8 @@
         "id": 466
     }
 ]
-      
+//	if param 'search' is not included in paramString (already includes line 'if param.includes("search")' maybe if paramString includes might work? rewrite with selections
+//	if url exactly equals 'https://diversifying-reading.github.io/search/" or "https://diversifying-reading.github.io/search" rewrite with selections
 //       var image_source = 'images/AllOut,SaundraMitchell.jpeg';
 //       filtered_data += "<img src= '" +image_source+"'>";
       
@@ -4579,10 +4580,13 @@
       var button_count = 0;
       var search_data = "";
       var book_blocks = [];
-	
-	    console.log(window.location.includes("search"));
-      if (window.location == 'https://diversifying-reading.github.io/search/?search'){
-	window.location = 'https://diversifying-reading.github.io/search/?search=undefined';
+      var url = window.location.href;
+	    
+      console.log(window.location.href);
+      console.log(url.https://diversifying-reading.github.io/search/("search"));
+		  
+      if (window.location.href == 'https://diversifying-reading.github.io/search/?search'){
+	window.location.href = 'https://diversifying-reading.github.io/search/?search=undefined';
 	}
 	  
       if (search_from_url() != 'undefined'){
@@ -4652,8 +4656,7 @@
       }
         
       function find_required_tags(value) {
-        var urlString = window.location.href;
-        var paramString = urlString.split('?')[1];
+        var paramString = url.split('?')[1];
 
         for(let param of paramString.split('&')){
            if (param == value){
@@ -4664,9 +4667,8 @@
       }   
 
       function search_from_url() {
-        var urlString = window.location.href;
-        var paramString = urlString.split('?')[1];
-	
+        var paramString = url.split('?')[1];
+	      
 	if (paramString != ''){
         for(let param of paramString.split('&')){
          if (param.includes('search')){
@@ -4759,7 +4761,7 @@
         }
         
         if(e.which==13||e.keyCode === 13){
-          window.location.href = window.location.href.split('search=')[0] + 'search=' + address;
+          window.location.href = url.split('search=')[0] + 'search=' + address;
           search_func();
         }
         return false;
