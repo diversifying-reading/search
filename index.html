@@ -4657,13 +4657,14 @@
         
       function find_required_tags(value) {
         var paramString = url.split('?')[1];
-
+	      
+	if (paramString != '' && typeof paramString != "undefined"){
         for(let param of paramString.split('&')){
            if (param == value){
              required_tags.push(value);
            }
          }
-
+	}
       }   
 
       function search_from_url() {
