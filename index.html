@@ -4606,30 +4606,26 @@
 //	if param 'search' is not included in paramString (already includes line 'if param.includes("search")' maybe if paramString includes might work? rewrite with selections
 //	if url exactly equals 'https://diversifying-reading.github.io/search/" or "https://diversifying-reading.github.io/search" rewrite with selections
 //
+	var paramString = url.split('?')[1];
+	var valid = 0;
 
+	for(let param of paramString.split('&')){
+	   if (param == 'search'){
+	     valid = 1;
+	   }
+	 }
 	      
       if (url == 'https://diversifying-reading.github.io/search/?search' || url == 'https://diversifying-reading.github.io/search/'){
 	window.location.href = 'https://diversifying-reading.github.io/search/?search=undefined';
 	}
-      else if (url.includes("?") == False || 
-	      else{
-		var paramString = url.split('?')[1];
-		var valid = 0;
-		      
-		for(let param of paramString.split('&')){
-		   if (param == 'search'){
-		     valid = 1;
-		   }
-		 }
-		 if (valid == 0){
-			 if (required_tag_url_format == ''){
-				window.location.href = 'https://diversifying-reading.github.io/search/?search=undefined';
-			 }
-			 else {
-				window.location.href.split('?')[0] + '?' + required_tag_url_format.slice(0, -1) + '&search=undefined'; 
-			 }
-		 }
-	      }
+      else if (url.includes("?") == False || valid == 0){
+	 if (required_tag_url_format == ''){
+		window.location.href = 'https://diversifying-reading.github.io/search/?search=undefined';
+	 }
+	 else {
+		window.location.href.split('?')[0] + '?' + required_tag_url_format.slice(0, -1) + '&search=undefined'; 
+	 }
+	}
       }
 	    
       function make_buttons(value){
