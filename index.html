@@ -4554,8 +4554,7 @@
         "id": 466
     }
 ]
-//	if param 'search' is not included in paramString (already includes line 'if param.includes("search")' maybe if paramString includes might work? rewrite with selections
-//	if url exactly equals 'https://diversifying-reading.github.io/search/" or "https://diversifying-reading.github.io/search" rewrite with selections
+
 //       var image_source = 'images/AllOut,SaundraMitchell.jpeg';
 //       filtered_data += "<img src= '" +image_source+"'>";
       
@@ -4581,13 +4580,6 @@
       var search_data = "";
       var book_blocks = [];
       var url = window.location.href;
-	    
-      console.log(window.location.href);
-      console.log(url.includes("search"));
-		  
-      if (window.location.href == 'https://diversifying-reading.github.io/search/?search'){
-	window.location.href = 'https://diversifying-reading.github.io/search/?search=undefined';
-	}
 	  
       if (search_from_url() != 'undefined'){
         document.getElementById("input").value = decodeURIComponent(search_from_url()); //input value set to url search param value
@@ -4607,7 +4599,19 @@
       document.getElementById("search_list").innerHTML = search_data;       
       
       search_func();
-
+      
+      correct_url();
+	
+      function correct_url(){
+//	if param 'search' is not included in paramString (already includes line 'if param.includes("search")' maybe if paramString includes might work? rewrite with selections
+//	if url exactly equals 'https://diversifying-reading.github.io/search/" or "https://diversifying-reading.github.io/search" rewrite with selections
+//window.location.href.split('?')[0] + '?' + required_tag_url_format + value_in_url + search_value 
+      if (url == 'https://diversifying-reading.github.io/search/?search' || url == 'https://diversifying-reading.github.io/search/' ){
+	window.location.href = 'https://diversifying-reading.github.io/search/?search=undefined';
+	}
+	      
+      }
+	    
       function make_buttons(value){
         
         button_value = value;
