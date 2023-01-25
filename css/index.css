@@ -1,9 +1,10 @@
-div{
+body {
   font-family:tahoma;
-  /* overflow:clip; // fix this */
+  background-color: lightgrey;
 }
 
 .sidenav_largeScreen {
+  /* transition-duration: 0.2s; */
   width: 20vw;
   height: 100vh;
   position: fixed;
@@ -11,7 +12,7 @@ div{
   left: 0;
   background-color: #111;
   overflow-x: hidden;
-  border-right: 5px solid #80ab1a;
+  border-right: 5px solid #7DA468;
 }
 
 .sidenav_largeScreen a {
@@ -20,6 +21,7 @@ div{
 }
 
 .sidenav_smallScreen {
+  /* transition-duration: 0.2s; */
   width: 0vw;
   height: 100vh;
   position: fixed;
@@ -27,7 +29,7 @@ div{
   left: 0;
   background-color: #111;
   overflow-x: hidden;
-  border-right: 5px solid #80ab1a;
+  border-right: 5px solid #7DA468;
 }
 
 .sidenav_smallScreen a {
@@ -57,40 +59,78 @@ div{
 
 .topnav {
   position: fixed;
-  background-color: #333;
-  overflow: auto;
+  background-color: #033616;
   top: 0;
   left: 0;
   width: 100vw;
   height: 50px;
-  border-bottom: 5px solid #5e800f;
+  border-bottom: 5px solid #7fa569;
 }
 
-.topnav a {
-  float: left;
+.topnav_text {
   margin-left: 1vmin;
   color: #f2f2f2;
   text-align: center;
-  padding: 5px 14px;
+  padding-left: 14px;
   text-decoration: none;
   vertical-align: middle;
 }
 
-.menu_button_open{
-  height: 4vh;
+.topnav_text_links {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  background-color: #033616;
+  color: #f2f2f2;
+  text-decoration: none;
+}
+
+.topnav_text_links:hover{
+  background-color: white;
+  color:#033616;
+}
+
+/*
+.topnav_text_links {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  background-color: #7DA468;
+  color: #f2f2f2;
+  border: solid 2px #648153;
+  text-decoration: none;
+}
+
+.topnav_text_links:hover{
+  background-color: white;
+  color:#033616;
+  border: solid 2px darkgray;
+} */
+
+.select{
   float: left;
-  padding-left: 14px;
+  padding-left: 0px;
+  height: 100%;
+  font-size: 29px;
+  background-color: #7DA468;
+  padding-left: 10px;
+  padding-right: 1%;
+  color: white;
+  font-family: Tahoma;
+}
+
+.menu_button_open{
+  height:20px;
+  float: left;
   align-items: center;
 }
 
-.menu_button_open img {
-}
-
 .menu_button_closed{
-  height: 4vh;
+  height:20px;
   vertical-align: middle;
   float: left;
-  padding-left: 14px;
 }
 
 .book_div{
@@ -119,7 +159,7 @@ div{
 
 .book_text{
   text-align: center;
-  width: 55%;
+  width: 54%;
   height: 71%;
   padding-right: 1%;
   content: "";
@@ -187,4 +227,76 @@ div{
   text-shadow: 0 1px 1px #000000;
   background: linear-gradient(to bottom, #97a5b0 0%,#adbbc7 77%,#bcc6cf 100%);
   box-shadow: inset 0px 5px 5px 1px rgba(0, 0, 0, .3);
+}
+
+.previous_page_btn {
+  margin-right: 5px;
+  font-family: tahoma;
+  width: 55px;
+  height: 55px;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 0.3%;
+  background-color: #FFFFFF;
+  color: #000000;
+  border: 1px #000000 solid;
+  border-right: 0.5px #000000 solid;
+  border-left: 0.5px #000000 solid;
+}
+.previous_page_btn:hover{
+  background-color: #000000;
+  color: #FFFFFF;
+}
+
+.first_page_btn {
+  font-family: tahoma;
+  width: 55px;
+  height: 55px;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 0.3%;
+  background-color: #FFFFFF;
+  color: #000000;
+  border: 1px #000000 solid;
+  border-right: 0.5px #000000 solid;
+}
+.first_page_btn:hover{
+  background-color: #000000;
+  color: #FFFFFF;
+}
+
+.next_page_btn {
+  margin-left: 5px;
+  padding: 0.3%;
+  background-color: #FFFFFF;
+  color: #000000;
+  font-family: tahoma;
+  width: 55px;
+  height: 55px;
+  font-weight: bold;
+  font-size: 20px;
+  border: 1px #000000 solid;
+  border-right: 0.5px #000000 solid;
+  border-left: 0.5px #000000 solid;
+}
+.next_page_btn:hover{
+  background-color: #000000;
+  color: #FFFFFF;
+}
+
+.last_page_btn {
+  font-family: tahoma;
+  width: 55px;
+  height: 55px;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 0.3%;
+  background-color: #FFFFFF;
+  color: #000000;
+  border: 1px #000000 solid;
+  border-left: 0.5px #000000 solid;
+}
+.last_page_btn:hover{
+  background-color: #000000;
+  color: #FFFFFF;
 }
