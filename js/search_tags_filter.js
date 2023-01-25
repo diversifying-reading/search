@@ -10,9 +10,10 @@ var book_blocks = [];
 var books_html = "";
 var books_html_list = [];
 var url = window.location.href;
+var books_per_page = 24;
 
-if (search_from_url() != 'undefined'){
-  document.getElementById("input").value = decodeURIComponent(search_from_url()); //input value set to url search param value
+if (from_url('search') != 'undefined'){
+  document.getElementById("input").value = decodeURIComponent(from_url('search')); //input value set to url search param value
 }
 
 all_tags.forEach(find_required_tags);
@@ -31,14 +32,33 @@ search_func();
 
 correct_url();
 
+function nextPage(){
+  window.location.href = window.location.href.split("page=")[0] + "page=" + (parseInt(from_url("page")) + parseInt(1));
+}
+function previousPage(){
+  window.location.href = window.location.href.split("page=")[0] + "page=" + (parseInt(from_url("page")) + parseInt(-1));
+}
+function firstPage(){
+  window.location.href = window.location.href.split("page=")[0] + "page=0";
+}
+function lastPage(){
+  window.location.href = window.location.href.split("page=")[0] + "page=" + String(Math.ceil(search_data_list.length/books_per_page)-1);
+}
+
 function correct_url(){
 //	if param 'search' is not included in paramString (already includes line 'if param.includes("search")' maybe if paramString includes might work? rewrite with selections
 //	if url exactly equals 'https://diversifying-reading.github.io/search/" or "https://diversifying-reading.github.io/search" rewrite with selections
 var paramString = url.split('?')[1];
-if(paramString == undefined || !url.includes("search=")){
-if (!url.includes("?") || !url.includes("search=")){
-    window.location.href = 'https://diversifying-reading.github.io/search/?' + required_tag_url_format + 'search=undefined';
+if(paramString == undefined || !url.includes("search=") && !url.includes("page=")){
+  if (!url.includes("?") || !url.includes("search=") && !url.includes("page=")){
+    window.location.href = 'https://diversifying-reading.github.io/search/?' + required_tag_url_format + 'search=undefined&page=0';
   }
+}
+else if(!url.includes("search=") || !Boolean(parseInt(from_url("page"))>=0)){
+  window.location.href = 'https://diversifying-reading.github.io/search/?' + required_tag_url_format + 'search=' + from_url("search") + "&page=0";
+}
+else if(!url.includes("page=")){
+  window.location.href = 'https://diversifying-reading.github.io/search/?' + required_tag_url_format + 'search=undefined&page=' + from_url("page");
 }
 
 let includesSearchParam = false;
@@ -77,7 +97,8 @@ function make_buttons(value){
 
   required_tag_url_format = "";
   required_tags.forEach(url_format_tags);
-  search_value = '&search=' + search_from_url()
+  search_value = '&search=' + from_url('search');
+  let page_value = "&page=0";
 
   if (value_in_url == ""){
     required_tag_url_format = required_tag_url_format.slice(0, -1);
@@ -87,7 +108,7 @@ function make_buttons(value){
     search_value = search_value.substring(1);
   }
 
-  button_list += '<button onclick="window.location.href=' + "'" + window.location.href.split('?')[0] + '?' + required_tag_url_format + value_in_url + search_value + "'" +
+  button_list += '<button onclick="window.location.href=' + "'" + window.location.href.split('?')[0] + '?' + required_tag_url_format + value_in_url + search_value + page_value +"'" +
   '"' + " class='" + pressed_status + "'" + '">' + tag_display_list[button_count] + '</button>';
 
   button_count += 1;
@@ -122,12 +143,11 @@ if (paramString != '' && typeof paramString != "undefined"){
 }
 }
 
-function search_from_url() {
+function from_url(inputParam) {
   var paramString = url.split('?')[1];
-
 if (paramString != '' && typeof paramString != "undefined"){
   for(let param of paramString.split('&')){
-   if (param.includes('search')){
+   if (param.includes(inputParam)){
       return param.split('=')[1];
    }
   }
@@ -142,7 +162,7 @@ function filter(value) {
 
   book_tags.shift(); //remove first two and last 4 tags (if last 4 tags exist)
   book_tags.shift();
-  if(value.publishersSummery != undefined){
+  if(value.publishersSummary != undefined){
     book_tags.pop();
   }
   if(value.audioBibnumber != undefined){
@@ -187,22 +207,22 @@ function add_formated_to_filtered_data_list(value, book_tags_string){
     filtered_data_list.push(value.title + " written by " + value.author + '<br> -tags: ' + book_tags_string + '<br><br>');
     book_blocks.push("<p class=book_block>" + value.title + " written by " + value.author + '<br> -tags: ' + book_tags_string + '<br><br> </p>');
 
-    let publishersSummery = value.publishersSummery;
-    if(publishersSummery == undefined){
-      publishersSummery = "Sorry, we don't have a summery for this yet!";
+    let publishersSummary = value.publishersSummary;
+    if(publishersSummary == undefined){
+      publishersSummary = "Sorry, we don't have a summary for this yet!";
     }
     let image_path = value.title + "," + value.author + ".jpeg";
     image_path = image_path.replace(/\s/g, '');
     image_path = image_path.replace(':', '-');
 
-    books_html_list.push('<div class="book_format"> <img src="./images/covers/' + image_path + '" class="book_img" id="test">' +  '<div class="book_text"> <p style="display: block; font-size: 200%; font-weight: bold; margin-block-start: 0em; margin-block-end: 0em;">' + value.title + "</p>" + '<p style="display: block; font-size: 150%; font-weight: bold; margin-block-start: 0em; margin-block-end: 0em;">' + value.author + "</p>" + '<p>' + publishersSummery + '</p>' + "</div> <div style='margin:1%; padding-top:65%'> <h3>" + book_tags_string + "</h3> </div></div>");
+    books_html_list.push('<div class="book_format"> <img src="./images/covers/' + image_path + '" class="book_img" id="test">' +  '<div class="book_text"> <p style="display: block; font-size: 200%; font-weight: bold; margin-block-start: 0em; margin-block-end: 0em;">' + value.title + "</p>" + '<p style="display: block; font-size: 150%; font-weight: bold; margin-block-start: 0em; margin-block-end: 0em;">' + value.author + "</p>" + '<p>' + publishersSummary + '</p>' + "</div> <div style='margin:1%; padding-top:65%'> <h3>" + book_tags_string + "</h3> </div></div>");
 }
 
 function search_func(){
   var filter, ul, li, i;
 
-  if (search_from_url() != 'undefined'){
-    filter = decodeURIComponent(search_from_url());
+  if (from_url('search') != 'undefined'){
+    filter = decodeURIComponent(from_url('search'));
     filter = filter.toUpperCase();
   }
   else{
@@ -213,8 +233,18 @@ function search_func(){
   li = ul.getElementsByTagName("li");
 
   for (i = 0; i < filtered_data_list.length; i++) {
-    a = li[i].getElementsByTagName("a")[0];
-    txtValue = a.textContent || a.innerText;
+    let dataNumber;
+    for(j=0;j<data.length;j++){
+      if(data[j].title == filtered_data_list[i].split(" written by ")[0] && data[j].author == filtered_data_list[i].split(" written by ")[1].split("<br> -tags:")[0]) {
+          dataNumber = j;
+      }
+    }
+
+    txtValue = data[dataNumber].title + data[dataNumber].author;
+
+    // if(data[dataNumber].publishersSummary != undefined){
+    //   txtValue += data[dataNumber].publishersSummary;
+    // }
 
     if (txtValue.toUpperCase().indexOf(filter) > -1) {
       search_data_list.push(filtered_data_list[i]);
@@ -225,8 +255,28 @@ function search_func(){
     }
   }
   filtered_data = '';
-  books_html = '';
-  search_data_list.forEach(search_and_tag_filter);
+  books_html = ' ';
+  for(let i=books_per_page * parseInt(from_url("page"));i<books_per_page*from_url("page")+books_per_page;i){
+    if(search_data_list.length > i) {
+        search_and_tag_filter(search_data_list[i]);
+        i++;
+    }
+    else{
+      i = books_per_page*from_url("page")+books_per_page;
+    }
+  }
+  if(search_data_list.length > books_per_page*(parseInt(from_url("page"))+1)) {
+    document.getElementsByClassName("next_page_btn")[0].style.display = "";
+  }
+  if(0 <= books_per_page*(parseInt(from_url("page"))-1)) {
+    document.getElementsByClassName("previous_page_btn")[0].style.display = "";
+  }
+  if(parseInt(from_url("page")) != 0) {
+    document.getElementsByClassName("first_page_btn")[0].style.display = "";
+  }
+  if(parseInt(from_url("page")) != Math.ceil(search_data_list.length/books_per_page)-1){
+    document.getElementsByClassName("last_page_btn")[0].style.display = "";
+  }
   document.getElementById("book_div").innerHTML = books_html;
 }
 
@@ -239,7 +289,7 @@ function search(e){
   }
 
   if(e.which==13||e.keyCode === 13){
-    window.location.href = url.split('search=')[0] + 'search=' + address;
+    window.location.href = url.split('search=')[0] + 'search=' + address + "&page=0";
     search_func();
   }
   return false;
@@ -249,7 +299,7 @@ function search_format(value){
   search_data += '<li><a href="#">'+value.split("<br>")[0]+'</a></li>';
 }
 
-function search_and_tag_filter(value){
+function search_and_tag_filter(value){ // search data list
   filtered_data += book_blocks[filtered_data_list.indexOf(value)];
   books_html += books_html_list[filtered_data_list.indexOf(value)];
 }
