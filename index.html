@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
   <head>
-
+  <title>Diverifying Reading</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="css/index.css">
   <link rel="icon" href="images/favicon.png">
@@ -13,7 +13,8 @@
 <div class="sidenav_fullScreen" id="sidenav"> <!-- sidenav -->
 
 	<div class="sidenav-text">
-    <input id="input" type="text" onkeypress="search(event)" placeholder="Search by Title or Author" style="width:80%; margin-top:5%;">
+    <input id="input" type="text" onkeypress="search(event)" placeholder="Search by Title, Author, or Summary" style="width:80%; margin-top:5%;">
+
 	  <p id='buttons' class="buttons">Buttons Not Working</p>
     <ul id='search_list'>
         <li><a href="#">Not Working!</a></li>
@@ -24,21 +25,28 @@
 </div>
 
 <div class="topnav" id="topnav">
-  	<div>
-	  <img src='./images/menu_image.png' id="menu_button" class="menu_button_open">
-	</div>
-	<a href='#home'>Home</a>
+  <img src='./images/menu_image.png' id="menu_button" class="menu_button_open" style="float:left">
+  <div class="topnav_text">
+	<a href='#home' class="topnav_text_links" style="float:left;">Home</a>
+  <a href='#home' class="topnav_text_links" style="float:right;">Suggest a Book</a>
+  <a href='#home' class="topnav_text_links" style="float:right;">Resources</a>
+  <a href='#home' class="topnav_text_links" style="float:right;">Catalog</a>
+  </div>
 </div>
 
 <div class="box_pos" id="book_div_position">
 
 <p class="book_div" id="book_div"></p>
-
+<div id="page_buttons" style="padding-top:10px; text-align:center;">
+<p style="margin-top:0px"> <a class="first_page_btn" style="display:none;" onclick="firstPage()">«</a><a class="previous_page_btn" style="display:none;" onclick="previousPage();" style="height:50px"><</a><a class="next_page_btn"
+  style="display:none;" onclick="nextPage();"
+  style="height:50px">></a><a class="last_page_btn" style="display:none;" onclick="lastPage();" style="height:50px">»</a></p>
+</div>
 </div>
 </div>
 <script src='js/book_data.js'></script>
+<script src='js/universal_topnav.js'></script>
 <script src='js/search_tags_filter.js'></script>
 <script src='js/resize.js'></script>
   </body>
-
 </html>
