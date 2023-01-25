@@ -5,11 +5,11 @@ const data = [
         "fantasy": "Y",
         "romance": "Y",
         "prose": "Y",
-        "lgbtqia": " ",
+        "lgbtqia": "Y",
         "bookBibnumber": 833301,
         "ebookBibnumber": 834599,
         "audioBibnumber": 834599,
-        "publishersSummery": "Nirrim endures a grim and punishing life as a Half Caste until she encounters Sid, a rakish traveler from far away who whispers rumors that the High Caste possess magic and tempts Nirrim to seek that magic for herself."
+        "publishersSummary": "Nirrim endures a grim and punishing life as a Half Caste until she encounters Sid, a rakish traveler from far away who whispers rumors that the High Caste possess magic and tempts Nirrim to seek that magic for herself."
     },
     {
         "title": "Thorn",
@@ -21,7 +21,7 @@ const data = [
         "bookBibnumber": 831163,
         "ebookBibnumber": 840014,
         "audioBibnumber": 0,
-        "publishersSummery": "To escape her cruel family and contemptuous court, fifteen-year-old Princess Alyrra is willing to marry Prince Kestrin but when she magically swaps lives her nemesis, she may find happiness as a commoner."
+        "publishersSummary": "To escape her cruel family and contemptuous court, fifteen-year-old Princess Alyrra is willing to marry Prince Kestrin but when she magically swaps lives her nemesis, she may find happiness as a commoner."
     },
     {
         "title": "You Asked For Perfect",
@@ -35,7 +35,7 @@ const data = [
         "bookBibnumber": 779670,
         "ebookBibnumber": 842167,
         "audioBibnumber": 0,
-        "publishersSummery": "Ariel Stone is the perfect college applicant until a failed Calculus quiz sends his grades into a tailspin that can only be halted by a handsome tutor, but adding a burgeoning romance to his other commitments may push Ariel past his limit."
+        "publishersSummary": "Ariel Stone is the perfect college applicant until a failed Calculus quiz sends his grades into a tailspin that can only be halted by a handsome tutor, but adding a burgeoning romance to his other commitments may push Ariel past his limit."
     },
     {
         "title": "They Both Die at the End",
@@ -49,7 +49,7 @@ const data = [
         "bookBibnumber": 675126,
         "ebookBibnumber": 677691,
         "audioBibnumber": 677599,
-        "publishersSummery": "In a near-future New York City where a service alerts people on the day they will die, teenagers Mateo Torrez and Rufus Emeterio meet using the Last Friend app and are faced with the challenge of living a lifetime on their End Day."
+        "publishersSummary": "In a near-future New York City where a service alerts people on the day they will die, teenagers Mateo Torrez and Rufus Emeterio meet using the Last Friend app and are faced with the challenge of living a lifetime on their End Day."
     },
     {
         "title": "Surrender Your Sons",
@@ -63,7 +63,7 @@ const data = [
         "bookBibnumber": 863967,
         "ebookBibnumber": 0,
         "audioBibnumber": 0,
-        "publishersSummery": "Connor Major and other queer teens trapped at a conversion therapy camp work together to escape--and expose the camp's horrible truths"
+        "publishersSummary": "Connor Major and other queer teens trapped at a conversion therapy camp work together to escape--and expose the camp's horrible truths"
     },
     {
         "title": "Honey Girl",
@@ -80,7 +80,7 @@ const data = [
         "bookBibnumber": 893258,
         "ebookBibnumber": 895698,
         "audioBibnumber": 895723,
-        "publishersSummery": "With her newly completed PhD in astronomy in hand, 28-year-old Grace Porter goes on a girls' trip to Vegas to celebrate. She is not the kind of person who goes to Vegas and gets drunkenly married to a woman whose name she doesn't know, until she does exactly that. This one moment of departure from her stern ex-military father's plans for her life has Grace wondering why she doesn't feel more fulfilled from completing her degree. Staggering under the weight of her parent's expectations, Grace flees her home in Portland for a summer in New York with the wife she barely knows. In New York, she's able to ignore all the constant questions about her future plans and falls hard for her creative and beautiful wife, Yuki Yamamoto. But when reality comes crashing in, Grace must face what she's been running from all along, the fears that make us human, the family scars that need to heal and the longing for connection, especially when navigating the messiness of adulthood."
+        "publishersSummary": "With her newly completed PhD in astronomy in hand, 28-year-old Grace Porter goes on a girls' trip to Vegas to celebrate. She is not the kind of person who goes to Vegas and gets drunkenly married to a woman whose name she doesn't know, until she does exactly that. This one moment of departure from her stern ex-military father's plans for her life has Grace wondering why she doesn't feel more fulfilled from completing her degree. Staggering under the weight of her parent's expectations, Grace flees her home in Portland for a summer in New York with the wife she barely knows. In New York, she's able to ignore all the constant questions about her future plans and falls hard for her creative and beautiful wife, Yuki Yamamoto. But when reality comes crashing in, Grace must face what she's been running from all along, the fears that make us human, the family scars that need to heal and the longing for connection, especially when navigating the messiness of adulthood."
     },
     {
         "title": "The Seven Husbands of Evelyn Hugo",
@@ -97,7 +97,7 @@ const data = [
         "bookBibnumber": 655802,
         "ebookBibnumber": 658488,
         "audioBibnumber": 905979,
-        "publishersSummery": "Aging and reclusive Hollywood movie icon Evelyn Hugo is finally ready to tell the truth about her glamorous and scandalous life. But when she chooses unknown magazine reporter Monique Grant for the job, no one in the journalism community is more astounded than Monique herself. Why her? Why now?"
+        "publishersSummary": "Aging and reclusive Hollywood movie icon Evelyn Hugo is finally ready to tell the truth about her glamorous and scandalous life. But when she chooses unknown magazine reporter Monique Grant for the job, no one in the journalism community is more astounded than Monique herself. Why her? Why now?"
     },
     {
         "title": "Wilder Girls",
@@ -111,7 +111,7 @@ const data = [
         "bookBibnumber": 798931,
         "ebookBibnumber": 802718,
         "audioBibnumber": 820982,
-        "publishersSummery": "Friends Hetty, Byatt, and Reece go to extremes trying to uncover the dark truth about the mysterious disease that has had them quarantined at their boarding school on a Maine island"
+        "publishersSummary": "Friends Hetty, Byatt, and Reece go to extremes trying to uncover the dark truth about the mysterious disease that has had them quarantined at their boarding school on a Maine island"
     },
     {
         "title": "All Out",
@@ -125,7 +125,7 @@ const data = [
         "bookBibnumber": 717694,
         "ebookBibnumber": 0,
         "audioBibnumber": 0,
-        "publishersSummery": "Take a journey through time and genres and discover a past where queer figures live, love, and shape the world around them in this collection in which 17 young adult authors across the queer spectrum come together to write diverse historical fiction for teens"
+        "publishersSummary": "Take a journey through time and genres and discover a past where queer figures live, love, and shape the world around them in this collection in which 17 young adult authors across the queer spectrum come together to write diverse historical fiction for teens"
     },
     {
         "title": "The Song of Achilles",
@@ -138,7 +138,7 @@ const data = [
         "bookBibnumber": 774327,
         "ebookBibnumber": 680891,
         "audioBibnumber": 534422,
-        "publishersSummery": "The legend begins... Greece in the age of heroes. Patroclus, an awkward young prince, has been exiled to the kingdom of Phthia to be raised in the shadow of King Peleus and his golden son, Achilles. The best of all the Greeks—strong, beautiful, and the child of a goddess—Achilles is everything the shamed Patroclus is not. Yet despite their differences, the boys become steadfast companions. Their bond deepens as they grow into young men and become skilled in the arts of war and medicine—much to the displeasure and the fury of Achilles' mother, Thetis, a cruel sea goddess with a hatred of mortals. When word comes that Helen of Sparta has been kidnapped, the men of Greece, bound by blood and oath, must lay siege to Troy in her name. Seduced by the promise of a glorious destiny, Achilles joins their cause, and torn between love and fear for his friend, Patroclus follows. Little do they know that the Fates will test them both as never before and demand a terrible sacrifice. Built on the groundwork of the Iliad , Madeline Miller's page-turning, profoundly moving, and blisteringly paced retelling of the epic Trojan War marks the launch of a dazzling career."
+        "publishersSummary": "The legend begins... Greece in the age of heroes. Patroclus, an awkward young prince, has been exiled to the kingdom of Phthia to be raised in the shadow of King Peleus and his golden son, Achilles. The best of all the Greeks—strong, beautiful, and the child of a goddess—Achilles is everything the shamed Patroclus is not. Yet despite their differences, the boys become steadfast companions. Their bond deepens as they grow into young men and become skilled in the arts of war and medicine—much to the displeasure and the fury of Achilles' mother, Thetis, a cruel sea goddess with a hatred of mortals. When word comes that Helen of Sparta has been kidnapped, the men of Greece, bound by blood and oath, must lay siege to Troy in her name. Seduced by the promise of a glorious destiny, Achilles joins their cause, and torn between love and fear for his friend, Patroclus follows. Little do they know that the Fates will test them both as never before and demand a terrible sacrifice. Built on the groundwork of the Iliad , Madeline Miller's page-turning, profoundly moving, and blisteringly paced retelling of the epic Trojan War marks the launch of a dazzling career."
     },
     {
         "title": "Heartstopper",
@@ -152,7 +152,7 @@ const data = [
         "bookBibnumber": 849585,
         "ebookBibnumber": 970268,
         "audioBibnumber": 0,
-        "publishersSummery": "Shy and softhearted Charlie Spring sits next to rugby player Nick Nelson in class one morning. A warm and intimate friendship follows, and that soon develops into something more for Charlie, who doesn't think he has a chance. But Nick is struggling with feelings of his own, and as the two grow closer and take on the ups and downs of high school, they come to understand the surprising and delightful ways in which love works."
+        "publishersSummary": "Shy and softhearted Charlie Spring sits next to rugby player Nick Nelson in class one morning. A warm and intimate friendship follows, and that soon develops into something more for Charlie, who doesn't think he has a chance. But Nick is struggling with feelings of his own, and as the two grow closer and take on the ups and downs of high school, they come to understand the surprising and delightful ways in which love works."
     },
     {
         "title": "Gone to the Woods",
@@ -164,7 +164,7 @@ const data = [
         "bookBibnumber": 872146,
         "ebookBibnumber": 882749,
         "audioBibnumber": 0,
-        "publishersSummery": "In this biography, author Gary Paulsen portrays a series of life-altering moments from his turbulent childhood.] If not for his summer escape from a shockingly neglectful Chicago upbringing to a North Woods homestead at age five, there never would have been a Hatchet. Without the encouragement of the librarian who handed him his first book at age thirteen, he may never have become a reader. And without his desperate teenage enlistment in the Army, he would not have discovered his true calling as a storyteller"
+        "publishersSummary": "In this biography, author Gary Paulsen portrays a series of life-altering moments from his turbulent childhood.] If not for his summer escape from a shockingly neglectful Chicago upbringing to a North Woods homestead at age five, there never would have been a Hatchet. Without the encouragement of the librarian who handed him his first book at age thirteen, he may never have become a reader. And without his desperate teenage enlistment in the Army, he would not have discovered his true calling as a storyteller"
     },
     {
         "title": "Kira-Kira",
@@ -177,7 +177,7 @@ const data = [
         "bookBibnumber": 137243,
         "ebookBibnumber": 0,
         "audioBibnumber": 0,
-        "publishersSummery": "Chronicles the close friendship between two Japanese-American sisters growing up in rural Georgia during the late 1950s and early 1960s, and the despair when one sister becomes terminally ill."
+        "publishersSummary": "Chronicles the close friendship between two Japanese-American sisters growing up in rural Georgia during the late 1950s and early 1960s, and the despair when one sister becomes terminally ill."
     },
     {
         "title": "Loveless",
@@ -189,7 +189,7 @@ const data = [
         "bookBibnumber": 952600,
         "ebookBibnumber": 970319,
         "audioBibnumber": 0,
-        "publishersSummery": "Georgia has parents who are still in love, two sets of grandparents that are still together, and a brother who married his girlfriend, but at eighteen she has never even kissed someone (not even her lesbian best friend, Felipa) or particularly even wanted to; at the prom afterparty she is surrounded by couples making out, and she really does not know what is wrong--but in college she comes to understand herself as asexual/aromantic, and to capture the part of her identity that has always eluded her."
+        "publishersSummary": "Georgia has parents who are still in love, two sets of grandparents that are still together, and a brother who married his girlfriend, but at eighteen she has never even kissed someone (not even her lesbian best friend, Felipa) or particularly even wanted to; at the prom afterparty she is surrounded by couples making out, and she really does not know what is wrong--but in college she comes to understand herself as asexual/aromantic, and to capture the part of her identity that has always eluded her."
     },
     {
         "title": "Red, White & Royal Blue",
@@ -204,7 +204,7 @@ const data = [
         "bookBibnumber": 794811,
         "ebookBibnumber": 808078,
         "audioBibnumber": 808022,
-        "publishersSummery": "What happens when America's First Son falls in love with the Prince of Wales? When his mother became President, Alex Claremont-Diaz was promptly cast as the American equivalent of a young royal. Handsome, charismatic, genius--his image is pure millennial-marketing gold for the White House. There's only one problem: Alex has a beef with the actual prince, Henry, across the pond. And when the tabloids get hold of a photo involving an Alex-Henry altercation, U.S./British relations take a turn for the worse. Heads of family, state, and other handlers devise a plan for damage control: staging a truce between the two rivals. What at first begins as a fake, Instragramable friendship grows deeper, and more dangerous, than either Alex or Henry could have imagined. Soon Alex finds himself hurtling into a secret romance with a surprisingly unstuffy Henry that could derail the campaign and upend two nations and begs the question: Can love save the world after all? Where do we find the courage, and the power, to be the people we are meant to be? And how can we learn to let our true colors shine through?"
+        "publishersSummary": "What happens when America's First Son falls in love with the Prince of Wales? When his mother became President, Alex Claremont-Diaz was promptly cast as the American equivalent of a young royal. Handsome, charismatic, genius--his image is pure millennial-marketing gold for the White House. There's only one problem: Alex has a beef with the actual prince, Henry, across the pond. And when the tabloids get hold of a photo involving an Alex-Henry altercation, U.S./British relations take a turn for the worse. Heads of family, state, and other handlers devise a plan for damage control: staging a truce between the two rivals. What at first begins as a fake, Instragramable friendship grows deeper, and more dangerous, than either Alex or Henry could have imagined. Soon Alex finds himself hurtling into a secret romance with a surprisingly unstuffy Henry that could derail the campaign and upend two nations and begs the question: Can love save the world after all? Where do we find the courage, and the power, to be the people we are meant to be? And how can we learn to let our true colors shine through?"
     },
     {
         "title": "One Last Stop",
@@ -219,7 +219,7 @@ const data = [
         "bookBibnumber": 905575,
         "ebookBibnumber": 910438,
         "audioBibnumber": 910440,
-        "publishersSummery": "Cynical 23-year old August doesn't believe in much. She doesn't believe in psychics, or easily forged friendships, or finding the kind of love they make movies about. And she certainly doesn't believe her ragtag band of new roommates, her night shifts at a 24-hour pancake diner, or her daily subway commute full of electrical outages are going to change that. But then, there's Jane. Beautiful, impossible Jane. All hard edges with a soft smile and swoopy hair and saving August's day when she needed it most. The person August looks forward to seeing on the train every day. The one who makes her forget about the cities she lived in that never seemed to fit, and her fear of what happens when she finally graduates, and even her cold-case obsessed mother who won't quite let her go. And when August realizes her subway crush is impossible in more ways than one, namely, displaced in time from the 1970s, she thinks maybe it's time to start believing."
+        "publishersSummary": "Cynical 23-year old August doesn't believe in much. She doesn't believe in psychics, or easily forged friendships, or finding the kind of love they make movies about. And she certainly doesn't believe her ragtag band of new roommates, her night shifts at a 24-hour pancake diner, or her daily subway commute full of electrical outages are going to change that. But then, there's Jane. Beautiful, impossible Jane. All hard edges with a soft smile and swoopy hair and saving August's day when she needed it most. The person August looks forward to seeing on the train every day. The one who makes her forget about the cities she lived in that never seemed to fit, and her fear of what happens when she finally graduates, and even her cold-case obsessed mother who won't quite let her go. And when August realizes her subway crush is impossible in more ways than one, namely, displaced in time from the 1970s, she thinks maybe it's time to start believing."
     },
     {
         "title": "Six of Crows",
@@ -237,7 +237,7 @@ const data = [
         "bookBibnumber": 540318,
         "ebookBibnumber": 541732,
         "audioBibnumber": 0,
-        "publishersSummery": "Six dangerous outcasts. One impossible heist. Kaz's crew is the only thing that might stand between the world and destruction--if they don't kill each other first"
+        "publishersSummary": "Six dangerous outcasts. One impossible heist. Kaz's crew is the only thing that might stand between the world and destruction--if they don't kill each other first"
     },
     {
         "title": "Girl, Serpent, Thorn",
@@ -250,7 +250,7 @@ const data = [
         "bookBibnumber": 847660,
         "ebookBibnumber": 848166,
         "audioBibnumber": 854648,
-        "publishersSummery": "A captivating and original fairy tale about a girl cursed to be poisonous to the touch, and who discovers what power might lie in such a curse. There was and there was not, as all stories begin, a princess cursed to be poisonous to the touch. But for Soraya, who has lived her life hidden away, apart from her family, safe only in her gardens, it's not just a story. As the day of her twin brother's wedding approaches, Soraya must decide if she's willing to step outside of the shadows for the first time. Below in the dungeon is a demon who holds knowledge that she craves, the answer to her freedom. And above is a young man who isn't afraid of her, whose eyes linger not with fear, but with an understanding of who she is beneath the poison. Soraya thought she knew her place in the world, but when her choices lead to consequences she never imagined, she begins to question who she is and who she is becoming...human or demon. Princess or monster. A Macmillan Audio production from Flatiron Books. \"With crystalline, sometimes sensuous prose, [Bashardoust] digs into her characters' motivations and manipulations, deftly keeping readers on the hook until the final, stunning turn"
+        "publishersSummary": "A captivating and original fairy tale about a girl cursed to be poisonous to the touch, and who discovers what power might lie in such a curse. There was and there was not, as all stories begin, a princess cursed to be poisonous to the touch. But for Soraya, who has lived her life hidden away, apart from her family, safe only in her gardens, it's not just a story. As the day of her twin brother's wedding approaches, Soraya must decide if she's willing to step outside of the shadows for the first time. Below in the dungeon is a demon who holds knowledge that she craves, the answer to her freedom. And above is a young man who isn't afraid of her, whose eyes linger not with fear, but with an understanding of who she is beneath the poison. Soraya thought she knew her place in the world, but when her choices lead to consequences she never imagined, she begins to question who she is and who she is becoming...human or demon. Princess or monster. A Macmillan Audio production from Flatiron Books. \"With crystalline, sometimes sensuous prose, [Bashardoust] digs into her characters' motivations and manipulations, deftly keeping readers on the hook until the final, stunning turn"
     },
     {
         "title": "Looking for Alaska",
@@ -262,7 +262,7 @@ const data = [
         "bookBibnumber": 754266,
         "ebookBibnumber": 489359,
         "audioBibnumber": 830871,
-        "publishersSummery": "First drink. First prank. First friend. First love. Last words. Miles Halter is fascinated by famous last words--and tired of his safe life at home. He leaves for boarding school to seek what the dying poet François Rabelais called the \"Great Perhaps.\" Much awaits Miles at Culver Creek, including Alaska Young, who will pull Miles into her labyrinth and catapult him into the Great Perhaps. Looking for Alaska brilliantly chronicles the indelible impact one life can have on another."
+        "publishersSummary": "First drink. First prank. First friend. First love. Last words. Miles Halter is fascinated by famous last words--and tired of his safe life at home. He leaves for boarding school to seek what the dying poet Francois Rabelais called the \"Great Perhaps.\" Much awaits Miles at Culver Creek, including Alaska Young, who will pull Miles into her labyrinth and catapult him into the Great Perhaps. Looking for Alaska brilliantly chronicles the indelible impact one life can have on another."
     },
     {
         "title": "Lobizona",
@@ -273,7 +273,7 @@ const data = [
         "bookBibnumber": 925886,
         "ebookBibnumber": 970348,
         "audioBibnumber": 897779,
-        "publishersSummery": "As an undocumented immigrant who's on the run, Manu Azul is confined to a small apartment in Miami, Florida. Until Manu's grandmother is attacked, lies are exposed, and her mother is arrested by ICE. Manu investigates the only clue she has about her past, leading her to a secret world buried within our own\""
+        "publishersSummary": "As an undocumented immigrant who's on the run, Manu Azul is confined to a small apartment in Miami, Florida. Until Manu's grandmother is attacked, lies are exposed, and her mother is arrested by ICE. Manu investigates the only clue she has about her past, leading her to a secret world buried within our own."
     },
     {
         "title": "How It Feels to Float",
@@ -286,7 +286,7 @@ const data = [
         "bookBibnumber": 827052,
         "ebookBibnumber": 827052,
         "audioBibnumber": 0,
-        "publishersSummery": "Sixteen-year-old Biz sees her father every day, though he died when she was seven, but when Biz's almost-normal life turns upside-down and her father disappears again, she tumbles into a disaster-land of grief and depression from which she must find her way back"
+        "publishersSummary": "Sixteen-year-old Biz sees her father every day, though he died when she was seven, but when Biz's almost-normal life turns upside-down and her father disappears again, she tumbles into a disaster-land of grief and depression from which she must find her way back"
     },
     {
         "title": "Falling Leaves",
@@ -300,7 +300,7 @@ const data = [
         "bookBibnumber": 785335,
         "ebookBibnumber": 0,
         "audioBibnumber": 0,
-        "publishersSummery": "A courgeous woman's triumph over despair in a lifelong search for acceptance, love, and understanding. Unfolding against a turbulent backdrop of social, political, and cultural upheaval, it is at once a work of heartfelt intimacy and a rare portrait of twentieth-century China."
+        "publishersSummary": "A courgeous woman's triumph over despair in a lifelong search for acceptance, love, and understanding. Unfolding against a turbulent backdrop of social, political, and cultural upheaval, it is at once a work of heartfelt intimacy and a rare portrait of twentieth-century China."
     },
     {
         "title": "Just Mercy",
@@ -314,7 +314,7 @@ const data = [
         "bookBibnumber": 846907,
         "ebookBibnumber": 496146,
         "audioBibnumber": 520328,
-        "publishersSummery": "The founder of the Equal Justice Initiative in Montgomery, Alabama recounts his experiences as a lawyer working to assist those desperately in need, reflecting on his pursuit of the ideal of compassion in American justice."
+        "publishersSummary": "The founder of the Equal Justice Initiative in Montgomery, Alabama recounts his experiences as a lawyer working to assist those desperately in need, reflecting on his pursuit of the ideal of compassion in American justice."
     },
     {
         "title": "The House in the Cerulean Sea",
@@ -328,7 +328,7 @@ const data = [
         "bookBibnumber": 830324,
         "ebookBibnumber": 842236,
         "audioBibnumber": 840945,
-        "publishersSummery": "Linus Baker is a by-the-book case worker in the Department in Charge of Magical Youth. He's tasked with determining whether six dangerous magical children are likely to bring about the end of the world. Arthur Parnassus is the master of the orphanage. He would do anything to keep the children safe, even if it means the world will burn. And his secrets will come to light. The House in the Cerulean Sea is an enchanting love story, masterfully told, about the profound experience of discovering an unlikely family in an unexpected place--and realizing that family is yours."
+        "publishersSummary": "Linus Baker is a by-the-book case worker in the Department in Charge of Magical Youth. He's tasked with determining whether six dangerous magical children are likely to bring about the end of the world. Arthur Parnassus is the master of the orphanage. He would do anything to keep the children safe, even if it means the world will burn. And his secrets will come to light. The House in the Cerulean Sea is an enchanting love story, masterfully told, about the profound experience of discovering an unlikely family in an unexpected place--and realizing that family is yours."
     },
     {
         "title": "We Contain Multitudes",
@@ -341,7 +341,7 @@ const data = [
         "bookBibnumber": 814986,
         "ebookBibnumber": 814986,
         "audioBibnumber": 0,
-        "publishersSummery": "As penpals for a high school English assignment, poetry-loving sophomore Jonathan and popular-athlete senior Adam explore their growing relationship through a series of letters."
+        "publishersSummary": "As penpals for a high school English assignment, poetry-loving sophomore Jonathan and popular-athlete senior Adam explore their growing relationship through a series of letters."
     },
     {
         "title": "Her Royal Highness",
@@ -354,7 +354,7 @@ const data = [
         "bookBibnumber": 808108,
         "ebookBibnumber": 882853,
         "audioBibnumber": 802666,
-        "publishersSummery": "An American girl goes to an exclusive Scottish boarding school where she becomes the roommate, best friend, and girlfriend of a royal princess."
+        "publishersSummary": "An American girl goes to an exclusive Scottish boarding school where she becomes the roommate, best friend, and girlfriend of a royal princess."
     },
     {
         "title": "Upright Women Wanted",
@@ -367,7 +367,7 @@ const data = [
         "bookBibnumber": 825840,
         "ebookBibnumber": 840947,
         "audioBibnumber": 840952,
-        "publishersSummery": "Esther is a stowaway. She's hidden herself away in the Librarian's book wagon in an attempt to escape the marriage her father has arranged for her-a marriage to the man who was previously engaged to her best friend. Her best friend who she was in love with. Her best friend who was just executed for possession of resistance propaganda. The future American Southwest is full of bandits, fascists, and queer librarian spies on horseback trying to do the right thing\"-- Provided by publisher"
+        "publishersSummary": "Esther is a stowaway. She's hidden herself away in the Librarian's book wagon in an attempt to escape the marriage her father has arranged for her-a marriage to the man who was previously engaged to her best friend. Her best friend who she was in love with. Her best friend who was just executed for possession of resistance propaganda. The future American Southwest is full of bandits, fascists, and queer librarian spies on horseback trying to do the right thing\"-- Provided by publisher"
     },
     {
         "title": "The Last True Poets of the Sea",
@@ -380,7 +380,7 @@ const data = [
         "bookBibnumber": 803248,
         "ebookBibnumber": 0,
         "audioBibnumber": 0,
-        "publishersSummery": "Inspired loosely by Shakespeare's Twelfth Night, teenaged Violet is shipped off to Maine after her brother's hospitalization, where she searches for the lost shipwreck that her great-great grandmother survived and for answers about her family's long struggle with mental illness, all while falling in love."
+        "publishersSummary": "Inspired loosely by Shakespeare's Twelfth Night, teenaged Violet is shipped off to Maine after her brother's hospitalization, where she searches for the lost shipwreck that her great-great grandmother survived and for answers about her family's long struggle with mental illness, all while falling in love."
     },
     {
         "title": "Legendborn",
@@ -392,7 +392,7 @@ const data = [
         "bookBibnumber": 850258,
         "ebookBibnumber": 854636,
         "audioBibnumber": 854646,
-        "publishersSummery": "To discover the truth behind her mother's mysterious death, a teen girl infiltrates a magical secret society claiming to be the descendants of King Arthur and his knights\""
+        "publishersSummary": "To discover the truth behind her mother's mysterious death, a teen girl infiltrates a magical secret society claiming to be the descendants of King Arthur and his knights\""
     },
     {
         "title": "I Wish You All the Best",
@@ -405,7 +405,7 @@ const data = [
         "bookBibnumber": 794169,
         "ebookBibnumber": 827020,
         "audioBibnumber": 0,
-        "publishersSummery": "After coming out as nonbinary, Ben must leave home and goes to live with a sister and her husband to finish the last year of high school."
+        "publishersSummary": "After coming out as nonbinary, Ben must leave home and goes to live with a sister and her husband to finish the last year of high school."
     },
     {
         "title": "Children of Blood and Bone",
@@ -417,7 +417,7 @@ const data = [
         "bookBibnumber": 711231,
         "ebookBibnumber": 713957,
         "audioBibnumber": 714013,
-        "publishersSummery": "Seventeen-year-old Zélie, her older brother Tzain, and rogue princess Amari fight to restore magic to the land and activate a new generation of magi, but they are ruthlessly pursued by the crown prince, who believes the return of magic will mean the end of the monarchy."
+        "publishersSummary": "Seventeen-year-old Zélie, her older brother Tzain, and rogue princess Amari fight to restore magic to the land and activate a new generation of magi, but they are ruthlessly pursued by the crown prince, who believes the return of magic will mean the end of the monarchy."
     },
     {
         "title": "The Miseducation of Cameron Post",
@@ -429,7 +429,7 @@ const data = [
         "bookBibnumber": 705443,
         "ebookBibnumber": 475983,
         "audioBibnumber": 0,
-        "publishersSummery": "In the early 1990s, when gay teenager Cameron Post rebels against her conservative Montana ranch town and her family decides she needs to change her ways, she is sent to a gay conversion therapy center."
+        "publishersSummary": "In the early 1990s, when gay teenager Cameron Post rebels against her conservative Montana ranch town and her family decides she needs to change her ways, she is sent to a gay conversion therapy center."
     },
     {
         "title": "Beauty Queens",
@@ -442,7 +442,7 @@ const data = [
         "bookBibnumber": 289501,
         "ebookBibnumber": 518230,
         "audioBibnumber": 482484,
-        "publishersSummery": "When a plane crash strands thirteen teen beauty contestants on a mysterious island, they struggle to survive, to get along with one another, to combat the island's other diabolical occupants, and to learn their dance numbers in case they are rescued in time for the competition."
+        "publishersSummary": "When a plane crash strands thirteen teen beauty contestants on a mysterious island, they struggle to survive, to get along with one another, to combat the island's other diabolical occupants, and to learn their dance numbers in case they are rescued in time for the competition."
     },
     {
         "title": "Aristotle and Dante Discover the Secrets of the Universe",
@@ -458,7 +458,7 @@ const data = [
         "bookBibnumber": 319136,
         "ebookBibnumber": 0,
         "audioBibnumber": 795196,
-        "publishersSummery": "Fifteen-year-old Ari Mendoza is an angry loner with a brother in prison, but when he meets Dante and they become friends, Ari starts to ask questions about himself, his parents, and his family that he has never asked before."
+        "publishersSummary": "Fifteen-year-old Ari Mendoza is an angry loner with a brother in prison, but when he meets Dante and they become friends, Ari starts to ask questions about himself, his parents, and his family that he has never asked before."
     },
     {
         "title": "The Priory of the Orange Tree",
@@ -471,7 +471,7 @@ const data = [
         "bookBibnumber": 777603,
         "ebookBibnumber": 822858,
         "audioBibnumber": 0,
-        "publishersSummery": "The House of Berethnet has ruled Inys for a thousand years. Still unwed, Queen Sabran the Ninth must conceive a daughter to protect her realm from destruction--but assassins are getting closer to her door. Ead Duryan is an outsider at court. Though she has risen to the position of lady-in-waiting, she is loyal to a hidden society of mages. Ead keeps a watchful eye on Sabran, secretly protecting her with forbidden magic. Across the dark sea, Tané has trained to be a dragonrider since she was a child, but is forced to make a choice that could see her life unravel. Meanwhile, the divided East and West refuse to parley, and forces of chaos are rising from their sleep."
+        "publishersSummary": "The House of Berethnet has ruled Inys for a thousand years. Still unwed, Queen Sabran the Ninth must conceive a daughter to protect her realm from destruction--but assassins are getting closer to her door. Ead Duryan is an outsider at court. Though she has risen to the position of lady-in-waiting, she is loyal to a hidden society of mages. Ead keeps a watchful eye on Sabran, secretly protecting her with forbidden magic. Across the dark sea, Tané has trained to be a dragonrider since she was a child, but is forced to make a choice that could see her life unravel. Meanwhile, the divided East and West refuse to parley, and forces of chaos are rising from their sleep."
     },
     {
         "title": "Love From A to Z",
@@ -486,7 +486,7 @@ const data = [
         "bookBibnumber": 795608,
         "ebookBibnumber": 797357,
         "audioBibnumber": 0,
-        "publishersSummery": "Eighteen-year-old Muslims Adam and Zayneb meet in Doha, Qatar, during spring break and fall in love as both struggle to find a way to live their own truths."
+        "publishersSummary": "Eighteen-year-old Muslims Adam and Zayneb meet in Doha, Qatar, during spring break and fall in love as both struggle to find a way to live their own truths."
     },
     {
         "title": "Refugee",
@@ -502,7 +502,7 @@ const data = [
         "bookBibnumber": 665519,
         "ebookBibnumber": 740529,
         "audioBibnumber": 677773,
-        "publishersSummery": "Although separated by continents and decades, Josef, a Jewish boy living in 1930s Nazi Germany; Isabel, a Cuban girl trying to escape the riots and unrest plaguing her country in 1994; and Mahmoud, a Syrian boy in 2015 whose homeland is torn apart by violence and destruction, embark on harrowing journeys in search of refuge, discovering shocking connections that tie their stories together."
+        "publishersSummary": "Although separated by continents and decades, Josef, a Jewish boy living in 1930s Nazi Germany; Isabel, a Cuban girl trying to escape the riots and unrest plaguing her country in 1994; and Mahmoud, a Syrian boy in 2015 whose homeland is torn apart by violence and destruction, embark on harrowing journeys in search of refuge, discovering shocking connections that tie their stories together."
     },
     {
         "title": "Indivisible",
@@ -520,124 +520,134 @@ const data = [
         "bookBibnumber": 901554,
         "ebookBibnumber": 0,
         "audioBibnumber": 0,
-        "publishersSummery": "New York City high school student Mateo dreams of becoming a Broadway star, but his life is transformed after his parents are deported to Mexico."
+        "publishersSummary": "New York City high school student Mateo dreams of becoming a Broadway star, but his life is transformed after his parents are deported to Mexico."
     },
     {
         "title": "Color Me In",
         "author": "Natasha E. Diaz",
         "fiction": "Y",
+        "prose": "Y",
         "africanamericanOrBlack": "Y",
         "jewish": "Y",
         "bookBibnumber": 954430,
         "ebookBibnumber": 0,
         "audioBibnumber": 0,
-        "publishersSummery": "Fifteen-year-old Nevaeh Levitz is torn between two worlds, passing for white while living in Harlem, being called Jewish while attending her mother's Baptist church, and experiencing first love while watching her parents' marriage crumble."
+        "publishersSummary": "Fifteen-year-old Nevaeh Levitz is torn between two worlds, passing for white while living in Harlem, being called Jewish while attending her mother's Baptist church, and experiencing first love while watching her parents' marriage crumble."
     },
     {
         "title": "It's a Whole Spiel",
         "author": "Katherine Locke, Laura Silverman",
         "fiction": "Y",
+        "prose": "Y",
         "ownvoices": "Y",
         "jewish": "Y",
         "bookBibnumber": 954401,
         "ebookBibnumber": 897742,
         "audioBibnumber": 0,
-        "publishersSummery": "From stories of confronting their relationships with Judaism to rom-coms with a side of bagels and lox, It's a Whole Spiel features one story after another that says yes, we are Jewish, but we are also queer, and disabled, and creative, and political, and adventurous, and anything we want to be"
+        "publishersSummary": "rom stories of confronting their relationships with Judaism to rom-coms with a side of bagels and lox, It's a Whole Spiel features one story after another that says yes, we are Jewish, but we are also queer, and disabled, and creative, and political, and adventurous, and anything we want to be"
     },
     {
         "title": "Once More with Chutzpah",
         "author": "Haley Neil",
         "fiction": "Y",
         "romance": "Y",
+        "prose": "Y",
         "lgbtqia": "Y",
         "ownvoices": "Y",
         "jewish": "Y",
         "bookBibnumber": 973663,
         "ebookBibnumber": 0,
         "audioBibnumber": 0,
-        "publishersSummery": "Anxious eighteen-year-old Tally and her twin Max set off on a whirlwind high school exchange trip to Israel where she grapples with her Jewish identity, mental health, and sexuality."
+        "publishersSummary": "Anxious eighteen-year-old Tally and her twin Max set off on a whirlwind high school exchange trip to Israel where she grapples with her Jewish identity, mental health, and sexuality."
     },
     {
         "title": "Dear Rachel Maddow",
         "author": "Adrienne Kisner",
         "fiction": "Y",
+        "prose": "Y",
         "lgbtqia": "Y",
         "mentalhealth": "Y",
         "bookBibnumber": 732591,
         "ebookBibnumber": 0,
         "audioBibnumber": 0,
-        "publishersSummery": "Brynn Harper writes unsent e-mails to her favorite news anchor as she deals with a breakup with her first girlfriend, her parents' dysfunctions, and the death of her older brother."
+        "publishersSummary": "Brynn Harper writes unsent e-mails to her favorite news anchor as she deals with a breakup with her first girlfriend, her parents' dysfunctions, and the death of her older brother."
     },
     {
         "title": "Winning",
         "author": "Lara Deloza",
         "fiction": "Y",
         "romance": "Y",
+        "prose": "Y",
         "lgbtqia": "Y",
         "wlwOrNblw": "Y",
         "bookBibnumber": "18801166&db=3213",
         "ebookBibnumber": 0,
         "audioBibnumber": 0,
-        "publishersSummery": "Who ever said being nice would get you to the top? Certainly not Alexandra Miles. She isn't nice, but she's more than skilled at playing the part. She's queen of Spencer High, effortlessly orchestrating the actions of everyone around her, making them bend to her whim without noticing what they are doing. Alexandra's first step to achieving total domination is to become Homecoming Queen--so when peppy, popular Erin Hewett moves to town and seems to have a real shot at the crown, Alexandra has to take action. With the help of her trusted friend Sam, she decides to introduce a third competitor into the mix--one no one saw coming, one whose meteoric rise and devastating fall will destroy Erin's chances once and for all. Alexandra can run a scheme like this in her sleep. What could possibly go wrong?"
+        "publishersSummary": "Who ever said being nice would get you to the top? Certainly not Alexandra Miles. She isn't nice, but she's more than skilled at playing the part. She's queen of Spencer High, effortlessly orchestrating the actions of everyone around her, making them bend to her whim without noticing what they are doing. Alexandra's first step to achieving total domination is to become Homecoming Queen--so when peppy, popular Erin Hewett moves to town and seems to have a real shot at the crown, Alexandra has to take action. With the help of her trusted friend Sam, she decides to introduce a third competitor into the mix--one no one saw coming, one whose meteoric rise and devastating fall will destroy Erin's chances once and for all. Alexandra can run a scheme like this in her sleep. What could possibly go wrong?"
     },
     {
         "title": "Trell",
         "author": "Dick Lher",
         "fiction": "Y",
         "mysteryHorror": "Y",
+        "prose": "Y",
         "africanamericanOrBlack": "Y",
         "ownvoices": "Y",
         "bookBibnumber": 677355,
         "ebookBibnumber": 0,
         "audioBibnumber": 0,
-        "publishersSummery": "Determined to clear her father of the wrongful conviction for a gang-related crossfire death, thirteen-year-old Trell persuades a reporter and a lawyer to investigate the case and uncover the truth."
+        "publishersSummary": "Determined to clear her father of the wrongful conviction for a gang-related crossfire death, thirteen-year-old Trell persuades a reporter and a lawyer to investigate the case and uncover the truth."
     },
     {
         "title": "Drag Teen",
         "author": "Jeffery Self",
         "fiction": "Y",
         "romance": "Y",
+        "prose": "Y",
         "lgbtqia": "Y",
         "ownvoices": "Y",
         "bookBibnumber": 585610,
         "ebookBibnumber": 840202,
         "audioBibnumber": 0,
-        "publishersSummery": "JT is a gay high school senior determined to get out of Clearwater, Florida, and be the first person in his family to go to college, even though he can not figure out how to pay for it--until his friends convince him to compete in a drag teen competition where the first prize is a college scholarship."
+        "publishersSummary": "JT is a gay high school senior determined to get out of Clearwater, Florida, and be the first person in his family to go to college, even though he can not figure out how to pay for it--until his friends convince him to compete in a drag teen competition where the first prize is a college scholarship."
     },
     {
         "title": "City of Saints & Thieves",
         "author": "Natalie C. Anderson",
         "fiction": "Y",
         "mysteryHorror": "Y",
+        "prose": "Y",
         "africanamericanOrBlack": "Y",
         "ownvoices": "Y",
         "bookBibnumber": 633462,
         "ebookBibnumber": 636588,
         "audioBibnumber": 656942,
-        "publishersSummery": "Sixteen-year-old Tina and two friends leave Kenya and slip into the Congo, from where she and her mother fled years before, seeking revenge for her mother's murder but uncovering startling secrets."
+        "publishersSummary": "Sixteen-year-old Tina and two friends leave Kenya and slip into the Congo, from where she and her mother fled years before, seeking revenge for her mother's murder but uncovering startling secrets."
     },
     {
         "title": "Allegedly",
         "author": "Tiffany D. Jackson",
         "fiction": "Y",
+        "prose": "Y",
         "africanamericanOrBlack": "Y",
         "ownvoices": "Y",
         "bookBibnumber": 633854,
         "ebookBibnumber": 666576,
         "audioBibnumber": 0,
-        "publishersSummery": "When Mary, a teenager living in a group home, becomes pregnant, authorities take another look at the crime for which Mary was convicted when she was nine years old."
+        "publishersSummary": "When Mary, a teenager living in a group home, becomes pregnant, authorities take another look at the crime for which Mary was convicted when she was nine years old."
     },
     {
         "title": "She Gets the Girl",
         "author": "Rachael Lippincott, Alyson Derrick",
         "fiction": "Y",
+        "prose": "Y",
         "aapi": "Y",
         "lgbtqia": "Y",
         "wlwOrNblw": "Y",
         "bookBibnumber": 958814,
         "ebookBibnumber": 970375,
         "audioBibnumber": 0,
-        "publishersSummery": "Alex Blackwood is really good at getting the girl she wants, but coming from a broken home with an alcoholic mother she finds committment difficult, even when she thinks she is in love; impossibly awkward Molly Parker has a crush on the cool Cora Myers, but she does not know how to even start a conversation, much less make a connection; now they are all at college in Pittsburgh Alex decides to 'help' Molly get the girl, while proving to her own flame that she is not just totally selfish--but things do not work out as the two have planned"
+        "publishersSummary": "Alex Blackwood is really good at getting the girl she wants, but coming from a broken home with an alcoholic mother she finds committment difficult, even when she thinks she is in love; impossibly awkward Molly Parker has a crush on the cool Cora Myers, but she does not know how to even start a conversation, much less make a connection; now they are all at college in Pittsburgh Alex decides to 'help' Molly get the girl, while proving to her own flame that she is not just totally selfish--but things do not work out as the two have planned"
     },
     {
         "title": "Miss Meteor",
@@ -645,139 +655,151 @@ const data = [
         "fantasy": "Y",
         "fiction": "Y",
         "romance": "Y",
+        "prose": "Y",
         "latinx": "Y",
         "lgbtqia": "Y",
         "trans": "Y",
         "bookBibnumber": 854158,
         "ebookBibnumber": 0,
         "audioBibnumber": 0,
-        "publishersSummery": "There hasn't been a winner of the Miss Meteor beauty pageant who looks like Lita Perez or Chicky Quintanilla in all its history. But that's not the only reason Lita wants to enter the contest, or her ex-best friend Chicky wants to help her. The road to becoming Miss Meteor isn't about being perfect; it's about sharing who you are with the world, and loving the parts of yourself no one else understands. So to pull off the unlikeliest underdog story in pageant history, Lita and Chicky are going to have to forget the past and imagine a future where girls like them are more than enough--they are everything."
+        "publishersSummary": "There hasn't been a winner of the Miss Meteor beauty pageant who looks like Lita Perez or Chicky Quintanilla in all its history. But that's not the only reason Lita wants to enter the contest, or her ex-best friend Chicky wants to help her. The road to becoming Miss Meteor isn't about being perfect; it's about sharing who you are with the world, and loving the parts of yourself no one else understands. So to pull off the unlikeliest underdog story in pageant history, Lita and Chicky are going to have to forget the past and imagine a future where girls like them are more than enough--they are everything."
     },
     {
         "title": "A Very Large Expanse of Sea",
         "author": "Tahereh Mafi",
         "fiction": "Y",
         "historicalfiction": "Y",
+        "prose": "Y",
         "ownvoices": "Y",
         "muslim": "Y",
         "bookBibnumber": 749817,
         "ebookBibnumber": 0,
         "audioBibnumber": 785045,
-        "publishersSummery": "It's 2002, a year after 9/11. It's an extremely turbulent time politically, but especially so for someone like Shirin, a sixteen-year-old Muslim girl who's tired of being stereotyped. Shirin is never surprised by how horrible people can be. She's tired of the rude stares, the degrading comments--even the physical violence--she endures as a result of her race, her religion, and the hijab she wears every day. So she's built up protective walls and refuses to let anyone close enough to hurt her. Instead, she drowns her frustrations in music and spends her afternoons break-dancing with her brother. But then she meets Ocean James. He's the first person in forever who really seems to want to get to know Shirin. It terrifies her--they seem to come from two irreconcilable worlds--and Shirin has had her guard up for so long that she's not sure she'll ever be able to let it down."
+        "publishersSummary": "It's 2002, a year after 9/11. It's an extremely turbulent time politically, but especially so for someone like Shirin, a sixteen-year-old Muslim girl who's tired of being stereotyped. Shirin is never surprised by how horrible people can be. She's tired of the rude stares, the degrading comments--even the physical violence--she endures as a result of her race, her religion, and the hijab she wears every day. So she's built up protective walls and refuses to let anyone close enough to hurt her. Instead, she drowns her frustrations in music and spends her afternoons break-dancing with her brother. But then she meets Ocean James. He's the first person in forever who really seems to want to get to know Shirin. It terrifies her--they seem to come from two irreconcilable worlds--and Shirin has had her guard up for so long that she's not sure she'll ever be able to let it down."
     },
     {
         "title": "Not My Problem",
         "author": "Ciara Smyth",
         "fiction": "Y",
         "romance": "Y",
+        "prose": "Y",
         "lgbtqia": "Y",
         "wlwOrNblw": "Y",
         "bookBibnumber": 907186,
         "ebookBibnumber": 0,
         "audioBibnumber": 0,
-        "publishersSummery": "In this witty and engaging novel, Irish author Smyth creates a flawed teen girl, Aideen, who makes a credible journey from self-protectively tough to ready and willing to face her main problem: her single mother's neglectful alcoholism."
+        "publishersSummary": "In this witty and engaging novel, Irish author Smyth creates a flawed teen girl, Aideen, who makes a credible journey from self-protectively tough to ready and willing to face her main problem: her single mother's neglectful alcoholism."
     },
     {
         "title": "A Land of Permanent Goodbyes",
         "author": "Atia Abawi",
         "fiction": "Y",
         "historicalfiction": "Y",
+        "prose": "Y",
         "arabOrArabamerican": "Y",
         "migrantstories": "Y",
         "muslim": "Y",
         "bookBibnumber": 703434,
         "ebookBibnumber": 0,
         "audioBibnumber": 0,
-        "publishersSummery": "After their home in Syria is bombed, Tareq, his father, and his younger sister seek refuge, first with extended family in Raqqa, a stronghold for the militant group, Daesh, and then abroad."
+        "publishersSummary": "After their home in Syria is bombed, Tareq, his father, and his younger sister seek refuge, first with extended family in Raqqa, a stronghold for the militant group, Daesh, and then abroad."
     },
     {
         "title": "The Gilded Ones",
         "author": "Namina Forna",
         "fantasy": "Y",
         "fiction": "Y",
+        "prose": "Y",
         "africanamericanOrBlack": "Y",
         "ownvoices": "Y",
         "bookBibnumber": 897485,
         "ebookBibnumber": 970386,
         "audioBibnumber": 901790,
-        "publishersSummery": "Namina Forna Could Be The Toni Morrison Of YA Fantasy.\"'Refinery 29 \"An enthralling debut. The Gilded Ones redefines sisterhood and is sure to leave readers both inspired and ultimately hopeful.\" 'Stephanie Garber, #1 New York Times bestselling author of Caraval \"The Gilded Ones is a fierce, unflinching fantasy that marks Forna as a debut to watch.\"'Kiersten White, New York Times bestselling author of And I Darken The start of a bold and immersive West African-inspired, feminist fantasy series for fans of Children of Blood and Bone and Black Panther. In this world, girls are outcasts by blood and warriors by choice. Sixteen-year-old Deka lives in fear and anticipation of the blood ceremony that will determine whether she will become a member of her village. Already different from everyone else because of her unnatural intuition, Deka prays for red blood so she can finally feel like she belongs. But on the day of the ceremony, her blood runs gold, the color of impurity-and Deka knows she will face a consequence worse than death. Then a mysterious woman comes to her with a choice: stay in the village and submit to her fate, or leave to fight for the emperor in an army of girls just like her. They are called alaki-near-immortals with rare gifts. And they are the only ones who can stop the empire's greatest threat. Knowing the dangers that lie ahead yet yearning for acceptance, Deka decides to leave the only life she's ever known. But as she journeys to the capital to train for the biggest battle of her life, she will discover that the great walled city holds many surprises. Nothing and no one are quite what they seem to be-not even Deka herself"
+        "publishersSummary": "Namina Forna Could Be The Toni Morrison Of YA Fantasy.\"'Refinery 29 \"An enthralling debut. The Gilded Ones redefines sisterhood and is sure to leave readers both inspired and ultimately hopeful.\" 'Stephanie Garber, #1 New York Times bestselling author of Caraval \"The Gilded Ones is a fierce, unflinching fantasy that marks Forna as a debut to watch.\"'Kiersten White, New York Times bestselling author of And I Darken The start of a bold and immersive West African-inspired, feminist fantasy series for fans of Children of Blood and Bone and Black Panther. In this world, girls are outcasts by blood and warriors by choice. Sixteen-year-old Deka lives in fear and anticipation of the blood ceremony that will determine whether she will become a member of her village. Already different from everyone else because of her unnatural intuition, Deka prays for red blood so she can finally feel like she belongs. But on the day of the ceremony, her blood runs gold, the color of impurity-and Deka knows she will face a consequence worse than death. Then a mysterious woman comes to her with a choice: stay in the village and submit to her fate, or leave to fight for the emperor in an army of girls just like her. They are called alaki-near-immortals with rare gifts. And they are the only ones who can stop the empire's greatest threat. Knowing the dangers that lie ahead yet yearning for acceptance, Deka decides to leave the only life she's ever known. But as she journeys to the capital to train for the biggest battle of her life, she will discover that the great walled city holds many surprises. Nothing and no one are quite what they seem to be-not even Deka herself"
     },
     {
         "title": "The Love Curse of Melody McIntyre",
         "author": "Robin Talley",
         "fiction": "Y",
+        "prose": "Y",
         "lgbtqia": "Y",
         "wlwOrNblw": "Y",
         "bookBibnumber": 881121,
         "ebookBibnumber": 901805,
         "audioBibnumber": 0,
-        "publishersSummery": "Melody McIntyre, stage manager extraordinaire, has a plan for everything. What she doesn't have? Success with love. Every time she falls for someone during a school performance, both the romance and the show end in catastrophe. So, Mel swears off any entanglements until their upcoming production of Les Mis is over. Of course, Mel didn't count on Odile Rose, rising star in the acting world, auditioning for the spring performance. And she definitely didn't expect Odile to be sweet and funny, and care as much about the play's success as Mel. Which means that Melody McIntyre's only plan now is trying desperately not to fall in love."
+        "publishersSummary": "Melody McIntyre, stage manager extraordinaire, has a plan for everything. What she doesn't have? Success with love. Every time she falls for someone during a school performance, both the romance and the show end in catastrophe. So, Mel swears off any entanglements until their upcoming production of Les Mis is over. Of course, Mel didn't count on Odile Rose, rising star in the acting world, auditioning for the spring performance. And she definitely didn't expect Odile to be sweet and funny, and care as much about the play's success as Mel. Which means that Melody McIntyre's only plan now is trying desperately not to fall in love."
     },
     {
         "title": "Required Reading for the Disenfranchised Freshman",
         "author": "Kristen R. Lee",
         "fiction": "Y",
+        "prose": "Y",
         "africanamericanOrBlack": "Y",
         "bookBibnumber": 948681,
         "ebookBibnumber": 0,
         "audioBibnumber": 0,
-        "publishersSummery": "Upon arriving at the prestigious Wooddale University, seventeen-year-old Savannah Howard comes face-to-face with microaggressions and outright racism--but if she stands up for justice, will she endanger her future?"
+        "publishersSummary": "Upon arriving at the prestigious Wooddale University, seventeen-year-old Savannah Howard comes face-to-face with microaggressions and outright racism--but if she stands up for justice, will she endanger her future?"
     },
     {
         "title": "The New Girl",
         "author": "Jesse Q. Sutanto",
         "fiction": "Y",
         "mysteryHorror": "Y",
+        "prose": "Y",
         "aapi": "Y",
         "ownvoices": "Y",
         "bookBibnumber": 955514,
         "ebookBibnumber": 970274,
         "audioBibnumber": 951332,
-        "publishersSummery": "A transfer student and scholarship recipient, sophomore Lia Setiawan is angered when she discovers a cheating ring, but by the time she finds a dead body and shuts down the campus drug dealer, she fears she might be the biggest snake in the Draycott Academy nest of vipers."
+        "publishersSummary": "A transfer student and scholarship recipient, sophomore Lia Setiawan is angered when she discovers a cheating ring, but by the time she finds a dead body and shuts down the campus drug dealer, she fears she might be the biggest snake in the Draycott Academy nest of vipers."
     },
     {
         "title": "Patron Saints of Nothing",
         "author": "Randy Ribay",
         "fiction": "Y",
+        "prose": "Y",
         "aapi": "Y",
         "bookBibnumber": 797616,
         "ebookBibnumber": 827084,
         "audioBibnumber": 845094,
-        "publishersSummery": "When seventeen-year-old Jay Reguero learns his Filipino cousin and former best friend, Jun, was murdered as part of President Duterte's war on drugs, he flies to the Philippines to learn more."
+        "publishersSummary": "When seventeen-year-old Jay Reguero learns his Filipino cousin and former best friend, Jun, was murdered as part of President Duterte's war on drugs, he flies to the Philippines to learn more."
     },
     {
         "title": "Charming as a Verb",
         "author": "Ben Philippe",
         "fiction": "Y",
         "romance": "Y",
+        "prose": "Y",
         "africanamericanOrBlack": "Y",
         "bookBibnumber": 854154,
         "ebookBibnumber": 0,
         "audioBibnumber": 0,
-        "publishersSummery": "Henri 'Halti' Haltiwanger can charm just about anyone. He is a star debater and popular student at the prestigious FATE academy, the dutiful first-generation Haitian son, and the trusted dog walker for his wealthy New York City neighbors. But his easy smiles mask a burning ambition to attend his dream college, Columbia University. There is only one person who seems immune to Henri's charms: his 'intense' classmate and neighbor Corinne Troy. When she uncovers Henri's less-than-honest dog-walking scheme, she blackmails him into helping her change her image at school"
+        "publishersSummary": "Henri 'Halti' Haltiwanger can charm just about anyone. He is a star debater and popular student at the prestigious FATE academy, the dutiful first-generation Haitian son, and the trusted dog walker for his wealthy New York City neighbors. But his easy smiles mask a burning ambition to attend his dream college, Columbia University. There is only one person who seems immune to Henri's charms: his 'intense' classmate and neighbor Corinne Troy. When she uncovers Henri's less-than-honest dog-walking scheme, she blackmails him into helping her change her image at school"
     },
     {
         "title": "The Big Lie",
         "author": "Julie Mayhew",
         "fiction": "Y",
         "dystopian": "Y",
+        "prose": "Y",
         "lgbtqia": "Y",
         "wlwOrNblw": "Y",
         "bookBibnumber": 691174,
         "ebookBibnumber": 0,
         "audioBibnumber": 0,
-        "publishersSummery": "In an alternate-world modern England under Nazi rule, sheltered teen Jessika Keller questions what it means to be good when she develops an attraction for her best friend, Clementine, an outspoken, radical girl who has drawn the attention of the Nazi regime."
+        "publishersSummary": "In an alternate-world modern England under Nazi rule, sheltered teen Jessika Keller questions what it means to be good when she develops an attraction for her best friend, Clementine, an outspoken, radical girl who has drawn the attention of the Nazi regime."
     },
     {
         "title": "Can't Take That Away",
         "author": "Steven Salvatore",
         "fiction": "Y",
+        "prose": "Y",
         "lgbtqia": "Y",
         "nonbinairygenderfluid": "Y",
         "bookBibnumber": 884847,
         "ebookBibnumber": 897798,
         "audioBibnumber": 0,
-        "publishersSummery": "When Carey Parker, a genderqueer teen who dreams of being a diva like their hero Mariah Carey, is cast as the female lead in the school musical, they must fight against discrimination and injustice from their closed-minded school administration."
+        "publishersSummary": "When Carey Parker, a genderqueer teen who dreams of being a diva like their hero Mariah Carey, is cast as the female lead in the school musical, they must fight against discrimination and injustice from their closed-minded school administration."
     },
     {
         "title": "Witches Steeped in Gold",
@@ -789,29 +811,31 @@ const data = [
         "bookBibnumber": 894536,
         "ebookBibnumber": 0,
         "audioBibnumber": 0,
-        "publishersSummery": "Two enemy witches must enter into a deadly alliance to take down a tyrant who threatens both their worlds--with unpredictable results"
+        "publishersSummary": "Two enemy witches must enter into a deadly alliance to take down a tyrant who threatens both their worlds--with unpredictable results"
     },
     {
         "title": "A Song of Wraiths and Ruin",
         "author": "Roseanne A. Brown",
         "fantasy": "Y",
         "fiction": "Y",
+        "prose": "Y",
         "africanamericanOrBlack": "Y",
         "bookBibnumber": 841001,
         "ebookBibnumber": 854649,
         "audioBibnumber": 0,
-        "publishersSummery": "For Malik, the Solstasia festival is a chance to escape his war-stricken home and start a new life with his sisters in the prosperous desert city of Ziran. But when a vengeful spirit abducts his younger sister Nadia as payment to enter the city, Malik strikes a fatal deal: kill Karina, crown princess of Ziran, in exchange for Nadia's freedom"
+        "publishersSummary": "For Malik, the Solstasia festival is a chance to escape his war-stricken home and start a new life with his sisters in the prosperous desert city of Ziran. But when a vengeful spirit abducts his younger sister Nadia as payment to enter the city, Malik strikes a fatal deal: kill Karina, crown princess of Ziran, in exchange for Nadia's freedom"
     },
     {
         "title": "Perfect on Paper",
         "author": "Sophie Gonzales",
         "fiction": "Y",
         "romance": "Y",
+        "prose": "Y",
         "lgbtqia": "Y",
         "bookBibnumber": 938804,
         "ebookBibnumber": 963244,
         "audioBibnumber": 0,
-        "publishersSummery": "Seventeen-year-old Darcy Phillips, a bisexual girl who gives anonymous love advice to her classmates, is hired by the \"hot\" guy at school to help him get his ex back."
+        "publishersSummary": "Seventeen-year-old Darcy Phillips, a bisexual girl who gives anonymous love advice to her classmates, is hired by the \"hot\" guy at school to help him get his ex back."
     },
     {
         "title": "The Girl Who Fell Beneath the Sea",
@@ -819,11 +843,12 @@ const data = [
         "fantasy": "Y",
         "fiction": "Y",
         "mythology": "Y",
+        "prose": "Y",
         "aapi": "Y",
         "bookBibnumber": 952603,
         "ebookBibnumber": 970333,
         "audioBibnumber": 970279,
-        "publishersSummery": "In this retelling of the Korean legend The tale of Shim Cheong, sixteen-year-old Mina is swept away to the Spirit Realm, where, assisted by a motley crew of demons, gods, and lesser spirits, she sets out to awaken the sleeping Sea God and save her homeland and family from deadly storms."
+        "publishersSummary": "In this retelling of the Korean legend The tale of Shim Cheong, sixteen-year-old Mina is swept away to the Spirit Realm, where, assisted by a motley crew of demons, gods, and lesser spirits, she sets out to awaken the sleeping Sea God and save her homeland and family from deadly storms."
     },
     {
         "title": "The Lost Dreamer ",
@@ -831,12 +856,13 @@ const data = [
         "fantasy": "Y",
         "fiction": "Y",
         "mythology": "Y",
+        "prose": "Y",
         "latinx": "Y",
         "nativeamerican": "Y",
         "bookBibnumber": 952585,
         "ebookBibnumber": 0,
         "audioBibnumber": 0,
-        "publishersSummery": "In this fantasy inspired by ancient Mesoamerica, a lineage of seers defiantly resists the shifting patriarchal state that would see them destroyed."
+        "publishersSummary": "In this fantasy inspired by ancient Mesoamerica, a lineage of seers defiantly resists the shifting patriarchal state that would see them destroyed."
     },
     {
         "title": "A Magic Steeped in Poison",
@@ -844,33 +870,36 @@ const data = [
         "fantasy": "Y",
         "fiction": "Y",
         "mythology": "Y",
+        "prose": "Y",
         "aapi": "Y",
         "bookBibnumber": 955502,
         "ebookBibnumber": 970223,
         "audioBibnumber": 958663,
-        "publishersSummery": "Ning enters a cutthroat magical competition to find the kingdom's greatest master of the art of brewing tea, but political schemes and secrets make her goal of gaining access to royal physicians to cure her dying sister far more dangerous than she imagined."
+        "publishersSummary": "Ning enters a cutthroat magical competition to find the kingdom's greatest master of the art of brewing tea, but political schemes and secrets make her goal of gaining access to royal physicians to cure her dying sister far more dangerous than she imagined."
     },
     {
         "title": "The Summer of Bitter and Sweet",
         "author": "Jenny Ferguson",
         "fiction": "Y",
+        "prose": "Y",
         "nativeamerican": "Y",
         "bookBibnumber": 968451,
         "ebookBibnumber": 0,
         "audioBibnumber": 0,
-        "publishersSummery": "Lou has enough confusion in front of her this summer. She'll be working in her family's ice-cream shack with her newly ex-boyfriend--whose kisses never made her feel desire, only discomfort--and her former best friend King, who is back in their Canadian prairie town after disappearing three years ago without a word. But when she gets a letter from her biological father--a man she hoped would stay behind bars for the rest of his life--Lou immediately knows that she cannot meet him, no matter how much he insists. While King's friendship makes Lou feel safer and warmer than she would have thought possible, when her family's business comes under threat she soon realizes that she can't ignore her father forever"
+        "publishersSummary": "Lou has enough confusion in front of her this summer. She'll be working in her family's ice-cream shack with her newly ex-boyfriend--whose kisses never made her feel desire, only discomfort--and her former best friend King, who is back in their Canadian prairie town after disappearing three years ago without a word. But when she gets a letter from her biological father--a man she hoped would stay behind bars for the rest of his life--Lou immediately knows that she cannot meet him, no matter how much he insists. While King's friendship makes Lou feel safer and warmer than she would have thought possible, when her family's business comes under threat she soon realizes that she can't ignore her father forever"
     },
     {
         "title": "Home Field Advantage",
         "author": "Dahlia Adler",
         "fiction": "Y",
         "romance": "Y",
+        "prose": "Y",
         "lgbtqia": "Y",
         "wlwOrNblw": "Y",
         "bookBibnumber": 965412,
         "ebookBibnumber": 970245,
         "audioBibnumber": 0,
-        "publishersSummery": "Amber McCloud's dream is to become cheer captain at the end of the year, but after the football team's quarterback dies in an accident and is replaced by a girl, Amber knows she should work against this unliked Jaclyn to keep her cheer status but the two fall for each other"
+        "publishersSummary": "Amber McCloud's dream is to become cheer captain at the end of the year, but after the football team's quarterback dies in an accident and is replaced by a girl, Amber knows she should work against this unliked Jaclyn to keep her cheer status but the two fall for each other"
     },
     {
         "title": "The Red Palace",
@@ -878,61 +907,66 @@ const data = [
         "fiction": "Y",
         "historicalfiction": "Y",
         "mysteryHorror": "Y",
+        "prose": "Y",
         "aapi": "Y",
         "bookBibnumber": 950001,
         "ebookBibnumber": 951294,
         "audioBibnumber": 951325,
-        "publishersSummery": "While investigating a series of grisly murders, eighteen-year-old palace nurse Hyeon navigates royal and political intrigue and becomes entangled with a young police inspector."
+        "publishersSummary": "While investigating a series of grisly murders, eighteen-year-old palace nurse Hyeon navigates royal and political intrigue and becomes entangled with a young police inspector."
     },
     {
         "title": "All That's Left in the World",
         "author": "Erik J. Brown",
         "fiction": "Y",
         "dystopian": "Y",
+        "prose": "Y",
         "lgbtqia": "Y",
         "mlmOrNblm": "Y",
         "bookBibnumber": 956049,
         "ebookBibnumber": 970392,
         "audioBibnumber": 0,
-        "publishersSummery": "Putting their trust in one another, two boys, Andrew and Jamie, search for civilization in a world ravaged by a deadly pathogen, but their secrets could cost them everything as they try to find the courage to fight for the future, together."
+        "publishersSummary": "Putting their trust in one another, two boys, Andrew and Jamie, search for civilization in a world ravaged by a deadly pathogen, but their secrets could cost them everything as they try to find the courage to fight for the future, together."
     },
     {
         "title": "She Drives Me Crazy",
         "author": "Kelly Quindlen",
         "fiction": "Y",
         "romance": "Y",
+        "prose": "Y",
         "lgbtqia": "Y",
         "wlwOrNblw": "Y",
         "bookBibnumber": 938800,
         "ebookBibnumber": 970371,
         "audioBibnumber": 0,
-        "publishersSummery": "After an embarrassing loss to her ex-girlfriend in their first basketball game of the season, Scottie Zajac gets into a fender bender with the worst possible person: her nemesis, Irene Abraham, who is as beautiful as she is mean. When the damage sends Irene's car to the shop for weeks' worth of repairs, the girls are forced to carpool for the foreseeable future. Their rocky start only gets bumpier the more time they spend together. But when an opportunity presents itself for Scottie to get back at her toxic ex (and climb their school's social ladder at the same time), she bribes Irene into playing along."
+        "publishersSummary": "After an embarrassing loss to her ex-girlfriend in their first basketball game of the season, Scottie Zajac gets into a fender bender with the worst possible person: her nemesis, Irene Abraham, who is as beautiful as she is mean. When the damage sends Irene's car to the shop for weeks' worth of repairs, the girls are forced to carpool for the foreseeable future. Their rocky start only gets bumpier the more time they spend together. But when an opportunity presents itself for Scottie to get back at her toxic ex (and climb their school's social ladder at the same time), she bribes Irene into playing along."
     },
     {
         "title": "The Lesbiana's Guide to Catholic School",
         "author": "Sonora Reyes",
         "fiction": "Y",
         "romance": "Y",
+        "prose": "Y",
         "latinx": "Y",
         "lgbtqia": "Y",
         "wlwOrNblw": "Y",
         "bookBibnumber": 966408,
         "ebookBibnumber": 0,
         "audioBibnumber": 0,
-        "publishersSummery": "Sixteen-year-old Mexican American Yami Flores starts Catholic school, determined to keep her brother out of trouble and keep herself closeted, but her priorities shift when Yami discovers that her openly gay classmate Bo is also annoyingly cute."
+        "publishersSummary": "Sixteen-year-old Mexican American Yami Flores starts Catholic school, determined to keep her brother out of trouble and keep herself closeted, but her priorities shift when Yami discovers that her openly gay classmate Bo is also annoyingly cute."
     },
     {
         "title": "The Many Half-Lived Lives of Sam Sylvester",
         "author": "Maya MacGregor",
         "fiction": "Y",
         "mysteryHorror": "Y",
+        "prose": "Y",
         "lgbtqia": "Y",
         "nonbinairygenderfluid": "Y",
         "autismAdhd": "Y",
         "bookBibnumber": 978713,
         "ebookBibnumber": 0,
         "audioBibnumber": 0,
-        "publishersSummery": "Sam Sylvester is an 18-year-old white nonbinary autistic person who just moved with their dad to a small Oregon town after experiencing a hate crime in Montana that almost killed them. Sam, who was in foster care as a child, has never really felt a connection with anyone but their black adoptive father before, but as soon as they move to Astoria, things start to change. They meet other queer kids, like Shep, a brown Latina who's bisexual and who quickly becomes their closest friend and biggest ally. The two have something in common other than queerness: they're both very intrigued by Sam's new house, where someone called Billy Clement died 30 years ago. The town considers it a tragic accident, but Sam and Shep are not so sure"
+        "publishersSummary": "Sam Sylvester is an 18-year-old white nonbinary autistic person who just moved with their dad to a small Oregon town after experiencing a hate crime in Montana that almost killed them. Sam, who was in foster care as a child, has never really felt a connection with anyone but their black adoptive father before, but as soon as they move to Astoria, things start to change. They meet other queer kids, like Shep, a brown Latina who's bisexual and who quickly becomes their closest friend and biggest ally. The two have something in common other than queerness: they're both very intrigued by Sam's new house, where someone called Billy Clement died 30 years ago. The town considers it a tragic accident, but Sam and Shep are not so sure"
     },
     {
         "title": "Burn Down, Rise Up",
@@ -940,11 +974,12 @@ const data = [
         "fiction": "Y",
         "scifi": "Y",
         "mysteryHorror": "Y",
+        "prose": "Y",
         "africanamericanOrBlack": "Y",
         "bookBibnumber": 955516,
         "ebookBibnumber": 0,
         "audioBibnumber": 0,
-        "publishersSummery": "When an urban legend rumored to trap people inside subway tunnels seems to be behind mysterious disappearances in the Bronx, sixteen-year-old Raquel and her friends team up to save their city--and confront a dark episode in its history in the process."
+        "publishersSummary": "When an urban legend rumored to trap people inside subway tunnels seems to be behind mysterious disappearances in the Bronx, sixteen-year-old Raquel and her friends team up to save their city--and confront a dark episode in its history in the process."
     },
     {
         "title": "The Forest of Stolen Girls",
@@ -952,22 +987,24 @@ const data = [
         "fiction": "Y",
         "historicalfiction": "Y",
         "mysteryHorror": "Y",
+        "prose": "Y",
         "aapi": "Y",
         "bookBibnumber": 897481,
         "ebookBibnumber": 0,
         "audioBibnumber": 0,
-        "publishersSummery": "In 1426 in Joseon, a year after her father vanishes while investigating the disappearance of thirteen girls, eighteen-year-old Min Hwani returns to the island of Jeju to pick up his trail with the help of her estranged sister."
+        "publishersSummary": "In 1426 in Joseon, a year after her father vanishes while investigating the disappearance of thirteen girls, eighteen-year-old Min Hwani returns to the island of Jeju to pick up his trail with the help of her estranged sister."
     },
     {
         "title": "Ace of Spades",
         "author": "Faridah Abike-Iyimide",
         "fiction": "Y",
         "mysteryHorror": "Y",
+        "prose": "Y",
         "africanamericanOrBlack": "Y",
         "bookBibnumber": 907185,
         "ebookBibnumber": 910639,
         "audioBibnumber": 0,
-        "publishersSummery": "At Niveus Private Academy, Devon and Chiamaka are the only students chosen to be Senior Prefects who are also black, which makes them targets for a series of anonymous texts revealing their secrets to the entire student body. Both students were on track toward valedictorian and bright college futures, but this prank quickly turns into a very dangerous game and they are at more than one disadvantage as it looks like things could turn deadly."
+        "publishersSummary": "At Niveus Private Academy, Devon and Chiamaka are the only students chosen to be Senior Prefects who are also black, which makes them targets for a series of anonymous texts revealing their secrets to the entire student body. Both students were on track toward valedictorian and bright college futures, but this prank quickly turns into a very dangerous game and they are at more than one disadvantage as it looks like things could turn deadly."
     },
     {
         "title": "The City Beautiful",
@@ -975,50 +1012,57 @@ const data = [
         "fiction": "Y",
         "historicalfiction": "Y",
         "mythology": "Y",
+        "prose": "Y",
         "jewish": "Y",
         "bookBibnumber": 931219,
         "ebookBibnumber": 0,
         "audioBibnumber": 0,
-        "publishersSummery": "Death lurks around every corner in this unforgettable Jewish historical fantasy about a city, a boy, and the shadows of the past that bind them both together. Chicago, 1893. For Alter Rosen, this is the land of opportunity, and he dreams of the day he'll have enough money to bring his mother and sisters to America, freeing them from the oppression they face in his native Romania. But when Alter's best friend, Yakov, becomes the latest victim in a long line of murdered Jewish boys, his dream begins to slip away. While the rest of the city is busy celebrating the World's Fair, Alter is now living a nightmare: possessed by Yakov's dybbuk, he is plunged into a world of corruption and deceit, and thrown back into the arms of a dangerous boy from his past. A boy who means more to Alter than anyone knows. Now, with only days to spare until the dybbuk takes over Alter's body completely, the two boys must race to track down the killer--before the killer claims them next."
+        "publishersSummary": "Death lurks around every corner in this unforgettable Jewish historical fantasy about a city, a boy, and the shadows of the past that bind them both together. Chicago, 1893. For Alter Rosen, this is the land of opportunity, and he dreams of the day he'll have enough money to bring his mother and sisters to America, freeing them from the oppression they face in his native Romania. But when Alter's best friend, Yakov, becomes the latest victim in a long line of murdered Jewish boys, his dream begins to slip away. While the rest of the city is busy celebrating the World's Fair, Alter is now living a nightmare: possessed by Yakov's dybbuk, he is plunged into a world of corruption and deceit, and thrown back into the arms of a dangerous boy from his past. A boy who means more to Alter than anyone knows. Now, with only days to spare until the dybbuk takes over Alter's body completely, the two boys must race to track down the killer--before the killer claims them next."
     },
     {
         "title": "The State of Grace",
         "author": " Rachael Lucas",
         "fiction": "Y",
+        "prose": "Y",
         "autismAdhd": "Y",
         "bookBibnumber": 737876,
         "ebookBibnumber": 0,
         "audioBibnumber": 0,
-        "publishersSummery": "Sixteen-year-old Grace has Asperger's, a horse, and a best friend who understands her, which is pretty much all she needs, but when she kisses Gabe and things start to change at home, suddenly everything threatens to fall apart, and it is up to Grace to fix it on her own."
+        "publishersSummary": "Sixteen-year-old Grace has Asperger's, a horse, and a best friend who understands her, which is pretty much all she needs, but when she kisses Gabe and things start to change at home, suddenly everything threatens to fall apart, and it is up to Grace to fix it on her own."
     },
     {
         "title": "Can You See Me",
         "author": "Rebecca Westcott, Libby Scoot",
         "fiction": "Y",
+        "prose": "Y",
         "autismAdhd": "Y",
         "bookBibnumber": 830593,
         "ebookBibnumber": 0,
         "audioBibnumber": 0,
-        "publishersSummery": "Eleven-year-old Tally is starting sixth grade at Kingswood Academy and she really wants to fit in, which means somehow hiding her autism, hypersensitivity to touch, and true self, and trying to act \"normal\" like her former best friend, Layla, who is distancing herself from Tally and her fourteen-year-old sister, Nell, who is always angry with Tally for being different; but as she records her thoughts and anxieties in her coping diary, Tally begins to wonder--what is \"normal\" anyway?"
+        "publishersSummary": "Eleven-year-old Tally is starting sixth grade at Kingswood Academy and she really wants to fit in, which means somehow hiding her autism, hypersensitivity to touch, and true self, and trying to act \"normal\" like her former best friend, Layla, who is distancing herself from Tally and her fourteen-year-old sister, Nell, who is always angry with Tally for being different; but as she records her thoughts and anxieties in her coping diary, Tally begins to wonder--what is \"normal\" anyway?"
     },
     {
         "title": "Both Sides Now",
         "author": "Peyton Thomas",
         "fiction": "Y",
+        "prose": "Y",
         "lgbtqia": "Y",
         "trans": "Y",
         "bookBibnumber": 928161,
         "ebookBibnumber": 0,
         "audioBibnumber": 0,
-        "publishersSummery": "A transgender teen grapples with his dreams for the future and a crush on his debate partner, all while preparing to debate trans rights at Nationals\""
+        "publishersSummary": "A transgender teen grapples with his dreams for the future and a crush on his debate partner, all while preparing to debate trans rights at Nationals\""
     },
     {
         "title": "Why We Fly",
         "author": "Gilly Segal and Kimberly Jones",
+        "fiction": "Y",
+        "prose": "Y",
+        "africanamericanOrBlack": "Y",
         "bookBibnumber": 923889,
         "ebookBibnumber": 0,
         "audioBibnumber": 0,
-        "publishersSummery": "Told from alternating points of view, Chanel and Eleanor's rocky start to senior year gets more complex when the cheerleading team kneels for the national anthem and each girl grapples with the consequences."
+        "publishersSummary": "Told from alternating points of view, Chanel and Eleanor's rocky start to senior year gets more complex when the cheerleading team kneels for the national anthem and each girl grapples with the consequences."
     },
     {
         "title": "Hero ",
@@ -1026,22 +1070,24 @@ const data = [
         "fantasy": "Y",
         "fiction": "Y",
         "urbanfantasy": "Y",
+        "prose": "Y",
         "lgbtqia": "Y",
         "mlmOrNblm": "Y",
         "bookBibnumber": 919288,
         "ebookBibnumber": 0,
         "audioBibnumber": 0,
-        "publishersSummery": "Thom Creed, the gay son of a disowned superhero, finds that he, too, has special powers and is asked to join the very League that rejected his father, and it is there that Thom finds other misfits whom he can finally trust."
+        "publishersSummary": "Thom Creed, the gay son of a disowned superhero, finds that he, too, has special powers and is asked to join the very League that rejected his father, and it is there that Thom finds other misfits whom he can finally trust."
     },
     {
         "title": "Not So Pure and Simple",
         "author": "Lamar Giles",
         "fiction": "Y",
+        "prose": "Y",
         "africanamericanOrBlack": "Y",
         "bookBibnumber": 822908,
         "ebookBibnumber": 0,
         "audioBibnumber": 0,
-        "publishersSummery": "High school junior Del Rainey unwittingly joins a Purity Pledge class at church, hoping to get closer to his long-term crush, Kiera."
+        "publishersSummary": "High school junior Del Rainey unwittingly joins a Purity Pledge class at church, hoping to get closer to his long-term crush, Kiera."
     },
     {
         "title": "White Smoke",
@@ -1049,65 +1095,70 @@ const data = [
         "fantasy": "Y",
         "fiction": "Y",
         "urbanfantasy": "Y",
+        "prose": "Y",
         "africanamericanOrBlack": "Y",
         "bookBibnumber": 923914,
         "ebookBibnumber": 952826,
         "audioBibnumber": 0,
-        "publishersSummery": "Marigold is running from ghosts. The phantoms of her old life keep haunting her, but a move with her newly blended family from their small California beach town to the embattled Midwestern city of Cedarville might be the fresh start she needs. Her mom has accepted a new job with the Sterling Foundation that comes with a free house, one that Mari now has to share with her bratty ten-year-old stepsister, Piper. The renovated picture-perfect home on Maple Street, sitting between dilapidated houses, surrounded by wary neighbors has its ... secrets. And secrets always find their way through the cracks"
+        "publishersSummary": "Marigold is running from ghosts. The phantoms of her old life keep haunting her, but a move with her newly blended family from their small California beach town to the embattled Midwestern city of Cedarville might be the fresh start she needs. Her mom has accepted a new job with the Sterling Foundation that comes with a free house, one that Mari now has to share with her bratty ten-year-old stepsister, Piper. The renovated picture-perfect home on Maple Street, sitting between dilapidated houses, surrounded by wary neighbors has its ... secrets. And secrets always find their way through the cracks"
     },
     {
         "title": "A River of Royal Blood",
         "author": "Amanda Joy",
         "fantasy": "Y",
         "fiction": "Y",
+        "prose": "Y",
         "africanamericanOrBlack": "Y",
         "bookBibnumber": 811386,
         "ebookBibnumber": 0,
         "audioBibnumber": 0,
-        "publishersSummery": "Seventeen-year-old Eva must harness the magick inside her to defeat her older sister, Isadore, as well as other forces, and win the crown in the Queendom of Myre--or die trying."
+        "publishersSummary": "Seventeen-year-old Eva must harness the magick inside her to defeat her older sister, Isadore, as well as other forces, and win the crown in the Queendom of Myre--or die trying."
     },
     {
         "title": "Monday's Not Coming",
         "author": "Tiffany D. Jackson",
         "fiction": "Y",
+        "prose": "Y",
         "africanamericanOrBlack": "Y",
         "autismAdhd": "Y",
         "bookBibnumber": 725070,
         "ebookBibnumber": 952854,
         "audioBibnumber": 0,
-        "publishersSummery": "When her friend Monday Charles goes missing and Monday's mother refuses to give her a straight answer, Claudia digs into her disappearance."
+        "publishersSummary": "When her friend Monday Charles goes missing and Monday's mother refuses to give her a straight answer, Claudia digs into her disappearance."
     },
     {
         "title": "Sisters of the Snake",
         "author": "Sarena Nanua, Sasha Nanua",
         "fantasy": "Y",
+        "prose": "Y",
         "aapi": "Y",
         "bookBibnumber": 914078,
         "ebookBibnumber": 0,
         "audioBibnumber": 0,
-        "publishersSummery": "A street thief and a princess discover they are twins separated at birth-and must switch places to find an all-powerful stone and prevent a deadly war from taking place"
+        "publishersSummary": "A street thief and a princess discover they are twins separated at birth-and must switch places to find an all-powerful stone and prevent a deadly war from taking place"
     },
     {
         "title": "Akata Witch",
         "author": "Nnedi Okorafor",
         "fantasy": "Y",
         "fiction": "Y",
+        "prose": "Y",
         "africanamericanOrBlack": "Y",
         "bookBibnumber": 0,
         "ebookBibnumber": 691328,
         "audioBibnumber": 0,
-        "publishersSummery": "Twelve-year-old Sunny Nwazue, an American-born albino child of Nigerian parents, moves with her family back to Nigeria, where she learns that she has latent magical powers which she and three similarly gifted friends use to catch a serial killer."
+        "publishersSummary": "Twelve-year-old Sunny Nwazue, an American-born albino child of Nigerian parents, moves with her family back to Nigeria, where she learns that she has latent magical powers which she and three similarly gifted friends use to catch a serial killer."
     },
     {
         "title": "Girl on Fire",
-        "author": "Alicia Keys, Andrew Weiner, illustrated by Brittney Williams",
+        "author": "Alicia Keys, Andrew Weiner, Brittney Williams",
         "fiction": "Y",
         "graphicnovel": "Y",
         "africanamericanOrBlack": "Y",
         "bookBibnumber": 956051,
         "ebookBibnumber": 0,
         "audioBibnumber": 0,
-        "publishersSummery": "From winning artist Alicia Keys comes a new authentic and poignant coming-of-age young adult graphic novel, about finding the strength within when your whole world changes in an instant. Lolo Wright always thought she was just a regular fourteen-year-old dealing with regular family drama: her brother, James, is struggling with his studies; her dad's business constantly teeters on the edge of trouble; and her mother... she left long ago. But then Lolo's world explodes when a cop pulls a gun on James in a dangerous case of mistaken identities. Staring down the barrel, with no one else to help, Lolo discovers powers she never knew she had. Using only her mind, she literally throws the cop out of the way. Problem is that secrets like Lolo's don't stay a secret for long. Skin, a dangerous dealer with designs on taking over the neighborhood, hears of Lolo's telekinetic abilities and decides that he needs her in his crew. Skin might not have Lolo's powers, but he's got nothing to lose and is willing to do whatever it takes to get what he wants. And what he wants is Lolo. Lolo's not willing to let Skin use her to hurt the people -- and neighborhood -- that she loves. But it's going to take a whole different kind of bravery to stand-up for what's right, especially after Lolo's mom returns suddenly and turns Lolo's whole world upside-down. For too long, it's true, Lolo's had her head in the clouds, but this time, it's on her... and she's not backing down."
+        "publishersSummary": "From winning artist Alicia Keys comes a new authentic and poignant coming-of-age young adult graphic novel, about finding the strength within when your whole world changes in an instant. Lolo Wright always thought she was just a regular fourteen-year-old dealing with regular family drama: her brother, James, is struggling with his studies; her dad's business constantly teeters on the edge of trouble; and her mother... she left long ago. But then Lolo's world explodes when a cop pulls a gun on James in a dangerous case of mistaken identities. Staring down the barrel, with no one else to help, Lolo discovers powers she never knew she had. Using only her mind, she literally throws the cop out of the way. Problem is that secrets like Lolo's don't stay a secret for long. Skin, a dangerous dealer with designs on taking over the neighborhood, hears of Lolo's telekinetic abilities and decides that he needs her in his crew. Skin might not have Lolo's powers, but he's got nothing to lose and is willing to do whatever it takes to get what he wants. And what he wants is Lolo. Lolo's not willing to let Skin use her to hurt the people -- and neighborhood -- that she loves. But it's going to take a whole different kind of bravery to stand-up for what's right, especially after Lolo's mom returns suddenly and turns Lolo's whole world upside-down. For too long, it's true, Lolo's had her head in the clouds, but this time, it's on her... and she's not backing down."
     },
     {
         "title": "Messy Roots: A Graphic Memoir of a Wuhanese American",
@@ -1118,11 +1169,11 @@ const data = [
         "bookBibnumber": 956053,
         "ebookBibnumber": 0,
         "audioBibnumber": 0,
-        "publishersSummery": "Seamlessly toggling between past and present, this funny graphic memoir follows a queer Chinese American's immigration to Texas where she just wants to make the basketball team, escape Chinese school, and figure out why she is attracted to girls."
+        "publishersSummary": "Seamlessly toggling between past and present, this funny graphic memoir follows a queer Chinese American's immigration to Texas where she just wants to make the basketball team, escape Chinese school, and figure out why she is attracted to girls."
     },
     {
         "title": "Squad",
-        "author": "Maggie Tokuda-Hall, illustrated by Lisa Sterle",
+        "author": "Maggie Tokuda-Hall, Lisa Sterle",
         "fantasy": "Y",
         "fiction": "Y",
         "urbanfantasy": "Y",
@@ -1131,18 +1182,19 @@ const data = [
         "bookBibnumber": 931739,
         "ebookBibnumber": 0,
         "audioBibnumber": 0,
-        "publishersSummery": "Becca moves to an upscale Silicon Valley suburb and is surprised when she develops a bond with girls who belong to the popular clique-and even more surprised when she learns their secrets"
+        "publishersSummary": "Becca moves to an upscale Silicon Valley suburb and is surprised when she develops a bond with girls who belong to the popular clique-and even more surprised when she learns their secrets"
     },
     {
         "title": "Displacement",
         "author": "Kiku Hughes",
         "fiction": "Y",
         "historicalfiction": "Y",
+        "prose": "Y",
         "aapi": "Y",
         "bookBibnumber": 875164,
         "ebookBibnumber": 884801,
         "audioBibnumber": 0,
-        "publishersSummery": "Kiku is on vacation in San Francisco when suddenly she finds herself displaced to the 1940s Japanese-American internment camp that her late grandmother, Ernestina, was forcibly relocated to during World War II. These displacements keep occurring until Kiku finds herself stuck back in time. Living alongside her young grandmother and other Japanese-American citizens in internment camps, Kiku gets the education she never received in history class. She witnesses the lives of Japanese-Americans who were denied their civil liberties and suffered greatly, but managed to cultivate community and commit acts of resistance in order to survive"
+        "publishersSummary": "Kiku is on vacation in San Francisco when suddenly she finds herself displaced to the 1940s Japanese-American internment camp that her late grandmother, Ernestina, was forcibly relocated to during World War II. These displacements keep occurring until Kiku finds herself stuck back in time. Living alongside her young grandmother and other Japanese-American citizens in internment camps, Kiku gets the education she never received in history class. She witnesses the lives of Japanese-Americans who were denied their civil liberties and suffered greatly, but managed to cultivate community and commit acts of resistance in order to survive"
     },
     {
         "title": "Persepolis",
@@ -1156,7 +1208,7 @@ const data = [
         "bookBibnumber": 126703,
         "ebookBibnumber": 0,
         "audioBibnumber": 0,
-        "publishersSummery": "In powerful black-and-white comic strip images, Satrapi tells the story of her life in Tehran from ages six to fourteen, years that saw the overthrow of the Shah's regime, the triumph of the Islamic Revolution, and the devastating effects of war with Iraq. The intelligent and outspoken only child of committed Marxists and the great-granddaughter of one of Iran's last emperors, Marjane bears witness to a childhood uniquely entwined with the history of her country."
+        "publishersSummary": "In powerful black-and-white comic strip images, Satrapi tells the story of her life in Tehran from ages six to fourteen, years that saw the overthrow of the Shah's regime, the triumph of the Islamic Revolution, and the devastating effects of war with Iraq. The intelligent and outspoken only child of committed Marxists and the great-granddaughter of one of Iran's last emperors, Marjane bears witness to a childhood uniquely entwined with the history of her country."
     },
     {
         "title": "American Born Chinese",
@@ -1167,11 +1219,11 @@ const data = [
         "bookBibnumber": 319093,
         "ebookBibnumber": 802719,
         "audioBibnumber": 0,
-        "publishersSummery": "Alternates three interrelated stories about the problems of young Chinese Americans trying to participate in the popular culture. Presented in comic book format."
+        "publishersSummary": "Alternates three interrelated stories about the problems of young Chinese Americans trying to participate in the popular culture. Presented in comic book format."
     },
     {
         "title": "Across the Tracks: Remembering Greenwood, Black Wall Street, and the Tulsa Race Massacre",
-        "author": "Alverne Ball, illustrated by Stacey Robinson",
+        "author": "Alverne Ball, Stacey Robinson",
         "historicalfiction": "Y",
         "nonfiction": "Y",
         "graphicnovel": "Y",
@@ -1181,7 +1233,7 @@ const data = [
     },
     {
         "title": "The Black Panther Party",
-        "author": "David F. Walker, illustrated by Marcus Kwame Anderson",
+        "author": "David F. Walker, Marcus Kwame Anderson",
         "historicalfiction": "Y",
         "nonfiction": "Y",
         "graphicnovel": "Y",
@@ -1189,18 +1241,19 @@ const data = [
         "bookBibnumber": 959779,
         "ebookBibnumber": 0,
         "audioBibnumber": 0,
-        "publishersSummery": "A bold and fascinating graphic novel history of the Black Panther Party"
+        "publishersSummary": "A bold and fascinating graphic novel history of the Black Panther Party"
     },
     {
         "title": "Dread Nation",
         "author": "Justina Ireland",
         "fantasy": "Y",
         "historicalfiction": "Y",
+        "prose": "Y",
         "africanamericanOrBlack": "Y",
         "bookBibnumber": 719033,
         "ebookBibnumber": 720282,
         "audioBibnumber": 756259,
-        "publishersSummery": "When families go missing in Baltimore County, Jane McKeene, who is studying to become an Attendant, finds herself in the middle of a conspiracy that has her fighting for her life against powerful enemies."
+        "publishersSummary": "When families go missing in Baltimore County, Jane McKeene, who is studying to become an Attendant, finds herself in the middle of a conspiracy that has her fighting for her life against powerful enemies."
     },
     {
         "title": "The Great Mrs. Elias",
@@ -1224,7 +1277,7 @@ const data = [
         "bookBibnumber": 928970,
         "ebookBibnumber": 0,
         "audioBibnumber": 0,
-        "publishersSummery": "The true story of Guatemala's political turmoil of the 1950s as only a master of fiction can tell it"
+        "publishersSummary": "The true story of Guatemala's political turmoil of the 1950s as only a master of fiction can tell it"
     },
     {
         "title": "Other Words for Home",
@@ -1238,7 +1291,7 @@ const data = [
         "bookBibnumber": 796785,
         "ebookBibnumber": 809473,
         "audioBibnumber": 0,
-        "publishersSummery": "Sent with her mother to the safety of a relative's home in Cincinnati when her Syrian hometown is overshadowed by violence, Jude worries for the family members who were left behind as she adjusts to a new life with unexpected surprises."
+        "publishersSummary": "Sent with her mother to the safety of a relative's home in Cincinnati when her Syrian hometown is overshadowed by violence, Jude worries for the family members who were left behind as she adjusts to a new life with unexpected surprises."
     },
     {
         "title": "Small World",
@@ -1253,7 +1306,7 @@ const data = [
         "bookBibnumber": 941046,
         "ebookBibnumber": 948135,
         "audioBibnumber": 948149,
-        "publishersSummery": "From the New York Times bestselling author of West of Here, a novel that chronicles a hundred-and-seventy years of American nation-building from numerous points-of-view across place and time, and explores the Great American Experiment from its formative days to the present moment and asks whether or not our nation has made good on its promises\"-- Provided by publisher."
+        "publishersSummary": "From the New York Times bestselling author of West of Here, a novel that chronicles a hundred-and-seventy years of American nation-building from numerous points-of-view across place and time, and explores the Great American Experiment from its formative days to the present moment and asks whether or not our nation has made good on its promises\"-- Provided by publisher."
     },
     {
         "title": "Violeta",
@@ -1265,14 +1318,20 @@ const data = [
         "bookBibnumber": 945525,
         "ebookBibnumber": 947419,
         "audioBibnumber": 965549,
-        "publishersSummery": "This sweeping novel from the New York Times bestselling author of A Long Petal of the Sea tells the epic story of Violeta Del Valle, a woman whose life spans one hundred years and bears witness to the greatest upheavals of the twentieth century"
+        "publishersSummary": "This sweeping novel from the New York Times bestselling author of A Long Petal of the Sea tells the epic story of Violeta Del Valle, a woman whose life spans one hundred years and bears witness to the greatest upheavals of the twentieth century"
     },
     {
         "title": "Slip",
         "author": "Marika McCoola, Aatmaja Pandajo",
+        "fiction": "Y",
+        "graphicnovel": "Y",
+        "lgbtqia": "Y",
+        "wlwOrNblw": "Y",
+        "mentalhealth": "Y",
+        "depression": "Y",
         "bookBibnumber": 0,
         "ebookBibnumber": 0,
-        "publishersSummery": "Right before Jade is about to leave for a summer art intensive, her best friend, Phoebe, attempts suicide. How is Jade supposed to focus on herself right now?"
+        "publishersSummary": "Right before Jade is about to leave for a summer art intensive, her best friend, Phoebe, attempts suicide. How is Jade supposed to focus on herself right now?"
     },
     {
         "title": "Growing Pangs",
@@ -1281,10 +1340,11 @@ const data = [
         "graphicnovel": "Y",
         "mentaldisability": "Y",
         "ocd": "Y",
+        "middleGrade": "Y",
         "bookBibnumber": 959773,
         "ebookBibnumber": 0,
         "audioBibnumber": 0,
-        "publishersSummery": "Eleven-year-old Katie navigates life as a homeschooler, forms a better understanding of the OCD she experiences, and learns that growing apart from friends is sometimes part of growing up."
+        "publishersSummary": "Eleven-year-old Katie navigates life as a homeschooler, forms a better understanding of the OCD she experiences, and learns that growing apart from friends is sometimes part of growing up."
     },
     {
         "title": "The Real Riley Mayes",
@@ -1295,10 +1355,11 @@ const data = [
         "wlwOrNblw": "Y",
         "mlmOrNblm": "Y",
         "trans": "Y",
+        "middleGrade": "Y",
         "bookBibnumber": 965452,
         "ebookBibnumber": 0,
         "audioBibnumber": 0,
-        "publishersSummery": "Fifth grade is just not Riley's vibe. Everyone else is squaded up--except Riley. Her best friend moved away. All she wants to do is draw, and her grades show it. One thing that makes her happy is her favorite comedian, Joy Powers. Riley loves to watch her old shows and has memorized her best jokes. So when the class is assigned to write letters to people they admire, of course Riley's picking Joy Powers! Things start to look up when a classmate, Cate, offers to help Riley with the letter, and a new kid, Aaron, actually seems to get her weird sense of humor. But when mean girl Whitney spreads a rumor about her, things begin to click into place for Riley. Her curiosity about Aaron's two dads and her celebrity crush on Joy Powers suddenly make more sense"
+        "publishersSummary": "Fifth grade is just not Riley's vibe. Everyone else is squaded up--except Riley. Her best friend moved away. All she wants to do is draw, and her grades show it. One thing that makes her happy is her favorite comedian, Joy Powers. Riley loves to watch her old shows and has memorized her best jokes. So when the class is assigned to write letters to people they admire, of course Riley's picking Joy Powers! Things start to look up when a classmate, Cate, offers to help Riley with the letter, and a new kid, Aaron, actually seems to get her weird sense of humor. But when mean girl Whitney spreads a rumor about her, things begin to click into place for Riley. Her curiosity about Aaron's two dads and her celebrity crush on Joy Powers suddenly make more sense"
     },
     {
         "title": "Red Scare",
@@ -1334,7 +1395,7 @@ const data = [
         "bookBibnumber": 950946,
         "ebookBibnumber": 0,
         "audioBibnumber": 0,
-        "publishersSummery": "Two girls find friendship--and more--when they bond over a traumatic event that took place in their middle schoo"
+        "publishersSummary": "Two girls find friendship--and more--when they bond over a traumatic event that took place in their middle schoo"
     },
     {
         "title": "Finding Jupiter",
@@ -1345,7 +1406,7 @@ const data = [
         "lgbtqia": "Y",
         "mlmOrNblm": "Y",
         "bookBibnumber": "22479359&db=3213",
-        "publishersSummery": "Sparks fly when Orion and Ray meet for the first time at a roller rink in Memphis. But these star-crossed souls have a past filled with secrets that threaten to tear them apart before their love story even begins. ..."
+        "publishersSummary": "Sparks fly when Orion and Ray meet for the first time at a roller rink in Memphis. But these star-crossed souls have a past filled with secrets that threaten to tear them apart before their love story even begins. ..."
     },
     {
         "title": "Flip the Script",
@@ -1359,7 +1420,7 @@ const data = [
         "bookBibnumber": 969121,
         "ebookBibnumber": 0,
         "audioBibnumber": 0,
-        "publishersSummery": "As an avid watcher of K-dramas, Hana knows all the tropes to avoid when she finally lands a starring role in a buzzy new drama. And she can totally handle her fake co-star boyfriend, heartthrob Bryan Yoon, who might be falling in love with her. After all, she promised the TV producers a contract romance, and that's all they're going to get from her. But when showrunners bring on a new lead actress to challenge Hana's role as main love interest--and worse, it's someone Hana knows all too well--can Hana fight for her position on the show, while falling for her on-screen rival in real life?"
+        "publishersSummary": "As an avid watcher of K-dramas, Hana knows all the tropes to avoid when she finally lands a starring role in a buzzy new drama. And she can totally handle her fake co-star boyfriend, heartthrob Bryan Yoon, who might be falling in love with her. After all, she promised the TV producers a contract romance, and that's all they're going to get from her. But when showrunners bring on a new lead actress to challenge Hana's role as main love interest--and worse, it's someone Hana knows all too well--can Hana fight for her position on the show, while falling for her on-screen rival in real life?"
     },
     {
         "title": "Radio Silence",
@@ -1371,13 +1432,19 @@ const data = [
         "bookBibnumber": 643561,
         "ebookBibnumber": 750245,
         "audioBibnumber": 0,
-        "publishersSummery": "A studious girl and a quiet, straight-A boy start a controversial podcast together that challenges their courage and forces them to confront issues in the form of backlash and censorship."
+        "publishersSummary": "A studious girl and a quiet, straight-A boy start a controversial podcast together that challenges their courage and forces them to confront issues in the form of backlash and censorship."
     },
     {
         "title": "Man o' War",
         "author": "Cory McCarthy",
+        "fiction": "Y",
+        "romance": "Y",
+        "prose": "Y",
+        "lgbtqia": "Y",
+        "mlmOrNblm": "Y",
+        "trans": "Y",
         "bookBibnumber": 0,
-        "publishersSummery": "River McIntyre has grown up down the street from Sea Planet, an infamous marine life theme park slowly going out of business in small-town Ohio. When a chance encounter with a happy, healthy queer person on the annual field trip lands River literally in the shark tank, they must admit the truth: they don't know who they are—only what they've been told to be. This sets off a wrenching journey of self-discovery, from internalized homophobia and gender dysphoria, through layers of coming out, affirmation surgery, and true freakin' love."
+        "publishersSummary": "River McIntyre has grown up down the street from Sea Planet, an infamous marine life theme park slowly going out of business in small-town Ohio. When a chance encounter with a happy, healthy queer person on the annual field trip lands River literally in the shark tank, they must admit the truth: they don't know who they are—only what they've been told to be. This sets off a wrenching journey of self-discovery, from internalized homophobia and gender dysphoria, through layers of coming out, affirmation surgery, and true freakin' love."
     },
     {
         "title": "Milo and Marcos at the End of the World",
@@ -1390,7 +1457,7 @@ const data = [
         "bookBibnumber": 968195,
         "ebookBibnumber": 0,
         "audioBibnumber": 0,
-        "publishersSummery": "Milo's high school career has gone relatively smoothly, so he figures he's overdue for an Epic Teenage Disaster. He never thought that when Marcos returns to their Florida highschool for the first time since freshman year, resolving their feelings for each other will trigger actual natural disasters which could become an extintion-level event."
+        "publishersSummary": "Milo's high school career has gone relatively smoothly, so he figures he's overdue for an Epic Teenage Disaster. He never thought that when Marcos returns to their Florida highschool for the first time since freshman year, resolving their feelings for each other will trigger actual natural disasters which could become an extintion-level event."
     },
     {
         "title": "The Love & Lies of Rukhsana Ali",
@@ -1406,7 +1473,7 @@ const data = [
         "bookBibnumber": 773539,
         "ebookBibnumber": 785047,
         "audioBibnumber": 0,
-        "publishersSummery": "Seventeen-year-old Rukhsana Ali is looking forward to going to Caltech and getting away from her conservative Muslim parents' expectation that she will marry, especially since she is in love with her girlfriend Ariana--but when her parents catch her kissing Ariana, they whisk Rukhsana off to Bangladesh and a world of tradition and arranged marriages, and she must find the courage to fight for the right to choose her own path."
+        "publishersSummary": "Seventeen-year-old Rukhsana Ali is looking forward to going to Caltech and getting away from her conservative Muslim parents' expectation that she will marry, especially since she is in love with her girlfriend Ariana--but when her parents catch her kissing Ariana, they whisk Rukhsana off to Bangladesh and a world of tradition and arranged marriages, and she must find the courage to fight for the right to choose her own path."
     },
     {
         "title": "Onyeka and the Academy of the Sun",
@@ -1417,7 +1484,7 @@ const data = [
         "ownvoices": "Y",
         "middleGrade": "Y",
         "bookBibnumber": 0,
-        "publishersSummery": "Onyeka has a lot of hair­—the kind that makes strangers stop in the street and her peers whisper behind her back. At least she has Cheyenne, her best friend, who couldn't care less what other people think. Still, Onyeka has always felt insecure about her vibrant curls…until the day Cheyenne almost drowns and Onyeka's hair takes on a life of its own, inexplicably pulling Cheyenne from the water."
+        "publishersSummary": "Onyeka has a lot of hair­—the kind that makes strangers stop in the street and her peers whisper behind her back. At least she has Cheyenne, her best friend, who couldn't care less what other people think. Still, Onyeka has always felt insecure about her vibrant curls…until the day Cheyenne almost drowns and Onyeka's hair takes on a life of its own, inexplicably pulling Cheyenne from the water."
     },
     {
         "title": "Falling Short ",
@@ -1429,7 +1496,7 @@ const data = [
         "bookBibnumber": 949307,
         "ebookBibnumber": 970253,
         "audioBibnumber": 971679,
-        "publishersSummery": "Isaac and Marco already know sixth grade is going to change their lives. But it won't change things at home--not without each other's help. This year, star basketball player Isaac plans on finally keeping up with his schoolwork. Better grades will surely stop Isaac's parents from arguing all the time. Meanwhile, straight-A Marco vows on finally winning his father's approval by earning a spot on the school's basketball team. But will their friendship and support for each other be enough to keep the two boys from falling short?"
+        "publishersSummary": "Isaac and Marco already know sixth grade is going to change their lives. But it won't change things at home--not without each other's help. This year, star basketball player Isaac plans on finally keeping up with his schoolwork. Better grades will surely stop Isaac's parents from arguing all the time. Meanwhile, straight-A Marco vows on finally winning his father's approval by earning a spot on the school's basketball team. But will their friendship and support for each other be enough to keep the two boys from falling short?"
     },
     {
         "title": "Shadows Cast By Stars",
@@ -1440,7 +1507,7 @@ const data = [
         "bookBibnumber": 881381,
         "ebookBibnumber": 0,
         "audioBibnumber": 0,
-        "publishersSummery": "To escape a government that needs antigens in aboriginal blood to stop a plague, sixteen-year-old Cassandra and her family flee to the Island, where she not only gets help in communicating with the spirit world, she learns she has been chosen to be their voice and instrument."
+        "publishersSummary": "To escape a government that needs antigens in aboriginal blood to stop a plague, sixteen-year-old Cassandra and her family flee to the Island, where she not only gets help in communicating with the spirit world, she learns she has been chosen to be their voice and instrument."
     },
     {
         "title": "Felix Ever After",
@@ -1456,7 +1523,7 @@ const data = [
         "bookBibnumber": 850268,
         "ebookBibnumber": 843761,
         "audioBibnumber": 897710,
-        "publishersSummery": "Felix Love, a transgender seventeen-year-old, attempts to get revenge by catfishing his anonymous bully, but lands in a quasi-love triangle with his former enemy and his best friend."
+        "publishersSummary": "Felix Love, a transgender seventeen-year-old, attempts to get revenge by catfishing his anonymous bully, but lands in a quasi-love triangle with his former enemy and his best friend."
     },
     {
         "title": "Lakelore",
@@ -1473,7 +1540,7 @@ const data = [
         "bookBibnumber": 952586,
         "ebookBibnumber": 0,
         "audioBibnumber": 0,
-        "publishersSummery": "In this young adult novel by award-winning author Anna-Marie McLemore, two non-binary teens are pulled into a magical world under a lake - but can they keep their worlds above water intact? Everyone who lives near the lake knows the stories about the world underneath it, an ethereal landscape rumored to be half-air, half-water. But Bastián Silvano and Lore Garcia are the only ones who've been there. Bastián grew up both above the lake and in the otherworldly space beneath it. Lore's only seen the world under the lake once, but that one encounter changed their life and their fate. Then the lines between air and water begin to blur. The world under the lake drifts above the surface. If Bastián and Lore don't want it bringing their secrets to the surface with it, they have to stop it, and to do that, they have to work together. There's just one problem: Bastián and Lore haven't spoken in seven years, and working together means trusting each other with the very things they're trying to hide"
+        "publishersSummary": "In this young adult novel by award-winning author Anna-Marie McLemore, two non-binary teens are pulled into a magical world under a lake - but can they keep their worlds above water intact? Everyone who lives near the lake knows the stories about the world underneath it, an ethereal landscape rumored to be half-air, half-water. But Bastián Silvano and Lore Garcia are the only ones who've been there. Bastián grew up both above the lake and in the otherworldly space beneath it. Lore's only seen the world under the lake once, but that one encounter changed their life and their fate. Then the lines between air and water begin to blur. The world under the lake drifts above the surface. If Bastián and Lore don't want it bringing their secrets to the surface with it, they have to stop it, and to do that, they have to work together. There's just one problem: Bastián and Lore haven't spoken in seven years, and working together means trusting each other with the very things they're trying to hide"
     },
     {
         "title": "The Sword of Summer",
@@ -1489,7 +1556,7 @@ const data = [
         "bookBibnumber": 540313,
         "ebookBibnumber": 548768,
         "audioBibnumber": 531166,
-        "publishersSummery": "Magnus Chase has seen his share of trouble. Ever since that terrible night two years ago when his mother told him to run, he has lived alone on the streets of Boston, surviving by his wits, staying one step ahead of the police and truant officers. One day, he's tracked down by an uncle he barely knows-a man his mother claimed was dangerous. Uncle Randolph tells him an impossible secret: Magnus is the son of a Norse god. The Viking myths are true. The gods of Asgard are preparing for war. Trolls, giants, and worse monsters are stirring for doomsday. To prevent Ragnarok, Magnus must search the Nine Worlds for a weapon that has been lost for thousands of years. When an attack by fire giants forces him to choose between his own safety and the lives of hundreds of innocents, Magnus makes a fatal decision. Sometimes, the only way to start a new life is to die .."
+        "publishersSummary": "Magnus Chase has seen his share of trouble. Ever since that terrible night two years ago when his mother told him to run, he has lived alone on the streets of Boston, surviving by his wits, staying one step ahead of the police and truant officers. One day, he's tracked down by an uncle he barely knows-a man his mother claimed was dangerous. Uncle Randolph tells him an impossible secret: Magnus is the son of a Norse god. The Viking myths are true. The gods of Asgard are preparing for war. Trolls, giants, and worse monsters are stirring for doomsday. To prevent Ragnarok, Magnus must search the Nine Worlds for a weapon that has been lost for thousands of years. When an attack by fire giants forces him to choose between his own safety and the lives of hundreds of innocents, Magnus makes a fatal decision. Sometimes, the only way to start a new life is to die .."
     },
     {
         "title": "Act Cool",
@@ -1501,7 +1568,7 @@ const data = [
         "bookBibnumber": 928097,
         "ebookBibnumber": 0,
         "audioBibnumber": 0,
-        "publishersSummery": "Transgender teen and aspiring actor August lands a spot at a prestigious performing arts high school in New York City, but he struggles to move past the life he left behind, with conservative parents who wanted to send him to conversion therapy."
+        "publishersSummary": "Transgender teen and aspiring actor August lands a spot at a prestigious performing arts high school in New York City, but he struggles to move past the life he left behind, with conservative parents who wanted to send him to conversion therapy."
     },
     {
         "title": "Simon vs. the Homo Sapiens Agenda",
@@ -1513,10 +1580,10 @@ const data = [
         "bookBibnumber": 507298,
         "ebookBibnumber": 541737,
         "audioBibnumber": 541726,
-        "publishersSummery": "Sixteen-year-old, not-so-openly-gay Simon Spier is blackmailed into playing wingman for his classmate or else his sexual identity--and that of his pen pal--will be revealed"
+        "publishersSummary": "Sixteen-year-old, not-so-openly-gay Simon Spier is blackmailed into playing wingman for his classmate or else his sexual identity--and that of his pen pal--will be revealed"
     },
     {
-        "title": "How it all Blew Up",
+        "title": "How It All Blew Up",
         "author": "Arvin Ahmadi",
         "fiction": "Y",
         "prose": "Y",
@@ -1529,10 +1596,10 @@ const data = [
         "bookBibnumber": 852314,
         "ebookBibnumber": 0,
         "audioBibnumber": 0,
-        "publishersSummery": "Fleeing to Rome in the wake of coming out to his Muslim family, a failed relationship, and blackmail, eighteen-year-old Amir Azadi embarks on a more authentic life with new friends and dates in the Sistine Chapel before an encounter with a U.S. Customs officer places his hard-won freedom at risk."
+        "publishersSummary": "Fleeing to Rome in the wake of coming out to his Muslim family, a failed relationship, and blackmail, eighteen-year-old Amir Azadi embarks on a more authentic life with new friends and dates in the Sistine Chapel before an encounter with a U.S. Customs officer places his hard-won freedom at risk."
     },
     {
-        "title": "What if it's Us",
+        "title": "What If It's Us",
         "author": "Becky Albertalli, Adam Silvera",
         "fiction": "Y",
         "romance": "Y",
@@ -1542,7 +1609,7 @@ const data = [
         "bookBibnumber": 747403,
         "ebookBibnumber": 749892,
         "audioBibnumber": 750150,
-        "publishersSummery": "Told in two voices, when Arthur, a summer intern from Georgia, and Ben, a native New Yorker, meet it seems like fate, but after three attempts at dating fail they wonder if the universe is pushing them together or apart."
+        "publishersSummary": "Told in two voices, when Arthur, a summer intern from Georgia, and Ben, a native New Yorker, meet it seems like fate, but after three attempts at dating fail they wonder if the universe is pushing them together or apart."
     },
     {
         "title": "Dreadnought",
@@ -1554,7 +1621,7 @@ const data = [
         "bookBibnumber": 870568,
         "ebookBibnumber": 0,
         "audioBibnumber": 0,
-        "publishersSummery": "Danny Tozer has a problem: she just inherited the powers of Dreadnought, the world's greatest superhero. Until Dreadnought fell out of the sky and died right in front of her, Danny was trying to keep people from finding out she's transgender. But before he expired, Dreadnought passed his mantle to her, and those secondhand superpowers transformed Danny's body into what she's always thought it should be. Now there's no hiding that she's a girl"
+        "publishersSummary": "Danny Tozer has a problem: she just inherited the powers of Dreadnought, the world's greatest superhero. Until Dreadnought fell out of the sky and died right in front of her, Danny was trying to keep people from finding out she's transgender. But before he expired, Dreadnought passed his mantle to her, and those secondhand superpowers transformed Danny's body into what she's always thought it should be. Now there's no hiding that she's a girl"
     },
     {
         "title": "Labyrinth Lost",
@@ -1569,7 +1636,7 @@ const data = [
         "bookBibnumber": 605161,
         "ebookBibnumber": 623693,
         "audioBibnumber": 0,
-        "publishersSummery": "Alex is a bruja and the most powerful witch in her family. But she's hated magic ever since it made her father disappear into thin air. When a curse she performs to rid herself of magic backfires and her family vanishes, she must travel to Los Lagos, a land in-between as dark as Limbo and as strange as Wonderland, to get her family back"
+        "publishersSummary": "Alex is a bruja and the most powerful witch in her family. But she's hated magic ever since it made her father disappear into thin air. When a curse she performs to rid herself of magic backfires and her family vanishes, she must travel to Los Lagos, a land in-between as dark as Limbo and as strange as Wonderland, to get her family back"
     },
     {
         "title": "Carry On",
@@ -1581,7 +1648,7 @@ const data = [
         "bookBibnumber": 544161,
         "ebookBibnumber": 538696,
         "audioBibnumber": 629300,
-        "publishersSummery": "Simon Snow is the worst Chosen One who's ever been chosen. That's what his roommate, Baz, says. And Baz might be evil and a vampire and a complete git, but he's probably right. Half the time, Simon can't even make his wand work, and the other half, he starts something on fire. His mentor's avoiding him, his girlfriend broke up with him, and there's a magic-eating monster running around, wearing Simon's face. Baz would be having a field day with all this, if he were here. It's their last year at the Watford School of Magicks, and Simon's infuriating nemesis didn't even bother to show up."
+        "publishersSummary": "Simon Snow is the worst Chosen One who's ever been chosen. That's what his roommate, Baz, says. And Baz might be evil and a vampire and a complete git, but he's probably right. Half the time, Simon can't even make his wand work, and the other half, he starts something on fire. His mentor's avoiding him, his girlfriend broke up with him, and there's a magic-eating monster running around, wearing Simon's face. Baz would be having a field day with all this, if he were here. It's their last year at the Watford School of Magicks, and Simon's infuriating nemesis didn't even bother to show up."
     },
     {
         "title": "Symptoms of Being Human",
@@ -1593,7 +1660,7 @@ const data = [
         "bookBibnumber": 560343,
         "ebookBibnumber": 842141,
         "audioBibnumber": 0,
-        "publishersSummery": "A gender-fluid teenager who struggles with identity creates a blog on the topic that goes viral, and faces ridicule at the hands of fellow students"
+        "publishersSummary": "A gender-fluid teenager who struggles with identity creates a blog on the topic that goes viral, and faces ridicule at the hands of fellow students"
     },
     {
         "title": "Some Girls Do",
@@ -1606,7 +1673,7 @@ const data = [
         "bookBibnumber": 954406,
         "ebookBibnumber": 970389,
         "audioBibnumber": 0,
-        "publishersSummery": "An openly gay track star falls for a closeted, bisexual teen beauty queen with a penchant for fixing up old cars"
+        "publishersSummary": "An openly gay track star falls for a closeted, bisexual teen beauty queen with a penchant for fixing up old cars"
     },
     {
         "title": "Clap When You Land",
@@ -1624,7 +1691,7 @@ const data = [
         "bookBibnumber": 840989,
         "ebookBibnumber": 840554,
         "audioBibnumber": 884786,
-        "publishersSummery": "Camino Rios lives for the summers when her father visits her in the Dominican Republic. But this time, on the day when his plane is supposed to land, Camino arrives at the airport to see crowds of crying people... In New York City, Yahaira Rios is called to the principal's office, where her mother is waiting to tell her that her father, her hero, has died in a plane crash. Separated by distance -- and Papi's secrets -- the two girls are forced to face a new reality in which their father is dead and their lives are forever altered. And then, when it seems like they've lost everything of their father, they learn of each other."
+        "publishersSummary": "Camino Rios lives for the summers when her father visits her in the Dominican Republic. But this time, on the day when his plane is supposed to land, Camino arrives at the airport to see crowds of crying people... In New York City, Yahaira Rios is called to the principal's office, where her mother is waiting to tell her that her father, her hero, has died in a plane crash. Separated by distance -- and Papi's secrets -- the two girls are forced to face a new reality in which their father is dead and their lives are forever altered. And then, when it seems like they've lost everything of their father, they learn of each other."
     },
     {
         "title": "The Falling in Love Montage",
@@ -1637,7 +1704,7 @@ const data = [
         "bookBibnumber": 0,
         "ebookBibnumber": 0,
         "audioBibnumber": 973845,
-        "publishersSummery": "Seventeen-year-old cynic Saoirse Clarke isn't looking for a relationship. But when she meets mischievous Ruby, that rule goes right out the window. Sort of. Because Ruby has a loophole in mind: a summer of all the best cliché movie montage dates, with a definite ending come fall--no broken hearts, no messy breakup. It would be the perfect plan, if they weren't forgetting one thing about the Falling in Love Montage: when it's over, the characters have fallen in love ... for real."
+        "publishersSummary": "Seventeen-year-old cynic Saoirse Clarke isn't looking for a relationship. But when she meets mischievous Ruby, that rule goes right out the window. Sort of. Because Ruby has a loophole in mind: a summer of all the best cliché movie montage dates, with a definite ending come fall--no broken hearts, no messy breakup. It would be the perfect plan, if they weren't forgetting one thing about the Falling in Love Montage: when it's over, the characters have fallen in love ... for real."
     },
     {
         "title": "Hello (From Here)",
@@ -1649,7 +1716,7 @@ const data = [
         "bookBibnumber": 0,
         "ebookBibnumber": "22072169&db=3213",
         "audioBibnumber": 0,
-        "publishersSummery": "Maxine and Jonah meet as California is going into lockdown due to the worldwide Covid-19 pandemic declaration, and must learn how to build their relationship at a distance through personal tragedies and triumphs"
+        "publishersSummary": "Maxine and Jonah meet as California is going into lockdown due to the worldwide Covid-19 pandemic declaration, and must learn how to build their relationship at a distance through personal tragedies and triumphs"
     },
     {
         "title": "This One Summer",
@@ -1660,7 +1727,7 @@ const data = [
         "bookBibnumber": 0,
         "ebookBibnumber": 410097,
         "audioBibnumber": 0,
-        "publishersSummery": "Rose and her parents have been going to Awago Beach since she was a little girl. It's her summer getaway, her refuge. Her friend Windy is always there, too, like the little sister she never had, completing her summer family. But this summer is different. Rose's mom and dad won't stop fighting, and Rose and Windy have gotten tangled up in a tragedy-in-the-making in the small town of Awago Beach. It's a summer of secrets and heartache, and it's a good thing Rose and Windy have each other."
+        "publishersSummary": "Rose and her parents have been going to Awago Beach since she was a little girl. It's her summer getaway, her refuge. Her friend Windy is always there, too, like the little sister she never had, completing her summer family. But this summer is different. Rose's mom and dad won't stop fighting, and Rose and Windy have gotten tangled up in a tragedy-in-the-making in the small town of Awago Beach. It's a summer of secrets and heartache, and it's a good thing Rose and Windy have each other."
     },
     {
         "title": "Sweet & Bitter Magic",
@@ -1669,7 +1736,7 @@ const data = [
         "prose": "Y",
         "lgbtqia": "Y",
         "wlwOrNblw": "Y",
-        "publishersSummery": "Tamsin is the most powerful witch of her generation. But after committing the worst magical sin, she's exiled by the ruling Coven and cursed with the inability to love. The only way she can get those feelings back—even for just a little while—is to steal love from others."
+        "publishersSummary": "Tamsin is the most powerful witch of her generation. But after committing the worst magical sin, she's exiled by the ruling Coven and cursed with the inability to love. The only way she can get those feelings back—even for just a little while—is to steal love from others."
     },
     {
         "title": "You Should See Me in a Crown",
@@ -1683,7 +1750,7 @@ const data = [
         "bookBibnumber": 847657,
         "ebookBibnumber": 846972,
         "audioBibnumber": 854632,
-        "publishersSummery": "Liz Lighty has always done her best to avoid the spotlight in her small, wealthy, and prom-obsessed midwestern high school, after all, her family is black and rather poor, especially since her mother died; instead she has concentrated on her grades and her musical ability in the hopes that it will win her a scholarship to elite Pennington College and their famous orchestra where she plans to study medicine--but when that scholarship falls through she is forced to turn to her school's scholarship for prom king and queen, which plunges her into the gauntlet of social media which she hates and leads her to discoveries about her own identity and the value of true friendships."
+        "publishersSummary": "Liz Lighty has always done her best to avoid the spotlight in her small, wealthy, and prom-obsessed midwestern high school, after all, her family is black and rather poor, especially since her mother died; instead she has concentrated on her grades and her musical ability in the hopes that it will win her a scholarship to elite Pennington College and their famous orchestra where she plans to study medicine--but when that scholarship falls through she is forced to turn to her school's scholarship for prom king and queen, which plunges her into the gauntlet of social media which she hates and leads her to discoveries about her own identity and the value of true friendships."
     },
     {
         "title": "I Think I Love You",
@@ -1697,7 +1764,7 @@ const data = [
         "bookBibnumber": 907180,
         "ebookBibnumber": 0,
         "audioBibnumber": 0,
-        "publishersSummery": "Arch-nemeses Emma, a die-hard romantic, and more-practical minded Sophia find themselves competing against one another for a coveted first-prize trip to a film festival in Los Angeles. What happens if their rivalry turns into a romance?"
+        "publishersSummary": "Arch-nemeses Emma, a die-hard romantic, and more-practical minded Sophia find themselves competing against one another for a coveted first-prize trip to a film festival in Los Angeles. What happens if their rivalry turns into a romance?"
     },
     {
         "title": "The Color Purple",
@@ -1709,7 +1776,7 @@ const data = [
         "bookBibnumber": 445103,
         "ebookBibnumber": 494060,
         "audioBibnumber": 0,
-        "publishersSummery": "Tells the story of two African-American sisters: Nettie, a missionary in Africa, and Celie, a child-wife living in the South, in the medium of their letters to each other and in Celie's case, the desperate letters she begins, \"Dear God.\""
+        "publishersSummary": "Tells the story of two African-American sisters: Nettie, a missionary in Africa, and Celie, a child-wife living in the South, in the medium of their letters to each other and in Celie's case, the desperate letters she begins, \"Dear God.\""
     },
     {
         "title": "Of Fire and Stars",
@@ -1721,7 +1788,7 @@ const data = [
         "bookBibnumber": 624272,
         "ebookBibnumber": 629395,
         "audioBibnumber": 714010,
-        "publishersSummery": "Betrothed since childhood to the prince of Mynaria, Princess Dennaleia has always known what her future holds: her marriage will seal the alliance between Mynaria and her homeland, protecting her people from other hostile kingdoms. But Denna has a secret--she possesses an Affinity for fire, |a dangerous gift for the future queen of a land where magic is forbidden. Now Denna has to learn the ways of her new kingdom while trying to hide her growing magic. To make matters worse, she must learn to ride Mynaria'|s formidable warhorses before her coronation--and her teacher is the person who intimidates her most, the prickly and unconventional Princess Amaranthine, sister of her betrothed"
+        "publishersSummary": "Betrothed since childhood to the prince of Mynaria, Princess Dennaleia has always known what her future holds: her marriage will seal the alliance between Mynaria and her homeland, protecting her people from other hostile kingdoms. But Denna has a secret--she possesses an Affinity for fire, |a dangerous gift for the future queen of a land where magic is forbidden. Now Denna has to learn the ways of her new kingdom while trying to hide her growing magic. To make matters worse, she must learn to ride Mynaria'|s formidable warhorses before her coronation--and her teacher is the person who intimidates her most, the prickly and unconventional Princess Amaranthine, sister of her betrothed"
     },
     {
         "title": "Crier's War",
@@ -1733,7 +1800,7 @@ const data = [
         "bookBibnumber": 897513,
         "ebookBibnumber": 970250,
         "audioBibnumber": 0,
-        "publishersSummery": "After the War of Kinds ravaged the kingdom of Rabu, the Automae, designed to be the playthings of royals, took over the estates of their owners and bent the human race to their will. Now Ayla, a human servant rising in the ranks at the house of the sovereign, dreams of avenging the death of her family...by killing the sovereign's daughter, Lady Crier. Crier, who was Made to be beautiful, to be flawless. And to take over the work of her father. Crier had been preparing to do just that--to inherit her father's rule over the land. But that was before she was betrothed to Scyre Kinok, who seems to have a thousand secrets. That was before she discovered her father isn't as benevolent as she thought. That was before she met Ayla"
+        "publishersSummary": "After the War of Kinds ravaged the kingdom of Rabu, the Automae, designed to be the playthings of royals, took over the estates of their owners and bent the human race to their will. Now Ayla, a human servant rising in the ranks at the house of the sovereign, dreams of avenging the death of her family...by killing the sovereign's daughter, Lady Crier. Crier, who was Made to be beautiful, to be flawless. And to take over the work of her father. Crier had been preparing to do just that--to inherit her father's rule over the land. But that was before she was betrothed to Scyre Kinok, who seems to have a thousand secrets. That was before she discovered her father isn't as benevolent as she thought. That was before she met Ayla"
     },
     {
         "title": "The Henna Wars",
@@ -1747,7 +1814,7 @@ const data = [
         "bookBibnumber": 906718,
         "ebookBibnumber": 0,
         "audioBibnumber": 0,
-        "publishersSummery": "Nishat doesnt want to lose her family, but she also doesnt want to hide who she is, and it only gets harder once a childhood friend walks back into her life. Flv̀ia is beautiful and charismatic, and Nishat falls for her instantly. But when a school competition invites students to create their own businesses, both Flv̀ia and Nishat decide to showcase their talent as henna artists. In a fight to prove who is the best, their lives become more tangled, but Nishat cant quite get rid of her crush, especially since Flv̀ia seems to like her back. As the competition heats up, Nishat has a decision to make: stay in the closet for her family, or put aside her differences with Flv̀ia and give their relationship a chance"
+        "publishersSummary": "Nishat doesnt want to lose her family, but she also doesnt want to hide who she is, and it only gets harder once a childhood friend walks back into her life. Flv̀ia is beautiful and charismatic, and Nishat falls for her instantly. But when a school competition invites students to create their own businesses, both Flv̀ia and Nishat decide to showcase their talent as henna artists. In a fight to prove who is the best, their lives become more tangled, but Nishat cant quite get rid of her crush, especially since Flv̀ia seems to like her back. As the competition heats up, Nishat has a decision to make: stay in the closet for her family, or put aside her differences with Flv̀ia and give their relationship a chance"
     },
     {
         "title": "These Witches Don't Burn",
@@ -1760,7 +1827,7 @@ const data = [
         "bookBibnumber": 954421,
         "ebookBibnumber": 0,
         "audioBibnumber": 809402,
-        "publishersSummery": "When evidence of dark magic begins to appear all over Salem, Massachusetts, Elemental Witch Hannah and her ex-girlfriend Veronica are forced to team up to stop the deadly attacks"
+        "publishersSummary": "When evidence of dark magic begins to appear all over Salem, Massachusetts, Elemental Witch Hannah and her ex-girlfriend Veronica are forced to team up to stop the deadly attacks"
     },
     {
         "title": "You Know Me Well",
@@ -1772,7 +1839,7 @@ const data = [
         "bookBibnumber": 590331,
         "ebookBibnumber": 0,
         "audioBibnumber": 0,
-        "publishersSummery": "Mark and Kate sit next to each other in school but are barely acquainted until they meet at a San Francisco club during Pride Week and connect over each one's forbidden lov"
+        "publishersSummary": "Mark and Kate sit next to each other in school but are barely acquainted until they meet at a San Francisco club during Pride Week and connect over each one's forbidden lov"
     },
     {
         "title": "Starting From Here",
@@ -1785,7 +1852,7 @@ const data = [
         "bookBibnumber": 340829,
         "ebookBibnumber": 0,
         "audioBibnumber": 0,
-        "publishersSummery": "Sixteen-year-old Colby is barely hanging on with her mother dead, her long-haul trucker father often away, her almost-girlfriend dumping her for a boy, and her failing grades, when a stray dog appears and helps her find hope."
+        "publishersSummary": "Sixteen-year-old Colby is barely hanging on with her mother dead, her long-haul trucker father often away, her almost-girlfriend dumping her for a boy, and her failing grades, when a stray dog appears and helps her find hope."
     },
     {
         "title": "Little & Lion",
@@ -1801,7 +1868,7 @@ const data = [
         "bookBibnumber": 666904,
         "ebookBibnumber": 0,
         "audioBibnumber": 722007,
-        "publishersSummery": "Suzette returns home to Los Angeles from boarding school and grapples with her bisexual identity when she and her brother Lionel fall in love with the same girl, pushing Lionel's bipolar disorder to spin out of control and forcing Suzette to confront her own demons"
+        "publishersSummary": "Suzette returns home to Los Angeles from boarding school and grapples with her bisexual identity when she and her brother Lionel fall in love with the same girl, pushing Lionel's bipolar disorder to spin out of control and forcing Suzette to confront her own demons"
     },
     {
         "title": "History is All You Left Me",
@@ -1815,7 +1882,7 @@ const data = [
         "bookBibnumber": 633032,
         "ebookBibnumber": 666574,
         "audioBibnumber": 937632,
-        "publishersSummery": "Secrets are revealed as OCD-afflicted Griffin grieves for his first love Theo, who died in a drowning accident."
+        "publishersSummary": "Secrets are revealed as OCD-afflicted Griffin grieves for his first love Theo, who died in a drowning accident."
     },
     {
         "title": "Boyfriend Material",
@@ -1828,7 +1895,7 @@ const data = [
         "bookBibnumber": 901600,
         "ebookBibnumber": 848416,
         "audioBibnumber": 848422,
-        "publishersSummery": "Wanted: One (fake) boyfriend Practically perfect in every way Luc O'Donnell is tangentially-and reluctantly-famous. His rock star parents split when he was young, and the father he's never met spent the next twenty years cruising in and out of rehab. Now that his dad's making a comeback, Luc's back in the public eye, and one compromising photo is enough to ruin everything. To clean up his image, Luc has to find a nice, normal relationship...and Oliver Blackwood is as nice and normal as they come. He's a barrister, an ethical vegetarian, and he's never inspired a moment of scandal in his life. In other words: perfect boyfriend material. Unfortunately apart from being gay, single, and really, really in need of a date for a big event, Luc and Oliver have nothing in common. So they strike a deal to be publicity-friendly (fake) boyfriends until the dust has settled. Then they can go their separate ways and pretend it never happened. But the thing about fake-dating is that it can feel a lot like real-dating. And that's when you get used to someone. Start falling for them. Don't ever want to let them go"
+        "publishersSummary": "Wanted: One (fake) boyfriend Practically perfect in every way Luc O'Donnell is tangentially-and reluctantly-famous. His rock star parents split when he was young, and the father he's never met spent the next twenty years cruising in and out of rehab. Now that his dad's making a comeback, Luc's back in the public eye, and one compromising photo is enough to ruin everything. To clean up his image, Luc has to find a nice, normal relationship...and Oliver Blackwood is as nice and normal as they come. He's a barrister, an ethical vegetarian, and he's never inspired a moment of scandal in his life. In other words: perfect boyfriend material. Unfortunately apart from being gay, single, and really, really in need of a date for a big event, Luc and Oliver have nothing in common. So they strike a deal to be publicity-friendly (fake) boyfriends until the dust has settled. Then they can go their separate ways and pretend it never happened. But the thing about fake-dating is that it can feel a lot like real-dating. And that's when you get used to someone. Start falling for them. Don't ever want to let them go"
     },
     {
         "title": "Plain Bad Heroines",
@@ -1841,7 +1908,7 @@ const data = [
         "bookBibnumber": 852854,
         "ebookBibnumber": 858972,
         "audioBibnumber": 858974,
-        "publishersSummery": "A century after the macabre deaths of several students at a New England girls' boarding school, the release of a sensational book on the school's history inspires a horror film adaptation that renews suspicions of a curse when the cast and crew arrive at the long-abandoned building."
+        "publishersSummary": "A century after the macabre deaths of several students at a New England girls' boarding school, the release of a sensational book on the school's history inspires a horror film adaptation that renews suspicions of a curse when the cast and crew arrive at the long-abandoned building."
     },
     {
         "title": "The Never Tilting World",
@@ -1853,7 +1920,7 @@ const data = [
         "bookBibnumber": 811375,
         "ebookBibnumber": 0,
         "audioBibnumber": 0,
-        "publishersSummery": "After an ancient prophecy is betrayed, a world ruled by a long line of goddesses is split in two--one half in perpetual day, and the other in an endless night--and two young twin goddesses set out on separate and equally dangerous journeys to the Breach that divides them, hoping to save their broken world"
+        "publishersSummary": "After an ancient prophecy is betrayed, a world ruled by a long line of goddesses is split in two--one half in perpetual day, and the other in an endless night--and two young twin goddesses set out on separate and equally dangerous journeys to the Breach that divides them, hoping to save their broken world"
     },
     {
         "title": "Cinderella Is Dead",
@@ -1866,7 +1933,7 @@ const data = [
         "bookBibnumber": 881218,
         "ebookBibnumber": 848215,
         "audioBibnumber": 0,
-        "publishersSummery": "Queer black girls team up to overthrow the patriarchy in the former kingdom of Cinderella"
+        "publishersSummary": "Queer black girls team up to overthrow the patriarchy in the former kingdom of Cinderella"
     },
     {
         "title": "Bodymap",
@@ -1891,7 +1958,7 @@ const data = [
         "bookBibnumber": 881233,
         "ebookBibnumber": 901786,
         "audioBibnumber": 913368,
-        "publishersSummery": "Seventeen-year-old Lily Hu can't remember exactly when the question took root, but the answer was in full bloom the moment she and Kathleen Miller walked under the flashing neon sign of a lesbian bar called the Telegraph Club. America in 1954 is not a safe place for two girls to fall in love, especially not in Chinatown. Red-Scare paranoia threatens everyone, including Chinese Americans like Lily. With deportation looming over her father--despite his hard-won citizenship--Lily and Kath risk everything to let their love see the light of day"
+        "publishersSummary": "Seventeen-year-old Lily Hu can't remember exactly when the question took root, but the answer was in full bloom the moment she and Kathleen Miller walked under the flashing neon sign of a lesbian bar called the Telegraph Club. America in 1954 is not a safe place for two girls to fall in love, especially not in Chinatown. Red-Scare paranoia threatens everyone, including Chinese Americans like Lily. With deportation looming over her father--despite his hard-won citizenship--Lily and Kath risk everything to let their love see the light of day"
     },
     {
         "title": "First Spring Grass Fire",
@@ -1914,7 +1981,7 @@ const data = [
         "ownvoices": "Y",
         "bookBibnumber": 870563,
         "ebookBibnumber": 877352,
-        "publishersSummery": "Juliet, a self-identified queer, Bronx-born Puerto Rican-American, comes out to her family to disastrous results the night before flying to Portland to intern with her feminist author icon--whom Juliet soon realizes has a problematic definition of feminism that excludes women of color"
+        "publishersSummary": "Juliet, a self-identified queer, Bronx-born Puerto Rican-American, comes out to her family to disastrous results the night before flying to Portland to intern with her feminist author icon--whom Juliet soon realizes has a problematic definition of feminism that excludes women of color"
     },
     {
         "title": "The Second Mango",
@@ -1926,7 +1993,7 @@ const data = [
         "ownvoices": "Y",
         "jewish": "Y",
         "bookBibnumber": 0,
-        "publishersSummery": "Queen Shulamit never expected to inherit the throne of the tropical land of Perach so young. At twenty, grief-stricken and fatherless, she's also coping with being the only lesbian she knows after her sweetheart ran off for an unknown reason. Not to mention, she's the victim of severe digestive problems that everybody thinks she's faking. When she meets Rivka, an athletic and assertive warrior from the north who wears a mask and pretends to be a man, she finds the source of strength she needs so desperately. Unfortunately for her, Rivka is straight, but that's okay -- Shulamit needs a surrogate big sister just as much as she needs a girlfriend. Especially if the warrior's willing to take her around the kingdom on the back of her dragon in search of other women who might be open to same-sex romance. The real world outside the palace is full of adventure, however, and the search for a royal girlfriend quickly turns into a rescue mission when they discover a temple full of women turned to stone by an evil sorcerer."
+        "publishersSummary": "Queen Shulamit never expected to inherit the throne of the tropical land of Perach so young. At twenty, grief-stricken and fatherless, she's also coping with being the only lesbian she knows after her sweetheart ran off for an unknown reason. Not to mention, she's the victim of severe digestive problems that everybody thinks she's faking. When she meets Rivka, an athletic and assertive warrior from the north who wears a mask and pretends to be a man, she finds the source of strength she needs so desperately. Unfortunately for her, Rivka is straight, but that's okay -- Shulamit needs a surrogate big sister just as much as she needs a girlfriend. Especially if the warrior's willing to take her around the kingdom on the back of her dragon in search of other women who might be open to same-sex romance. The real world outside the palace is full of adventure, however, and the search for a royal girlfriend quickly turns into a rescue mission when they discover a temple full of women turned to stone by an evil sorcerer."
     },
     {
         "title": "Lies We Tell Ourselves",
@@ -1939,7 +2006,7 @@ const data = [
         "bookBibnumber": 445532,
         "ebookBibnumber": 0,
         "audioBibnumber": 0,
-        "publishersSummery": "In 1959 Virginia, Sarah, a black student who is one of the first to attend a newly integrated school, forces Linda, a white integration opponent's daughter, to confront harsh truths when they work together on a school project."
+        "publishersSummary": "In 1959 Virginia, Sarah, a black student who is one of the first to attend a newly integrated school, forces Linda, a white integration opponent's daughter, to confront harsh truths when they work together on a school project."
     },
     {
         "title": "I Am Not Your Perfect Mexican Daughter",
@@ -1952,7 +2019,7 @@ const data = [
         "bookBibnumber": 688608,
         "ebookBibnumber": 701003,
         "audioBibnumber": 691280,
-        "publishersSummery": "Perfect Mexican daughters do not go away to college. And they do not move out of their parents' house after high school graduation. Perfect Mexican daughters never abandon their family. But Julia is not your perfect Mexican daughter. That was Olga's role. Then a tragic accident on the busiest street in Chicago leaves Olga dead and Julia left behind to reassemble the shattered pieces of her family. And no one seems to acknowledge that Julia is broken, too. Instead, her mother seems to channel her grief into pointing out every possible way Julia has failed."
+        "publishersSummary": "Perfect Mexican daughters do not go away to college. And they do not move out of their parents' house after high school graduation. Perfect Mexican daughters never abandon their family. But Julia is not your perfect Mexican daughter. That was Olga's role. Then a tragic accident on the busiest street in Chicago leaves Olga dead and Julia left behind to reassemble the shattered pieces of her family. And no one seems to acknowledge that Julia is broken, too. Instead, her mother seems to channel her grief into pointing out every possible way Julia has failed."
     },
     {
         "title": "War of Streets and Houses",
@@ -1999,7 +2066,7 @@ const data = [
         "newAdultAdultBookWithTeenInterest": "Y"
     },
     {
-        "title": "All The Good Children ",
+        "title": "All Good Children ",
         "author": "Danya Ingram",
         "scifi": "Y",
         "prose": "Y",
@@ -2009,7 +2076,7 @@ const data = [
         "bookBibnumber": 0,
         "ebookBibnumber": 490372,
         "audioBibnumber": 0,
-        "publishersSummery": "In the not-too-distant future, Max tries to maintain his identity in a world where the only way to survive is to conform and obey."
+        "publishersSummary": "In the not-too-distant future, Max tries to maintain his identity in a world where the only way to survive is to conform and obey."
     },
     {
         "title": "The House You Pass on the Way",
@@ -2031,7 +2098,7 @@ const data = [
         "bookBibnumber": 98551,
         "ebookBibnumber": 0,
         "audioBibnumber": 0,
-        "publishersSummery": "While attending a summer institute, fifteen-year-old Nic meets another girl named Battle, falls in love with her, and finds the relationship to be difficult and confusing."
+        "publishersSummary": "While attending a summer institute, fifteen-year-old Nic meets another girl named Battle, falls in love with her, and finds the relationship to be difficult and confusing."
     },
     {
         "title": "Ophie's Ghosts",
@@ -2044,11 +2111,11 @@ const data = [
         "bookBibnumber": 907499,
         "ebookBibnumber": 0,
         "audioBibnumber": 0,
-        "publishersSummery": "Ophelia Harrison used to live in a small house in the Georgia countryside. But that was before the night in November 1922, and the cruel act that took her home and her father from her--which was the same night that Ophie learned she can see ghosts. Now Ophie and her mother are living in Pittsburgh with relatives they barely know. In the hopes of earning enough money to get their own place, Mama has gotten Ophie a job as a maid in the same old manor house where she works. Daffodil Manor, like the wealthy Caruthers family who owns it, is haunted by memories and prejudices of the past--and, as Ophie discovers, ghosts as well"
+        "publishersSummary": "Ophelia Harrison used to live in a small house in the Georgia countryside. But that was before the night in November 1922, and the cruel act that took her home and her father from her--which was the same night that Ophie learned she can see ghosts. Now Ophie and her mother are living in Pittsburgh with relatives they barely know. In the hopes of earning enough money to get their own place, Mama has gotten Ophie a job as a maid in the same old manor house where she works. Daffodil Manor, like the wealthy Caruthers family who owns it, is haunted by memories and prejudices of the past--and, as Ophie discovers, ghosts as well"
     },
     {
         "title": "Enter Title Here",
-        "author": "Naomi Kanakia",
+        "author": "Rahul Kanakia",
         "fiction": "Y",
         "aapi": "Y",
         "ownvoices": "Y",
@@ -2056,22 +2123,22 @@ const data = [
         "bookBibnumber": 614642,
         "ebookBibnumber": 0,
         "audioBibnumber": 0,
-        "publishersSummery": "High school senior Reshma Kapoor will stop at nothing to gain admission to Stanford, including writing a novel."
+        "publishersSummary": "High school senior Reshma Kapoor will stop at nothing to gain admission to Stanford, including writing a novel."
     },
     {
         "title": "Jack of Hearts (and Other Parts)",
-        "author": "Lev AC Rosen",
+        "author": "LC Rosen",
         "fiction": "Y",
         "romance": "Y",
         "lgbtqia": "Y",
         "bookBibnumber": 751431,
         "ebookBibnumber": 0,
         "audioBibnumber": 0,
-        "publishersSummery": "An unapologetically sexually active queer character works to uncover a blackmailer threatening him back into the closet"
+        "publishersSummary": "An unapologetically sexually active queer character works to uncover a blackmailer threatening him back into the closet"
     },
     {
         "title": "Camp (novel)",
-        "author": "Lev AC Rosen",
+        "author": "Kayla Miller",
         "fiction": "Y",
         "romance": "Y",
         "prose": "Y",
@@ -2079,7 +2146,7 @@ const data = [
         "bookBibnumber": 841000,
         "ebookBibnumber": 0,
         "audioBibnumber": 0,
-        "publishersSummery": "At Camp Outland, a camp for LGBTQIA teens, sixteen-year-old Randall \"Del\" Kapplehoff's plan to have Hudson Aaronson-Lim fall in love with him succeeds, but both are hiding their true selves."
+        "publishersSummary": "At Camp Outland, a camp for LGBTQIA teens, sixteen-year-old Randall \"Del\" Kapplehoff's plan to have Hudson Aaronson-Lim fall in love with him succeeds, but both are hiding their true selves."
     },
     {
         "title": "Written in the Stars",
@@ -2092,7 +2159,7 @@ const data = [
         "bookBibnumber": 0,
         "ebookBibnumber": 873052,
         "audioBibnumber": 873074,
-        "publishersSummery": "In her debut with nods to Bridget Jones and Pride and Prejudice, Alexandria Bellefleur delivers a charming #ownvoices queer rom-com about a free-spirited social media astrologer who agrees to fake a relationship with an uptight actuary until New Year's Eve--with results not even the stars could predict!After a disastrous blind date, Darcy Lowell is desperate to stop her well-meaning brother from playing matchmaker ever again. Love--and the inevitable heartbreak--is the last thing she wants. So she fibs and says her latest set up was a success. Darcy doesn't expect her lie to bite her in the ass. Elle Jones, one of the astrologers behind the popular Twitter account, Oh My Stars, dreams of finding her soul mate. But she knows it is most assuredly not Darcy... a no-nonsense stick-in-the-mud, who is way too analytical, punctual, and skeptical for someone as free-spirited as Elle. When Darcy's brother--and Elle's new business partner--expresses how happy he is that they hit it off, Elle is baffled. Was Darcy on the same date' Because... awkward. When Darcy begs Elle to play along, she agrees to pretend they're dating to save face. But with a few conditions: Darcy must help Elle navigate her own overbearing family during the holidays and their arrangement expires on New Year's Eve. The last thing they expect is to develop real feelings during a fake relationship. But maybe opposites can attract when true love is written in the stars?"
+        "publishersSummary": "In her debut with nods to Bridget Jones and Pride and Prejudice, Alexandria Bellefleur delivers a charming #ownvoices queer rom-com about a free-spirited social media astrologer who agrees to fake a relationship with an uptight actuary until New Year's Eve--with results not even the stars could predict!After a disastrous blind date, Darcy Lowell is desperate to stop her well-meaning brother from playing matchmaker ever again. Love--and the inevitable heartbreak--is the last thing she wants. So she fibs and says her latest set up was a success. Darcy doesn't expect her lie to bite her in the ass. Elle Jones, one of the astrologers behind the popular Twitter account, Oh My Stars, dreams of finding her soul mate. But she knows it is most assuredly not Darcy... a no-nonsense stick-in-the-mud, who is way too analytical, punctual, and skeptical for someone as free-spirited as Elle. When Darcy's brother--and Elle's new business partner--expresses how happy he is that they hit it off, Elle is baffled. Was Darcy on the same date' Because... awkward. When Darcy begs Elle to play along, she agrees to pretend they're dating to save face. But with a few conditions: Darcy must help Elle navigate her own overbearing family during the holidays and their arrangement expires on New Year's Eve. The last thing they expect is to develop real feelings during a fake relationship. But maybe opposites can attract when true love is written in the stars?"
     },
     {
         "title": "This Is Kind of an Epic Love Story",
@@ -2106,7 +2173,7 @@ const data = [
         "bookBibnumber": 766736,
         "ebookBibnumber": 766736,
         "audioBibnumber": 0,
-        "publishersSummery": "Budding screenwriter Nate, sixteen, finds his conviction that happy endings do not happen in real life sorely tested when his childhood best friend and crush, Oliver James Hernandez, moves back to town."
+        "publishersSummary": "Budding screenwriter Nate, sixteen, finds his conviction that happy endings do not happen in real life sorely tested when his childhood best friend and crush, Oliver James Hernandez, moves back to town."
     },
     {
         "title": "Cemetery Boys",
@@ -2121,7 +2188,7 @@ const data = [
         "bookBibnumber": 847668,
         "ebookBibnumber": 854642,
         "audioBibnumber": 854621,
-        "publishersSummery": "Yadriel, a trans boy, summons the angry spirit of his high school's bad boy, and agrees to help him learn how he died, thereby proving himself a brujo, not a bruja, to his conservative family."
+        "publishersSummary": "Yadriel, a trans boy, summons the angry spirit of his high school's bad boy, and agrees to help him learn how he died, thereby proving himself a brujo, not a bruja, to his conservative family."
     },
     {
         "title": "Will Grayson, Will Grayson",
@@ -2133,10 +2200,10 @@ const data = [
         "bookBibnumber": 262564,
         "ebookBibnumber": 518280,
         "audioBibnumber": 0,
-        "publishersSummery": "When two teens, one gay and one straight, meet accidentally and discover that they share the same name, their lives become intertwined as one begins dating the other's best friend, who produces a play revealing his relationship with them both."
+        "publishersSummary": "When two teens, one gay and one straight, meet accidentally and discover that they share the same name, their lives become intertwined as one begins dating the other's best friend, who produces a play revealing his relationship with them both."
     },
     {
-        "title": "Turtles All The Way Down",
+        "title": "Turtles All the Way Down",
         "author": "John Green",
         "fiction": "Y",
         "prose": "Y",
@@ -2146,7 +2213,7 @@ const data = [
         "bookBibnumber": 683975,
         "ebookBibnumber": 685607,
         "audioBibnumber": 685577,
-        "publishersSummery": "Turtles All the Way Down is about lifelong friendship, the intimacy of an unexpected reunion, Star Wars fan fiction, and tuatara. But at its heart is Aza Holmes, a young woman navigating daily existence within the ever-tightening spiral of her own thoughts."
+        "publishersSummary": "Turtles All the Way Down is about lifelong friendship, the intimacy of an unexpected reunion, Star Wars fan fiction, and tuatara. But at its heart is Aza Holmes, a young woman navigating daily existence within the ever-tightening spiral of her own thoughts."
     },
     {
         "title": "Where They Burn Books, They Also Burn People",
@@ -2165,7 +2232,7 @@ const data = [
         "bookBibnumber": 583145,
         "ebookBibnumber": 601405,
         "audioBibnumber": 0,
-        "publishersSummery": "Can seventeen-year-old Jonah save his family restaurant from ruin, his mother from her sadness, and his danger-seeking girlfriend Vivi from herself?"
+        "publishersSummary": "Can seventeen-year-old Jonah save his family restaurant from ruin, his mother from her sadness, and his danger-seeking girlfriend Vivi from herself?"
     },
     {
         "title": "Reasons To Stay Alive",
@@ -2179,7 +2246,7 @@ const data = [
         "bookBibnumber": 583219,
         "ebookBibnumber": 829387,
         "audioBibnumber": 829388,
-        "publishersSummery": "Matt Haig's ... memoir of his struggle with depression, and how his triumph over the illness taught him to live"
+        "publishersSummary": "Matt Haig's ... memoir of his struggle with depression, and how his triumph over the illness taught him to live"
     },
     {
         "title": "Insignificant Events In the Life of a Cactus",
@@ -2191,7 +2258,7 @@ const data = [
         "bookBibnumber": 674159,
         "ebookBibnumber": 815053,
         "audioBibnumber": 795233,
-        "publishersSummery": "New friends and a mystery help Aven, thirteen, adjust to middle school and life at a dying western theme park in a new state, where her being born armless presents many challenges."
+        "publishersSummary": "New friends and a mystery help Aven, thirteen, adjust to middle school and life at a dying western theme park in a new state, where her being born armless presents many challenges."
     },
     {
         "title": "The Cat I Never Named",
@@ -2208,7 +2275,7 @@ const data = [
         "bookBibnumber": 883049,
         "ebookBibnumber": 0,
         "audioBibnumber": 0,
-        "publishersSummery": "In Bihac, Bosnia, in 1992, sixteen-year-old Amra and her family face starvation and the threat of brutal ethnic violence as Serbs and Bosnians clash, while a stray cat, Maci, provides solace."
+        "publishersSummary": "In Bihac, Bosnia, in 1992, sixteen-year-old Amra and her family face starvation and the threat of brutal ethnic violence as Serbs and Bosnians clash, while a stray cat, Maci, provides solace."
     },
     {
         "title": "The Red Pencil",
@@ -2222,7 +2289,7 @@ const data = [
         "bookBibnumber": 436174,
         "ebookBibnumber": 0,
         "audioBibnumber": 0,
-        "publishersSummery": "After her tribal village is attacked by militants, Amira, a young Sudanese girl, must flee to safety at a refugee camp, where she finds hope and the chance to pursue an education in the form of a single red pencil and the friendship and encouragement of a wise elder"
+        "publishersSummary": "After her tribal village is attacked by militants, Amira, a young Sudanese girl, must flee to safety at a refugee camp, where she finds hope and the chance to pursue an education in the form of a single red pencil and the friendship and encouragement of a wise elder"
     },
     {
         "title": "Let's Talk About Love",
@@ -2237,7 +2304,7 @@ const data = [
         "bookBibnumber": 983883,
         "ebookBibnumber": 965789,
         "audioBibnumber": 0,
-        "publishersSummery": "Striking a perfect balance between heartfelt emotions and spot-on humor, this debut introduces Alice, a college student who's afraid of explaining her asexuality and has given up on finding love--until love finds her."
+        "publishersSummary": "Striking a perfect balance between heartfelt emotions and spot-on humor, this debut introduces Alice, a college student who's afraid of explaining her asexuality and has given up on finding love--until love finds her."
     },
     {
         "title": "Kings, Queens, and In-Betweens",
@@ -2249,7 +2316,7 @@ const data = [
         "bookBibnumber": 0,
         "ebookBibnumber": 843767,
         "audioBibnumber": 795226,
-        "publishersSummery": "After a bewildering encounter at her small town's annual summer festival, seventeen-year-old biracial, queer Nima plunges into the world of drag, where she has the chance to explore questions of identity, acceptance, self-expression, and love."
+        "publishersSummary": "After a bewildering encounter at her small town's annual summer festival, seventeen-year-old biracial, queer Nima plunges into the world of drag, where she has the chance to explore questions of identity, acceptance, self-expression, and love."
     },
     {
         "title": "The Voting Booth",
@@ -2261,7 +2328,7 @@ const data = [
         "bookBibnumber": 847678,
         "ebookBibnumber": 0,
         "audioBibnumber": 848192,
-        "publishersSummery": "The first year they are eligible to vote, Marva and Duke meet at their polling place and, over the course of one crazy day, fall in love"
+        "publishersSummary": "The first year they are eligible to vote, Marva and Duke meet at their polling place and, over the course of one crazy day, fall in love"
     },
     {
         "title": "How I Paid for College: A Novel of Sex, Theft, Friendship & Musical Theater",
@@ -2273,7 +2340,7 @@ const data = [
         "bookBibnumber": 143200,
         "ebookBibnumber": 0,
         "audioBibnumber": 0,
-        "publishersSummery": "How I Paid for College is a farcical coming-of-age story that combines the first-person tone of David Sedaris with the byzantine plot twists of Armistead Maupin. It is a novel for anyone who has ever had a dream or a scheme, and it marks the introduction to an original and audacious talent."
+        "publishersSummary": "How I Paid for College is a farcical coming-of-age story that combines the first-person tone of David Sedaris with the byzantine plot twists of Armistead Maupin. It is a novel for anyone who has ever had a dream or a scheme, and it marks the introduction to an original and audacious talent."
     },
     {
         "title": "From a Whisper to a Rallying Cry: The Killing of Vincent Chin and the Trial that Galvanized the Asian American Movement",
@@ -2283,7 +2350,7 @@ const data = [
         "bookBibnumber": 902433,
         "ebookBibnumber": 0,
         "audioBibnumber": 0,
-        "publishersSummery": "A portrait of Vincent Chin and the murder case that took America's Asian American community to the streets in protest of injustice. America in 1982. Japanese car companies are on the rise and believed to be putting American autoworkers out of their jobs. Anti-Asian American sentiments simmer, especially in Detroit. A bar fight turns fatal, leaving Vincent Chin-a Chinese American man-beaten to death at the hands of two white men, autoworker Ronald Ebens and his stepson Michael Nitz. From a Whisper to a Rallying Cry is a searing examination of the killing and the trial and verdicts that followed. When Ebens and Nitz pled guilty to manslaughter and received only a $3,000 fine and three years' probation, the lenient sentence sparked outrage in the Asian American community. This outrage galvanized the Asian American movement and paved the way for a new federal civil rights trial of the case. Extensively researched from court transcripts and interviews with key case witnesses-many speaking for the first time-Yoo has crafted a suspenseful, nuanced, and authoritative portrait of a pivotal moment in civil rights history, and a man who became a symbol against hatred and racism\"-- Provided by publisher."
+        "publishersSummary": "A portrait of Vincent Chin and the murder case that took America's Asian American community to the streets in protest of injustice. America in 1982. Japanese car companies are on the rise and believed to be putting American autoworkers out of their jobs. Anti-Asian American sentiments simmer, especially in Detroit. A bar fight turns fatal, leaving Vincent Chin-a Chinese American man-beaten to death at the hands of two white men, autoworker Ronald Ebens and his stepson Michael Nitz. From a Whisper to a Rallying Cry is a searing examination of the killing and the trial and verdicts that followed. When Ebens and Nitz pled guilty to manslaughter and received only a $3,000 fine and three years' probation, the lenient sentence sparked outrage in the Asian American community. This outrage galvanized the Asian American movement and paved the way for a new federal civil rights trial of the case. Extensively researched from court transcripts and interviews with key case witnesses-many speaking for the first time-Yoo has crafted a suspenseful, nuanced, and authoritative portrait of a pivotal moment in civil rights history, and a man who became a symbol against hatred and racism\"-- Provided by publisher."
     },
     {
         "title": "The Harlem Hellfighters",
@@ -2293,7 +2360,7 @@ const data = [
         "bookBibnumber": 408115,
         "ebookBibnumber": 0,
         "audioBibnumber": 0,
-        "publishersSummery": "This is a graphic novel about the first African-American regiment to fight in World War One"
+        "publishersSummary": "This is a graphic novel about the first African-American regiment to fight in World War One"
     },
     {
         "title": "Redbone: The True Story of a Native American Rock Band",
@@ -2305,7 +2372,7 @@ const data = [
         "bookBibnumber": 895473,
         "ebookBibnumber": 0,
         "audioBibnumber": 0,
-        "publishersSummery": "Brothers Pat and Lolly Vegas were talented Native American rock musicians that took the 1960s Sunset Strip by storm. They influenced The Doors and jammed with Jimmy Hendrix before he was \"Jimi,\" and the idea of a band made up of all Native Americans soon followed. Determined to control their creative vision and maintain their cultural identity, they eventually signed a deal with Epic Records in 1969. But as the American Indian Movement gained momentum the band took a stand, choosing pride in their ancestry over continued commercial reward."
+        "publishersSummary": "Brothers Pat and Lolly Vegas were talented Native American rock musicians that took the 1960s Sunset Strip by storm. They influenced The Doors and jammed with Jimmy Hendrix before he was \"Jimi,\" and the idea of a band made up of all Native Americans soon followed. Determined to control their creative vision and maintain their cultural identity, they eventually signed a deal with Epic Records in 1969. But as the American Indian Movement gained momentum the band took a stand, choosing pride in their ancestry over continued commercial reward."
     },
     {
         "title": "Wintergirls",
@@ -2316,7 +2383,7 @@ const data = [
         "bookBibnumber": 236483,
         "ebookBibnumber": 487896,
         "audioBibnumber": 937611,
-        "publishersSummery": "Eighteen-year-old Lia comes to terms with her best friend's death from anorexia as she struggles with the same disorder."
+        "publishersSummary": "Eighteen-year-old Lia comes to terms with her best friend's death from anorexia as she struggles with the same disorder."
     },
     {
         "title": "Hell Followed With Us",
@@ -2333,7 +2400,7 @@ const data = [
         "bookBibnumber": 965411,
         "ebookBibnumber": 983047,
         "audioBibnumber": 0,
-        "publishersSummery": "A furious debut novel from Andrew Joseph White about embracing the monster within and unleashing its power against your oppressors. Perfect for fans of Gideon the Ninth and Annihilation. Sixteen-year-old trans boy Benji is on the run from the cult that raised him--the fundamentalist sect that unleashed Armageddon and decimated the world's population. Desperately, he searches for a place where the cult can't get their hands on him, or more importantly, on the bioweapon they infected him with. But when cornered by monsters born from the destruction, Benji is rescued by a group of teens from the local Acheson LGBTQ+ Center, affectionately known as the ALC. The ALC's leader, Nick, is gorgeous, autistic, and a deadly shot, and he knows Benji's darkest secret: the cult's bioweapon is mutating him into a monster deadly enough to wipe humanity from the earth once and for all. Still, Nick offers Benji shelter among his ragtag group of queer teens, as long as Benji can control the monster and use its power to defend the ALC. Eager to belong, Benji accepts Nick's terms ... until he discovers the ALC's mysterious leader has a hidden agenda, and more than a few secrets of his own."
+        "publishersSummary": "A furious debut novel from Andrew Joseph White about embracing the monster within and unleashing its power against your oppressors. Perfect for fans of Gideon the Ninth and Annihilation. Sixteen-year-old trans boy Benji is on the run from the cult that raised him--the fundamentalist sect that unleashed Armageddon and decimated the world's population. Desperately, he searches for a place where the cult can't get their hands on him, or more importantly, on the bioweapon they infected him with. But when cornered by monsters born from the destruction, Benji is rescued by a group of teens from the local Acheson LGBTQ+ Center, affectionately known as the ALC. The ALC's leader, Nick, is gorgeous, autistic, and a deadly shot, and he knows Benji's darkest secret: the cult's bioweapon is mutating him into a monster deadly enough to wipe humanity from the earth once and for all. Still, Nick offers Benji shelter among his ragtag group of queer teens, as long as Benji can control the monster and use its power to defend the ALC. Eager to belong, Benji accepts Nick's terms ... until he discovers the ALC's mysterious leader has a hidden agenda, and more than a few secrets of his own."
     },
     {
         "title": "We All Fall Down",
@@ -2347,7 +2414,7 @@ const data = [
         "bookBibnumber": 0,
         "ebookBibnumber": 847647,
         "audioBibnumber": 0,
-        "publishersSummery": "A new romantic thriller—with a dash of horror—from the author of One Was Lost and Six Months Later Theo's always been impulsive. But telling Paige how he feels? He's obsessed over that decision. And it's time. Tonight. At the party on the riverbank, under the old walking bridge, site of so many tales of love and death. Paige has had a crush on Theo since they first met, but she knows her feelings are one-sided. She's trying to move on, to flirt. A party at the river is just what she needs. Except a fight breaks out, and when Paige tries to intervene—Theo's fist lands in her face. All Theo and Paige want to do is forget that fateful night. But strange events keep drawing them back to the bridge. Someone, something is determined to make them remember...and pay for what they each did."
+        "publishersSummary": "A new romantic thriller—with a dash of horror—from the author of One Was Lost and Six Months Later Theo's always been impulsive. But telling Paige how he feels? He's obsessed over that decision. And it's time. Tonight. At the party on the riverbank, under the old walking bridge, site of so many tales of love and death. Paige has had a crush on Theo since they first met, but she knows her feelings are one-sided. She's trying to move on, to flirt. A party at the river is just what she needs. Except a fight breaks out, and when Paige tries to intervene—Theo's fist lands in her face. All Theo and Paige want to do is forget that fateful night. But strange events keep drawing them back to the bridge. Someone, something is determined to make them remember...and pay for what they each did."
     },
     {
         "title": "The Gravity of Missing Things",
@@ -2364,7 +2431,7 @@ const data = [
         "bookBibnumber": 800446,
         "ebookBibnumber": 834639,
         "audioBibnumber": 821032,
-        "publishersSummery": "Sent by a banished Merlin to protect King Arthur, a sixteen-year-old impersonating the deceased Guinevere struggles to fit in at Camelot where the magic she practices is banished."
+        "publishersSummary": "Sent by a banished Merlin to protect King Arthur, a sixteen-year-old impersonating the deceased Guinevere struggles to fit in at Camelot where the magic she practices is banished."
     },
     {
         "title": "Love & Other Disasters",
@@ -2377,7 +2444,7 @@ const data = [
         "bookBibnumber": 0,
         "ebookBibnumber": 962894,
         "audioBibnumber": 0,
-        "publishersSummery": "Recently divorced and on the verge of bankruptcy, Dahlia Woodson is ready to reinvent herself on the popular reality competition show Chef's Special. Too bad the first memorable move she makes is falling flat on her face, sending fish tacos flying--not quite the fresh start she was hoping for. Still, she's focused on winning, until she meets someone she might want a future with more than she needs the prize money. After announcing their pronouns on national television, London Parker has enough on their mind without worrying about the klutzy competitor stationed in front of them. They're there to prove the trolls--including a fellow contestant and their dad--wrong, and falling in love was never part of the plan. As London and Dahlia get closer, reality starts to fall away. Goodbye, guilt about divorce, anxiety about uncertain futures, and stress from transphobia. Hello, hilarious shenanigans on set, wedding crashing, and spontaneous dips into the Pacific. But as the finale draws near, Dahlia and London's steamy relationship starts to feel the heat both in and outside the kitchen--and they must figure out if they have the right ingredients for a happily ever after."
+        "publishersSummary": "Recently divorced and on the verge of bankruptcy, Dahlia Woodson is ready to reinvent herself on the popular reality competition show Chef's Special. Too bad the first memorable move she makes is falling flat on her face, sending fish tacos flying--not quite the fresh start she was hoping for. Still, she's focused on winning, until she meets someone she might want a future with more than she needs the prize money. After announcing their pronouns on national television, London Parker has enough on their mind without worrying about the klutzy competitor stationed in front of them. They're there to prove the trolls--including a fellow contestant and their dad--wrong, and falling in love was never part of the plan. As London and Dahlia get closer, reality starts to fall away. Goodbye, guilt about divorce, anxiety about uncertain futures, and stress from transphobia. Hello, hilarious shenanigans on set, wedding crashing, and spontaneous dips into the Pacific. But as the finale draws near, Dahlia and London's steamy relationship starts to feel the heat both in and outside the kitchen--and they must figure out if they have the right ingredients for a happily ever after."
     },
     {
         "title": "All Our Hidden Gifts",
@@ -2391,7 +2458,7 @@ const data = [
         "bookBibnumber": 0,
         "ebookBibnumber": 897491,
         "audioBibnumber": 0,
-        "publishersSummery": "Maeve Chambers doesn't have much going for her. Not only does she feel like the sole idiot in a family of geniuses, she managed to drive away her best friend Lily a year ago. But when she finds a pack of dusty old tarot cards at school, and begins to give scarily accurate readings to the girls in her class, she realizes she's found her gift at last. Things are looking up - until she discovers a strange card in the deck that definitely shouldn't be there. And two days after she convinces her ex-best friend to have a reading, Lily disappears. Can Maeve, her new friend Fiona and Lily's brother Roe find her? And will Maeve's new gift be enough to bring Lily back, before she's gone for good?"
+        "publishersSummary": "Maeve Chambers doesn't have much going for her. Not only does she feel like the sole idiot in a family of geniuses, she managed to drive away her best friend Lily a year ago. But when she finds a pack of dusty old tarot cards at school, and begins to give scarily accurate readings to the girls in her class, she realizes she's found her gift at last. Things are looking up - until she discovers a strange card in the deck that definitely shouldn't be there. And two days after she convinces her ex-best friend to have a reading, Lily disappears. Can Maeve, her new friend Fiona and Lily's brother Roe find her? And will Maeve's new gift be enough to bring Lily back, before she's gone for good?"
     },
     {
         "title": "All the Bright Places",
@@ -2403,7 +2470,7 @@ const data = [
         "bookBibnumber": 527518,
         "ebookBibnumber": 463855,
         "audioBibnumber": 518177,
-        "publishersSummery": "Told in alternating voices, when Theodore Finch and Violet Markey meet on the ledge of the bell tower at school--both teetering on the edge--it's the beginning of an unlikely relationship, a journey to discover the \"natural wonders\" of the state of Indiana, and two teens' desperate desire to heal and save one another"
+        "publishersSummary": "Told in alternating voices, when Theodore Finch and Violet Markey meet on the ledge of the bell tower at school--both teetering on the edge--it's the beginning of an unlikely relationship, a journey to discover the \"natural wonders\" of the state of Indiana, and two teens' desperate desire to heal and save one another"
     },
     {
         "title": "We Set the Dark on Fire",
@@ -2418,10 +2485,10 @@ const data = [
         "bookBibnumber": 780903,
         "ebookBibnumber": 776590,
         "audioBibnumber": 780917,
-        "publishersSummery": "Dani must question everything she's worked for as she learns about the corruption of the Median government"
+        "publishersSummary": "Dani must question everything she's worked for as she learns about the corruption of the Median government"
     },
     {
-        "title": "Born a crime : stories from a South African childhood",
+        "title": "Born a Crime : Stories From a South African Childhood",
         "author": "Trevor Noah",
         "memoirautobiograohy": "Y",
         "prose": "Y",
@@ -2430,7 +2497,7 @@ const data = [
         "bookBibnumber": 625927,
         "ebookBibnumber": 930063,
         "audioBibnumber": 0,
-        "publishersSummery": "Noah's path from apartheid South Africa to the desk of The Daily Show began with a criminal act: his birth. Born to a white Swiss father and a black Xhosa mother, at the time such a union was punishable by five years in prison. As he struggles to find himself in a world where he was never supposed to exist, his mother is determined to save her son from the cycle of poverty, violence, and abuse that would ultimately threaten her own life. With an incisive wit and unflinching honesty, Noah weaves together a moving yet funny portrait of a boy making his way through a damaged world in a dangerous time."
+        "publishersSummary": "Noah's path from apartheid South Africa to the desk of The Daily Show began with a criminal act: his birth. Born to a white Swiss father and a black Xhosa mother, at the time such a union was punishable by five years in prison. As he struggles to find himself in a world where he was never supposed to exist, his mother is determined to save her son from the cycle of poverty, violence, and abuse that would ultimately threaten her own life. With an incisive wit and unflinching honesty, Noah weaves together a moving yet funny portrait of a boy making his way through a damaged world in a dangerous time."
     },
     {
         "title": "Vicious",
@@ -2443,7 +2510,7 @@ const data = [
         "bookBibnumber": 744703,
         "ebookBibnumber": 0,
         "audioBibnumber": 0,
-        "publishersSummery": "A masterful tale of ambition, jealousy, desire, and superpowers. Victor and Eli started out as college roommates--brilliant, arrogant, lonely boys who recognized the same sharpness and ambition in each other. In their senior year, a shared research interest in adrenaline, near-death experiences, and seemingly supernatural events reveals an intriguing possibility: that under the right conditions, someone could develop extraordinary abilities. But when their thesis moves from the academic to the experimental, things go horribly wrong. Ten years later, Victor breaks out of prison, determined to catch up to his old friend (now foe), aided by a young girl whose reserved nature obscures a stunning ability. Meanwhile, Eli is on a mission to eradicate every other super-powered person that he can find--aside from his sidekick, an enigmatic woman with an unbreakable will. Armed with terrible power on both sides, driven by the memory of betrayal and loss, the archnemeses have set a course for revenge--but who will be left alive at the end? In Vicious, V.E. Schwab brings to life a gritty comic-book-style world in vivid prose: a world where gaining superpowers doesn't automatically lead to heroism, and a time when allegiances are called into question."
+        "publishersSummary": "A masterful tale of ambition, jealousy, desire, and superpowers. Victor and Eli started out as college roommates--brilliant, arrogant, lonely boys who recognized the same sharpness and ambition in each other. In their senior year, a shared research interest in adrenaline, near-death experiences, and seemingly supernatural events reveals an intriguing possibility: that under the right conditions, someone could develop extraordinary abilities. But when their thesis moves from the academic to the experimental, things go horribly wrong. Ten years later, Victor breaks out of prison, determined to catch up to his old friend (now foe), aided by a young girl whose reserved nature obscures a stunning ability. Meanwhile, Eli is on a mission to eradicate every other super-powered person that he can find--aside from his sidekick, an enigmatic woman with an unbreakable will. Armed with terrible power on both sides, driven by the memory of betrayal and loss, the archnemeses have set a course for revenge--but who will be left alive at the end? In Vicious, V.E. Schwab brings to life a gritty comic-book-style world in vivid prose: a world where gaining superpowers doesn't automatically lead to heroism, and a time when allegiances are called into question."
     },
     {
         "title": "The Mermaid, the Witch, and the Sea",
@@ -2456,7 +2523,7 @@ const data = [
         "bookBibnumber": 0,
         "ebookBibnumber": 874892,
         "audioBibnumber": 0,
-        "publishersSummery": "In a world divided by colonialism and threaded with magic, a desperate orphan turned pirate and a rebellious imperial lady find a connection on the high seas. The pirate Florian, born Flora, has always done whatever it takes to survive--including sailing under false flag on the Dove as a marauder, thief, and worse. Lady Evelyn Hasegawa, a highborn Imperial daughter, is on board as well--accompanied by her own casket. But Evelyn's one-way voyage to an arranged marriage in the Floating Islands is interrupted when the captain and crew show their true colors and enslave their wealthy passengers. Both Florian and Evelyn have lived their lives by the rules, and whims, of others. But when they fall in love, they decide to take fate into their own n hands--no matter the cost"
+        "publishersSummary": "In a world divided by colonialism and threaded with magic, a desperate orphan turned pirate and a rebellious imperial lady find a connection on the high seas. The pirate Florian, born Flora, has always done whatever it takes to survive--including sailing under false flag on the Dove as a marauder, thief, and worse. Lady Evelyn Hasegawa, a highborn Imperial daughter, is on board as well--accompanied by her own casket. But Evelyn's one-way voyage to an arranged marriage in the Floating Islands is interrupted when the captain and crew show their true colors and enslave their wealthy passengers. Both Florian and Evelyn have lived their lives by the rules, and whims, of others. But when they fall in love, they decide to take fate into their own n hands--no matter the cost"
     },
     {
         "title": "Malice",
@@ -2468,7 +2535,7 @@ const data = [
         "bookBibnumber": 903601,
         "ebookBibnumber": 898229,
         "audioBibnumber": 903612,
-        "publishersSummery": "Once upon a time, there was a wicked fairy who, in an act of vengeance, cursed a line of princesses to die. A curse that could only be broken by true love's kiss. You've heard this before, haven't you? The handsome prince. The happily ever after. Utter nonsense. Let me tell you, no one in Briar actually cares about what happens to its princesses. Not the way they care about their jewels and elaborate parties and charm-granting elixirs. I thought I didn't care, either. Until I met Princess Aurora. The last heir to Briar's throne. Kind. Gracious. The future queen her realm needs. One who isn't bothered that I am Alyce, the Dark Grace, abhorred and feared for the mysterious dark magic that runs in my veins. Humiliated and shamed by the same nobles who pay me to bottle hexes and then brand me a monster. Aurora says I should be proud of my gifts. That she...cares for me. Even though a power like mine was responsible for her curse. But with less than a year until that curse will kill her, any future I might see with Aurora is swiftly disintegrating -- and she can't stand to kiss yet another insipid prince. I want to help her. If my power began her curse, perhaps it's what can lift it. Perhaps together we could forge a new world. Nonsense again. Because we all know how this story ends, don't we? Aurora is the beautiful princess. And I...I am the villain.."
+        "publishersSummary": "Once upon a time, there was a wicked fairy who, in an act of vengeance, cursed a line of princesses to die. A curse that could only be broken by true love's kiss. You've heard this before, haven't you? The handsome prince. The happily ever after. Utter nonsense. Let me tell you, no one in Briar actually cares about what happens to its princesses. Not the way they care about their jewels and elaborate parties and charm-granting elixirs. I thought I didn't care, either. Until I met Princess Aurora. The last heir to Briar's throne. Kind. Gracious. The future queen her realm needs. One who isn't bothered that I am Alyce, the Dark Grace, abhorred and feared for the mysterious dark magic that runs in my veins. Humiliated and shamed by the same nobles who pay me to bottle hexes and then brand me a monster. Aurora says I should be proud of my gifts. That she...cares for me. Even though a power like mine was responsible for her curse. But with less than a year until that curse will kill her, any future I might see with Aurora is swiftly disintegrating -- and she can't stand to kiss yet another insipid prince. I want to help her. If my power began her curse, perhaps it's what can lift it. Perhaps together we could forge a new world. Nonsense again. Because we all know how this story ends, don't we? Aurora is the beautiful princess. And I...I am the villain.."
     },
     {
         "title": "The Grimrose Girls",
@@ -2481,7 +2548,7 @@ const data = [
         "bookBibnumber": 970234,
         "ebookBibnumber": 954404,
         "audioBibnumber": 0,
-        "publishersSummery": "While investigating the apparent suicide of their best friend, four students at an elite boarding school uncover a series of past murders connected to ancient fairy tale curses, and they fear that their own fates are tied to the stories, dooming them to gruesome deaths unless they can forge their own paths."
+        "publishersSummary": "While investigating the apparent suicide of their best friend, four students at an elite boarding school uncover a series of past murders connected to ancient fairy tale curses, and they fear that their own fates are tied to the stories, dooming them to gruesome deaths unless they can forge their own paths."
     },
     {
         "title": "Under the Udala Trees",
@@ -2496,7 +2563,7 @@ const data = [
         "bookBibnumber": 0,
         "ebookBibnumber": 547097,
         "audioBibnumber": 0,
-        "publishersSummery": "A young Nigerian girl, displaced during their civil war, begins a powerful love affair with another refugee girl from a different ethnic community until the pair are discovered and must learn the cost of living a lie amidst taboos and prejudices."
+        "publishersSummary": "A young Nigerian girl, displaced during their civil war, begins a powerful love affair with another refugee girl from a different ethnic community until the pair are discovered and must learn the cost of living a lie amidst taboos and prejudices."
     },
     {
         "title": "The City of Devi",
@@ -2514,7 +2581,7 @@ const data = [
         "bookBibnumber": 346870,
         "ebookBibnumber": 0,
         "audioBibnumber": 0,
-        "publishersSummery": "Mumbai has emptied under the threat of imminent nuclear annihilation; gangs of marauding Hindu and Muslim thugs rove the desolate streets; yet Sarita can think of only one thing: buying the last pomegranate that remains in perhaps the entire city. She is convinced that the fruit holds the key to reuniting her with her physicist husband, Karun, who has been mysteriously missing for more than a fortnight."
+        "publishersSummary": "Mumbai has emptied under the threat of imminent nuclear annihilation; gangs of marauding Hindu and Muslim thugs rove the desolate streets; yet Sarita can think of only one thing: buying the last pomegranate that remains in perhaps the entire city. She is convinced that the fruit holds the key to reuniting her with her physicist husband, Karun, who has been mysteriously missing for more than a fortnight."
     },
     {
         "title": "Mundo Cruel",
@@ -2540,34 +2607,37 @@ const data = [
         "title": "Small Town Pride",
         "author": "Phil Stamper",
         "fiction": "Y",
+        "prose": "Y",
         "lgbtqia": "Y",
         "middleGrade": "Y",
         "bookBibnumber": 0,
         "ebookBibnumber": 963836,
         "audioBibnumber": 0,
-        "publishersSummery": "Jake is just starting to enjoy life as his school's first openly gay kid. While his family and friends are accepting and supportive, the same can't be said about everyone in their small town of Barton Springs, Ohio. When Jake's dad hangs a comically large pride flag in their front yard in an overblown show of love, the mayor begins to receive complaints. A few people are even concerned the flag will lead to something truly outlandish: a pride parade. Except Jake doesn't think that's a ridiculous idea. Why can't they hold a pride festival in Barton Springs? The problem is, Jake knows he'll have to get approval from the town council, and the mayor won't be on his side. And as Jake and his friends try to find a way to bring Pride to Barton Springs, it seems suspicious that the mayor's son, Brett, suddenly wants to spend time with Jake. But someone that cute couldn't possibly be in league with his mayoral mother, could he?"
+        "publishersSummary": "Jake is just starting to enjoy life as his school's first openly gay kid. While his family and friends are accepting and supportive, the same can't be said about everyone in their small town of Barton Springs, Ohio. When Jake's dad hangs a comically large pride flag in their front yard in an overblown show of love, the mayor begins to receive complaints. A few people are even concerned the flag will lead to something truly outlandish: a pride parade. Except Jake doesn't think that's a ridiculous idea. Why can't they hold a pride festival in Barton Springs? The problem is, Jake knows he'll have to get approval from the town council, and the mayor won't be on his side. And as Jake and his friends try to find a way to bring Pride to Barton Springs, it seems suspicious that the mayor's son, Brett, suddenly wants to spend time with Jake. But someone that cute couldn't possibly be in league with his mayoral mother, could he?"
     },
     {
         "title": "The Civil War of Amos Abernathy",
         "author": "Michael Leali",
         "fiction": "Y",
+        "prose": "Y",
         "lgbtqia": "Y",
         "middleGrade": "Y",
         "bookBibnumber": 965031,
         "ebookBibnumber": 0,
         "audioBibnumber": 0,
-        "publishersSummery": "Through letters he writes in his journal, thirteen-year-old Amos finds a confidant in a queer historical figure from the Civil War."
+        "publishersSummary": "Through letters he writes in his journal, thirteen-year-old Amos finds a confidant in a queer historical figure from the Civil War."
     },
     {
-        "title": "From the desk of Zoe Washington",
+        "title": "From the Desk of Zoe Washington",
         "author": "Janae Marks",
         "fiction": "Y",
+        "prose": "Y",
         "africanamericanOrBlack": "Y",
         "middleGrade": "Y",
         "bookBibnumber": 826434,
         "ebookBibnumber": 830841,
         "audioBibnumber": 0,
-        "publishersSummery": "Avid baker Zoe Washington receives a letter on her twelfth birthday from her biological father, who is in prison for a terrible crime"
+        "publishersSummary": "Avid baker Zoe Washington receives a letter on her twelfth birthday from her biological father, who is in prison for a terrible crime"
     },
     {
         "title": "Girl In Pieces",
@@ -2579,7 +2649,7 @@ const data = [
         "bookBibnumber": 0,
         "ebookBibnumber": 629386,
         "audioBibnumber": 666543,
-        "publishersSummery": "A haunting, beautiful, and necessary book that will stay with you long after you've read the last page"
+        "publishersSummary": "A haunting, beautiful, and necessary book that will stay with you long after you've read the last page"
     },
     {
         "title": "Marcelo in the Real World",
@@ -2592,7 +2662,7 @@ const data = [
         "bookBibnumber": 236485,
         "ebookBibnumber": 0,
         "audioBibnumber": 0,
-        "publishersSummery": "Marcelo Sandoval, a seventeen-year-old boy on the high-functioning end of the autistic spectrum, faces new challenges, including romance and injustice, when he goes to work for his father in the mailroom of a corporate law firm."
+        "publishersSummary": "Marcelo Sandoval, a seventeen-year-old boy on the high-functioning end of the autistic spectrum, faces new challenges, including romance and injustice, when he goes to work for his father in the mailroom of a corporate law firm."
     },
     {
         "title": "All-American Muslim Girl",
@@ -2604,7 +2674,7 @@ const data = [
         "bookBibnumber": 818747,
         "ebookBibnumber": 0,
         "audioBibnumber": 0,
-        "publishersSummery": "Sixteen-year-old Allie, aged seven when she knew her family was different and feared, struggles to claim her Muslim and Arabic heritage while finding her place as an American teenage"
+        "publishersSummary": "Sixteen-year-old Allie, aged seven when she knew her family was different and feared, struggles to claim her Muslim and Arabic heritage while finding her place as an American teenage"
     },
     {
         "title": "Bianca & Roja ",
@@ -2627,7 +2697,7 @@ const data = [
         "bookBibnumber": 543724,
         "ebookBibnumber": 0,
         "audioBibnumber": 0,
-        "publishersSummery": "Maggie Thrash has spent basically every summer of her fifteen-year-old life at the one-hundred-year-old Camp Bellflower for Girls, set deep in the heart of Appalachia. She's from Atlanta, she's never kissed a guy, she's into Backstreet Boys in a really deep way, and her long summer days are full of a pleasant, peaceful nothing . . . until one confounding moment. A split-second of innocent physical contact pulls Maggie into a gut-twisting love for an older, wiser, and most surprising of all (at least to Maggie), female counselor named Erin. But Camp Bellflower is an impossible place for a girl to fall in love with another girl, and Maggie's savant-like proficiency at the camp's rifle range is the only thing keeping her heart from exploding. When it seems as if Erin maybe feels the same way about Maggie, it's too much for both Maggie and Camp Bellflower to handle, let alone to understand"
+        "publishersSummary": "Maggie Thrash has spent basically every summer of her fifteen-year-old life at the one-hundred-year-old Camp Bellflower for Girls, set deep in the heart of Appalachia. She's from Atlanta, she's never kissed a guy, she's into Backstreet Boys in a really deep way, and her long summer days are full of a pleasant, peaceful nothing . . . until one confounding moment. A split-second of innocent physical contact pulls Maggie into a gut-twisting love for an older, wiser, and most surprising of all (at least to Maggie), female counselor named Erin. But Camp Bellflower is an impossible place for a girl to fall in love with another girl, and Maggie's savant-like proficiency at the camp's rifle range is the only thing keeping her heart from exploding. When it seems as if Erin maybe feels the same way about Maggie, it's too much for both Maggie and Camp Bellflower to handle, let alone to understand"
     },
     {
         "title": "Girls Made of Snow and Glass",
@@ -2639,7 +2709,7 @@ const data = [
         "bookBibnumber": 688572,
         "ebookBibnumber": 722354,
         "audioBibnumber": 0,
-        "publishersSummery": "At sixteen, Mina's mother is dead, her magician father is vicious, and her silent heart has never beat with love for anyone--has never beat at all, in fact, but she'd always thought that fact normal. She never guessed that her father cut out her heart and replaced it with one of glass. When she moves to Whitespring Castle and sees its king for the first time, Mina forms a plan: win the king's heart with her beauty, become queen, and finally know love. The only catch is that she'll have to become a stepmother. Fifteen-year-old Lynet looks just like her late mother, and one day she discovers why: a magician created her out of snow in the dead queen's image, at her father's order. But despite being the dead queen made flesh, Lynet would rather be like her fierce and regal stepmother, Mina. She gets her wish when her father makes Lynet queen of the southern territories, displacing Mina. Now Mina is starting to look at Lynet with something like hatred, and Lynet must decide what to do--and who to be--to win back the only mother she's ever known...or else defeat her once and for all. Entwining the stories of both Lynet and Mina in the past and present, Girls Made of Snow and Glass traces the relationship of two young women doomed to be rivals from the start. Only one can win all, while the other must lose everything--unless both can find a way to reshape themselves and their story."
+        "publishersSummary": "At sixteen, Mina's mother is dead, her magician father is vicious, and her silent heart has never beat with love for anyone--has never beat at all, in fact, but she'd always thought that fact normal. She never guessed that her father cut out her heart and replaced it with one of glass. When she moves to Whitespring Castle and sees its king for the first time, Mina forms a plan: win the king's heart with her beauty, become queen, and finally know love. The only catch is that she'll have to become a stepmother. Fifteen-year-old Lynet looks just like her late mother, and one day she discovers why: a magician created her out of snow in the dead queen's image, at her father's order. But despite being the dead queen made flesh, Lynet would rather be like her fierce and regal stepmother, Mina. She gets her wish when her father makes Lynet queen of the southern territories, displacing Mina. Now Mina is starting to look at Lynet with something like hatred, and Lynet must decide what to do--and who to be--to win back the only mother she's ever known...or else defeat her once and for all. Entwining the stories of both Lynet and Mina in the past and present, Girls Made of Snow and Glass traces the relationship of two young women doomed to be rivals from the start. Only one can win all, while the other must lose everything--unless both can find a way to reshape themselves and their story."
     },
     {
         "title": "In Deeper Waters",
@@ -2651,7 +2721,7 @@ const data = [
         "bookBibnumber": 910518,
         "ebookBibnumber": 913448,
         "audioBibnumber": 0,
-        "publishersSummery": "Sixteen-year-old Prince Tal is on his long-awaited coming-of-age tour when he meets the intriguing and roguish Athlen, and when he is kidnapped by pirates, Athlen is his only hope of escape."
+        "publishersSummary": "Sixteen-year-old Prince Tal is on his long-awaited coming-of-age tour when he meets the intriguing and roguish Athlen, and when he is kidnapped by pirates, Athlen is his only hope of escape."
     },
     {
         "title": "A Spindle Splintered",
@@ -2664,7 +2734,7 @@ const data = [
         "bookBibnumber": 966242,
         "ebookBibnumber": 0,
         "audioBibnumber": 0,
-        "publishersSummery": "\"It's Zinnia Gray's twenty-first birthday, which is extra-special because it's the last birthday she'll ever have. When she was young, an industrial accident left Zinnia with a rare condition. Not much is known about her illness, just that no-one has lived past twenty-one. Her best friend Charm is intent on making Zinnia's last birthday special with a full sleeping beauty experience, complete with a tower and a spinning wheel. But when Zinnia pricks her finger, something strange and unexpected happens, and she finds herself falling through worlds, with another sleeping beauty, just as desperate to escape her fate\""
+        "publishersSummary": "\"It's Zinnia Gray's twenty-first birthday, which is extra-special because it's the last birthday she'll ever have. When she was young, an industrial accident left Zinnia with a rare condition. Not much is known about her illness, just that no-one has lived past twenty-one. Her best friend Charm is intent on making Zinnia's last birthday special with a full sleeping beauty experience, complete with a tower and a spinning wheel. But when Zinnia pricks her finger, something strange and unexpected happens, and she finds herself falling through worlds, with another sleeping beauty, just as desperate to escape her fate\""
     },
     {
         "title": "Girls of Paper and Fire",
@@ -2676,7 +2746,7 @@ const data = [
         "bookBibnumber": 756633,
         "ebookBibnumber": 756518,
         "audioBibnumber": 762322,
-        "publishersSummery": "\"When Lei, seventeen, is stolen from her home to become one of nine Paper Girls, the Demon King's concubines, she proves to be more fire than paper.\""
+        "publishersSummary": "\"When Lei, seventeen, is stolen from her home to become one of nine Paper Girls, the Demon King's concubines, she proves to be more fire than paper.\""
     },
     {
         "title": "The Midnight Girls",
@@ -2688,19 +2758,27 @@ const data = [
         "bookBibnumber": 938792,
         "ebookBibnumber": 0,
         "audioBibnumber": 952811,
-        "publishersSummery": "In a snow-cloaked kingdom, two rival servants--one who desperately wants to win the approval of the Red Jaga and the other who hopes to escape the Black Jaga--compete for the pure heart of a prince, only to discover they might be falling for each other instead."
+        "publishersSummary": "In a snow-cloaked kingdom, two rival servants--one who desperately wants to win the approval of the Red Jaga and the other who hopes to escape the Black Jaga--compete for the pure heart of a prince, only to discover they might be falling for each other instead."
     },
     {
         "title": "Aces Wild",
-        "author": "Amanda Dewitt"
+        "author": "Amanda Dewitt",
+        "mysteryHorror": "Y",
+        "prose": "Y",
+        "lgbtqia": "Y",
+        "aroace": "Y"
     },
     {
         "title": "The Girl From The Sea",
         "author": "Molly Knox Ostera",
+        "urbanfantasy": "Y",
+        "graphicnovel": "Y",
+        "lgbtqia": "Y",
+        "wlwOrNblw": "Y",
         "bookBibnumber": 0,
         "ebookBibnumber": 952810,
         "audioBibnumber": 0,
-        "publishersSummery": "Fifteen-year-old Morgan has a secret: She can't wait to escape the perfect little island where she lives. She's desperate to finish high school and escape her sad divorced mom, her volatile little brother, and worst of all, her great group of friends ... who don't understand Morgan at all. Because really, Morgan's biggest secret is that she has a lot of secrets, including the one about wanting to kiss another girl. Then one night, Morgan is saved from drowning by a mysterious girl named Keltie. The two become friends and suddenly life on the island doesn't seem so stifling anymore. But Keltie has some secrets of her own. And as the girls start to fall in love, everything they're each trying to hide will find its way to the surface ... whether Morgan is ready or not."
+        "publishersSummary": "Fifteen-year-old Morgan has a secret: She can't wait to escape the perfect little island where she lives. She's desperate to finish high school and escape her sad divorced mom, her volatile little brother, and worst of all, her great group of friends ... who don't understand Morgan at all. Because really, Morgan's biggest secret is that she has a lot of secrets, including the one about wanting to kiss another girl. Then one night, Morgan is saved from drowning by a mysterious girl named Keltie. The two become friends and suddenly life on the island doesn't seem so stifling anymore. But Keltie has some secrets of her own. And as the girls start to fall in love, everything they're each trying to hide will find its way to the surface ... whether Morgan is ready or not."
     },
     {
         "title": "Dark Rise",
@@ -2712,7 +2790,7 @@ const data = [
         "bookBibnumber": 929789,
         "ebookBibnumber": 929789,
         "audioBibnumber": 0,
-        "publishersSummery": "\"Sixteen-year-old dock boy Will is on the run, pursued by the men who killed his mother. Then an old servant tells him of his destiny to fight beside the Stewards, who have sworn to protect humanity if the Dark King ever returns. Will is thrust into a world of magic, where he starts training for a vital role in the oncoming battle against the Dark\""
+        "publishersSummary": "\"Sixteen-year-old dock boy Will is on the run, pursued by the men who killed his mother. Then an old servant tells him of his destiny to fight beside the Stewards, who have sworn to protect humanity if the Dark King ever returns. Will is thrust into a world of magic, where he starts training for a vital role in the oncoming battle against the Dark\""
     },
     {
         "title": "Lawn Boy",
@@ -2723,7 +2801,7 @@ const data = [
         "bookBibnumber": 0,
         "ebookBibnumber": 718264,
         "audioBibnumber": 0,
-        "publishersSummery": "\"Mike Muñoz is a young Mexican American not too many years out of high school--and just fired from his latest gig as a lawn boy on a landscaping crew. Though he tries time and again to get his foot on the first rung of that ladder to success, he can't seem to get a break. But then things start to change for Mike, and after a raucous, jarring, and challenging trip, he finds he can finally see the future and his place in it\""
+        "publishersSummary": "\"Mike Muñoz is a young Mexican American not too many years out of high school--and just fired from his latest gig as a lawn boy on a landscaping crew. Though he tries time and again to get his foot on the first rung of that ladder to success, he can't seem to get a break. But then things start to change for Mike, and after a raucous, jarring, and challenging trip, he finds he can finally see the future and his place in it\""
     },
     {
         "title": "The Meaning of Birds",
@@ -2738,7 +2816,7 @@ const data = [
         "bookBibnumber": 703763,
         "ebookBibnumber": 0,
         "audioBibnumber": 0,
-        "publishersSummery": "\"One of our most eloquent nature writers offers a passionate and informative celebration of birds and their ability to help us understand the world we live in. As well as exploring how birds achieve the miracle of flight; why birds sing; what they tell us about the seasons of the year; and what their presence tells us about the places they inhabit, The Meaning of Birds muses on the uses of feathers, the drama of raptors, the slaughter of pheasants, the infidelities of geese, and the strangeness of feeling sentimental about blue tits while enjoying a chicken sandwich. From the mocking-birds of the Galapagos who guided Charles Darwin toward his evolutionary theory, to the changing patterns of migration that alert us to the reality of contemporary climate change, Simon Barnes explores both the intrinsic wonder of what it is to be a bird--and the myriad ways in which birds can help us understand the meaning of life.\""
+        "publishersSummary": "\"One of our most eloquent nature writers offers a passionate and informative celebration of birds and their ability to help us understand the world we live in. As well as exploring how birds achieve the miracle of flight; why birds sing; what they tell us about the seasons of the year; and what their presence tells us about the places they inhabit, The Meaning of Birds muses on the uses of feathers, the drama of raptors, the slaughter of pheasants, the infidelities of geese, and the strangeness of feeling sentimental about blue tits while enjoying a chicken sandwich. From the mocking-birds of the Galapagos who guided Charles Darwin toward his evolutionary theory, to the changing patterns of migration that alert us to the reality of contemporary climate change, Simon Barnes explores both the intrinsic wonder of what it is to be a bird--and the myriad ways in which birds can help us understand the meaning of life.\""
     },
     {
         "title": "Redwood and Ponytail",
@@ -2750,7 +2828,7 @@ const data = [
         "wlwOrNblw": "Y",
         "bookBibnumber": 808118,
         "ebookBibnumber": 0,
-        "publishersSummery": "Told in verse in two voices, with a chorus of fellow students, this is a story of two girls, opposites in many ways, who are drawn to each other; Kate appears to be a stereotypical cheerleader with a sleek ponytail and a perfectly polished persona, Tam is tall, athletic and frequently mistaken for a boy, but their deepening friendship inevitably changes and reveals them in ways they did not anticipate."
+        "publishersSummary": "Told in verse in two voices, with a chorus of fellow students, this is a story of two girls, opposites in many ways, who are drawn to each other; Kate appears to be a stereotypical cheerleader with a sleek ponytail and a perfectly polished persona, Tam is tall, athletic and frequently mistaken for a boy, but their deepening friendship inevitably changes and reveals them in ways they did not anticipate."
     },
     {
         "title": "Orpheus Girl",
@@ -2775,7 +2853,7 @@ const data = [
         "bookBibnumber": 799227,
         "ebookBibnumber": 0,
         "audioBibnumber": 0,
-        "publishersSummery": "Laura Dean, the most popular girl in high school, was Frederica Riley's dream girl: charming, confident, and SO cute. There's just one problem: Laura Dean is maybe not the greatest girlfriend. Reeling from her latest break up, Freddy's best friend, Doodle, introduces her to the Seek-Her, a mysterious medium, who leaves Freddy some cryptic parting words: break up with her. But Laura Dean keeps coming back, and as their relationship spirals further out of her control, Freddy has to wonder if it's really Laura Dean that's the problem. Maybe it's Freddy, who is rapidly losing her friends, including Doodle, who needs her now more than ever. Fortunately for Freddy, there are new friends, and the insight of advice columnists like Anna Vice to help her through being a teenager in love. Mariko Tamaki and Rosemary Valero-O'Connell bring to life a sweet and spirited tale of young love that asks us to consider what happens when we ditch the toxic relationships we crave to embrace the healthy ones we need."
+        "publishersSummary": "Laura Dean, the most popular girl in high school, was Frederica Riley's dream girl: charming, confident, and SO cute. There's just one problem: Laura Dean is maybe not the greatest girlfriend. Reeling from her latest break up, Freddy's best friend, Doodle, introduces her to the Seek-Her, a mysterious medium, who leaves Freddy some cryptic parting words: break up with her. But Laura Dean keeps coming back, and as their relationship spirals further out of her control, Freddy has to wonder if it's really Laura Dean that's the problem. Maybe it's Freddy, who is rapidly losing her friends, including Doodle, who needs her now more than ever. Fortunately for Freddy, there are new friends, and the insight of advice columnists like Anna Vice to help her through being a teenager in love. Mariko Tamaki and Rosemary Valero-O'Connell bring to life a sweet and spirited tale of young love that asks us to consider what happens when we ditch the toxic relationships we crave to embrace the healthy ones we need."
     },
     {
         "title": "Hani and Ishu's Guide to Fake Dating",
@@ -2791,7 +2869,7 @@ const data = [
         "bookBibnumber": 931251,
         "ebookBibnumber": 970291,
         "audioBibnumber": 0,
-        "publishersSummery": "\"Everyone likes Humaira 'Hani' Khan--she's easy going and one of the most popular girls at school. But when she comes out to her friends as bisexual, they invalidate her identity, saying she can't be bi if she's only dated guys. Panicked, Hani blurts out that she's in a relationship ... with a girl her friends absolutely hate--Ishita 'Ishu' Dey. Ishu is the complete opposite of Hani. She's an academic overachiever who hopes that becoming head girl will set her on the right track for college. But Ishita agrees to help Hani, if Hani will help her become more popular so that she stands a chance of being elected head girl. Despite their mutually beneficial pact, they start developing real feelings for each other. But relationships are complicated, and some people will do anything to stop two Bengali girls from achieving happily ever after\""
+        "publishersSummary": "\"Everyone likes Humaira 'Hani' Khan--she's easy going and one of the most popular girls at school. But when she comes out to her friends as bisexual, they invalidate her identity, saying she can't be bi if she's only dated guys. Panicked, Hani blurts out that she's in a relationship ... with a girl her friends absolutely hate--Ishita 'Ishu' Dey. Ishu is the complete opposite of Hani. She's an academic overachiever who hopes that becoming head girl will set her on the right track for college. But Ishita agrees to help Hani, if Hani will help her become more popular so that she stands a chance of being elected head girl. Despite their mutually beneficial pact, they start developing real feelings for each other. But relationships are complicated, and some people will do anything to stop two Bengali girls from achieving happily ever after\""
     },
     {
         "title": "Black Sun",
@@ -2817,7 +2895,7 @@ const data = [
         "bookBibnumber": 915178,
         "ebookBibnumber": 943084,
         "audioBibnumber": 943074,
-        "publishersSummery": "\"In a famine-stricken village on a dusty yellow plain, two children are given two fates. A boy, greatness. A girl, nothingness... In 1345, China lies under harsh Mongol rule. For the starving peasants of the Central Plains, greatness is something found only in stories. When the Zhu family's eighth-born son, Zhu Chongba, is given a fate of greatness, everyone is mystified as to how it will come to pass. The fate of nothingness received by the family's clever and capable second daughter, on the other hand, is only as expected. When a bandit attack orphans the two children, though, it is Zhu Chongba who succumbs to despair and dies. Desperate to escape her own fated death, the girl uses her brother's identity to enter a monastery as a young male novice. There, propelled by her burning desire to survive, Zhu learns she is capable of doing whatever it takes, no matter how callous, to stay hidden from her fate. After her sanctuary is destroyed for supporting the rebellion against Mongol rule, Zhu takes the chance to claim another future altogether: her brother's abandoned greatness\""
+        "publishersSummary": "\"In a famine-stricken village on a dusty yellow plain, two children are given two fates. A boy, greatness. A girl, nothingness... In 1345, China lies under harsh Mongol rule. For the starving peasants of the Central Plains, greatness is something found only in stories. When the Zhu family's eighth-born son, Zhu Chongba, is given a fate of greatness, everyone is mystified as to how it will come to pass. The fate of nothingness received by the family's clever and capable second daughter, on the other hand, is only as expected. When a bandit attack orphans the two children, though, it is Zhu Chongba who succumbs to despair and dies. Desperate to escape her own fated death, the girl uses her brother's identity to enter a monastery as a young male novice. There, propelled by her burning desire to survive, Zhu learns she is capable of doing whatever it takes, no matter how callous, to stay hidden from her fate. After her sanctuary is destroyed for supporting the rebellion against Mongol rule, Zhu takes the chance to claim another future altogether: her brother's abandoned greatness\""
     },
     {
         "title": "The Chosen and the Beautiful",
@@ -2829,7 +2907,7 @@ const data = [
         "bookBibnumber": 905566,
         "ebookBibnumber": 0,
         "audioBibnumber": 0,
-        "publishersSummery": "\"Immigrant. Socialite. Magician. Jordan Baker grows up in the most rarefied circles of 1920s American society--she has money, education, a killer golf handicap, and invitations to some of the most exclusive parties of the Jazz Age. She's also queer and Asian, a Vietnamese adoptee treated as an exotic attraction by her peers, while the most important doors remain closed to her. But the world is full of wonders: infernal pacts and dazzling illusions, lost ghosts and elemental mysteries. In all paper is fire, and Jordan can burn the cut paper heart out of a man. She just has to learn how. Nghi Vo's debut novel The Chosen and the Beautiful reinvents this classic of the American canon as a coming-of-age story full of magic, mystery, and glittering excess, and introduces a major new literary voice\""
+        "publishersSummary": "\"Immigrant. Socialite. Magician. Jordan Baker grows up in the most rarefied circles of 1920s American society--she has money, education, a killer golf handicap, and invitations to some of the most exclusive parties of the Jazz Age. She's also queer and Asian, a Vietnamese adoptee treated as an exotic attraction by her peers, while the most important doors remain closed to her. But the world is full of wonders: infernal pacts and dazzling illusions, lost ghosts and elemental mysteries. In all paper is fire, and Jordan can burn the cut paper heart out of a man. She just has to learn how. Nghi Vo's debut novel The Chosen and the Beautiful reinvents this classic of the American canon as a coming-of-age story full of magic, mystery, and glittering excess, and introduces a major new literary voice\""
     },
     {
         "title": "This Poison Heart",
@@ -2842,7 +2920,7 @@ const data = [
         "bookBibnumber": 918592,
         "ebookBibnumber": 970222,
         "audioBibnumber": 0,
-        "publishersSummery": "In this version of \"The Secret Garden,\" teenaged Briseis, who possesses a supernatural power over plants, even poisonous ones, inherits a dilapidated estate in rural New York and must protect herself and her family from centuries-old secrets that threaten their lives"
+        "publishersSummary": "In this version of \"The Secret Garden,\" teenaged Briseis, who possesses a supernatural power over plants, even poisonous ones, inherits a dilapidated estate in rural New York and must protect herself and her family from centuries-old secrets that threaten their lives"
     },
     {
         "title": "The Stars and the Blackness Between Them",
@@ -2869,11 +2947,11 @@ const data = [
         "bookBibnumber": 918589,
         "ebookBibnumber": 0,
         "audioBibnumber": 0,
-        "publishersSummery": "Three days. Two girls. One life-changing music festival. Toni is reeling in the wake of the loss of her roadie father and desperate to figure out where her life will go from here -- so she's heading back to the festival that taught her to love music in a last ditch effort to rediscover her passion. Olivia is a hopeless romantic whose heart has just taken a beating (again), and is beginning to believe that someone like her may never find \"the one\" -- but the Farmland Music and Arts Festival is a chance to at least find a place where she fits. When the two collide, it feels like kismet. But when something goes wrong and the festival is sent into a panic, Toni and Olivia find that they need each other, and the music, more than they ever imagined."
+        "publishersSummary": "Three days. Two girls. One life-changing music festival. Toni is reeling in the wake of the loss of her roadie father and desperate to figure out where her life will go from here -- so she's heading back to the festival that taught her to love music in a last ditch effort to rediscover her passion. Olivia is a hopeless romantic whose heart has just taken a beating (again), and is beginning to believe that someone like her may never find \"the one\" -- but the Farmland Music and Arts Festival is a chance to at least find a place where she fits. When the two collide, it feels like kismet. But when something goes wrong and the festival is sent into a panic, Toni and Olivia find that they need each other, and the music, more than they ever imagined."
     },
     {
         "title": "Lycanthropy and Other Chronic Illnesses",
-        "author": "By Kristen O'Neal",
+        "author": "Kristen O'Neal",
         "urbanfantasy": "Y",
         "prose": "Y",
         "mentaldisability": "Y",
@@ -2892,7 +2970,7 @@ const data = [
         "bookBibnumber": "22025064&db=3213",
         "ebookBibnumber": 0,
         "audioBibnumber": 0,
-        "publishersSummery": "\"Maple Mehta-Cohen has been keeping a secret: she can't read all that well. She has an impressive vocabulary and loves dictating stories into her recorder--especially the adventures of a daring sleuth who's half Indian and half Jewish like Maple herself--but words on the page just don't seem to make sense to her. Despite all Maple's clever tricks to hide her troubles with reading, her teacher is on to her, and now Maple has to repeat fifth grade. Maple is devastated--what will her friends think? Will they forget about her? She uses her storytelling skills to convince her classmates that she's staying back as a special teacher's assistant (because of budget cuts, you know). But as Maple navigates the loss of old friendships, the possibility of new ones, and facing her reading challenges head-on, her deception becomes harder to keep up. Can Maple begin to recognize her own strengths, and to love herself--and her brain--just the way she is? Readers who have faced their own trials with school and friendships will enjoy this heartwarming story and its bright, creative heroine. Maple is in fifth grade--again. Now everyone will find out she struggles with reading--or will they? An engaging read for anyone who has ever felt different.\""
+        "publishersSummary": "\"Maple Mehta-Cohen has been keeping a secret: she can't read all that well. She has an impressive vocabulary and loves dictating stories into her recorder--especially the adventures of a daring sleuth who's half Indian and half Jewish like Maple herself--but words on the page just don't seem to make sense to her. Despite all Maple's clever tricks to hide her troubles with reading, her teacher is on to her, and now Maple has to repeat fifth grade. Maple is devastated--what will her friends think? Will they forget about her? She uses her storytelling skills to convince her classmates that she's staying back as a special teacher's assistant (because of budget cuts, you know). But as Maple navigates the loss of old friendships, the possibility of new ones, and facing her reading challenges head-on, her deception becomes harder to keep up. Can Maple begin to recognize her own strengths, and to love herself--and her brain--just the way she is? Readers who have faced their own trials with school and friendships will enjoy this heartwarming story and its bright, creative heroine. Maple is in fifth grade--again. Now everyone will find out she struggles with reading--or will they? An engaging read for anyone who has ever felt different.\""
     },
     {
         "title": "Take Back the Block",
@@ -2903,7 +2981,7 @@ const data = [
         "bookBibnumber": "21552428&db=3213",
         "ebookBibnumber": 0,
         "audioBibnumber": 0,
-        "publishersSummery": "\"Sixth-grader Wes Henderson sets out to save the Oaks, the neighborhood where he's lived his whole life, from being sold to a real estate developer\""
+        "publishersSummary": "\"Sixth-grader Wes Henderson sets out to save the Oaks, the neighborhood where he's lived his whole life, from being sold to a real estate developer\""
     },
     {
         "title": "Yusuf Azeem Is Not a Hero",
@@ -2916,7 +2994,7 @@ const data = [
         "bookBibnumber": 949363,
         "ebookBibnumber": 0,
         "audioBibnumber": 0,
-        "publishersSummery": "\"Yusuf is excited to start middle school in his small Texas town, but with the twentieth anniversary of the September 11 attacks coming up, suddenly it feels like the country's same anger and grief is all focused on his Muslim community\""
+        "publishersSummary": "\"Yusuf is excited to start middle school in his small Texas town, but with the twentieth anniversary of the September 11 attacks coming up, suddenly it feels like the country's same anger and grief is all focused on his Muslim community\""
     },
     {
         "title": "Alma Presses Play",
@@ -2928,7 +3006,7 @@ const data = [
         "bookBibnumber": "22422473&db=3213",
         "ebookBibnumber": 0,
         "audioBibnumber": 0,
-        "publishersSummery": "\"Alma's life is a constant of halfways: She's half-Chinese, half-Jewish; her parents spend half the time fighting, and the other half silent; and, at thirteen, she's halfway through becoming a woman. Then comes the year when everything changes, and her life is overtaken by constant endings: friends move away, romances bloom and wither, her parents file for divorce, and just like that her childhood seems to be over. Among this world of confusing beginnings, middles, and endings, could there be a roadmap for Alma to truly find herself?\""
+        "publishersSummary": "\"Alma's life is a constant of halfways: She's half-Chinese, half-Jewish; her parents spend half the time fighting, and the other half silent; and, at thirteen, she's halfway through becoming a woman. Then comes the year when everything changes, and her life is overtaken by constant endings: friends move away, romances bloom and wither, her parents file for divorce, and just like that her childhood seems to be over. Among this world of confusing beginnings, middles, and endings, could there be a roadmap for Alma to truly find herself?\""
     },
     {
         "title": "Don't Ask Me Where I'm From",
@@ -2938,7 +3016,7 @@ const data = [
         "bookBibnumber": 901962,
         "ebookBibnumber": 897672,
         "audioBibnumber": 0,
-        "publishersSummery": "\"Liliana Cruz does what it takes to fit in at her new nearly all-white school, but when family secrets come out and racism at school gets worse than ever, she must decide what she believes in and take a stand\"-"
+        "publishersSummary": "\"Liliana Cruz does what it takes to fit in at her new nearly all-white school, but when family secrets come out and racism at school gets worse than ever, she must decide what she believes in and take a stand\"-"
     },
     {
         "title": "The Coldest Touch",
@@ -2960,7 +3038,7 @@ const data = [
         "bookBibnumber": 909382,
         "ebookBibnumber": 0,
         "audioBibnumber": 0,
-        "publishersSummery": "\"A Indian American boy endures a family move from Hawaii to frigid Minnesota and, with the help of three life-changing books he reads in school, he learns to like reading, and ultimately, himself\""
+        "publishersSummary": "\"A Indian American boy endures a family move from Hawaii to frigid Minnesota and, with the help of three life-changing books he reads in school, he learns to like reading, and ultimately, himself\""
     },
     {
         "title": "You're Welcome, Universe",
@@ -2972,7 +3050,7 @@ const data = [
         "bookBibnumber": 649321,
         "ebookBibnumber": 0,
         "audioBibnumber": 0,
-        "publishersSummery": "When Julia finds a slur about her best friend scrawled across the back of the Kingston School for the Deaf, she covers it up with a beautiful (albeit illegal) graffiti mural. Her supposed best friend snitches, the principal expels her, and her two mothers set Julia up with a one-way ticket to a “mainstream” school in the suburbs, where she's treated like an outcast as the only deaf student. The last thing she has left is her art, and not even Banksy himself could convince her to give that up. Out in the 'burbs, Julia paints anywhere she can, eager to claim some turf of her own. But Julia soon learns that she might not be the only vandal in town. Someone is adding to her tags, making them better, showing off & and showing Julia up in the process. She expected her art might get painted over by cops. But she never imagined getting dragged into a full-blown graffiti war."
+        "publishersSummary": "When Julia finds a slur about her best friend scrawled across the back of the Kingston School for the Deaf, she covers it up with a beautiful (albeit illegal) graffiti mural. Her supposed best friend snitches, the principal expels her, and her two mothers set Julia up with a one-way ticket to a “mainstream” school in the suburbs, where she's treated like an outcast as the only deaf student. The last thing she has left is her art, and not even Banksy himself could convince her to give that up. Out in the 'burbs, Julia paints anywhere she can, eager to claim some turf of her own. But Julia soon learns that she might not be the only vandal in town. Someone is adding to her tags, making them better, showing off & and showing Julia up in the process. She expected her art might get painted over by cops. But she never imagined getting dragged into a full-blown graffiti war."
     },
     {
         "title": "Five Flavors of Dumb",
@@ -2997,7 +3075,7 @@ const data = [
     },
     {
         "title": "Here and Queer: A Queer Girl's Guide to Life",
-        "author": "Rowan Ellis, illustrated by Jacky Sheridan",
+        "author": "Rowan Ellis, Jacky Sheridan",
         "nonfiction": "Y",
         "graphicnovel": "Y",
         "lgbtqia": "Y",
@@ -3005,7 +3083,7 @@ const data = [
         "bookBibnumber": 977932,
         "ebookBibnumber": 0,
         "audioBibnumber": 0,
-        "publishersSummery": "Here and Queer is a helpful, friendly guide full of support and advice about living your best queer life, written for girls. This vibrant, inclusive guide, designed for all kinds of girls, is designed to help you be the strongest, proudest, happiest version of yourself! A celebration of the gift of queerness, it's packed full of heartfelt advice, comforting stories, and stylish illustrations, and will give you the tools you need to explore your own identity, on your own terms. Author and YouTuber Rowan Ellis uses her personal experience to take you through queer life, from coming out and dealing with tough stuff, right through to finding friendships and celebrating Pride. There are also brilliant guest essays from contributors across the LGBTQ+ spectrum. The book opens with guidance on understanding how you feel as a queer girl. From choosing your pronouns to navigating different labels and identities, Ellis helps girls understand that they are in control of their own identity, and that it's ok to not be sure straight away. Moving onto a glossary of queer terms, Here and Queer helps introduce girls to the rainbow of definitions and terms which help queer people understand who they are and how they feel. The book then moves onto advice on coming out, for many one of the hardest steps to take on their journey to truly living their best lives. Following are chapters on sex and romance, including helpful advice about your first time, as well as guides on consent and knowing how to make sure you build a healthy and supportive relationship with your partner. There are also sections on dealing with bullies and stigma, finding your community, and looking after your mental health, including advice on how to help you find extra support if you need it. The book also has more information on queer ladies in history, and on the fight for equality undertaken by brave activists throughout history and today. Stylishly designed with cool illustrations, this helpful, friendly guide will help all queer girls navigate the challenges of discovering and embracing their identities and flourishing in their own skins!"
+        "publishersSummary": "Here and Queer is a helpful, friendly guide full of support and advice about living your best queer life, written for girls. This vibrant, inclusive guide, designed for all kinds of girls, is designed to help you be the strongest, proudest, happiest version of yourself! A celebration of the gift of queerness, it's packed full of heartfelt advice, comforting stories, and stylish illustrations, and will give you the tools you need to explore your own identity, on your own terms. Author and YouTuber Rowan Ellis uses her personal experience to take you through queer life, from coming out and dealing with tough stuff, right through to finding friendships and celebrating Pride. There are also brilliant guest essays from contributors across the LGBTQ+ spectrum. The book opens with guidance on understanding how you feel as a queer girl. From choosing your pronouns to navigating different labels and identities, Ellis helps girls understand that they are in control of their own identity, and that it's ok to not be sure straight away. Moving onto a glossary of queer terms, Here and Queer helps introduce girls to the rainbow of definitions and terms which help queer people understand who they are and how they feel. The book then moves onto advice on coming out, for many one of the hardest steps to take on their journey to truly living their best lives. Following are chapters on sex and romance, including helpful advice about your first time, as well as guides on consent and knowing how to make sure you build a healthy and supportive relationship with your partner. There are also sections on dealing with bullies and stigma, finding your community, and looking after your mental health, including advice on how to help you find extra support if you need it. The book also has more information on queer ladies in history, and on the fight for equality undertaken by brave activists throughout history and today. Stylishly designed with cool illustrations, this helpful, friendly guide will help all queer girls navigate the challenges of discovering and embracing their identities and flourishing in their own skins!"
     },
     {
         "title": "Just Your Local Bisexual Disaster",
@@ -3028,7 +3106,7 @@ const data = [
         "bookBibnumber": 968453,
         "ebookBibnumber": 0,
         "audioBibnumber": 0,
-        "publishersSummery": "Sy, a seventeen-year-old gay Muslim boy, travels the world for a second chance at love after a possibly magical heiress grants him three wishes."
+        "publishersSummary": "Sy, a seventeen-year-old gay Muslim boy, travels the world for a second chance at love after a possibly magical heiress grants him three wishes."
     },
     {
         "title": "The Witchery",
@@ -3038,7 +3116,7 @@ const data = [
         "bookBibnumber": 0,
         "ebookBibnumber": 0,
         "audioBibnumber": 0,
-        "publishersSummery": "Logan came to Mesmortes Coven Academy in Haelsford, Florida, to learn to control her powers, but she soon learns she has a role to play in the ancient curse of the hellmouth--whatever the cost to herself and her new friends."
+        "publishersSummary": "Logan came to Mesmortes Coven Academy in Haelsford, Florida, to learn to control her powers, but she soon learns she has a role to play in the ancient curse of the hellmouth--whatever the cost to herself and her new friends."
     },
     {
         "title": "Youngblood",
@@ -3058,7 +3136,7 @@ const data = [
         "bookBibnumber": 557392,
         "ebookBibnumber": 0,
         "audioBibnumber": 983627,
-        "publishersSummery": "\"Anton Treuer is a renowned author, speaker, language preservationist, scholar, etc. This young readers edition of the original book for adults from a university press includes new material for the younger lens. Organized by dozens of different questions, some weighty and some minor, but all the time funny, insightful, personal, and interesting, this book will tell you everything you ever wanted to learn about Native Americans, but were afraid to ask\""
+        "publishersSummary": "\"Anton Treuer is a renowned author, speaker, language preservationist, scholar, etc. This young readers edition of the original book for adults from a university press includes new material for the younger lens. Organized by dozens of different questions, some weighty and some minor, but all the time funny, insightful, personal, and interesting, this book will tell you everything you ever wanted to learn about Native Americans, but were afraid to ask\""
     },
     {
         "title": "The Marrow Thieves",
@@ -3069,7 +3147,7 @@ const data = [
         "bookBibnumber": 931261,
         "ebookBibnumber": 0,
         "audioBibnumber": 773871,
-        "publishersSummery": "Humanity has nearly destroyed its world through global warming, but now an even greater evil lurks. The indigenous people of North America are being hunted and harvested for their bone marrow, which carries the key to recovering something the rest of the population has lost: the ability to dream. In this dark world, Frenchie and his companions struggle to survive as they make their way up north to the old lands. For now, survival means staying hidden - but what they don't know is that one of them holds the secret to defeating the marrow thieves."
+        "publishersSummary": "Humanity has nearly destroyed its world through global warming, but now an even greater evil lurks. The indigenous people of North America are being hunted and harvested for their bone marrow, which carries the key to recovering something the rest of the population has lost: the ability to dream. In this dark world, Frenchie and his companions struggle to survive as they make their way up north to the old lands. For now, survival means staying hidden - but what they don't know is that one of them holds the secret to defeating the marrow thieves."
     },
     {
         "title": "The Last Mapmaker ",
@@ -3080,7 +3158,7 @@ const data = [
         "bookBibnumber": 952468,
         "ebookBibnumber": 0,
         "audioBibnumber": 971688,
-        "publishersSummery": "\"In a fantasy adventure every bit as compelling and confident in its world building as her Newbery Honor Book A Wish in the Dark, Christina Soontornvat explores a young woman's struggle to unburden herself of the past and chart her own destiny in a world of secrets. As assistant to Mangkon's most celebrated mapmaker, twelve-year-old Sai plays the part of a well-bred young lady with a glittering future. In reality, her father is a conman--and in a kingdom where the status of one's ancestors dictates their social position, the truth could ruin her Sai seizes the chance to join an expedition to chart the southern seas, but she isn't the only one aboard with secrets. When Sai learns the ship might be heading for the fabled Sunderlands--a land of dragons, danger, and riches beyond imagining--she must weigh the cost of her dreams. Vivid, suspenseful, and thought-provoking, this tale of identity and integrity is as beautiful and intricate as the maps of old.\"-"
+        "publishersSummary": "\"In a fantasy adventure every bit as compelling and confident in its world building as her Newbery Honor Book A Wish in the Dark, Christina Soontornvat explores a young woman's struggle to unburden herself of the past and chart her own destiny in a world of secrets. As assistant to Mangkon's most celebrated mapmaker, twelve-year-old Sai plays the part of a well-bred young lady with a glittering future. In reality, her father is a conman--and in a kingdom where the status of one's ancestors dictates their social position, the truth could ruin her Sai seizes the chance to join an expedition to chart the southern seas, but she isn't the only one aboard with secrets. When Sai learns the ship might be heading for the fabled Sunderlands--a land of dragons, danger, and riches beyond imagining--she must weigh the cost of her dreams. Vivid, suspenseful, and thought-provoking, this tale of identity and integrity is as beautiful and intricate as the maps of old.\"-"
     },
     {
         "title": "Boys Run The Riot",
@@ -3093,7 +3171,7 @@ const data = [
         "bookBibnumber": 952321,
         "ebookBibnumber": 0,
         "audioBibnumber": 0,
-        "publishersSummery": "\"High schooler Ryo knows he's transgender, but he doesn't have anyone to confide in about the confusion he feels. He can't tell his best friend, who he's secretly got a crush on, and he can't tell his mom, who's constantly asking why Ryo 'dresses like a boy.' He certainly can't tell Jin, the new transfer student who looks like just another bully ... The only time Ryo feels at ease is when he's wearing his favorite clothes. Then, and only then, the world melts away, and he can be his true self. One day, while out shopping, Ryo sees someone he didn't expect: Jin. The kid who looked so tough in class has the same taste in fashion as him! At last, Ryo has someone he can open up to--and the journey ahead might finally give him a way to express himself to the world\""
+        "publishersSummary": "\"High schooler Ryo knows he's transgender, but he doesn't have anyone to confide in about the confusion he feels. He can't tell his best friend, who he's secretly got a crush on, and he can't tell his mom, who's constantly asking why Ryo 'dresses like a boy.' He certainly can't tell Jin, the new transfer student who looks like just another bully ... The only time Ryo feels at ease is when he's wearing his favorite clothes. Then, and only then, the world melts away, and he can be his true self. One day, while out shopping, Ryo sees someone he didn't expect: Jin. The kid who looked so tough in class has the same taste in fashion as him! At last, Ryo has someone he can open up to--and the journey ahead might finally give him a way to express himself to the world\""
     },
     {
         "title": "Asadora!",
@@ -3105,7 +3183,7 @@ const data = [
         "bookBibnumber": 949472,
         "ebookBibnumber": 0,
         "audioBibnumber": 0,
-        "publishersSummery": "\"A deadly typhoon, a mysterious creature and a girl who won't quit. In 2020, a large creature rampages through Tokyo, destroying everything in its path. In 1959, Asa Asada, a spunky young girl from a huge family in Nagoya, is kidnapped for ransom--and not a soul notices. When a typhoon hits Nagoya, Asa and her kidnapper must work together to survive. But there's more to her kidnapper and this storm than meets the eye. When Asa's mother goes into labor yet again, Asa runs off to find a doctor. But no one bats an eye when she doesn't return--not even as a storm approaches Nagoya. Forgotten yet again, Asa runs into a burglar and tries to stop him on her own, a decision that leads to an unlikely alliance.\""
+        "publishersSummary": "\"A deadly typhoon, a mysterious creature and a girl who won't quit. In 2020, a large creature rampages through Tokyo, destroying everything in its path. In 1959, Asa Asada, a spunky young girl from a huge family in Nagoya, is kidnapped for ransom--and not a soul notices. When a typhoon hits Nagoya, Asa and her kidnapper must work together to survive. But there's more to her kidnapper and this storm than meets the eye. When Asa's mother goes into labor yet again, Asa runs off to find a doctor. But no one bats an eye when she doesn't return--not even as a storm approaches Nagoya. Forgotten yet again, Asa runs into a burglar and tries to stop him on her own, a decision that leads to an unlikely alliance.\""
     },
     {
         "title": "They Called Us Enemy",
@@ -3118,10 +3196,10 @@ const data = [
         "bookBibnumber": 805161,
         "ebookBibnumber": 841682,
         "audioBibnumber": 0,
-        "publishersSummery": "A stunning graphic memoir recounting actor/author/activist George Takei's childhood imprisoned within American concentration camps during World War II. Experience the forces that shaped an American icon -- and America itself -- in this gripping tale of courage, country, loyalty, and love. George Takei has captured hearts and minds worldwide with his captivating stage presence and outspoken commitment to equal rights. But long before he braved new frontiers in Star Trek, he woke up as a four-year-old boy to find his own birth country at war with his father's -- and their entire family forced from their home into an uncertain future. In 1942, at the order of President Franklin D. Roosevelt, every person of Japanese descent on the west coast was rounded up and shipped to one of ten \"relocation centers,\" hundreds or thousands of miles from home, where they would be held for years under armed guard. They Called Us Enemy is Takei's firsthand account of those years behind barbed wire, the joys and terrors of growing up under legalized racism, his mother's hard choices, his father's faith in democracy, and the way those experiences planted the seeds for his astonishing future. What is American? Who gets to decide? When the world is against you, what can one person do?"
+        "publishersSummary": "A stunning graphic memoir recounting actor/author/activist George Takei's childhood imprisoned within American concentration camps during World War II. Experience the forces that shaped an American icon -- and America itself -- in this gripping tale of courage, country, loyalty, and love. George Takei has captured hearts and minds worldwide with his captivating stage presence and outspoken commitment to equal rights. But long before he braved new frontiers in Star Trek, he woke up as a four-year-old boy to find his own birth country at war with his father's -- and their entire family forced from their home into an uncertain future. In 1942, at the order of President Franklin D. Roosevelt, every person of Japanese descent on the west coast was rounded up and shipped to one of ten \"relocation centers,\" hundreds or thousands of miles from home, where they would be held for years under armed guard. They Called Us Enemy is Takei's firsthand account of those years behind barbed wire, the joys and terrors of growing up under legalized racism, his mother's hard choices, his father's faith in democracy, and the way those experiences planted the seeds for his astonishing future. What is American? Who gets to decide? When the world is against you, what can one person do?"
     },
     {
-        "title": "March. Book One",
+        "title": "March: Book One",
         "author": "John Lewis",
         "memoirautobiograohy": "Y",
         "nonfiction": "Y",
@@ -3131,7 +3209,7 @@ const data = [
         "bookBibnumber": 371450,
         "ebookBibnumber": 492014,
         "audioBibnumber": 0,
-        "publishersSummery": "March is a vivid first-hand account of John Lewis' lifelong struggle for civil and human rights, meditating in the modern age on the distance traveled since the days of Jim Crow and segregation. Rooted in Lewis' personal story, it also reflects on the highs and lows of the broader civil rights movement.Book One spans John Lewis' youth in rural Alabama, his life-changing meeting with Martin Luther King, Jr., the birth of the Nashville Student Movement, and their battle to tear down segregation through nonviolent lunch counter sit-ins, building to a stunning climax on the steps of City Hall.Many years ago, John Lewis and other student activists drew inspiration from the 1958 comic book Martin Luther King and the Montgomery Story. Now, his own comics bring those days to life for a new audience, testifying to a movement whose echoes will be heard for generations."
+        "publishersSummary": "March is a vivid first-hand account of John Lewis' lifelong struggle for civil and human rights, meditating in the modern age on the distance traveled since the days of Jim Crow and segregation. Rooted in Lewis' personal story, it also reflects on the highs and lows of the broader civil rights movement.Book One spans John Lewis' youth in rural Alabama, his life-changing meeting with Martin Luther King, Jr., the birth of the Nashville Student Movement, and their battle to tear down segregation through nonviolent lunch counter sit-ins, building to a stunning climax on the steps of City Hall.Many years ago, John Lewis and other student activists drew inspiration from the 1958 comic book Martin Luther King and the Montgomery Story. Now, his own comics bring those days to life for a new audience, testifying to a movement whose echoes will be heard for generations."
     },
     {
         "title": "Fat Chance, Charlie Vega",
@@ -3142,10 +3220,10 @@ const data = [
         "bookBibnumber": 881224,
         "ebookBibnumber": 907252,
         "audioBibnumber": 0,
-        "publishersSummery": "Overweight sixteen-year-old Charlie yearned for her first kiss while her perfect best friend, Amelia, fell in love, so when she finally starts dating and learns the boy asked Amelia out first, she is devastated."
+        "publishersSummary": "Overweight sixteen-year-old Charlie yearned for her first kiss while her perfect best friend, Amelia, fell in love, so when she finally starts dating and learns the boy asked Amelia out first, she is devastated."
     },
     {
-        "title": "Fiece as the Wind",
+        "title": "Fierce as the Wind",
         "author": "Tara Wilson",
         "fiction": "Y",
         "prose": "Y",
@@ -3163,7 +3241,7 @@ const data = [
         "bookBibnumber": 899781,
         "ebookBibnumber": 0,
         "audioBibnumber": 0,
-        "publishersSummery": "\"Known as the the Weakest Hunter of All Mankind, E-rank hunter Jinwoo Sung's contribution to raids amounts to trying not to get killed. Unfortunately, between his mother's hospital bills, his sister's tuition, and his own lack of job prospects, he has no choice but to continue to put his life on the line. So when an opportunity arises for a bigger payout, he takes it...only to come face-to-face with a being whose power outranks anything he's ever seen! With the party leader missing an arm and the only healer a quivering mess, can Jinwoo someƯhow find them a way out?\""
+        "publishersSummary": "\"Known as the the Weakest Hunter of All Mankind, E-rank hunter Jinwoo Sung's contribution to raids amounts to trying not to get killed. Unfortunately, between his mother's hospital bills, his sister's tuition, and his own lack of job prospects, he has no choice but to continue to put his life on the line. So when an opportunity arises for a bigger payout, he takes it...only to come face-to-face with a being whose power outranks anything he's ever seen! With the party leader missing an arm and the only healer a quivering mess, can Jinwoo someƯhow find them a way out?\""
     },
     {
         "title": "Fifteen Hundred Miles from the Sun",
@@ -3175,7 +3253,7 @@ const data = [
         "bookBibnumber": 918579,
         "ebookBibnumber": 0,
         "audioBibnumber": 0,
-        "publishersSummery": "\"Julián Luna has a plan for his life: Graduate. Get into UCLA. And have the chance to move away from Corpus Christi, Texas, and the suffocating expectations of others that have forced Jules into an inauthentic life. Then in one reckless moment, with one impulsive tweet, his plans for a low-key nine months are thrown--literally--out the closet. The downside: the whole world knows, and Jules has to prepare for rejection. The upside: Jules now has the opportunity to be his real self. Then Mat, a cute, empathetic Twitter crush from Los Angeles, slides into Jules's DMs. Jules can tell him anything. Mat makes the world seem conquerable. But when Jules's fears about coming out come true, the person he needs most is fifteen hundred miles away. Jules has to face them alone. Jules accidentally propelled himself into the life he's always dreamed of. And now that he's in control of it, what he does next is up to him\"-"
+        "publishersSummary": "\"Julián Luna has a plan for his life: Graduate. Get into UCLA. And have the chance to move away from Corpus Christi, Texas, and the suffocating expectations of others that have forced Jules into an inauthentic life. Then in one reckless moment, with one impulsive tweet, his plans for a low-key nine months are thrown--literally--out the closet. The downside: the whole world knows, and Jules has to prepare for rejection. The upside: Jules now has the opportunity to be his real self. Then Mat, a cute, empathetic Twitter crush from Los Angeles, slides into Jules's DMs. Jules can tell him anything. Mat makes the world seem conquerable. But when Jules's fears about coming out come true, the person he needs most is fifteen hundred miles away. Jules has to face them alone. Jules accidentally propelled himself into the life he's always dreamed of. And now that he's in control of it, what he does next is up to him\"-"
     },
     {
         "title": "The Great Bear",
@@ -3197,7 +3275,7 @@ const data = [
         "bookBibnumber": 881239,
         "ebookBibnumber": 0,
         "audioBibnumber": 882773,
-        "publishersSummery": "\"When teen social activist and history buff Kezi Smith is killed under mysterious circumstances after attending a social justice rally, her devastated sister Happi and their family are left reeling in the aftermath. As Kezi becomes another immortalized victim in the fight against police brutality, Happi begins to question the idealized way her sister is remembered. Perfect. Angelic. One of the good ones. Even as the phrase rings wrong in her mind--why are only certain people deemed worthy to be missed?--Happi and her sister Genny embark on a journey to honor Kezi in their own way, using an heirloom copy of The Negro Motorist Green Book as their guide. But there's a twist to Kezi's story that no one could've ever expected--one that will change everything all over again.\""
+        "publishersSummary": "\"When teen social activist and history buff Kezi Smith is killed under mysterious circumstances after attending a social justice rally, her devastated sister Happi and their family are left reeling in the aftermath. As Kezi becomes another immortalized victim in the fight against police brutality, Happi begins to question the idealized way her sister is remembered. Perfect. Angelic. One of the good ones. Even as the phrase rings wrong in her mind--why are only certain people deemed worthy to be missed?--Happi and her sister Genny embark on a journey to honor Kezi in their own way, using an heirloom copy of The Negro Motorist Green Book as their guide. But there's a twist to Kezi's story that no one could've ever expected--one that will change everything all over again.\""
     },
     {
         "title": "The Ones We're Meant to Find",
@@ -3209,7 +3287,7 @@ const data = [
         "bookBibnumber": 901575,
         "ebookBibnumber": 909115,
         "audioBibnumber": 0,
-        "publishersSummery": "In a near future when life is harsh outside of Earth's last unpolluted place, Cee tries to leave an abandoned island while her sister, STEM prodigy Kasey, seeks escape from the science and home she once trusted."
+        "publishersSummary": "In a near future when life is harsh outside of Earth's last unpolluted place, Cee tries to leave an abandoned island while her sister, STEM prodigy Kasey, seeks escape from the science and home she once trusted."
     },
     {
         "title": "The Other Merlin",
@@ -3244,7 +3322,7 @@ const data = [
         "bookBibnumber": 907182,
         "ebookBibnumber": 0,
         "audioBibnumber": 0,
-        "publishersSummery": "\"Parvin Mohammadi has just been dumped--only days after receiving official girlfriend status. Not only is she heartbroken, she's humiliated. Enter high school heartthrob Matty Fumero, who just might be the smoking-hot cure to all her boy problems. If Parvin can get Matty to ask her to Homecoming, she's positive it will prove to herself and her ex that she's girlfriend material after all. There's just one problem: Matty is definitely too cool for bassoon-playing, frizzy-haired, Cheeto-eating Parvin. Since being herself hasn't worked for her in the past (see aforementioned dumping), she decides to start acting like the women in her favorite rom-coms. Those women aren't loud, they certainly don't cackle when they laugh, and they smile much more than they talk. But Parvin discovers that being a rom-com dream girl is much harder than it looks. Also hard? The parent-mandated Farsi lessons. A confusing friendship with a boy who's definitely not supposed to like her. And hardest of all, the ramifications of the Muslim ban on her family in Iran. Suddenly, being herself has never been more important. Olivia Abtahi's debut is as hilarious as it is heartfelt--a delightful tale where, amid the turmoil of high school friendships and crushes, being yourself is always the perfect way to be.\""
+        "publishersSummary": "\"Parvin Mohammadi has just been dumped--only days after receiving official girlfriend status. Not only is she heartbroken, she's humiliated. Enter high school heartthrob Matty Fumero, who just might be the smoking-hot cure to all her boy problems. If Parvin can get Matty to ask her to Homecoming, she's positive it will prove to herself and her ex that she's girlfriend material after all. There's just one problem: Matty is definitely too cool for bassoon-playing, frizzy-haired, Cheeto-eating Parvin. Since being herself hasn't worked for her in the past (see aforementioned dumping), she decides to start acting like the women in her favorite rom-coms. Those women aren't loud, they certainly don't cackle when they laugh, and they smile much more than they talk. But Parvin discovers that being a rom-com dream girl is much harder than it looks. Also hard? The parent-mandated Farsi lessons. A confusing friendship with a boy who's definitely not supposed to like her. And hardest of all, the ramifications of the Muslim ban on her family in Iran. Suddenly, being herself has never been more important. Olivia Abtahi's debut is as hilarious as it is heartfelt--a delightful tale where, amid the turmoil of high school friendships and crushes, being yourself is always the perfect way to be.\""
     },
     {
         "title": "Pumpkin",
@@ -3382,7 +3460,7 @@ const data = [
         "audioBibnumber": 0
     },
     {
-        "title": "The Words in my Hands",
+        "title": "The Words in My Hands",
         "author": "Asphyxia",
         "fiction": "Y",
         "prose": "Y",
@@ -3439,7 +3517,7 @@ const data = [
         "audioBibnumber": 0
     },
     {
-        "title": "Genius Under the Table: Growing Up Behind the Iron Curtain",
+        "title": "The Genius Under the Table: Growing Up Behind the Iron Curtain",
         "author": "Eugene Yelchin",
         "memoirautobiograohy": "Y",
         "nonfiction": "Y",
@@ -3557,7 +3635,7 @@ const data = [
         "audioBibnumber": 799256
     },
     {
-        "title": "The Sun is also a Star",
+        "title": "The Sun Is Also a Star",
         "author": "Nicola Yoon",
         "fiction": "Y",
         "prose": "Y",
@@ -3592,7 +3670,7 @@ const data = [
         "audioBibnumber": 773857
     },
     {
-        "title": "Everybody Looking",
+        "title": "Every Body Looking",
         "author": "Candice Iloh",
         "fiction": "Y",
         "verse": "Y",
@@ -3627,7 +3705,7 @@ const data = [
         "audioBibnumber": 884716
     },
     {
-        "title": "The Librarian of Auchwitz",
+        "title": "The Librarian of Auschwitz",
         "author": "Antonio Iturbe",
         "historicalfiction": "Y",
         "prose": "Y",
@@ -3662,7 +3740,7 @@ const data = [
         "audioBibnumber": 0
     },
     {
-        "title": "Probaby Ruby",
+        "title": "Probably Ruby",
         "author": "Lisa Bird-Wilson",
         "historicalfiction": "Y",
         "prose": "Y",
@@ -3733,7 +3811,7 @@ const data = [
         "bookBibnumber": 586339,
         "ebookBibnumber": 487772,
         "audioBibnumber": 481860,
-        "publishersSummery": "Trying to make sense of the horrors of World War II, Death relates the story of Liesel--a young German girl whose book-stealing and story-telling talents help sustain her family and the Jewish man they are hiding, as well as their neighbors."
+        "publishersSummary": "Trying to make sense of the horrors of World War II, Death relates the story of Liesel--a young German girl whose book-stealing and story-telling talents help sustain her family and the Jewish man they are hiding, as well as their neighbors."
     },
     {
         "title": "This Is My America",
@@ -3744,7 +3822,7 @@ const data = [
         "bookBibnumber": 848659,
         "ebookBibnumber": 0,
         "audioBibnumber": 0,
-        "publishersSummery": "While writing letters to Innocence X, a justice-seeking project, asking them to help her father, an innocent black man on death row, teenaged Tracy takes on another case when her brother is accused of killing his white girlfriend."
+        "publishersSummary": "While writing letters to Innocence X, a justice-seeking project, asking them to help her father, an innocent black man on death row, teenaged Tracy takes on another case when her brother is accused of killing his white girlfriend."
     },
     {
         "title": "Apple in the Middle",
@@ -3755,7 +3833,7 @@ const data = [
         "bookBibnumber": 881407,
         "ebookBibnumber": 0,
         "audioBibnumber": 0,
-        "publishersSummery": "Apple Starkington turned her back on her Native American heritage the moment she was called a racial slur for someone of white and Indian descent, not that she really even knew how to be an Indian in the first place. Too bad the white world doesn't accept her either. And so begins her quirky habits to gain acceptance. Apple's name, chosen by her Indian mother on her deathbed, has a double meaning: treasured apple of my eye, but also the negative connotation a person who is red, or Indian, on the outside, but white on the inside. After her wealthy father gives her the boot one summer, Apple reluctantly agrees to visit her Native American relatives on the Turtle Mountain Indian Reservation in northern North Dakota for the first time. Apple learns to deal with the culture shock of Indian customs and the Native Michif language, while she tries to find a connection to her dead mother. She also has to deal with a vengeful Indian man who loved her mother in high school but now hates Apple because her mom married a white man. Bouncing in the middle of two cultures, Apple meets her Indian relatives, shatters Indian stereotypes, and learns what it means to find her place in a world divided by color."
+        "publishersSummary": "Apple Starkington turned her back on her Native American heritage the moment she was called a racial slur for someone of white and Indian descent, not that she really even knew how to be an Indian in the first place. Too bad the white world doesn't accept her either. And so begins her quirky habits to gain acceptance. Apple's name, chosen by her Indian mother on her deathbed, has a double meaning: treasured apple of my eye, but also the negative connotation a person who is red, or Indian, on the outside, but white on the inside. After her wealthy father gives her the boot one summer, Apple reluctantly agrees to visit her Native American relatives on the Turtle Mountain Indian Reservation in northern North Dakota for the first time. Apple learns to deal with the culture shock of Indian customs and the Native Michif language, while she tries to find a connection to her dead mother. She also has to deal with a vengeful Indian man who loved her mother in high school but now hates Apple because her mom married a white man. Bouncing in the middle of two cultures, Apple meets her Indian relatives, shatters Indian stereotypes, and learns what it means to find her place in a world divided by color."
     },
     {
         "title": "House of Purple Cedar",
@@ -3766,7 +3844,7 @@ const data = [
         "bookBibnumber": 931265,
         "ebookBibnumber": 0,
         "audioBibnumber": 0,
-        "publishersSummery": "Tired of staying in seclusion since the death of her best friend, a fourteen-year-old Native American girl takes on a photographic assignment with her local newspaper to cover events at the Native American summer youth camp."
+        "publishersSummary": "Tired of staying in seclusion since the death of her best friend, a fourteen-year-old Native American girl takes on a photographic assignment with her local newspaper to cover events at the Native American summer youth camp."
     },
     {
         "title": "Rain Is Not My Indian Name",
@@ -3778,7 +3856,7 @@ const data = [
         "bookBibnumber": 931265,
         "ebookBibnumber": 0,
         "audioBibnumber": 0,
-        "publishersSummery": "When Louise Wolfe's boyfriend mocks and disrespects Native people in front of her, she breaks things off and dumps him over e-mail. She'd rather spend her senior year with her family and friends and working on the school newspaper. The editors pair her up with Joey Kairouz, an ambitious new photojournalist, and in no time the paper's staff find themselves with a major story to cover: the school musical director's inclusive approach to casting The Wizard of Oz has been provoking backlash in their mostly white, middle-class Kansas town. As tensions mount at school, so does a romance between Lou and Joey. But 'dating while Native' can be difficult. In trying to protect her own heart, will Lou break Joey's? -- adapted from jacket"
+        "publishersSummary": "When Louise Wolfe's boyfriend mocks and disrespects Native people in front of her, she breaks things off and dumps him over e-mail. She'd rather spend her senior year with her family and friends and working on the school newspaper. The editors pair her up with Joey Kairouz, an ambitious new photojournalist, and in no time the paper's staff find themselves with a major story to cover: the school musical director's inclusive approach to casting The Wizard of Oz has been provoking backlash in their mostly white, middle-class Kansas town. As tensions mount at school, so does a romance between Lou and Joey. But 'dating while Native' can be difficult. In trying to protect her own heart, will Lou break Joey's? -- adapted from jacket"
     },
     {
         "title": "Hearts Unbroken",
@@ -4122,7 +4200,11 @@ const data = [
     },
     {
         "title": "Every Heart a Doorway",
-        "author": "Sean an McGuire"
+        "author": "Sean an McGuire",
+        "fantasy": "Y",
+        "prose": "Y",
+        "lgbtqia": "Y",
+        "wlwOrNblw": "Y"
     },
     {
         "title": "Every Variable of Us",
@@ -4343,6 +4425,7 @@ const data = [
         "title": "The Borrower: A Novel",
         "author": "Rebecca Makkai",
         "fiction": "Y",
+        "prose": "Y",
         "lgbtqia": "Y",
         "newAdultAdultBookWithTeenInterest": "Y"
     },
@@ -4681,14 +4764,6 @@ const data = [
         "ownvoices": "Y"
     },
     {
-        "title": "A River of Royal Blood",
-        "author": "Amanda Joy",
-        "fantasy": "Y",
-        "prose": "Y",
-        "africanamericanOrBlack": "Y",
-        "ownvoices": "Y"
-    },
-    {
         "title": "The City of Brass",
         "author": "S.A. Chakraborty",
         "fantasy": "Y",
@@ -4854,7 +4929,7 @@ const data = [
     },
     {
         "title": "Adachi and Shimamura",
-        "author": "Hitoma Iruma, illustrated by Moke Yuzuhara",
+        "author": "Hitoma Iruma, Moke Yuzuhara",
         "fiction": "Y",
         "romance": "Y",
         "graphicnovel": "Y",
@@ -5054,19 +5129,26 @@ const data = [
     },
     {
         "title": "American Street",
-        "author": "Ibi Zoboi"
+        "author": "Ibi Zoboi",
+        "fiction": "Y",
+        "prose": "Y",
+        "africanamericanOrBlack": "Y",
+        "migrantstories": "Y",
+        "ownvoices": "Y"
     },
     {
         "title": "Rising troublemaker : a fear-fighter manual for teens",
         "author": "Luvvie Ajayi Jones",
         "nonfiction": "Y",
+        "prose": "Y",
         "africanamericanOrBlack": "Y",
-        "publishersSummery": "In this young readers edition of her New York Times bestseller Professional Troublemaker, Luvvie Ajayi Jones uses her honesty and humor to inspire teens to be their bravest, boldest, truest selves, in order to create a world they would be proud to live i"
+        "publishersSummary": "In this young readers edition of her New York Times bestseller Professional Troublemaker, Luvvie Ajayi Jones uses her honesty and humor to inspire teens to be their bravest, boldest, truest selves, in order to create a world they would be proud to live i"
     },
     {
         "title": "Does my body offend you?",
         "author": "Mayra Cuevas, Marie Marquardt",
         "fiction": "Y",
+        "prose": "Y",
         "latinx": "Y"
     },
     {
@@ -5436,6 +5518,7 @@ const data = [
         "author": "Jean Meltzer",
         "fiction": "Y",
         "romance": "Y",
+        "prose": "Y",
         "jewish": "Y",
         "newAdultAdultBookWithTeenInterest": "Y"
     },
@@ -5573,6 +5656,7 @@ const data = [
         "author": "Chloe Gong",
         "historicalfiction": "Y",
         "mysteryHorror": "Y",
+        "prose": "Y",
         "aapi": "Y",
         "lgbtqia": "Y",
         "trans": "Y"
@@ -5681,6 +5765,7 @@ const data = [
         "title": "The Assignment",
         "author": "Liza Wiemer",
         "fiction": "Y",
+        "prose": "Y",
         "jewish": "Y"
     },
     {
@@ -5688,28 +5773,60 @@ const data = [
         "author": "Hannah Reynolds",
         "fiction": "Y",
         "romance": "Y",
+        "prose": "Y",
         "jewish": "Y"
-    },
-    {
-        "title": "The Surprising Power of a Good Dumpling",
-        "author": "Wai Chim",
-        "fiction": "Y",
-        "aapi": "Y",
-        "ownvoices": "Y",
-        "mentalhealth": "Y"
     },
     {
         "title": "When the Angels Left the Old Country",
         "author": "Sacha Lamb",
         "fantasy": "Y",
         "fiction": "Y",
+        "prose": "Y",
         "lgbtqia": "Y",
         "migrantstories": "Y",
         "jewish": "Y"
+    },
+    {
+        "title": "The Memory Keeper's Daughter",
+        "author": "Kim Edwards",
+        "fiction": "Y",
+        "prose": "Y",
+        "mentaldisability": "Y"
+    },
+    {
+        "title": "Breaking the Mold: Changing the Face of Climate Science",
+        "author": "Dana Allison Levy",
+        "nonfiction": "Y",
+        "prose": "Y",
+        "africanamericanOrBlack": "Y",
+        "aapi": "Y",
+        "latinx": "Y",
+        "nativeamerican": "Y",
+        "lgbtqia": "Y",
+        "ownvoices": "Y",
+        "mentaldisability": "Y",
+        "physicaldisability": "Y"
+    },
+    {
+        "title": "Henry Hamlet's Heart",
+        "author": "Rhiannon Wilde",
+        "fiction": "Y",
+        "romance": "Y",
+        "prose": "Y",
+        "lgbtqia": "Y",
+        "mlmOrNblm": "Y"
+    },
+    {
+        "title": "Live Your Best Lie",
+        "author": "Jessie Weaver",
+        "fiction": "Y",
+        "mysteryHorror": "Y",
+        "prose": "Y",
+        "aapi": "Y",
+        "arabOrArabamerican": "Y",
+        "muslim": "Y"
     }
 ];
-
-
 
 
 const all_tags = ["fantasy", "fiction", "scifi", "romance", "urbanfantasy", "historicalfiction", "memoirautobiograohy", "nonfiction",
