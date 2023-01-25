@@ -1,6 +1,13 @@
+var sidenav_scrollOnLoad;
+
+setTimeout(function(){ // "no" delay to allow website to load (it works?)
+  sidenav_scrollOnLoad = document.documentElement.scrollTop
+},0)
+
 document.getElementById("menu_button").addEventListener("click", switch_menu_state);
 
 function resize_sequence(){
+  scroll_function();
   resize_topnav();
   resize_books();
   resize_sidenav();
@@ -13,11 +20,13 @@ function resize_sequence(){
 	  setTimeout(() => {  resize_sequence(); }, 1); // redue sequence
 	}
 
+  // setTimeout(() => {  resize_books(); }, 500); // account for animation time
+
 }
 
 function switch_menu_state() {
 
-	if(window.innerWidth <= 617){ // set sidenav screen size class
+  if(window.innerWidth <= 687){ // set sidenav screen size class
 		document.getElementById("sidenav").className = "sidenav_smallScreen";
 	}
 	else{
@@ -85,7 +94,7 @@ function switch_menu_state() {
 }
 
 function resize_sidenav(){
-	if(window.innerWidth <= 617){ // set sidenav screen size class
+	if(window.innerWidth <= 687){ // set sidenav screen size class
 		document.getElementById("sidenav").className = "sidenav_smallScreen";
 	}
 	else{
@@ -124,11 +133,6 @@ function resize_sidenav(){
 
 }
 
-function resize_topnav(){
-	document.getElementById("menu_button").style.height = 30 +"px";
-	document.getElementById("topnav").style.fontSize = 33 +"px";
-}
-
 function resize_books(){
 	if(window.innerWidth <= 940){
 		book_width_minimum = 350;
@@ -139,14 +143,11 @@ function resize_books(){
 
 	sidenav_padding = sidenav.offsetWidth;
 	topnav_padding = topnav.offsetHeight;
-	menu_padding = 10;
 	book_padding = book_width_minimum - borderWidth*2 - marginWidth*2 - 1 + fit_window(); // book_width_minimum minus border widths minus margin minus one
 
 	document.getElementById("book_div_position").style.paddingLeft = parseInt(sidenav_padding) + "px";
 	document.getElementById("book_div_position").style.paddingTop = parseInt(topnav_padding) + "px";
-	document.getElementById("menu_button").style.paddingTop = parseInt(menu_padding) + "px";
 
-	document.getElementById("menu_button").style.paddingTop = parseInt(menu_padding) + "px";
 	for(let i=0; i<document.getElementsByClassName("book_format").length; i++){
 		document.getElementsByClassName("book_format")[i].style.width = book_padding + "px";
 		document.getElementsByClassName("book_format")[i].style.height = book_padding*book_height_ratio + "px";
@@ -165,7 +166,50 @@ function fit_window(){
   }
 }
 
-var sidenav_openStatus; // 0 = closed, 1 = open, 2 = untouched;
+function sidenav_scroll(){
+  let sidenav_width;
+
+  let scrollFromOnLoad = 0;
+  if(document.documentElement.scrollTop >= sidenav_scrollOnLoad){
+    scrollFromOnLoad = document.documentElement.scrollTop - sidenav_scrollOnLoad;
+  }
+  else{
+    scrollFromOnLoad = 0;
+    sidenav_scrollOnLoad = document.documentElement.scrollTop;
+  }
+
+  if(window.innerWidth <= 700 && sidenav_openStatus != 0){
+    sidenav_width = window.innerWidth*0.4;
+  }
+  else if (window.innerWidth <= 940 && sidenav_openStatus != 0){
+    sidenav_width = window.innerWidth*0.3;
+  }
+  else if (sidenav_openStatus != 0){
+    sidenav_width = window.innerWidth*0.2;
+  }
+
+  if(scrollFromOnLoad >= 200){
+    if(window.innerWidth <= 700 && sidenav_openStatus == 2){
+      sidenav_width = window.innerWidth*0.4-((scrollFromOnLoad-200)*2);
+    }
+    else if (window.innerWidth <= 940 && sidenav_openStatus == 2){
+      sidenav_width = window.innerWidth*0.3-((scrollFromOnLoad-200)*2);
+    }
+    else if (sidenav_openStatus == 2){
+      sidenav_width = window.innerWidth*0.2-((scrollFromOnLoad-200)*2);
+    }
+  }
+
+  if(sidenav_width <= 0){
+    sidenav_width = "0";
+    sidenav_openStatus = 0;
+    document.getElementById("menu_button").className = "menu_button_closed";
+  }
+
+  document.getElementById("sidenav").style.width = sidenav_width + "px";
+}
+
+var sidenav_openStatus = 2; // 0 = closed, 1 = open, 2 = untouched;
 var book_width_minimum = 350;
 var borderWidth = 1;
 var marginWidth = 10;
@@ -178,15 +222,20 @@ var sidenav_padding = sidenav.offsetWidth;
 
 var topnav = document.getElementById("topnav");
 var topnav_padding = topnav.offsetHeight;
-var menu_padding = ((topnav.offsetHeight - 4*window.innerHeight/100)/2)-2.5;
 
 document.getElementById("book_div_position").style.paddingLeft = parseInt(sidenav_padding) + "px";
 
 document.getElementById("book_div_position").style.paddingTop = parseInt(topnav_padding) + "px";
 
-document.getElementById("menu_button").style.paddingTop = parseInt(menu_padding) + "px";
+setTimeout(function(){ // "no" delay to allow website to load (it works?)
+  resize_sequence(); // includes resize sequence inside
+  scroll_function();
+},10);
 
-resize_sequence();
+// update for universal_topnav after everything is loaded
+setTimeout(function(){
+  scrollOnLoad = document.documentElement.scrollTop;
+},100);
 
 addEventListener('resize', (event) => {
   resize_sequence();
