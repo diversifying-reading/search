@@ -43,6 +43,7 @@ body {
 }
 
 .sidenav-text a {
+  font-family: serif;
   left: 15px;
   position: relative;
 }
