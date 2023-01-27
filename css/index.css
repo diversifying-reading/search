@@ -91,6 +91,21 @@ body {
   color:#033616;
 }
 
+.currentTextLink {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  background-color: #7DA468;
+  color: #f2f2f2;
+  text-decoration: none;
+}
+
+.currentTextLink:hover{
+  background-color: white;
+  color:#033616;
+}
+
 /*
 .topnav_text_links {
   padding-left: 10px;
@@ -125,12 +140,16 @@ body {
   height:20px;
   float: left;
   align-items: center;
+  background-color: #033616;
+  cursor: pointer;
 }
 
 .menu_button_closed{
   height:20px;
   vertical-align: middle;
   float: left;
+  background-color: #033616;
+  cursor: pointer;
 }
 
 .book_div{
