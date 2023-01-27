@@ -21,7 +21,6 @@ function resize_sequence(){
 	}
 
   // setTimeout(() => {  resize_books(); }, 500); // account for animation time
-
 }
 
 function switch_menu_state() {
