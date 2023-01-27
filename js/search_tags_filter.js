@@ -242,9 +242,9 @@ function search_func(){
 
     txtValue = data[dataNumber].title + data[dataNumber].author;
 
-    // if(data[dataNumber].publishersSummary != undefined){
-    //   txtValue += data[dataNumber].publishersSummary;
-    // }
+    if(data[dataNumber].publishersSummary != undefined){
+      txtValue += data[dataNumber].publishersSummary;
+    }
 
     if (txtValue.toUpperCase().indexOf(filter) > -1) {
       search_data_list.push(filtered_data_list[i]);
