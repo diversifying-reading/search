@@ -160,11 +160,10 @@ const data = [
         "memoirautobiograohy": "Y",
         "prose": "Y",
         "mentalhealth": "Y",
-        "ptsd": "Y",
         "bookBibnumber": 872146,
         "ebookBibnumber": 882749,
         "audioBibnumber": 0,
-        "publishersSummary": "In this biography, author Gary Paulsen portrays a series of life-altering moments from his turbulent childhood.] If not for his summer escape from a shockingly neglectful Chicago upbringing to a North Woods homestead at age five, there never would have been a Hatchet. Without the encouragement of the librarian who handed him his first book at age thirteen, he may never have become a reader. And without his desperate teenage enlistment in the Army, he would not have discovered his true calling as a storyteller"
+        "publishersSummary": "In this biography, author Gary Paulsen portrays a series of life-altering moments from his turbulent childhood. If not for his summer escape from a shockingly neglectful Chicago upbringing to a North Woods homestead at age five, there never would have been a Hatchet. Without the encouragement of the librarian who handed him his first book at age thirteen, he may never have become a reader. And without his desperate teenage enlistment in the Army, he would not have discovered his true calling as a storyteller"
     },
     {
         "title": "Kira-Kira",
@@ -232,8 +231,7 @@ const data = [
         "mlmOrNblm": "Y",
         "closetsafe": "Y",
         "mentalhealth": "Y",
-        "physicaldisability": "Y",
-        "ptsd": "Y",
+        "characterwithdisability": "Y",
         "bookBibnumber": 540318,
         "ebookBibnumber": 541732,
         "audioBibnumber": 0,
@@ -280,7 +278,7 @@ const data = [
         "author": "Helena Fox",
         "fiction": "Y",
         "prose": "Y",
-        "mentaldisability": "Y",
+        "invisibledisability": "Y",
         "mentalhealth": "Y",
         "depression": "Y",
         "bookBibnumber": 827052,
@@ -401,7 +399,7 @@ const data = [
         "prose": "Y",
         "africanamericanOrBlack": "Y",
         "lgbtqia": "Y",
-        "nonbinairygenderfluid": "Y",
+        "nonbinary": "Y",
         "bookBibnumber": 794169,
         "ebookBibnumber": 827020,
         "audioBibnumber": 0,
@@ -482,7 +480,7 @@ const data = [
         "arabOrArabamerican": "Y",
         "ownvoices": "Y",
         "muslim": "Y",
-        "physicaldisability": "Y",
+        "characterwithdisability": "Y",
         "bookBibnumber": 795608,
         "ebookBibnumber": 797357,
         "audioBibnumber": 0,
@@ -795,7 +793,7 @@ const data = [
         "fiction": "Y",
         "prose": "Y",
         "lgbtqia": "Y",
-        "nonbinairygenderfluid": "Y",
+        "nonbinary": "Y",
         "bookBibnumber": 884847,
         "ebookBibnumber": 897798,
         "audioBibnumber": 0,
@@ -961,8 +959,8 @@ const data = [
         "mysteryHorror": "Y",
         "prose": "Y",
         "lgbtqia": "Y",
-        "nonbinairygenderfluid": "Y",
-        "autismAdhd": "Y",
+        "nonbinary": "Y",
+        "neurodiverdent": "Y",
         "bookBibnumber": 978713,
         "ebookBibnumber": 0,
         "audioBibnumber": 0,
@@ -1024,7 +1022,7 @@ const data = [
         "author": " Rachael Lucas",
         "fiction": "Y",
         "prose": "Y",
-        "autismAdhd": "Y",
+        "neurodiverdent": "Y",
         "bookBibnumber": 737876,
         "ebookBibnumber": 0,
         "audioBibnumber": 0,
@@ -1035,7 +1033,7 @@ const data = [
         "author": "Rebecca Westcott, Libby Scoot",
         "fiction": "Y",
         "prose": "Y",
-        "autismAdhd": "Y",
+        "neurodiverdent": "Y",
         "bookBibnumber": 830593,
         "ebookBibnumber": 0,
         "audioBibnumber": 0,
@@ -1120,7 +1118,7 @@ const data = [
         "fiction": "Y",
         "prose": "Y",
         "africanamericanOrBlack": "Y",
-        "autismAdhd": "Y",
+        "neurodiverdent": "Y",
         "bookBibnumber": 725070,
         "ebookBibnumber": 952854,
         "audioBibnumber": 0,
@@ -1338,8 +1336,7 @@ const data = [
         "author": "Kathryn Ormsbee, Molly Brooks",
         "fiction": "Y",
         "graphicnovel": "Y",
-        "mentaldisability": "Y",
-        "ocd": "Y",
+        "invisibledisability": "Y",
         "middleGrade": "Y",
         "bookBibnumber": 959773,
         "ebookBibnumber": 0,
@@ -1366,7 +1363,7 @@ const data = [
         "author": "Liam Francis Welsh",
         "historicalfiction": "Y",
         "graphicnovel": "Y",
-        "physicaldisability": "Y",
+        "characterwithdisability": "Y",
         "bookBibnumber": 0,
         "ebookBibnumber": 0
     },
@@ -1389,8 +1386,8 @@ const data = [
         "author": "Jules Machias",
         "fiction": "Y",
         "graphicnovel": "Y",
-        "mentaldisability": "Y",
-        "physicaldisability": "Y",
+        "mentalhealth": "Y",
+        "characterwithdisability": "Y",
         "middleGrade": "Y",
         "bookBibnumber": 950946,
         "ebookBibnumber": 0,
@@ -1533,10 +1530,10 @@ const data = [
         "latinx": "Y",
         "lgbtqia": "Y",
         "trans": "Y",
-        "nonbinairygenderfluid": "Y",
-        "mentaldisability": "Y",
-        "physicaldisability": "Y",
-        "autismAdhd": "Y",
+        "nonbinary": "Y",
+        "invisibledisability": "Y",
+        "characterwithdisability": "Y",
+        "neurodiverdent": "Y",
         "bookBibnumber": 952586,
         "ebookBibnumber": 0,
         "audioBibnumber": 0,
@@ -1862,9 +1859,9 @@ const data = [
         "lgbtqia": "Y",
         "wlwOrNblw": "Y",
         "jewish": "Y",
-        "mentaldisability": "Y",
+        "invisibledisability": "Y",
         "mentalhealth": "Y",
-        "physicaldisability": "Y",
+        "characterwithdisability": "Y",
         "bookBibnumber": 666904,
         "ebookBibnumber": 0,
         "audioBibnumber": 722007,
@@ -1944,8 +1941,8 @@ const data = [
         "lgbtqia": "Y",
         "wlwOrNblw": "Y",
         "ownvoices": "Y",
-        "mentaldisability": "Y",
-        "physicaldisability": "Y"
+        "invisibledisability": "Y",
+        "characterwithdisability": "Y"
     },
     {
         "title": "Last Night at the Telegraph Club",
@@ -2159,7 +2156,7 @@ const data = [
         "bookBibnumber": 0,
         "ebookBibnumber": 873052,
         "audioBibnumber": 873074,
-        "publishersSummary": "In her debut with nods to Bridget Jones and Pride and Prejudice, Alexandria Bellefleur delivers a charming #ownvoices queer rom-com about a free-spirited social media astrologer who agrees to fake a relationship with an uptight actuary until New Year's Eve--with results not even the stars could predict!After a disastrous blind date, Darcy Lowell is desperate to stop her well-meaning brother from playing matchmaker ever again. Love--and the inevitable heartbreak--is the last thing she wants. So she fibs and says her latest set up was a success. Darcy doesn't expect her lie to bite her in the ass. Elle Jones, one of the astrologers behind the popular Twitter account, Oh My Stars, dreams of finding her soul mate. But she knows it is most assuredly not Darcy... a no-nonsense stick-in-the-mud, who is way too analytical, punctual, and skeptical for someone as free-spirited as Elle. When Darcy's brother--and Elle's new business partner--expresses how happy he is that they hit it off, Elle is baffled. Was Darcy on the same date' Because... awkward. When Darcy begs Elle to play along, she agrees to pretend they're dating to save face. But with a few conditions: Darcy must help Elle navigate her own overbearing family during the holidays and their arrangement expires on New Year's Eve. The last thing they expect is to develop real feelings during a fake relationship. But maybe opposites can attract when true love is written in the stars?"
+        "publishersSummary": "In her debut with nods to Bridget Jones and Pride and Prejudice, Alexandria Bellefleur delivers a charming #ownvoices queer rom-com about a free-spirited social media astrologer who agrees to fake a relationship with an uptight actuary until New Year's Eve--with results not even the stars could predict! After a disastrous blind date, Darcy Lowell is desperate to stop her well-meaning brother from playing matchmaker ever again. Love--and the inevitable heartbreak--is the last thing she wants. So she fibs and says her latest set up was a success. Darcy doesn't expect her lie to bite her in the ass. Elle Jones, one of the astrologers behind the popular Twitter account, Oh My Stars, dreams of finding her soul mate. But she knows it is most assuredly not Darcy... a no-nonsense stick-in-the-mud, who is way too analytical, punctual, and skeptical for someone as free-spirited as Elle. When Darcy's brother--and Elle's new business partner--expresses how happy he is that they hit it off, Elle is baffled. Was Darcy on the same date' Because... awkward. When Darcy begs Elle to play along, she agrees to pretend they're dating to save face. But with a few conditions: Darcy must help Elle navigate her own overbearing family during the holidays and their arrangement expires on New Year's Eve. The last thing they expect is to develop real feelings during a fake relationship. But maybe opposites can attract when true love is written in the stars?"
     },
     {
         "title": "This Is Kind of an Epic Love Story",
@@ -2207,9 +2204,8 @@ const data = [
         "author": "John Green",
         "fiction": "Y",
         "prose": "Y",
-        "mentaldisability": "Y",
-        "physicaldisability": "Y",
-        "ocd": "Y",
+        "invisibledisability": "Y",
+        "characterwithdisability": "Y",
         "bookBibnumber": 683975,
         "ebookBibnumber": 685607,
         "audioBibnumber": 685577,
@@ -2253,7 +2249,7 @@ const data = [
         "author": "Dusti Bowling",
         "fiction": "Y",
         "prose": "Y",
-        "physicaldisability": "Y",
+        "characterwithdisability": "Y",
         "middleGrade": "Y",
         "bookBibnumber": 674159,
         "ebookBibnumber": 815053,
@@ -2271,7 +2267,6 @@ const data = [
         "ownvoices": "Y",
         "muslim": "Y",
         "mentalhealth": "Y",
-        "ptsd": "Y",
         "bookBibnumber": 883049,
         "ebookBibnumber": 0,
         "audioBibnumber": 0,
@@ -2394,9 +2389,9 @@ const data = [
         "mlmOrNblm": "Y",
         "trans": "Y",
         "ownvoices": "Y",
-        "mentaldisability": "Y",
-        "physicaldisability": "Y",
-        "autismAdhd": "Y",
+        "invisibledisability": "Y",
+        "characterwithdisability": "Y",
+        "neurodiverdent": "Y",
         "bookBibnumber": 965411,
         "ebookBibnumber": 983047,
         "audioBibnumber": 0,
@@ -2440,7 +2435,7 @@ const data = [
         "prose": "Y",
         "lgbtqia": "Y",
         "trans": "Y",
-        "nonbinairygenderfluid": "Y",
+        "nonbinary": "Y",
         "bookBibnumber": 0,
         "ebookBibnumber": 962894,
         "audioBibnumber": 0,
@@ -2454,7 +2449,7 @@ const data = [
         "aapi": "Y",
         "lgbtqia": "Y",
         "trans": "Y",
-        "nonbinairygenderfluid": "Y",
+        "nonbinary": "Y",
         "bookBibnumber": 0,
         "ebookBibnumber": 897491,
         "audioBibnumber": 0,
@@ -2519,7 +2514,7 @@ const data = [
         "prose": "Y",
         "lgbtqia": "Y",
         "wlwOrNblw": "Y",
-        "nonbinairygenderfluid": "Y",
+        "nonbinary": "Y",
         "bookBibnumber": 0,
         "ebookBibnumber": 874892,
         "audioBibnumber": 0,
@@ -2657,8 +2652,8 @@ const data = [
         "fiction": "Y",
         "prose": "Y",
         "latinx": "Y",
-        "mentaldisability": "Y",
-        "autismAdhd": "Y",
+        "invisibledisability": "Y",
+        "neurodiverdent": "Y",
         "bookBibnumber": 236485,
         "ebookBibnumber": 0,
         "audioBibnumber": 0,
@@ -2730,7 +2725,7 @@ const data = [
         "prose": "Y",
         "lgbtqia": "Y",
         "wlwOrNblw": "Y",
-        "physicaldisability": "Y",
+        "characterwithdisability": "Y",
         "bookBibnumber": 966242,
         "ebookBibnumber": 0,
         "audioBibnumber": 0,
@@ -2878,7 +2873,7 @@ const data = [
         "prose": "Y",
         "lgbtqia": "Y",
         "wlwOrNblw": "Y",
-        "nonbinairygenderfluid": "Y",
+        "nonbinary": "Y",
         "bookBibnumber": 902997,
         "ebookBibnumber": 855098,
         "audioBibnumber": 855071
@@ -2954,8 +2949,8 @@ const data = [
         "author": "Kristen O'Neal",
         "urbanfantasy": "Y",
         "prose": "Y",
-        "mentaldisability": "Y",
-        "physicaldisability": "Y",
+        "invisibledisability": "Y",
+        "characterwithdisability": "Y",
         "bookBibnumber": "21612258&db=3213",
         "ebookBibnumber": "21613026&db=3213",
         "audioBibnumber": 909166
@@ -3045,7 +3040,7 @@ const data = [
         "author": "Whitney Gardner",
         "fiction": "Y",
         "aapi": "Y",
-        "physicaldisability": "Y",
+        "characterwithdisability": "Y",
         "mutedeafblind": "Y",
         "bookBibnumber": 649321,
         "ebookBibnumber": 0,
@@ -3056,7 +3051,7 @@ const data = [
         "title": "Five Flavors of Dumb",
         "author": "Antony John",
         "fiction": "Y",
-        "physicaldisability": "Y",
+        "characterwithdisability": "Y",
         "mutedeafblind": "Y",
         "bookBibnumber": "15993612&db=3213",
         "ebookBibnumber": 0,
@@ -3407,10 +3402,9 @@ const data = [
         "author": "Halli Gomez",
         "fiction": "Y",
         "prose": "Y",
-        "mentaldisability": "Y",
+        "invisibledisability": "Y",
         "mentalhealth": "Y",
-        "physicaldisability": "Y",
-        "ocd": "Y",
+        "characterwithdisability": "Y",
         "bookBibnumber": "22534477&db=3213",
         "ebookBibnumber": 0,
         "audioBibnumber": 0
@@ -3545,7 +3539,7 @@ const data = [
         "fiction": "Y",
         "graphicnovel": "Y",
         "nativeamerican": "Y",
-        "nonbinairygenderfluid": "Y",
+        "nonbinary": "Y",
         "bookBibnumber": 978786,
         "ebookBibnumber": 0,
         "audioBibnumber": 0
@@ -3796,7 +3790,7 @@ const data = [
         "migrantstories": "Y",
         "ownvoices": "Y",
         "mentalhealth": "Y",
-        "physicaldisability": "Y",
+        "characterwithdisability": "Y",
         "depression": "Y",
         "bookBibnumber": 0,
         "ebookBibnumber": 0,
@@ -4002,8 +3996,8 @@ const data = [
         "author": "Anna Whateley",
         "fiction": "Y",
         "prose": "Y",
-        "mentaldisability": "Y",
-        "autismAdhd": "Y"
+        "invisibledisability": "Y",
+        "neurodiverdent": "Y"
     },
     {
         "title": "A Time to Dance",
@@ -4011,22 +4005,22 @@ const data = [
         "fiction": "Y",
         "verse": "Y",
         "aapi": "Y",
-        "physicaldisability": "Y"
+        "characterwithdisability": "Y"
     },
     {
         "title": "On the Edge of Gone",
         "author": "Corinne Duyvis",
         "scifi": "Y",
         "prose": "Y",
-        "mentaldisability": "Y",
-        "autismAdhd": "Y"
+        "invisibledisability": "Y",
+        "neurodiverdent": "Y"
     },
     {
         "title": "The Thing the Eye Can't See",
         "author": "Penny Joelson",
         "fiction": "Y",
         "prose": "Y",
-        "physicaldisability": "Y",
+        "characterwithdisability": "Y",
         "mutedeafblind": "Y"
     },
     {
@@ -4034,7 +4028,7 @@ const data = [
         "author": "Sara Barnard",
         "fiction": "Y",
         "prose": "Y",
-        "physicaldisability": "Y",
+        "characterwithdisability": "Y",
         "mutedeafblind": "Y"
     },
     {
@@ -4052,7 +4046,7 @@ const data = [
         "author": "C.G. Drew",
         "fiction": "Y",
         "prose": "Y",
-        "autismAdhd": "Y"
+        "neurodiverdent": "Y"
     },
     {
         "title": "Mexican Whiteboy",
@@ -4401,7 +4395,7 @@ const data = [
         "prose": "Y",
         "lgbtqia": "Y",
         "mlmOrNblm": "Y",
-        "nonbinairygenderfluid": "Y"
+        "nonbinary": "Y"
     },
     {
         "title": "Stay Gold",
@@ -4518,7 +4512,7 @@ const data = [
         "prose": "Y",
         "latinx": "Y",
         "lgbtqia": "Y",
-        "nonbinairygenderfluid": "Y"
+        "nonbinary": "Y"
     },
     {
         "title": "Master of One",
@@ -4804,15 +4798,14 @@ const data = [
         "author": "Louise Gornall",
         "fiction": "Y",
         "prose": "Y",
-        "mentaldisability": "Y",
-        "ocd": "Y"
+        "invisibledisability": "Y"
     },
     {
         "title": "Made You Up",
         "author": "Francesca Zappia",
         "fiction": "Y",
         "prose": "Y",
-        "mentaldisability": "Y"
+        "invisibledisability": "Y"
     },
     {
         "title": "Unbroken: 13 Stories Starring Disabled Teens",
@@ -4821,9 +4814,9 @@ const data = [
         "prose": "Y",
         "aapi": "Y",
         "ownvoices": "Y",
-        "mentaldisability": "Y",
-        "physicaldisability": "Y",
-        "autismAdhd": "Y"
+        "invisibledisability": "Y",
+        "characterwithdisability": "Y",
+        "neurodiverdent": "Y"
     },
     {
         "title": "Forest of Souls",
@@ -4962,8 +4955,8 @@ const data = [
         "author": "A. J. Steiger",
         "fiction": "Y",
         "prose": "Y",
-        "mentaldisability": "Y",
-        "autismAdhd": "Y"
+        "invisibledisability": "Y",
+        "neurodiverdent": "Y"
     },
     {
         "title": "A Girl on the Line",
@@ -5020,7 +5013,7 @@ const data = [
         "latinx": "Y",
         "ownvoices": "Y",
         "jewish": "Y",
-        "autismAdhd": "Y"
+        "neurodiverdent": "Y"
     },
     {
         "title": "Before We Disappear",
@@ -5098,7 +5091,7 @@ const data = [
         "author": "Kody Keplinger",
         "fiction": "Y",
         "prose": "Y",
-        "physicaldisability": "Y",
+        "characterwithdisability": "Y",
         "mutedeafblind": "Y"
     },
     {
@@ -5106,7 +5099,7 @@ const data = [
         "author": "Marci Lyn Curtis",
         "fiction": "Y",
         "prose": "Y",
-        "physicaldisability": "Y",
+        "characterwithdisability": "Y",
         "mutedeafblind": "Y"
     },
     {
@@ -5114,7 +5107,7 @@ const data = [
         "author": "Eric Lindstrom",
         "fiction": "Y",
         "prose": "Y",
-        "physicaldisability": "Y",
+        "characterwithdisability": "Y",
         "mutedeafblind": "Y"
     },
     {
@@ -5164,7 +5157,7 @@ const data = [
         "author": "Brigid Kemmerer",
         "fantasy": "Y",
         "prose": "Y",
-        "physicaldisability": "Y"
+        "characterwithdisability": "Y"
     },
     {
         "title": "TJ Powar Has Something to Prove",
@@ -5379,10 +5372,10 @@ const data = [
         "arabOrArabamerican": "Y",
         "lgbtqia": "Y",
         "wlwOrNblw": "Y",
-        "nonbinairygenderfluid": "Y",
+        "nonbinary": "Y",
         "ownvoices": "Y",
         "mentalhealth": "Y",
-        "physicaldisability": "Y"
+        "characterwithdisability": "Y"
     },
     {
         "title": "We Are The Ants",
@@ -5437,7 +5430,7 @@ const data = [
         "prose": "Y",
         "lgbtqia": "Y",
         "trans": "Y",
-        "nonbinairygenderfluid": "Y"
+        "nonbinary": "Y"
     },
     {
         "title": "On a Sunbeam",
@@ -5540,7 +5533,7 @@ const data = [
         "wlwOrNblw": "Y",
         "mlmOrNblm": "Y",
         "trans": "Y",
-        "nonbinairygenderfluid": "Y",
+        "nonbinary": "Y",
         "closetsafe": "Y",
         "ownvoices": "Y"
     },
@@ -5570,7 +5563,7 @@ const data = [
         "fantasy": "Y",
         "prose": "Y",
         "lgbtqia": "Y",
-        "nonbinairygenderfluid": "Y",
+        "nonbinary": "Y",
         "closetsafe": "Y",
         "ownvoices": "Y"
     },
@@ -5589,7 +5582,7 @@ const data = [
         "verse": "Y",
         "africanamericanOrBlack": "Y",
         "lgbtqia": "Y",
-        "nonbinairygenderfluid": "Y",
+        "nonbinary": "Y",
         "ownvoices": "Y"
     },
     {
@@ -5724,7 +5717,7 @@ const data = [
         "arabOrArabamerican": "Y",
         "ownvoices": "Y",
         "muslim": "Y",
-        "ocd": "Y"
+        "invisibledisability": "Y"
     },
     {
         "title": "Love, Hate & Other Filters",
@@ -5791,7 +5784,7 @@ const data = [
         "author": "Kim Edwards",
         "fiction": "Y",
         "prose": "Y",
-        "mentaldisability": "Y"
+        "invisibledisability": "Y"
     },
     {
         "title": "Breaking the Mold: Changing the Face of Climate Science",
@@ -5804,8 +5797,8 @@ const data = [
         "nativeamerican": "Y",
         "lgbtqia": "Y",
         "ownvoices": "Y",
-        "mentaldisability": "Y",
-        "physicaldisability": "Y"
+        "invisibledisability": "Y",
+        "characterwithdisability": "Y"
     },
     {
         "title": "Henry Hamlet's Heart",
@@ -5825,15 +5818,211 @@ const data = [
         "aapi": "Y",
         "arabOrArabamerican": "Y",
         "muslim": "Y"
+    },
+    {
+        "title": "Briarcliff Prep",
+        "author": "Brianna Peppins",
+        "fiction": "Y",
+        "prose": "Y",
+        "africanamericanOrBlack": "Y",
+        "aapi": "Y",
+        "mentalhealth": "Y"
+    },
+    {
+        "title": "We Are All So Good at Smiling",
+        "author": "Amber McBride",
+        "fiction": "Y",
+        "verse": "Y",
+        "africanamericanOrBlack": "Y",
+        "ownvoices": "Y",
+        "mentalhealth": "Y",
+        "depression": "Y"
+    },
+    {
+        "title": "Torch",
+        "author": "Lyn Miller-Lachmann",
+        "historicalfiction": "Y",
+        "prose": "Y",
+        "lgbtqia": "Y",
+        "mlmOrNblm": "Y",
+        "migrantstories": "Y",
+        "jewish": "Y",
+        "invisibledisability": "Y",
+        "mentalhealth": "Y"
+    },
+    {
+        "title": "This Is Not a Personal Statement",
+        "author": "Tracy Bauda",
+        "fiction": "Y",
+        "prose": "Y",
+        "aapi": "Y",
+        "ownvoices": "Y"
+    },
+    {
+        "title": "We Are All We Have",
+        "author": "Marina Budhos",
+        "fiction": "Y",
+        "prose": "Y",
+        "aapi": "Y",
+        "latinx": "Y",
+        "arabOrArabamerican": "Y",
+        "migrantstories": "Y",
+        "ownvoices": "Y",
+        "muslim": "Y",
+        "mentalhealth": "Y"
+    },
+    {
+        "title": "Lotus Bloom and the Afro Revolution",
+        "author": "Sherri Winston",
+        "fiction": "Y",
+        "prose": "Y",
+        "africanamericanOrBlack": "Y",
+        "ownvoices": "Y"
+    },
+    {
+        "title": "Not an Easy Win",
+        "author": "Chrystal D. Giles",
+        "fiction": "Y",
+        "prose": "Y",
+        "africanamericanOrBlack": "Y",
+        "aapi": "Y",
+        "ownvoices": "Y"
+    },
+    {
+        "title": "All My Rage",
+        "author": "Saaba Tahir",
+        "fiction": "Y",
+        "prose": "Y",
+        "aapi": "Y",
+        "arabOrArabamerican": "Y",
+        "migrantstories": "Y",
+        "ownvoices": "Y",
+        "muslim": "Y",
+        "mentalhealth": "Y"
+    },
+    {
+        "title": "Alone out Here",
+        "author": "Riley Redgate",
+        "scifi": "Y",
+        "prose": "Y",
+        "africanamericanOrBlack": "Y",
+        "aapi": "Y",
+        "ownvoices": "Y",
+        "mentalhealth": "Y",
+        "depression": "Y"
+    },
+    {
+        "title": "Diamond Park",
+        "author": "Phillipe Diederich",
+        "fiction": "Y",
+        "prose": "Y",
+        "latinx": "Y",
+        "migrantstories": "Y",
+        "ownvoices": "Y"
+    },
+    {
+        "title": "We Deserve Monuments",
+        "author": "Jas Hammons",
+        "fiction": "Y",
+        "romance": "Y",
+        "prose": "Y",
+        "africanamericanOrBlack": "Y",
+        "lgbtqia": "Y",
+        "wlwOrNblw": "Y",
+        "ownvoices": "Y"
+    },
+    {
+        "title": "Kiss and Tell",
+        "author": "Adib Khorram",
+        "fiction": "Y",
+        "romance": "Y",
+        "prose": "Y",
+        "aapi": "Y",
+        "arabOrArabamerican": "Y",
+        "lgbtqia": "Y",
+        "mlmOrNblm": "Y",
+        "ownvoices": "Y",
+        "muslim": "Y"
+    },
+    {
+        "title": "Man Made Monsters",
+        "author": "Andrea L. Rodgers",
+        "urbanfantasy": "Y",
+        "mysteryHorror": "Y",
+        "prose": "Y",
+        "nativeamerican": "Y",
+        "lgbtqia": "Y",
+        "closetsafe": "Y",
+        "ownvoices": "Y"
+    },
+    {
+        "title": "Self-Made Boys: A Great Gatsby Remix",
+        "author": "Anna-Marie McLenore",
+        "historicalfiction": "Y",
+        "prose": "Y",
+        "latinx": "Y",
+        "lgbtqia": "Y",
+        "mlmOrNblm": "Y",
+        "trans": "Y",
+        "nonbinary": "Y"
+    },
+    {
+        "title": "Squire",
+        "author": "Nadia Shammas, Sara Alfageeh",
+        "fantasy": "Y",
+        "graphicnovel": "Y",
+        "aapi": "Y",
+        "ownvoices": "Y"
+    },
+    {
+        "title": "My Aunt is a Monster",
+        "author": "Reimena Yee",
+        "urbanfantasy": "Y",
+        "graphicnovel": "Y",
+        "aapi": "Y",
+        "arabOrArabamerican": "Y",
+        "ownvoices": "Y",
+        "characterwithdisability": "Y",
+        "mutedeafblind": "Y",
+        "middleGrade": "Y"
+    },
+    {
+        "title": "The Tryout",
+        "author": "Christina Soontrorvant, Joanna Cacao",
+        "fiction": "Y",
+        "graphicnovel": "Y",
+        "aapi": "Y",
+        "arabOrArabamerican": "Y",
+        "ownvoices": "Y",
+        "muslim": "Y",
+        "middleGrade": "Y"
+    },
+    {
+        "title": "Frizzy",
+        "author": "Claribel A. Ortega, Rose Bousamra",
+        "fiction": "Y",
+        "graphicnovel": "Y",
+        "africanamericanOrBlack": "Y",
+        "ownvoices": "Y",
+        "middleGrade": "Y"
+    },
+    {
+        "title": "The Days of Bluegrass Love",
+        "author": "Edward van de Vendel",
+        "fiction": "Y",
+        "romance": "Y",
+        "prose": "Y",
+        "lgbtqia": "Y",
+        "mlmOrNblm": "Y"
     }
 ];
 
 
 const all_tags = ["fantasy", "fiction", "scifi", "romance", "urbanfantasy", "historicalfiction", "memoirautobiograohy", "nonfiction",
-"mythology", "dystopian", "mysteryHorror", "verse", "prose", "graphicnovel", "manga", "africanamericanOrBlack", "aapi", "latinx", "arabOrArabamerican", "nativeamerican", "lgbtqia", "wlwOrNblw", "mlmOrNblm", "trans", "nonbinairygenderfluid", "aroace", "closetsafe", "migrantstories", "ownvoices", "jewish", "muslim","mentaldisability", "mentalhealth", "physicaldisability", "autismAdhd", "depression", "ptsd", "ocd", "mutedeafblind", "middleGrade", "newAdultAdultBookWithTeenInterest"]
+"mythology", "dystopian", "mysteryHorror", "verse", "prose", "graphicnovel", "manga", "africanamericanOrBlack", "aapi", "latinx", "arabOrArabamerican", "nativeamerican", "lgbtqia", "wlwOrNblw", "mlmOrNblm", "trans", "nonbinary", "aroace", "closetsafe", "migrantstories", "ownvoices", "jewish", "muslim","invisibledisability", "mentalhealth", "characterwithdisability", "neurodiverdent", "depression", "mutedeafblind", "middleGrade", "newAdultAdultBookWithTeenInterest"]
 
 const tag_display_list = ["Fantasy", "Fiction", "Sci-Fi", "Romance",	"Urban Fantasy",	"Historical Fiction",	"Memoir or Autobiography",	"Non-Fiction",
                   "Mythology",	"Dystopian", "Mystery or Horror",	"Verse", "Prose",	"Graphic Novel",	"Manga", "African American or Black",	"AAPI",
-                  "Latinx",	"Arab or Arab American", "Native American",	"LGBTQIA+",	"WLW or NBLW", "MLM or NBLM",	"Trans", "Non-Binary or Genderfluid",
-                  "Aroace",	"Closet Safe",	"Migrant Stories",	"Own Voices",	"Jewish",	"Muslim",	"Mental Disability",	"Mental Health",
-                  "Physical Disability", "Autism or ADHD",	"Depression",	"PTSD",	"OCD",	"Mute/Deaf/Blind",	"Middle Grade",	"New Adult or Adult Book With Teen Interest"];
+                  "Latinx",	"Arab or Arab American", "Native American",	"LGBTQIA+",	"WLW or NBLW", "MLM or NBLM",	"Trans", "Non-Binary",
+                  "Aroace",	"Closet Safe",	"Migrant Stories",	"Own Voices",	"Jewish",	"Muslim",	"Invisible Disability",	"Mental Health",
+                  "Character with Disability", "Neurodiverdent",	"Depression",	"Mute/Deaf/Blind",	"Middle Grade",	"New Adult or Adult Book With Teen Interest"];
