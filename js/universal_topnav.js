@@ -38,9 +38,10 @@ function scroll_function(){
     document.getElementsByClassName("topnav_text_links")[i].style.paddingTop = topnav_paddingTop + "px";
     document.getElementsByClassName("topnav_text_links")[i].style.paddingBottom = topnav_paddingTop + "px";
   }
-  document.getElementsByClassName("currentTextLink")[0].style.paddingTop = topnav_paddingTop + "px";
-  document.getElementsByClassName("currentTextLink")[0].style.paddingBottom = topnav_paddingTop + "px";
-
+  if(document.getElementsByClassName("currentTextLink").length > 0){
+    document.getElementsByClassName("currentTextLink")[0].style.paddingTop = topnav_paddingTop + "px";
+    document.getElementsByClassName("currentTextLink")[0].style.paddingBottom = topnav_paddingTop + "px";
+  }
   if(document.getElementsByClassName("topnav_text_links").length > 0){
     document.getElementById("topnav").style.height = document.getElementsByClassName("topnav_text_links")[0].offsetHeight + "px";
   }
