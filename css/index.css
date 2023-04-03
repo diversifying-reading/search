@@ -1,6 +1,6 @@
 body {
   font-family:tahoma;
-  background-color: lightgrey;
+  background-color: #f3ece4;
 }
 
 .sidenav_largeScreen {
@@ -154,6 +154,7 @@ body {
 
 .book_div{
   border: 1px solid MediumSeaGreen;
+  /* #a9ccad  */
   display: flex;
   flex-wrap: wrap;
   margin: 0px;
@@ -164,6 +165,7 @@ body {
   height: 350px;
   margin: 10px;
   overflow: scroll;
+  background-color: #eae1d7;
 }
 
 .box_pos{
@@ -172,7 +174,7 @@ body {
 .book_img{
 	height:65%;
   width:37%;
-  border: 1vw solid black;
+  border: 7px solid black;
   float:left;
 }
 
@@ -222,7 +224,6 @@ body {
   border-bottom-color: #5c646b;
 }
 
-
 .unpressed {
   margin-bottom: 2px;
   margin-right: 2px;
@@ -256,15 +257,15 @@ body {
   font-weight: bold;
   font-size: 20px;
   padding: 0.3%;
-  background-color: #FFFFFF;
-  color: #000000;
+  background-color: #033616;
+  color: #FFFFFF;
   border: 1px #000000 solid;
   border-right: 0.5px #000000 solid;
   border-left: 0.5px #000000 solid;
 }
 .previous_page_btn:hover{
-  background-color: #000000;
-  color: #FFFFFF;
+  background-color: #7DA468;
+  color: #033616
 }
 
 .first_page_btn {
@@ -274,21 +275,21 @@ body {
   font-weight: bold;
   font-size: 20px;
   padding: 0.3%;
-  background-color: #FFFFFF;
-  color: #000000;
+  background-color: #033616;
+  color: #FFFFFF;
   border: 1px #000000 solid;
   border-right: 0.5px #000000 solid;
 }
 .first_page_btn:hover{
-  background-color: #000000;
-  color: #FFFFFF;
+  background-color: #7DA468;
+  color: #033616
 }
 
 .next_page_btn {
   margin-left: 5px;
   padding: 0.3%;
-  background-color: #FFFFFF;
-  color: #000000;
+  background-color: #033616;
+  color: #FFFFFF;
   font-family: tahoma;
   width: 55px;
   height: 55px;
@@ -299,8 +300,8 @@ body {
   border-left: 0.5px #000000 solid;
 }
 .next_page_btn:hover{
-  background-color: #000000;
-  color: #FFFFFF;
+  background-color: #7DA468;
+  color: #033616
 }
 
 .last_page_btn {
@@ -310,12 +311,26 @@ body {
   font-weight: bold;
   font-size: 20px;
   padding: 0.3%;
-  background-color: #FFFFFF;
-  color: #000000;
+  background-color: #033616;
+  color: #FFFFFF;
   border: 1px #000000 solid;
   border-left: 0.5px #000000 solid;
 }
 .last_page_btn:hover{
-  background-color: #000000;
-  color: #FFFFFF;
+  background-color: #7DA468;
+  color: #033616
+}
+
+.libraryLinks{
+  position: relative;
+  width: 8%;
+  background-color:red;
+}
+
+.tagDictionary{
+  height: 90%;
+  top: 5%;
+  position: fixed;
+  background-color:#c6d6bd;
+  border: 2px solid #7DA468;
 }
