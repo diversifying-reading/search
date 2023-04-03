@@ -130,6 +130,10 @@ function resize_sidenav(){
   // set sidenav text height
   document.getElementsByClassName("sidenav-text")[0].style.height = document.getElementById("buttons").offsetHeight + document.getElementById("tag_dictionary_button").offsetHeight + 150 + "px";
 
+  document.getElementsByClassName("tagDictionary")[0].style.width = 0.9*window.innerWidth-(document.getElementById("sidenav").offsetWidth) + "px"
+  document.getElementsByClassName("tagDictionary")[0].style.left = 0.05*window.innerWidth+(document.getElementById("sidenav").offsetWidth) + "px"
+  document.getElementsByClassName("tagDictionary")[0].style.top = 0.05*window.innerWidth+(document.getElementById("topnav").offsetHeight) + "px"
+  document.getElementsByClassName("tagDictionary")[0].style.height = window.innerHeight-(document.getElementById("topnav").offsetHeight) - 0.1*window.innerWidth+ "px"
 }
 
 function resize_books(){
@@ -206,6 +210,7 @@ function sidenav_scroll(){
   }
 
   document.getElementById("sidenav").style.width = sidenav_width + "px";
+
 }
 
 var sidenav_openStatus = 2; // 0 = closed, 1 = open, 2 = untouched;
@@ -237,5 +242,8 @@ setTimeout(function(){
 },100);
 
 addEventListener('resize', (event) => {
+  resize_sequence();
+});
+addEventListener('scroll', (event) => {
   resize_sequence();
 });
