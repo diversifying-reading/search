@@ -72,9 +72,7 @@ function scroll_function(){
 }
 
 function resize_topnav(){
-  let options = ["Home", "Catalog", "Resources", "Suggest a Book"];
-  options.splice(options.indexOf(currentRepository("https://diversifying-reading.github.io/search/?search=undefined&page=0"), 1));
-  options.unshift(currentRepository("https://diversifying-reading.github.io/search/?search=undefined&page=0").charAt(0).toUpperCase() + currentRepository("https://diversifying-reading.github.io/search/?search=undefined&page=0").slice(1))
+  let options = ["Catalog", "Home", "Resources", "Suggest a Book"];
 
   let optionsFormatted = "";
 
