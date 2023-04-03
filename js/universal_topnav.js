@@ -8,6 +8,22 @@ for(let i = 0; i < document.getElementsByClassName("topnav_text").length; i++){
   }
 }
 
+function selectTopnavUpdate(){
+  var link = document.getElementsByClassName("select")[0].value;
+  if(link == "Catalog"){
+    window.location.href = "https://diversifying-reading.github.io/search";
+  }
+  else if(link == "Resources"){
+    window.location.href = "https://diversifying-reading.github.io/diversifyingreadingslcpl/resources";
+  }
+  else if(link == "Suggest"){
+    window.location.href = "https://diversifying-reading.github.io/diversifyingreadingslcpl/suggest";
+  }
+  else if(link == "Home"){
+    window.location.href = "https://diversifying-reading.github.io/home";
+  }
+}
+
 function scroll_function(){
   resize_topnav();
 
@@ -38,10 +54,12 @@ function scroll_function(){
     document.getElementsByClassName("topnav_text_links")[i].style.paddingTop = topnav_paddingTop + "px";
     document.getElementsByClassName("topnav_text_links")[i].style.paddingBottom = topnav_paddingTop + "px";
   }
+
   if(document.getElementsByClassName("currentTextLink").length > 0){
     document.getElementsByClassName("currentTextLink")[0].style.paddingTop = topnav_paddingTop + "px";
     document.getElementsByClassName("currentTextLink")[0].style.paddingBottom = topnav_paddingTop + "px";
   }
+
   if(document.getElementsByClassName("topnav_text_links").length > 0){
     document.getElementById("topnav").style.height = document.getElementsByClassName("topnav_text_links")[0].offsetHeight + "px";
   }
@@ -136,4 +154,5 @@ else if(currentRepository("https://diversifying-reading.github.io/search/?search
 else if(currentRepository("https://diversifying-reading.github.io/search/?search=undefined&page=0") == "search"){
   topnav_text_links_index = 3;
 }
+
 document.getElementsByClassName("topnav_text_links")[topnav_text_links_index].className = "currentTextLink";
