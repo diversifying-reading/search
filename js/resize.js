@@ -128,12 +128,12 @@ function resize_sidenav(){
 	}
 
   // set sidenav text height
-  document.getElementsByClassName("sidenav-text")[0].style.height = document.getElementById("buttons").offsetHeight + document.getElementById("tag_dictionary_button").offsetHeight + 150 + "px";
+  document.getElementsByClassName("sidenav-text")[0].style.height = document.getElementById("buttons").offsetHeight + 150 + "px";
 
-  document.getElementsByClassName("tagDictionary")[0].style.width = 0.9*window.innerWidth-(document.getElementById("sidenav").offsetWidth) + "px"
-  document.getElementsByClassName("tagDictionary")[0].style.left = 0.05*window.innerWidth+(document.getElementById("sidenav").offsetWidth) + "px"
-  document.getElementsByClassName("tagDictionary")[0].style.top = 0.05*window.innerWidth+(document.getElementById("topnav").offsetHeight) + "px"
-  document.getElementsByClassName("tagDictionary")[0].style.height = window.innerHeight-(document.getElementById("topnav").offsetHeight) - 0.1*window.innerWidth+ "px"
+//   document.getElementsByClassName("tagDictionary")[0].style.width = 0.9*window.innerWidth-(document.getElementById("sidenav").offsetWidth) + "px"
+//   document.getElementsByClassName("tagDictionary")[0].style.left = 0.05*window.innerWidth+(document.getElementById("sidenav").offsetWidth) + "px"
+//   document.getElementsByClassName("tagDictionary")[0].style.top = 0.05*window.innerWidth+(document.getElementById("topnav").offsetHeight) + "px"
+//   document.getElementsByClassName("tagDictionary")[0].style.height = window.innerHeight-(document.getElementById("topnav").offsetHeight) - 0.1*window.innerWidth+ "px"
 }
 
 function resize_books(){
