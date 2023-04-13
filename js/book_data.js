@@ -2,6 +2,7 @@ const data = [
     {
         "title": "The Midnight Lie",
         "author": "Marie Rutkowski  ",
+        "imageDownloaded": "R",
         "fantasy": "Y",
         "romance": "Y",
         "prose": "Y",
@@ -14,6 +15,7 @@ const data = [
     {
         "title": "Thorn",
         "author": "Intisar Khanani",
+        "imageDownloaded": "R",
         "fantasy": "Y",
         "prose": "Y",
         "arabOrArabamerican": "Y",
@@ -26,6 +28,7 @@ const data = [
     {
         "title": "You Asked For Perfect",
         "author": "Laura Silverman",
+        "imageDownloaded": "R",
         "fiction": "Y",
         "romance": "Y",
         "prose": "Y",
@@ -40,6 +43,7 @@ const data = [
     {
         "title": "They Both Die at the End",
         "author": "Adam Silvera",
+        "imageDownloaded": "R",
         "dystopian": "Y",
         "prose": "Y",
         "latinx": "Y",
@@ -54,6 +58,7 @@ const data = [
     {
         "title": "Surrender Your Sons",
         "author": "Adam Sass",
+        "imageDownloaded": "R",
         "fiction": "Y",
         "romance": "Y",
         "prose": "Y",
@@ -68,11 +73,12 @@ const data = [
     {
         "title": "Honey Girl",
         "author": "Morgan Rogers",
+        "imageDownloaded": "R",
         "fiction": "Y",
         "romance": "Y",
         "prose": "Y",
         "africanamericanOrBlack": "Y",
-        "aapi": "Y",
+        "asianamericanAndPacificIslander": "Y",
         "lgbtqia": "Y",
         "wlwOrNblw": "Y",
         "ownvoices": "Y",
@@ -85,6 +91,7 @@ const data = [
     {
         "title": "The Seven Husbands of Evelyn Hugo",
         "author": "Taylor Jenkins Reid",
+        "imageDownloaded": "R",
         "historicalfiction": "Y",
         "prose": "Y",
         "latinx": "Y",
@@ -102,6 +109,7 @@ const data = [
     {
         "title": "Wilder Girls",
         "author": "Rory Power",
+        "imageDownloaded": "R",
         "fiction": "Y",
         "dystopian": "Y",
         "prose": "Y",
@@ -116,6 +124,7 @@ const data = [
     {
         "title": "All Out",
         "author": "Saundra Mitchell",
+        "imageDownloaded": "R",
         "nonfiction": "Y",
         "prose": "Y",
         "lgbtqia": "Y",
@@ -130,6 +139,7 @@ const data = [
     {
         "title": "The Song of Achilles",
         "author": "Madeline Miller",
+        "imageDownloaded": "R",
         "mythology": "Y",
         "prose": "Y",
         "lgbtqia": "Y",
@@ -143,6 +153,7 @@ const data = [
     {
         "title": "Heartstopper",
         "author": "Alice Oseman",
+        "imageDownloaded": "R",
         "fiction": "Y",
         "romance": "Y",
         "graphicnovel": "Y",
@@ -157,6 +168,7 @@ const data = [
     {
         "title": "Gone to the Woods",
         "author": "Gary Paulsen",
+        "imageDownloaded": "R",
         "memoirautobiograohy": "Y",
         "prose": "Y",
         "mentalhealth": "Y",
@@ -168,9 +180,10 @@ const data = [
     {
         "title": "Kira-Kira",
         "author": "Cynthia Kadohata",
+        "imageDownloaded": "R",
         "historicalfiction": "Y",
         "prose": "Y",
-        "aapi": "Y",
+        "asianamericanAndPacificIslander": "Y",
         "migrantstories": "Y",
         "middleGrade": "Y",
         "bookBibnumber": 137243,
@@ -181,6 +194,7 @@ const data = [
     {
         "title": "Loveless",
         "author": "Alice Oseman",
+        "imageDownloaded": "R",
         "fiction": "Y",
         "prose": "Y",
         "lgbtqia": "Y",
@@ -193,6 +207,7 @@ const data = [
     {
         "title": "Red, White & Royal Blue",
         "author": "Casey McQuiston",
+        "imageDownloaded": "R",
         "fiction": "Y",
         "romance": "Y",
         "prose": "Y",
@@ -208,10 +223,11 @@ const data = [
     {
         "title": "One Last Stop",
         "author": "Casey McQuiston",
+        "imageDownloaded": "R",
         "fiction": "Y",
         "romance": "Y",
         "prose": "Y",
-        "aapi": "Y",
+        "asianamericanAndPacificIslander": "Y",
         "lgbtqia": "Y",
         "wlwOrNblw": "Y",
         "newAdultAdultBookWithTeenInterest": "Y",
@@ -223,6 +239,7 @@ const data = [
     {
         "title": "Six of Crows",
         "author": "Leigh Bardugo   ",
+        "imageDownloaded": "R",
         "fantasy": "Y",
         "prose": "Y",
         "africanamericanOrBlack": "Y",
@@ -240,6 +257,7 @@ const data = [
     {
         "title": "Girl, Serpent, Thorn",
         "author": "Melissa Bashardoust",
+        "imageDownloaded": "R",
         "fantasy": "Y",
         "prose": "Y",
         "lgbtqia": "Y",
@@ -253,6 +271,7 @@ const data = [
     {
         "title": "Looking for Alaska",
         "author": "John Green",
+        "imageDownloaded": "R",
         "fiction": "Y",
         "prose": "Y",
         "mentalhealth": "Y",
@@ -265,6 +284,7 @@ const data = [
     {
         "title": "Lobizona",
         "author": "Romina Garber",
+        "imageDownloaded": "R",
         "urbanfantasy": "Y",
         "prose": "Y",
         "latinx": "Y",
@@ -276,6 +296,7 @@ const data = [
     {
         "title": "How It Feels to Float",
         "author": "Helena Fox",
+        "imageDownloaded": "R",
         "fiction": "Y",
         "prose": "Y",
         "invisibledisability": "Y",
@@ -289,10 +310,11 @@ const data = [
     {
         "title": "Falling Leaves",
         "author": "Adeline Yen Mah",
+        "imageDownloaded": "R",
         "memoirautobiograohy": "Y",
         "nonfiction": "Y",
         "prose": "Y",
-        "aapi": "Y",
+        "asianamericanAndPacificIslander": "Y",
         "ownvoices": "Y",
         "newAdultAdultBookWithTeenInterest": "Y",
         "bookBibnumber": 785335,
@@ -303,6 +325,7 @@ const data = [
     {
         "title": "Just Mercy",
         "author": "Bryan Stevenson",
+        "imageDownloaded": "R",
         "memoirautobiograohy": "Y",
         "nonfiction": "Y",
         "prose": "Y",
@@ -317,6 +340,7 @@ const data = [
     {
         "title": "The House in the Cerulean Sea",
         "author": "T.J. Klune",
+        "imageDownloaded": "R",
         "urbanfantasy": "Y",
         "prose": "Y",
         "lgbtqia": "Y",
@@ -331,6 +355,7 @@ const data = [
     {
         "title": "We Contain Multitudes",
         "author": "Sarah Henstra",
+        "imageDownloaded": "R",
         "fiction": "Y",
         "romance": "Y",
         "prose": "Y",
@@ -344,6 +369,7 @@ const data = [
     {
         "title": "Her Royal Highness",
         "author": "Rachel Hawkins",
+        "imageDownloaded": "R",
         "fiction": "Y",
         "romance": "Y",
         "prose": "Y",
@@ -357,6 +383,7 @@ const data = [
     {
         "title": "Upright Women Wanted",
         "author": "Sarah Gailey",
+        "imageDownloaded": "R",
         "historicalfiction": "Y",
         "prose": "Y",
         "lgbtqia": "Y",
@@ -370,6 +397,7 @@ const data = [
     {
         "title": "The Last True Poets of the Sea",
         "author": "Julia Drake",
+        "imageDownloaded": "R",
         "fiction": "Y",
         "prose": "Y",
         "lgbtqia": "Y",
@@ -383,6 +411,7 @@ const data = [
     {
         "title": "Legendborn",
         "author": "Tracy Deonn",
+        "imageDownloaded": "R",
         "urbanfantasy": "Y",
         "prose": "Y",
         "africanamericanOrBlack": "Y",
@@ -395,6 +424,7 @@ const data = [
     {
         "title": "I Wish You All the Best",
         "author": "Mason Deaver",
+        "imageDownloaded": "R",
         "fiction": "Y",
         "prose": "Y",
         "africanamericanOrBlack": "Y",
@@ -408,6 +438,7 @@ const data = [
     {
         "title": "Children of Blood and Bone",
         "author": "Toni Adeyemi",
+        "imageDownloaded": "R",
         "fantasy": "Y",
         "prose": "Y",
         "africanamericanOrBlack": "Y",
@@ -420,6 +451,7 @@ const data = [
     {
         "title": "The Miseducation of Cameron Post",
         "author": "Emily M. Danforth",
+        "imageDownloaded": "R",
         "fiction": "Y",
         "prose": "Y",
         "lgbtqia": "Y",
@@ -432,6 +464,7 @@ const data = [
     {
         "title": "Beauty Queens",
         "author": "Libba Bray",
+        "imageDownloaded": "R",
         "fiction": "Y",
         "prose": "Y",
         "africanamericanOrBlack": "Y",
@@ -445,6 +478,7 @@ const data = [
     {
         "title": "Aristotle and Dante Discover the Secrets of the Universe",
         "author": "Benjamin Alire Saenez",
+        "imageDownloaded": "R",
         "fiction": "Y",
         "romance": "Y",
         "prose": "Y",
@@ -461,6 +495,7 @@ const data = [
     {
         "title": "The Priory of the Orange Tree",
         "author": "Samantha Shannon",
+        "imageDownloaded": "R",
         "fantasy": "Y",
         "prose": "Y",
         "lgbtqia": "Y",
@@ -474,6 +509,7 @@ const data = [
     {
         "title": "Love From A to Z",
         "author": "SK Ali",
+        "imageDownloaded": "E",
         "fiction": "Y",
         "romance": "Y",
         "prose": "Y",
@@ -489,6 +525,7 @@ const data = [
     {
         "title": "Refugee",
         "author": "Alan Gratz",
+        "imageDownloaded": "E",
         "historicalfiction": "Y",
         "prose": "Y",
         "latinx": "Y",
@@ -505,6 +542,7 @@ const data = [
     {
         "title": "Indivisible",
         "author": "Daniel Aleman",
+        "imageDownloaded": "E",
         "memoirautobiograohy": "Y",
         "nonfiction": "Y",
         "prose": "Y",
@@ -523,6 +561,7 @@ const data = [
     {
         "title": "Color Me In",
         "author": "Natasha E. Diaz",
+        "imageDownloaded": "E",
         "fiction": "Y",
         "prose": "Y",
         "africanamericanOrBlack": "Y",
@@ -535,6 +574,7 @@ const data = [
     {
         "title": "It's a Whole Spiel",
         "author": "Katherine Locke, Laura Silverman",
+        "imageDownloaded": "E",
         "fiction": "Y",
         "prose": "Y",
         "ownvoices": "Y",
@@ -547,6 +587,7 @@ const data = [
     {
         "title": "Once More with Chutzpah",
         "author": "Haley Neil",
+        "imageDownloaded": "E",
         "fiction": "Y",
         "romance": "Y",
         "prose": "Y",
@@ -561,6 +602,7 @@ const data = [
     {
         "title": "Dear Rachel Maddow",
         "author": "Adrienne Kisner",
+        "imageDownloaded": "E",
         "fiction": "Y",
         "prose": "Y",
         "lgbtqia": "Y",
@@ -573,6 +615,7 @@ const data = [
     {
         "title": "Winning",
         "author": "Lara Deloza",
+        "imageDownloaded": "E",
         "fiction": "Y",
         "romance": "Y",
         "prose": "Y",
@@ -586,6 +629,7 @@ const data = [
     {
         "title": "Trell",
         "author": "Dick Lher",
+        "imageDownloaded": "E",
         "fiction": "Y",
         "mysteryHorror": "Y",
         "prose": "Y",
@@ -599,6 +643,7 @@ const data = [
     {
         "title": "Drag Teen",
         "author": "Jeffery Self",
+        "imageDownloaded": "E",
         "fiction": "Y",
         "romance": "Y",
         "prose": "Y",
@@ -612,6 +657,7 @@ const data = [
     {
         "title": "City of Saints & Thieves",
         "author": "Natalie C. Anderson",
+        "imageDownloaded": "E",
         "fiction": "Y",
         "mysteryHorror": "Y",
         "prose": "Y",
@@ -625,6 +671,7 @@ const data = [
     {
         "title": "Allegedly",
         "author": "Tiffany D. Jackson",
+        "imageDownloaded": "E",
         "fiction": "Y",
         "prose": "Y",
         "africanamericanOrBlack": "Y",
@@ -637,9 +684,10 @@ const data = [
     {
         "title": "She Gets the Girl",
         "author": "Rachael Lippincott, Alyson Derrick",
+        "imageDownloaded": "E",
         "fiction": "Y",
         "prose": "Y",
-        "aapi": "Y",
+        "asianamericanAndPacificIslander": "Y",
         "lgbtqia": "Y",
         "wlwOrNblw": "Y",
         "bookBibnumber": 958814,
@@ -650,7 +698,7 @@ const data = [
     {
         "title": "Miss Meteor",
         "author": "Tehlor Kay Mejia, Anna-Marie McLemore",
-        "fantasy": "Y",
+        "imageDownloaded": "E",
         "fiction": "Y",
         "romance": "Y",
         "prose": "Y",
@@ -665,6 +713,7 @@ const data = [
     {
         "title": "A Very Large Expanse of Sea",
         "author": "Tahereh Mafi",
+        "imageDownloaded": "E",
         "fiction": "Y",
         "historicalfiction": "Y",
         "prose": "Y",
@@ -678,6 +727,7 @@ const data = [
     {
         "title": "Not My Problem",
         "author": "Ciara Smyth",
+        "imageDownloaded": "E",
         "fiction": "Y",
         "romance": "Y",
         "prose": "Y",
@@ -691,6 +741,7 @@ const data = [
     {
         "title": "A Land of Permanent Goodbyes",
         "author": "Atia Abawi",
+        "imageDownloaded": "E",
         "fiction": "Y",
         "historicalfiction": "Y",
         "prose": "Y",
@@ -705,8 +756,8 @@ const data = [
     {
         "title": "The Gilded Ones",
         "author": "Namina Forna",
+        "imageDownloaded": "E",
         "fantasy": "Y",
-        "fiction": "Y",
         "prose": "Y",
         "africanamericanOrBlack": "Y",
         "ownvoices": "Y",
@@ -718,6 +769,7 @@ const data = [
     {
         "title": "The Love Curse of Melody McIntyre",
         "author": "Robin Talley",
+        "imageDownloaded": "E",
         "fiction": "Y",
         "prose": "Y",
         "lgbtqia": "Y",
@@ -730,6 +782,7 @@ const data = [
     {
         "title": "Required Reading for the Disenfranchised Freshman",
         "author": "Kristen R. Lee",
+        "imageDownloaded": "E",
         "fiction": "Y",
         "prose": "Y",
         "africanamericanOrBlack": "Y",
@@ -741,10 +794,11 @@ const data = [
     {
         "title": "The New Girl",
         "author": "Jesse Q. Sutanto",
+        "imageDownloaded": "E",
         "fiction": "Y",
         "mysteryHorror": "Y",
         "prose": "Y",
-        "aapi": "Y",
+        "asianamericanAndPacificIslander": "Y",
         "ownvoices": "Y",
         "bookBibnumber": 955514,
         "ebookBibnumber": 970274,
@@ -754,9 +808,10 @@ const data = [
     {
         "title": "Patron Saints of Nothing",
         "author": "Randy Ribay",
+        "imageDownloaded": "E",
         "fiction": "Y",
         "prose": "Y",
-        "aapi": "Y",
+        "asianamericanAndPacificIslander": "Y",
         "bookBibnumber": 797616,
         "ebookBibnumber": 827084,
         "audioBibnumber": 845094,
@@ -765,6 +820,7 @@ const data = [
     {
         "title": "Charming as a Verb",
         "author": "Ben Philippe",
+        "imageDownloaded": "E",
         "fiction": "Y",
         "romance": "Y",
         "prose": "Y",
@@ -777,6 +833,7 @@ const data = [
     {
         "title": "The Big Lie",
         "author": "Julie Mayhew",
+        "imageDownloaded": "E",
         "fiction": "Y",
         "dystopian": "Y",
         "prose": "Y",
@@ -790,6 +847,7 @@ const data = [
     {
         "title": "Can't Take That Away",
         "author": "Steven Salvatore",
+        "imageDownloaded": "E",
         "fiction": "Y",
         "prose": "Y",
         "lgbtqia": "Y",
@@ -802,8 +860,8 @@ const data = [
     {
         "title": "Witches Steeped in Gold",
         "author": "Ciannon Smart",
+        "imageDownloaded": "E",
         "fantasy": "Y",
-        "fiction": "Y",
         "prose": "Y",
         "africanamericanOrBlack": "Y",
         "bookBibnumber": 894536,
@@ -814,8 +872,8 @@ const data = [
     {
         "title": "A Song of Wraiths and Ruin",
         "author": "Roseanne A. Brown",
+        "imageDownloaded": "E",
         "fantasy": "Y",
-        "fiction": "Y",
         "prose": "Y",
         "africanamericanOrBlack": "Y",
         "bookBibnumber": 841001,
@@ -826,6 +884,7 @@ const data = [
     {
         "title": "Perfect on Paper",
         "author": "Sophie Gonzales",
+        "imageDownloaded": "E",
         "fiction": "Y",
         "romance": "Y",
         "prose": "Y",
@@ -838,11 +897,11 @@ const data = [
     {
         "title": "The Girl Who Fell Beneath the Sea",
         "author": "Axie Oh",
+        "imageDownloaded": "E",
         "fantasy": "Y",
-        "fiction": "Y",
         "mythology": "Y",
         "prose": "Y",
-        "aapi": "Y",
+        "asianamericanAndPacificIslander": "Y",
         "bookBibnumber": 952603,
         "ebookBibnumber": 970333,
         "audioBibnumber": 970279,
@@ -851,8 +910,8 @@ const data = [
     {
         "title": "The Lost Dreamer ",
         "author": "Lizz Huerta",
+        "imageDownloaded": "E",
         "fantasy": "Y",
-        "fiction": "Y",
         "mythology": "Y",
         "prose": "Y",
         "latinx": "Y",
@@ -865,11 +924,11 @@ const data = [
     {
         "title": "A Magic Steeped in Poison",
         "author": "Judy I. Lin",
+        "imageDownloaded": "E",
         "fantasy": "Y",
-        "fiction": "Y",
         "mythology": "Y",
         "prose": "Y",
-        "aapi": "Y",
+        "asianamericanAndPacificIslander": "Y",
         "bookBibnumber": 955502,
         "ebookBibnumber": 970223,
         "audioBibnumber": 958663,
@@ -878,6 +937,7 @@ const data = [
     {
         "title": "The Summer of Bitter and Sweet",
         "author": "Jenny Ferguson",
+        "imageDownloaded": "E",
         "fiction": "Y",
         "prose": "Y",
         "nativeamerican": "Y",
@@ -889,6 +949,7 @@ const data = [
     {
         "title": "Home Field Advantage",
         "author": "Dahlia Adler",
+        "imageDownloaded": "E",
         "fiction": "Y",
         "romance": "Y",
         "prose": "Y",
@@ -902,11 +963,12 @@ const data = [
     {
         "title": "The Red Palace",
         "author": "June Hur",
+        "imageDownloaded": "E",
         "fiction": "Y",
         "historicalfiction": "Y",
         "mysteryHorror": "Y",
         "prose": "Y",
-        "aapi": "Y",
+        "asianamericanAndPacificIslander": "Y",
         "bookBibnumber": 950001,
         "ebookBibnumber": 951294,
         "audioBibnumber": 951325,
@@ -915,6 +977,7 @@ const data = [
     {
         "title": "All That's Left in the World",
         "author": "Erik J. Brown",
+        "imageDownloaded": "E",
         "fiction": "Y",
         "dystopian": "Y",
         "prose": "Y",
@@ -928,6 +991,7 @@ const data = [
     {
         "title": "She Drives Me Crazy",
         "author": "Kelly Quindlen",
+        "imageDownloaded": "E",
         "fiction": "Y",
         "romance": "Y",
         "prose": "Y",
@@ -941,6 +1005,7 @@ const data = [
     {
         "title": "The Lesbiana's Guide to Catholic School",
         "author": "Sonora Reyes",
+        "imageDownloaded": "E",
         "fiction": "Y",
         "romance": "Y",
         "prose": "Y",
@@ -955,6 +1020,7 @@ const data = [
     {
         "title": "The Many Half-Lived Lives of Sam Sylvester",
         "author": "Maya MacGregor",
+        "imageDownloaded": "E",
         "fiction": "Y",
         "mysteryHorror": "Y",
         "prose": "Y",
@@ -969,8 +1035,9 @@ const data = [
     {
         "title": "Burn Down, Rise Up",
         "author": "Vincent Tirado",
+        "imageDownloaded": "E",
         "fiction": "Y",
-        "scifi": "Y",
+        "dystopian": "Y",
         "mysteryHorror": "Y",
         "prose": "Y",
         "africanamericanOrBlack": "Y",
@@ -982,11 +1049,12 @@ const data = [
     {
         "title": "The Forest of Stolen Girls",
         "author": "June Hur",
+        "imageDownloaded": "R",
         "fiction": "Y",
         "historicalfiction": "Y",
         "mysteryHorror": "Y",
         "prose": "Y",
-        "aapi": "Y",
+        "asianamericanAndPacificIslander": "Y",
         "bookBibnumber": 897481,
         "ebookBibnumber": 0,
         "audioBibnumber": 0,
@@ -995,7 +1063,8 @@ const data = [
     {
         "title": "Ace of Spades",
         "author": "Faridah Abike-Iyimide",
-        "fiction": "Y",
+        "imageDownloaded": "R",
+        "fantasy": "Y",
         "mysteryHorror": "Y",
         "prose": "Y",
         "africanamericanOrBlack": "Y",
@@ -1007,6 +1076,7 @@ const data = [
     {
         "title": "The City Beautiful",
         "author": "Aden Polydoros",
+        "imageDownloaded": "R",
         "fiction": "Y",
         "historicalfiction": "Y",
         "mythology": "Y",
@@ -1020,6 +1090,7 @@ const data = [
     {
         "title": "The State of Grace",
         "author": " Rachael Lucas",
+        "imageDownloaded": "R",
         "fiction": "Y",
         "prose": "Y",
         "neurodiverdent": "Y",
@@ -1031,6 +1102,7 @@ const data = [
     {
         "title": "Can You See Me",
         "author": "Rebecca Westcott, Libby Scoot",
+        "imageDownloaded": "R",
         "fiction": "Y",
         "prose": "Y",
         "neurodiverdent": "Y",
@@ -1042,6 +1114,7 @@ const data = [
     {
         "title": "Both Sides Now",
         "author": "Peyton Thomas",
+        "imageDownloaded": "R",
         "fiction": "Y",
         "prose": "Y",
         "lgbtqia": "Y",
@@ -1054,6 +1127,7 @@ const data = [
     {
         "title": "Why We Fly",
         "author": "Gilly Segal and Kimberly Jones",
+        "imageDownloaded": "R",
         "fiction": "Y",
         "prose": "Y",
         "africanamericanOrBlack": "Y",
@@ -1065,8 +1139,8 @@ const data = [
     {
         "title": "Hero ",
         "author": "Perry Moore",
+        "imageDownloaded": "R",
         "fantasy": "Y",
-        "fiction": "Y",
         "urbanfantasy": "Y",
         "prose": "Y",
         "lgbtqia": "Y",
@@ -1079,6 +1153,7 @@ const data = [
     {
         "title": "Not So Pure and Simple",
         "author": "Lamar Giles",
+        "imageDownloaded": "R",
         "fiction": "Y",
         "prose": "Y",
         "africanamericanOrBlack": "Y",
@@ -1090,8 +1165,7 @@ const data = [
     {
         "title": "White Smoke",
         "author": "Tiffany D. Jackson",
-        "fantasy": "Y",
-        "fiction": "Y",
+        "imageDownloaded": "R",
         "urbanfantasy": "Y",
         "prose": "Y",
         "africanamericanOrBlack": "Y",
@@ -1103,8 +1177,8 @@ const data = [
     {
         "title": "A River of Royal Blood",
         "author": "Amanda Joy",
+        "imageDownloaded": "R",
         "fantasy": "Y",
-        "fiction": "Y",
         "prose": "Y",
         "africanamericanOrBlack": "Y",
         "bookBibnumber": 811386,
@@ -1115,6 +1189,7 @@ const data = [
     {
         "title": "Monday's Not Coming",
         "author": "Tiffany D. Jackson",
+        "imageDownloaded": "R",
         "fiction": "Y",
         "prose": "Y",
         "africanamericanOrBlack": "Y",
@@ -1127,9 +1202,10 @@ const data = [
     {
         "title": "Sisters of the Snake",
         "author": "Sarena Nanua, Sasha Nanua",
+        "imageDownloaded": "R",
         "fantasy": "Y",
         "prose": "Y",
-        "aapi": "Y",
+        "asianamericanAndPacificIslander": "Y",
         "bookBibnumber": 914078,
         "ebookBibnumber": 0,
         "audioBibnumber": 0,
@@ -1138,10 +1214,11 @@ const data = [
     {
         "title": "Akata Witch",
         "author": "Nnedi Okorafor",
-        "fantasy": "Y",
-        "fiction": "Y",
+        "imageDownloaded": "R",
+        "urbanfantasy": "Y",
         "prose": "Y",
         "africanamericanOrBlack": "Y",
+        "middleGrade": "Y",
         "bookBibnumber": 0,
         "ebookBibnumber": 691328,
         "audioBibnumber": 0,
@@ -1150,6 +1227,7 @@ const data = [
     {
         "title": "Girl on Fire",
         "author": "Alicia Keys, Andrew Weiner, Brittney Williams",
+        "imageDownloaded": "R",
         "fiction": "Y",
         "graphicnovel": "Y",
         "africanamericanOrBlack": "Y",
@@ -1161,9 +1239,10 @@ const data = [
     {
         "title": "Messy Roots: A Graphic Memoir of a Wuhanese American",
         "author": "Laura Gao",
+        "imageDownloaded": "R",
         "nonfiction": "Y",
         "graphicnovel": "Y",
-        "aapi": "Y",
+        "asianamericanAndPacificIslander": "Y",
         "bookBibnumber": 956053,
         "ebookBibnumber": 0,
         "audioBibnumber": 0,
@@ -1172,6 +1251,7 @@ const data = [
     {
         "title": "Squad",
         "author": "Maggie Tokuda-Hall, Lisa Sterle",
+        "imageDownloaded": "R",
         "fantasy": "Y",
         "fiction": "Y",
         "urbanfantasy": "Y",
@@ -1185,10 +1265,11 @@ const data = [
     {
         "title": "Displacement",
         "author": "Kiku Hughes",
+        "imageDownloaded": "R",
         "fiction": "Y",
         "historicalfiction": "Y",
         "prose": "Y",
-        "aapi": "Y",
+        "asianamericanAndPacificIslander": "Y",
         "bookBibnumber": 875164,
         "ebookBibnumber": 884801,
         "audioBibnumber": 0,
@@ -1197,6 +1278,7 @@ const data = [
     {
         "title": "Persepolis",
         "author": "Marjane Satrapi",
+        "imageDownloaded": "R",
         "memoirautobiograohy": "Y",
         "nonfiction": "Y",
         "graphicnovel": "Y",
@@ -1211,9 +1293,10 @@ const data = [
     {
         "title": "American Born Chinese",
         "author": "Gene Luen Yang",
+        "imageDownloaded": "R",
         "memoirautobiograohy": "Y",
         "nonfiction": "Y",
-        "aapi": "Y",
+        "asianamericanAndPacificIslander": "Y",
         "bookBibnumber": 319093,
         "ebookBibnumber": 802719,
         "audioBibnumber": 0,
@@ -1222,6 +1305,7 @@ const data = [
     {
         "title": "Across the Tracks: Remembering Greenwood, Black Wall Street, and the Tulsa Race Massacre",
         "author": "Alverne Ball, Stacey Robinson",
+        "imageDownloaded": "R",
         "historicalfiction": "Y",
         "nonfiction": "Y",
         "graphicnovel": "Y",
@@ -1232,6 +1316,7 @@ const data = [
     {
         "title": "The Black Panther Party",
         "author": "David F. Walker, Marcus Kwame Anderson",
+        "imageDownloaded": "R",
         "historicalfiction": "Y",
         "nonfiction": "Y",
         "graphicnovel": "Y",
@@ -1244,6 +1329,7 @@ const data = [
     {
         "title": "Dread Nation",
         "author": "Justina Ireland",
+        "imageDownloaded": "R",
         "fantasy": "Y",
         "historicalfiction": "Y",
         "prose": "Y",
@@ -1256,6 +1342,7 @@ const data = [
     {
         "title": "The Great Mrs. Elias",
         "author": "Barbara Chase Riboud",
+        "imageDownloaded": "R",
         "historicalfiction": "Y",
         "prose": "Y",
         "africanamericanOrBlack": "Y",
@@ -1267,6 +1354,7 @@ const data = [
     {
         "title": "Harsh Times",
         "author": "Mario Vargas Llosa",
+        "imageDownloaded": "R",
         "historicalfiction": "Y",
         "prose": "Y",
         "latinx": "Y",
@@ -1280,6 +1368,7 @@ const data = [
     {
         "title": "Other Words for Home",
         "author": "Jasmine Warga",
+        "imageDownloaded": "R",
         "fiction": "Y",
         "prose": "Y",
         "arabOrArabamerican": "Y",
@@ -1294,10 +1383,11 @@ const data = [
     {
         "title": "Small World",
         "author": "Jonathan Evision",
+        "imageDownloaded": "R",
         "historicalfiction": "Y",
         "prose": "Y",
         "africanamericanOrBlack": "Y",
-        "aapi": "Y",
+        "asianamericanAndPacificIslander": "Y",
         "nativeamerican": "Y",
         "ownvoices": "Y",
         "newAdultAdultBookWithTeenInterest": "Y",
@@ -1309,6 +1399,7 @@ const data = [
     {
         "title": "Violeta",
         "author": "Isabel Allende",
+        "imageDownloaded": "R",
         "historicalfiction": "Y",
         "prose": "Y",
         "latinx": "Y",
@@ -1321,6 +1412,7 @@ const data = [
     {
         "title": "Slip",
         "author": "Marika McCoola, Aatmaja Pandajo",
+        "imageDownloaded": "R",
         "fiction": "Y",
         "graphicnovel": "Y",
         "lgbtqia": "Y",
@@ -1334,6 +1426,7 @@ const data = [
     {
         "title": "Growing Pangs",
         "author": "Kathryn Ormsbee, Molly Brooks",
+        "imageDownloaded": "E",
         "fiction": "Y",
         "graphicnovel": "Y",
         "invisibledisability": "Y",
@@ -1346,6 +1439,7 @@ const data = [
     {
         "title": "The Real Riley Mayes",
         "author": "Rachel Elliott",
+        "imageDownloaded": "E",
         "fiction": "Y",
         "graphicnovel": "Y",
         "lgbtqia": "Y",
@@ -1361,6 +1455,7 @@ const data = [
     {
         "title": "Red Scare",
         "author": "Liam Francis Welsh",
+        "imageDownloaded": "E",
         "historicalfiction": "Y",
         "graphicnovel": "Y",
         "characterwithdisability": "Y",
@@ -1370,10 +1465,11 @@ const data = [
     {
         "title": "Deep in Providence",
         "author": "Riss M. Nielson",
+        "imageDownloaded": "E",
         "urbanfantasy": "Y",
         "prose": "Y",
         "africanamericanOrBlack": "Y",
-        "aapi": "Y",
+        "asianamericanAndPacificIslander": "Y",
         "latinx": "Y",
         "lgbtqia": "Y",
         "wlwOrNblw": "Y",
@@ -1384,6 +1480,7 @@ const data = [
     {
         "title": "Fight + Flight",
         "author": "Jules Machias",
+        "imageDownloaded": "E",
         "fiction": "Y",
         "graphicnovel": "Y",
         "mentalhealth": "Y",
@@ -1397,6 +1494,7 @@ const data = [
     {
         "title": "Finding Jupiter",
         "author": "Kelis Rowe",
+        "imageDownloaded": "E",
         "fiction": "Y",
         "romance": "Y",
         "prose": "Y",
@@ -1408,10 +1506,11 @@ const data = [
     {
         "title": "Flip the Script",
         "author": "Lyla Lee",
+        "imageDownloaded": "E",
         "fiction": "Y",
         "romance": "Y",
         "prose": "Y",
-        "aapi": "Y",
+        "asianamericanAndPacificIslander": "Y",
         "lgbtqia": "Y",
         "wlwOrNblw": "Y",
         "bookBibnumber": 969121,
@@ -1422,6 +1521,7 @@ const data = [
     {
         "title": "Radio Silence",
         "author": "Alice Oseman",
+        "imageDownloaded": "E",
         "fiction": "Y",
         "prose": "Y",
         "mentalhealth": "Y",
@@ -1434,6 +1534,7 @@ const data = [
     {
         "title": "Man o' War",
         "author": "Cory McCarthy",
+        "imageDownloaded": "R",
         "fiction": "Y",
         "romance": "Y",
         "prose": "Y",
@@ -1446,6 +1547,7 @@ const data = [
     {
         "title": "Milo and Marcos at the End of the World",
         "author": "Kevin Christopher Snipes",
+        "imageDownloaded": "R",
         "romance": "Y",
         "urbanfantasy": "Y",
         "prose": "Y",
@@ -1459,6 +1561,7 @@ const data = [
     {
         "title": "The Love & Lies of Rukhsana Ali",
         "author": "Sabina Khan",
+        "imageDownloaded": "R",
         "romance": "Y",
         "prose": "Y",
         "arabOrArabamerican": "Y",
@@ -1475,6 +1578,7 @@ const data = [
     {
         "title": "Onyeka and the Academy of the Sun",
         "author": "Tola Okogwu",
+        "imageDownloaded": "R",
         "urbanfantasy": "Y",
         "prose": "Y",
         "africanamericanOrBlack": "Y",
@@ -1486,6 +1590,7 @@ const data = [
     {
         "title": "Falling Short ",
         "author": "Ernesto Cisneros",
+        "imageDownloaded": "R",
         "fiction": "Y",
         "prose": "Y",
         "latinx": "Y",
@@ -1498,6 +1603,7 @@ const data = [
     {
         "title": "Shadows Cast By Stars",
         "author": "Catherine Knutson",
+        "imageDownloaded": "E",
         "urbanfantasy": "Y",
         "prose": "Y",
         "nativeamerican": "Y",
@@ -1509,6 +1615,7 @@ const data = [
     {
         "title": "Felix Ever After",
         "author": "Kacen Callendar",
+        "imageDownloaded": "E",
         "fiction": "Y",
         "romance": "Y",
         "prose": "Y",
@@ -1525,6 +1632,7 @@ const data = [
     {
         "title": "Lakelore",
         "author": "Anna Marie McLemore",
+        "imageDownloaded": "E",
         "fantasy": "Y",
         "prose": "Y",
         "latinx": "Y",
@@ -1542,6 +1650,7 @@ const data = [
     {
         "title": "The Sword of Summer",
         "author": "Rick Riordan",
+        "imageDownloaded": "E",
         "fantasy": "Y",
         "prose": "Y",
         "latinx": "Y",
@@ -1558,6 +1667,7 @@ const data = [
     {
         "title": "Act Cool",
         "author": "Tobly McSmith",
+        "imageDownloaded": "E",
         "fiction": "Y",
         "prose": "Y",
         "lgbtqia": "Y",
@@ -1570,6 +1680,7 @@ const data = [
     {
         "title": "Simon vs. the Homo Sapiens Agenda",
         "author": "Becky Albertalli",
+        "imageDownloaded": "E",
         "fiction": "Y",
         "prose": "Y",
         "lgbtqia": "Y",
@@ -1582,6 +1693,7 @@ const data = [
     {
         "title": "How It All Blew Up",
         "author": "Arvin Ahmadi",
+        "imageDownloaded": "E",
         "fiction": "Y",
         "prose": "Y",
         "arabOrArabamerican": "Y",
@@ -1598,6 +1710,7 @@ const data = [
     {
         "title": "What If It's Us",
         "author": "Becky Albertalli, Adam Silvera",
+        "imageDownloaded": "E",
         "fiction": "Y",
         "romance": "Y",
         "prose": "Y",
@@ -1611,6 +1724,7 @@ const data = [
     {
         "title": "Dreadnought",
         "author": "April Daniels",
+        "imageDownloaded": "E",
         "dystopian": "Y",
         "prose": "Y",
         "lgbtqia": "Y",
@@ -1623,6 +1737,7 @@ const data = [
     {
         "title": "Labyrinth Lost",
         "author": "Zoradia Cordova",
+        "imageDownloaded": "E",
         "urbanfantasy": "Y",
         "prose": "Y",
         "africanamericanOrBlack": "Y",
@@ -1638,6 +1753,7 @@ const data = [
     {
         "title": "Carry On",
         "author": "Rainbow Rowell",
+        "imageDownloaded": "E",
         "fantasy": "Y",
         "prose": "Y",
         "lgbtqia": "Y",
@@ -1650,6 +1766,7 @@ const data = [
     {
         "title": "Symptoms of Being Human",
         "author": "Jeff Garvin",
+        "imageDownloaded": "E",
         "fiction": "Y",
         "prose": "Y",
         "lgbtqia": "Y",
@@ -1662,6 +1779,7 @@ const data = [
     {
         "title": "Some Girls Do",
         "author": "Jennifer Dugan",
+        "imageDownloaded": "E",
         "fiction": "Y",
         "romance": "Y",
         "prose": "Y",
@@ -1675,6 +1793,7 @@ const data = [
     {
         "title": "Clap When You Land",
         "author": "Elizabeth Acevedo",
+        "imageDownloaded": "E",
         "fiction": "Y",
         "romance": "Y",
         "verse": "Y",
@@ -1693,6 +1812,7 @@ const data = [
     {
         "title": "The Falling in Love Montage",
         "author": "Ciara Smyth",
+        "imageDownloaded": "E",
         "fiction": "Y",
         "romance": "Y",
         "prose": "Y",
@@ -1706,6 +1826,7 @@ const data = [
     {
         "title": "Hello (From Here)",
         "author": "Chandler Baker, Wesley King",
+        "imageDownloaded": "E",
         "fiction": "Y",
         "prose": "Y",
         "lgbtqia": "Y",
@@ -1718,6 +1839,7 @@ const data = [
     {
         "title": "This One Summer",
         "author": "Mariko Tamaki, Jillian Tamaki",
+        "imageDownloaded": "E",
         "fiction": "Y",
         "graphicnovel": "Y",
         "lgbtqia": "Y",
@@ -1729,6 +1851,7 @@ const data = [
     {
         "title": "Sweet & Bitter Magic",
         "author": "Adrienne Tooley",
+        "imageDownloaded": "E",
         "fantasy": "Y",
         "prose": "Y",
         "lgbtqia": "Y",
@@ -1738,6 +1861,7 @@ const data = [
     {
         "title": "You Should See Me in a Crown",
         "author": "Leah Johnson",
+        "imageDownloaded": "E",
         "fiction": "Y",
         "prose": "Y",
         "africanamericanOrBlack": "Y",
@@ -1752,10 +1876,11 @@ const data = [
     {
         "title": "I Think I Love You",
         "author": "Auriane Desombre",
+        "imageDownloaded": "E",
         "fiction": "Y",
         "romance": "Y",
         "prose": "Y",
-        "aapi": "Y",
+        "asianamericanAndPacificIslander": "Y",
         "lgbtqia": "Y",
         "wlwOrNblw": "Y",
         "bookBibnumber": 907180,
@@ -1766,6 +1891,7 @@ const data = [
     {
         "title": "The Color Purple",
         "author": "Alice Walker",
+        "imageDownloaded": "E",
         "historicalfiction": "Y",
         "prose": "Y",
         "africanamericanOrBlack": "Y",
@@ -1778,6 +1904,7 @@ const data = [
     {
         "title": "Of Fire and Stars",
         "author": "Audrey Coulthrust",
+        "imageDownloaded": "E",
         "fantasy": "Y",
         "prose": "Y",
         "lgbtqia": "Y",
@@ -1790,6 +1917,7 @@ const data = [
     {
         "title": "Crier's War",
         "author": "Nina Valera",
+        "imageDownloaded": "E",
         "fantasy": "Y",
         "prose": "Y",
         "lgbtqia": "Y",
@@ -1802,9 +1930,10 @@ const data = [
     {
         "title": "The Henna Wars",
         "author": "Adiba Jaigirdar",
+        "imageDownloaded": "E",
         "prose": "Y",
         "africanamericanOrBlack": "Y",
-        "aapi": "Y",
+        "asianamericanAndPacificIslander": "Y",
         "lgbtqia": "Y",
         "wlwOrNblw": "Y",
         "muslim": "Y",
@@ -1816,9 +1945,10 @@ const data = [
     {
         "title": "These Witches Don't Burn",
         "author": "Isabel Sterling",
+        "imageDownloaded": "E",
         "urbanfantasy": "Y",
         "prose": "Y",
-        "aapi": "Y",
+        "asianamericanAndPacificIslander": "Y",
         "lgbtqia": "Y",
         "wlwOrNblw": "Y",
         "bookBibnumber": 954421,
@@ -1829,6 +1959,7 @@ const data = [
     {
         "title": "You Know Me Well",
         "author": "Nina LaCour, David Levithan",
+        "imageDownloaded": "E",
         "fiction": "Y",
         "prose": "Y",
         "lgbtqia": "Y",
@@ -1841,6 +1972,7 @@ const data = [
     {
         "title": "Starting From Here",
         "author": "Lisa Jenn Bigelow",
+        "imageDownloaded": "E",
         "fiction": "Y",
         "prose": "Y",
         "lgbtqia": "Y",
@@ -1854,6 +1986,7 @@ const data = [
     {
         "title": "Little & Lion",
         "author": "Brandy Colbert",
+        "imageDownloaded": "E",
         "fiction": "Y",
         "prose": "Y",
         "lgbtqia": "Y",
@@ -1870,6 +2003,7 @@ const data = [
     {
         "title": "History is All You Left Me",
         "author": "Adam Silvera",
+        "imageDownloaded": "E",
         "fiction": "Y",
         "romance": "Y",
         "prose": "Y",
@@ -1884,6 +2018,7 @@ const data = [
     {
         "title": "Boyfriend Material",
         "author": "Alexis Hall",
+        "imageDownloaded": "E",
         "fiction": "Y",
         "romance": "Y",
         "prose": "Y",
@@ -1897,6 +2032,7 @@ const data = [
     {
         "title": "Plain Bad Heroines",
         "author": "Emily M. Danforth",
+        "imageDownloaded": "E",
         "historicalfiction": "Y",
         "mysteryHorror": "Y",
         "prose": "Y",
@@ -1910,6 +2046,7 @@ const data = [
     {
         "title": "The Never Tilting World",
         "author": "Rin Chupeco",
+        "imageDownloaded": "E",
         "fantasy": "Y",
         "prose": "Y",
         "lgbtqia": "Y",
@@ -1922,6 +2059,7 @@ const data = [
     {
         "title": "Cinderella Is Dead",
         "author": "Kaylan Bayron",
+        "imageDownloaded": "E",
         "fantasy": "Y",
         "prose": "Y",
         "africanamericanOrBlack": "Y",
@@ -1935,6 +2073,7 @@ const data = [
     {
         "title": "Bodymap",
         "author": "Leah Lakshmi Piepzna-Samarasinha",
+        "imageDownloaded": "E",
         "memoirautobiograohy": "Y",
         "verse": "Y",
         "africanamericanOrBlack": "Y",
@@ -1947,9 +2086,10 @@ const data = [
     {
         "title": "Last Night at the Telegraph Club",
         "author": "Malinda Lo",
+        "imageDownloaded": "E",
         "historicalfiction": "Y",
         "prose": "Y",
-        "aapi": "Y",
+        "asianamericanAndPacificIslander": "Y",
         "lgbtqia": "Y",
         "wlwOrNblw": "Y",
         "bookBibnumber": 881233,
@@ -1960,6 +2100,7 @@ const data = [
     {
         "title": "First Spring Grass Fire",
         "author": "Rae Spoon",
+        "imageDownloaded": "E",
         "memoirautobiograohy": "Y",
         "prose": "Y",
         "lgbtqia": "Y",
@@ -1970,6 +2111,7 @@ const data = [
     {
         "title": "Juliet Takes A Breath",
         "author": "Gabby Rivera",
+        "imageDownloaded": "E",
         "fiction": "Y",
         "prose": "Y",
         "latinx": "Y",
@@ -1983,6 +2125,7 @@ const data = [
     {
         "title": "The Second Mango",
         "author": "Shira Glassman",
+        "imageDownloaded": "E",
         "fantasy": "Y",
         "prose": "Y",
         "lgbtqia": "Y",
@@ -1995,6 +2138,7 @@ const data = [
     {
         "title": "Lies We Tell Ourselves",
         "author": "Robin Talley",
+        "imageDownloaded": "E",
         "historicalfiction": "Y",
         "prose": "Y",
         "africanamericanOrBlack": "Y",
@@ -2008,6 +2152,7 @@ const data = [
     {
         "title": "I Am Not Your Perfect Mexican Daughter",
         "author": "Erika L. Sanchez",
+        "imageDownloaded": "E",
         "fiction": "Y",
         "prose": "Y",
         "latinx": "Y",
@@ -2021,6 +2166,7 @@ const data = [
     {
         "title": "War of Streets and Houses",
         "author": "Sophie Yanow",
+        "imageDownloaded": "E",
         "historicalfiction": "Y",
         "graphicnovel": "Y",
         "africanamericanOrBlack": "Y",
@@ -2031,6 +2177,7 @@ const data = [
     {
         "title": "When We Were Outlaws",
         "author": "Jeanne Cordova",
+        "imageDownloaded": "E",
         "memoirautobiograohy": "Y",
         "nonfiction": "Y",
         "prose": "Y",
@@ -2043,6 +2190,7 @@ const data = [
     {
         "title": "Indigo Springs",
         "author": "A. M. Dellamonica",
+        "imageDownloaded": "E",
         "urbanfantasy": "Y",
         "mysteryHorror": "Y",
         "prose": "Y",
@@ -2054,6 +2202,7 @@ const data = [
     {
         "title": "When I Was Straight",
         "author": "Julie Marie Wade",
+        "imageDownloaded": "E",
         "memoirautobiograohy": "Y",
         "verse": "Y",
         "lgbtqia": "Y",
@@ -2065,6 +2214,7 @@ const data = [
     {
         "title": "All Good Children ",
         "author": "Danya Ingram",
+        "imageDownloaded": "E",
         "scifi": "Y",
         "prose": "Y",
         "lgbtqia": "Y",
@@ -2078,6 +2228,7 @@ const data = [
     {
         "title": "The House You Pass on the Way",
         "author": "Jaqueline Woodson",
+        "imageDownloaded": "E",
         "fiction": "Y",
         "prose": "Y",
         "africanamericanOrBlack": "Y",
@@ -2087,6 +2238,7 @@ const data = [
     {
         "title": "Empress of the World",
         "author": "Sara Ryan",
+        "imageDownloaded": "E",
         "fiction": "Y",
         "romance": "Y",
         "prose": "Y",
@@ -2100,6 +2252,7 @@ const data = [
     {
         "title": "Ophie's Ghosts",
         "author": "Justina Ireland",
+        "imageDownloaded": "E",
         "fantasy": "Y",
         "fiction": "Y",
         "historicalfiction": "Y",
@@ -2113,8 +2266,9 @@ const data = [
     {
         "title": "Enter Title Here",
         "author": "Rahul Kanakia",
+        "imageDownloaded": "E",
         "fiction": "Y",
-        "aapi": "Y",
+        "asianamericanAndPacificIslander": "Y",
         "ownvoices": "Y",
         "mentalhealth": "Y",
         "bookBibnumber": 614642,
@@ -2125,6 +2279,7 @@ const data = [
     {
         "title": "Jack of Hearts (and Other Parts)",
         "author": "LC Rosen",
+        "imageDownloaded": "E",
         "fiction": "Y",
         "romance": "Y",
         "lgbtqia": "Y",
@@ -2136,6 +2291,7 @@ const data = [
     {
         "title": "Camp (novel)",
         "author": "Kayla Miller",
+        "imageDownloaded": "E",
         "fiction": "Y",
         "romance": "Y",
         "prose": "Y",
@@ -2148,6 +2304,7 @@ const data = [
     {
         "title": "Written in the Stars",
         "author": "Alexandria Bellefleur",
+        "imageDownloaded": "E",
         "fiction": "Y",
         "romance": "Y",
         "prose": "Y",
@@ -2161,6 +2318,7 @@ const data = [
     {
         "title": "This Is Kind of an Epic Love Story",
         "author": "Kacen Callendar",
+        "imageDownloaded": "E",
         "fiction": "Y",
         "romance": "Y",
         "prose": "Y",
@@ -2175,6 +2333,7 @@ const data = [
     {
         "title": "Cemetery Boys",
         "author": "Aiden Thomas",
+        "imageDownloaded": "E",
         "fantasy": "Y",
         "prose": "Y",
         "latinx": "Y",
@@ -2190,6 +2349,7 @@ const data = [
     {
         "title": "Will Grayson, Will Grayson",
         "author": "John Green",
+        "imageDownloaded": "E",
         "fiction": "Y",
         "prose": "Y",
         "lgbtqia": "Y",
@@ -2202,6 +2362,7 @@ const data = [
     {
         "title": "Turtles All the Way Down",
         "author": "John Green",
+        "imageDownloaded": "E",
         "fiction": "Y",
         "prose": "Y",
         "invisibledisability": "Y",
@@ -2214,6 +2375,7 @@ const data = [
     {
         "title": "Where They Burn Books, They Also Burn People",
         "author": "Marcos Antonio Hernandez",
+        "imageDownloaded": "E",
         "historicalfiction": "Y",
         "prose": "Y",
         "latinx": "Y",
@@ -2222,6 +2384,7 @@ const data = [
     {
         "title": "When We Collided",
         "author": "Emery Lord",
+        "imageDownloaded": "E",
         "fiction": "Y",
         "prose": "Y",
         "mentalhealth": "Y",
@@ -2233,6 +2396,7 @@ const data = [
     {
         "title": "Reasons To Stay Alive",
         "author": "Matt Haig",
+        "imageDownloaded": "E",
         "memoirautobiograohy": "Y",
         "prose": "Y",
         "ownvoices": "Y",
@@ -2247,6 +2411,7 @@ const data = [
     {
         "title": "Insignificant Events In the Life of a Cactus",
         "author": "Dusti Bowling",
+        "imageDownloaded": "E",
         "fiction": "Y",
         "prose": "Y",
         "characterwithdisability": "Y",
@@ -2259,6 +2424,7 @@ const data = [
     {
         "title": "The Cat I Never Named",
         "author": "Amra Sabic-El-Rayess, Laura L. Sullivan",
+        "imageDownloaded": "E",
         "memoirautobiograohy": "Y",
         "nonfiction": "Y",
         "prose": "Y",
@@ -2275,6 +2441,7 @@ const data = [
     {
         "title": "The Red Pencil",
         "author": "Andrea Davis Pinkney",
+        "imageDownloaded": "E",
         "historicalfiction": "Y",
         "verse": "Y",
         "africanamericanOrBlack": "Y",
@@ -2289,6 +2456,7 @@ const data = [
     {
         "title": "Let's Talk About Love",
         "author": "Claire Kann",
+        "imageDownloaded": "E",
         "fiction": "Y",
         "romance": "Y",
         "prose": "Y",
@@ -2304,6 +2472,7 @@ const data = [
     {
         "title": "Kings, Queens, and In-Betweens",
         "author": "Tanya Boteju",
+        "imageDownloaded": "E",
         "fiction": "Y",
         "romance": "Y",
         "lgbtqia": "Y",
@@ -2316,6 +2485,7 @@ const data = [
     {
         "title": "The Voting Booth",
         "author": "Brandy Colbert",
+        "imageDownloaded": "E",
         "fiction": "Y",
         "romance": "Y",
         "africanamericanOrBlack": "Y",
@@ -2328,6 +2498,7 @@ const data = [
     {
         "title": "How I Paid for College: A Novel of Sex, Theft, Friendship & Musical Theater",
         "author": "Marc Acito",
+        "imageDownloaded": "E",
         "fiction": "Y",
         "lgbtqia": "Y",
         "ownvoices": "Y",
@@ -2340,8 +2511,9 @@ const data = [
     {
         "title": "From a Whisper to a Rallying Cry: The Killing of Vincent Chin and the Trial that Galvanized the Asian American Movement",
         "author": "Paula Yoo",
+        "imageDownloaded": "E",
         "nonfiction": "Y",
-        "aapi": "Y",
+        "asianamericanAndPacificIslander": "Y",
         "bookBibnumber": 902433,
         "ebookBibnumber": 0,
         "audioBibnumber": 0,
@@ -2350,6 +2522,7 @@ const data = [
     {
         "title": "The Harlem Hellfighters",
         "author": "Max Brooks",
+        "imageDownloaded": "E",
         "nonfiction": "Y",
         "graphicnovel": "Y",
         "bookBibnumber": 408115,
@@ -2360,6 +2533,7 @@ const data = [
     {
         "title": "Redbone: The True Story of a Native American Rock Band",
         "author": "Christian Staebler",
+        "imageDownloaded": "E",
         "nonfiction": "Y",
         "graphicnovel": "Y",
         "nativeamerican": "Y",
@@ -2372,6 +2546,7 @@ const data = [
     {
         "title": "Wintergirls",
         "author": "Laurie Halse Anderson",
+        "imageDownloaded": "E",
         "fiction": "Y",
         "mentalhealth": "Y",
         "depression": "Y",
@@ -2383,6 +2558,7 @@ const data = [
     {
         "title": "Hell Followed With Us",
         "author": "Andrew Joseph White",
+        "imageDownloaded": "E",
         "fantasy": "Y",
         "prose": "Y",
         "lgbtqia": "Y",
@@ -2400,6 +2576,7 @@ const data = [
     {
         "title": "We All Fall Down",
         "author": "Rose Szabo",
+        "imageDownloaded": "E",
         "fantasy": "Y",
         "prose": "Y",
         "africanamericanOrBlack": "Y",
@@ -2414,12 +2591,14 @@ const data = [
     {
         "title": "The Gravity of Missing Things",
         "author": "Marisa Urgo",
+        "imageDownloaded": "E",
         "mysteryHorror": "Y",
         "prose": "Y"
     },
     {
         "title": "The Guinevere Deception",
         "author": "Kiersten White",
+        "imageDownloaded": "E",
         "fantasy": "Y",
         "prose": "Y",
         "lgbtqia": "Y",
@@ -2431,6 +2610,7 @@ const data = [
     {
         "title": "Love & Other Disasters",
         "author": "Anita Kelly",
+        "imageDownloaded": "E",
         "romance": "Y",
         "prose": "Y",
         "lgbtqia": "Y",
@@ -2444,9 +2624,10 @@ const data = [
     {
         "title": "All Our Hidden Gifts",
         "author": "Caroline O'Donoghue",
+        "imageDownloaded": "E",
         "fantasy": "Y",
         "prose": "Y",
-        "aapi": "Y",
+        "asianamericanAndPacificIslander": "Y",
         "lgbtqia": "Y",
         "trans": "Y",
         "nonbinary": "Y",
@@ -2458,6 +2639,7 @@ const data = [
     {
         "title": "All the Bright Places",
         "author": "Jennifer Niven",
+        "imageDownloaded": "E",
         "fiction": "Y",
         "prose": "Y",
         "mentalhealth": "Y",
@@ -2470,6 +2652,7 @@ const data = [
     {
         "title": "We Set the Dark on Fire",
         "author": "Tehlor Kay Mejia",
+        "imageDownloaded": "E",
         "fantasy": "Y",
         "romance": "Y",
         "prose": "Y",
@@ -2485,6 +2668,7 @@ const data = [
     {
         "title": "Born a Crime : Stories From a South African Childhood",
         "author": "Trevor Noah",
+        "imageDownloaded": "E",
         "memoirautobiograohy": "Y",
         "prose": "Y",
         "africanamericanOrBlack": "Y",
@@ -2497,6 +2681,7 @@ const data = [
     {
         "title": "Vicious",
         "author": "V. E. Schwab",
+        "imageDownloaded": "E",
         "fantasy": "Y",
         "prose": "Y",
         "lgbtqia": "Y",
@@ -2510,6 +2695,7 @@ const data = [
     {
         "title": "The Mermaid, the Witch, and the Sea",
         "author": "Maggie Tokuda-Hall",
+        "imageDownloaded": "E",
         "fantasy": "Y",
         "prose": "Y",
         "lgbtqia": "Y",
@@ -2523,6 +2709,7 @@ const data = [
     {
         "title": "Malice",
         "author": "Heather Walter",
+        "imageDownloaded": "E",
         "fantasy": "Y",
         "prose": "Y",
         "lgbtqia": "Y",
@@ -2535,6 +2722,7 @@ const data = [
     {
         "title": "The Grimrose Girls",
         "author": "Laura Pohl",
+        "imageDownloaded": "E",
         "fantasy": "Y",
         "prose": "Y",
         "lgbtqia": "Y",
@@ -2548,6 +2736,7 @@ const data = [
     {
         "title": "Under the Udala Trees",
         "author": "Chinelo Okparanta",
+        "imageDownloaded": "E",
         "fiction": "Y",
         "prose": "Y",
         "africanamericanOrBlack": "Y",
@@ -2563,10 +2752,11 @@ const data = [
     {
         "title": "The City of Devi",
         "author": "Manil Suri",
+        "imageDownloaded": "E",
         "dystopian": "Y",
         "prose": "Y",
         "africanamericanOrBlack": "Y",
-        "aapi": "Y",
+        "asianamericanAndPacificIslander": "Y",
         "arabOrArabamerican": "Y",
         "lgbtqia": "Y",
         "mlmOrNblm": "Y",
@@ -2581,6 +2771,7 @@ const data = [
     {
         "title": "Mundo Cruel",
         "author": "Luis Negron",
+        "imageDownloaded": "E",
         "memoirautobiograohy": "Y",
         "prose": "Y",
         "latinx": "Y",
@@ -2592,6 +2783,7 @@ const data = [
     {
         "title": "Life is Wonderful, People are Terrific",
         "author": "Meliza Banales",
+        "imageDownloaded": "E",
         "fiction": "Y",
         "prose": "Y",
         "latinx": "Y",
@@ -2601,6 +2793,7 @@ const data = [
     {
         "title": "Small Town Pride",
         "author": "Phil Stamper",
+        "imageDownloaded": "E",
         "fiction": "Y",
         "prose": "Y",
         "lgbtqia": "Y",
@@ -2613,6 +2806,7 @@ const data = [
     {
         "title": "The Civil War of Amos Abernathy",
         "author": "Michael Leali",
+        "imageDownloaded": "E",
         "fiction": "Y",
         "prose": "Y",
         "lgbtqia": "Y",
@@ -2625,6 +2819,7 @@ const data = [
     {
         "title": "From the Desk of Zoe Washington",
         "author": "Janae Marks",
+        "imageDownloaded": "E",
         "fiction": "Y",
         "prose": "Y",
         "africanamericanOrBlack": "Y",
@@ -2637,6 +2832,7 @@ const data = [
     {
         "title": "Girl In Pieces",
         "author": "Kathleen Glasgow",
+        "imageDownloaded": "E",
         "fiction": "Y",
         "prose": "Y",
         "mentalhealth": "Y",
@@ -2649,6 +2845,7 @@ const data = [
     {
         "title": "Marcelo in the Real World",
         "author": "Francisco X. Stork",
+        "imageDownloaded": "E",
         "fiction": "Y",
         "prose": "Y",
         "latinx": "Y",
@@ -2662,6 +2859,7 @@ const data = [
     {
         "title": "All-American Muslim Girl",
         "author": "Nadine Jolie Courtney",
+        "imageDownloaded": "E",
         "fiction": "Y",
         "prose": "Y",
         "arabOrArabamerican": "Y",
@@ -2674,6 +2872,7 @@ const data = [
     {
         "title": "Bianca & Roja ",
         "author": "Anna-Marie McLemore",
+        "imageDownloaded": "E",
         "fantasy": "Y",
         "prose": "Y",
         "latinx": "Y",
@@ -2685,6 +2884,7 @@ const data = [
     {
         "title": "Honor Girl: A Graphic Memoir",
         "author": "Maggie Thrash",
+        "imageDownloaded": "E",
         "memoirautobiograohy": "Y",
         "nonfiction": "Y",
         "graphicnovel": "Y",
@@ -2697,6 +2897,7 @@ const data = [
     {
         "title": "Girls Made of Snow and Glass",
         "author": "Melissa Bashardoust",
+        "imageDownloaded": "E",
         "fantasy": "Y",
         "prose": "Y",
         "lgbtqia": "Y",
@@ -2709,6 +2910,7 @@ const data = [
     {
         "title": "In Deeper Waters",
         "author": "F.T. Lukens",
+        "imageDownloaded": "E",
         "fantasy": "Y",
         "prose": "Y",
         "lgbtqia": "Y",
@@ -2721,6 +2923,7 @@ const data = [
     {
         "title": "A Spindle Splintered",
         "author": "Alex E. Harrow",
+        "imageDownloaded": "E",
         "fantasy": "Y",
         "prose": "Y",
         "lgbtqia": "Y",
@@ -2734,6 +2937,7 @@ const data = [
     {
         "title": "Girls of Paper and Fire",
         "author": "Natasha Ngan",
+        "imageDownloaded": "E",
         "fantasy": "Y",
         "prose": "Y",
         "lgbtqia": "Y",
@@ -2746,6 +2950,7 @@ const data = [
     {
         "title": "The Midnight Girls",
         "author": "Alicia Jasinka",
+        "imageDownloaded": "E",
         "fantasy": "Y",
         "prose": "Y",
         "lgbtqia": "Y",
@@ -2758,6 +2963,7 @@ const data = [
     {
         "title": "Aces Wild",
         "author": "Amanda Dewitt",
+        "imageDownloaded": "E",
         "mysteryHorror": "Y",
         "prose": "Y",
         "lgbtqia": "Y",
@@ -2766,6 +2972,7 @@ const data = [
     {
         "title": "The Girl From The Sea",
         "author": "Molly Knox Ostera",
+        "imageDownloaded": "E",
         "urbanfantasy": "Y",
         "graphicnovel": "Y",
         "lgbtqia": "Y",
@@ -2778,6 +2985,7 @@ const data = [
     {
         "title": "Dark Rise",
         "author": "C.S. Pacat",
+        "imageDownloaded": "E",
         "fantasy": "Y",
         "prose": "Y",
         "lgbtqia": "Y",
@@ -2790,6 +2998,7 @@ const data = [
     {
         "title": "Lawn Boy",
         "author": "Jonathan Evision",
+        "imageDownloaded": "E",
         "fiction": "Y",
         "prose": "Y",
         "latinx": "Y",
@@ -2801,6 +3010,7 @@ const data = [
     {
         "title": "The Meaning of Birds",
         "author": "Jaye Robin Brown",
+        "imageDownloaded": "E",
         "fiction": "Y",
         "romance": "Y",
         "prose": "Y",
@@ -2816,6 +3026,7 @@ const data = [
     {
         "title": "Redwood and Ponytail",
         "author": "K.A. Holt",
+        "imageDownloaded": "E",
         "fiction": "Y",
         "romance": "Y",
         "verse": "Y",
@@ -2828,23 +3039,26 @@ const data = [
     {
         "title": "Orpheus Girl",
         "author": "Brynne Rebelle-Henry",
+        "imageDownloaded": "E",
         "fiction": "Y",
         "romance": "Y",
         "verse": "Y",
-        "aapi": "Y",
+        "asianamericanAndPacificIslander": "Y",
         "lgbtqia": "Y",
         "wlwOrNblw": "Y",
         "mentalhealth": "Y",
         "depression": "Y",
         "bookBibnumber": 0,
-        "ebookBibnumber": 0
+        "ebookBibnumber": 0,
+        "publishersSummary": "Laura Dean, the most popular girl in high school, was Frederica Riley's dream girl: charming, confident, and SO cute. There's just one problem: Laura Dean is maybe not the greatest girlfriend. Reeling from her latest break up, Freddy's best friend, Doodle, introduces her to the Seek-Her, a mysterious medium, who leaves Freddy some cryptic parting words: break up with her. But Laura Dean keeps coming back, and as their relationship spirals further out of her control, Freddy has to wonder if it's really Laura Dean that's the problem. Maybe it's Freddy, who is rapidly losing her friends, including Doodle, who needs her now more than ever. Fortunately for Freddy, there are new friends, and the insight of advice columnists like Anna Vice to help her through being a teenager in love. Mariko Tamaki and Rosemary Valero-O'Connell bring to life a sweet and spirited tale of young love that asks us to consider what happens when we ditch the toxic relationships we crave to embrace the healthy ones we need."
     },
     {
         "title": "Laura Dean Keeps Breaking Up With Me",
         "author": "Mariko Tamaki and Rosemary Valero-O'Connell",
+        "imageDownloaded": "E",
         "fiction": "Y",
         "prose": "Y",
-        "aapi": "Y",
+        "asianamericanAndPacificIslander": "Y",
         "bookBibnumber": 799227,
         "ebookBibnumber": 0,
         "audioBibnumber": 0,
@@ -2853,6 +3067,7 @@ const data = [
     {
         "title": "Hani and Ishu's Guide to Fake Dating",
         "author": "Adiba Jaigirdar",
+        "imageDownloaded": "E",
         "fiction": "Y",
         "romance": "Y",
         "prose": "Y",
@@ -2869,6 +3084,7 @@ const data = [
     {
         "title": "Black Sun",
         "author": "Rebecca Roanhorse",
+        "imageDownloaded": "E",
         "fantasy": "Y",
         "prose": "Y",
         "lgbtqia": "Y",
@@ -2881,9 +3097,10 @@ const data = [
     {
         "title": "She Who Became the Sun",
         "author": "Shelley Parker-Chan",
+        "imageDownloaded": "R",
         "historicalfiction": "Y",
         "prose": "Y",
-        "aapi": "Y",
+        "asianamericanAndPacificIslander": "Y",
         "lgbtqia": "Y",
         "trans": "Y",
         "ownvoices": "Y",
@@ -2895,9 +3112,10 @@ const data = [
     {
         "title": "The Chosen and the Beautiful",
         "author": "Nghi Vo",
+        "imageDownloaded": "R",
         "historicalfiction": "Y",
         "prose": "Y",
-        "aapi": "Y",
+        "asianamericanAndPacificIslander": "Y",
         "migrantstories": "Y",
         "bookBibnumber": 905566,
         "ebookBibnumber": 0,
@@ -2907,6 +3125,7 @@ const data = [
     {
         "title": "This Poison Heart",
         "author": "Kalynn Bayron",
+        "imageDownloaded": "R",
         "urbanfantasy": "Y",
         "prose": "Y",
         "africanamericanOrBlack": "Y",
@@ -2920,6 +3139,7 @@ const data = [
     {
         "title": "The Stars and the Blackness Between Them",
         "author": "Junauda Petrus",
+        "imageDownloaded": "R",
         "fiction": "Y",
         "romance": "Y",
         "prose": "Y",
@@ -2928,11 +3148,13 @@ const data = [
         "wlwOrNblw": "Y",
         "bookBibnumber": 811376,
         "ebookBibnumber": 0,
-        "audioBibnumber": 821034
+        "audioBibnumber": 821034,
+        "publishersSummary": "Told in two voices, sixteen-year-old Audre and Mabel, both young women of color from different backgrounds, fall in love and figure out how to care for each other as one of them faces a fatal illness"
     },
     {
         "title": "Rise to the Sun",
         "author": "Leah Johnson",
+        "imageDownloaded": "R",
         "fiction": "Y",
         "romance": "Y",
         "prose": "Y",
@@ -2947,19 +3169,22 @@ const data = [
     {
         "title": "Lycanthropy and Other Chronic Illnesses",
         "author": "Kristen O'Neal",
+        "imageDownloaded": "R",
         "urbanfantasy": "Y",
         "prose": "Y",
         "invisibledisability": "Y",
         "characterwithdisability": "Y",
         "bookBibnumber": "21612258&db=3213",
         "ebookBibnumber": "21613026&db=3213",
-        "audioBibnumber": 909166
+        "audioBibnumber": 909166,
+        "publishersSummary": "Forced to leave Stanford's pre-med program after contracting Lyme disease, Priya finds solace in an online chronic-illness support group and with best friend Brigid, whose own illness may be more unique than Priya suspected."
     },
     {
         "title": "Welcome Back Maple Mehta Cohen",
         "author": "Kate McGovern ",
+        "imageDownloaded": "R",
         "fiction": "Y",
-        "aapi": "Y",
+        "asianamericanAndPacificIslander": "Y",
         "jewish": "Y",
         "middleGrade": "Y",
         "bookBibnumber": "22025064&db=3213",
@@ -2970,6 +3195,7 @@ const data = [
     {
         "title": "Take Back the Block",
         "author": "Chrystal D. Giles",
+        "imageDownloaded": "R",
         "fiction": "Y",
         "africanamericanOrBlack": "Y",
         "middleGrade": "Y",
@@ -2981,8 +3207,9 @@ const data = [
     {
         "title": "Yusuf Azeem Is Not a Hero",
         "author": "Saadia Faruqi",
+        "imageDownloaded": "R",
         "fiction": "Y",
-        "aapi": "Y",
+        "asianamericanAndPacificIslander": "Y",
         "arabOrArabamerican": "Y",
         "muslim": "Y",
         "middleGrade": "Y",
@@ -2994,10 +3221,11 @@ const data = [
     {
         "title": "Alma Presses Play",
         "author": "Tina Cane",
+        "imageDownloaded": "R",
         "fiction": "Y",
         "historicalfiction": "Y",
         "verse": "Y",
-        "aapi": "Y",
+        "asianamericanAndPacificIslander": "Y",
         "bookBibnumber": "22422473&db=3213",
         "ebookBibnumber": 0,
         "audioBibnumber": 0,
@@ -3006,6 +3234,7 @@ const data = [
     {
         "title": "Don't Ask Me Where I'm From",
         "author": "Jennifer De Leon",
+        "imageDownloaded": "R",
         "fiction": "Y",
         "latinx": "Y",
         "bookBibnumber": 901962,
@@ -3016,6 +3245,7 @@ const data = [
     {
         "title": "The Coldest Touch",
         "author": "Isabel Sterling",
+        "imageDownloaded": "R",
         "fiction": "Y",
         "urbanfantasy": "Y",
         "lgbtqia": "Y",
@@ -3027,8 +3257,9 @@ const data = [
     {
         "title": "Ahmed Aziz's Epic Year",
         "author": "Nina Hamza",
+        "imageDownloaded": "R",
         "fiction": "Y",
-        "aapi": "Y",
+        "asianamericanAndPacificIslander": "Y",
         "middleGrade": "Y",
         "bookBibnumber": 909382,
         "ebookBibnumber": 0,
@@ -3038,8 +3269,9 @@ const data = [
     {
         "title": "You're Welcome, Universe",
         "author": "Whitney Gardner",
+        "imageDownloaded": "R",
         "fiction": "Y",
-        "aapi": "Y",
+        "asianamericanAndPacificIslander": "Y",
         "characterwithdisability": "Y",
         "mutedeafblind": "Y",
         "bookBibnumber": 649321,
@@ -3050,6 +3282,7 @@ const data = [
     {
         "title": "Five Flavors of Dumb",
         "author": "Antony John",
+        "imageDownloaded": "R",
         "fiction": "Y",
         "characterwithdisability": "Y",
         "mutedeafblind": "Y",
@@ -3060,17 +3293,20 @@ const data = [
     {
         "title": "What the Night Sings",
         "author": "Vesper Stamper",
+        "imageDownloaded": "R",
         "historicalfiction": "Y",
         "verse": "Y",
         "graphicnovel": "Y",
         "jewish": "Y",
         "bookBibnumber": 708811,
         "ebookBibnumber": 0,
-        "audioBibnumber": 0
+        "audioBibnumber": 0,
+        "publishersSummary": "Liberated from Bergen-Belsen Concentration Camp in 1945, sixteen-year-old Gerta tries to make a new life for herself, aided by Lev, a fellow survivor, and Michah, who helps Jews reach Palestine."
     },
     {
         "title": "Here and Queer: A Queer Girl's Guide to Life",
         "author": "Rowan Ellis, Jacky Sheridan",
+        "imageDownloaded": "R",
         "nonfiction": "Y",
         "graphicnovel": "Y",
         "lgbtqia": "Y",
@@ -3083,6 +3319,7 @@ const data = [
     {
         "title": "Just Your Local Bisexual Disaster",
         "author": "Andrea Mosqueda",
+        "imageDownloaded": "R",
         "fiction": "Y",
         "romance": "Y",
         "latinx": "Y",
@@ -3094,8 +3331,9 @@ const data = [
     {
         "title": "The Loophole",
         "author": "Naz Kutub",
+        "imageDownloaded": "R",
         "urbanfantasy": "Y",
-        "aapi": "Y",
+        "asianamericanAndPacificIslander": "Y",
         "lgbtqia": "Y",
         "muslim": "Y",
         "bookBibnumber": 968453,
@@ -3106,6 +3344,7 @@ const data = [
     {
         "title": "The Witchery",
         "author": "S. Isabelle",
+        "imageDownloaded": "R",
         "urbanfantasy": "Y",
         "africanamericanOrBlack": "Y",
         "bookBibnumber": 0,
@@ -3116,6 +3355,7 @@ const data = [
     {
         "title": "Youngblood",
         "author": "Sasha Laurens",
+        "imageDownloaded": "R",
         "urbanfantasy": "Y",
         "lgbtqia": "Y",
         "wlwOrNblw": "Y",
@@ -3126,6 +3366,7 @@ const data = [
     {
         "title": "Everything You Wanted to Know About Indians but Were Afraid to Ask",
         "author": "Anton Treuer",
+        "imageDownloaded": "R",
         "nonfiction": "Y",
         "nativeamerican": "Y",
         "bookBibnumber": 557392,
@@ -3136,6 +3377,7 @@ const data = [
     {
         "title": "The Marrow Thieves",
         "author": "Cherie Dimaline",
+        "imageDownloaded": "R",
         "scifi": "Y",
         "urbanfantasy": "Y",
         "nativeamerican": "Y",
@@ -3147,9 +3389,10 @@ const data = [
     {
         "title": "The Last Mapmaker ",
         "author": "Christina Soontornvat",
+        "imageDownloaded": "R",
         "fantasy": "Y",
         "prose": "Y",
-        "aapi": "Y",
+        "asianamericanAndPacificIslander": "Y",
         "bookBibnumber": 952468,
         "ebookBibnumber": 0,
         "audioBibnumber": 971688,
@@ -3158,9 +3401,10 @@ const data = [
     {
         "title": "Boys Run The Riot",
         "author": "Keito Gake",
+        "imageDownloaded": "R",
         "fiction": "Y",
         "graphicnovel": "Y",
-        "aapi": "Y",
+        "asianamericanAndPacificIslander": "Y",
         "lgbtqia": "Y",
         "trans": "Y",
         "bookBibnumber": 952321,
@@ -3171,6 +3415,7 @@ const data = [
     {
         "title": "Asadora!",
         "author": "Naok Ursawa",
+        "imageDownloaded": "R",
         "fantasy": "Y",
         "graphicnovel": "Y",
         "africanamericanOrBlack": "Y",
@@ -3183,10 +3428,11 @@ const data = [
     {
         "title": "They Called Us Enemy",
         "author": "George Takei",
+        "imageDownloaded": "R",
         "memoirautobiograohy": "Y",
         "nonfiction": "Y",
         "graphicnovel": "Y",
-        "aapi": "Y",
+        "asianamericanAndPacificIslander": "Y",
         "ownvoices": "Y",
         "bookBibnumber": 805161,
         "ebookBibnumber": 841682,
@@ -3196,6 +3442,7 @@ const data = [
     {
         "title": "March: Book One",
         "author": "John Lewis",
+        "imageDownloaded": "R",
         "memoirautobiograohy": "Y",
         "nonfiction": "Y",
         "graphicnovel": "Y",
@@ -3209,6 +3456,7 @@ const data = [
     {
         "title": "Fat Chance, Charlie Vega",
         "author": "Crystal Maldonado",
+        "imageDownloaded": "R",
         "fiction": "Y",
         "prose": "Y",
         "latinx": "Y",
@@ -3220,9 +3468,10 @@ const data = [
     {
         "title": "Fierce as the Wind",
         "author": "Tara Wilson",
+        "imageDownloaded": "R",
         "fiction": "Y",
         "prose": "Y",
-        "aapi": "Y",
+        "asianamericanAndPacificIslander": "Y",
         "bookBibnumber": "21577294&db=3213",
         "ebookBibnumber": "21912127&db=3213",
         "audioBibnumber": 0
@@ -3230,9 +3479,10 @@ const data = [
     {
         "title": "Solo Leveling",
         "author": "Chugong",
+        "imageDownloaded": "R",
         "scifi": "Y",
         "graphicnovel": "Y",
-        "aapi": "Y",
+        "asianamericanAndPacificIslander": "Y",
         "bookBibnumber": 899781,
         "ebookBibnumber": 0,
         "audioBibnumber": 0,
@@ -3241,6 +3491,7 @@ const data = [
     {
         "title": "Fifteen Hundred Miles from the Sun",
         "author": "Jonny Garza",
+        "imageDownloaded": "R",
         "fiction": "Y",
         "prose": "Y",
         "lgbtqia": "Y",
@@ -3253,16 +3504,19 @@ const data = [
     {
         "title": "The Great Bear",
         "author": "David A. Robertson",
+        "imageDownloaded": "R",
         "fantasy": "Y",
         "prose": "Y",
         "nativeamerican": "Y",
         "bookBibnumber": 938789,
         "ebookBibnumber": 0,
-        "audioBibnumber": 0
+        "audioBibnumber": 0,
+        "publishersSummary": "Eli and Morgan journey once more to Misewa, travelling back in time. Back at home after their first adventure in the Barren Grounds, Eli and Morgan each struggle with personal issues--Eli is being bullied at school, and tries to hide it from Morgan, while Morgan has to make an important decision about her birth mother. They turn to the place where they know they can learn the most, and make the journey to Misewa to visit their animal friends. This time they travel back in time and meet a young fisher that might just be their lost friend. But they discover that the village is once again in peril, and they must dig deep within themselves to find the strength to protect their beloved friends. Can they carry this strength back home to face their own challenges?"
     },
     {
         "title": "One of the Good Ones",
         "author": "Makia and Maritza Moulite",
+        "imageDownloaded": "R",
         "fiction": "Y",
         "prose": "Y",
         "africanamericanOrBlack": "Y",
@@ -3275,6 +3529,7 @@ const data = [
     {
         "title": "The Ones We're Meant to Find",
         "author": "Joan He",
+        "imageDownloaded": "R",
         "fiction": "Y",
         "dystopian": "Y",
         "prose": "Y",
@@ -3287,6 +3542,7 @@ const data = [
     {
         "title": "The Other Merlin",
         "author": "Robin Schneider",
+        "imageDownloaded": "R",
         "historicalfiction": "Y",
         "prose": "Y",
         "lgbtqia": "Y",
@@ -3298,9 +3554,10 @@ const data = [
     {
         "title": "The Other Side of Perfect",
         "author": "Mariko Turk",
+        "imageDownloaded": "R",
         "fiction": "Y",
         "prose": "Y",
-        "aapi": "Y",
+        "asianamericanAndPacificIslander": "Y",
         "ownvoices": "Y",
         "bookBibnumber": "21597036&db=3213",
         "ebookBibnumber": 0,
@@ -3309,6 +3566,7 @@ const data = [
     {
         "title": "Perfectly Parvin",
         "author": "Olivia Abtahi",
+        "imageDownloaded": "R",
         "fiction": "Y",
         "prose": "Y",
         "arabOrArabamerican": "Y",
@@ -3322,6 +3580,7 @@ const data = [
     {
         "title": "Pumpkin",
         "author": "Julie Murphy",
+        "imageDownloaded": "R",
         "fiction": "Y",
         "prose": "Y",
         "lgbtqia": "Y",
@@ -3332,6 +3591,7 @@ const data = [
     {
         "title": "Somewhere Between Bitter and Sweet",
         "author": "Laekan Zea Kemp",
+        "imageDownloaded": "R",
         "fiction": "Y",
         "prose": "Y",
         "latinx": "Y",
@@ -3339,35 +3599,41 @@ const data = [
         "ownvoices": "Y",
         "bookBibnumber": 897475,
         "ebookBibnumber": 0,
-        "audioBibnumber": 0
+        "audioBibnumber": 0,
+        "publishersSummary": "Told in two voices, Pen, whose dream of taking over her family's restaurant has been destroyed, and Xander, a new, undocumented, employee seeking his father, form a bond."
     },
     {
         "title": "The Surprising Power of a Good Dumpling",
         "author": "Wai Chim",
+        "imageDownloaded": "R",
         "fiction": "Y",
         "prose": "Y",
-        "aapi": "Y",
+        "asianamericanAndPacificIslander": "Y",
         "migrantstories": "Y",
         "ownvoices": "Y",
         "mentalhealth": "Y",
         "bookBibnumber": "22538848&db=3213",
         "ebookBibnumber": 0,
-        "audioBibnumber": 0
+        "audioBibnumber": 0,
+        "publishersSummary": "\"Anna Chiu has her hands full. When she's not looking after her brother and sister or helping out at her father's restaurant, she's taking care of her mother, whose debilitating mental illness keeps her in bed most days. Her father's new delivery boy Rory is a welcome distraction, and even though she knows that things aren't right at home, she's starting to feel like she could be a normal teen\""
     },
     {
         "title": "Home is not a Country",
         "author": "Safia Elhillo",
+        "imageDownloaded": "R",
         "fiction": "Y",
         "prose": "Y",
         "arabOrArabamerican": "Y",
         "muslim": "Y",
         "bookBibnumber": 884866,
         "ebookBibnumber": 0,
-        "audioBibnumber": 0
+        "audioBibnumber": 0,
+        "publishersSummary": "\"Nima doesn't feel understood. By her mother, who grew up far away in a different land. By her suburban town, which makes her feel too much like an outsider to fit in and not enough like an outsider to feel like that she belongs somewhere else. At least she has her childhood friend Haitham, with whom she can let her guard down and be herself. Until she doesn't. As the ground is pulled out from under her, Nima must grapple with the phantom of a life not chosen, the name her parents didn't give her at birth: Yasmeen. But that other name, that other girl, might just be more real than Nima knows. And more hungry. And the life Nima has, the one she keeps wishing were someone else's...she might have to fight for it with a fierceness she never knew she had.\""
     },
     {
         "title": "Hunting by Stars",
         "author": "Cherie Dimaline",
+        "imageDownloaded": "R",
         "fiction": "Y",
         "dystopian": "Y",
         "prose": "Y",
@@ -3379,16 +3645,19 @@ const data = [
     {
         "title": "Kneel",
         "author": "Candace Bufford",
+        "imageDownloaded": "R",
         "fiction": "Y",
         "prose": "Y",
         "africanamericanOrBlack": "Y",
         "bookBibnumber": 928170,
         "ebookBibnumber": 0,
-        "audioBibnumber": 0
+        "audioBibnumber": 0,
+        "publishersSummary": "\"For guys like Russell Boudreaux, football is the only way out of their small town. As the team's varsity tight end, Rus has a singular goal: to get a scholarship and play on the national stage. But when his best friend is unfairly arrested and kicked off the team, Rus faces an impossible choice: speak up or live in fear. Desperate for change, Rus kneels during the national anthem. In one instant, he falls from local stardom and becomes a target for hatred. But he's not alone. With the help of his best friend and an unlikely ally, Rus will fight for his dreams, and for justice.\""
     },
     {
         "title": "Like Other Girls",
         "author": "Britta Lundin",
+        "imageDownloaded": "R",
         "fiction": "Y",
         "prose": "Y",
         "lgbtqia": "Y",
@@ -3400,6 +3669,7 @@ const data = [
     {
         "title": "List of Ten",
         "author": "Halli Gomez",
+        "imageDownloaded": "R",
         "fiction": "Y",
         "prose": "Y",
         "invisibledisability": "Y",
@@ -3412,6 +3682,7 @@ const data = [
     {
         "title": "Love in English",
         "author": "Marie E. Andreu",
+        "imageDownloaded": "R",
         "fiction": "Y",
         "prose": "Y",
         "latinx": "Y",
@@ -3419,31 +3690,37 @@ const data = [
         "ownvoices": "Y",
         "bookBibnumber": 892383,
         "ebookBibnumber": 0,
-        "audioBibnumber": 0
+        "audioBibnumber": 0,
+        "publishersSummary": "Feeling blocked after moving from Argentina to New Jersey, a sixteen-year-old poet finds herself torn between a cute American boy in her math class and a Greek student who understands the struggles she is facing in an ESL class."
     },
     {
         "title": "The Mirror Season",
         "author": "Anna-Marie McLenore",
+        "imageDownloaded": "R",
         "fiction": "Y",
         "prose": "Y",
         "latinx": "Y",
         "bookBibnumber": 884850,
         "ebookBibnumber": 0,
-        "audioBibnumber": 0
+        "audioBibnumber": 0,
+        "publishersSummary": "After Ciela and Lock are sexually assaulted at the same party, they develop a cautious friendship through her family's possibly-magical pastelería and his secret forest of otherworldly trees."
     },
     {
         "title": "When We Make It",
         "author": "Elisabet Velasquez",
+        "imageDownloaded": "R",
         "historicalfiction": "Y",
         "prose": "Y",
         "latinx": "Y",
         "bookBibnumber": 941168,
         "ebookBibnumber": 0,
-        "audioBibnumber": 0
+        "audioBibnumber": 0,
+        "publishersSummary": "Sarai uses verse to navigate the strain of family traumas and the systemic pressures of toxic masculinity and housing insecurity in a rapidly gentrifying Brooklyn, questioning the society around her, her Boricua identity, and the life she lives."
     },
     {
         "title": "Who I Was With Her",
         "author": "Nita Tyndall",
+        "imageDownloaded": "R",
         "fiction": "Y",
         "prose": "Y",
         "lgbtqia": "Y",
@@ -3451,32 +3728,38 @@ const data = [
         "mentalhealth": "Y",
         "bookBibnumber": 881085,
         "ebookBibnumber": 854626,
-        "audioBibnumber": 0
+        "audioBibnumber": 0,
+        "publishersSummary": "\"When Corrine Parker's girlfriend dies in a car accident Corrine struggles to come to terms with her grief and whether she is ready to come out as bisexual\""
     },
     {
         "title": "The Words in My Hands",
         "author": "Asphyxia",
+        "imageDownloaded": "R",
         "fiction": "Y",
         "prose": "Y",
         "mutedeafblind": "Y",
         "bookBibnumber": 941169,
         "ebookBibnumber": 0,
-        "audioBibnumber": 0
+        "audioBibnumber": 0,
+        "publishersSummary": "Part coming of age, part call to action, this fast-paced #ownvoices novel about a Deaf teenager is a unique and inspiring exploration of what it means to belong. Smart, artistic, and independent, sixteen year old Piper is tired of trying to conform. Her mom wants her to be \"normal,\" to pass as hearing, to get a good job. But in a time of food scarcity, environmental collapse, and political corruption, Piper has other things on her mind--like survival. Piper has always been told that she needs to compensate for her Deafness in a world made for those who can hear. But when she meets Marley, a new world opens up--one where Deafness is something to celebrate, and where resilience means taking action, building a com-munity, and believing in something better. This empowering, unforgettable story is told through a visual extravaganza of text, paint, collage, and drawings. Set in an ominously prescient near future, The Words in My Hands is very much a novel for our turbulent times.\""
     },
     {
         "title": "Cheer Up!",
         "author": "Crystal Frasier",
+        "imageDownloaded": "R",
         "fiction": "Y",
         "graphicnovel": "Y",
         "lgbtqia": "Y",
         "trans": "Y",
         "bookBibnumber": 961029,
         "ebookBibnumber": 0,
-        "audioBibnumber": 0
+        "audioBibnumber": 0,
+        "publishersSummary": "Annie is a smart, antisocial lesbian starting her senior year of high school who's under pressure to join the cheerleader squad to make friends and round out her college applications. Her former friend BeeBee is a people-pleaser--a trans girl who must keep her parents happy with her grades and social life to keep their support of her transition. Through the rigors of squad training and amped up social pressures (not to mention micro aggressions and other queer youth problems), the two girls rekindle a friendship they thought they'd lost and discover there may be other, sweeter feelings springing up between them."
     },
     {
         "title": "The Passing Playbook",
         "author": "Isaac Fitzsimons",
+        "imageDownloaded": "R",
         "fiction": "Y",
         "prose": "Y",
         "lgbtqia": "Y",
@@ -3484,11 +3767,13 @@ const data = [
         "trans": "Y",
         "bookBibnumber": 918581,
         "ebookBibnumber": 0,
-        "audioBibnumber": 0
+        "audioBibnumber": 0,
+        "publishersSummary": "\"Fifteen-year-old Spencer Harris is a proud nerd, an awesome big brother, and a David Beckham in training. He's also transgender. After transitioning at his old school leads to a year of isolation and bullying, Spencer gets a fresh start at Oakley, the most liberal private school in Ohio. At Oakley, Spencer seems to have it all: more accepting classmates, a decent shot at a starting position on the boy's soccer team, great new friends, and maybe even something more than friendship with one of his teammates. The problem is, no one at Oakley knows Spencer is trans--he's passing. So when a discriminatory law forces Spencer's coach to bench him after he discovers the \"F\" on Spencer's birth certificate, Spencer has to make a choice: cheer his team on from the sidelines or publicly fight for his right to play, even though it would mean coming out to everyone-- including the guy he's falling for\""
     },
     {
         "title": "Boy, Everywhere",
         "author": "A.M. Dassu",
+        "imageDownloaded": "R",
         "fiction": "Y",
         "prose": "Y",
         "arabOrArabamerican": "Y",
@@ -3497,22 +3782,26 @@ const data = [
         "muslim": "Y",
         "bookBibnumber": 901451,
         "ebookBibnumber": 0,
-        "audioBibnumber": 0
+        "audioBibnumber": 0,
+        "publishersSummary": "Sami loves his life in Damascus, Syria, but when war breaks out his parents decide they must flee their home for the safety of the UK."
     },
     {
         "title": "Dawn Raid",
         "author": "Pauline Vaeluaga Smith",
+        "imageDownloaded": "R",
         "historicalfiction": "Y",
         "prose": "Y",
-        "aapi": "Y",
+        "asianamericanAndPacificIslander": "Y",
         "ownvoices": "Y",
         "bookBibnumber": 959916,
         "ebookBibnumber": 0,
-        "audioBibnumber": 0
+        "audioBibnumber": 0,
+        "publishersSummary": "\"Sophia is like most girls in 1976 New Zealand. How is she going to earn enough money for those boots? Why does she have to give that speech at school? Who is she going to be friends with this year? It comes as a surprise to Sofia and her family when her big brother, Lenny, starst talking about protests, \"overstayers,\" and injustices against Pacific Islanders by the government. Inspired by the Black Panthers in America, a group has formed called the Polynesian Panthers, who encourage immigrant and Indigenous families across New Zealand to stand up for their rights. Soon the whole family becomes involved in the movement. Told through Sofia's diary entries, with illustrations throughout, Dawn Raid is the story of one ordinary girl living in extraordinary times, learning how to speak up and fight.\""
     },
     {
         "title": "The Genius Under the Table: Growing Up Behind the Iron Curtain",
         "author": "Eugene Yelchin",
+        "imageDownloaded": "R",
         "memoirautobiograohy": "Y",
         "nonfiction": "Y",
         "prose": "Y",
@@ -3520,11 +3809,13 @@ const data = [
         "jewish": "Y",
         "bookBibnumber": 920032,
         "ebookBibnumber": 0,
-        "audioBibnumber": 0
+        "audioBibnumber": 0,
+        "publishersSummary": "Eugene Yelchin recounts growing up in Cold War Russia."
     },
     {
         "title": "Amazona",
         "author": "Canizales",
+        "imageDownloaded": "R",
         "fiction": "Y",
         "graphicnovel": "Y",
         "latinx": "Y",
@@ -3536,21 +3827,24 @@ const data = [
     {
         "title": "Rabbit Chase",
         "author": "Elizabeth Lapensee",
+        "imageDownloaded": "R",
         "fiction": "Y",
         "graphicnovel": "Y",
         "nativeamerican": "Y",
         "nonbinary": "Y",
         "bookBibnumber": 978786,
         "ebookBibnumber": 0,
-        "audioBibnumber": 0
+        "audioBibnumber": 0,
+        "publishersSummary": "\"Anishinaabe culture and storytelling meet Alice in Wonderland in this coming-of-age graphic novel that explores Indigenous and gender issues through a fresh yet familiar looking glass. Aim̌e, a non-binary Anishinaabe middle-schooler, is on a class trip to offer gifts to Paayehnsag, the water spirits known to protect the land. While stories are told about the water spirits and the threat of the land being taken over for development, Aim̌e zones out, distracting themselves from the bullying and isolation they've experienced since expressing their non-binary identity. When Aim̌e accidentally wanders off, they are transported to an alternate dimension populated by traditional Anishinaabe figures in a story inspired by Alice in Wonderland. To gain the way back home, Aim̌e is called on to help Trickster by hunting down dark water spirits with guidance from Paayehnsag. On their journey, Aim̌e faces off with the land-grabbing Queen and her robotic guards and fights the dark water spirits against increasingly stacked odds. Illustrated by KC Oster with a modern take on their own Ojibwe style and cultural representation, Rabbit Chase is a story of self-discovery, community, and finding one's place in the world.\""
     },
     {
         "title": "Brother Alive",
         "author": "Zain Khalid",
+        "imageDownloaded": "R",
         "fiction": "Y",
         "prose": "Y",
         "africanamericanOrBlack": "Y",
-        "aapi": "Y",
+        "asianamericanAndPacificIslander": "Y",
         "arabOrArabamerican": "Y",
         "migrantstories": "Y",
         "ownvoices": "Y",
@@ -3562,6 +3856,7 @@ const data = [
     {
         "title": "All Boys Aren't Blue",
         "author": "George M. Johnson",
+        "imageDownloaded": "R",
         "memoirautobiograohy": "Y",
         "nonfiction": "Y",
         "prose": "Y",
@@ -3570,23 +3865,27 @@ const data = [
         "ownvoices": "Y",
         "bookBibnumber": 844956,
         "ebookBibnumber": 0,
-        "audioBibnumber": 0
+        "audioBibnumber": 0,
+        "publishersSummary": "In a series of personal essays, prominent journalist and LGBTQIA+ activist George M. Johnson explores his childhood, adolescence, and college years in New Jersey and Virginia. From the memories of getting his teeth kicked out by bullies at age five, to flea marketing with his loving grandmother, to his first sexual relationships, this young-adult memoir weaves together the trials and triumphs faced by Black queer boys."
     },
     {
         "title": "When The Moon Was Ours",
         "author": "Anna-Marie McLenore",
+        "imageDownloaded": "R",
         "fantasy": "Y",
         "prose": "Y",
-        "aapi": "Y",
+        "asianamericanAndPacificIslander": "Y",
         "latinx": "Y",
         "lgbtqia": "Y",
         "bookBibnumber": 611167,
         "ebookBibnumber": 0,
-        "audioBibnumber": 0
+        "audioBibnumber": 0,
+        "publishersSummary": "\"To everyone who knows them, best friends Miel and Sam are as strange as they are inseparable. Roses grow out of Miel's wrists, and rumors say that she spilled out of a water tower when she was five. Sam is known for the moons he paints and hangs in the trees and for how little anyone knows about his life before he and his mother moved to town. But as odd as everyone considers Miel and Sam, even they stay away from the Bonner girls, four beautiful sisters rumored to be witches\""
     },
     {
         "title": "Ziggy, Stardust, and Me",
         "author": "James Brandon",
+        "imageDownloaded": "R",
         "historicalfiction": "Y",
         "prose": "Y",
         "africanamericanOrBlack": "Y",
@@ -3594,11 +3893,13 @@ const data = [
         "mlmOrNblm": "Y",
         "bookBibnumber": 808129,
         "ebookBibnumber": 827068,
-        "audioBibnumber": 0
+        "audioBibnumber": 0,
+        "publishersSummary": "\"Set against the tumultuous backdrop of life in 1973, when homosexuality is still considered a mental illness, two boys defy all the odds and fall in love\""
     },
     {
         "title": "King and the Dragonflies",
         "author": "Kacen Callender",
+        "imageDownloaded": "R",
         "fiction": "Y",
         "prose": "Y",
         "africanamericanOrBlack": "Y",
@@ -3606,44 +3907,52 @@ const data = [
         "mlmOrNblm": "Y",
         "bookBibnumber": 826447,
         "ebookBibnumber": 884785,
-        "audioBibnumber": 978786
+        "audioBibnumber": 978786,
+        "publishersSummary": "In a small but turbulent Louisiana town, one boy's grief takes him beyond the bayous of his backyard, to learn that there is no right way to be yourself"
     },
     {
         "title": "Yonder",
         "author": "Jabari Asim",
+        "imageDownloaded": "R",
         "historicalfiction": "Y",
         "prose": "Y",
         "africanamericanOrBlack": "Y",
         "bookBibnumber": 941060,
         "ebookBibnumber": 947401,
-        "audioBibnumber": 0
+        "audioBibnumber": 0,
+        "publishersSummary": "The Water Dancer meets The Prophets in this spare, gripping, and beautifully rendered novel exploring love and friendship among a group of enslaved Black strivers in the mid-nineteenth century"
     },
     {
         "title": "The Absolutely True Diary of a Part-Time Indian",
         "author": "Sherman Alexie",
+        "imageDownloaded": "R",
         "fiction": "Y",
         "prose": "Y",
         "nativeamerican": "Y",
         "bookBibnumber": 200913,
         "ebookBibnumber": 492913,
-        "audioBibnumber": 799256
+        "audioBibnumber": 799256,
+        "publishersSummary": "Sherman Alexie, in his first book for young adults, tells the story of Junior, a budding cartoonist growing up on the Spokane Indian Reservation. Determined to take his future into his own hands, Junior leaves his troubled school on the reservation to attend an all-white farm town high school where the only other Indian is the school mascot. Heartbreaking, funny, beautifully written, semi-autobiographical, The Absolutely True Diary of a Part-Time Indian will continue to make a lasting impression for many years to come."
     },
     {
         "title": "The Sun Is Also a Star",
         "author": "Nicola Yoon",
+        "imageDownloaded": "R",
         "fiction": "Y",
         "prose": "Y",
-        "aapi": "Y",
+        "asianamericanAndPacificIslander": "Y",
         "latinx": "Y",
         "migrantstories": "Y",
         "ownvoices": "Y",
         "bookBibnumber": 619494,
         "ebookBibnumber": 625859,
-        "audioBibnumber": 629310
+        "audioBibnumber": 629310,
+        "publishersSummary": "College-bound romantic Daniel Bae and Jamaica-born pragmatist Natasha Kingsley meet, and fall for each other, over one magical day amidst the fervor and flurry of New York City. Sparks immediately fly between these two strangers, who might never have met had fate not given them a little push. But will fate be enough to take these teens from star-crossed to lucky in love?"
     },
     {
         "title": "The Poet X",
         "author": "Elizabeth Acevedo",
+        "imageDownloaded": "R",
         "fiction": "Y",
         "verse": "Y",
         "latinx": "Y",
@@ -3651,43 +3960,51 @@ const data = [
         "migrantstories": "Y",
         "bookBibnumber": 719037,
         "ebookBibnumber": 722399,
-        "audioBibnumber": 773870
+        "audioBibnumber": 773870,
+        "publishersSummary": "Harlem. Ever since her body grew into curves, Xiomara Batista has learned to let her fists and her fierceness do the talking. She pours all her frustration and passion onto the pages of a leather notebook, reciting the words to herself like prayers-- especially after she catches feelings for a boy in her bio class named Aman, who her family can never know about. Mami is determined to force her daughter to obey the laws of the church, and Xiomara understands that her thoughts are best kept to herself. When she is invited to join her school's slam poetry club, she can't stop thinking about performing her poems."
     },
     {
         "title": "Long Way Down",
         "author": "Jason Reynolds",
+        "imageDownloaded": "R",
         "fiction": "Y",
         "verse": "Y",
         "africanamericanOrBlack": "Y",
         "bookBibnumber": 685552,
         "ebookBibnumber": 691319,
-        "audioBibnumber": 773857
+        "audioBibnumber": 773857,
+        "publishersSummary": "There are three rules in the neighborhood: Don't cry ; Don't snitch ; Get revenge. Will takes his dead brother Shawn's gun, and gets in the elevator on the 7th floor. As the elevator stops on each floor, someone connected to Shawn gets on. Someone already dead. Dead by teenage gun violence. And each has something to share with Will."
     },
     {
         "title": "Every Body Looking",
         "author": "Candice Iloh",
+        "imageDownloaded": "R",
         "fiction": "Y",
         "verse": "Y",
         "africanamericanOrBlack": "Y",
         "migrantstories": "Y",
         "bookBibnumber": 854165,
         "ebookBibnumber": 844701,
-        "audioBibnumber": 0
+        "audioBibnumber": 0,
+        "publishersSummary": "A mixed-heritage dancer's coming of age within the African diaspora is shaped by abuse at the hands of a cousin, her mother's descent into addiction, and her father's efforts to create a Nigerian-inspired home in America."
     },
     {
         "title": "Piecing Me Together",
         "author": "Renee Watson",
+        "imageDownloaded": "E",
         "fiction": "Y",
         "prose": "Y",
         "africanamericanOrBlack": "Y",
         "ownvoices": "Y",
         "bookBibnumber": 635844,
         "ebookBibnumber": 722440,
-        "audioBibnumber": 0
+        "audioBibnumber": 0,
+        "publishersSummary": "Tired of being singled out at her mostly-white private school as someone who needs support, high school junior Jade would rather participate in the school's amazing Study Abroad program than join Women to Women, a mentorship program for at-risk girls."
     },
     {
         "title": "We Are Not From Here",
         "author": "Jenny Torres Sanchez",
+        "imageDownloaded": "E",
         "fiction": "Y",
         "prose": "Y",
         "latinx": "Y",
@@ -3696,22 +4013,26 @@ const data = [
         "mentalhealth": "Y",
         "bookBibnumber": 840998,
         "ebookBibnumber": 840446,
-        "audioBibnumber": 884716
+        "audioBibnumber": 884716,
+        "publishersSummary": "Pulga has his dreams. Chico has his grief. Pequeña has her pride. And these three teens have one another. But, none of them have illusions about the town they've grown up in and the dangers that surround them. Even with the love of family, threats lurk around every corner. And when those threats become all too real, the trio knows they have no choice but to run: from their country, from their families, from their beloved home. Crossing from Guatemala through Mexico, they follow the route of La Bestia, the perilous train system that might deliver them to a better life -- if they are lucky enough to survive the journey. With nothing but the bags on their backs and desperation drumming through their hearts, Pulga, Chico, and Pequeña know there is no turning back, despite the unknown that awaits them. And the darkness that seems to follow wherever they go."
     },
     {
         "title": "The Librarian of Auschwitz",
         "author": "Antonio Iturbe",
+        "imageDownloaded": "E",
         "historicalfiction": "Y",
         "prose": "Y",
         "ownvoices": "Y",
         "jewish": "Y",
         "bookBibnumber": 683939,
         "ebookBibnumber": 701014,
-        "audioBibnumber": 762358
+        "audioBibnumber": 762358,
+        "publishersSummary": "Based on the experience of real-life Auschwitz prisoner Dita Kraus, this is the incredible story of a girl who risked her life to keep the magic of books alive during the Holocaust. Fourteen-year-old Dita is one of the many imprisoned by the Nazis at Auschwitz. Taken, along with her mother and father, from the Terezin."
     },
     {
         "title": "Darius the Great Deserves Better",
         "author": "Adib Khorram",
+        "imageDownloaded": "E",
         "fiction": "Y",
         "prose": "Y",
         "arabOrArabamerican": "Y",
@@ -3719,11 +4040,13 @@ const data = [
         "mlmOrNblm": "Y",
         "bookBibnumber": 854167,
         "ebookBibnumber": 0,
-        "audioBibnumber": 0
+        "audioBibnumber": 0,
+        "publishersSummary": "Darius Kellner has everything he thought he wanted--a new boyfriend, a new internship, and a spot on the soccer team--but growing up makes him question everything."
     },
     {
         "title": "The Return of Faraz Ali",
         "author": "Aamina Ahmad",
+        "imageDownloaded": "E",
         "fiction": "Y",
         "mysteryHorror": "Y",
         "prose": "Y",
@@ -3731,11 +4054,13 @@ const data = [
         "ownvoices": "Y",
         "bookBibnumber": 957699,
         "ebookBibnumber": 0,
-        "audioBibnumber": 0
+        "audioBibnumber": 0,
+        "publishersSummary": "Not since childhood has Faraz returned to the Mohalla, Lahore's infamous walled inner city, where women still pass down the profession of courtesan to their daughters. But he still remembers the day he was abducted from the home he shared with his mother and sister there, at the direction of his powerful father, who wanted to give him a chance at a respectable life. Now Wajid, once more dictating his fate from afar, has sent Faraz back to Lahore, installing him as head of the Mohalla police station and charging him with a mission: to cover up the violent death of a young kanjari. It should be a simple assignment to carry out in a marginalized community, but for the first time in his career, Faraz finds himself unable to follow orders. As the city assails him with a jumble of memories, he cannot stop asking questions or chasing down the walled city's labyrinthine alleyways for the secrets-his family's and his own-that risk shattering his precariously constructed existence. Profoundly intimate and propulsive, The Return of Faraz Ali is a spellbindingly assured first novel that poses a timeless question: Whom do we choose to protect, and at what price?"
     },
     {
         "title": "Probably Ruby",
         "author": "Lisa Bird-Wilson",
+        "imageDownloaded": "E",
         "historicalfiction": "Y",
         "prose": "Y",
         "nativeamerican": "Y",
@@ -3746,6 +4071,7 @@ const data = [
     {
         "title": "Your Nostalgia Is Killing Me",
         "author": "John Weir",
+        "imageDownloaded": "E",
         "memoirautobiograohy": "Y",
         "nonfiction": "Y",
         "prose": "Y",
@@ -3753,11 +4079,13 @@ const data = [
         "mlmOrNblm": "Y",
         "bookBibnumber": 954250,
         "ebookBibnumber": 0,
-        "audioBibnumber": 0
+        "audioBibnumber": 0,
+        "publishersSummary": "A story collection that chronicles the long aftermath of epidemic death as recorded in the tragicomic voice of a gay man who survived high school in the 1970s, the AIDS death of his best friend in the 1990s, and his complicated relationship with his mother, 'a movie star without a movie to star in,' whose life is winding to a close in a retirement community where she lives alone with her last dog"
     },
     {
         "title": "Love Marriage",
         "author": "Monica Ali",
+        "imageDownloaded": "E",
         "fiction": "Y",
         "prose": "Y",
         "arabOrArabamerican": "Y",
@@ -3765,11 +4093,13 @@ const data = [
         "muslim": "Y",
         "bookBibnumber": "22274570&db=3213",
         "ebookBibnumber": 965525,
-        "audioBibnumber": 965517
+        "audioBibnumber": 965517,
+        "publishersSummary": "Yasmin Ghorami in twenty-six, in training to be a doctor (like her Indian-born father), and engaged to the charismatic, upper-class Joe Sangster, whose formidable mother, Harriet, is a famous feminist. The gulf between families is vast. So, too, is the gulf in sexual experience between Yasmin and Joe. As the wedding day draws near, misunderstandings, infidelities, and long-held secrets upend both Yasmin's relationship and that of her parents, a \"love marriage,\" according to the family lore that Yasmin has believed all her life. A gloriously acute observer of class, sexual mores, and the mysteries of the human heart, Monica Ali has written a captivating social comedy and a profoundly moving, revelatory story of two cultures, two families, and two people trying to understand one another."
     },
     {
         "title": "Right Where I Left You",
         "author": "Julian Winters",
+        "imageDownloaded": "E",
         "fiction": "Y",
         "romance": "Y",
         "prose": "Y",
@@ -3779,11 +4109,13 @@ const data = [
         "mlmOrNblm": "Y",
         "bookBibnumber": 965423,
         "ebookBibnumber": 0,
-        "audioBibnumber": 0
+        "audioBibnumber": 0,
+        "publishersSummary": "The summer before he leaves for college, eighteen-year-old Isaac Martin makes big plans with his best friend Diego that only the reappearance of an old crush can derail."
     },
     {
         "title": "Breathe and Count Back from Ten",
         "author": "Natalia Sylvester",
+        "imageDownloaded": "E",
         "fiction": "Y",
         "prose": "Y",
         "latinx": "Y",
@@ -3794,11 +4126,13 @@ const data = [
         "depression": "Y",
         "bookBibnumber": 0,
         "ebookBibnumber": 0,
-        "audioBibnumber": 0
+        "audioBibnumber": 0,
+        "publishersSummary": "erónica has had many surgeries to manage her disability. The best form of rehabilitation is swimming, so she spends hours in the pool, but not just to strengthen her body. Her Florida town is home to Mermaid Cove, a kitschy underwater attraction where professional mermaids perform in giant tanks . . . and Verónica wants to audition. But her conservative Peruvian parents would never go for it. And they definitely would never let her be with Alex, her cute new neighbor. She decides it's time to seize control of her life, but her plans come crashing down when she learns her parents have been hiding the truth from her--the truth about her own body."
     },
     {
         "title": "The Book Theif",
         "author": "Marcus Zuzak",
+        "imageDownloaded": "E",
         "historicalfiction": "Y",
         "prose": "Y",
         "jewish": "Y",
@@ -3810,6 +4144,7 @@ const data = [
     {
         "title": "This Is My America",
         "author": "Kim Johnson",
+        "imageDownloaded": "E",
         "fiction": "Y",
         "prose": "Y",
         "africanamericanOrBlack": "Y",
@@ -3821,6 +4156,7 @@ const data = [
     {
         "title": "Apple in the Middle",
         "author": "Dawn Quigley",
+        "imageDownloaded": "E",
         "fiction": "Y",
         "prose": "Y",
         "nativeamerican": "Y",
@@ -3832,6 +4168,7 @@ const data = [
     {
         "title": "House of Purple Cedar",
         "author": "Tim Tingle",
+        "imageDownloaded": "E",
         "historicalfiction": "Y",
         "prose": "Y",
         "nativeamerican": "Y",
@@ -3843,6 +4180,7 @@ const data = [
     {
         "title": "Rain Is Not My Indian Name",
         "author": "Cynthia Leitich Smith",
+        "imageDownloaded": "E",
         "fiction": "Y",
         "prose": "Y",
         "nativeamerican": "Y",
@@ -3850,60 +4188,70 @@ const data = [
         "bookBibnumber": 931265,
         "ebookBibnumber": 0,
         "audioBibnumber": 0,
-        "publishersSummary": "When Louise Wolfe's boyfriend mocks and disrespects Native people in front of her, she breaks things off and dumps him over e-mail. She'd rather spend her senior year with her family and friends and working on the school newspaper. The editors pair her up with Joey Kairouz, an ambitious new photojournalist, and in no time the paper's staff find themselves with a major story to cover: the school musical director's inclusive approach to casting The Wizard of Oz has been provoking backlash in their mostly white, middle-class Kansas town. As tensions mount at school, so does a romance between Lou and Joey. But 'dating while Native' can be difficult. In trying to protect her own heart, will Lou break Joey's? -- adapted from jacket"
+        "publishersSummary": "Tired of staying in seclusion since the death of her best friend, a fourteen-year-old Native American girl takes on a photographic assignment with her local newspaper to cover events at the Native American summer youth camp"
     },
     {
         "title": "Hearts Unbroken",
         "author": "Cynthia Leitich Smith",
+        "imageDownloaded": "E",
         "fiction": "Y",
         "prose": "Y",
         "nativeamerican": "Y",
         "ownvoices": "Y",
         "bookBibnumber": 757083,
         "ebookBibnumber": 910663,
-        "audioBibnumber": 0
+        "audioBibnumber": 0,
+        "publishersSummary": "When Louise Wolfe's boyfriend mocks and disrespects Native people in front of her, she breaks things off and dumps him over e-mail. She'd rather spend her senior year with her family and friends and working on the school newspaper. The editors pair her up with Joey Kairouz, an ambitious new photojournalist, and in no time the paper's staff find themselves with a major story to cover: the school musical director's inclusive approach to casting The Wizard of Oz has been provoking backlash in their mostly white, middle-class Kansas town. As tensions mount at school, so does a romance between Lou and Joey. But 'dating while Native' can be difficult. In trying to protect her own heart, will Lou break Joey's?"
     },
     {
         "title": "If I Ever Get Out of Here",
         "author": "Eric Gansworth",
+        "imageDownloaded": "E",
         "historicalfiction": "Y",
         "prose": "Y",
         "nativeamerican": "Y",
         "bookBibnumber": 366350,
         "ebookBibnumber": 0,
-        "audioBibnumber": 0
+        "audioBibnumber": 0,
+        "publishersSummary": "Seventh-grader Lewis \"Shoe\" Blake from the Tuscarora Reservation has a new friend, George Haddonfield from the local Air Force base, but in 1975 upstate New York there is a lot of tension and hatred between Native Americans and Whites--and Lewis is not sure that he can rely on friendship."
     },
     {
         "title": "Elatsoe ",
         "author": "Darcie Little Badger",
+        "imageDownloaded": "E",
         "fantasy": "Y",
         "mysteryHorror": "Y",
         "prose": "Y",
         "nativeamerican": "Y",
         "bookBibnumber": 847677,
         "ebookBibnumber": 869275,
-        "audioBibnumber": 869308
+        "audioBibnumber": 869308,
+        "publishersSummary": "Imagine an America very similar to our own. It's got homework, best friends, and pistachio ice cream. There are some differences. This America has been shaped dramatically by the magic, monsters, knowledge, and legends of its peoples, those Indigenous and those not. Some of these forces are charmingly everyday, like the ability to make an orb of light appear or travel across the world through rings of fungi. But other forces are less charming and should never see the light of day. Seventeen-year-old Elatsoe (\"Ellie\" for short) lives in this slightly stranger America. She can raise the ghosts of dead animals, a skill passed down through generations of her Lipan Apache family. Her beloved cousin has just been murdered, in a town that wants no prying eyes. But she is going to do more than pry. The picture-perfect façade of Willowbee masks gruesome secrets, and she will rely on her wits, skills, and friends to tear off the mask and protect her family"
     },
     {
         "title": "Surviving the City",
         "author": "Tasha Spillet",
+        "imageDownloaded": "E",
         "fiction": "Y",
         "graphicnovel": "Y",
         "nativeamerican": "Y",
         "bookBibnumber": 829723,
         "ebookBibnumber": 0,
-        "audioBibnumber": 0
+        "audioBibnumber": 0,
+        "publishersSummary": "Tasha Spillet's graphic-novel debut, Surviving the City, is a story about womanhood, friendship, resilience, and the anguish of a missing loved one. Miikwan and Dez are best friends. Miikwan's Anishinaabe; Dez is Inninew. Together, the teens navigate the challenges of growing up in an urban landscape - they're so close, they even completed their Berry Fast together. However, when Dez's grandmother becomes too sick, Dez is told she can't stay with her anymore. With the threat of a group home looming, Dez can't bring herself to go home and disappears. Miikwan is devastated, and the wound of her missing mother resurfaces. Will Dez's community find her before it's too late? Will Miikwan be able to cope if they don't? Colonialism and the issue of Missing and Murdered Indigenous Women, Girls, and Two-Spirit People are explored in Natasha Donovan's beautiful illustrations."
     },
     {
         "title": "A Girl Called Echo",
         "author": "Katherena Vermette ",
+        "imageDownloaded": "E",
         "urbanfantasy": "Y",
         "graphicnovel": "Y",
         "nativeamerican": "Y",
         "ownvoices": "Y",
         "bookBibnumber": 902492,
         "ebookBibnumber": 0,
-        "audioBibnumber": 0
+        "audioBibnumber": 0,
+        "publishersSummary": "Echo Desjardins, a 13-year-old Métis girl adjusting to a new home and school, is struggling with loneliness while separated from her mother. Then an ordinary day in Mr. Bee's history class turns extraordinary, and Echo's life will never be the same. During Mr. Bee's lecture, Echo finds herself transported to another time and place--a bison hunt on the Saskatchewan prairie--and back again to the present. In the following weeks, Echo slips back and forth in time. She visits a Métis camp, travels the old fur-trade routes, and experiences the perilous and bygone era of the Pemmican Wars."
     },
     {
         "title": "It All Comes Back to You",
@@ -3915,10 +4263,11 @@ const data = [
         "muslim": "Y",
         "bookBibnumber": 929310,
         "ebookBibnumber": 0,
-        "audioBibnumber": 937610
+        "audioBibnumber": 937610,
+        "publishersSummary": "Two exes must revisit their past after their siblings start dating in this rom-com perfect for fans of Sandhya Menon and Morgan Matson. After Kiran Noorani's mom died, Kiran vowed to keep her dad and sister, Amira, close--to keep her family together. But when Amira announces that she's dating someone, Kiran's world is turned upside down. Deen Malik is thrilled that his brother, Faisal, has found a great girlfriend. Maybe a new love will give Faisal a new lease on life, and Deen can stop feeling guilty for the reason that Faisal needs a do-over in the first place. When the families meet, Deen and Kiran find themselves face to face. Again. Three years ago--before Amira and Faisal met--Kiran and Deen dated in secret. Until Deen ghosted Kiran. And now, after discovering hints of Faisal's shady past, Kiran will stop at nothing to find answers. Deen just wants his brother to be happy--an"
     },
     {
-        "title": "A Emotion of Great Delight",
+        "title": "An Emotion of Great Delight",
         "author": "Tahereh Mafi",
         "fiction": "Y",
         "prose": "Y",
@@ -3927,7 +4276,8 @@ const data = [
         "muslim": "Y",
         "bookBibnumber": 901565,
         "ebookBibnumber": 0,
-        "audioBibnumber": 910647
+        "audioBibnumber": 910647,
+        "publishersSummary": "It's 2003, several months since the US officially declared war on Iraq, and the American political world has evolved. Tensions are high, hate crimes are on the rise, FBI agents are infiltrating local mosques, and the Muslim community is harassed and targeted more than ever. Shadi, who wears hijab, keeps her head down. She's too busy drowning in her own troubles to find the time to deal with bigots. Shadi is named for joy, but she's haunted by sorrow. Her brother is dead, her father is dying, her mother is falling apart, and her best friend has mysteriously dropped out of her life. And then, of course, there's the small matter of her hear-- It's broken. Shadi tries to navigate her crumbling world by soldiering through, saying nothing. She devours her own pain, each day retreating farther and farther inside herself until finally, one day, everything changes. She explodes. An emotion of great delight is a searing look into the world of a single Muslim family in the wake of 9/11. It's about a child of immigrants forging a blurry identity, falling in love, and finding hope--in the midst of a modern war."
     },
     {
         "title": "You Truly Assumed",
@@ -3939,7 +4289,8 @@ const data = [
         "muslim": "Y",
         "bookBibnumber": 947575,
         "ebookBibnumber": 0,
-        "audioBibnumber": 0
+        "audioBibnumber": 0,
+        "publishersSummary": "In this compelling and thought-provoking debut novel, after a terrorist attack rocks the country and anti-Islamic sentiment stirs, three Black Muslim girls create a space where they can shatter assumptions and share truths."
     },
     {
         "title": "Yes No Maybe So",
@@ -3952,7 +4303,8 @@ const data = [
         "muslim": "Y",
         "bookBibnumber": 826553,
         "ebookBibnumber": 834589,
-        "audioBibnumber": 897753
+        "audioBibnumber": 897753,
+        "publishersSummary": "Jamie Goldberg, who chokes when speaking to strangers, and Maya Rehrman, who is having the worst Ramadan ever, are paired to knock on doors and ask for votes for the local state senate candidate."
     },
     {
         "title": "If You Could Be Mine",
@@ -3966,7 +4318,8 @@ const data = [
         "muslim": "Y",
         "bookBibnumber": 368406,
         "ebookBibnumber": 754800,
-        "audioBibnumber": 0
+        "audioBibnumber": 0,
+        "publishersSummary": "In Iran, where homosexuality is punishable by death, seventeen-year-olds Sahar and Nasrin love each other in secret until Nasrin's parents announce their daughter's arranged marriage and Sahar proposes a drastic solution"
     },
     {
         "title": "Zara Hossain Is Here",
@@ -3980,14 +4333,15 @@ const data = [
         "mutedeafblind": "Y",
         "bookBibnumber": 907195,
         "ebookBibnumber": 0,
-        "audioBibnumber": 0
+        "audioBibnumber": 0,
+        "publishersSummary": "Seventeen-year-old Pakistani immigrant Zara Hossain has been leading a fairly typical life in Corpus Christi, Texas, since her family moved there for her father to work as a pediatrician. While dealing with the Islamophobia that she faces at school, Zara has to lay low, trying not to stir up any trouble and jeopardize their family's dependent visa status while they await their green card approval, which has been in process for almost nine years. But one day her tormentor, star football player Tyler Benson, takes things too far--[defacing her locker with a racist message]--and gets suspended\""
     },
     {
         "title": "The Marvelous Mizra Girls",
         "author": "Sheba Karim ",
         "fiction": "Y",
         "prose": "Y",
-        "aapi": "Y",
+        "asianamericanAndPacificIslander": "Y",
         "migrantstories": "Y",
         "ownvoices": "Y"
     },
@@ -3997,15 +4351,22 @@ const data = [
         "fiction": "Y",
         "prose": "Y",
         "invisibledisability": "Y",
-        "neurodiverdent": "Y"
+        "neurodiverdent": "Y",
+        "bookBibnumber": 0,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0
     },
     {
         "title": "A Time to Dance",
         "author": "Padma Venkatraman",
         "fiction": "Y",
         "verse": "Y",
-        "aapi": "Y",
-        "characterwithdisability": "Y"
+        "asianamericanAndPacificIslander": "Y",
+        "characterwithdisability": "Y",
+        "bookBibnumber": 410280,
+        "ebookBibnumber": 636470,
+        "audioBibnumber": 0,
+        "publishersSummary": "In India, a girl who excels at Bharatanatyam dance refuses to give up after losing a leg in an accident."
     },
     {
         "title": "On the Edge of Gone",
@@ -4013,7 +4374,11 @@ const data = [
         "scifi": "Y",
         "prose": "Y",
         "invisibledisability": "Y",
-        "neurodiverdent": "Y"
+        "neurodiverdent": "Y",
+        "bookBibnumber": 0,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0,
+        "publishersSummary": "In Amsterdam, the Netherlands, in 2034, a comet is due to hit the Earth within the hour. Denise, who's sixteen years old and autistic, must try to find her missing sister and also help her neglectful, undependable mother safely aboard a spaceship"
     },
     {
         "title": "The Thing the Eye Can't See",
@@ -4021,7 +4386,10 @@ const data = [
         "fiction": "Y",
         "prose": "Y",
         "characterwithdisability": "Y",
-        "mutedeafblind": "Y"
+        "mutedeafblind": "Y",
+        "bookBibnumber": 0,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0
     },
     {
         "title": "A Quiet Kind of Thunder",
@@ -4029,24 +4397,36 @@ const data = [
         "fiction": "Y",
         "prose": "Y",
         "characterwithdisability": "Y",
-        "mutedeafblind": "Y"
+        "mutedeafblind": "Y",
+        "bookBibnumber": 983302,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0,
+        "publishersSummary": "Steffi has been a selective mute for most of her life--she's been silent for so long that she feels completely invisible. But Rhys, the new boy at school, sees her. He's deaf, and her knowledge of basic sign language means that she's assigned to look after him. To Rhys it doesn't matter that Steffi doesn't talk and, as they find ways to communicate, Steffi finds that she does have a voice, and that she's falling in love with the one person who makes her feel brave enough to use it."
     },
     {
         "title": "The Silence that Binds Us",
         "author": "Joanna Ho",
         "fiction": "Y",
         "prose": "Y",
-        "aapi": "Y",
+        "asianamericanAndPacificIslander": "Y",
         "migrantstories": "Y",
         "mentalhealth": "Y",
-        "depression": "Y"
+        "depression": "Y",
+        "bookBibnumber": 968455,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0,
+        "publishersSummary": "In the year following their son's death, May Chen's parents face racist accusations of putting too much pressure on their son and causing his death by suicide, and May attempts to challenge the racism and ugly stereotypes through her writing, only to realize that she still has a lot to learn and that her actions have consequences for her family as well as herself."
     },
     {
         "title": "The Boy Who Steals Houses",
         "author": "C.G. Drew",
         "fiction": "Y",
         "prose": "Y",
-        "neurodiverdent": "Y"
+        "neurodiverdent": "Y",
+        "bookBibnumber": 833287,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0,
+        "publishersSummary": "Can two broken boys find their perfect home? By turns heartbreaking and heartwarming, this is a gorgeously told, powerful story.Sam is only fifteen but he and his autistic older brother, Avery, have been abandoned by every relative he's ever known. Now Sam's trying to build a new life for them. He survives by breaking into empty houses when their owners are away, until one day he's caught out when a family returns home. To his amazement this large, chaotic family takes him under their wing - each teenager assuming Sam is a friend of another sibling. Sam finds himself inextricably caught up in their life, and falling for the beautiful Moxie. But Sam has a secret, and his past is about to catch up with him."
     },
     {
         "title": "Mexican Whiteboy",
@@ -4054,44 +4434,67 @@ const data = [
         "fiction": "Y",
         "prose": "Y",
         "latinx": "Y",
-        "ownvoices": "Y"
+        "ownvoices": "Y",
+        "bookBibnumber": 223025,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0,
+        "publishersSummary": "Sixteen-year-old Danny searches for his identity amidst the confusion of being half-Mexican and half-white while spending a summer with his cousin and new friends on the baseball fields and back alleys of San Diego County, California."
     },
     {
         "title": "The Astonishing Color of After",
         "author": "Emily X.R. Pan",
         "fiction": "Y",
         "prose": "Y",
-        "aapi": "Y",
+        "asianamericanAndPacificIslander": "Y",
         "migrantstories": "Y",
-        "mentalhealth": "Y"
+        "mentalhealth": "Y",
+        "bookBibnumber": 714246,
+        "ebookBibnumber": 722442,
+        "audioBibnumber": 0,
+        "publishersSummary": "After her mother's suicide, grief-stricken Leigh Sanders travels to Taiwan to stay with grandparents she never met, determined to find her mother who she believes turned into a bird."
     },
     {
         "title": "With the Fire on High",
         "author": "Elizabeth Acevedo",
         "fiction": "Y",
         "prose": "Y",
-        "africanamericanOrBlack": "Y"
+        "africanamericanOrBlack": "Y",
+        "bookBibnumber": 792952,
+        "ebookBibnumber": 881493,
+        "audioBibnumber": 795255,
+        "publishersSummary": "Ever since she got pregnant freshman year, Emoni Santiago's life has been about making the tough decisions?doing what has to be done for her daughter and her abuela. The one place she can let all that go is in the kitchen, where she adds a little something magical to everything she cooks, turning her food into straight-up goodness. Even though she dreams of working as a chef after she graduates, Emoni knows that it's not worth her time to pursue the impossible. Yet despite the rules she thinks she has to play by, once Emoni starts cooking, her only choice is to let her talent break free."
     },
     {
         "title": "Survive the Dome",
         "author": "Kosovo Jackson",
         "scifi": "Y",
         "prose": "Y",
-        "africanamericanOrBlack": "Y"
+        "africanamericanOrBlack": "Y",
+        "bookBibnumber": 965428,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0,
+        "publishersSummary": "A high school junior teams up with a hacker during a police brutality protest to shut down a device that creates an impenetrable dome around Baltimore that is keeping the residents in and information from going out"
     },
     {
         "title": "Sofi and the Bone Song",
         "author": "Adrienne Tooley",
         "fantasy": "Y",
         "prose": "Y",
-        "aapi": "Y"
+        "asianamericanAndPacificIslander": "Y",
+        "bookBibnumber": 0,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0
     },
     {
         "title": "This Place is Still Beautiful",
         "author": "XiXi Tian",
         "fiction": "Y",
         "prose": "Y",
-        "aapi": "Y"
+        "asianamericanAndPacificIslander": "Y",
+        "bookBibnumber": 966120,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0,
+        "publishersSummary": "Two sisters. A shocking racist incident. The summer that will change both of their lives forever. Annalie and Margaret are sisters who agree on only one thing: that they have nothing in common. Nineteen-year-old Margaret is driven, ambitious, and keenly aware of social justice issues. She couldn't wait to leave their oppressive small hometown and take flight in New York. Meanwhile sweet, popular, seventeen-year-old Annalie can't think of anything worse - she loves their town, and feels safe coasting along in its confines. Until she arrives home one day to find a gut-punching racial slur painted on their garage door.Margaret immediately flies home, expecting to find her family up in arms - but she's shocked to learn they want to forget about it. Their mom is worried about what it might stir up, and Annalie just wants to have a 'normal' summer. Margaret and Annalie find their relationship hanging by a thread - and then, when it looks like the thrill of first love (Annalie) and lost love (Margaret) might bring them together... a crushing secret threatens to tear them apart forever."
     },
     {
         "title": "The Fascinators",
@@ -4100,7 +4503,10 @@ const data = [
         "prose": "Y",
         "lgbtqia": "Y",
         "mlmOrNblm": "Y",
-        "closetsafe": "Y"
+        "closetsafe": "Y",
+        "bookBibnumber": 0,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0
     },
     {
         "title": "Yesterday is History",
@@ -4108,21 +4514,32 @@ const data = [
         "urbanfantasy": "Y",
         "prose": "Y",
         "lgbtqia": "Y",
-        "mlmOrNblm": "Y"
+        "mlmOrNblm": "Y",
+        "bookBibnumber": 897477,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0
     },
     {
         "title": "Crown of Feathers",
         "author": "Nicki Pau-Preto",
         "fantasy": "Y",
         "prose": "Y",
-        "aapi": "Y"
+        "asianamericanAndPacificIslander": "Y",
+        "bookBibnumber": 808097,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 834580,
+        "publishersSummary": "An Ember in the Ashes meets Three Dark Crowns in this lush debut fantasy novel about a girl who disguises herself as a boy to join a secret group of warriors that ride phoenixes into battle. I had a sister, once... In a world ruled by fierce warrior queens, a grand empire was built upon the backs of Phoenix Riders--legendary heroes who soared through the sky on wings of fire--until a war between two sisters ripped it all apart. I promised her the throne would not come between us. Sixteen years later, Veronyka is a war orphan who dreams of becoming a Phoenix Rider from the stories of old. After a shocking betrayal from her controlling sister, Veronyka strikes out alone to find the Riders--even if that means disguising herself as a boy to join their ranks. But it is a fact of life that one must kill or be killed. Rule or be ruled. Just as Veronyka finally feels like she belongs, her sister turns up and reveals a tangled web of lies between them that will change everything. And meanwhile, the new empire has learned of the Riders' return and intends to destroy them once and for all. Sometimes the title of queen is given. Sometimes it must be taken. Crown of Feathers is an epic fantasy about love's incredible power to save--or to destroy. Interspersed throughout is the story of Avalkyra Ashfire, the last Rider queen, who would rather see her empire burn than fall into her sister's hands."
     },
     {
         "title": "Lulu and Milagro's Search for Clarity",
         "author": "Angela Velez",
         "fiction": "Y",
         "prose": "Y",
-        "latinx": "Y"
+        "latinx": "Y",
+        "bookBibnumber": 952594,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0,
+        "publishersSummary": "Overachiever Luz \"Lulu\" Zavala has straight As, perfect attendance, and a solid ten-year plan. First up: nail her interview for a dream internship at Stanford, the last stop on her school's cross-country college road trip. The only flaw in her plan is Clara, her oldest sister, who went off to college and sparked a massive fight with their overprotective Peruvian mom, who is now convinced that out-of-state-college will destroy their family. If Lulu can't fix whatever went wrong between them, the whole trip--and her future--will be a waste. Middle sister Milagro wants nothing to do with college or a nerdy class field trip. Then a spot opens up on the trip just as her own spring break plans (Operation Don't Die a Virgin) are thwarted, and she hops on the bus with her glittery lipsticks, more concerned about getting back at her ex than she is about schools or any family drama. But the trip opens her eyes about possibilities she'd never imagined for herself. Maybe she is more than the boy-crazy girl everyone seems to think she is. On a journey from Baltimore all the way to San Francisco, Lulu and Milagro will become begrudging partners as they unpack weighty family expectations, uncover Clara's secrets, and maybe even discover the true meaning of sisterhood."
     },
     {
         "title": "My Heart Underwater",
@@ -4133,7 +4550,10 @@ const data = [
         "lgbtqia": "Y",
         "wlwOrNblw": "Y",
         "migrantstories": "Y",
-        "ownvoices": "Y"
+        "ownvoices": "Y",
+        "bookBibnumber": 881128,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0
     },
     {
         "title": "The Darkness Outside Us",
@@ -4142,7 +4562,11 @@ const data = [
         "prose": "Y",
         "africanamericanOrBlack": "Y",
         "lgbtqia": "Y",
-        "mlmOrNblm": "Y"
+        "mlmOrNblm": "Y",
+        "bookBibnumber": 910513,
+        "ebookBibnumber": 970271,
+        "audioBibnumber": 0,
+        "publishersSummary": "Earth's population is divided between only two existing countries which cannot manage to cooperate in any way, until a distress signal arrives from Titan's first settler and neither can afford to rescue her on their own if they act separately. Ambrose wakes up on board with successfully reaching his sister the primary thought in his mind until he notices several strange circumstances: he doesn't remember the launch, the ship's OS is voiced by his mother, strangers have been aboard, and the only other person on this mission has barricaded himself away from sight. It's quite possible he won't be able to puzzle out these occurances on his own, but even in learning to work together, it's just as possible that Kodiak and Ambrose are up against bigger forces than they could have even imagined."
     },
     {
         "title": "I Am Alfonso Jones",
@@ -4150,7 +4574,11 @@ const data = [
         "fiction": "Y",
         "graphicnovel": "Y",
         "africanamericanOrBlack": "Y",
-        "ownvoices": "Y"
+        "ownvoices": "Y",
+        "bookBibnumber": 711942,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0,
+        "publishersSummary": "The ghost of fifteen-year-old Alfonso Jones travels in a New York subway car full of the living and the dead, watching his family and friends fight for justice after he's killed by an off-duty police officer while buying a suit in a Midtown department store."
     },
     {
         "title": "Paper Girls",
@@ -4158,15 +4586,23 @@ const data = [
         "urbanfantasy": "Y",
         "historicalfiction": "Y",
         "graphicnovel": "Y",
-        "aapi": "Y"
+        "asianamericanAndPacificIslander": "Y",
+        "bookBibnumber": 0,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0,
+        "publishersSummary": "In the early hours after Halloween of 1988, four 12-year-old newspaper delivery girls uncover the most important story of all time."
     },
     {
         "title": "Almost American Girl",
         "author": "Robin Ha",
         "fiction": "Y",
         "graphicnovel": "Y",
-        "aapi": "Y",
-        "migrantstories": "Y"
+        "asianamericanAndPacificIslander": "Y",
+        "migrantstories": "Y",
+        "bookBibnumber": 829003,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0,
+        "publishersSummary": "For as long as she can remember, it's been Robin and her mom against the world. Growing up as the only child of a single mother in Seoul, Korea, wasn't always easy, but it has bonded them fiercely together. So when a vacation to visit friends in Huntsville, Alabama, unexpectedly becomes a permanent relocation--following her mother's announcement that she's getting married--Robin is devastated. Overnight, her life changes. She is dropped into a new school where she doesn't understand the language and struggles to keep up. She is completely cut off from her friends in Seoul and has no access to her beloved comics. At home, she doesn't fit in with her new stepfamily, and worst of all, she is furious with the one person she is closest to--her mother. Then one day Robin's mother enrolls her in a local comic drawing class, which opens the window to a future Robin could never have imagined"
     },
     {
         "title": "All Kinds of Other",
@@ -4175,7 +4611,11 @@ const data = [
         "prose": "Y",
         "lgbtqia": "Y",
         "mlmOrNblm": "Y",
-        "trans": "Y"
+        "trans": "Y",
+        "bookBibnumber": 0,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 907215,
+        "publishersSummary": "Two boys are starting over at a new high school. Jules is still figuring out what it means to be gay, and just how out he wants to be. Jack is reeling from a fall-out with his best friend, and isn't ready to let anyone else in just yet. When Jules and Jack meet, the sparks are undeniable. But when a video linking Jack to a pair of popular trans vloggers is leaked to the school, the revelations thrust both boys into the spotlight they'd tried to avoid."
     },
     {
         "title": "We Can't Keep Meeting Like This",
@@ -4183,14 +4623,22 @@ const data = [
         "fiction": "Y",
         "romance": "Y",
         "prose": "Y",
-        "aapi": "Y"
+        "asianamericanAndPacificIslander": "Y",
+        "bookBibnumber": 990197,
+        "ebookBibnumber": 913420,
+        "audioBibnumber": 913430,
+        "publishersSummary": "Wedding harpist Quinn and cater-waiter Tarek develop feelings for each other, but while Tarek is a hopeless romantic, Quinn is not sure she believes in love, especially since the same boy she might be falling for spurned her the previous summer."
     },
     {
         "title": "From Dust, A Flame",
         "author": "Rebecca Podos",
         "urbanfantasy": "Y",
         "prose": "Y",
-        "jewish": "Y"
+        "jewish": "Y",
+        "bookBibnumber": 956050,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0,
+        "publishersSummary": "On her seventeenth birthday, Hannah Williams begins exhibiting impossible, temporary mutations--gills one day and horns the next--that are the consequences of a desperate bargain her mother made with a sheyd decades ago, and to break the family curse, Hannah and her brother track down their mother's estranged family and discover a legacy that traces back to the Golem of Prague."
     },
     {
         "title": "Every Heart a Doorway",
@@ -4198,7 +4646,11 @@ const data = [
         "fantasy": "Y",
         "prose": "Y",
         "lgbtqia": "Y",
-        "wlwOrNblw": "Y"
+        "wlwOrNblw": "Y",
+        "bookBibnumber": 956050,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0,
+        "publishersSummary": "Children have always disappeared from Eleanor West's Home for Wayward Children under the right conditions; slipping through the shadows under a bed or at the back of a wardrobe, tumbling down rabbit holes and into old wells, and emerging somewhere ... else. But magical lands have little need for used-up miracle children. Nancy tumbled once, but now she's back. The things she's experienced ... they change a person. The children under Miss West's care understand all too well. And each of them is seeking a way back to their own fantasy world. But Nancy's arrival marks a change at the Home. There's a darkness just around each corner, and when tragedy strikes, it's up to Nancy and her new-found schoolmates to get to the heart of the matter. No matter the cost."
     },
     {
         "title": "Every Variable of Us",
@@ -4206,9 +4658,12 @@ const data = [
         "fiction": "Y",
         "prose": "Y",
         "africanamericanOrBlack": "Y",
-        "aapi": "Y",
+        "asianamericanAndPacificIslander": "Y",
         "lgbtqia": "Y",
-        "wlwOrNblw": "Y"
+        "wlwOrNblw": "Y",
+        "bookBibnumber": 0,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0
     },
     {
         "title": "Jay's Gay Agenda",
@@ -4216,9 +4671,13 @@ const data = [
         "fiction": "Y",
         "romance": "Y",
         "prose": "Y",
-        "aapi": "Y",
+        "asianamericanAndPacificIslander": "Y",
         "lgbtqia": "Y",
-        "mlmOrNblm": "Y"
+        "mlmOrNblm": "Y",
+        "bookBibnumber": 0,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0,
+        "publishersSummary": "Growing up in rural Washington as the only out gay kid means Jay is constantly bombarded with reminders that everyone around him can hook up and have relationships, but his list of love-related to-do's -- his own gay agenda -- is indefinitely, frustratingly, on hold. His parents suddenly move the family to Seattle right before his senior year, however, and the thriving LGBTQ+ community means he can finally begin checking things off his list! Will he be able to bring himself to choose between his head and his hormones when it finally counts?"
     },
     {
         "title": "Happily Ever Afters",
@@ -4226,15 +4685,23 @@ const data = [
         "fiction": "Y",
         "romance": "Y",
         "prose": "Y",
-        "africanamericanOrBlack": "Y"
+        "africanamericanOrBlack": "Y",
+        "bookBibnumber": 882547,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 897643,
+        "publishersSummary": "Sixteen-year-old Tessa Johnson has never felt like the protagonist in her own life. She's rarely seen herself reflected in the pages of the romance novels she loves. The only place she's a true leading lady is in her own writing--in the swoony love stories she shares only with Caroline, her best friend and #1 devoted reader. When Tessa is accepted into the creative writing program of a prestigious art school, she's excited to finally let her stories shine. But when she goes to her first workshop, the words are just...gone. Fortunately, Caroline has a solution: Tessa just needs to find some inspiration in a real-life love story of her own. And she's ready with a list of romance novel-inspired steps to a happily ever after. Nico, the brooding artist who looks like he walked out of one of Tessa's stories, is cast as the perfect Prince Charming. But as Tessa checks each item off Caroline's list, she gets further and further away from herself. She risks losing everything she cares about--including the surprising bond she develops with sweet Sam, who lives across the street. She's well on her way to having her own real-life love story, but is it the one she wants, after all?"
     },
     {
         "title": "In the Wild Light",
         "author": "Jeff Zentner",
         "fiction": "Y",
         "prose": "Y",
-        "aapi": "Y",
-        "latinx": "Y"
+        "asianamericanAndPacificIslander": "Y",
+        "latinx": "Y",
+        "bookBibnumber": 918585,
+        "ebookBibnumber": 973826,
+        "audioBibnumber": 0,
+        "publishersSummary": "Attending an elite prep school in Connecticut on a scholarship with his best friend (and secret love) science genius Delaney Doyle, sixteen-year-old Cash Pruitt, from a small town in East Tennessee, struggles with emotional pain and loss until his English teacher suggests writing poetry."
     },
     {
         "title": "The Gravity of Us",
@@ -4242,14 +4709,20 @@ const data = [
         "scifi": "Y",
         "romance": "Y",
         "prose": "Y",
-        "africanamericanOrBlack": "Y"
+        "africanamericanOrBlack": "Y",
+        "ebookBibnumber": 842617,
+        "publishersSummary": "When his volatile father is picked to become an astronaut for NASA's mission to Mars, seventeen-year-old Cal, an aspiring journalist, reluctantly moves from Brooklyn to Houston, Texas, and looks for a story to report, finding an ally (and crush) in Leon, the son of another astronaut."
     },
     {
         "title": "The Hate U Give",
         "author": "Angie Thomas",
         "fiction": "Y",
         "prose": "Y",
-        "africanamericanOrBlack": "Y"
+        "africanamericanOrBlack": "Y",
+        "bookBibnumber": 639100,
+        "ebookBibnumber": 646629,
+        "audioBibnumber": 648402,
+        "publishersSummary": "Starr Carter navigates the perilous waters between her poor, black neighborhood and her prestigious, mainly white private school. This all changes when she finds herself in the middle of racial activism after her best friend is shot by police officers, and she's forced to make a decision. Allow the media to skewer her friend to protect the status quo, or stand up and tell the truth in memory of Khalil?"
     },
     {
         "title": "Ramona Blue",
@@ -4260,7 +4733,11 @@ const data = [
         "africanamericanOrBlack": "Y",
         "lgbtqia": "Y",
         "wlwOrNblw": "Y",
-        "ownvoices": "Y"
+        "ownvoices": "Y",
+        "bookBibnumber": 649309,
+        "ebookBibnumber": 722426,
+        "audioBibnumber": 0,
+        "publishersSummary": "Ramona was only five years old when Hurricane Katrina changed her life forever. Since then, it's been Ramona and her family against the world. Standing over six feet tall with unmistakable blue hair, Ramona is sure of three things: she likes girls, she's fiercely devoted to her family, and she knows she's destined for something bigger than the trailer she calls home in Eulogy, Mississippi. But juggling multiple jobs, her flaky mom, and her well-meaning but ineffectual dad forces her to be the adult of the family. Now, with her sister, Hattie, pregnant, responsibility weighs more heavily than ever. The return of her childhood friend Freddie brings a welcome distraction. Ramona's friendship with the former competitive swimmer picks up exactly where it left off, and soon he's talked her into joining him for laps at the pool. But as Ramona falls in love with swimming, her feelings for Freddie begin to shift too, which is the last thing she expected. With her growing affection for Freddie making her question her sexual identity, Ramona begins to wonder if perhaps she likes girls and guys or if this new attraction is just a fluke. Either way, Ramona will discover that, for her, life and love are more fluid than they seem."
     },
     {
         "title": "The Greif Keeper",
@@ -4268,7 +4745,11 @@ const data = [
         "urbanfantasy": "Y",
         "prose": "Y",
         "latinx": "Y",
-        "migrantstories": "Y"
+        "migrantstories": "Y",
+        "bookBibnumber": 804765,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0,
+        "publishersSummary": "After escaping a detention center at the U.S. border, seventeen-year-old Marisol agrees to participate in a medical experiment hoping to keep her and her younger sister, Gabi, from being deported to El Salvador."
     },
     {
         "title": "Burn",
@@ -4277,7 +4758,11 @@ const data = [
         "historicalfiction": "Y",
         "prose": "Y",
         "africanamericanOrBlack": "Y",
-        "aapi": "Y"
+        "asianamericanAndPacificIslander": "Y",
+        "bookBibnumber": 0,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0,
+        "publishersSummary": "On a cold Sunday evening in early 1957, Sarah Dewhurst waited with her father in the parking lot of the Chevron gas station for the dragon he'd hired to help on the farm...Sarah Dewhurst and her father, outcasts in their little town of Frome, Washington, are forced to hire a dragon to work their farm, something only the poorest of the poor ever have to resort to. The dragon, Kazimir, has more to him than meets the eye, though. Sarah can't help but be curious about him, an animal who supposedly doesn't have a soul but who is seemingly intent on keeping her safe. Because the dragon knows something she doesn't. He has arrived at the farm with a prophecy on his mind. A prophecy that involves a deadly assassin, a cult of dragon worshippers, two FBI agents in hot pursuit--and somehow, Sarah Dewhurst herself."
     },
     {
         "title": "Sawkill Girls",
@@ -4286,7 +4771,11 @@ const data = [
         "prose": "Y",
         "lgbtqia": "Y",
         "aroace": "Y",
-        "closetsafe": "Y"
+        "closetsafe": "Y",
+        "bookBibnumber": 746914,
+        "ebookBibnumber": 809475,
+        "audioBibnumber": 750196,
+        "publishersSummary": "From the New York Times bestselling author of Furyborn comes a breathtaking and spine-tingling novel about three teenage girls who face off against an insidious monster that preys upon young women"
     },
     {
         "title": "The Sound of Stars",
@@ -4297,7 +4786,11 @@ const data = [
         "lgbtqia": "Y",
         "aroace": "Y",
         "closetsafe": "Y",
-        "mentalhealth": "Y"
+        "mentalhealth": "Y",
+        "bookBibnumber": 894550,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0,
+        "publishersSummary": "Two years ago, a misunderstanding between the leaders of Earth and the invading Ilori resulted in the deaths of one-third of the world's population. Seventeen-year-old Janelle \"Ellie\" Baker survives in an Ilori-controlled center in New York City. With humans deemed dangerously volatile because of their initial reaction to the invasion, emotional expression can be grounds for execution. Music, art and books are illegal, but Ellie breaks the rules by keeping a secret library. When a book goes missing, Ellie is terrified that the Ilori will track it back to her and kill her. Born in a lab, M0Rr1S was raised to be emotionless. When he finds Ellie's illegal library, he's duty-bound to deliver her for execution. The trouble is, he finds himself drawn to human music and in desperate need of more. They're both breaking the rules for the love of art--and Ellie inspires the same feelings in him that music does. Ellie's--and humanity's--fate rests in the hands of an alien she should fear. M0Rr1S has a lot of secrets, but also a potential solution--thousands of miles away. The two embark on a wild and dangerous road trip with a bag of books and their favorite albums, all the while creating a story and a song of their own that just might save them both"
     },
     {
         "title": "Spin Me Right Round",
@@ -4307,7 +4800,10 @@ const data = [
         "latinx": "Y",
         "lgbtqia": "Y",
         "mlmOrNblm": "Y",
-        "ownvoices": "Y"
+        "ownvoices": "Y",
+        "bookBibnumber": 0,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0
     },
     {
         "title": "Ophelia After All",
@@ -4317,7 +4813,10 @@ const data = [
         "latinx": "Y",
         "lgbtqia": "Y",
         "wlwOrNblw": "Y",
-        "ownvoices": "Y"
+        "ownvoices": "Y",
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0,
+        "publishersSummary": "Seventeen-year-old Ophelia Rojas, well known for her rose garden and her dramatic crushes on every boy in sight, begins to question her sexuality and sense of self when she starts to fall for cute, quiet Talia Sanchez in the weeks leading up to their high school prom and graduation."
     },
     {
         "title": "The Turning Pointe",
@@ -4325,7 +4824,10 @@ const data = [
         "fiction": "Y",
         "prose": "Y",
         "latinx": "Y",
-        "ownvoices": "Y"
+        "ownvoices": "Y",
+        "bookBibnumber": 0,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0
     },
     {
         "title": "This Is Why They Hate Us",
@@ -4336,7 +4838,11 @@ const data = [
         "latinx": "Y",
         "lgbtqia": "Y",
         "mlmOrNblm": "Y",
-        "ownvoices": "Y"
+        "ownvoices": "Y",
+        "bookBibnumber": 974079,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0,
+        "publishersSummary": "Seventeen-year-old Enrique \"Quique\" Luna decides to get over his crush on Saleem Kanazi before the end of summer by pursuing other romantic prospects, but he ends up discovering heartfelt truths about friendship, family, and himself."
     },
     {
         "title": "Inheritance",
@@ -4345,7 +4851,10 @@ const data = [
         "verse": "Y",
         "africanamericanOrBlack": "Y",
         "latinx": "Y",
-        "ownvoices": "Y"
+        "ownvoices": "Y",
+        "bookBibnumber": 0,
+        "ebookBibnumber": 487654,
+        "audioBibnumber": 296175
     },
     {
         "title": "The Ghosts of Rose Hill",
@@ -4355,7 +4864,11 @@ const data = [
         "latinx": "Y",
         "migrantstories": "Y",
         "ownvoices": "Y",
-        "jewish": "Y"
+        "jewish": "Y",
+        "bookBibnumber": 965409,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0,
+        "publishersSummary": "Sent to stay with her aunt in Prague and witness the humble life of an artist, Ilana Lopez--a biracial Jewish girl--finds herself torn between her dream of becoming a violinist and her immigrant parents' desire for her to pursue a more stable career. When she discovers a forgotten Jewish cemetery behind her aunt's cottage, she meets the ghost of a kindhearted boy named Benjamin, who died over a century ago. As Ilana restores Benjamin's grave, he introduces her to the enchanted side of Prague, where ghosts walk the streets and their kisses have warmth. But Benjamin isn't the only one interested in Ilana. Rudolph Wassermann, a man with no shadow, has become fascinated with her and the music she plays. He offers to share his magic, so Ilana can be with Benjamin and pursue her passion for violin. But after Ilana discovers the truth about Wassermann and how Benjamin became bound to the city, she resolves to save the boy she loves, even if it means losing him--forever"
     },
     {
         "title": "Cafe con Lychee",
@@ -4363,18 +4876,26 @@ const data = [
         "fiction": "Y",
         "romance": "Y",
         "prose": "Y",
-        "aapi": "Y",
+        "asianamericanAndPacificIslander": "Y",
         "latinx": "Y",
         "lgbtqia": "Y",
         "mlmOrNblm": "Y",
-        "ownvoices": "Y"
+        "ownvoices": "Y",
+        "bookBibnumber": 985781,
+        "ebookBibnumber": 965822,
+        "audioBibnumber": 0,
+        "publishersSummary": "Theo Mori and Gabriel Moreno have always been at odds. Their parents own rival businesses--an Asian American café and a Puerto Rican bakery--and Gabi's lack of coordination has cost their soccer team too many games to count. Stuck in the closet and scared to pursue his own dreams, Gabi sees his parents' shop as his future. Stuck under the weight of his parents' expectations, Theo's best shot at leaving Vermont means first ensuring his parents' livelihood is secure. So when a new fusion café threatens both shops, Theo and Gabi realize an unfortunate truth--they can only achieve their goals by working together to cook up an underground bakery operation and win back their customers. But can they put aside their differences long enough to save their parents' shops or will the new feelings between them boil over?"
     },
     {
         "title": "The Weight of Blood",
         "author": "Tiffany D. Jackson",
         "mysteryHorror": "Y",
         "prose": "Y",
-        "africanamericanOrBlack": "Y"
+        "africanamericanOrBlack": "Y",
+        "bookBibnumber": 0,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0,
+        "publishersSummary": "New York Times bestselling author Tiffany D. Jackson ramps up the horror and tackles America's history and legacy of racism in this suspenseful YA novel following a biracial teenager as her Georgia high school hosts its first integrated prom. A Junior Library Guild Gold Standard Selection! When Springville residents--at least the ones still alive--are questioned about what happened on prom night, they all have the same explanation . . . Maddy did it.An outcast at her small-town Georgia high school, Madison Washington has always been a teasing target for bullies. And she's dealt with it because she has more pressing problems to manage. Until the morning a surprise rainstorm reveals her most closely kept secret: Maddy is biracial. She has been passing for white her entire life at the behest of her fanatical white father, Thomas Washington.After a viral bullying video pulls back the curtain on Springville High's racist roots, student leaders come up with a plan to change their image: host the school's first integrated prom as a show of unity. The popular white class president convinces her Black superstar quarterback boyfriend to ask Maddy to be his date, leaving Maddy wondering if it's possible to have a normal life.But some of her classmates aren't done with her just yet. And what they don't know is that Maddy still has another secret . . . one that will cost them all their lives."
     },
     {
         "title": "Meet Cute Diary",
@@ -4385,7 +4906,11 @@ const data = [
         "lgbtqia": "Y",
         "mlmOrNblm": "Y",
         "trans": "Y",
-        "ownvoices": "Y"
+        "ownvoices": "Y",
+        "bookBibnumber": 909389,
+        "ebookBibnumber": 913377,
+        "audioBibnumber": 0,
+        "publishersSummary": "Noah Ramirez thinks he's an expert on romance. He has to be for his popular blog, the Meet Cute Diary, a collection of trans happily ever afters. There's just one problem; all the stories are fake...When a troll exposes the blog as fiction, Noah's world unravels. The only way to save the Diary is to convince everyone that the stories are true, but he doesn't have any proof. Then Drew walks into Noah's life, and the pieces fall into place"
     },
     {
         "title": "Out of the Blue",
@@ -4395,7 +4920,11 @@ const data = [
         "prose": "Y",
         "lgbtqia": "Y",
         "mlmOrNblm": "Y",
-        "nonbinary": "Y"
+        "nonbinary": "Y",
+        "bookBibnumber": 0,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0,
+        "publishersSummary": "Told in alternating voices, Crest, a merperson, who grudgingly undergoes a mandatory sojourn to help a human within one moon cycle or risk staying on land forever, suddenly develops feelings for his beneficiary Sean, leaving them torn between two worlds."
     },
     {
         "title": "Stay Gold",
@@ -4404,7 +4933,11 @@ const data = [
         "romance": "Y",
         "prose": "Y",
         "lgbtqia": "Y",
-        "trans": "Y"
+        "trans": "Y",
+        "bookBibnumber": 845098,
+        "ebookBibnumber": 845096,
+        "audioBibnumber": 0,
+        "publishersSummary": "Told in two voices, Pony, who is concealing his transgender identity at his new Texas high school, and Georgia, a cisgender cheerleader counting the days until she graduates, develop a complicated relationship."
     },
     {
         "title": "And They Lived...",
@@ -4413,7 +4946,11 @@ const data = [
         "romance": "Y",
         "prose": "Y",
         "lgbtqia": "Y",
-        "mlmOrNblm": "Y"
+        "mlmOrNblm": "Y",
+        "bookBibnumber": 954420,
+        "ebookBibnumber": 970248,
+        "audioBibnumber": 0,
+        "publishersSummary": "Chase Arthur is a hopeless romantic, but he's also struggling to figure out his gender identity and recover from an eating disorder. When Chase starts his freshman year of college, he has to navigate being away from home and missing his sister, finding his squad, and [learning] to love--and be enough for--himself, while discovering what it means to truly live"
     },
     {
         "title": "The Borrower: A Novel",
@@ -4421,7 +4958,11 @@ const data = [
         "fiction": "Y",
         "prose": "Y",
         "lgbtqia": "Y",
-        "newAdultAdultBookWithTeenInterest": "Y"
+        "newAdultAdultBookWithTeenInterest": "Y",
+        "bookBibnumber": 0,
+        "ebookBibnumber": 488218,
+        "audioBibnumber": 979189,
+        "publishersSummary": "In this delightful, funny, and moving first novel, a librarian and a young boy obsessed with reading take to the road. Lucy Hull, a young children's librarian in Hannibal, Missouri, finds herself both a kidnapper and kidnapped when her favorite patron, ten- year-old Ian Drake, runs away from home. The precocious Ian is addicted to reading, but needs Lucy's help to smuggle books past his overbearing mother, who has enrolled Ian in weekly antigay classes with celebrity Pastor Bob. Lucy stumbles into a moral dilemma when she finds Ian camped out in the library after hours with a knapsack of provisions and an escape plan. Desperate to save him from Pastor Bob and the Drakes, Lucy allows herself to be hijacked by Ian. The odd pair embarks on a crazy road trip from Missouri to Vermont, with ferrets, an inconvenient boyfriend, and upsetting family history thrown in their path. But is it just Ian who is running away? Who is the man who seems to be on the"
     },
     {
         "title": "The Undead Truth of Us",
@@ -4429,21 +4970,33 @@ const data = [
         "dystopian": "Y",
         "mysteryHorror": "Y",
         "prose": "Y",
-        "africanamericanOrBlack": "Y"
+        "africanamericanOrBlack": "Y",
+        "bookBibnumber": 978708,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0,
+        "publishersSummary": "After her mother's sudden death, sixteen-year-old dancer Zharie Young begins seeing zombies, and when she meets an undead boy, he helps her understand how love can change someone--for good or for dead"
     },
     {
         "title": "The Good Luck Girls",
         "author": "Charlotte Nicole Davis",
         "fantasy": "Y",
         "prose": "Y",
-        "africanamericanOrBlack": "Y"
+        "africanamericanOrBlack": "Y",
+        "bookBibnumber": 948679,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0,
+        "publishersSummary": "The country of Arketta calls them Good Luck Girls--they know their luck is anything but. Sold to a 'welcome house' as children and branded with cursed markings. Trapped in a life they would never have chosen. When Clementine accidentally kills a man, the girls risk a dangerous escape and harrowing journey to find freedom, justice, and revenge in a country that wants them to have none of those things. Pursued by Arketta's most vicious and powerful forces, both human and inhuman, their only hope lies in a bedtime story passed from one Good Luck Girl to another, a story that only the youngest or most desperate would ever believe"
     },
     {
         "title": "The Cost of Knowing",
         "author": "Brittney Morris",
         "urbanfantasy": "Y",
         "prose": "Y",
-        "africanamericanOrBlack": "Y"
+        "africanamericanOrBlack": "Y",
+        "bookBibnumber": 894539,
+        "ebookBibnumber": 973782,
+        "audioBibnumber": 0,
+        "publishersSummary": "Sixteen-year-old Alex Rufus is trying his best. He tries to be the best employee he can be at the local ice cream shop; the best boyfriend he can be to his amazing girlfriend, Talia; the best protector he can be over his little brother, Isaiah. But as much as Alex tries, he often comes up short. It's hard for him to be present when every time he touches an object or person, Alex sees into its future. Alex feels these visions are a curse, distracting him, making him anxious and unable to live an ordinary life. And when Alex touches a photo that gives him a vision of his brother's imminent death, everything changes. With Alex now in a race against time, death, and circumstances, he and Isaiah must grapple with their past, their future, and what it means to be a young Black man in America in the present."
     },
     {
         "title": "Black Girl Unlimited",
@@ -4452,7 +5005,11 @@ const data = [
         "prose": "Y",
         "africanamericanOrBlack": "Y",
         "mentalhealth": "Y",
-        "depression": "Y"
+        "depression": "Y",
+        "bookBibnumber": 831146,
+        "ebookBibnumber": 884788,
+        "audioBibnumber": 884724,
+        "publishersSummary": "From age six through her high school valedictory speech, believing she and her mother are wizards helps young Echo cope with poverty, hunger, her mother's drug abuse, and much more."
     },
     {
         "title": "Release",
@@ -4462,7 +5019,10 @@ const data = [
         "lgbtqia": "Y",
         "mlmOrNblm": "Y",
         "mentalhealth": "Y",
-        "depression": "Y"
+        "depression": "Y",
+        "bookBibnumber": 0,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0
     },
     {
         "title": "My Heart and Other Black Holes",
@@ -4470,7 +5030,11 @@ const data = [
         "fiction": "Y",
         "prose": "Y",
         "mentalhealth": "Y",
-        "depression": "Y"
+        "depression": "Y",
+        "bookBibnumber": 499979,
+        "ebookBibnumber": 877345,
+        "audioBibnumber": 0,
+        "publishersSummary": "Seventeen-year-old Aysel's hobby--planning her own death--take a new path when she meets a boy who has similar plan of his own"
     },
     {
         "title": "Forgive Me, Leonard Peacock",
@@ -4478,7 +5042,11 @@ const data = [
         "fiction": "Y",
         "prose": "Y",
         "mentalhealth": "Y",
-        "depression": "Y"
+        "depression": "Y",
+        "bookBibnumber": 366423,
+        "ebookBibnumber": 492917,
+        "audioBibnumber": 522984,
+        "publishersSummary": "A day in the life of a suicidal teen boy saying good-bye to the four people who matter most to him."
     },
     {
         "title": "Challenger Deep",
@@ -4486,7 +5054,11 @@ const data = [
         "fiction": "Y",
         "prose": "Y",
         "mentalhealth": "Y",
-        "depression": "Y"
+        "depression": "Y",
+        "bookBibnumber": 541650,
+        "ebookBibnumber": 541546,
+        "audioBibnumber": 0,
+        "publishersSummary": "A captivating novel about mental illness that lingers long beyond the last page, Challenger Deep is a heartfelt tour de force by New York Times bestselling author Neal Shusterman. Caden Bosch is on a ship that's headed for the deepest point on Earth: Challenger Deep, the southern part of the Marianas Trench. Caden Bosch is a brilliant high school student whose friends are starting to notice his odd behavior. Caden Bosch is designated the ship's artist in residence to document the journey with images. Caden Bosch pretends to join the school track team but spends his days walking for miles, absorbed by the thoughts in his head. Caden Bosch is split between his allegiance to the captain and the allure of mutiny. Caden Bosch is torn. Challenger Deep is a deeply powerful and personal novel from one of today's most admired writers for teens. Laurie Halse Anderson, award-winning author of Speak, calls Challenger Deep \"a brilliant journey across the dark sea of the mind; frightening, sensitive, and powerful. Simply extraordinary."
     },
     {
         "title": "Suicide Notes",
@@ -4494,7 +5066,11 @@ const data = [
         "fiction": "Y",
         "prose": "Y",
         "mentalhealth": "Y",
-        "depression": "Y"
+        "depression": "Y",
+        "bookBibnumber": 696585,
+        "ebookBibnumber": 484899,
+        "audioBibnumber": 0,
+        "publishersSummary": "Brimming with sarcasm, fifteen-year-old Jeff describes his stay in a psychiatric ward after attempting to commit suicide."
     },
     {
         "title": "Confessions of an Alleged Good Girl",
@@ -4503,7 +5079,10 @@ const data = [
         "prose": "Y",
         "africanamericanOrBlack": "Y",
         "ownvoices": "Y",
-        "depression": "Y"
+        "depression": "Y",
+        "bookBibnumber": 983248,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0
     },
     {
         "title": "The Brilliant Death",
@@ -4512,7 +5091,11 @@ const data = [
         "prose": "Y",
         "latinx": "Y",
         "lgbtqia": "Y",
-        "nonbinary": "Y"
+        "nonbinary": "Y",
+        "bookBibnumber": 766834,
+        "ebookBibnumber": 756358,
+        "audioBibnumber": 0,
+        "publishersSummary": "A young shapeshifter has to learn to control her powers, while simultaneously using them to disguise herself as a boy and confront the people who murdered her father."
     },
     {
         "title": "Master of One",
@@ -4521,30 +5104,44 @@ const data = [
         "prose": "Y",
         "lgbtqia": "Y",
         "mlmOrNblm": "Y",
-        "trans": "Y"
+        "trans": "Y",
+        "bookBibnumber": 881094,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0
     },
     {
         "title": "All of This is True",
         "author": "Lygia Day Penaflor",
         "fiction": "Y",
         "prose": "Y",
-        "aapi": "Y"
+        "asianamericanAndPacificIslander": "Y",
+        "bookBibnumber": 840996,
+        "ebookBibnumber": 882874,
+        "publishersSummary": "When Long Island teens Miri, Soleil, Penny, and Jonah befriend a bestselling YA novelist, they find their deepest, darkest secrets in the pages of her next novel, with devastating consequences. Told from different perspectives as interviews, journal entries, and book excerpts."
     },
     {
         "title": "Parachutes",
         "author": "Kelly Yang",
         "fiction": "Y",
         "prose": "Y",
-        "aapi": "Y",
+        "asianamericanAndPacificIslander": "Y",
         "migrantstories": "Y",
-        "ownvoices": "Y"
+        "ownvoices": "Y",
+        "bookBibnumber": 840996,
+        "ebookBibnumber": 840996,
+        "audioBibnumber": 0,
+        "publishersSummary": "A wealthy Chinese teen is sent to America on her own to attend private school. Claire is a rich 11th grader in Shanghai; Dani is a scholarship student at a private school in Southern California who helps her mother clean houses. When Claire is parachuted into America to finish high school and Dani's mother needs the income from a boarder, they become unlikely housemates."
     },
     {
         "title": "These Violent Delights",
         "author": "Chloe Gong",
         "fantasy": "Y",
         "prose": "Y",
-        "aapi": "Y"
+        "asianamericanAndPacificIslander": "Y",
+        "bookBibnumber": 863969,
+        "ebookBibnumber": 879272,
+        "audioBibnumber": 897794,
+        "publishersSummary": "The year is 1926, and Shanghai hums to the tune of debauchery. A blood feud between two gangs runs the streets red, leaving the city helpless in the grip of chaos. At the heart of it all is eighteen-year-old Juliette Cai, a former flapper who has returned to assume her role as the proud heir of the Scarlet Gang-a network of criminals far above the law. Their only rivals in power are the White Flowers, who have fought the Scarlets for generations. And behind every move is their heir, Roma Montagov, Juliette's first love ... and first betrayal. But when gangsters on both sides show signs of instability culminating in clawing their own throats out, the people start to whisper. Of a contagion, a madness. Of a monster in the shadows. As the deaths stack up, Juliette and Roma must set their guns-and grudges-aside and work together, for if they can't stop this mayhem, then there will be no city left for either to rule."
     },
     {
         "title": "Come On In",
@@ -4552,13 +5149,17 @@ const data = [
         "fiction": "Y",
         "prose": "Y",
         "africanamericanOrBlack": "Y",
-        "aapi": "Y",
+        "asianamericanAndPacificIslander": "Y",
         "latinx": "Y",
         "arabOrArabamerican": "Y",
         "migrantstories": "Y",
         "ownvoices": "Y",
         "jewish": "Y",
-        "muslim": "Y"
+        "muslim": "Y",
+        "bookBibnumber": 852307,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0,
+        "publishersSummary": "This ... anthology explores the joys, heartbreaks and triumphs of immigration, with stories by critically acclaimed and bestselling YA authors who are shaped by the journeys they and their families have taken from home--and to find home."
     },
     {
         "title": "A Cuban Girl's Giode to Tea and Tomorrow",
@@ -4566,7 +5167,8 @@ const data = [
         "fiction": "Y",
         "romance": "Y",
         "prose": "Y",
-        "latinx": "Y"
+        "latinx": "Y",
+        "publishersSummary": "A Cuban Girl's Guide to Tea and Tomorrow is an absolute delight. Cozier than a hand-knit gray cardigan and richer than Abuela's pastelito recipe, Namey takes you from Miami to Winchester, and leaves your heart belonging to both.\" --Rachael Lippincott, #1 New York Times bestselling author of Five Feet Apart Love & Gelato meets Don't Date Rosa Santos in this charming, heartfelt story following a Miami girl who unexpectedly finds love--and herself--in a small English town.For Lila Reyes, a summer in England was never part of the plan. The plan was 1) take over her abuela's role as head baker at their panadería, 2) move in with her best friend after graduation, and 3) live happily ever after with her boyfriend. But then the Trifecta happened, and everything--including Lila herself--fell apart. Worried about Lila's mental health, her parents make a new plan for her: Spend three months with family friends in Winchester, England, to relax and reset. But with the lack of sun, a grumpy inn cook, and a small town lacking Miami flavor (both in food and otherwise), what would be a dream trip for some feels more like a nightmare to Lila...until she meets Orion Maxwell. A teashop clerk with troubles of his own, Orion is determined to help Lila out of her funk, and appoints himself as her personal tour guide. From Winchester's drama-filled music scene to the sweeping English countryside, it isn't long before Lila is not only charmed by Orion, but England itself. Soon a new future is beginning to form in Lila's mind--one that would mean leaving everything she ever planned behind."
     },
     {
         "title": "Each of Us a Desert",
@@ -4574,7 +5176,11 @@ const data = [
         "fantasy": "Y",
         "prose": "Y",
         "nativeamerican": "Y",
-        "migrantstories": "Y"
+        "migrantstories": "Y",
+        "bookBibnumber": 850259,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0,
+        "publishersSummary": "Xochitl is destined to wander the desert alone, speaking her troubled village's stories into its arid winds. Her only companions are the blessed stars above and enigmatic lines of poetry magically strewn across dusty dunes. Her one desire: to share her heart with a kindred spirit. One night, Xo's wish is granted--in the form of Emilia, the cold and beautiful daughter of the town's murderous conqueror. But when the two set out on a magical journey across the desert, they find their hearts could be a match--if only they can survive the nightmare-like terrors that arise when the sun goes down"
     },
     {
         "title": "Rebel Sisters",
@@ -4582,7 +5188,10 @@ const data = [
         "fantasy": "Y",
         "prose": "Y",
         "africanamericanOrBlack": "Y",
-        "ownvoices": "Y"
+        "ownvoices": "Y",
+        "bookBibnumber": 0,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0
     },
     {
         "title": "Only on the Weekends",
@@ -4593,7 +5202,10 @@ const data = [
         "africanamericanOrBlack": "Y",
         "lgbtqia": "Y",
         "mlmOrNblm": "Y",
-        "ownvoices": "Y"
+        "ownvoices": "Y",
+        "bookBibnumber": 965420,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0
     },
     {
         "title": "Nothing Burns as Bright as You",
@@ -4604,7 +5216,11 @@ const data = [
         "africanamericanOrBlack": "Y",
         "lgbtqia": "Y",
         "wlwOrNblw": "Y",
-        "ownvoices": "Y"
+        "ownvoices": "Y",
+        "bookBibnumber": 0,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0,
+        "publishersSummary": "Two girls. One wild and reckless day. Years of tumultuous history unspooling like a thin, fraying string in the hours after they set a fire. They were best friends. Until they became more. Their affections grew. Until the blurry lines became dangerous. Over the course of a single day, the depth of their past, the confusion of their present, and the unpredictability of their future is revealed. And the girls will learn that hearts, like flames, aren't so easily tamed. It starts with a fire. How will it end?"
     },
     {
         "title": "Early Departures",
@@ -4612,7 +5228,11 @@ const data = [
         "fiction": "Y",
         "prose": "Y",
         "africanamericanOrBlack": "Y",
-        "ownvoices": "Y"
+        "ownvoices": "Y",
+        "bookBibnumber": 854175,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0,
+        "publishersSummary": "Jamal's best friend Q doesn't know that he died, and that he's about to die again. He doesn't know that Jamal tried to save him. And that the reason they haven't been friends for two years is because Jamal blames Q for the accident that killed his parents. But what if Jamal could have a second chance? A new technology allows Q to be reanimated for a few weeks before he dies permanently. And Q's mom is not about to let anyone ruin this miracle by telling Q about his impending death. So how can Jamal fix everything if he can't tell Q the truth?"
     },
     {
         "title": "Dear Haiti, Love Alaine",
@@ -4621,14 +5241,22 @@ const data = [
         "prose": "Y",
         "africanamericanOrBlack": "Y",
         "latinx": "Y",
-        "ownvoices": "Y"
+        "ownvoices": "Y",
+        "bookBibnumber": 803241,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0,
+        "publishersSummary": "When a school presentation goes very wrong, Alaine Beauparlant finds herself suspended, shipped off to Haiti and writing the report of a lifetime. This exceptional debut novel captures a sparkling new voice and irrepressible heroine in a celebration of storytelling sure to thrill fans of Nicola Yoon, Ibi Zoboi, and Jenna Evans Welch!"
     },
     {
         "title": "The Field Guide to the North American Teenager",
         "author": "Ben Philippe",
         "fiction": "Y",
         "prose": "Y",
-        "africanamericanOrBlack": "Y"
+        "africanamericanOrBlack": "Y",
+        "bookBibnumber": 773854,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 841231,
+        "publishersSummary": "A hilarious contemporary realistic YA debut novel about a rather cynical Black French Canadian teen who moves to Austin, Texas, and experiences the cliches"
     },
     {
         "title": "If You Change Your Mind",
@@ -4637,7 +5265,10 @@ const data = [
         "romance": "Y",
         "prose": "Y",
         "lgbtqia": "Y",
-        "mlmOrNblm": "Y"
+        "mlmOrNblm": "Y",
+        "bookBibnumber": 0,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0
     },
     {
         "title": "I Kissed Shara Wheeler",
@@ -4646,7 +5277,11 @@ const data = [
         "romance": "Y",
         "prose": "Y",
         "lgbtqia": "Y",
-        "wlwOrNblw": "Y"
+        "wlwOrNblw": "Y",
+        "bookBibnumber": 943243,
+        "ebookBibnumber": 970295,
+        "audioBibnumber": 965813,
+        "publishersSummary": "After seventeen-year-olds Chole and Shara, Chole's rival for valedictorian, kiss, Shara vanishes leaving Chole and two boys, who are also enamored with Shara, to follow the trail of clues she left behind, but during the search, Chloe starts to suspect there might be more to Shara and her small Alabama town than she thought."
     },
     {
         "title": "Queens of Geek",
@@ -4655,7 +5290,11 @@ const data = [
         "romance": "Y",
         "prose": "Y",
         "lgbtqia": "Y",
-        "wlwOrNblw": "Y"
+        "wlwOrNblw": "Y",
+        "bookBibnumber": 0,
+        "ebookBibnumber": 785051,
+        "audioBibnumber": 0,
+        "publishersSummary": "Three friends go to a convention and find love--and themselves"
     },
     {
         "title": "No Filter and Other Lies",
@@ -4664,38 +5303,44 @@ const data = [
         "prose": "Y",
         "latinx": "Y",
         "lgbtqia": "Y",
-        "wlwOrNblw": "Y"
+        "wlwOrNblw": "Y",
+        "bookBibnumber": 947579,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 73818
     },
     {
         "title": "Jade Fire Gold",
         "author": "June CL Tan",
         "fantasy": "Y",
         "prose": "Y",
-        "aapi": "Y",
-        "ownvoices": "Y"
+        "asianamericanAndPacificIslander": "Y",
+        "ownvoices": "Y",
+        "publishersSummary": "Ahn is no one, with no past and no family. Altan is a lost heir, his future stolen away as a child. When they meet, Altan sees in Ahn a path to reclaiming the throne. Ahn sees a way to finally unlock her past and understand her lethal magical abilities. But they may have to pay a far deadlier price than either could have imagined"
     },
     {
         "title": "Sisters of the Snake",
         "author": "Sasha and Sarena Nanua",
         "fantasy": "Y",
         "prose": "Y",
-        "aapi": "Y",
-        "ownvoices": "Y"
+        "asianamericanAndPacificIslander": "Y",
+        "ownvoices": "Y",
+        "publishersSummary": "A street thief and a princess discover they are twins separated at birth-and must switch places to find an all-powerful stone and prevent a deadly war from taking place"
     },
     {
         "title": "The Star-Touched Queen",
         "author": "Roshani Chokshi",
         "fantasy": "Y",
         "prose": "Y",
-        "aapi": "Y",
-        "ownvoices": "Y"
+        "asianamericanAndPacificIslander": "Y",
+        "ownvoices": "Y",
+        "publishersSummary": "Treated with scorn and fear in her father's kingdom because of a formidable horoscope, 17-year-old Maya commits herself to her education only to land in an arranged marriage that culminates in her sudden elevation to the throne, a situation that's threatened by dark secrets and Otherworldly magic."
     },
     {
         "title": "Spin the Dawn",
         "author": "Elizabeth Lim",
         "fantasy": "Y",
         "prose": "Y",
-        "aapi": "Y",
+        "asianamericanAndPacificIslander": "Y",
         "ownvoices": "Y"
     },
     {
@@ -4703,15 +5348,16 @@ const data = [
         "author": "Julie C. Dao",
         "fantasy": "Y",
         "prose": "Y",
-        "aapi": "Y",
-        "ownvoices": "Y"
+        "asianamericanAndPacificIslander": "Y",
+        "ownvoices": "Y",
+        "publishersSummary": "Beautiful eighteen-year-old Xifeng, raised by a cruel aunt who says the stars destine her to be Empress of Feng Lu, chooses to spurn the man who loves her and exploit the dark magic that can make her dream real."
     },
     {
         "title": "We Hunt the Flame",
         "author": "Hafsah Faizal",
         "fantasy": "Y",
         "prose": "Y",
-        "aapi": "Y",
+        "asianamericanAndPacificIslander": "Y",
         "ownvoices": "Y"
     },
     {
@@ -4719,24 +5365,27 @@ const data = [
         "author": "Renee Ahdieh",
         "fantasy": "Y",
         "prose": "Y",
-        "aapi": "Y",
-        "ownvoices": "Y"
+        "asianamericanAndPacificIslander": "Y",
+        "ownvoices": "Y",
+        "publishersSummary": "A BuzzFeed Pick for \"YA Books You Absolutely Must Read This Spring\" A Bustle 's Most Anticipated 2019 YA Release Paste Magazine 's Top 10 Most Anticipated YA Novels of 2019 \"Lyrical and spellbinding\" —Marieke Njikamp, #1 New York Times Bestselling Author Set in a richly detailed world inspired by ancient Arabia, Hafsah Faizal's We Hunt the Flame — first in the Sands of Arawiya series—is a gripping debut of discovery, conquering fear, and taking identity into your own hands. People lived because she killed. People died because he lived. Zafira is the Hunter, disguising herself as a man when she braves the cursed forest of the Arz to feed her people. Nasir is the Prince of Death, assassinating those foolish enough to defy his autocratic father, the sultan. If Zafira was exposed as a girl, all of her achievements would be rejected; if Nasir displayed his compassion, his father would punish him in the most brutal of ways. Both Zafira and Nasir are legends in the kingdom of Arawiya—but neither wants to be. War is brewing, and the Arz sweeps closer with each passing day, engulfing the land in shadow. When Zafira embarks on a quest to uncover a lost artifact that can restore magic to her suffering world and stop the Arz, Nasir is sent by the sultan on a similar mission: retrieve the artifact and kill the Hunter. But an ancient evil stirs as their journey unfolds—and the prize they seek may pose a threat greater than either can imagine."
     },
     {
         "title": "Wicked Fox",
         "author": "Kat Cho",
         "fantasy": "Y",
         "prose": "Y",
-        "aapi": "Y",
-        "ownvoices": "Y"
+        "asianamericanAndPacificIslander": "Y",
+        "ownvoices": "Y",
+        "publishersSummary": "After eighteen-year-old Gu Miyoung, a nine-tailed fox surviving in modern-day Seoul by eating the souls of evil men, kills a murderous goblin to save Jihoon, she is forced to choose between her immortal life and his. Includes glossary."
     },
     {
         "title": "The Candle and the Flame",
         "author": "Nafiza Azad",
         "fantasy": "Y",
         "prose": "Y",
-        "aapi": "Y",
-        "ownvoices": "Y"
+        "asianamericanAndPacificIslander": "Y",
+        "ownvoices": "Y",
+        "publishersSummary": "Fatima lives in the city of Noor, on the Silk Road, which is currently protected by the Ifrit, djinn of order and reason, from attacks by the violent and ruthless Shayateen djinn--but Fatima was infused with the fire of the Ifrit who died saving her when she was four years old, and when one of the most important Ifrit dies she finds herself drawn into the intrigues of the court, the affairs of the djinn, and the very real dangers of a magical battlefield."
     },
     {
         "title": "The Sword and the Dagger",
@@ -4744,7 +5393,7 @@ const data = [
         "fantasy": "Y",
         "historicalfiction": "Y",
         "prose": "Y",
-        "aapi": "Y",
+        "asianamericanAndPacificIslander": "Y",
         "arabOrArabamerican": "Y",
         "muslim": "Y"
     },
@@ -4753,9 +5402,10 @@ const data = [
         "author": "Alwyn Hamilton",
         "fantasy": "Y",
         "prose": "Y",
-        "aapi": "Y",
+        "asianamericanAndPacificIslander": "Y",
         "arabOrArabamerican": "Y",
-        "ownvoices": "Y"
+        "ownvoices": "Y",
+        "publishersSummary": "Sixteen-year-old sharpshooter Amani Al'Hiza never doubted she'd escape the miserable one-horse desert town where she was born. Getting out had always been the plan. But she never figured she'd wind up running for her life--with a boy wanted for treason. When Amani enters a disastrous shooting contest against Jin, a rakish foreigner, she has no idea of his connection to the ongoing war between the ruthless Sultan of Miraji and his exiled son, the Rebel Prince. But soon the pair are fleeing across a desert crawling with vicious bandits, terrifying ghuls, and powerful djinni, and the Sultan's army is getting closer every day. When Amani and Jin stumble across the ruins of a town destroyed by an unearthly fire, it's clear the war's stakes are higher than either of them realized. The Rebel Prince has a secret weapon, and now he wants Amani to join his revolution. All Amani ever wanted was to escape the desert and find adventure--but will the desert let her go?"
     },
     {
         "title": "The City of Brass",
@@ -4763,14 +5413,15 @@ const data = [
         "fantasy": "Y",
         "prose": "Y",
         "arabOrArabamerican": "Y",
-        "ownvoices": "Y"
+        "ownvoices": "Y",
+        "publishersSummary": "Step into The City of Brass, the spellbinding debut from S. A. Chakraborty--an imaginative alchemy of The Golem and the Jinni, The Grace of Kings, and Uprooted, in which the future of a magical Middle Eastern kingdom rests in the hands of a clever and defiant young con artist with miraculous healing gifts. Nahri has never believed in magic. Certainly, she has power; on the streets of eighteenth-century Cairo, she's a con woman of unsurpassed talent. But she knows better than anyone that the trade she uses to get by--palm readings, zars, healings--are all tricks, sleights of hand, learned skills; a means to the delightful end of swindling Ottoman nobles and a reliable way to survive. But when Nahri accidentally summons an equally sly, darkly mysterious djinn warrior to her side during one of her cons, she's forced to question all she believes. For the warrior tells her an extraordinary tale: across hot, windswept sands teeming with creatures of fire, and rivers where the mythical marid sleep; past ruins of once-magnificent human metropolises, and mountains where the circling birds of prey are not what they seem, lies Daevabad, the legendary city of brass--a city to which Nahri is irrevocably bound. In Daevabad, behind gilded brass walls laced with enchantments, behind the six gates of the six djinn tribes, old resentments are simmering. A young prince dreams of rebellion. And when Nahri decides to enter this world, she learns that true power is fierce and brutal. That magic cannot shield her from the dangerous web of court politics. That even the cleverest of schemes can have deadly consequences. After all, there is a reason they say to be careful what you wish for . . ."
     },
     {
         "title": "The Girl King",
         "author": "Mimi Yu",
         "fantasy": "Y",
         "prose": "Y",
-        "aapi": "Y",
+        "asianamericanAndPacificIslander": "Y",
         "ownvoices": "Y"
     },
     {
@@ -4780,7 +5431,8 @@ const data = [
         "prose": "Y",
         "africanamericanOrBlack": "Y",
         "arabOrArabamerican": "Y",
-        "ownvoices": "Y"
+        "ownvoices": "Y",
+        "publishersSummary": "Having sacrificed her freedom to establish peace with a neighboring kingdom, Shalia discovers that she has the power to control earth the day she marries Calix, whose only motivation is to eliminate the Elementae."
     },
     {
         "title": "Like a Love Story",
@@ -4791,46 +5443,52 @@ const data = [
         "lgbtqia": "Y",
         "mlmOrNblm": "Y",
         "migrantstories": "Y",
-        "ownvoices": "Y"
+        "ownvoices": "Y",
+        "publishersSummary": "It's 1989 in New York City, and for three teens, the world is changing. Reza is an Iranian boy who has just moved to the city with his mother to live with his stepfather and stepbrother. He's terrified that someone will guess the truth he can barely acknowledge about himself. Reza knows he's gay, but all he knows of gay life are the media's images of men dying of AIDS. Judy is an aspiring fashion designer who worships her uncle Stephen, a gay man with AIDS who devotes his time to activism as a member of ACT UP. Judy has never imagined finding romance... until she falls for Reza and they start dating. Art is Judy's best friend, their school's only out and proud teen. He'll never be who his conservative parents want him to be, so he rebels by documenting the AIDS crisis through his photographs. As Reza and Art grow closer, Reza struggles to find a way out of his deception that won't break Judy's heart -- and destroy the most meaningful friendship he's ever known. This is a bighearted, sprawling epic about friendship and love and the revolutionary act of living life to the fullest in the face of impossible odds."
     },
     {
         "title": "Under Rose-Tainted Skies",
         "author": "Louise Gornall",
         "fiction": "Y",
         "prose": "Y",
-        "invisibledisability": "Y"
+        "invisibledisability": "Y",
+        "publishersSummary": "Norah has agoraphobia and OCD. When groceries are left on the porch, she can't step out to get them. Struggling to snag the bags with a stick, she meets Luke. He's sweet and funny, and he just caught her fishing for groceries. Because of course he did. Norah can't leave the house, but can she let someone in? As their friendship grows deeper, Norah realizes Luke deserves a normal girl. One who can lie on the front lawn and look up at the stars. One who isn't so screwed up. Listeners themselves will fall in love with Norah in this poignant, humorous, and deeply engaging portrait of a teen struggling to find the strength to face her demons"
     },
     {
         "title": "Made You Up",
         "author": "Francesca Zappia",
         "fiction": "Y",
         "prose": "Y",
-        "invisibledisability": "Y"
+        "invisibledisability": "Y",
+        "publishersSummary": "Armed with her camera and a Magic 8-Ball and her only ally (her little sister), Alex wages a war against her schizophrenia, determined to stay sane long enough to get into college"
     },
     {
         "title": "Unbroken: 13 Stories Starring Disabled Teens",
         "author": "Marieke Nijkamp",
         "nonfiction": "Y",
         "prose": "Y",
-        "aapi": "Y",
+        "asianamericanAndPacificIslander": "Y",
         "ownvoices": "Y",
         "invisibledisability": "Y",
         "characterwithdisability": "Y",
-        "neurodiverdent": "Y"
+        "neurodiverdent": "Y",
+        "publishersSummary": "An anthology of stories in various genres, featuring disabled characters and written by disabled creators, ranging from established best selling authors to debut authors."
     },
     {
         "title": "Forest of Souls",
         "author": "Lori M. Lee",
         "fantasy": "Y",
         "prose": "Y",
-        "aapi": "Y"
+        "asianamericanAndPacificIslander": "Y",
+        "publishersSummary": "Sirscha Ashwyn comes from nothing, but she's intent on becoming something. After years of training to become the queen's next royal spy, her plans are derailed when shamans attack and kill her best friend Saengo. And then Sirscha, somehow, restores Saengo to life. Unveiled as the first soulguide in living memory, Sirscha is summoned to the domain of the Spider King. For centuries, he has used his influence over the Dead Wood--an ancient forest possessed by souls--to enforce peace between the kingdoms. Now, with the trees growing wild and untamed, only a soulguide can restrain them. As war looms, Sirscha must master her newly awakened abilities before the trees shatter the brittle peace, or worse, claim Saengo, the friend she would die for."
     },
     {
         "title": "Concrete Rose",
         "author": "Angie Thomas",
         "historicalfiction": "Y",
         "prose": "Y",
-        "africanamericanOrBlack": "Y"
+        "africanamericanOrBlack": "Y",
+        "publishersSummary": "If there's one thing seventeen-year-old Maverick Carter knows, it's that a real man takes care of his family. As the son of a former gang legend, Mav does that the only way he knows how: dealing for the King Lords. With this money he can help his mom, who works two jobs while his dad's in prison. Life's not perfect, but with a fly girlfriend and a cousin who always has his back, Mav's got everything under control. Until he finds out he's a father. Suddenly he has a baby, Seven, who depends on him for everything. But it's not so easy to sling dope, finish school, and raise a child. So when he's offered the chance to go straight, he takes it. In a world where he's expected to amount to nothing, maybe Mav can prove he's different. With King Lord blood running through his veins, though, he can't just walk away."
     },
     {
         "title": "This is Where it Ends",
@@ -4841,7 +5499,8 @@ const data = [
         "lgbtqia": "Y",
         "wlwOrNblw": "Y",
         "mentalhealth": "Y",
-        "depression": "Y"
+        "depression": "Y",
+        "publishersSummary": "Minutes after the principal of Opportunity High School in Alabama finishes her speech welcoming the student body to a new semester, they discover that the auditorium doors will not open and someone starts shooting as four teens, each with a personal reason to fear the shooter, tell the tale from separate perspectives."
     },
     {
         "title": "All the Things We Never Knew",
@@ -4849,7 +5508,8 @@ const data = [
         "fiction": "Y",
         "romance": "Y",
         "prose": "Y",
-        "africanamericanOrBlack": "Y"
+        "africanamericanOrBlack": "Y",
+        "publishersSummary": "Carli and Rex have an immediate connection, an understanding that must mean first love, but family secrets, disappointments--and basketball, which holds center stage in both their lives--all create complications"
     },
     {
         "title": "The River Has Teeth",
@@ -4857,7 +5517,7 @@ const data = [
         "fiction": "Y",
         "prose": "Y",
         "africanamericanOrBlack": "Y",
-        "aapi": "Y",
+        "asianamericanAndPacificIslander": "Y",
         "lgbtqia": "Y"
     },
     {
@@ -4867,8 +5527,9 @@ const data = [
         "romance": "Y",
         "prose": "Y",
         "africanamericanOrBlack": "Y",
-        "aapi": "Y",
-        "migrantstories": "Y"
+        "asianamericanAndPacificIslander": "Y",
+        "migrantstories": "Y",
+        "publishersSummary": "After losing the editor-in-chief job of the student newspaper to inexperienced newcomer Len, Eliza inadvertently starts a feminist movement in her school, but amid growing tensions within the school, she begins developing feelings for Len."
     },
     {
         "title": "Aetherbound",
@@ -4876,16 +5537,18 @@ const data = [
         "scifi": "Y",
         "prose": "Y",
         "lgbtqia": "Y",
-        "trans": "Y"
+        "trans": "Y",
+        "publishersSummary": "After escaping her abusive family's interstellar merchant ship, seventeen-year-old Pendt lands on a remote space station run by the Brannick twins, and together they make plans to thwart the destinies they never wanted."
     },
     {
         "title": "Wicked as You Wish",
         "author": "Rin Chupeco",
         "urbanfantasy": "Y",
         "prose": "Y",
-        "aapi": "Y",
+        "asianamericanAndPacificIslander": "Y",
         "migrantstories": "Y",
-        "ownvoices": "Y"
+        "ownvoices": "Y",
+        "publishersSummary": "Years after the evil Snow Queen desolated the magical kingdom of Avalon, Prince Alexei, his friend Tala, and a ragtag band, inspired by the appearance of the Firebird, try to reclaim their land."
     },
     {
         "title": "Off the Record",
@@ -4894,7 +5557,8 @@ const data = [
         "prose": "Y",
         "africanamericanOrBlack": "Y",
         "ownvoices": "Y",
-        "mentalhealth": "Y"
+        "mentalhealth": "Y",
+        "publishersSummary": "A teen journalist uncovers the #metoo scandal of the decade: a bigshot Hollywood director is taking advantage of cast members"
     },
     {
         "title": "Goddess in the Machine",
@@ -4902,14 +5566,15 @@ const data = [
         "scifi": "Y",
         "prose": "Y",
         "africanamericanOrBlack": "Y",
-        "aapi": "Y"
+        "asianamericanAndPacificIslander": "Y",
+        "publishersSummary": "Bound for humanity's new colony planet, seventeen-year-old Andra wakes up from a cryogenic sleep 1,000 years later than scheduled, forcing her to navigate an unfamiliar planet where technology is considered magic and its practitioners revered as deities."
     },
     {
         "title": "How Do You Live?",
         "author": "Genzaburo Yoshino",
         "historicalfiction": "Y",
         "prose": "Y",
-        "aapi": "Y",
+        "asianamericanAndPacificIslander": "Y",
         "ownvoices": "Y"
     },
     {
@@ -4918,7 +5583,8 @@ const data = [
         "fantasy": "Y",
         "prose": "Y",
         "africanamericanOrBlack": "Y",
-        "ownvoices": "Y"
+        "ownvoices": "Y",
+        "publishersSummary": "Transformed by the goddess Yemoja into a Mami Wati, an African mermaid charged with collecting the souls of those who die at sea, Simi goes against the gods to save a living boy, Kola, from drowning."
     },
     {
         "title": "Adachi and Shimamura",
@@ -4927,9 +5593,10 @@ const data = [
         "romance": "Y",
         "graphicnovel": "Y",
         "manga": "Y",
-        "aapi": "Y",
+        "asianamericanAndPacificIslander": "Y",
         "lgbtqia": "Y",
-        "wlwOrNblw": "Y"
+        "wlwOrNblw": "Y",
+        "publishersSummary": "The second floor of the gym. That's our spot. Class is in session right now, but they don't hold class in a place like this. This is where Shimamura and I became friends. What is this feeling? Yesterday, I dreamed of kissing her. I'm not like that, and I'm sure Shimamura isn't either. But...when Shimamura thinks of the word friend, I want to be the first thing that comes to her mind. That's all."
     },
     {
         "title": "Catch These Hands",
@@ -4938,8 +5605,9 @@ const data = [
         "romance": "Y",
         "graphicnovel": "Y",
         "manga": "Y",
-        "aapi": "Y",
-        "lgbtqia": "Y"
+        "asianamericanAndPacificIslander": "Y",
+        "lgbtqia": "Y",
+        "publishersSummary": "Back in the day, Takebe was a tough-as-nails delinquent who could throw hands with anyone. But right when she finally decides to leave her old ways behind, Takebe has a surprise reunion with her old rival, the \"Bloody Cardigan\" Soramori. After all these years, she still wants a piece of Takebe--but not in the way anyone expected! Her proposal: If Soramori can beat Takebe in a fight, they have to start dating?!"
     },
     {
         "title": "Failed Princesses",
@@ -4947,8 +5615,9 @@ const data = [
         "fiction": "Y",
         "romance": "Y",
         "manga": "Y",
-        "aapi": "Y",
-        "lgbtqia": "Y"
+        "asianamericanAndPacificIslander": "Y",
+        "lgbtqia": "Y",
+        "publishersSummary": "Fujishiro Nanaki is super cute, super popular, and super annoyed with anyone as plain as her classmate Kurokawa Kanade. When Nanaki finds out her boyfriend's cheating on her, however, her life makes a complete 180--as does her relationship with Kanade."
     },
     {
         "title": "When My Heart Joins the Thousand",
@@ -4956,7 +5625,8 @@ const data = [
         "fiction": "Y",
         "prose": "Y",
         "invisibledisability": "Y",
-        "neurodiverdent": "Y"
+        "neurodiverdent": "Y",
+        "publishersSummary": "Alvie Fitz doesn't fit in, and she doesn't care. She's spent years swallowing meds and bad advice from doctors and social workers. Adjust, adapt. Pretend to be normal. It sounds so easy. If she can make it to her eighteenth birthday without any major mishaps, she'll be legally emancipated. Free. But if she fails, she'll become a ward of the state and be sent back to the group home"
     },
     {
         "title": "A Girl on the Line",
@@ -4984,7 +5654,7 @@ const data = [
         "author": "Gloria Chao",
         "fiction": "Y",
         "prose": "Y",
-        "aapi": "Y",
+        "asianamericanAndPacificIslander": "Y",
         "migrantstories": "Y"
     },
     {
@@ -4993,7 +5663,8 @@ const data = [
         "fiction": "Y",
         "verse": "Y",
         "latinx": "Y",
-        "lgbtqia": "Y"
+        "lgbtqia": "Y",
+        "publishersSummary": "Michael is a mixed-race gay teen growing up in London. All his life, he's navigated what it means to be Greek-Cypriot and Jamaican--but never quite feeling Greek or Black enough. As he gets older, Michael's coming out is only the start of learning who he is and where he fits in. When he discovers the Drag Society, he finally finds where he belongs--and the Black Flamingo is born. Told with raw honesty, insight, and lyricism, this debut explores the layers of identity that make us who we are--and allow us to shine."
     },
     {
         "title": "All of Us with Wings",
@@ -5009,11 +5680,12 @@ const data = [
         "historicalfiction": "Y",
         "prose": "Y",
         "africanamericanOrBlack": "Y",
-        "aapi": "Y",
+        "asianamericanAndPacificIslander": "Y",
         "latinx": "Y",
         "ownvoices": "Y",
         "jewish": "Y",
-        "neurodiverdent": "Y"
+        "neurodiverdent": "Y",
+        "publishersSummary": "Set in a darkly glamorous world The Gilded Wolves is full of mystery, decadence and dangerous but thrilling adventure. Paris, 1889: The world is on the cusp of industry and power, and the Exposition Universelle has breathed new life into the streets and dredged up ancient secrets. In this city, no one keeps tabs on secrets better than treasure-hunter and wealthy hotelier, Séverin Montagnet-Alarie. But when the all-powerful society, the Order of Babel, seeks him out for help, Séverin is offered a treasure that he never imagined: his true inheritance. To find the ancient artifact the Order seeks, Séverin will need help from a band of experts: An engineer with a debt to pay. A historian who can't yet go home. A dancer with a sinister past. And a brother in all but blood, who might care too much. Together, they'll have to use their wits and knowledge to hunt the artifact through the dark and glittering heart of Paris. What they find might change the world, but only if they can stay alive."
     },
     {
         "title": "Before We Disappear",
@@ -5030,7 +5702,8 @@ const data = [
         "prose": "Y",
         "lgbtqia": "Y",
         "aroace": "Y",
-        "closetsafe": "Y"
+        "closetsafe": "Y",
+        "publishersSummary": "A secret beats inside Anna Thatcher's chest: an illegal clockwork heart. Anna works cog by cog--donning the moniker Technician--to supply black market medical technology to the sick and injured, against the Commissioner's tyrannical laws. Nathaniel Fremont, the Commissioner's son, has never had to fear the law. Determined to earn his father's respect, Nathaniel sets out to capture the Technician. But the more he learns about the outlaw, the more he questions whether his father's elusive affection is worth chasing at all."
     },
     {
         "title": "Tash Hearts Tolstoy",
@@ -5074,7 +5747,7 @@ const data = [
         "author": "Heather Kaczynski",
         "scifi": "Y",
         "prose": "Y",
-        "aapi": "Y",
+        "asianamericanAndPacificIslander": "Y",
         "lgbtqia": "Y",
         "aroace": "Y",
         "closetsafe": "Y"
@@ -5084,7 +5757,8 @@ const data = [
         "author": "Alexene Farol Follmuth",
         "fiction": "Y",
         "prose": "Y",
-        "aapi": "Y"
+        "asianamericanAndPacificIslander": "Y",
+        "publishersSummary": "Bel would rather die than think about the future. College apps? You're funny. Extracurriculars? Not a chance. But when she accidentally reveals a talent for engineering at school, she's basically forced into joining the robotics club. Even worse? All the boys ignore Bel--and Neelam, the only other girl on the team, doesn't seem to like her either. Enter Mateo Luna, captain of the club, who recognizes Bel as a potential asset--until they start butting heads. Bel doesn't care about Nationals, while Teo cares too much. But as the nights of after-school work grow longer and longer, Bel and Teo realize they've built more than just a combat-ready robot for the championship: they've made space for each other and themselves. Sharply funny with a slow-burn, all-the-feels romance, Alexene Farol Follmuth's My Mechanical Romance explores both the challenges girls of color face in STEM and the vulnerability of first love with unfailing wit and honesty."
     },
     {
         "title": "Run",
@@ -5118,7 +5792,8 @@ const data = [
         "prose": "Y",
         "migrantstories": "Y",
         "ownvoices": "Y",
-        "jewish": "Y"
+        "jewish": "Y",
+        "publishersSummary": "The discovery of a packet of old letters sends seventeen-year-old Abby Schoenberg to Nantucket to unravel a family mystery about her grandmother's past, but things get complicated when Abby meets the cute grandson of a prominent family who wants to stop her from investigating."
     },
     {
         "title": "American Street",
@@ -5142,14 +5817,15 @@ const data = [
         "author": "Mayra Cuevas, Marie Marquardt",
         "fiction": "Y",
         "prose": "Y",
-        "latinx": "Y"
+        "latinx": "Y",
+        "publishersSummary": "A timely story of two teenagers who discover the power of friendship, feminism, and standing up for what you believe in, no matter where you come from"
     },
     {
         "title": "The Dream Runners",
         "author": "Shveta Thakar",
         "fantasy": "Y",
         "prose": "Y",
-        "aapi": "Y",
+        "asianamericanAndPacificIslander": "Y",
         "ownvoices": "Y"
     },
     {
@@ -5165,7 +5841,7 @@ const data = [
         "fiction": "Y",
         "romance": "Y",
         "prose": "Y",
-        "aapi": "Y",
+        "asianamericanAndPacificIslander": "Y",
         "ownvoices": "Y"
     },
     {
@@ -5173,7 +5849,8 @@ const data = [
         "author": "Juliana Goodman",
         "fiction": "Y",
         "prose": "Y",
-        "africanamericanOrBlack": "Y"
+        "africanamericanOrBlack": "Y",
+        "publishersSummary": "Sixteen-year-old Beau Willet has dreams of being an artist and one day leaving the Chicago projects she's grown up in. But after her older sister, Katia, is killed by an off-duty police officer, Beau knows she has to clear her sister's name by finding the only witness to the murder; Katia's no-good boyfriend, Jordan, who has gone missing. If she doesn't find him and tell the world what really happened, Katia's death will be ignored, like the deaths of so many other Black women who are wrongfully killed. With the help of her friend, Sonnet, Beau sets up a Twitter account to gather anonymous tips. But the more that Beau finds out about her sister's death, the more danger she finds herself in. And with a new relationship developing with her childhood friend, Champion, and the struggle to keep her family together, Beau is soon in way over her head. How much is she willing to risk to clear her sister's name and make sure she's not forgotten?"
     },
     {
         "title": "War Girls",
@@ -5199,7 +5876,8 @@ const data = [
         "mythology": "Y",
         "prose": "Y",
         "africanamericanOrBlack": "Y",
-        "ownvoices": "Y"
+        "ownvoices": "Y",
+        "publishersSummary": "A gruesome war results in the old gods' departure from earth. The only remnants of their existence lie in two girls. Twins, separated at birth. Goddesses who grow up believing that they are human. Daughters Of Nri explores their epic journey of self-discovery as they embark on a path back to one another. Strong-willed Naala grows up seeking adventure in her quiet and small village. While the more reserved Sinai resides in the cold and political palace of Nri. Though miles apart, both girls share an indestructible bond: they share the same blood, the same face, and possess the same unspoken magic, thought to have vanished with the lost gods. The twin girls were separated at birth, a price paid to ensure their survival from Eze Ochichiri, the man who rules the Kingdom of Nri. Both girls are tested in ways that awaken a mystical, formidable power deep within themselves. Eventually, their paths both lead back to the mighty Eze"
     },
     {
         "title": "A Phoenix First Must Burn",
@@ -5216,15 +5894,16 @@ const data = [
         "author": "Marie Lu",
         "scifi": "Y",
         "prose": "Y",
-        "aapi": "Y",
-        "ownvoices": "Y"
+        "asianamericanAndPacificIslander": "Y",
+        "ownvoices": "Y",
+        "publishersSummary": "When teenage coder Emika Chen hacks her way into the opening tournament of the Warcross Championships, she glitches herself into the game as well as a sinister plot with major consequences for the entire Warcross empire"
     },
     {
         "title": "Six Crimson Cranes",
         "author": "Elizabeth Lim",
         "fantasy": "Y",
         "prose": "Y",
-        "aapi": "Y",
+        "asianamericanAndPacificIslander": "Y",
         "ownvoices": "Y"
     },
     {
@@ -5232,15 +5911,17 @@ const data = [
         "author": "Joan He",
         "fantasy": "Y",
         "prose": "Y",
-        "aapi": "Y",
-        "ownvoices": "Y"
+        "asianamericanAndPacificIslander": "Y",
+        "ownvoices": "Y",
+        "publishersSummary": "Princess Hesina of Yan is thrust into power when her beloved father is murdered, and she's determined to find his killer--whatever the cost"
     },
     {
         "title": "Book of a Thousand Days",
         "author": "Shannon Hale",
         "fantasy": "Y",
         "prose": "Y",
-        "aapi": "Y"
+        "asianamericanAndPacificIslander": "Y",
+        "publishersSummary": "Fifteen-year-old Dashti, sworn to obey her sixteen-year-old mistress, the Lady Saren, shares Saren's years of punishment locked in a tower, then brings her safely to the lands of her true love, where both must hide who they are as they work as kitchen maids."
     },
     {
         "title": "City of Brass",
@@ -5249,7 +5930,8 @@ const data = [
         "historicalfiction": "Y",
         "prose": "Y",
         "africanamericanOrBlack": "Y",
-        "arabOrArabamerican": "Y"
+        "arabOrArabamerican": "Y",
+        "publishersSummary": "Nahri has never believed in magic. Certianly, she has power; on the streets of eighteenth-century Csairo, she's a con woman of unsurpassed talent. But she knows better than anyone that the trades she uses to get by--palm readings, zars, and a mysterious gift for healing--are all tricks, both the means to the delightful end of swindling Ottoman nobles and a reliable way to survive. But when Nahri accidentally summons Dara, an equally sly, darkly mysterious djinn warrior, to her side during one of her cons, she's forced to reconsider her beliefs. For Dara tells Nahri an extraordinary tale: across hot, windswept sands teeming with creatures of fire and rivers where the mythical marid sleep, past ruins of once-magnificent human metropolises and mountains where the circling birds of prey are more than what they seem, lies Daevabad, the legendary city of brass--a city to which Nahri is irrevocably bound. In Daevabad, wtihin gilded brass walls laced with enchantments and behind the six gates of the six djinn tribes, old resentments run deep. And when Nahri decides to enter this world, her arrival threatens to ignite a war that has been simmering for centuries. Spurning Dara's warning of the treachery surrounding her, she embarks on a hestiant friendship with Alizayd, an idealistic prince who dreams of revolutionizing his father's corrupt regime. All too soon, Nahri learns that true power is fierce and brutal. That magic cannot shield her from the dangerous web of court politics. That even the cleverest of schemes can have deadly consequences. After all, there is a reason they say to be careful what you wish for..."
     },
     {
         "title": "Woven in Moonlight",
@@ -5257,14 +5939,15 @@ const data = [
         "fantasy": "Y",
         "prose": "Y",
         "latinx": "Y",
-        "ownvoices": "Y"
+        "ownvoices": "Y",
+        "publishersSummary": "Ximena is the decoy Condesa, a stand-in for the last remaining Illustrian royal. Her people lost everything when the usurper, Atoc, used an ancient relic to summon ghosts and drive the Illustrians from La Ciudad. Now Ximena's motivated by her insatiable thirst for revenge, and her rare ability to spin thread from moonlight. When Atoc demands the real Condesa's hand in marriage, it's Ximena's duty to go in her stead. She relishes the chance, as Illustrian spies have reported that Atoc's no longer carrying his deadly relic. If Ximena can find it, she can return the true aristócrata to their rightful place."
     },
     {
         "title": "The Fever King",
         "author": "Victoria Lee",
         "scifi": "Y",
         "prose": "Y",
-        "aapi": "Y",
+        "asianamericanAndPacificIslander": "Y",
         "lgbtqia": "Y",
         "mlmOrNblm": "Y",
         "migrantstories": "Y",
@@ -5275,7 +5958,8 @@ const data = [
         "author": "Sangu Mandanna",
         "scifi": "Y",
         "prose": "Y",
-        "aapi": "Y"
+        "asianamericanAndPacificIslander": "Y",
+        "publishersSummary": "In a universe of capricious gods, dark moons, and kingdoms built on the backs of spaceships, a cursed queen sends her infant daughter away, a jealous uncle steals the throne of Kali from his nephew, and an exiled prince vows to take his crown back. Raised alone and far away from her home on Kali, Esmae longs to return to her family. When the King of Wychstar offers to gift the unbeatable, sentient warship Titania to a warrior that can win his competition, she sees her way home: she'll enter the competition, reveal her true identity to the world, and help her famous brother win back the crown of Kali\""
     },
     {
         "title": "Pitch Dark",
@@ -5300,7 +5984,8 @@ const data = [
         "prose": "Y",
         "arabOrArabamerican": "Y",
         "ownvoices": "Y",
-        "muslim": "Y"
+        "muslim": "Y",
+        "publishersSummary": "Teenaged Leyla McQueen, who lives beneath the ruins of a submerged London in 2099, joins a prestigious submersible race in the hope of clearing her father's name before encountering government corruption and a hidden world."
     },
     {
         "title": "Dead End Girls",
@@ -5326,7 +6011,8 @@ const data = [
         "prose": "Y",
         "africanamericanOrBlack": "Y",
         "lgbtqia": "Y",
-        "wlwOrNblw": "Y"
+        "wlwOrNblw": "Y",
+        "publishersSummary": "The start of an exciting new historical mystery series set during the Harlem Renaissance from debut author Nekesa Afia. Harlem, 1926. Young black women like Louise Lloyd are ending up dead. Following a harrowing kidnapping ordeal when she was in her teens, Louise is doing everything she can to maintain a normal life. She's succeeding, too. She spends her days working at Maggie's Café and her nights at the Zodiac, Harlem's hottest speakeasy. Louise's friends might say she's running from her past and the notoriety that still stalks her, but don't tell her that. When a girl turns up dead in front of the café, Louise is forced to confront something she's been trying to ignore-two other local black girls have been murdered over the past few weeks. After an altercation with a police officer gets her arrested, Louise is given an ultimatum: She can either help solve the case or wind up in a jail cell. Louise has no choice but to investigate and soon finds herself toe-to-toe with a murderous mastermind hell-bent on taking more lives, maybe even her own"
     },
     {
         "title": "This Is How You Lose the Time War",
@@ -5334,7 +6020,8 @@ const data = [
         "scifi": "Y",
         "prose": "Y",
         "lgbtqia": "Y",
-        "wlwOrNblw": "Y"
+        "wlwOrNblw": "Y",
+        "publishersSummary": "Among the ashes of a dying world, an agent of the Commandant finds a letter. It reads: Burn before reading. Thus begins an unlikely correspondence between two rival agents hellbent on securing the best possible future for their warring factions. Now, what began as a taunt, a battlefield boast, grows into something more. Something epic. Something romantic. Something that could change the past and the future. Except the discovery of their bond would mean death for each of them."
     },
     {
         "title": "Mooncakes",
@@ -5342,7 +6029,8 @@ const data = [
         "fantasy": "Y",
         "graphicnovel": "Y",
         "lgbtqia": "Y",
-        "mutedeafblind": "Y"
+        "mutedeafblind": "Y",
+        "publishersSummary": "Nova Huang knows more about magic than your average teen witch. She works at her grandmothers? bookshop, where she helps them loan out spell books and investigate any supernatural occurrences in their New England town. One fateful night, she follows reports of a white wolf into the woods, and she comes across the unexpected: her childhood crush, Tam Lang, battling a horse demon in the woods. As a werewolf, Tam has been wandering from place to place for years, unable to call any town home. Pursued by dark forces eager to claim the magic of wolves and out of options, Tam turns to Nova for help. Their latent feelings are rekindled against the backdrop of witchcraft, untested magic, occult rituals, and family ties both new and old in this enchanting tale of self-discovery."
     },
     {
         "title": "I'll Give You the Sun",
@@ -5351,7 +6039,8 @@ const data = [
         "romance": "Y",
         "prose": "Y",
         "lgbtqia": "Y",
-        "mlmOrNblm": "Y"
+        "mlmOrNblm": "Y",
+        "publishersSummary": "A story of first love, family, loss, and betrayal told from different points in time, and in separate voices, by artists Jude and her twin brother Noah"
     },
     {
         "title": "Unbecoming",
@@ -5359,7 +6048,8 @@ const data = [
         "fiction": "Y",
         "prose": "Y",
         "lgbtqia": "Y",
-        "wlwOrNblw": "Y"
+        "wlwOrNblw": "Y",
+        "publishersSummary": "Life has just become very complicated for seventeen-year-old Katie; her father walked out a year ago, her mother is stressed out, her brother is a \"special needs\" teenager, and she is caring for the maternal grandmother she has never met, who is suffering from Alzheimer's--and Katie has a secret of her own that she cannot reveal."
     },
     {
         "title": "Every Day",
@@ -5367,7 +6057,7 @@ const data = [
         "urbanfantasy": "Y",
         "prose": "Y",
         "africanamericanOrBlack": "Y",
-        "aapi": "Y",
+        "asianamericanAndPacificIslander": "Y",
         "latinx": "Y",
         "arabOrArabamerican": "Y",
         "lgbtqia": "Y",
@@ -5386,7 +6076,8 @@ const data = [
         "mlmOrNblm": "Y",
         "ownvoices": "Y",
         "mentalhealth": "Y",
-        "depression": "Y"
+        "depression": "Y",
+        "publishersSummary": "Abducted by aliens periodically throughout his youth, Henry Denton is informed by his erstwhile captors that they will end the world in 144 days unless he stops them by deciding that humanity is worth saving."
     },
     {
         "title": "Boy Meets Boy",
@@ -5395,7 +6086,8 @@ const data = [
         "romance": "Y",
         "prose": "Y",
         "lgbtqia": "Y",
-        "mlmOrNblm": "Y"
+        "mlmOrNblm": "Y",
+        "publishersSummary": "When Paul falls hard for Noah, he thinks he has found his one true love, but when Noah walks out of his life, Paul has to find a way to get him back and make everything right once more."
     },
     {
         "title": "Nimona",
@@ -5403,7 +6095,8 @@ const data = [
         "fantasy": "Y",
         "graphicnovel": "Y",
         "lgbtqia": "Y",
-        "mlmOrNblm": "Y"
+        "mlmOrNblm": "Y",
+        "publishersSummary": "Nimona is an impulsive \nyoung shapeshifter with \na knack for villainy. Lord Ballister Blackheart is a villain with a vendetta. As sidekick and supervillain, Nimona and Lord Blackheart are about to wreak some serious havoc. Their mission: prove to the kingdom that Sir Ambrosius Goldenloin and his buddies at the Institution of Law Enforcement and Heroics aren't the heroes everyone thinks they are. But as small acts of mischief escalate into a vicious battle, Lord Blackheart realizes that Nimona's powers are as murky and mysterious as her past. And her unpredictable wild side might be more dangerous than he is willing to admit"
     },
     {
         "title": "Gracefully Grayson",
@@ -5411,7 +6104,8 @@ const data = [
         "fiction": "Y",
         "prose": "Y",
         "lgbtqia": "Y",
-        "trans": "Y"
+        "trans": "Y",
+        "publishersSummary": "Grayson, a transgender twelve-year-old, learns to accept her true identity and share it with the world"
     },
     {
         "title": "Birthday",
@@ -5430,7 +6124,8 @@ const data = [
         "prose": "Y",
         "lgbtqia": "Y",
         "trans": "Y",
-        "nonbinary": "Y"
+        "nonbinary": "Y",
+        "publishersSummary": "Gender Queer is here. Maia's intensely cathartic autobiography charts eir journey of self-identity, which includes the mortification and confusion of adolescent crushes, grappling with how to come out to family and society, bonding with friends over erotic gay fanfiction, and facing the trauma and fundamental violation of pap smears. Started as a way to explain to eir family what it means to be nonbinary and asexual, Gender Queer is more than a personal story: it is a useful and touching guide on gender identity."
     },
     {
         "title": "On a Sunbeam",
@@ -5438,7 +6133,8 @@ const data = [
         "scifi": "Y",
         "prose": "Y",
         "lgbtqia": "Y",
-        "trans": "Y"
+        "trans": "Y",
+        "publishersSummary": "A ragtag crew travels to the deepest reaches of space, rebuilding beautiful, broken structures to piece the past together. Two girls meet in boarding school and fall deeply in love, only to lear the pain of loss. With interwoven timelines and stunning art, award-winning graphic novelist Tillie Walden creates an inventive world, breathtaking romance, and an epic quest for love."
     },
     {
         "title": "Pet",
@@ -5447,7 +6143,8 @@ const data = [
         "prose": "Y",
         "africanamericanOrBlack": "Y",
         "lgbtqia": "Y",
-        "trans": "Y"
+        "trans": "Y",
+        "publishersSummary": "In a near-future society that claims to have gotten rid of all monstrous people, a creature emerges from a painting seventeen-year-old Jam's mother created, a hunter from another world seeking a real-life monster."
     },
     {
         "title": "Stage Dreams",
@@ -5456,55 +6153,63 @@ const data = [
         "prose": "Y",
         "latinx": "Y",
         "lgbtqia": "Y",
-        "trans": "Y"
+        "trans": "Y",
+        "publishersSummary": "not avalible at slcpl"
     },
     {
         "title": "The Barren Grounds",
         "author": "David Robertson",
         "fantasy": "Y",
         "prose": "Y",
-        "nativeamerican": "Y"
+        "nativeamerican": "Y",
+        "publishersSummary": "\"Morgan and Eli, two Indigenous children forced away from their families and communities, are brought together in a foster home in Winnipeg, Manitoba. They each feel disconnected, from their culture and each other, and struggle to fit in at school and at their new home -- until they find a secret place, walled off in an unfinished attic bedroom. A portal opens to another reality, Askí, bringing them onto frozen, barren grounds, where they meet Ochek (Fisher). The only hunter supporting his starving community, Misewa, Ochek welcomes the human children, teaching them traditional ways to survive. But as the need for food becomes desperate, they embark on a dangerous mission. Accompanied by Arik, a sassy Squirrel they catch stealing from the trapline, they try to save Misewa before the icy grip of winter freezes everything -- including them."
     },
     {
         "title": "Code Talker",
         "author": "Joseph Bruchac",
         "historicalfiction": "Y",
         "prose": "Y",
-        "nativeamerican": "Y"
+        "nativeamerican": "Y",
+        "publishersSummary": "After being taught in a boarding school run by whites that Navajo is a useless language, Ned Begay and other Navajo men are recruited by the Marines to become Code Talkers, sending messages during World War II in their native tongue."
     },
     {
         "title": "Come Home, Indio: A Memoir",
         "author": "Jim Terry",
         "memoirautobiograohy": "Y",
         "prose": "Y",
-        "nativeamerican": "Y"
+        "nativeamerican": "Y",
+        "publishersSummary": "not avalible at slcpl"
     },
     {
         "title": "Crazy Horse's Girl Friend",
         "author": "Erika T. Wurth",
         "fiction": "Y",
         "prose": "Y",
-        "nativeamerican": "Y"
+        "nativeamerican": "Y",
+        "publishersSummary": "Margaritte, an American-Indian teenager is trapped in a Colorado town crippled by intense poverty, unemployment, and drug abuse. She deals drugs, gets pregnant, and fights against a life she hates."
     },
     {
         "title": "Dog Tracks",
         "author": "Ruby Slipperjack",
         "fiction": "Y",
         "prose": "Y",
-        "nativeamerican": "Y"
+        "nativeamerican": "Y",
+        "publishersSummary": "not avalible at slcpl"
     },
     {
         "title": "The Ghost Collector",
         "author": "Allison Mills",
         "urbanfantasy": "Y",
         "prose": "Y",
-        "nativeamerican": "Y"
+        "nativeamerican": "Y",
+        "publishersSummary": "\"Ghosts aren't meant to stick around forever . . . Ghosts are everywhere in Shelly's life. Recently passed people, pets, and a boy who lives in the local graveyard and lends her Smiths tapes are all part of spirit world she and her grandmother are privy to. In the tradition of their Cree ancestors, Shelly and her grandmother help these lost souls transition to the next world by catching them in their hair. But when Shelly's mom dies, her relationship to ghosts--and death--changes. Instead of helping spirits move on, she starts bringing them home and hiding them in her room. But no matter how many ghosts she collects, Shelly can't ignore the one that's missing. Why hasn't her mom's ghost come home yet? Rooted in a Cree worldview and inspired by the author's great-grandmother's stories, The Ghost Collector delves into questions of grief, loss, and the many ways people can linger after death.\"-- Provided by publisher."
     },
     {
         "title": "Four Faces of the Moon",
         "author": "Amanda Strong",
         "fantasy": "Y",
-        "graphicnovel": "Y"
+        "graphicnovel": "Y",
+        "publishersSummary": "\"On a journey to uncover her family's story, Spotted Fawn travels through time and space to reclaim connection to ancestors, language, and the land--creating a path forward in this essential graphic novel. In the dreamworld she bears witness to a mountain of buffalo skulls. They stand as a ghostly monument to the slaughter of the Plains bison to near extinction-- a key tactic to starve and contain the Indigenous People onto reservations. On this path, Spotted Fawn knows she must travel through her own family history to confront the harsh realities of the past and reignite her connection to her people and the land. Her darkroom becomes a portal, and her photographs allow her glimpses into the lives of her relatives over the course of four chapters of this book, which follow the phases of the moon. Time and space become unlocked and unfurl in front of her eyes. Guided by her ancestors, Spotted Fawn's travels through the past allow her to come into full face--like the moon itself. Adapted from the acclaimed stop-motion animated film of the same name, written and directed by Amanda Strong, Four Faces of the Moon brings the oral and written history of the Michif, Cree, Nakoda and Anishinaabe Peoples and their cultural link to the buffalo alive on the page. Deeply resonant and beautifully rendered, this graphic novel retelling is essential reading. Backmatter by Dr. Sherry Farrell-Racette (Michif), an associate professor of Native Studies and Women's and Gender Studies at the University of Manitoba, provides information on Michif culture and history and the injustices of colonialism.\"-- Provided by publisher."
     },
     {
         "title": "The Matzah Ball",
@@ -5513,7 +6218,8 @@ const data = [
         "romance": "Y",
         "prose": "Y",
         "jewish": "Y",
-        "newAdultAdultBookWithTeenInterest": "Y"
+        "newAdultAdultBookWithTeenInterest": "Y",
+        "publishersSummary": "\"Rachel Rubenstein-Goldblatt is a nice Jewish girl with a shameful secret: she loves Christmas. For a decade she's hidden her career as a Christmas romance novelist from her family. Her talent has made her a bestseller even as her chronic illness has always kept the kind of love she writes about out of reach. But when her diversity-conscious publisher insists she write a Hanukkah romance, her well of inspiration suddenly runs dry. Hanukkah's not magical. It's not merry. It's not Christmas. Desperate not to lose her contract, Rachel's determined to find her muse at the Matzah Ball, a Jewish music celebration on the last night of Hanukkah, even if it means working with her summer camp archenemy--Jacob Greenberg. Though Rachel and Jacob haven't seen each other since they were kids, their grudge still glows brighter than a menorah. But as they spend more time together, Rachel finds herself drawn to Hanukkah--and Jacob--in a way she never expected. Maybe this holiday of lights will be the spark she needed to set her heart ablaze\"-- Provided by publisher."
     },
     {
         "title": "Fire with Fire",
@@ -5522,7 +6228,8 @@ const data = [
         "prose": "Y",
         "latinx": "Y",
         "lgbtqia": "Y",
-        "closetsafe": "Y"
+        "closetsafe": "Y",
+        "publishersSummary": "not avalible at slcpl"
     },
     {
         "title": "Spell Hacker",
@@ -5535,7 +6242,8 @@ const data = [
         "trans": "Y",
         "nonbinary": "Y",
         "closetsafe": "Y",
-        "ownvoices": "Y"
+        "ownvoices": "Y",
+        "publishersSummary": "not avalible at slcpl"
     },
     {
         "title": "Victories Greater Than Death",
@@ -5546,7 +6254,8 @@ const data = [
         "lgbtqia": "Y",
         "wlwOrNblw": "Y",
         "trans": "Y",
-        "closetsafe": "Y"
+        "closetsafe": "Y",
+        "publishersSummary": "Tired of hiding in obscurity on Earth, Tina, the human clone of a brilliant alien tactician, pursues her destiny in space, but success is elusive until Tina and her best friend Rachel assemble a ragtag crew of humans and set out to save all the worlds."
     },
     {
         "title": "Other Words for Smoke",
@@ -5555,7 +6264,8 @@ const data = [
         "prose": "Y",
         "lgbtqia": "Y",
         "wlwOrNblw": "Y",
-        "closetsafe": "Y"
+        "closetsafe": "Y",
+        "publishersSummary": "Fourteen-year-old twins Mae and Rossa's summer away from home takes a life-altering turn when they discover their great aunt Rita's home is full of secrets."
     },
     {
         "title": "Wild Beauty",
@@ -5565,7 +6275,8 @@ const data = [
         "lgbtqia": "Y",
         "nonbinary": "Y",
         "closetsafe": "Y",
-        "ownvoices": "Y"
+        "ownvoices": "Y",
+        "publishersSummary": "For nearly a century, the Nomeolvides women have tended the grounds of La Pradera, hiding a terrible legacy, until mysterious Fel arrives and Estrella helps him explore his dangerous past."
     },
     {
         "title": "Live, Laugh, Kidnap",
@@ -5573,7 +6284,8 @@ const data = [
         "fiction": "Y",
         "prose": "Y",
         "lgbtqia": "Y",
-        "wlwOrNblw": "Y"
+        "wlwOrNblw": "Y",
+        "publishersSummary": "not avalible at slcpl"
     },
     {
         "title": "Things That Burn",
@@ -5583,7 +6295,8 @@ const data = [
         "africanamericanOrBlack": "Y",
         "lgbtqia": "Y",
         "nonbinary": "Y",
-        "ownvoices": "Y"
+        "ownvoices": "Y",
+        "publishersSummary": "not avalible at slcpl"
     },
     {
         "title": "Dandelion Travels",
@@ -5593,7 +6306,8 @@ const data = [
         "africanamericanOrBlack": "Y",
         "lgbtqia": "Y",
         "mlmOrNblm": "Y",
-        "ownvoices": "Y"
+        "ownvoices": "Y",
+        "publishersSummary": "not avalible at slcpl"
     },
     {
         "title": "The Vanishing",
@@ -5602,7 +6316,8 @@ const data = [
         "historicalfiction": "Y",
         "mysteryHorror": "Y",
         "prose": "Y",
-        "jewish": "Y"
+        "jewish": "Y",
+        "publishersSummary": "not avalible at slcpl"
     },
     {
         "title": "If Anything Happens I Love You",
@@ -5611,7 +6326,8 @@ const data = [
         "graphicnovel": "Y",
         "ownvoices": "Y",
         "mentalhealth": "Y",
-        "depression": "Y"
+        "depression": "Y",
+        "publishersSummary": "not avalible at slcpl"
     },
     {
         "title": "How to Suceed in Witchcraft",
@@ -5621,7 +6337,8 @@ const data = [
         "africanamericanOrBlack": "Y",
         "lgbtqia": "Y",
         "wlwOrNblw": "Y",
-        "ownvoices": "Y"
+        "ownvoices": "Y",
+        "publishersSummary": "not avalible at slcpl"
     },
     {
         "title": "Afterlove",
@@ -5630,9 +6347,10 @@ const data = [
         "mysteryHorror": "Y",
         "prose": "Y",
         "africanamericanOrBlack": "Y",
-        "aapi": "Y",
+        "asianamericanAndPacificIslander": "Y",
         "lgbtqia": "Y",
-        "wlwOrNblw": "Y"
+        "wlwOrNblw": "Y",
+        "publishersSummary": "not avalible at slcpl"
     },
     {
         "title": "Muhammad Najem, War Reporter",
@@ -5642,7 +6360,8 @@ const data = [
         "arabOrArabamerican": "Y",
         "migrantstories": "Y",
         "ownvoices": "Y",
-        "muslim": "Y"
+        "muslim": "Y",
+        "publishersSummary": "not avalible at slcpl"
     },
     {
         "title": "Foul Lady Fortune",
@@ -5650,9 +6369,10 @@ const data = [
         "historicalfiction": "Y",
         "mysteryHorror": "Y",
         "prose": "Y",
-        "aapi": "Y",
+        "asianamericanAndPacificIslander": "Y",
         "lgbtqia": "Y",
-        "trans": "Y"
+        "trans": "Y",
+        "publishersSummary": "In 1931 Shanghai, two Nationalist spies pose as a married couple to investigate a series of brutal murders causing unrest in the city"
     },
     {
         "title": "The Door of No Return",
@@ -5660,7 +6380,8 @@ const data = [
         "historicalfiction": "Y",
         "verse": "Y",
         "africanamericanOrBlack": "Y",
-        "ownvoices": "Y"
+        "ownvoices": "Y",
+        "publishersSummary": "A novel in verse about a boy escaping slavers during the nineteenth century"
     },
     {
         "title": "Soul of the Deep",
@@ -5668,7 +6389,8 @@ const data = [
         "fantasy": "Y",
         "prose": "Y",
         "africanamericanOrBlack": "Y",
-        "bookBibnumber": 983238
+        "bookBibnumber": 983238,
+        "publishersSummary": "When signs of the eight ajogun begin to appear, Simi teams up with the corrupt trickster god Esu to stop the demon warlords before they enter the human realm and ruin humankind."
     },
     {
         "title": "The Gilda Stories",
@@ -5678,7 +6400,8 @@ const data = [
         "prose": "Y",
         "africanamericanOrBlack": "Y",
         "lgbtqia": "Y",
-        "wlwOrNblw": "Y"
+        "wlwOrNblw": "Y",
+        "publishersSummary": "Before Buffy, before Twilight, before Octavia Butler's Fledgling, there was The Gilda Stories, Jewelle Gomez's sexy vampire novel.\"The Gilda Stories is groundbreaking not just for the wild lives it portrays, but for how it portrays them--communally, unapologetically, roaming fiercely over space and time.\"--Emma Donoghue, author of Room\"Jewelle Gomez sees right into the heart. This is a book to give to those you want most to find their own strength.\"-Dorothy Allison\"Gomez's women are savvy and bold, with a sense of ancestry and history. The author's compassion, affection, and respect for her characters are infectious.\"-Library Journal This remarkable novel begins in 1850s Louisiana, where Gilda escapes slavery and learns about freedom while working in a brothel. After being initiated into eternal life as one who \"shares the blood\" by two women there, Gilda spends the next two hundred years searching for a place to call home. An instant lesbian classic when it was first published in 1991, The Gilda Stories has endured as an auspiciously prescient book in its explorations of blackness, radical ecology, re-definitions of family, and yes, the erotic potential of the vampire story. Jewelle Gomez is a writer, activist, and the author of many books including Forty-Three Septembers, Don't Explain, The Lipstick Papers, Flamingoes and Bears, and Oral Tradition. The Gilda Stories was the recipient of two Lambda Literary Awards, and was adapted for the stage by the Urban Bush Women theater company in thirteen United States cities. Alexis Pauline Gumbs was named one of UTNE Reader's 50 Visionaries Transforming the World, a Reproductive Reality Check Shero, a Black Woman Rising nominee, and was awarded one of the first-ever \"Too Sexy for 501c3\" trophies. She lives in Durham, North Carolina. More praise for The Gilda Stories:\"Jewelle's big-hearted novel pulls old rhythms out of the earth, the beauty shops and living rooms of black lesbian herstory, expressed by the dazzling vampire Gilda. Her resilience is a testament to black queer women's love, power, and creativity. Brilliant!\"--Joan Steinau Lester, author of Black, White, Other"
     },
     {
         "title": "Monique and the Mango Rains",
@@ -5697,7 +6420,8 @@ const data = [
         "africanamericanOrBlack": "Y",
         "lgbtqia": "Y",
         "mlmOrNblm": "Y",
-        "mentalhealth": "Y"
+        "mentalhealth": "Y",
+        "publishersSummary": "Autumn, Shay, and Logan, whose lives intersect in complicated ways, each lose someone close to them and must work through their grief."
     },
     {
         "title": "Pointe",
@@ -5705,7 +6429,8 @@ const data = [
         "fiction": "Y",
         "prose": "Y",
         "africanamericanOrBlack": "Y",
-        "mentalhealth": "Y"
+        "mentalhealth": "Y",
+        "publishersSummary": "Four years after Theo's best friend, Donovan, disappeared at age thirteen, he is found and brought home and Theo puts her health at risk as she decides whether to tell the truth about the abductor, knowing her revelation could end her life-long dream of becoming a professional ballet dancer."
     },
     {
         "title": "The Weight of Our Sky",
@@ -5713,11 +6438,12 @@ const data = [
         "urbanfantasy": "Y",
         "historicalfiction": "Y",
         "prose": "Y",
-        "aapi": "Y",
+        "asianamericanAndPacificIslander": "Y",
         "arabOrArabamerican": "Y",
         "ownvoices": "Y",
         "muslim": "Y",
-        "invisibledisability": "Y"
+        "invisibledisability": "Y",
+        "publishersSummary": "Amidst the Chinese-Malay conflict in Kuala Lumpur in 1969, sixteen-year-old Melati must overcome prejudice, violence, and her own OCD to find her way back to her mother"
     },
     {
         "title": "Love, Hate & Other Filters",
@@ -5725,10 +6451,11 @@ const data = [
         "fiction": "Y",
         "romance": "Y",
         "prose": "Y",
-        "aapi": "Y",
+        "asianamericanAndPacificIslander": "Y",
         "arabOrArabamerican": "Y",
         "ownvoices": "Y",
-        "muslim": "Y"
+        "muslim": "Y",
+        "publishersSummary": "Maya Aziz, seventeen, is caught between her India-born parents' world of college and marrying a suitable Muslim boy and her dream world of film school and dating her classmate, Phil, when a terrorist attack changes her life forever."
     },
     {
         "title": "Ayesha at Last",
@@ -5736,11 +6463,12 @@ const data = [
         "fiction": "Y",
         "romance": "Y",
         "prose": "Y",
-        "aapi": "Y",
+        "asianamericanAndPacificIslander": "Y",
         "arabOrArabamerican": "Y",
         "ownvoices": "Y",
         "muslim": "Y",
-        "newAdultAdultBookWithTeenInterest": "Y"
+        "newAdultAdultBookWithTeenInterest": "Y",
+        "publishersSummary": "Ayesha Shamsi has a lot going on. Her dreams of being a poet have been set aside for a teaching job so she can pay off her debts to her wealthy uncle. She lives with her boisterous Muslim family and is always being reminded that her flighty younger cousin, Hafsa, is close to rejecting her one hundredth marriage proposal. Though Ayesha is lonely, she doesn't want an arranged marriage. Then she meets Khalid who is just as smart and handsome as he is conservative and judgmental. She is irritatingly attracted to someone who looks down on her choices and dresses like he belongs in the seventh century. When his engagement to Hafsa is announced, Ayesha must deal with the truth about Khalid, her family... and herself."
     },
     {
         "title": "The Gauntlet",
@@ -5748,18 +6476,20 @@ const data = [
         "fantasy": "Y",
         "mysteryHorror": "Y",
         "prose": "Y",
-        "aapi": "Y",
+        "asianamericanAndPacificIslander": "Y",
         "arabOrArabamerican": "Y",
         "ownvoices": "Y",
         "muslim": "Y",
-        "middleGrade": "Y"
+        "middleGrade": "Y",
+        "publishersSummary": "Cora and her friends have escaped the Kindred station and landed at Armstrong -- a supposed safe haven on a small moon -- where they plan to regroup and figure out how to win the Gauntlet, the challenging competition to prove humanity's intelligence and set them free. But Armstrong is no paradise; ruled by a power-hungry sheriff, it's a violent world where the teens are enslaved and put to work in mines. As Nok's due date grows closer, and Mali and Leon journey across space to rescue Cassian, the former inhabitants of the Cage are up against impossible odds. With the whole universe at stake, Cora will do whatever it takes, including pushing her body and mind to the breaking point, to escape Armstrong and run the Gauntlet. But it isn't just a deranged sheriff she has to overcome: the other intelligent species -- the Axion, Kindred, Gatherers, and Mosca -- all have their own reasons to stop her. Not knowing who to trust, Cora must rely on her own instincts to win the competition, which could change the world -- though it might destroy her in the process."
     },
     {
         "title": "The Assignment",
         "author": "Liza Wiemer",
         "fiction": "Y",
         "prose": "Y",
-        "jewish": "Y"
+        "jewish": "Y",
+        "publishersSummary": "Standing in opposition to a class assignment to debate Hitler's Final Solution, seniors Cade and Logan become embroiled in turmoil involving their teacher, principal, Commissioner of Education, white supremacists, and their entire community."
     },
     {
         "title": "Eight Nights of Flirting",
@@ -5767,7 +6497,8 @@ const data = [
         "fiction": "Y",
         "romance": "Y",
         "prose": "Y",
-        "jewish": "Y"
+        "jewish": "Y",
+        "publishersSummary": "Sixteen-year-old Shira is on a mission to find the perfect boyfriend over Hanukkah, but after getting snowed in on Nantucket with her nemesis-slash-former-crush her plans begin to go off the rails."
     },
     {
         "title": "When the Angels Left the Old Country",
@@ -5777,14 +6508,16 @@ const data = [
         "prose": "Y",
         "lgbtqia": "Y",
         "migrantstories": "Y",
-        "jewish": "Y"
+        "jewish": "Y",
+        "publishersSummary": "Uriel the angel and Little Ash (short for Ashmedai) are the only two supernatural creatures in their shtetl (which is so tiny, it doesn't have a name other than Shetl). The angel and the demon have been studying together for centuries, but pogroms and the search for a new life have drawn all the young people from their village to America. When one of those young people, Essie, goes missing. Uriel and Little Ash set off to find her. Along the way the angel and demon encounter humans in need of their help, including Rose Cohen, whose best friend (and the love of her life) has abandoned her to marry a man, and Malke Shulman, whose father died mysteriously on his way to America. But there are obstacles ahead of them as difficult as what they've left behind. Medical exams (and demons) at Ellis Island. Corrupt officials, cruel mob bosses, murderers, poverty. The streets are far from paved with gold. With cinematic sweep and tender observation, Sacha Lamb presents a totally original drama about individual purpose, the fluid nature of identity, and the power of love to change and endure."
     },
     {
         "title": "The Memory Keeper's Daughter",
         "author": "Kim Edwards",
         "fiction": "Y",
         "prose": "Y",
-        "invisibledisability": "Y"
+        "invisibledisability": "Y",
+        "publishersSummary": "On a winter night in 1964, Dr. David Henry is forced by a blizzard to deliver his own twins. His son, born first, is perfectly healthy. Yet when his daughter is born, he sees immediately that she has Down's Syndrome. Rationalizing it as a need to protect Norah, his wife, he makes a split-second decision that will alter all of their lives forever. He asks his nurse to take the baby away to an institution and never to reveal the secret. But Caroline, the nurse, cannot leave the infant. Instead, she disappears into another city to raise the child herself. So begins this beautifully told story that unfolds over a quarter of a century in which these two families, ignorant of each other, are yet bound by the fateful decision made that long-ago winter night. A brilliantly crafted, stunning debut, The Memory Keeper's Daughter explores the way life takes unexpected turns, and how the mysterious ties that hold a family together help us survive the heartache that occurs when long-buried secrets burst into the open."
     },
     {
         "title": "Breaking the Mold: Changing the Face of Climate Science",
@@ -5792,13 +6525,14 @@ const data = [
         "nonfiction": "Y",
         "prose": "Y",
         "africanamericanOrBlack": "Y",
-        "aapi": "Y",
+        "asianamericanAndPacificIslander": "Y",
         "latinx": "Y",
         "nativeamerican": "Y",
         "lgbtqia": "Y",
         "ownvoices": "Y",
         "invisibledisability": "Y",
-        "characterwithdisability": "Y"
+        "characterwithdisability": "Y",
+        "publishersSummary": "Sixteen profiles of scientists who are changing the face of science and the future of Earth through their research."
     },
     {
         "title": "Henry Hamlet's Heart",
@@ -5815,7 +6549,7 @@ const data = [
         "fiction": "Y",
         "mysteryHorror": "Y",
         "prose": "Y",
-        "aapi": "Y",
+        "asianamericanAndPacificIslander": "Y",
         "arabOrArabamerican": "Y",
         "muslim": "Y"
     },
@@ -5825,8 +6559,9 @@ const data = [
         "fiction": "Y",
         "prose": "Y",
         "africanamericanOrBlack": "Y",
-        "aapi": "Y",
-        "mentalhealth": "Y"
+        "asianamericanAndPacificIslander": "Y",
+        "mentalhealth": "Y",
+        "publishersSummary": "Avi LeBeau juggles navigating her first year at a Historically Black Boarding School with the revelation that her older sister Belle is in an abusive romantic relationship"
     },
     {
         "title": "We Are All So Good at Smiling",
@@ -5836,7 +6571,8 @@ const data = [
         "africanamericanOrBlack": "Y",
         "ownvoices": "Y",
         "mentalhealth": "Y",
-        "depression": "Y"
+        "depression": "Y",
+        "publishersSummary": "When hospitalized for her clinical depression, Whimsy connects with a boy named Faerry, who also suffers from the traumatic loss of a sibling, and together they work to unearth buried memories and battle the fantastical physical embodiment of their depression."
     },
     {
         "title": "Torch",
@@ -5848,28 +6584,31 @@ const data = [
         "migrantstories": "Y",
         "jewish": "Y",
         "invisibledisability": "Y",
-        "mentalhealth": "Y"
+        "mentalhealth": "Y",
+        "publishersSummary": "When 17-year-old Pavol fatally sets himself on fire in Prague in 1969 to protest the Soviet invasion of Czechoslovakia, his three best friends must figure out how to survive an oppressive regime without him"
     },
     {
         "title": "This Is Not a Personal Statement",
         "author": "Tracy Bauda",
         "fiction": "Y",
         "prose": "Y",
-        "aapi": "Y",
-        "ownvoices": "Y"
+        "asianamericanAndPacificIslander": "Y",
+        "ownvoices": "Y",
+        "publishersSummary": "After getting rejected from her dream college, sixteen-year-old Filipino American Perla Perez forges her own acceptance and commits to living a lie at university"
     },
     {
         "title": "We Are All We Have",
         "author": "Marina Budhos",
         "fiction": "Y",
         "prose": "Y",
-        "aapi": "Y",
+        "asianamericanAndPacificIslander": "Y",
         "latinx": "Y",
         "arabOrArabamerican": "Y",
         "migrantstories": "Y",
         "ownvoices": "Y",
         "muslim": "Y",
-        "mentalhealth": "Y"
+        "mentalhealth": "Y",
+        "publishersSummary": "After her mom is taken by ICE, seventeen-year-old Rania's hopes and dreams for the future are immediatly put on hold as she figures out how take care of her younger brother and survive in a country that seems to be closing around them"
     },
     {
         "title": "Lotus Bloom and the Afro Revolution",
@@ -5877,7 +6616,8 @@ const data = [
         "fiction": "Y",
         "prose": "Y",
         "africanamericanOrBlack": "Y",
-        "ownvoices": "Y"
+        "ownvoices": "Y",
+        "publishersSummary": "Twelve-year-old Lotus Blossom, normally a peace-loving free spirit, must summon the courage to fight against a racist dress code and stand up for herself."
     },
     {
         "title": "Not an Easy Win",
@@ -5885,20 +6625,22 @@ const data = [
         "fiction": "Y",
         "prose": "Y",
         "africanamericanOrBlack": "Y",
-        "aapi": "Y",
-        "ownvoices": "Y"
+        "asianamericanAndPacificIslander": "Y",
+        "ownvoices": "Y",
+        "publishersSummary": "Nothing has gone right for twelve-year-old year old Lawrence since his Pop went away, but after getting expelled from school for fighting he discovers the world of chess and things begin to change."
     },
     {
         "title": "All My Rage",
         "author": "Saaba Tahir",
         "fiction": "Y",
         "prose": "Y",
-        "aapi": "Y",
+        "asianamericanAndPacificIslander": "Y",
         "arabOrArabamerican": "Y",
         "migrantstories": "Y",
         "ownvoices": "Y",
         "muslim": "Y",
-        "mentalhealth": "Y"
+        "mentalhealth": "Y",
+        "publishersSummary": "Lahore, Pakistan. Then. Misbah is a dreamer and storyteller, newly married to Toufiq in an arranged match. After their young life is shaken by tragedy, they come to the United States and open the Clouds' Rest Inn Motel, hoping for a new start. Juniper, California. Now. Salahudin and Noor are more than best friends; they are family. Growing up as outcasts in the small desert town of Juniper, California, they understand each other the way no one else does. Until The Fight, which destroys their bond with the swift fury of a star exploding. Now, Sal scrambles to run the family motel as his mother Misbah's health fails and his grieving father loses himself to alcoholism. Noor, meanwhile, walks a harrowing tightrope: working at her wrathful uncle's liquor store while hiding the fact that she's applying to college so she can escape him--and Juniper--forever. When Sal's attempts to save the motel spiral out of control, he and Noor must ask themselves what friendship is worth--and what it takes to defeat the monsters in their pasts and the ones in their midst. From one of today's most cherished and bestselling young adult authors comes a breathtaking novel of young love, old regrets, and forgiveness--one that's both tragic and poignant in its tender ferocity."
     },
     {
         "title": "Alone out Here",
@@ -5906,10 +6648,11 @@ const data = [
         "scifi": "Y",
         "prose": "Y",
         "africanamericanOrBlack": "Y",
-        "aapi": "Y",
+        "asianamericanAndPacificIslander": "Y",
         "ownvoices": "Y",
         "mentalhealth": "Y",
-        "depression": "Y"
+        "depression": "Y",
+        "publishersSummary": "When the president's daughter--eighteen-year-old Leigh Chen--ends up on the only ship escaping a dying earth, she and a group of teenagers must grapple with the challenges of what it will take to survive as the last remnants of humanity."
     },
     {
         "title": "Diamond Park",
@@ -5918,7 +6661,8 @@ const data = [
         "prose": "Y",
         "latinx": "Y",
         "migrantstories": "Y",
-        "ownvoices": "Y"
+        "ownvoices": "Y",
+        "publishersSummary": "When four Mexican-American teenagers from Houston travel to Diamond Park to buy a 1959 Chevy Impala from Magaña's godfather, something goes very wrong, and one of them, Susi, ends up arrested for murder; convinced that the real killer is a drug trafficker called Anaconda, Flaco and Magaña head to Mexico hunting for him to clear Susi's name--but in the process of kidnapping Anaconda Flaco discovers how little he understands about what really happened in Diamond Park."
     },
     {
         "title": "We Deserve Monuments",
@@ -5929,7 +6673,8 @@ const data = [
         "africanamericanOrBlack": "Y",
         "lgbtqia": "Y",
         "wlwOrNblw": "Y",
-        "ownvoices": "Y"
+        "ownvoices": "Y",
+        "publishersSummary": "When seventeen-year-old Avery moves to rural Georgia to live with her ailing grandmother, she encounters decades-old family secrets and a mystery surrounding the town's racist past"
     },
     {
         "title": "Kiss and Tell",
@@ -5937,7 +6682,7 @@ const data = [
         "fiction": "Y",
         "romance": "Y",
         "prose": "Y",
-        "aapi": "Y",
+        "asianamericanAndPacificIslander": "Y",
         "arabOrArabamerican": "Y",
         "lgbtqia": "Y",
         "mlmOrNblm": "Y",
@@ -5953,7 +6698,8 @@ const data = [
         "nativeamerican": "Y",
         "lgbtqia": "Y",
         "closetsafe": "Y",
-        "ownvoices": "Y"
+        "ownvoices": "Y",
+        "publishersSummary": "Haunting illustrations are woven throughout these horror stories that follow one extended Cherokee family across the centuries and well into the future as they encounter predators of all kinds in each time period."
     },
     {
         "title": "Self-Made Boys: A Great Gatsby Remix",
@@ -5964,22 +6710,24 @@ const data = [
         "lgbtqia": "Y",
         "mlmOrNblm": "Y",
         "trans": "Y",
-        "nonbinary": "Y"
+        "nonbinary": "Y",
+        "publishersSummary": "Three teens chase their own version of the American Dream during the Roaring 20s in this YA remix of The Great Gatsby"
     },
     {
         "title": "Squire",
         "author": "Nadia Shammas, Sara Alfageeh",
         "fantasy": "Y",
         "graphicnovel": "Y",
-        "aapi": "Y",
-        "ownvoices": "Y"
+        "asianamericanAndPacificIslander": "Y",
+        "ownvoices": "Y",
+        "publishersSummary": "From two incredible rising talents comes the fantasy graphic novel Molly Knox Ostertag calls \"instantly compelling.\" Aiza has always dreamt of becoming a Knight. It's the highest military honor in the once-great Bayt-Sajji Empire, and as a member of the subjugated Ornu people, Knighthood is her only path to full citizenship. Ravaged by famine and mounting tensions, Bayt-Sajji finds itself on the brink of war once again, so Aiza can finally enlist in the competitive Squire training program. It's not how she imagined it, though. Aiza must navigate new friendships, rivalries, and rigorous training under the unyielding General Hende, all while hiding her Ornu background. As the pressure mounts, Aiza realizes that the \"greater good\" that Bayt-Sajji's military promises might not include her, and that the recruits might be in greater danger than she ever imagined. In this breathtaking and timely story, Aiza will have to choose, once and for all: loyalty to her heart and heritage, or loyalty to the Empire."
     },
     {
         "title": "My Aunt is a Monster",
         "author": "Reimena Yee",
         "urbanfantasy": "Y",
         "graphicnovel": "Y",
-        "aapi": "Y",
+        "asianamericanAndPacificIslander": "Y",
         "arabOrArabamerican": "Y",
         "ownvoices": "Y",
         "characterwithdisability": "Y",
@@ -5991,11 +6739,12 @@ const data = [
         "author": "Christina Soontrorvant, Joanna Cacao",
         "fiction": "Y",
         "graphicnovel": "Y",
-        "aapi": "Y",
+        "asianamericanAndPacificIslander": "Y",
         "arabOrArabamerican": "Y",
         "ownvoices": "Y",
         "muslim": "Y",
-        "middleGrade": "Y"
+        "middleGrade": "Y",
+        "publishersSummary": "As one of the only Asian Americans in her school, Christina confronts both well-meaning ignorance and cruel racism, but in middle school, fitting in is important, which is why she and her best friend Megan are both excited and nervous to try out for the popular cheerleading squad."
     },
     {
         "title": "Frizzy",
@@ -6004,7 +6753,8 @@ const data = [
         "graphicnovel": "Y",
         "africanamericanOrBlack": "Y",
         "ownvoices": "Y",
-        "middleGrade": "Y"
+        "middleGrade": "Y",
+        "publishersSummary": "Marlene loves three things: books, her cool tía Ruby, and hanging out with her best friend Camila. But according to her mother Paola, the only thing she needs to focus on is school and 'growing up.' That means straightening her hair every weekend so she could have 'presentable good hair.' But Marlene hates being in the salon and doesn't understand why her curls are not considered pretty by those around her. With a few hiccups, a dash of embarrassment, and the much-needed help of Camila and tía Ruby, she slowly starts a journey to learn to appreciate and proudly wear her curly hair"
     },
     {
         "title": "The Days of Bluegrass Love",
@@ -6013,9 +6763,922 @@ const data = [
         "romance": "Y",
         "prose": "Y",
         "lgbtqia": "Y",
+        "mlmOrNblm": "Y",
+        "publishersSummary": "Deciding to break away from everything, Tycho Zeling flies to America to spend his summer as a camp counselor, where he meets Oliver, another counselor, and feels his life stop, and finally begin again, as his."
+    },
+    {
+        "title": "Fish in a Tree",
+        "author": "Lynda Mullay Hunt",
+        "fiction": "Y",
+        "prose": "Y",
+        "invisibledisability": "Y",
+        "neurodiverdent": "Y",
+        "middleGrade": "Y",
+        "publishersSummary": "The author of the beloved One for the Murphys gives listeners an emotionally-charged, uplifting novel that will speak to anyone who's ever thought there was something wrong with them because they didn't fit in. \"Everybody is smart in different ways. But if you judge a fish by its ability to climb a tree, it will live its life believing it is stupid.\" Ally has been smart enough to fool a lot of smart people. Every time she lands in a new school, she is able to hide her inability to read by creating clever yet disruptive distractions. She is afraid to ask for help; after all, how can you cure dumb? However, her newest teacher Mr. Daniels sees the bright, creative kid underneath the trouble maker. With his help, Ally learns not to be so hard on herself and that dyslexia is nothing to be ashamed of. As her confidence grows, Ally feels free to be herself and the world starts opening up with possibilities. She discovers that there's a lot more to her--and to everyone--than a label, and that great minds don't always think alike."
+    },
+    {
+        "title": "The 99 Boyfriends of Micah Summers",
+        "author": "Adam Sass",
+        "fiction": "Y",
+        "romance": "Y",
+        "prose": "Y",
+        "lgbtqia": "Y",
+        "mlmOrNblm": "Y",
+        "ownvoices": "Y",
+        "publishersSummary": "Micah Summers runs a popular Instagram full of drawings of his numerous imaginary boyfriends (ninety-nine so far)--though he's never had a real boyfriend before. But when a meet-cute with Boy 100 goes wrong, Micah embarks on a Prince Charming-like quest throughout Chicago to find true love--for real this time."
+    },
+    {
+        "title": "Iron Widow",
+        "author": "Xiran Jay Zhao",
+        "scifi": "Y",
+        "prose": "Y",
+        "asianamericanAndPacificIslander": "Y",
+        "lgbtqia": "Y",
+        "mlmOrNblm": "Y",
+        "ownvoices": "Y",
+        "publishersSummary": "The boys of Huaxia dream of pairing up with girls to pilot Chrysalises, giant transforming robots that can battle the aliens that lurk beyond the Great Wall of China. It doesn't matter that the girls die from the mental strain. When 18-year-old Zetian offers herself up as a concubine-pilot, it's to assassinate the ace male pilot responsible for her sister's death. But when she gets her vengeance, it becomes clear that she is an Iron Widow, a rare kind of female pilot who can sacrifice males to power up Chrysalises instead. To tame her frightening yet valuable mental strength, she is paired up with Li Shimin, the strongest male pilot in Huaxia, yet feared and ostracized for killing his father and brothers. But now that Zetian has had a taste of power, she will not cower so easily. She will take over instead, then leverage their combined strength to force her society to stop failing its women and girls. Or die trying."
+    },
+    {
+        "title": "Root",
+        "author": "Aurelie Benattar",
+        "imageDownloaded": "E",
+        "scifi": "Y",
+        "prose": "Y",
+        "africanamericanOrBlack": "Y",
+        "asianamericanAndPacificIslander": "Y",
+        "latinx": "Y",
+        "lgbtqia": "Y",
+        "migrantstories": "Y",
+        "ownvoices": "Y"
+    },
+    {
+        "title": "Going Dark",
+        "author": "Melissa De La Cruz",
+        "imageDownloaded": "E",
+        "fiction": "Y",
+        "mysteryHorror": "Y",
+        "prose": "Y",
+        "asianamericanAndPacificIslander": "Y",
+        "publishersSummary": "When 19-year-old Josh returns from Rome without his budding influencer girlfriend Amelia, he immediately becomes a suspect in her disappearance, but as college sophomore and hacker Harper attempts to clear his name, she unearths secrets from both Josh and Amelia's past."
+    },
+    {
+        "title": "The Davenports",
+        "author": "Krystal Marquis",
+        "imageDownloaded": "E",
+        "romance": "Y",
+        "historicalfiction": "Y",
+        "prose": "Y",
+        "africanamericanOrBlack": "Y",
+        "ownvoices": "Y"
+    },
+    {
+        "title": "Thomas H. Begay and the Navajo Code Talkers",
+        "author": "Alysa Landry",
+        "imageDownloaded": "E",
+        "nonfiction": "Y",
+        "prose": "Y",
+        "nativeamerican": "Y"
+    },
+    {
+        "title": "Promise Boys",
+        "author": "Nick Brooks",
+        "imageDownloaded": "E",
+        "fiction": "Y",
+        "mysteryHorror": "Y",
+        "prose": "Y",
+        "africanamericanOrBlack": "Y",
+        "latinx": "Y",
+        "ownvoices": "Y",
+        "publishersSummary": "J.B., Ramón, and Trey, students of the Urban Promise Prep School, must follow the school's strict rules, but when their principal is murdered, the three boys must band together to track down the real killer before they are arersted"
+    },
+    {
+        "title": "The Black Queen",
+        "author": "Jumata Emil",
+        "imageDownloaded": "E",
+        "fiction": "Y",
+        "mysteryHorror": "Y",
+        "prose": "Y",
+        "africanamericanOrBlack": "Y",
+        "publishersSummary": "Nova Albright was going to be the first Black homecoming queen at Lovett High--but now she's dead. Murdered on coronation night. Fans of One of Us Is Lying and The Other Black Girl will love this unputdownable thriller. Nova Albright, the first Black homecoming queen at Lovett High, is dead. Murdered the night of her coronation, her body found the next morning in the old slave cemetery she spent her weekends rehabilitating. Tinsley McArthur was supposed to be queen. Not only is she beautiful, wealthy, and white, it's her legacy--her grandmother, her mother, and even her sister wore the crown before her. Everyone in Lovett knows Tinsley would do anything to carry on the McArthur tradition. No one is more certain of that than Duchess Simmons, Nova's best friend. Duchess's father is the first Black police captain in Lovett. For Duchess, Nova's crown was more than just a win for Nova. It was a win for all the Black kids. Now her best friend is dead, and her father won't face the fact that the main suspect is right in front of him. Duchess is convinced that Tinsley killed Nova--and that Tinsley is privileged enough to think she can get away with it. But Duchess's father seems to be doing what he always does: fall behind the blue line. Which means that the white girl is going to walk. Duchess is determined to prove Tinsley's guilt. And to do that, she'll have to get close to her. But Tinsley has an agenda, too. Everyone loved Nova. And sometimes, love is exactly what gets you killed."
+    },
+    {
+        "title": "Reggie and Delilah's Year of Falling",
+        "author": "Elise Bryant",
+        "imageDownloaded": "E",
+        "fiction": "Y",
+        "romance": "Y",
+        "prose": "Y",
+        "africanamericanOrBlack": "Y",
+        "publishersSummary": "From the NAACP Image Award-nominated author of Happily Ever Afters comes a dual POV rom-com about Reggie and Delilah, who fall in love through missed connections and chance meetings on holidays over the course of a year. Perfect for fans of Nicola Yoon and Jenny Han, with crossover appeal for readers of Jasmine Guillory and Talia Hibbert romances. Delilah always keeps her messy, gooey insides hidden behind a wall of shrugs and yeah, whatevers. She goes with the flow--which is how she ends up singing in her friends' punk band as a favor, even though she'd prefer to hide at the merch table. Reggie is a D&D Dungeon Master and self-declared Blerd. He spends his free time leading quests and writing essays critiquing the game under a pseudonym, keeping it all under wraps from his disapproving family. These two, who have practically nothing in common, meet for the first time on New Year's Eve. And then again on Valentine's Day. And then again on St. Patrick's Day. It's almost like the universe is pushing them together for a reason."
+    },
+    {
+        "title": "The Cartographers",
+        "author": "Amy Zhang",
+        "imageDownloaded": "E",
+        "fiction": "Y",
+        "prose": "Y",
+        "asianamericanAndPacificIslander": "Y",
+        "migrantstories": "Y",
+        "ownvoices": "Y",
+        "publishersSummary": "Seventeen-year-old Ocean Wu moves to New York City to start college, but she defers her enrollment, keeping it a secret from her immigrant mother, and instead uses the time to deal with her ambivalence about her place in the world."
+    },
+    {
+        "title": "Falling into Place",
+        "author": "Amy Zhang",
+        "imageDownloaded": "E",
+        "fiction": "Y",
+        "prose": "Y",
+        "mentalhealth": "Y",
+        "depression": "Y",
+        "publishersSummary": "One cold fall day, high school junior Liz Emerson steers her car into a tree. This haunting and heartbreaking story is told by a surprising and unexpected narrator and unfolds in nonlinear flashbacks even as Liz's friends, foes, and family gather at the hospital and Liz clings to life"
+    },
+    {
+        "title": "Retro",
+        "author": "Sofia Lapuente, Jarrod Shusterman",
+        "imageDownloaded": "E",
+        "fiction": "Y",
+        "prose": "Y",
+        "latinx": "Y",
+        "migrantstories": "Y",
+        "mentalhealth": "Y",
+        "depression": "Y"
+    },
+    {
+        "title": "The Buried and the Bound",
+        "author": "Rochelle Hassan",
+        "imageDownloaded": "E",
+        "urbanfantasy": "Y",
+        "prose": "Y",
+        "asianamericanAndPacificIslander": "Y",
+        "arabOrArabamerican": "Y",
+        "ownvoices": "Y"
+    },
+    {
+        "title": "The Minus-One Club",
+        "author": "Kekla Magoon",
+        "imageDownloaded": "E",
+        "fiction": "Y",
+        "prose": "Y",
+        "africanamericanOrBlack": "Y",
+        "lgbtqia": "Y",
+        "mlmOrNblm": "Y",
+        "ownvoices": "Y",
+        "mentalhealth": "Y",
+        "publishersSummary": "Joining a secret group called the 'Minus-One Club,' whose members have all suffered the tragic loss of someone they loved, fifteen-year-old Kermit finds his crush Matt's headstrong approach to life helping to relieve his constant despair."
+    },
+    {
+        "title": "Spice Road",
+        "author": "Maiya Ibrahim",
+        "imageDownloaded": "E",
+        "fantasy": "Y",
+        "prose": "Y",
+        "arabOrArabamerican": "Y",
+        "ownvoices": "Y",
+        "muslim": "Y",
+        "publishersSummary": "The first book in an epic fantasy series set in an Arabian-inspired land with secret spice magic. Raised to protect her nation from the monsters lurking in the sands, sixteen-year-old Imani must fight to find her brother, whose betrayal is now the country's greatest threat"
+    },
+    {
+        "title": "6 Times We Almost Kissed (and One Time We Did)",
+        "author": "Tess Sharpe",
+        "imageDownloaded": "E",
+        "fiction": "Y",
+        "romance": "Y",
+        "prose": "Y",
+        "lgbtqia": "Y",
+        "wlwOrNblw": "Y",
+        "publishersSummary": "Penny and Tate have often clashed, despite their mothers' epic friendship; but now that they are living in the same house, beset by medical crises and Penny's problems dealing with the trauma of her father's death, they have to come to terms with their true feelings for each other."
+    },
+    {
+        "title": "Sun Keep Rising",
+        "author": "Kristen R. Lee",
+        "imageDownloaded": "E",
+        "fiction": "Y",
+        "prose": "Y",
+        "africanamericanOrBlack": "Y",
+        "publishersSummary": "When rent increases put a teen mom at risk of losing her home, she resorts to a dangerous game to keep her family afloat. But all games have consequences, and this isn't one she can afford to lose. A gripping story about race, income instability, and the strength it takes to survive"
+    },
+    {
+        "title": "As You Walk On By",
+        "author": "Julian Winters",
+        "imageDownloaded": "E",
+        "fiction": "Y",
+        "prose": "Y",
+        "africanamericanOrBlack": "Y",
+        "lgbtqia": "Y",
+        "mlmOrNblm": "Y",
+        "ownvoices": "Y",
+        "publishersSummary": "After a disastrous promposal at a party, seventeen-year-old Theo has an existential crisis in an empty bedroom, but as the night progresses, various classmates also seek refuge from the party, and Theo finds he is not as alone as he thinks he is."
+    },
+    {
+        "title": "Another Dimension of Us",
+        "author": "Mike Albo",
+        "imageDownloaded": "E",
+        "scifi": "Y",
+        "prose": "Y",
+        "latinx": "Y",
+        "lgbtqia": "Y",
         "mlmOrNblm": "Y"
+    },
+    {
+        "title": "The Boy Who Followed His Father into Auchwitz",
+        "author": "Jeremy Dronfield",
+        "imageDownloaded": "E",
+        "nonfiction": "Y",
+        "prose": "Y",
+        "migrantstories": "Y",
+        "jewish": "Y",
+        "characterwithdisability": "Y"
+    },
+    {
+        "title": "This Time It's Real",
+        "author": "Ann Liang",
+        "imageDownloaded": "E",
+        "fiction": "Y",
+        "romance": "Y",
+        "prose": "Y",
+        "asianamericanAndPacificIslander": "Y",
+        "migrantstories": "Y",
+        "publishersSummary": "When seventeen-year-old Eliza Lin's entirely fictional essay about meeting her perfect boyfriend goes viral at her international school in Beijing, she has to make a deal with the handsome and charming Caz Song to play the part--but when the relationship starts to feel real all her career plans are suddenly threatened."
+    },
+    {
+        "title": "Walls and Welcome Mats : Immigration and the American Dream",
+        "author": "Lars Oritz",
+        "imageDownloaded": "E",
+        "nonfiction": "Y",
+        "prose": "Y",
+        "africanamericanOrBlack": "Y",
+        "asianamericanAndPacificIslander": "Y",
+        "latinx": "Y",
+        "arabOrArabamerican": "Y",
+        "nativeamerican": "Y",
+        "migrantstories": "Y"
+    },
+    {
+        "title": "Out of Character",
+        "author": "Jenna Miller",
+        "imageDownloaded": "E",
+        "fiction": "Y",
+        "prose": "Y",
+        "lgbtqia": "Y",
+        "wlwOrNblw": "Y",
+        "publishersSummary": "Dumplin' meets Geekerella in debut author Jenna Miller's queer, body-positive love story that explores online and offline relationships in all of their messiness. If you asked seventeen-year-old Cass Williams to describe herself, she'd happily tell you she's fat, a lesbian, and obsessed with the Tide Wars books. What she won't tell you--or anyone in her life--is that she's part of an online Tide Wars roleplay community. Sure, it's nerdy as hell, but when she's behind the screen writing scenes as Captain Aresha, she doesn't have to think about her mother who walked out or how unexpectedly stressful it is dating resident cool girl Taylor Cooper. But secretly retreating to her online life is starting to catch up with Cass. For one, no one in her real life knows her secret roleplay addiction is the reason her grades have taken a big hit. Also? Cass has started catching feelings for Rowan Davies, her internet bestie ... and Taylor might be catching on. As Cass's lies continue to build, so does her anxiety. Roleplaying used to be the one place she could escape to, but this double life and offline-online love triangle have only made things worse. Cass must decide what to do--be honest and risk losing her safe space or keep it a secret and put everything else on the line."
+    },
+    {
+        "title": "Who Owns the Clouds?",
+        "author": "Mario Brassard, Gerard Dubois",
+        "imageDownloaded": "E",
+        "fiction": "Y",
+        "prose": "Y",
+        "asianamericanAndPacificIslander": "Y",
+        "migrantstories": "Y"
+    },
+    {
+        "title": "A Tale of Two Princes",
+        "author": "Eric Geron",
+        "imageDownloaded": "E",
+        "fiction": "Y",
+        "prose": "Y",
+        "africanamericanOrBlack": "Y",
+        "lgbtqia": "Y",
+        "mlmOrNblm": "Y"
+    },
+    {
+        "title": "The Music of What Happens",
+        "author": "Bill Konigsberg",
+        "imageDownloaded": "R",
+        "fiction": "Y",
+        "romance": "Y",
+        "prose": "Y",
+        "latinx": "Y",
+        "lgbtqia": "Y",
+        "mlmOrNblm": "Y",
+        "mentalhealth": "Y"
+    },
+    {
+        "title": "The Greatest Thing",
+        "author": "Sarah Winifred Searle",
+        "imageDownloaded": "R",
+        "fiction": "Y",
+        "romance": "Y",
+        "graphicnovel": "Y",
+        "africanamericanOrBlack": "Y",
+        "lgbtqia": "Y",
+        "wlwOrNblw": "Y",
+        "mentalhealth": "Y",
+        "depression": "Y"
+    },
+    {
+        "title": "Bloom",
+        "author": "Kevin Panetta, Savanna Ganucheau",
+        "imageDownloaded": "R",
+        "fiction": "Y",
+        "romance": "Y",
+        "graphicnovel": "Y",
+        "lgbtqia": "Y",
+        "mlmOrNblm": "Y",
+        "publishersSummary": "Now that high school is over, Ari is dying to move to the big city with his ultra-hip band--if he can just persuade his dad to let him quit his job at their struggling family bakery. Though he loved working there as a kid, Ari cannot fathom a life wasting away over rising dough and hot ovens. But while interviewing candidates for his replacement, Ari meets Hector, an easygoing guy who loves baking as much as Ari wants to escape it. As they become closer over batches of bread, love is ready to bloom . . . that is, if Ari doesn't ruin everything."
+    },
+    {
+        "title": "Anger is a Gift",
+        "author": "Mark Oshiro",
+        "imageDownloaded": "R",
+        "fiction": "Y",
+        "romance": "Y",
+        "prose": "Y",
+        "africanamericanOrBlack": "Y",
+        "latinx": "Y",
+        "lgbtqia": "Y",
+        "mlmOrNblm": "Y",
+        "mentalhealth": "Y",
+        "characterwithdisability": "Y"
+    },
+    {
+        "title": "The Extraordinaries",
+        "author": "TJ Klune",
+        "imageDownloaded": "R",
+        "urbanfantasy": "Y",
+        "prose": "Y",
+        "africanamericanOrBlack": "Y",
+        "lgbtqia": "Y",
+        "mlmOrNblm": "Y",
+        "neurodiverdent": "Y",
+        "publishersSummary": "An Indie Next Pick! Some people are extraordinary. Some are just extra. TJ Klune's YA debut, The Extraordinaries, is a queer coming-of-age story about a fanboy with ADHD and the heroes he loves. Hardcover edition comes with an exclusive, reversible jacket! Nick Bell' Not extraordinary. But being the most popular fanfiction writer in the Extraordinaries fandom is a superpower, right' After a chance encounter with Shadow Star, Nova City's mightiest hero (and Nick's biggest crush), Nick sets out to make himself extraordinary. And he'll do it with or without the reluctant help of Seth Gray, Nick's best friend (and maybe the love of his life). Rainbow Rowell's Fangirl meets Marissa Meyer's Renegades in TJ Klune's YA debut"
+    },
+    {
+        "title": "The Heart Break Bakery",
+        "author": "A.R. Capetta",
+        "imageDownloaded": "R",
+        "fiction": "Y",
+        "prose": "Y",
+        "lgbtqia": "Y",
+        "nonbinary": "Y",
+        "aroace": "Y"
+    },
+    {
+        "title": "It Doesn't Have to be Awkward",
+        "author": "Dr. Drew, Paulina Pinsky",
+        "imageDownloaded": "R",
+        "prose": "Y"
+    },
+    {
+        "title": "Obie is Man Enough",
+        "author": "Schuyler Bailar",
+        "imageDownloaded": "E",
+        "fiction": "Y",
+        "prose": "Y",
+        "asianamericanAndPacificIslander": "Y",
+        "latinx": "Y",
+        "lgbtqia": "Y",
+        "trans": "Y",
+        "mentalhealth": "Y",
+        "publishersSummary": "A coming-of-age story about transgender tween Obie, who didn't think being himself would cause such a splash."
+    },
+    {
+        "title": "She's Too Pretty to Burn",
+        "author": "Wendy Heard",
+        "imageDownloaded": "E",
+        "fiction": "Y",
+        "mysteryHorror": "Y",
+        "prose": "Y",
+        "latinx": "Y",
+        "lgbtqia": "Y",
+        "wlwOrNblw": "Y",
+        "publishersSummary": "When seventeen-year-old Veronica's photograph of her introverted girlfriend goes viral, they are sent into a spiral of fame and lethal danger as they navigate the turbulent waters of their relationship, secrets, acclaim, and the underground San Diego art scene."
+    },
+    {
+        "title": "Be Dazzled",
+        "author": "Ryan La Sala",
+        "imageDownloaded": "E",
+        "fiction": "Y",
+        "romance": "Y",
+        "prose": "Y",
+        "lgbtqia": "Y",
+        "mlmOrNblm": "Y"
+    },
+    {
+        "title": "The New Queer Conscience",
+        "author": "Adam Eli",
+        "imageDownloaded": "E",
+        "memoirautobiograohy": "Y",
+        "nonfiction": "Y",
+        "prose": "Y",
+        "lgbtqia": "Y",
+        "mlmOrNblm": "Y",
+        "ownvoices": "Y",
+        "jewish": "Y",
+        "publishersSummary": "LGBTQIAA+ activist Adam Eli argues the urgent need for queer responsibility -- that queers anywhere are responsible for queers everywhere."
+    },
+    {
+        "title": "The Girls Are Never Gone",
+        "author": "Sarah Glenn Marsh",
+        "imageDownloaded": "E",
+        "fiction": "Y",
+        "mysteryHorror": "Y",
+        "prose": "Y",
+        "lgbtqia": "Y",
+        "wlwOrNblw": "Y"
+    },
+    {
+        "title": "Between Perfect & Real",
+        "author": "Ray Stoeve",
+        "imageDownloaded": "E",
+        "fiction": "Y",
+        "prose": "Y",
+        "lgbtqia": "Y",
+        "trans": "Y"
+    },
+    {
+        "title": "Almost Flying",
+        "author": "Jake Maia Arlow",
+        "imageDownloaded": "E",
+        "fiction": "Y",
+        "prose": "Y",
+        "africanamericanOrBlack": "Y",
+        "asianamericanAndPacificIslander": "Y",
+        "latinx": "Y",
+        "lgbtqia": "Y",
+        "wlwOrNblw": "Y",
+        "jewish": "Y",
+        "muslim": "Y",
+        "middleGrade": "Y",
+        "publishersSummary": "In this unabashedly queer middle grade debut, a week-long amusement park road trip becomes a true roller coaster of emotion when Dalia realizes she has more-than-friend feelings for her new bestie.\"Dalia's journey to self-discovery is refreshingly honest, and this entire cast of characters will steal your heart.\"--Maulik Pancholy, actor and Stonewall Honor-winning author of The Best At It Would-be amusement park aficionado Dalia only has two items on her summer bucket list: (1) finally ride a roller coaster and (2) figure out how to make a new best friend. But when her dad suddenly announces that he's engaged, Dalia's schemes come to a screeching halt. With Dalia's future stepsister Alexa heading back to college soon, the grown-ups want the girls to spend the last weeks of summer bonding--meaning Alexa has to cancel the amusement park road trip she's been planning for months. Luckily Dalia comes up with a new plan: If she joins Alexa on her trip and brings Rani, the new girl from her swim team, along maybe she can have the perfect summer after all. But what starts out as a week of funnel cakes and Lazy River rides goes off the rails when Dalia discovers that Alexa's girlfriend is joining the trip. And keeping Alexa's secret makes Dalia realize one of her own: She might have more-than-friend feelings for Rani"
+    },
+    {
+        "title": "Queer as a Five-Dollar Bill",
+        "author": "Lee Wind",
+        "imageDownloaded": "E",
+        "fiction": "Y",
+        "prose": "Y",
+        "lgbtqia": "Y",
+        "mlmOrNblm": "Y"
+    },
+    {
+        "title": "Dark and Deepest Red",
+        "author": "Anna-Marie McLenore",
+        "imageDownloaded": "E",
+        "urbanfantasy": "Y",
+        "prose": "Y",
+        "latinx": "Y",
+        "lgbtqia": "Y",
+        "ownvoices": "Y",
+        "publishersSummary": "Summer, 1518. A strange sickness sweeps through Strasbourg: women dance in the streets, some until they fall down dead. As rumors of witchcraft spread, suspicion turns toward Lavinia and her family, and Lavinia may have to do the unimaginable to save herself and everyone she loves. Five centuries later, a pair of red shoes seal to Rosella Oliva's feet, making her dance uncontrollably. They draw her toward a boy who knows the dancing fever's history better than anyone: Emil, whose family was blamed for the fever five hundred years ago. But there's more to what happened in 1518 than even Emil knows, and discovering the truth may decide whether Rosella survives the red shoes."
+    },
+    {
+        "title": "Red Hood",
+        "author": "Elana K. Arnold",
+        "imageDownloaded": "E",
+        "urbanfantasy": "Y",
+        "prose": "Y",
+        "africanamericanOrBlack": "Y"
+    },
+    {
+        "title": "A Blade So Black",
+        "author": "L.L. McKinney",
+        "imageDownloaded": "E",
+        "urbanfantasy": "Y",
+        "prose": "Y",
+        "africanamericanOrBlack": "Y",
+        "asianamericanAndPacificIslander": "Y",
+        "latinx": "Y",
+        "lgbtqia": "Y",
+        "publishersSummary": "An ... urban fantasy retelling of Alice in Wonderland ... The first time the nightmares came, it nearly cost Alice her life. Now she's trained to battle monstrous creatures in the dark dream realm known as Wonderland with magic weapons and hardcore fighting skills. Yet even warriors have a curfew. Life in real-world Atlanta isn't always so simple, as Alice juggles an overprotective mom, a high-maintenance best friend, and a slipping GPA. Keeping the nightmares at bay is turning into a full-time job. But when Alice's handsome and mysterious mentor is poisoned, she has to find the antidote by venturing deeper into Wonderland than she's ever gone before. And she'll need to use everything she's learned in both worlds to keep from losing her head--literally"
+    },
+    {
+        "title": "Two Boys Kissing",
+        "author": "David Levithan",
+        "imageDownloaded": "E",
+        "fiction": "Y",
+        "romance": "Y",
+        "prose": "Y",
+        "lgbtqia": "Y",
+        "mlmOrNblm": "Y",
+        "publishersSummary": "A chorus of men who died of AIDS observes and yearns to help a cross-section of today's gay teens who navigate new love, long-term relationships, coming out, self-acceptance, and more in a society that has changed in many ways."
+    },
+    {
+        "title": "The Sky Blues",
+        "author": "Robbie Couch",
+        "imageDownloaded": "E",
+        "fiction": "Y",
+        "prose": "Y",
+        "africanamericanOrBlack": "Y",
+        "arabOrArabamerican": "Y",
+        "lgbtqia": "Y",
+        "mlmOrNblm": "Y",
+        "publishersSummary": "Sky's small town turns absolutely claustrophobic when his secret promposal plans get leaked to the entire school in this witty, heartfelt, and ultimately hopeful debut novel for fans of What if it's Us? and I Wish You All the Best. Sky Baker may be openly gay, but in his small, insular town, making sure he was invisible has always been easier than being himself. Determined not to let anything ruin his senior year, Sky decides to make a splash at his high school's annual beach bum party by asking his crush, Ali, to prom--and he has thirty days to do it. What better way to start living loud and proud than by pulling off the gayest promposal Rock Ledge, Michigan, has ever seen? Then, Sky's plans are leaked by an anonymous hacker in a deeply homophobic e-blast that quickly goes viral. He's fully prepared to drop out and skip town altogether--until his classmates give him a reason to fight back by turning his thirty-day promposal countdown into a school-wide hunt to expose the e-blast perpetrator. But what happens at the end of the thirty days? Will Sky get to keep his hard-won visibility? Or will his small-town blues stop him from being his true self?"
+    },
+    {
+        "title": "Autoboyography",
+        "author": "Christina Lauren",
+        "imageDownloaded": "E",
+        "fiction": "Y",
+        "romance": "Y",
+        "prose": "Y",
+        "lgbtqia": "Y",
+        "mlmOrNblm": "Y",
+        "jewish": "Y"
+    },
+    {
+        "title": "To Break a Covenant",
+        "author": "Alison Ames",
+        "imageDownloaded": "E",
+        "fiction": "Y",
+        "mysteryHorror": "Y",
+        "prose": "Y",
+        "lgbtqia": "Y"
+    },
+    {
+        "title": "The Dead and the Dark",
+        "author": "Courtney Gould",
+        "imageDownloaded": "E",
+        "fiction": "Y",
+        "mysteryHorror": "Y",
+        "prose": "Y",
+        "latinx": "Y",
+        "lgbtqia": "Y",
+        "wlwOrNblw": "Y",
+        "mlmOrNblm": "Y",
+        "ownvoices": "Y"
+    },
+    {
+        "title": "Love & Other Natural Disasters",
+        "author": "Misa Sugiuara",
+        "imageDownloaded": "E",
+        "fiction": "Y",
+        "romance": "Y",
+        "prose": "Y",
+        "africanamericanOrBlack": "Y",
+        "asianamericanAndPacificIslander": "Y",
+        "lgbtqia": "Y",
+        "wlwOrNblw": "Y",
+        "ownvoices": "Y",
+        "publishersSummary": "When Nozomi Nagai pictured the ideal summer romance, a fake one wasn't what she had in mind. That was before she met the perfect girl. Willow is gorgeous, glamorous, and...heartbroken? And when she enlists Nozomi to pose as her new girlfriend to make her ex jealous, Nozomi is a willing volunteer. Because Nozomi has a master plan of her own: one to show Willow she's better than a stand-in, and turn their fauxmance into something real. But as the lies pile up, it's not long before Nozomi's schemes take a turn toward disaster...and maybe a chance at love she didn't plan for"
+    },
+    {
+        "title": "Somebody That I Used to Know",
+        "author": "Dana L. Davis",
+        "imageDownloaded": "E",
+        "fiction": "Y",
+        "prose": "Y",
+        "africanamericanOrBlack": "Y",
+        "ownvoices": "Y",
+        "publishersSummary": "Dylan Woods hasn't seen her best friend, Langston, in years. After he moved to Los Angeles, he ghosted her. Then he became Legendary, the biggest teen R&B artist on the planet. For the most part, Dylan has moved on, with her sights set on Juilliard. But when her parents announce that Langston is coming for a short stay with them, the entire family is thrilled. Except for Dylan. The idea of sharing a house with music's biggest bad boy makes her stomach churn. But maybe Langston hasn't changed as much as Dylan thought--he's kept the bucket list they made together years ago. As they start checking off items on the list, Dylan starts to remember old times, her previous self, and their shared love of music. And there's something else. As Dylan considers giving Langston another chance, she starts to realize that maybe her feelings for him go beyond friendship. Maybe, just maybe, she's falling for her ex-best friend"
+    },
+    {
+        "title": "Cool for the Summer",
+        "author": "Dahlia Adler",
+        "imageDownloaded": "E",
+        "fiction": "Y",
+        "romance": "Y",
+        "prose": "Y",
+        "arabOrArabamerican": "Y",
+        "lgbtqia": "Y",
+        "wlwOrNblw": "Y",
+        "ownvoices": "Y",
+        "jewish": "Y",
+        "publishersSummary": "Seventeen-year-old Lara's dream of catching Chase Harding's eye finally comes true even as Jasmine, with whom she just spent a confusing, oddly romantic summer, reenters her life."
+    },
+    {
+        "title": "Love, Decoded",
+        "author": "Jennifer Yen",
+        "imageDownloaded": "E",
+        "fiction": "Y",
+        "prose": "Y",
+        "asianamericanAndPacificIslander": "Y",
+        "ownvoices": "Y"
+    },
+    {
+        "title": "Primal Animals",
+        "author": "Julia Lynn Rubin",
+        "imageDownloaded": "E",
+        "fiction": "Y",
+        "prose": "Y",
+        "lgbtqia": "Y"
+    },
+    {
+        "title": "Anything But Fine",
+        "author": "Tobias Madden",
+        "imageDownloaded": "E",
+        "fiction": "Y",
+        "prose": "Y",
+        "asianamericanAndPacificIslander": "Y",
+        "arabOrArabamerican": "Y",
+        "lgbtqia": "Y",
+        "mlmOrNblm": "Y",
+        "ownvoices": "Y",
+        "muslim": "Y"
+    },
+    {
+        "title": "Rima's Rebellion",
+        "author": "Margarita Engle",
+        "imageDownloaded": "E",
+        "historicalfiction": "Y",
+        "verse": "Y",
+        "latinx": "Y",
+        "ownvoices": "Y",
+        "middleGrade": "Y"
+    },
+    {
+        "title": "96 Words For Love",
+        "author": "Ava Dash, Rachel Roy",
+        "imageDownloaded": "E",
+        "fiction": "Y",
+        "romance": "Y",
+        "prose": "Y",
+        "africanamericanOrBlack": "Y",
+        "asianamericanAndPacificIslander": "Y",
+        "ownvoices": "Y"
+    },
+    {
+        "title": "The Best Lies",
+        "author": "Sarah Lyu",
+        "imageDownloaded": "E",
+        "fiction": "Y",
+        "mysteryHorror": "Y",
+        "prose": "Y",
+        "asianamericanAndPacificIslander": "Y",
+        "ownvoices": "Y",
+        "mentalhealth": "Y"
+    },
+    {
+        "title": "!Ay Mija!",
+        "author": "Christine Suggs",
+        "imageDownloaded": "E",
+        "fiction": "Y",
+        "graphicnovel": "Y",
+        "latinx": "Y",
+        "ownvoices": "Y"
+    },
+    {
+        "title": "Belle of the Ball",
+        "author": "Mari Costa",
+        "imageDownloaded": "E",
+        "fiction": "Y",
+        "romance": "Y",
+        "graphicnovel": "Y",
+        "asianamericanAndPacificIslander": "Y",
+        "latinx": "Y",
+        "lgbtqia": "Y",
+        "wlwOrNblw": "Y",
+        "jewish": "Y"
+    },
+    {
+        "title": "A Condition Called Love",
+        "author": "Megumi Morino",
+        "imageDownloaded": "E",
+        "fiction": "Y",
+        "romance": "Y",
+        "manga": "Y",
+        "asianamericanAndPacificIslander": "Y",
+        "ownvoices": "Y"
+    },
+    {
+        "title": "The Gay Who Turned Kaiju",
+        "author": "Kazuki Minamoto",
+        "imageDownloaded": "E",
+        "urbanfantasy": "Y",
+        "manga": "Y",
+        "asianamericanAndPacificIslander": "Y",
+        "lgbtqia": "Y",
+        "ownvoices": "Y"
+    },
+    {
+        "title": "In Limbo",
+        "author": "Deb JJ Lee",
+        "imageDownloaded": "E",
+        "memoirautobiograohy": "Y",
+        "graphicnovel": "Y",
+        "asianamericanAndPacificIslander": "Y",
+        "migrantstories": "Y",
+        "ownvoices": "Y"
+    },
+    {
+        "title": "Forest Hills Bootleg Society",
+        "author": "Dave Baker, Nicole Goux",
+        "imageDownloaded": "E",
+        "fiction": "Y",
+        "graphicnovel": "Y",
+        "africanamericanOrBlack": "Y",
+        "asianamericanAndPacificIslander": "Y"
+    },
+    {
+        "title": "Run on Your New Legs",
+        "author": "Wataru Midori",
+        "imageDownloaded": "E",
+        "fiction": "Y",
+        "manga": "Y",
+        "asianamericanAndPacificIslander": "Y",
+        "ownvoices": "Y",
+        "characterwithdisability": "Y"
+    },
+    {
+        "title": "Shonen Note",
+        "author": "Yuhki Kamatani",
+        "imageDownloaded": "E",
+        "fiction": "Y",
+        "manga": "Y",
+        "asianamericanAndPacificIslander": "Y",
+        "ownvoices": "Y"
+    },
+    {
+        "title": "Thieves",
+        "author": "Lucie Bryon",
+        "imageDownloaded": "E",
+        "fiction": "Y",
+        "romance": "Y",
+        "graphicnovel": "Y",
+        "lgbtqia": "Y",
+        "wlwOrNblw": "Y",
+        "ownvoices": "Y",
+        "mentalhealth": "Y"
+    },
+    {
+        "title": "The Well",
+        "author": "Jake Wyatt, Choo",
+        "imageDownloaded": "E",
+        "fantasy": "Y",
+        "graphicnovel": "Y",
+        "asianamericanAndPacificIslander": "Y",
+        "lgbtqia": "Y",
+        "wlwOrNblw": "Y",
+        "ownvoices": "Y"
+    },
+    {
+        "title": "In the Clear Moonlit Dusk",
+        "author": "Mika Yamamori",
+        "imageDownloaded": "E",
+        "fiction": "Y",
+        "romance": "Y",
+        "manga": "Y",
+        "asianamericanAndPacificIslander": "Y",
+        "ownvoices": "Y"
+    },
+    {
+        "title": "Mermaid Scales and the Town of Sand",
+        "author": "Yoko Komori",
+        "imageDownloaded": "E",
+        "urbanfantasy": "Y",
+        "manga": "Y",
+        "asianamericanAndPacificIslander": "Y",
+        "ownvoices": "Y",
+        "mentalhealth": "Y"
+    },
+    {
+        "title": "Marry Me a Little",
+        "author": "Rob Kirby",
+        "imageDownloaded": "E",
+        "memoirautobiograohy": "Y",
+        "graphicnovel": "Y",
+        "lgbtqia": "Y",
+        "mlmOrNblm": "Y",
+        "ownvoices": "Y",
+        "newAdultAdultBookWithTeenInterest": "Y"
+    },
+    {
+        "title": "Djeliya",
+        "author": "Juni Ba",
+        "imageDownloaded": "E",
+        "mythology": "Y",
+        "graphicnovel": "Y",
+        "africanamericanOrBlack": "Y",
+        "ownvoices": "Y"
+    },
+    {
+        "title": "The Girl That Can't Get a Girlfriend",
+        "author": "Mieri Hiranishi",
+        "imageDownloaded": "E",
+        "memoirautobiograohy": "Y",
+        "manga": "Y",
+        "asianamericanAndPacificIslander": "Y",
+        "lgbtqia": "Y",
+        "wlwOrNblw": "Y",
+        "ownvoices": "Y"
+    },
+    {
+        "title": "The Magic Fish",
+        "author": "Trung Le Nguyen",
+        "imageDownloaded": "E",
+        "urbanfantasy": "Y",
+        "graphicnovel": "Y",
+        "asianamericanAndPacificIslander": "Y",
+        "ownvoices": "Y"
+    },
+    {
+        "title": "Never Open It",
+        "author": "Ken Niimura",
+        "imageDownloaded": "E",
+        "mythology": "Y",
+        "graphicnovel": "Y",
+        "asianamericanAndPacificIslander": "Y",
+        "ownvoices": "Y"
+    },
+    {
+        "title": "Pardalita",
+        "author": "Joana Esrela",
+        "imageDownloaded": "E",
+        "fiction": "Y",
+        "romance": "Y",
+        "verse": "Y",
+        "graphicnovel": "Y",
+        "latinx": "Y",
+        "lgbtqia": "Y",
+        "wlwOrNblw": "Y",
+        "ownvoices": "Y"
+    },
+    {
+        "title": "My Special One",
+        "author": "Momoka Koda",
+        "imageDownloaded": "E",
+        "fiction": "Y",
+        "romance": "Y",
+        "manga": "Y",
+        "asianamericanAndPacificIslander": "Y",
+        "ownvoices": "Y"
+    },
+    {
+        "title": "Though I Am an Inept Villainess",
+        "author": "Satsuki Nakamura",
+        "imageDownloaded": "E",
+        "fantasy": "Y",
+        "manga": "Y",
+        "asianamericanAndPacificIslander": "Y",
+        "ownvoices": "Y"
+    },
+    {
+        "title": "Touring After the Apocalypse",
+        "author": "Sakae Sito",
+        "imageDownloaded": "E",
+        "dystopian": "Y",
+        "manga": "Y",
+        "asianamericanAndPacificIslander": "Y",
+        "ownvoices": "Y"
+    },
+    {
+        "title": "Nearer My Freedom",
+        "author": "Monica Edinger, Leslie Younge",
+        "imageDownloaded": "E",
+        "nonfiction": "Y",
+        "verse": "Y",
+        "africanamericanOrBlack": "Y"
+    },
+    {
+        "title": "Black Birds in the Sky",
+        "author": "Brandy Colbert",
+        "imageDownloaded": "E",
+        "nonfiction": "Y",
+        "prose": "Y",
+        "africanamericanOrBlack": "Y",
+        "ownvoices": "Y"
+    },
+    {
+        "title": "Picking Up the Pieces",
+        "author": "Carey Newman",
+        "imageDownloaded": "E",
+        "nonfiction": "Y",
+        "prose": "Y",
+        "nativeamerican": "Y",
+        "ownvoices": "Y"
+    },
+    {
+        "title": "Seen and Unseen",
+        "author": "Elizabeth Partridge, Lauren Tamaki",
+        "imageDownloaded": "E",
+        "nonfiction": "Y",
+        "prose": "Y",
+        "asianamericanAndPacificIslander": "Y",
+        "ownvoices": "Y"
+    },
+    {
+        "title": "Unspeakable",
+        "author": "Carole Boston Weatherford, Floyd Cooper",
+        "imageDownloaded": "E",
+        "nonfiction": "Y",
+        "prose": "Y",
+        "africanamericanOrBlack": "Y",
+        "ownvoices": "Y"
+    },
+    {
+        "title": "Afterglow",
+        "author": "Phil Stamper, May van Millingen",
+        "imageDownloaded": "E",
+        "fiction": "Y",
+        "prose": "Y",
+        "lgbtqia": "Y",
+        "mlmOrNblm": "Y",
+        "trans": "Y"
+    },
+    {
+        "title": "Always the Almost",
+        "author": "Edward Underhill",
+        "imageDownloaded": "E",
+        "fiction": "Y",
+        "romance": "Y",
+        "prose": "Y",
+        "asianamericanAndPacificIslander": "Y",
+        "lgbtqia": "Y",
+        "mlmOrNblm": "Y",
+        "trans": "Y"
     }
-];
+  ];
 
 
 const all_tags = ["fantasy", "fiction", "scifi", "romance", "urbanfantasy", "historicalfiction", "memoirautobiograohy", "nonfiction",
