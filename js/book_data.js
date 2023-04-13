@@ -2,7 +2,6 @@ const data = [
     {
         "title": "The Midnight Lie",
         "author": "Marie Rutkowski  ",
-        "imageDownloaded": "R",
         "fantasy": "Y",
         "romance": "Y",
         "prose": "Y",
@@ -15,7 +14,6 @@ const data = [
     {
         "title": "Thorn",
         "author": "Intisar Khanani",
-        "imageDownloaded": "R",
         "fantasy": "Y",
         "prose": "Y",
         "arabOrArabamerican": "Y",
@@ -28,7 +26,6 @@ const data = [
     {
         "title": "You Asked For Perfect",
         "author": "Laura Silverman",
-        "imageDownloaded": "R",
         "fiction": "Y",
         "romance": "Y",
         "prose": "Y",
@@ -43,7 +40,6 @@ const data = [
     {
         "title": "They Both Die at the End",
         "author": "Adam Silvera",
-        "imageDownloaded": "R",
         "dystopian": "Y",
         "prose": "Y",
         "latinx": "Y",
@@ -58,7 +54,6 @@ const data = [
     {
         "title": "Surrender Your Sons",
         "author": "Adam Sass",
-        "imageDownloaded": "R",
         "fiction": "Y",
         "romance": "Y",
         "prose": "Y",
@@ -73,7 +68,6 @@ const data = [
     {
         "title": "Honey Girl",
         "author": "Morgan Rogers",
-        "imageDownloaded": "R",
         "fiction": "Y",
         "romance": "Y",
         "prose": "Y",
@@ -91,7 +85,6 @@ const data = [
     {
         "title": "The Seven Husbands of Evelyn Hugo",
         "author": "Taylor Jenkins Reid",
-        "imageDownloaded": "R",
         "historicalfiction": "Y",
         "prose": "Y",
         "latinx": "Y",
@@ -109,7 +102,6 @@ const data = [
     {
         "title": "Wilder Girls",
         "author": "Rory Power",
-        "imageDownloaded": "R",
         "fiction": "Y",
         "dystopian": "Y",
         "prose": "Y",
@@ -124,7 +116,6 @@ const data = [
     {
         "title": "All Out",
         "author": "Saundra Mitchell",
-        "imageDownloaded": "R",
         "nonfiction": "Y",
         "prose": "Y",
         "lgbtqia": "Y",
@@ -139,7 +130,6 @@ const data = [
     {
         "title": "The Song of Achilles",
         "author": "Madeline Miller",
-        "imageDownloaded": "R",
         "mythology": "Y",
         "prose": "Y",
         "lgbtqia": "Y",
@@ -153,7 +143,6 @@ const data = [
     {
         "title": "Heartstopper",
         "author": "Alice Oseman",
-        "imageDownloaded": "R",
         "fiction": "Y",
         "romance": "Y",
         "graphicnovel": "Y",
@@ -168,7 +157,6 @@ const data = [
     {
         "title": "Gone to the Woods",
         "author": "Gary Paulsen",
-        "imageDownloaded": "R",
         "memoirautobiograohy": "Y",
         "prose": "Y",
         "mentalhealth": "Y",
@@ -180,7 +168,6 @@ const data = [
     {
         "title": "Kira-Kira",
         "author": "Cynthia Kadohata",
-        "imageDownloaded": "R",
         "historicalfiction": "Y",
         "prose": "Y",
         "asianamericanAndPacificIslander": "Y",
@@ -194,7 +181,6 @@ const data = [
     {
         "title": "Loveless",
         "author": "Alice Oseman",
-        "imageDownloaded": "R",
         "fiction": "Y",
         "prose": "Y",
         "lgbtqia": "Y",
@@ -207,7 +193,6 @@ const data = [
     {
         "title": "Red, White & Royal Blue",
         "author": "Casey McQuiston",
-        "imageDownloaded": "R",
         "fiction": "Y",
         "romance": "Y",
         "prose": "Y",
@@ -223,7 +208,6 @@ const data = [
     {
         "title": "One Last Stop",
         "author": "Casey McQuiston",
-        "imageDownloaded": "R",
         "fiction": "Y",
         "romance": "Y",
         "prose": "Y",
@@ -239,7 +223,6 @@ const data = [
     {
         "title": "Six of Crows",
         "author": "Leigh Bardugo   ",
-        "imageDownloaded": "R",
         "fantasy": "Y",
         "prose": "Y",
         "africanamericanOrBlack": "Y",
@@ -257,7 +240,6 @@ const data = [
     {
         "title": "Girl, Serpent, Thorn",
         "author": "Melissa Bashardoust",
-        "imageDownloaded": "R",
         "fantasy": "Y",
         "prose": "Y",
         "lgbtqia": "Y",
@@ -271,7 +253,6 @@ const data = [
     {
         "title": "Looking for Alaska",
         "author": "John Green",
-        "imageDownloaded": "R",
         "fiction": "Y",
         "prose": "Y",
         "mentalhealth": "Y",
@@ -284,7 +265,6 @@ const data = [
     {
         "title": "Lobizona",
         "author": "Romina Garber",
-        "imageDownloaded": "R",
         "urbanfantasy": "Y",
         "prose": "Y",
         "latinx": "Y",
@@ -296,7 +276,6 @@ const data = [
     {
         "title": "How It Feels to Float",
         "author": "Helena Fox",
-        "imageDownloaded": "R",
         "fiction": "Y",
         "prose": "Y",
         "invisibledisability": "Y",
@@ -310,7 +289,6 @@ const data = [
     {
         "title": "Falling Leaves",
         "author": "Adeline Yen Mah",
-        "imageDownloaded": "R",
         "memoirautobiograohy": "Y",
         "nonfiction": "Y",
         "prose": "Y",
@@ -325,7 +303,6 @@ const data = [
     {
         "title": "Just Mercy",
         "author": "Bryan Stevenson",
-        "imageDownloaded": "R",
         "memoirautobiograohy": "Y",
         "nonfiction": "Y",
         "prose": "Y",
@@ -340,7 +317,6 @@ const data = [
     {
         "title": "The House in the Cerulean Sea",
         "author": "T.J. Klune",
-        "imageDownloaded": "R",
         "urbanfantasy": "Y",
         "prose": "Y",
         "lgbtqia": "Y",
@@ -355,7 +331,6 @@ const data = [
     {
         "title": "We Contain Multitudes",
         "author": "Sarah Henstra",
-        "imageDownloaded": "R",
         "fiction": "Y",
         "romance": "Y",
         "prose": "Y",
@@ -369,7 +344,6 @@ const data = [
     {
         "title": "Her Royal Highness",
         "author": "Rachel Hawkins",
-        "imageDownloaded": "R",
         "fiction": "Y",
         "romance": "Y",
         "prose": "Y",
@@ -383,7 +357,6 @@ const data = [
     {
         "title": "Upright Women Wanted",
         "author": "Sarah Gailey",
-        "imageDownloaded": "R",
         "historicalfiction": "Y",
         "prose": "Y",
         "lgbtqia": "Y",
@@ -397,7 +370,6 @@ const data = [
     {
         "title": "The Last True Poets of the Sea",
         "author": "Julia Drake",
-        "imageDownloaded": "R",
         "fiction": "Y",
         "prose": "Y",
         "lgbtqia": "Y",
@@ -411,7 +383,6 @@ const data = [
     {
         "title": "Legendborn",
         "author": "Tracy Deonn",
-        "imageDownloaded": "R",
         "urbanfantasy": "Y",
         "prose": "Y",
         "africanamericanOrBlack": "Y",
@@ -424,7 +395,6 @@ const data = [
     {
         "title": "I Wish You All the Best",
         "author": "Mason Deaver",
-        "imageDownloaded": "R",
         "fiction": "Y",
         "prose": "Y",
         "africanamericanOrBlack": "Y",
@@ -438,7 +408,6 @@ const data = [
     {
         "title": "Children of Blood and Bone",
         "author": "Toni Adeyemi",
-        "imageDownloaded": "R",
         "fantasy": "Y",
         "prose": "Y",
         "africanamericanOrBlack": "Y",
@@ -451,7 +420,6 @@ const data = [
     {
         "title": "The Miseducation of Cameron Post",
         "author": "Emily M. Danforth",
-        "imageDownloaded": "R",
         "fiction": "Y",
         "prose": "Y",
         "lgbtqia": "Y",
@@ -464,7 +432,6 @@ const data = [
     {
         "title": "Beauty Queens",
         "author": "Libba Bray",
-        "imageDownloaded": "R",
         "fiction": "Y",
         "prose": "Y",
         "africanamericanOrBlack": "Y",
@@ -478,7 +445,6 @@ const data = [
     {
         "title": "Aristotle and Dante Discover the Secrets of the Universe",
         "author": "Benjamin Alire Saenez",
-        "imageDownloaded": "R",
         "fiction": "Y",
         "romance": "Y",
         "prose": "Y",
@@ -495,7 +461,6 @@ const data = [
     {
         "title": "The Priory of the Orange Tree",
         "author": "Samantha Shannon",
-        "imageDownloaded": "R",
         "fantasy": "Y",
         "prose": "Y",
         "lgbtqia": "Y",
@@ -509,7 +474,6 @@ const data = [
     {
         "title": "Love From A to Z",
         "author": "SK Ali",
-        "imageDownloaded": "E",
         "fiction": "Y",
         "romance": "Y",
         "prose": "Y",
@@ -525,7 +489,6 @@ const data = [
     {
         "title": "Refugee",
         "author": "Alan Gratz",
-        "imageDownloaded": "E",
         "historicalfiction": "Y",
         "prose": "Y",
         "latinx": "Y",
@@ -542,7 +505,6 @@ const data = [
     {
         "title": "Indivisible",
         "author": "Daniel Aleman",
-        "imageDownloaded": "E",
         "memoirautobiograohy": "Y",
         "nonfiction": "Y",
         "prose": "Y",
@@ -561,7 +523,6 @@ const data = [
     {
         "title": "Color Me In",
         "author": "Natasha E. Diaz",
-        "imageDownloaded": "E",
         "fiction": "Y",
         "prose": "Y",
         "africanamericanOrBlack": "Y",
@@ -574,7 +535,6 @@ const data = [
     {
         "title": "It's a Whole Spiel",
         "author": "Katherine Locke, Laura Silverman",
-        "imageDownloaded": "E",
         "fiction": "Y",
         "prose": "Y",
         "ownvoices": "Y",
@@ -587,7 +547,6 @@ const data = [
     {
         "title": "Once More with Chutzpah",
         "author": "Haley Neil",
-        "imageDownloaded": "E",
         "fiction": "Y",
         "romance": "Y",
         "prose": "Y",
@@ -602,7 +561,6 @@ const data = [
     {
         "title": "Dear Rachel Maddow",
         "author": "Adrienne Kisner",
-        "imageDownloaded": "E",
         "fiction": "Y",
         "prose": "Y",
         "lgbtqia": "Y",
@@ -615,7 +573,6 @@ const data = [
     {
         "title": "Winning",
         "author": "Lara Deloza",
-        "imageDownloaded": "E",
         "fiction": "Y",
         "romance": "Y",
         "prose": "Y",
@@ -629,7 +586,6 @@ const data = [
     {
         "title": "Trell",
         "author": "Dick Lher",
-        "imageDownloaded": "E",
         "fiction": "Y",
         "mysteryHorror": "Y",
         "prose": "Y",
@@ -643,7 +599,6 @@ const data = [
     {
         "title": "Drag Teen",
         "author": "Jeffery Self",
-        "imageDownloaded": "E",
         "fiction": "Y",
         "romance": "Y",
         "prose": "Y",
@@ -657,7 +612,6 @@ const data = [
     {
         "title": "City of Saints & Thieves",
         "author": "Natalie C. Anderson",
-        "imageDownloaded": "E",
         "fiction": "Y",
         "mysteryHorror": "Y",
         "prose": "Y",
@@ -671,7 +625,6 @@ const data = [
     {
         "title": "Allegedly",
         "author": "Tiffany D. Jackson",
-        "imageDownloaded": "E",
         "fiction": "Y",
         "prose": "Y",
         "africanamericanOrBlack": "Y",
@@ -684,7 +637,6 @@ const data = [
     {
         "title": "She Gets the Girl",
         "author": "Rachael Lippincott, Alyson Derrick",
-        "imageDownloaded": "E",
         "fiction": "Y",
         "prose": "Y",
         "asianamericanAndPacificIslander": "Y",
@@ -698,7 +650,6 @@ const data = [
     {
         "title": "Miss Meteor",
         "author": "Tehlor Kay Mejia, Anna-Marie McLemore",
-        "imageDownloaded": "E",
         "fiction": "Y",
         "romance": "Y",
         "prose": "Y",
@@ -713,7 +664,6 @@ const data = [
     {
         "title": "A Very Large Expanse of Sea",
         "author": "Tahereh Mafi",
-        "imageDownloaded": "E",
         "fiction": "Y",
         "historicalfiction": "Y",
         "prose": "Y",
@@ -727,7 +677,6 @@ const data = [
     {
         "title": "Not My Problem",
         "author": "Ciara Smyth",
-        "imageDownloaded": "E",
         "fiction": "Y",
         "romance": "Y",
         "prose": "Y",
@@ -741,7 +690,6 @@ const data = [
     {
         "title": "A Land of Permanent Goodbyes",
         "author": "Atia Abawi",
-        "imageDownloaded": "E",
         "fiction": "Y",
         "historicalfiction": "Y",
         "prose": "Y",
@@ -756,7 +704,6 @@ const data = [
     {
         "title": "The Gilded Ones",
         "author": "Namina Forna",
-        "imageDownloaded": "E",
         "fantasy": "Y",
         "prose": "Y",
         "africanamericanOrBlack": "Y",
@@ -769,7 +716,6 @@ const data = [
     {
         "title": "The Love Curse of Melody McIntyre",
         "author": "Robin Talley",
-        "imageDownloaded": "E",
         "fiction": "Y",
         "prose": "Y",
         "lgbtqia": "Y",
@@ -782,7 +728,6 @@ const data = [
     {
         "title": "Required Reading for the Disenfranchised Freshman",
         "author": "Kristen R. Lee",
-        "imageDownloaded": "E",
         "fiction": "Y",
         "prose": "Y",
         "africanamericanOrBlack": "Y",
@@ -794,7 +739,6 @@ const data = [
     {
         "title": "The New Girl",
         "author": "Jesse Q. Sutanto",
-        "imageDownloaded": "E",
         "fiction": "Y",
         "mysteryHorror": "Y",
         "prose": "Y",
@@ -808,7 +752,6 @@ const data = [
     {
         "title": "Patron Saints of Nothing",
         "author": "Randy Ribay",
-        "imageDownloaded": "E",
         "fiction": "Y",
         "prose": "Y",
         "asianamericanAndPacificIslander": "Y",
@@ -820,7 +763,6 @@ const data = [
     {
         "title": "Charming as a Verb",
         "author": "Ben Philippe",
-        "imageDownloaded": "E",
         "fiction": "Y",
         "romance": "Y",
         "prose": "Y",
@@ -833,7 +775,6 @@ const data = [
     {
         "title": "The Big Lie",
         "author": "Julie Mayhew",
-        "imageDownloaded": "E",
         "fiction": "Y",
         "dystopian": "Y",
         "prose": "Y",
@@ -847,7 +788,6 @@ const data = [
     {
         "title": "Can't Take That Away",
         "author": "Steven Salvatore",
-        "imageDownloaded": "E",
         "fiction": "Y",
         "prose": "Y",
         "lgbtqia": "Y",
@@ -860,7 +800,6 @@ const data = [
     {
         "title": "Witches Steeped in Gold",
         "author": "Ciannon Smart",
-        "imageDownloaded": "E",
         "fantasy": "Y",
         "prose": "Y",
         "africanamericanOrBlack": "Y",
@@ -872,7 +811,6 @@ const data = [
     {
         "title": "A Song of Wraiths and Ruin",
         "author": "Roseanne A. Brown",
-        "imageDownloaded": "E",
         "fantasy": "Y",
         "prose": "Y",
         "africanamericanOrBlack": "Y",
@@ -884,7 +822,6 @@ const data = [
     {
         "title": "Perfect on Paper",
         "author": "Sophie Gonzales",
-        "imageDownloaded": "E",
         "fiction": "Y",
         "romance": "Y",
         "prose": "Y",
@@ -897,7 +834,6 @@ const data = [
     {
         "title": "The Girl Who Fell Beneath the Sea",
         "author": "Axie Oh",
-        "imageDownloaded": "E",
         "fantasy": "Y",
         "mythology": "Y",
         "prose": "Y",
@@ -910,7 +846,6 @@ const data = [
     {
         "title": "The Lost Dreamer ",
         "author": "Lizz Huerta",
-        "imageDownloaded": "E",
         "fantasy": "Y",
         "mythology": "Y",
         "prose": "Y",
@@ -924,7 +859,6 @@ const data = [
     {
         "title": "A Magic Steeped in Poison",
         "author": "Judy I. Lin",
-        "imageDownloaded": "E",
         "fantasy": "Y",
         "mythology": "Y",
         "prose": "Y",
@@ -937,7 +871,6 @@ const data = [
     {
         "title": "The Summer of Bitter and Sweet",
         "author": "Jenny Ferguson",
-        "imageDownloaded": "E",
         "fiction": "Y",
         "prose": "Y",
         "nativeamerican": "Y",
@@ -949,7 +882,6 @@ const data = [
     {
         "title": "Home Field Advantage",
         "author": "Dahlia Adler",
-        "imageDownloaded": "E",
         "fiction": "Y",
         "romance": "Y",
         "prose": "Y",
@@ -963,7 +895,6 @@ const data = [
     {
         "title": "The Red Palace",
         "author": "June Hur",
-        "imageDownloaded": "E",
         "fiction": "Y",
         "historicalfiction": "Y",
         "mysteryHorror": "Y",
@@ -977,7 +908,6 @@ const data = [
     {
         "title": "All That's Left in the World",
         "author": "Erik J. Brown",
-        "imageDownloaded": "E",
         "fiction": "Y",
         "dystopian": "Y",
         "prose": "Y",
@@ -991,7 +921,6 @@ const data = [
     {
         "title": "She Drives Me Crazy",
         "author": "Kelly Quindlen",
-        "imageDownloaded": "E",
         "fiction": "Y",
         "romance": "Y",
         "prose": "Y",
@@ -1005,7 +934,6 @@ const data = [
     {
         "title": "The Lesbiana's Guide to Catholic School",
         "author": "Sonora Reyes",
-        "imageDownloaded": "E",
         "fiction": "Y",
         "romance": "Y",
         "prose": "Y",
@@ -1020,7 +948,6 @@ const data = [
     {
         "title": "The Many Half-Lived Lives of Sam Sylvester",
         "author": "Maya MacGregor",
-        "imageDownloaded": "E",
         "fiction": "Y",
         "mysteryHorror": "Y",
         "prose": "Y",
@@ -1035,7 +962,6 @@ const data = [
     {
         "title": "Burn Down, Rise Up",
         "author": "Vincent Tirado",
-        "imageDownloaded": "E",
         "fiction": "Y",
         "dystopian": "Y",
         "mysteryHorror": "Y",
@@ -1049,7 +975,6 @@ const data = [
     {
         "title": "The Forest of Stolen Girls",
         "author": "June Hur",
-        "imageDownloaded": "R",
         "fiction": "Y",
         "historicalfiction": "Y",
         "mysteryHorror": "Y",
@@ -1063,7 +988,6 @@ const data = [
     {
         "title": "Ace of Spades",
         "author": "Faridah Abike-Iyimide",
-        "imageDownloaded": "R",
         "fantasy": "Y",
         "mysteryHorror": "Y",
         "prose": "Y",
@@ -1076,7 +1000,6 @@ const data = [
     {
         "title": "The City Beautiful",
         "author": "Aden Polydoros",
-        "imageDownloaded": "R",
         "fiction": "Y",
         "historicalfiction": "Y",
         "mythology": "Y",
@@ -1090,7 +1013,6 @@ const data = [
     {
         "title": "The State of Grace",
         "author": " Rachael Lucas",
-        "imageDownloaded": "R",
         "fiction": "Y",
         "prose": "Y",
         "neurodiverdent": "Y",
@@ -1102,7 +1024,6 @@ const data = [
     {
         "title": "Can You See Me",
         "author": "Rebecca Westcott, Libby Scoot",
-        "imageDownloaded": "R",
         "fiction": "Y",
         "prose": "Y",
         "neurodiverdent": "Y",
@@ -1114,7 +1035,6 @@ const data = [
     {
         "title": "Both Sides Now",
         "author": "Peyton Thomas",
-        "imageDownloaded": "R",
         "fiction": "Y",
         "prose": "Y",
         "lgbtqia": "Y",
@@ -1127,7 +1047,6 @@ const data = [
     {
         "title": "Why We Fly",
         "author": "Gilly Segal and Kimberly Jones",
-        "imageDownloaded": "R",
         "fiction": "Y",
         "prose": "Y",
         "africanamericanOrBlack": "Y",
@@ -1139,7 +1058,6 @@ const data = [
     {
         "title": "Hero ",
         "author": "Perry Moore",
-        "imageDownloaded": "R",
         "fantasy": "Y",
         "urbanfantasy": "Y",
         "prose": "Y",
@@ -1153,7 +1071,6 @@ const data = [
     {
         "title": "Not So Pure and Simple",
         "author": "Lamar Giles",
-        "imageDownloaded": "R",
         "fiction": "Y",
         "prose": "Y",
         "africanamericanOrBlack": "Y",
@@ -1165,7 +1082,6 @@ const data = [
     {
         "title": "White Smoke",
         "author": "Tiffany D. Jackson",
-        "imageDownloaded": "R",
         "urbanfantasy": "Y",
         "prose": "Y",
         "africanamericanOrBlack": "Y",
@@ -1177,7 +1093,6 @@ const data = [
     {
         "title": "A River of Royal Blood",
         "author": "Amanda Joy",
-        "imageDownloaded": "R",
         "fantasy": "Y",
         "prose": "Y",
         "africanamericanOrBlack": "Y",
@@ -1189,7 +1104,6 @@ const data = [
     {
         "title": "Monday's Not Coming",
         "author": "Tiffany D. Jackson",
-        "imageDownloaded": "R",
         "fiction": "Y",
         "prose": "Y",
         "africanamericanOrBlack": "Y",
@@ -1202,7 +1116,6 @@ const data = [
     {
         "title": "Sisters of the Snake",
         "author": "Sarena Nanua, Sasha Nanua",
-        "imageDownloaded": "R",
         "fantasy": "Y",
         "prose": "Y",
         "asianamericanAndPacificIslander": "Y",
@@ -1214,7 +1127,6 @@ const data = [
     {
         "title": "Akata Witch",
         "author": "Nnedi Okorafor",
-        "imageDownloaded": "R",
         "urbanfantasy": "Y",
         "prose": "Y",
         "africanamericanOrBlack": "Y",
@@ -1227,7 +1139,6 @@ const data = [
     {
         "title": "Girl on Fire",
         "author": "Alicia Keys, Andrew Weiner, Brittney Williams",
-        "imageDownloaded": "R",
         "fiction": "Y",
         "graphicnovel": "Y",
         "africanamericanOrBlack": "Y",
@@ -1239,7 +1150,6 @@ const data = [
     {
         "title": "Messy Roots: A Graphic Memoir of a Wuhanese American",
         "author": "Laura Gao",
-        "imageDownloaded": "R",
         "nonfiction": "Y",
         "graphicnovel": "Y",
         "asianamericanAndPacificIslander": "Y",
@@ -1251,7 +1161,6 @@ const data = [
     {
         "title": "Squad",
         "author": "Maggie Tokuda-Hall, Lisa Sterle",
-        "imageDownloaded": "R",
         "fantasy": "Y",
         "fiction": "Y",
         "urbanfantasy": "Y",
@@ -1265,7 +1174,6 @@ const data = [
     {
         "title": "Displacement",
         "author": "Kiku Hughes",
-        "imageDownloaded": "R",
         "fiction": "Y",
         "historicalfiction": "Y",
         "prose": "Y",
@@ -1278,7 +1186,6 @@ const data = [
     {
         "title": "Persepolis",
         "author": "Marjane Satrapi",
-        "imageDownloaded": "R",
         "memoirautobiograohy": "Y",
         "nonfiction": "Y",
         "graphicnovel": "Y",
@@ -1293,7 +1200,6 @@ const data = [
     {
         "title": "American Born Chinese",
         "author": "Gene Luen Yang",
-        "imageDownloaded": "R",
         "memoirautobiograohy": "Y",
         "nonfiction": "Y",
         "asianamericanAndPacificIslander": "Y",
@@ -1305,7 +1211,6 @@ const data = [
     {
         "title": "Across the Tracks: Remembering Greenwood, Black Wall Street, and the Tulsa Race Massacre",
         "author": "Alverne Ball, Stacey Robinson",
-        "imageDownloaded": "R",
         "historicalfiction": "Y",
         "nonfiction": "Y",
         "graphicnovel": "Y",
@@ -1316,7 +1221,6 @@ const data = [
     {
         "title": "The Black Panther Party",
         "author": "David F. Walker, Marcus Kwame Anderson",
-        "imageDownloaded": "R",
         "historicalfiction": "Y",
         "nonfiction": "Y",
         "graphicnovel": "Y",
@@ -1329,7 +1233,6 @@ const data = [
     {
         "title": "Dread Nation",
         "author": "Justina Ireland",
-        "imageDownloaded": "R",
         "fantasy": "Y",
         "historicalfiction": "Y",
         "prose": "Y",
@@ -1342,7 +1245,6 @@ const data = [
     {
         "title": "The Great Mrs. Elias",
         "author": "Barbara Chase Riboud",
-        "imageDownloaded": "R",
         "historicalfiction": "Y",
         "prose": "Y",
         "africanamericanOrBlack": "Y",
@@ -1354,7 +1256,6 @@ const data = [
     {
         "title": "Harsh Times",
         "author": "Mario Vargas Llosa",
-        "imageDownloaded": "R",
         "historicalfiction": "Y",
         "prose": "Y",
         "latinx": "Y",
@@ -1368,7 +1269,6 @@ const data = [
     {
         "title": "Other Words for Home",
         "author": "Jasmine Warga",
-        "imageDownloaded": "R",
         "fiction": "Y",
         "prose": "Y",
         "arabOrArabamerican": "Y",
@@ -1383,7 +1283,6 @@ const data = [
     {
         "title": "Small World",
         "author": "Jonathan Evision",
-        "imageDownloaded": "R",
         "historicalfiction": "Y",
         "prose": "Y",
         "africanamericanOrBlack": "Y",
@@ -1399,7 +1298,6 @@ const data = [
     {
         "title": "Violeta",
         "author": "Isabel Allende",
-        "imageDownloaded": "R",
         "historicalfiction": "Y",
         "prose": "Y",
         "latinx": "Y",
@@ -1412,7 +1310,6 @@ const data = [
     {
         "title": "Slip",
         "author": "Marika McCoola, Aatmaja Pandajo",
-        "imageDownloaded": "R",
         "fiction": "Y",
         "graphicnovel": "Y",
         "lgbtqia": "Y",
@@ -1426,7 +1323,6 @@ const data = [
     {
         "title": "Growing Pangs",
         "author": "Kathryn Ormsbee, Molly Brooks",
-        "imageDownloaded": "E",
         "fiction": "Y",
         "graphicnovel": "Y",
         "invisibledisability": "Y",
@@ -1439,7 +1335,6 @@ const data = [
     {
         "title": "The Real Riley Mayes",
         "author": "Rachel Elliott",
-        "imageDownloaded": "E",
         "fiction": "Y",
         "graphicnovel": "Y",
         "lgbtqia": "Y",
@@ -1455,7 +1350,6 @@ const data = [
     {
         "title": "Red Scare",
         "author": "Liam Francis Welsh",
-        "imageDownloaded": "E",
         "historicalfiction": "Y",
         "graphicnovel": "Y",
         "characterwithdisability": "Y",
@@ -1465,7 +1359,6 @@ const data = [
     {
         "title": "Deep in Providence",
         "author": "Riss M. Nielson",
-        "imageDownloaded": "E",
         "urbanfantasy": "Y",
         "prose": "Y",
         "africanamericanOrBlack": "Y",
@@ -1480,7 +1373,6 @@ const data = [
     {
         "title": "Fight + Flight",
         "author": "Jules Machias",
-        "imageDownloaded": "E",
         "fiction": "Y",
         "graphicnovel": "Y",
         "mentalhealth": "Y",
@@ -1494,7 +1386,6 @@ const data = [
     {
         "title": "Finding Jupiter",
         "author": "Kelis Rowe",
-        "imageDownloaded": "E",
         "fiction": "Y",
         "romance": "Y",
         "prose": "Y",
@@ -1506,7 +1397,6 @@ const data = [
     {
         "title": "Flip the Script",
         "author": "Lyla Lee",
-        "imageDownloaded": "E",
         "fiction": "Y",
         "romance": "Y",
         "prose": "Y",
@@ -1521,7 +1411,6 @@ const data = [
     {
         "title": "Radio Silence",
         "author": "Alice Oseman",
-        "imageDownloaded": "E",
         "fiction": "Y",
         "prose": "Y",
         "mentalhealth": "Y",
@@ -1534,7 +1423,6 @@ const data = [
     {
         "title": "Man o' War",
         "author": "Cory McCarthy",
-        "imageDownloaded": "R",
         "fiction": "Y",
         "romance": "Y",
         "prose": "Y",
@@ -1547,7 +1435,6 @@ const data = [
     {
         "title": "Milo and Marcos at the End of the World",
         "author": "Kevin Christopher Snipes",
-        "imageDownloaded": "R",
         "romance": "Y",
         "urbanfantasy": "Y",
         "prose": "Y",
@@ -1561,7 +1448,6 @@ const data = [
     {
         "title": "The Love & Lies of Rukhsana Ali",
         "author": "Sabina Khan",
-        "imageDownloaded": "R",
         "romance": "Y",
         "prose": "Y",
         "arabOrArabamerican": "Y",
@@ -1578,7 +1464,6 @@ const data = [
     {
         "title": "Onyeka and the Academy of the Sun",
         "author": "Tola Okogwu",
-        "imageDownloaded": "R",
         "urbanfantasy": "Y",
         "prose": "Y",
         "africanamericanOrBlack": "Y",
@@ -1590,7 +1475,6 @@ const data = [
     {
         "title": "Falling Short ",
         "author": "Ernesto Cisneros",
-        "imageDownloaded": "R",
         "fiction": "Y",
         "prose": "Y",
         "latinx": "Y",
@@ -1603,7 +1487,6 @@ const data = [
     {
         "title": "Shadows Cast By Stars",
         "author": "Catherine Knutson",
-        "imageDownloaded": "E",
         "urbanfantasy": "Y",
         "prose": "Y",
         "nativeamerican": "Y",
@@ -1615,7 +1498,6 @@ const data = [
     {
         "title": "Felix Ever After",
         "author": "Kacen Callendar",
-        "imageDownloaded": "E",
         "fiction": "Y",
         "romance": "Y",
         "prose": "Y",
@@ -1632,7 +1514,6 @@ const data = [
     {
         "title": "Lakelore",
         "author": "Anna Marie McLemore",
-        "imageDownloaded": "E",
         "fantasy": "Y",
         "prose": "Y",
         "latinx": "Y",
@@ -1650,7 +1531,6 @@ const data = [
     {
         "title": "The Sword of Summer",
         "author": "Rick Riordan",
-        "imageDownloaded": "E",
         "fantasy": "Y",
         "prose": "Y",
         "latinx": "Y",
@@ -1667,7 +1547,6 @@ const data = [
     {
         "title": "Act Cool",
         "author": "Tobly McSmith",
-        "imageDownloaded": "E",
         "fiction": "Y",
         "prose": "Y",
         "lgbtqia": "Y",
@@ -1680,7 +1559,6 @@ const data = [
     {
         "title": "Simon vs. the Homo Sapiens Agenda",
         "author": "Becky Albertalli",
-        "imageDownloaded": "E",
         "fiction": "Y",
         "prose": "Y",
         "lgbtqia": "Y",
@@ -1693,7 +1571,6 @@ const data = [
     {
         "title": "How It All Blew Up",
         "author": "Arvin Ahmadi",
-        "imageDownloaded": "E",
         "fiction": "Y",
         "prose": "Y",
         "arabOrArabamerican": "Y",
@@ -1710,7 +1587,6 @@ const data = [
     {
         "title": "What If It's Us",
         "author": "Becky Albertalli, Adam Silvera",
-        "imageDownloaded": "E",
         "fiction": "Y",
         "romance": "Y",
         "prose": "Y",
@@ -1724,7 +1600,6 @@ const data = [
     {
         "title": "Dreadnought",
         "author": "April Daniels",
-        "imageDownloaded": "E",
         "dystopian": "Y",
         "prose": "Y",
         "lgbtqia": "Y",
@@ -1737,7 +1612,6 @@ const data = [
     {
         "title": "Labyrinth Lost",
         "author": "Zoradia Cordova",
-        "imageDownloaded": "E",
         "urbanfantasy": "Y",
         "prose": "Y",
         "africanamericanOrBlack": "Y",
@@ -1753,7 +1627,6 @@ const data = [
     {
         "title": "Carry On",
         "author": "Rainbow Rowell",
-        "imageDownloaded": "E",
         "fantasy": "Y",
         "prose": "Y",
         "lgbtqia": "Y",
@@ -1766,7 +1639,6 @@ const data = [
     {
         "title": "Symptoms of Being Human",
         "author": "Jeff Garvin",
-        "imageDownloaded": "E",
         "fiction": "Y",
         "prose": "Y",
         "lgbtqia": "Y",
@@ -1779,7 +1651,6 @@ const data = [
     {
         "title": "Some Girls Do",
         "author": "Jennifer Dugan",
-        "imageDownloaded": "E",
         "fiction": "Y",
         "romance": "Y",
         "prose": "Y",
@@ -1793,7 +1664,6 @@ const data = [
     {
         "title": "Clap When You Land",
         "author": "Elizabeth Acevedo",
-        "imageDownloaded": "E",
         "fiction": "Y",
         "romance": "Y",
         "verse": "Y",
@@ -1812,7 +1682,6 @@ const data = [
     {
         "title": "The Falling in Love Montage",
         "author": "Ciara Smyth",
-        "imageDownloaded": "E",
         "fiction": "Y",
         "romance": "Y",
         "prose": "Y",
@@ -1826,7 +1695,6 @@ const data = [
     {
         "title": "Hello (From Here)",
         "author": "Chandler Baker, Wesley King",
-        "imageDownloaded": "E",
         "fiction": "Y",
         "prose": "Y",
         "lgbtqia": "Y",
@@ -1839,7 +1707,6 @@ const data = [
     {
         "title": "This One Summer",
         "author": "Mariko Tamaki, Jillian Tamaki",
-        "imageDownloaded": "E",
         "fiction": "Y",
         "graphicnovel": "Y",
         "lgbtqia": "Y",
@@ -1851,7 +1718,6 @@ const data = [
     {
         "title": "Sweet & Bitter Magic",
         "author": "Adrienne Tooley",
-        "imageDownloaded": "E",
         "fantasy": "Y",
         "prose": "Y",
         "lgbtqia": "Y",
@@ -1861,7 +1727,6 @@ const data = [
     {
         "title": "You Should See Me in a Crown",
         "author": "Leah Johnson",
-        "imageDownloaded": "E",
         "fiction": "Y",
         "prose": "Y",
         "africanamericanOrBlack": "Y",
@@ -1876,7 +1741,6 @@ const data = [
     {
         "title": "I Think I Love You",
         "author": "Auriane Desombre",
-        "imageDownloaded": "E",
         "fiction": "Y",
         "romance": "Y",
         "prose": "Y",
@@ -1891,7 +1755,6 @@ const data = [
     {
         "title": "The Color Purple",
         "author": "Alice Walker",
-        "imageDownloaded": "E",
         "historicalfiction": "Y",
         "prose": "Y",
         "africanamericanOrBlack": "Y",
@@ -1904,7 +1767,6 @@ const data = [
     {
         "title": "Of Fire and Stars",
         "author": "Audrey Coulthrust",
-        "imageDownloaded": "E",
         "fantasy": "Y",
         "prose": "Y",
         "lgbtqia": "Y",
@@ -1917,7 +1779,6 @@ const data = [
     {
         "title": "Crier's War",
         "author": "Nina Valera",
-        "imageDownloaded": "E",
         "fantasy": "Y",
         "prose": "Y",
         "lgbtqia": "Y",
@@ -1930,7 +1791,6 @@ const data = [
     {
         "title": "The Henna Wars",
         "author": "Adiba Jaigirdar",
-        "imageDownloaded": "E",
         "prose": "Y",
         "africanamericanOrBlack": "Y",
         "asianamericanAndPacificIslander": "Y",
@@ -1945,7 +1805,6 @@ const data = [
     {
         "title": "These Witches Don't Burn",
         "author": "Isabel Sterling",
-        "imageDownloaded": "E",
         "urbanfantasy": "Y",
         "prose": "Y",
         "asianamericanAndPacificIslander": "Y",
@@ -1959,7 +1818,6 @@ const data = [
     {
         "title": "You Know Me Well",
         "author": "Nina LaCour, David Levithan",
-        "imageDownloaded": "E",
         "fiction": "Y",
         "prose": "Y",
         "lgbtqia": "Y",
@@ -1972,7 +1830,6 @@ const data = [
     {
         "title": "Starting From Here",
         "author": "Lisa Jenn Bigelow",
-        "imageDownloaded": "E",
         "fiction": "Y",
         "prose": "Y",
         "lgbtqia": "Y",
@@ -1986,7 +1843,6 @@ const data = [
     {
         "title": "Little & Lion",
         "author": "Brandy Colbert",
-        "imageDownloaded": "E",
         "fiction": "Y",
         "prose": "Y",
         "lgbtqia": "Y",
@@ -2003,7 +1859,6 @@ const data = [
     {
         "title": "History is All You Left Me",
         "author": "Adam Silvera",
-        "imageDownloaded": "E",
         "fiction": "Y",
         "romance": "Y",
         "prose": "Y",
@@ -2018,7 +1873,6 @@ const data = [
     {
         "title": "Boyfriend Material",
         "author": "Alexis Hall",
-        "imageDownloaded": "E",
         "fiction": "Y",
         "romance": "Y",
         "prose": "Y",
@@ -2032,7 +1886,6 @@ const data = [
     {
         "title": "Plain Bad Heroines",
         "author": "Emily M. Danforth",
-        "imageDownloaded": "E",
         "historicalfiction": "Y",
         "mysteryHorror": "Y",
         "prose": "Y",
@@ -2046,7 +1899,6 @@ const data = [
     {
         "title": "The Never Tilting World",
         "author": "Rin Chupeco",
-        "imageDownloaded": "E",
         "fantasy": "Y",
         "prose": "Y",
         "lgbtqia": "Y",
@@ -2059,7 +1911,6 @@ const data = [
     {
         "title": "Cinderella Is Dead",
         "author": "Kaylan Bayron",
-        "imageDownloaded": "E",
         "fantasy": "Y",
         "prose": "Y",
         "africanamericanOrBlack": "Y",
@@ -2073,7 +1924,6 @@ const data = [
     {
         "title": "Bodymap",
         "author": "Leah Lakshmi Piepzna-Samarasinha",
-        "imageDownloaded": "E",
         "memoirautobiograohy": "Y",
         "verse": "Y",
         "africanamericanOrBlack": "Y",
@@ -2086,7 +1936,6 @@ const data = [
     {
         "title": "Last Night at the Telegraph Club",
         "author": "Malinda Lo",
-        "imageDownloaded": "E",
         "historicalfiction": "Y",
         "prose": "Y",
         "asianamericanAndPacificIslander": "Y",
@@ -2100,7 +1949,6 @@ const data = [
     {
         "title": "First Spring Grass Fire",
         "author": "Rae Spoon",
-        "imageDownloaded": "E",
         "memoirautobiograohy": "Y",
         "prose": "Y",
         "lgbtqia": "Y",
@@ -2111,7 +1959,6 @@ const data = [
     {
         "title": "Juliet Takes A Breath",
         "author": "Gabby Rivera",
-        "imageDownloaded": "E",
         "fiction": "Y",
         "prose": "Y",
         "latinx": "Y",
@@ -2125,7 +1972,6 @@ const data = [
     {
         "title": "The Second Mango",
         "author": "Shira Glassman",
-        "imageDownloaded": "E",
         "fantasy": "Y",
         "prose": "Y",
         "lgbtqia": "Y",
@@ -2138,7 +1984,6 @@ const data = [
     {
         "title": "Lies We Tell Ourselves",
         "author": "Robin Talley",
-        "imageDownloaded": "E",
         "historicalfiction": "Y",
         "prose": "Y",
         "africanamericanOrBlack": "Y",
@@ -2152,7 +1997,6 @@ const data = [
     {
         "title": "I Am Not Your Perfect Mexican Daughter",
         "author": "Erika L. Sanchez",
-        "imageDownloaded": "E",
         "fiction": "Y",
         "prose": "Y",
         "latinx": "Y",
@@ -2166,7 +2010,6 @@ const data = [
     {
         "title": "War of Streets and Houses",
         "author": "Sophie Yanow",
-        "imageDownloaded": "E",
         "historicalfiction": "Y",
         "graphicnovel": "Y",
         "africanamericanOrBlack": "Y",
@@ -2177,7 +2020,6 @@ const data = [
     {
         "title": "When We Were Outlaws",
         "author": "Jeanne Cordova",
-        "imageDownloaded": "E",
         "memoirautobiograohy": "Y",
         "nonfiction": "Y",
         "prose": "Y",
@@ -2190,7 +2032,6 @@ const data = [
     {
         "title": "Indigo Springs",
         "author": "A. M. Dellamonica",
-        "imageDownloaded": "E",
         "urbanfantasy": "Y",
         "mysteryHorror": "Y",
         "prose": "Y",
@@ -2202,7 +2043,6 @@ const data = [
     {
         "title": "When I Was Straight",
         "author": "Julie Marie Wade",
-        "imageDownloaded": "E",
         "memoirautobiograohy": "Y",
         "verse": "Y",
         "lgbtqia": "Y",
@@ -2214,7 +2054,6 @@ const data = [
     {
         "title": "All Good Children ",
         "author": "Danya Ingram",
-        "imageDownloaded": "E",
         "scifi": "Y",
         "prose": "Y",
         "lgbtqia": "Y",
@@ -2228,7 +2067,6 @@ const data = [
     {
         "title": "The House You Pass on the Way",
         "author": "Jaqueline Woodson",
-        "imageDownloaded": "E",
         "fiction": "Y",
         "prose": "Y",
         "africanamericanOrBlack": "Y",
@@ -2238,7 +2076,6 @@ const data = [
     {
         "title": "Empress of the World",
         "author": "Sara Ryan",
-        "imageDownloaded": "E",
         "fiction": "Y",
         "romance": "Y",
         "prose": "Y",
@@ -2252,7 +2089,6 @@ const data = [
     {
         "title": "Ophie's Ghosts",
         "author": "Justina Ireland",
-        "imageDownloaded": "E",
         "fantasy": "Y",
         "fiction": "Y",
         "historicalfiction": "Y",
@@ -2266,7 +2102,6 @@ const data = [
     {
         "title": "Enter Title Here",
         "author": "Rahul Kanakia",
-        "imageDownloaded": "E",
         "fiction": "Y",
         "asianamericanAndPacificIslander": "Y",
         "ownvoices": "Y",
@@ -2279,7 +2114,6 @@ const data = [
     {
         "title": "Jack of Hearts (and Other Parts)",
         "author": "LC Rosen",
-        "imageDownloaded": "E",
         "fiction": "Y",
         "romance": "Y",
         "lgbtqia": "Y",
@@ -2291,7 +2125,6 @@ const data = [
     {
         "title": "Camp (novel)",
         "author": "Kayla Miller",
-        "imageDownloaded": "E",
         "fiction": "Y",
         "romance": "Y",
         "prose": "Y",
@@ -2304,7 +2137,6 @@ const data = [
     {
         "title": "Written in the Stars",
         "author": "Alexandria Bellefleur",
-        "imageDownloaded": "E",
         "fiction": "Y",
         "romance": "Y",
         "prose": "Y",
@@ -2318,7 +2150,6 @@ const data = [
     {
         "title": "This Is Kind of an Epic Love Story",
         "author": "Kacen Callendar",
-        "imageDownloaded": "E",
         "fiction": "Y",
         "romance": "Y",
         "prose": "Y",
@@ -2333,7 +2164,6 @@ const data = [
     {
         "title": "Cemetery Boys",
         "author": "Aiden Thomas",
-        "imageDownloaded": "E",
         "fantasy": "Y",
         "prose": "Y",
         "latinx": "Y",
@@ -2349,7 +2179,6 @@ const data = [
     {
         "title": "Will Grayson, Will Grayson",
         "author": "John Green",
-        "imageDownloaded": "E",
         "fiction": "Y",
         "prose": "Y",
         "lgbtqia": "Y",
@@ -2362,7 +2191,6 @@ const data = [
     {
         "title": "Turtles All the Way Down",
         "author": "John Green",
-        "imageDownloaded": "E",
         "fiction": "Y",
         "prose": "Y",
         "invisibledisability": "Y",
@@ -2375,7 +2203,6 @@ const data = [
     {
         "title": "Where They Burn Books, They Also Burn People",
         "author": "Marcos Antonio Hernandez",
-        "imageDownloaded": "E",
         "historicalfiction": "Y",
         "prose": "Y",
         "latinx": "Y",
@@ -2384,7 +2211,6 @@ const data = [
     {
         "title": "When We Collided",
         "author": "Emery Lord",
-        "imageDownloaded": "E",
         "fiction": "Y",
         "prose": "Y",
         "mentalhealth": "Y",
@@ -2396,7 +2222,6 @@ const data = [
     {
         "title": "Reasons To Stay Alive",
         "author": "Matt Haig",
-        "imageDownloaded": "E",
         "memoirautobiograohy": "Y",
         "prose": "Y",
         "ownvoices": "Y",
@@ -2411,7 +2236,6 @@ const data = [
     {
         "title": "Insignificant Events In the Life of a Cactus",
         "author": "Dusti Bowling",
-        "imageDownloaded": "E",
         "fiction": "Y",
         "prose": "Y",
         "characterwithdisability": "Y",
@@ -2424,7 +2248,6 @@ const data = [
     {
         "title": "The Cat I Never Named",
         "author": "Amra Sabic-El-Rayess, Laura L. Sullivan",
-        "imageDownloaded": "E",
         "memoirautobiograohy": "Y",
         "nonfiction": "Y",
         "prose": "Y",
@@ -2441,7 +2264,6 @@ const data = [
     {
         "title": "The Red Pencil",
         "author": "Andrea Davis Pinkney",
-        "imageDownloaded": "E",
         "historicalfiction": "Y",
         "verse": "Y",
         "africanamericanOrBlack": "Y",
@@ -2456,7 +2278,6 @@ const data = [
     {
         "title": "Let's Talk About Love",
         "author": "Claire Kann",
-        "imageDownloaded": "E",
         "fiction": "Y",
         "romance": "Y",
         "prose": "Y",
@@ -2472,7 +2293,6 @@ const data = [
     {
         "title": "Kings, Queens, and In-Betweens",
         "author": "Tanya Boteju",
-        "imageDownloaded": "E",
         "fiction": "Y",
         "romance": "Y",
         "lgbtqia": "Y",
@@ -2485,7 +2305,6 @@ const data = [
     {
         "title": "The Voting Booth",
         "author": "Brandy Colbert",
-        "imageDownloaded": "E",
         "fiction": "Y",
         "romance": "Y",
         "africanamericanOrBlack": "Y",
@@ -2498,7 +2317,6 @@ const data = [
     {
         "title": "How I Paid for College: A Novel of Sex, Theft, Friendship & Musical Theater",
         "author": "Marc Acito",
-        "imageDownloaded": "E",
         "fiction": "Y",
         "lgbtqia": "Y",
         "ownvoices": "Y",
@@ -2511,7 +2329,6 @@ const data = [
     {
         "title": "From a Whisper to a Rallying Cry: The Killing of Vincent Chin and the Trial that Galvanized the Asian American Movement",
         "author": "Paula Yoo",
-        "imageDownloaded": "E",
         "nonfiction": "Y",
         "asianamericanAndPacificIslander": "Y",
         "bookBibnumber": 902433,
@@ -2522,7 +2339,6 @@ const data = [
     {
         "title": "The Harlem Hellfighters",
         "author": "Max Brooks",
-        "imageDownloaded": "E",
         "nonfiction": "Y",
         "graphicnovel": "Y",
         "bookBibnumber": 408115,
@@ -2533,7 +2349,6 @@ const data = [
     {
         "title": "Redbone: The True Story of a Native American Rock Band",
         "author": "Christian Staebler",
-        "imageDownloaded": "E",
         "nonfiction": "Y",
         "graphicnovel": "Y",
         "nativeamerican": "Y",
@@ -2546,7 +2361,6 @@ const data = [
     {
         "title": "Wintergirls",
         "author": "Laurie Halse Anderson",
-        "imageDownloaded": "E",
         "fiction": "Y",
         "mentalhealth": "Y",
         "depression": "Y",
@@ -2558,7 +2372,6 @@ const data = [
     {
         "title": "Hell Followed With Us",
         "author": "Andrew Joseph White",
-        "imageDownloaded": "E",
         "fantasy": "Y",
         "prose": "Y",
         "lgbtqia": "Y",
@@ -2576,7 +2389,6 @@ const data = [
     {
         "title": "We All Fall Down",
         "author": "Rose Szabo",
-        "imageDownloaded": "E",
         "fantasy": "Y",
         "prose": "Y",
         "africanamericanOrBlack": "Y",
@@ -2591,14 +2403,12 @@ const data = [
     {
         "title": "The Gravity of Missing Things",
         "author": "Marisa Urgo",
-        "imageDownloaded": "E",
         "mysteryHorror": "Y",
         "prose": "Y"
     },
     {
         "title": "The Guinevere Deception",
         "author": "Kiersten White",
-        "imageDownloaded": "E",
         "fantasy": "Y",
         "prose": "Y",
         "lgbtqia": "Y",
@@ -2610,7 +2420,6 @@ const data = [
     {
         "title": "Love & Other Disasters",
         "author": "Anita Kelly",
-        "imageDownloaded": "E",
         "romance": "Y",
         "prose": "Y",
         "lgbtqia": "Y",
@@ -2624,7 +2433,6 @@ const data = [
     {
         "title": "All Our Hidden Gifts",
         "author": "Caroline O'Donoghue",
-        "imageDownloaded": "E",
         "fantasy": "Y",
         "prose": "Y",
         "asianamericanAndPacificIslander": "Y",
@@ -2639,7 +2447,6 @@ const data = [
     {
         "title": "All the Bright Places",
         "author": "Jennifer Niven",
-        "imageDownloaded": "E",
         "fiction": "Y",
         "prose": "Y",
         "mentalhealth": "Y",
@@ -2652,7 +2459,6 @@ const data = [
     {
         "title": "We Set the Dark on Fire",
         "author": "Tehlor Kay Mejia",
-        "imageDownloaded": "E",
         "fantasy": "Y",
         "romance": "Y",
         "prose": "Y",
@@ -2668,7 +2474,6 @@ const data = [
     {
         "title": "Born a Crime : Stories From a South African Childhood",
         "author": "Trevor Noah",
-        "imageDownloaded": "E",
         "memoirautobiograohy": "Y",
         "prose": "Y",
         "africanamericanOrBlack": "Y",
@@ -2681,7 +2486,6 @@ const data = [
     {
         "title": "Vicious",
         "author": "V. E. Schwab",
-        "imageDownloaded": "E",
         "fantasy": "Y",
         "prose": "Y",
         "lgbtqia": "Y",
@@ -2695,7 +2499,6 @@ const data = [
     {
         "title": "The Mermaid, the Witch, and the Sea",
         "author": "Maggie Tokuda-Hall",
-        "imageDownloaded": "E",
         "fantasy": "Y",
         "prose": "Y",
         "lgbtqia": "Y",
@@ -2709,7 +2512,6 @@ const data = [
     {
         "title": "Malice",
         "author": "Heather Walter",
-        "imageDownloaded": "E",
         "fantasy": "Y",
         "prose": "Y",
         "lgbtqia": "Y",
@@ -2722,7 +2524,6 @@ const data = [
     {
         "title": "The Grimrose Girls",
         "author": "Laura Pohl",
-        "imageDownloaded": "E",
         "fantasy": "Y",
         "prose": "Y",
         "lgbtqia": "Y",
@@ -2736,7 +2537,6 @@ const data = [
     {
         "title": "Under the Udala Trees",
         "author": "Chinelo Okparanta",
-        "imageDownloaded": "E",
         "fiction": "Y",
         "prose": "Y",
         "africanamericanOrBlack": "Y",
@@ -2752,7 +2552,6 @@ const data = [
     {
         "title": "The City of Devi",
         "author": "Manil Suri",
-        "imageDownloaded": "E",
         "dystopian": "Y",
         "prose": "Y",
         "africanamericanOrBlack": "Y",
@@ -2771,7 +2570,6 @@ const data = [
     {
         "title": "Mundo Cruel",
         "author": "Luis Negron",
-        "imageDownloaded": "E",
         "memoirautobiograohy": "Y",
         "prose": "Y",
         "latinx": "Y",
@@ -2783,7 +2581,6 @@ const data = [
     {
         "title": "Life is Wonderful, People are Terrific",
         "author": "Meliza Banales",
-        "imageDownloaded": "E",
         "fiction": "Y",
         "prose": "Y",
         "latinx": "Y",
@@ -2793,7 +2590,6 @@ const data = [
     {
         "title": "Small Town Pride",
         "author": "Phil Stamper",
-        "imageDownloaded": "E",
         "fiction": "Y",
         "prose": "Y",
         "lgbtqia": "Y",
@@ -2806,7 +2602,6 @@ const data = [
     {
         "title": "The Civil War of Amos Abernathy",
         "author": "Michael Leali",
-        "imageDownloaded": "E",
         "fiction": "Y",
         "prose": "Y",
         "lgbtqia": "Y",
@@ -2819,7 +2614,6 @@ const data = [
     {
         "title": "From the Desk of Zoe Washington",
         "author": "Janae Marks",
-        "imageDownloaded": "E",
         "fiction": "Y",
         "prose": "Y",
         "africanamericanOrBlack": "Y",
@@ -2832,7 +2626,6 @@ const data = [
     {
         "title": "Girl In Pieces",
         "author": "Kathleen Glasgow",
-        "imageDownloaded": "E",
         "fiction": "Y",
         "prose": "Y",
         "mentalhealth": "Y",
@@ -2845,7 +2638,6 @@ const data = [
     {
         "title": "Marcelo in the Real World",
         "author": "Francisco X. Stork",
-        "imageDownloaded": "E",
         "fiction": "Y",
         "prose": "Y",
         "latinx": "Y",
@@ -2859,7 +2651,6 @@ const data = [
     {
         "title": "All-American Muslim Girl",
         "author": "Nadine Jolie Courtney",
-        "imageDownloaded": "E",
         "fiction": "Y",
         "prose": "Y",
         "arabOrArabamerican": "Y",
@@ -2872,7 +2663,6 @@ const data = [
     {
         "title": "Bianca & Roja ",
         "author": "Anna-Marie McLemore",
-        "imageDownloaded": "E",
         "fantasy": "Y",
         "prose": "Y",
         "latinx": "Y",
@@ -2884,7 +2674,6 @@ const data = [
     {
         "title": "Honor Girl: A Graphic Memoir",
         "author": "Maggie Thrash",
-        "imageDownloaded": "E",
         "memoirautobiograohy": "Y",
         "nonfiction": "Y",
         "graphicnovel": "Y",
@@ -2897,7 +2686,6 @@ const data = [
     {
         "title": "Girls Made of Snow and Glass",
         "author": "Melissa Bashardoust",
-        "imageDownloaded": "E",
         "fantasy": "Y",
         "prose": "Y",
         "lgbtqia": "Y",
@@ -2910,7 +2698,6 @@ const data = [
     {
         "title": "In Deeper Waters",
         "author": "F.T. Lukens",
-        "imageDownloaded": "E",
         "fantasy": "Y",
         "prose": "Y",
         "lgbtqia": "Y",
@@ -2923,7 +2710,6 @@ const data = [
     {
         "title": "A Spindle Splintered",
         "author": "Alex E. Harrow",
-        "imageDownloaded": "E",
         "fantasy": "Y",
         "prose": "Y",
         "lgbtqia": "Y",
@@ -2937,7 +2723,6 @@ const data = [
     {
         "title": "Girls of Paper and Fire",
         "author": "Natasha Ngan",
-        "imageDownloaded": "E",
         "fantasy": "Y",
         "prose": "Y",
         "lgbtqia": "Y",
@@ -2950,7 +2735,6 @@ const data = [
     {
         "title": "The Midnight Girls",
         "author": "Alicia Jasinka",
-        "imageDownloaded": "E",
         "fantasy": "Y",
         "prose": "Y",
         "lgbtqia": "Y",
@@ -2963,7 +2747,6 @@ const data = [
     {
         "title": "Aces Wild",
         "author": "Amanda Dewitt",
-        "imageDownloaded": "E",
         "mysteryHorror": "Y",
         "prose": "Y",
         "lgbtqia": "Y",
@@ -2972,7 +2755,6 @@ const data = [
     {
         "title": "The Girl From The Sea",
         "author": "Molly Knox Ostera",
-        "imageDownloaded": "E",
         "urbanfantasy": "Y",
         "graphicnovel": "Y",
         "lgbtqia": "Y",
@@ -2985,7 +2767,6 @@ const data = [
     {
         "title": "Dark Rise",
         "author": "C.S. Pacat",
-        "imageDownloaded": "E",
         "fantasy": "Y",
         "prose": "Y",
         "lgbtqia": "Y",
@@ -2998,7 +2779,6 @@ const data = [
     {
         "title": "Lawn Boy",
         "author": "Jonathan Evision",
-        "imageDownloaded": "E",
         "fiction": "Y",
         "prose": "Y",
         "latinx": "Y",
@@ -3010,7 +2790,6 @@ const data = [
     {
         "title": "The Meaning of Birds",
         "author": "Jaye Robin Brown",
-        "imageDownloaded": "E",
         "fiction": "Y",
         "romance": "Y",
         "prose": "Y",
@@ -3026,7 +2805,6 @@ const data = [
     {
         "title": "Redwood and Ponytail",
         "author": "K.A. Holt",
-        "imageDownloaded": "E",
         "fiction": "Y",
         "romance": "Y",
         "verse": "Y",
@@ -3039,7 +2817,6 @@ const data = [
     {
         "title": "Orpheus Girl",
         "author": "Brynne Rebelle-Henry",
-        "imageDownloaded": "E",
         "fiction": "Y",
         "romance": "Y",
         "verse": "Y",
@@ -3055,7 +2832,6 @@ const data = [
     {
         "title": "Laura Dean Keeps Breaking Up With Me",
         "author": "Mariko Tamaki and Rosemary Valero-O'Connell",
-        "imageDownloaded": "E",
         "fiction": "Y",
         "prose": "Y",
         "asianamericanAndPacificIslander": "Y",
@@ -3067,7 +2843,6 @@ const data = [
     {
         "title": "Hani and Ishu's Guide to Fake Dating",
         "author": "Adiba Jaigirdar",
-        "imageDownloaded": "E",
         "fiction": "Y",
         "romance": "Y",
         "prose": "Y",
@@ -3084,7 +2859,6 @@ const data = [
     {
         "title": "Black Sun",
         "author": "Rebecca Roanhorse",
-        "imageDownloaded": "E",
         "fantasy": "Y",
         "prose": "Y",
         "lgbtqia": "Y",
@@ -3097,7 +2871,6 @@ const data = [
     {
         "title": "She Who Became the Sun",
         "author": "Shelley Parker-Chan",
-        "imageDownloaded": "R",
         "historicalfiction": "Y",
         "prose": "Y",
         "asianamericanAndPacificIslander": "Y",
@@ -3112,7 +2885,6 @@ const data = [
     {
         "title": "The Chosen and the Beautiful",
         "author": "Nghi Vo",
-        "imageDownloaded": "R",
         "historicalfiction": "Y",
         "prose": "Y",
         "asianamericanAndPacificIslander": "Y",
@@ -3125,7 +2897,6 @@ const data = [
     {
         "title": "This Poison Heart",
         "author": "Kalynn Bayron",
-        "imageDownloaded": "R",
         "urbanfantasy": "Y",
         "prose": "Y",
         "africanamericanOrBlack": "Y",
@@ -3139,7 +2910,6 @@ const data = [
     {
         "title": "The Stars and the Blackness Between Them",
         "author": "Junauda Petrus",
-        "imageDownloaded": "R",
         "fiction": "Y",
         "romance": "Y",
         "prose": "Y",
@@ -3154,7 +2924,6 @@ const data = [
     {
         "title": "Rise to the Sun",
         "author": "Leah Johnson",
-        "imageDownloaded": "R",
         "fiction": "Y",
         "romance": "Y",
         "prose": "Y",
@@ -3169,7 +2938,6 @@ const data = [
     {
         "title": "Lycanthropy and Other Chronic Illnesses",
         "author": "Kristen O'Neal",
-        "imageDownloaded": "R",
         "urbanfantasy": "Y",
         "prose": "Y",
         "invisibledisability": "Y",
@@ -3182,7 +2950,6 @@ const data = [
     {
         "title": "Welcome Back Maple Mehta Cohen",
         "author": "Kate McGovern ",
-        "imageDownloaded": "R",
         "fiction": "Y",
         "asianamericanAndPacificIslander": "Y",
         "jewish": "Y",
@@ -3195,7 +2962,6 @@ const data = [
     {
         "title": "Take Back the Block",
         "author": "Chrystal D. Giles",
-        "imageDownloaded": "R",
         "fiction": "Y",
         "africanamericanOrBlack": "Y",
         "middleGrade": "Y",
@@ -3207,7 +2973,6 @@ const data = [
     {
         "title": "Yusuf Azeem Is Not a Hero",
         "author": "Saadia Faruqi",
-        "imageDownloaded": "R",
         "fiction": "Y",
         "asianamericanAndPacificIslander": "Y",
         "arabOrArabamerican": "Y",
@@ -3221,7 +2986,6 @@ const data = [
     {
         "title": "Alma Presses Play",
         "author": "Tina Cane",
-        "imageDownloaded": "R",
         "fiction": "Y",
         "historicalfiction": "Y",
         "verse": "Y",
@@ -3234,7 +2998,6 @@ const data = [
     {
         "title": "Don't Ask Me Where I'm From",
         "author": "Jennifer De Leon",
-        "imageDownloaded": "R",
         "fiction": "Y",
         "latinx": "Y",
         "bookBibnumber": 901962,
@@ -3245,7 +3008,6 @@ const data = [
     {
         "title": "The Coldest Touch",
         "author": "Isabel Sterling",
-        "imageDownloaded": "R",
         "fiction": "Y",
         "urbanfantasy": "Y",
         "lgbtqia": "Y",
@@ -3257,7 +3019,6 @@ const data = [
     {
         "title": "Ahmed Aziz's Epic Year",
         "author": "Nina Hamza",
-        "imageDownloaded": "R",
         "fiction": "Y",
         "asianamericanAndPacificIslander": "Y",
         "middleGrade": "Y",
@@ -3269,7 +3030,6 @@ const data = [
     {
         "title": "You're Welcome, Universe",
         "author": "Whitney Gardner",
-        "imageDownloaded": "R",
         "fiction": "Y",
         "asianamericanAndPacificIslander": "Y",
         "characterwithdisability": "Y",
@@ -3282,7 +3042,6 @@ const data = [
     {
         "title": "Five Flavors of Dumb",
         "author": "Antony John",
-        "imageDownloaded": "R",
         "fiction": "Y",
         "characterwithdisability": "Y",
         "mutedeafblind": "Y",
@@ -3293,7 +3052,6 @@ const data = [
     {
         "title": "What the Night Sings",
         "author": "Vesper Stamper",
-        "imageDownloaded": "R",
         "historicalfiction": "Y",
         "verse": "Y",
         "graphicnovel": "Y",
@@ -3306,7 +3064,6 @@ const data = [
     {
         "title": "Here and Queer: A Queer Girl's Guide to Life",
         "author": "Rowan Ellis, Jacky Sheridan",
-        "imageDownloaded": "R",
         "nonfiction": "Y",
         "graphicnovel": "Y",
         "lgbtqia": "Y",
@@ -3319,7 +3076,6 @@ const data = [
     {
         "title": "Just Your Local Bisexual Disaster",
         "author": "Andrea Mosqueda",
-        "imageDownloaded": "R",
         "fiction": "Y",
         "romance": "Y",
         "latinx": "Y",
@@ -3331,7 +3087,6 @@ const data = [
     {
         "title": "The Loophole",
         "author": "Naz Kutub",
-        "imageDownloaded": "R",
         "urbanfantasy": "Y",
         "asianamericanAndPacificIslander": "Y",
         "lgbtqia": "Y",
@@ -3344,7 +3099,6 @@ const data = [
     {
         "title": "The Witchery",
         "author": "S. Isabelle",
-        "imageDownloaded": "R",
         "urbanfantasy": "Y",
         "africanamericanOrBlack": "Y",
         "bookBibnumber": 0,
@@ -3355,7 +3109,6 @@ const data = [
     {
         "title": "Youngblood",
         "author": "Sasha Laurens",
-        "imageDownloaded": "R",
         "urbanfantasy": "Y",
         "lgbtqia": "Y",
         "wlwOrNblw": "Y",
@@ -3366,7 +3119,6 @@ const data = [
     {
         "title": "Everything You Wanted to Know About Indians but Were Afraid to Ask",
         "author": "Anton Treuer",
-        "imageDownloaded": "R",
         "nonfiction": "Y",
         "nativeamerican": "Y",
         "bookBibnumber": 557392,
@@ -3377,7 +3129,6 @@ const data = [
     {
         "title": "The Marrow Thieves",
         "author": "Cherie Dimaline",
-        "imageDownloaded": "R",
         "scifi": "Y",
         "urbanfantasy": "Y",
         "nativeamerican": "Y",
@@ -3389,7 +3140,6 @@ const data = [
     {
         "title": "The Last Mapmaker ",
         "author": "Christina Soontornvat",
-        "imageDownloaded": "R",
         "fantasy": "Y",
         "prose": "Y",
         "asianamericanAndPacificIslander": "Y",
@@ -3401,7 +3151,6 @@ const data = [
     {
         "title": "Boys Run The Riot",
         "author": "Keito Gake",
-        "imageDownloaded": "R",
         "fiction": "Y",
         "graphicnovel": "Y",
         "asianamericanAndPacificIslander": "Y",
@@ -3415,7 +3164,6 @@ const data = [
     {
         "title": "Asadora!",
         "author": "Naok Ursawa",
-        "imageDownloaded": "R",
         "fantasy": "Y",
         "graphicnovel": "Y",
         "africanamericanOrBlack": "Y",
@@ -3428,7 +3176,6 @@ const data = [
     {
         "title": "They Called Us Enemy",
         "author": "George Takei",
-        "imageDownloaded": "R",
         "memoirautobiograohy": "Y",
         "nonfiction": "Y",
         "graphicnovel": "Y",
@@ -3442,7 +3189,6 @@ const data = [
     {
         "title": "March: Book One",
         "author": "John Lewis",
-        "imageDownloaded": "R",
         "memoirautobiograohy": "Y",
         "nonfiction": "Y",
         "graphicnovel": "Y",
@@ -3456,7 +3202,6 @@ const data = [
     {
         "title": "Fat Chance, Charlie Vega",
         "author": "Crystal Maldonado",
-        "imageDownloaded": "R",
         "fiction": "Y",
         "prose": "Y",
         "latinx": "Y",
@@ -3468,7 +3213,6 @@ const data = [
     {
         "title": "Fierce as the Wind",
         "author": "Tara Wilson",
-        "imageDownloaded": "R",
         "fiction": "Y",
         "prose": "Y",
         "asianamericanAndPacificIslander": "Y",
@@ -3479,7 +3223,6 @@ const data = [
     {
         "title": "Solo Leveling",
         "author": "Chugong",
-        "imageDownloaded": "R",
         "scifi": "Y",
         "graphicnovel": "Y",
         "asianamericanAndPacificIslander": "Y",
@@ -3491,7 +3234,6 @@ const data = [
     {
         "title": "Fifteen Hundred Miles from the Sun",
         "author": "Jonny Garza",
-        "imageDownloaded": "R",
         "fiction": "Y",
         "prose": "Y",
         "lgbtqia": "Y",
@@ -3504,7 +3246,6 @@ const data = [
     {
         "title": "The Great Bear",
         "author": "David A. Robertson",
-        "imageDownloaded": "R",
         "fantasy": "Y",
         "prose": "Y",
         "nativeamerican": "Y",
@@ -3516,7 +3257,6 @@ const data = [
     {
         "title": "One of the Good Ones",
         "author": "Makia and Maritza Moulite",
-        "imageDownloaded": "R",
         "fiction": "Y",
         "prose": "Y",
         "africanamericanOrBlack": "Y",
@@ -3529,7 +3269,6 @@ const data = [
     {
         "title": "The Ones We're Meant to Find",
         "author": "Joan He",
-        "imageDownloaded": "R",
         "fiction": "Y",
         "dystopian": "Y",
         "prose": "Y",
@@ -3542,7 +3281,6 @@ const data = [
     {
         "title": "The Other Merlin",
         "author": "Robin Schneider",
-        "imageDownloaded": "R",
         "historicalfiction": "Y",
         "prose": "Y",
         "lgbtqia": "Y",
@@ -3554,7 +3292,6 @@ const data = [
     {
         "title": "The Other Side of Perfect",
         "author": "Mariko Turk",
-        "imageDownloaded": "R",
         "fiction": "Y",
         "prose": "Y",
         "asianamericanAndPacificIslander": "Y",
@@ -3566,7 +3303,6 @@ const data = [
     {
         "title": "Perfectly Parvin",
         "author": "Olivia Abtahi",
-        "imageDownloaded": "R",
         "fiction": "Y",
         "prose": "Y",
         "arabOrArabamerican": "Y",
@@ -3580,7 +3316,6 @@ const data = [
     {
         "title": "Pumpkin",
         "author": "Julie Murphy",
-        "imageDownloaded": "R",
         "fiction": "Y",
         "prose": "Y",
         "lgbtqia": "Y",
@@ -3591,7 +3326,6 @@ const data = [
     {
         "title": "Somewhere Between Bitter and Sweet",
         "author": "Laekan Zea Kemp",
-        "imageDownloaded": "R",
         "fiction": "Y",
         "prose": "Y",
         "latinx": "Y",
@@ -3605,7 +3339,6 @@ const data = [
     {
         "title": "The Surprising Power of a Good Dumpling",
         "author": "Wai Chim",
-        "imageDownloaded": "R",
         "fiction": "Y",
         "prose": "Y",
         "asianamericanAndPacificIslander": "Y",
@@ -3620,7 +3353,6 @@ const data = [
     {
         "title": "Home is not a Country",
         "author": "Safia Elhillo",
-        "imageDownloaded": "R",
         "fiction": "Y",
         "prose": "Y",
         "arabOrArabamerican": "Y",
@@ -3633,7 +3365,6 @@ const data = [
     {
         "title": "Hunting by Stars",
         "author": "Cherie Dimaline",
-        "imageDownloaded": "R",
         "fiction": "Y",
         "dystopian": "Y",
         "prose": "Y",
@@ -3645,7 +3376,6 @@ const data = [
     {
         "title": "Kneel",
         "author": "Candace Bufford",
-        "imageDownloaded": "R",
         "fiction": "Y",
         "prose": "Y",
         "africanamericanOrBlack": "Y",
@@ -3657,7 +3387,6 @@ const data = [
     {
         "title": "Like Other Girls",
         "author": "Britta Lundin",
-        "imageDownloaded": "R",
         "fiction": "Y",
         "prose": "Y",
         "lgbtqia": "Y",
@@ -3669,7 +3398,6 @@ const data = [
     {
         "title": "List of Ten",
         "author": "Halli Gomez",
-        "imageDownloaded": "R",
         "fiction": "Y",
         "prose": "Y",
         "invisibledisability": "Y",
@@ -3682,7 +3410,6 @@ const data = [
     {
         "title": "Love in English",
         "author": "Marie E. Andreu",
-        "imageDownloaded": "R",
         "fiction": "Y",
         "prose": "Y",
         "latinx": "Y",
@@ -3696,7 +3423,6 @@ const data = [
     {
         "title": "The Mirror Season",
         "author": "Anna-Marie McLenore",
-        "imageDownloaded": "R",
         "fiction": "Y",
         "prose": "Y",
         "latinx": "Y",
@@ -3708,7 +3434,6 @@ const data = [
     {
         "title": "When We Make It",
         "author": "Elisabet Velasquez",
-        "imageDownloaded": "R",
         "historicalfiction": "Y",
         "prose": "Y",
         "latinx": "Y",
@@ -3720,7 +3445,6 @@ const data = [
     {
         "title": "Who I Was With Her",
         "author": "Nita Tyndall",
-        "imageDownloaded": "R",
         "fiction": "Y",
         "prose": "Y",
         "lgbtqia": "Y",
@@ -3734,7 +3458,6 @@ const data = [
     {
         "title": "The Words in My Hands",
         "author": "Asphyxia",
-        "imageDownloaded": "R",
         "fiction": "Y",
         "prose": "Y",
         "mutedeafblind": "Y",
@@ -3746,7 +3469,6 @@ const data = [
     {
         "title": "Cheer Up!",
         "author": "Crystal Frasier",
-        "imageDownloaded": "R",
         "fiction": "Y",
         "graphicnovel": "Y",
         "lgbtqia": "Y",
@@ -3759,7 +3481,6 @@ const data = [
     {
         "title": "The Passing Playbook",
         "author": "Isaac Fitzsimons",
-        "imageDownloaded": "R",
         "fiction": "Y",
         "prose": "Y",
         "lgbtqia": "Y",
@@ -3773,7 +3494,6 @@ const data = [
     {
         "title": "Boy, Everywhere",
         "author": "A.M. Dassu",
-        "imageDownloaded": "R",
         "fiction": "Y",
         "prose": "Y",
         "arabOrArabamerican": "Y",
@@ -3788,7 +3508,6 @@ const data = [
     {
         "title": "Dawn Raid",
         "author": "Pauline Vaeluaga Smith",
-        "imageDownloaded": "R",
         "historicalfiction": "Y",
         "prose": "Y",
         "asianamericanAndPacificIslander": "Y",
@@ -3801,7 +3520,6 @@ const data = [
     {
         "title": "The Genius Under the Table: Growing Up Behind the Iron Curtain",
         "author": "Eugene Yelchin",
-        "imageDownloaded": "R",
         "memoirautobiograohy": "Y",
         "nonfiction": "Y",
         "prose": "Y",
@@ -3815,7 +3533,6 @@ const data = [
     {
         "title": "Amazona",
         "author": "Canizales",
-        "imageDownloaded": "R",
         "fiction": "Y",
         "graphicnovel": "Y",
         "latinx": "Y",
@@ -3827,7 +3544,6 @@ const data = [
     {
         "title": "Rabbit Chase",
         "author": "Elizabeth Lapensee",
-        "imageDownloaded": "R",
         "fiction": "Y",
         "graphicnovel": "Y",
         "nativeamerican": "Y",
@@ -3840,7 +3556,6 @@ const data = [
     {
         "title": "Brother Alive",
         "author": "Zain Khalid",
-        "imageDownloaded": "R",
         "fiction": "Y",
         "prose": "Y",
         "africanamericanOrBlack": "Y",
@@ -3856,7 +3571,6 @@ const data = [
     {
         "title": "All Boys Aren't Blue",
         "author": "George M. Johnson",
-        "imageDownloaded": "R",
         "memoirautobiograohy": "Y",
         "nonfiction": "Y",
         "prose": "Y",
@@ -3871,7 +3585,6 @@ const data = [
     {
         "title": "When The Moon Was Ours",
         "author": "Anna-Marie McLenore",
-        "imageDownloaded": "R",
         "fantasy": "Y",
         "prose": "Y",
         "asianamericanAndPacificIslander": "Y",
@@ -3885,7 +3598,6 @@ const data = [
     {
         "title": "Ziggy, Stardust, and Me",
         "author": "James Brandon",
-        "imageDownloaded": "R",
         "historicalfiction": "Y",
         "prose": "Y",
         "africanamericanOrBlack": "Y",
@@ -3899,7 +3611,6 @@ const data = [
     {
         "title": "King and the Dragonflies",
         "author": "Kacen Callender",
-        "imageDownloaded": "R",
         "fiction": "Y",
         "prose": "Y",
         "africanamericanOrBlack": "Y",
@@ -3913,7 +3624,6 @@ const data = [
     {
         "title": "Yonder",
         "author": "Jabari Asim",
-        "imageDownloaded": "R",
         "historicalfiction": "Y",
         "prose": "Y",
         "africanamericanOrBlack": "Y",
@@ -3925,7 +3635,6 @@ const data = [
     {
         "title": "The Absolutely True Diary of a Part-Time Indian",
         "author": "Sherman Alexie",
-        "imageDownloaded": "R",
         "fiction": "Y",
         "prose": "Y",
         "nativeamerican": "Y",
@@ -3937,7 +3646,6 @@ const data = [
     {
         "title": "The Sun Is Also a Star",
         "author": "Nicola Yoon",
-        "imageDownloaded": "R",
         "fiction": "Y",
         "prose": "Y",
         "asianamericanAndPacificIslander": "Y",
@@ -3952,7 +3660,6 @@ const data = [
     {
         "title": "The Poet X",
         "author": "Elizabeth Acevedo",
-        "imageDownloaded": "R",
         "fiction": "Y",
         "verse": "Y",
         "latinx": "Y",
@@ -3966,7 +3673,6 @@ const data = [
     {
         "title": "Long Way Down",
         "author": "Jason Reynolds",
-        "imageDownloaded": "R",
         "fiction": "Y",
         "verse": "Y",
         "africanamericanOrBlack": "Y",
@@ -3978,7 +3684,6 @@ const data = [
     {
         "title": "Every Body Looking",
         "author": "Candice Iloh",
-        "imageDownloaded": "R",
         "fiction": "Y",
         "verse": "Y",
         "africanamericanOrBlack": "Y",
@@ -3991,7 +3696,6 @@ const data = [
     {
         "title": "Piecing Me Together",
         "author": "Renee Watson",
-        "imageDownloaded": "E",
         "fiction": "Y",
         "prose": "Y",
         "africanamericanOrBlack": "Y",
@@ -4004,7 +3708,6 @@ const data = [
     {
         "title": "We Are Not From Here",
         "author": "Jenny Torres Sanchez",
-        "imageDownloaded": "E",
         "fiction": "Y",
         "prose": "Y",
         "latinx": "Y",
@@ -4019,7 +3722,6 @@ const data = [
     {
         "title": "The Librarian of Auschwitz",
         "author": "Antonio Iturbe",
-        "imageDownloaded": "E",
         "historicalfiction": "Y",
         "prose": "Y",
         "ownvoices": "Y",
@@ -4032,7 +3734,6 @@ const data = [
     {
         "title": "Darius the Great Deserves Better",
         "author": "Adib Khorram",
-        "imageDownloaded": "E",
         "fiction": "Y",
         "prose": "Y",
         "arabOrArabamerican": "Y",
@@ -4046,7 +3747,6 @@ const data = [
     {
         "title": "The Return of Faraz Ali",
         "author": "Aamina Ahmad",
-        "imageDownloaded": "E",
         "fiction": "Y",
         "mysteryHorror": "Y",
         "prose": "Y",
@@ -4060,7 +3760,6 @@ const data = [
     {
         "title": "Probably Ruby",
         "author": "Lisa Bird-Wilson",
-        "imageDownloaded": "E",
         "historicalfiction": "Y",
         "prose": "Y",
         "nativeamerican": "Y",
@@ -4071,7 +3770,6 @@ const data = [
     {
         "title": "Your Nostalgia Is Killing Me",
         "author": "John Weir",
-        "imageDownloaded": "E",
         "memoirautobiograohy": "Y",
         "nonfiction": "Y",
         "prose": "Y",
@@ -4085,7 +3783,6 @@ const data = [
     {
         "title": "Love Marriage",
         "author": "Monica Ali",
-        "imageDownloaded": "E",
         "fiction": "Y",
         "prose": "Y",
         "arabOrArabamerican": "Y",
@@ -4099,7 +3796,6 @@ const data = [
     {
         "title": "Right Where I Left You",
         "author": "Julian Winters",
-        "imageDownloaded": "E",
         "fiction": "Y",
         "romance": "Y",
         "prose": "Y",
@@ -4115,7 +3811,6 @@ const data = [
     {
         "title": "Breathe and Count Back from Ten",
         "author": "Natalia Sylvester",
-        "imageDownloaded": "E",
         "fiction": "Y",
         "prose": "Y",
         "latinx": "Y",
@@ -4132,7 +3827,6 @@ const data = [
     {
         "title": "The Book Theif",
         "author": "Marcus Zuzak",
-        "imageDownloaded": "E",
         "historicalfiction": "Y",
         "prose": "Y",
         "jewish": "Y",
@@ -4144,7 +3838,6 @@ const data = [
     {
         "title": "This Is My America",
         "author": "Kim Johnson",
-        "imageDownloaded": "E",
         "fiction": "Y",
         "prose": "Y",
         "africanamericanOrBlack": "Y",
@@ -4156,7 +3849,6 @@ const data = [
     {
         "title": "Apple in the Middle",
         "author": "Dawn Quigley",
-        "imageDownloaded": "E",
         "fiction": "Y",
         "prose": "Y",
         "nativeamerican": "Y",
@@ -4168,7 +3860,6 @@ const data = [
     {
         "title": "House of Purple Cedar",
         "author": "Tim Tingle",
-        "imageDownloaded": "E",
         "historicalfiction": "Y",
         "prose": "Y",
         "nativeamerican": "Y",
@@ -4180,7 +3871,6 @@ const data = [
     {
         "title": "Rain Is Not My Indian Name",
         "author": "Cynthia Leitich Smith",
-        "imageDownloaded": "E",
         "fiction": "Y",
         "prose": "Y",
         "nativeamerican": "Y",
@@ -4193,7 +3883,6 @@ const data = [
     {
         "title": "Hearts Unbroken",
         "author": "Cynthia Leitich Smith",
-        "imageDownloaded": "E",
         "fiction": "Y",
         "prose": "Y",
         "nativeamerican": "Y",
@@ -4206,7 +3895,6 @@ const data = [
     {
         "title": "If I Ever Get Out of Here",
         "author": "Eric Gansworth",
-        "imageDownloaded": "E",
         "historicalfiction": "Y",
         "prose": "Y",
         "nativeamerican": "Y",
@@ -4218,7 +3906,6 @@ const data = [
     {
         "title": "Elatsoe ",
         "author": "Darcie Little Badger",
-        "imageDownloaded": "E",
         "fantasy": "Y",
         "mysteryHorror": "Y",
         "prose": "Y",
@@ -4231,7 +3918,6 @@ const data = [
     {
         "title": "Surviving the City",
         "author": "Tasha Spillet",
-        "imageDownloaded": "E",
         "fiction": "Y",
         "graphicnovel": "Y",
         "nativeamerican": "Y",
@@ -4243,7 +3929,6 @@ const data = [
     {
         "title": "A Girl Called Echo",
         "author": "Katherena Vermette ",
-        "imageDownloaded": "E",
         "urbanfantasy": "Y",
         "graphicnovel": "Y",
         "nativeamerican": "Y",
@@ -6801,7 +6486,6 @@ const data = [
     {
         "title": "Root",
         "author": "Aurelie Benattar",
-        "imageDownloaded": "E",
         "scifi": "Y",
         "prose": "Y",
         "africanamericanOrBlack": "Y",
@@ -6814,7 +6498,6 @@ const data = [
     {
         "title": "Going Dark",
         "author": "Melissa De La Cruz",
-        "imageDownloaded": "E",
         "fiction": "Y",
         "mysteryHorror": "Y",
         "prose": "Y",
@@ -6824,7 +6507,6 @@ const data = [
     {
         "title": "The Davenports",
         "author": "Krystal Marquis",
-        "imageDownloaded": "E",
         "romance": "Y",
         "historicalfiction": "Y",
         "prose": "Y",
@@ -6834,7 +6516,6 @@ const data = [
     {
         "title": "Thomas H. Begay and the Navajo Code Talkers",
         "author": "Alysa Landry",
-        "imageDownloaded": "E",
         "nonfiction": "Y",
         "prose": "Y",
         "nativeamerican": "Y"
@@ -6842,7 +6523,6 @@ const data = [
     {
         "title": "Promise Boys",
         "author": "Nick Brooks",
-        "imageDownloaded": "E",
         "fiction": "Y",
         "mysteryHorror": "Y",
         "prose": "Y",
@@ -6854,7 +6534,6 @@ const data = [
     {
         "title": "The Black Queen",
         "author": "Jumata Emil",
-        "imageDownloaded": "E",
         "fiction": "Y",
         "mysteryHorror": "Y",
         "prose": "Y",
@@ -6864,7 +6543,6 @@ const data = [
     {
         "title": "Reggie and Delilah's Year of Falling",
         "author": "Elise Bryant",
-        "imageDownloaded": "E",
         "fiction": "Y",
         "romance": "Y",
         "prose": "Y",
@@ -6874,7 +6552,6 @@ const data = [
     {
         "title": "The Cartographers",
         "author": "Amy Zhang",
-        "imageDownloaded": "E",
         "fiction": "Y",
         "prose": "Y",
         "asianamericanAndPacificIslander": "Y",
@@ -6885,7 +6562,6 @@ const data = [
     {
         "title": "Falling into Place",
         "author": "Amy Zhang",
-        "imageDownloaded": "E",
         "fiction": "Y",
         "prose": "Y",
         "mentalhealth": "Y",
@@ -6895,7 +6571,6 @@ const data = [
     {
         "title": "Retro",
         "author": "Sofia Lapuente, Jarrod Shusterman",
-        "imageDownloaded": "E",
         "fiction": "Y",
         "prose": "Y",
         "latinx": "Y",
@@ -6906,7 +6581,6 @@ const data = [
     {
         "title": "The Buried and the Bound",
         "author": "Rochelle Hassan",
-        "imageDownloaded": "E",
         "urbanfantasy": "Y",
         "prose": "Y",
         "asianamericanAndPacificIslander": "Y",
@@ -6916,7 +6590,6 @@ const data = [
     {
         "title": "The Minus-One Club",
         "author": "Kekla Magoon",
-        "imageDownloaded": "E",
         "fiction": "Y",
         "prose": "Y",
         "africanamericanOrBlack": "Y",
@@ -6929,7 +6602,6 @@ const data = [
     {
         "title": "Spice Road",
         "author": "Maiya Ibrahim",
-        "imageDownloaded": "E",
         "fantasy": "Y",
         "prose": "Y",
         "arabOrArabamerican": "Y",
@@ -6940,7 +6612,6 @@ const data = [
     {
         "title": "6 Times We Almost Kissed (and One Time We Did)",
         "author": "Tess Sharpe",
-        "imageDownloaded": "E",
         "fiction": "Y",
         "romance": "Y",
         "prose": "Y",
@@ -6951,7 +6622,6 @@ const data = [
     {
         "title": "Sun Keep Rising",
         "author": "Kristen R. Lee",
-        "imageDownloaded": "E",
         "fiction": "Y",
         "prose": "Y",
         "africanamericanOrBlack": "Y",
@@ -6960,7 +6630,6 @@ const data = [
     {
         "title": "As You Walk On By",
         "author": "Julian Winters",
-        "imageDownloaded": "E",
         "fiction": "Y",
         "prose": "Y",
         "africanamericanOrBlack": "Y",
@@ -6972,7 +6641,6 @@ const data = [
     {
         "title": "Another Dimension of Us",
         "author": "Mike Albo",
-        "imageDownloaded": "E",
         "scifi": "Y",
         "prose": "Y",
         "latinx": "Y",
@@ -6982,7 +6650,6 @@ const data = [
     {
         "title": "The Boy Who Followed His Father into Auchwitz",
         "author": "Jeremy Dronfield",
-        "imageDownloaded": "E",
         "nonfiction": "Y",
         "prose": "Y",
         "migrantstories": "Y",
@@ -6992,7 +6659,6 @@ const data = [
     {
         "title": "This Time It's Real",
         "author": "Ann Liang",
-        "imageDownloaded": "E",
         "fiction": "Y",
         "romance": "Y",
         "prose": "Y",
@@ -7003,7 +6669,6 @@ const data = [
     {
         "title": "Walls and Welcome Mats : Immigration and the American Dream",
         "author": "Lars Oritz",
-        "imageDownloaded": "E",
         "nonfiction": "Y",
         "prose": "Y",
         "africanamericanOrBlack": "Y",
@@ -7016,7 +6681,6 @@ const data = [
     {
         "title": "Out of Character",
         "author": "Jenna Miller",
-        "imageDownloaded": "E",
         "fiction": "Y",
         "prose": "Y",
         "lgbtqia": "Y",
@@ -7026,7 +6690,6 @@ const data = [
     {
         "title": "Who Owns the Clouds?",
         "author": "Mario Brassard, Gerard Dubois",
-        "imageDownloaded": "E",
         "fiction": "Y",
         "prose": "Y",
         "asianamericanAndPacificIslander": "Y",
@@ -7035,7 +6698,6 @@ const data = [
     {
         "title": "A Tale of Two Princes",
         "author": "Eric Geron",
-        "imageDownloaded": "E",
         "fiction": "Y",
         "prose": "Y",
         "africanamericanOrBlack": "Y",
@@ -7045,7 +6707,6 @@ const data = [
     {
         "title": "The Music of What Happens",
         "author": "Bill Konigsberg",
-        "imageDownloaded": "R",
         "fiction": "Y",
         "romance": "Y",
         "prose": "Y",
@@ -7057,7 +6718,6 @@ const data = [
     {
         "title": "The Greatest Thing",
         "author": "Sarah Winifred Searle",
-        "imageDownloaded": "R",
         "fiction": "Y",
         "romance": "Y",
         "graphicnovel": "Y",
@@ -7070,7 +6730,6 @@ const data = [
     {
         "title": "Bloom",
         "author": "Kevin Panetta, Savanna Ganucheau",
-        "imageDownloaded": "R",
         "fiction": "Y",
         "romance": "Y",
         "graphicnovel": "Y",
@@ -7081,7 +6740,6 @@ const data = [
     {
         "title": "Anger is a Gift",
         "author": "Mark Oshiro",
-        "imageDownloaded": "R",
         "fiction": "Y",
         "romance": "Y",
         "prose": "Y",
@@ -7095,7 +6753,6 @@ const data = [
     {
         "title": "The Extraordinaries",
         "author": "TJ Klune",
-        "imageDownloaded": "R",
         "urbanfantasy": "Y",
         "prose": "Y",
         "africanamericanOrBlack": "Y",
@@ -7107,7 +6764,6 @@ const data = [
     {
         "title": "The Heart Break Bakery",
         "author": "A.R. Capetta",
-        "imageDownloaded": "R",
         "fiction": "Y",
         "prose": "Y",
         "lgbtqia": "Y",
@@ -7117,13 +6773,11 @@ const data = [
     {
         "title": "It Doesn't Have to be Awkward",
         "author": "Dr. Drew, Paulina Pinsky",
-        "imageDownloaded": "R",
         "prose": "Y"
     },
     {
         "title": "Obie is Man Enough",
         "author": "Schuyler Bailar",
-        "imageDownloaded": "E",
         "fiction": "Y",
         "prose": "Y",
         "asianamericanAndPacificIslander": "Y",
@@ -7136,7 +6790,6 @@ const data = [
     {
         "title": "She's Too Pretty to Burn",
         "author": "Wendy Heard",
-        "imageDownloaded": "E",
         "fiction": "Y",
         "mysteryHorror": "Y",
         "prose": "Y",
@@ -7148,7 +6801,6 @@ const data = [
     {
         "title": "Be Dazzled",
         "author": "Ryan La Sala",
-        "imageDownloaded": "E",
         "fiction": "Y",
         "romance": "Y",
         "prose": "Y",
@@ -7158,7 +6810,6 @@ const data = [
     {
         "title": "The New Queer Conscience",
         "author": "Adam Eli",
-        "imageDownloaded": "E",
         "memoirautobiograohy": "Y",
         "nonfiction": "Y",
         "prose": "Y",
@@ -7171,7 +6822,6 @@ const data = [
     {
         "title": "The Girls Are Never Gone",
         "author": "Sarah Glenn Marsh",
-        "imageDownloaded": "E",
         "fiction": "Y",
         "mysteryHorror": "Y",
         "prose": "Y",
@@ -7181,7 +6831,6 @@ const data = [
     {
         "title": "Between Perfect & Real",
         "author": "Ray Stoeve",
-        "imageDownloaded": "E",
         "fiction": "Y",
         "prose": "Y",
         "lgbtqia": "Y",
@@ -7190,7 +6839,6 @@ const data = [
     {
         "title": "Almost Flying",
         "author": "Jake Maia Arlow",
-        "imageDownloaded": "E",
         "fiction": "Y",
         "prose": "Y",
         "africanamericanOrBlack": "Y",
@@ -7206,7 +6854,6 @@ const data = [
     {
         "title": "Queer as a Five-Dollar Bill",
         "author": "Lee Wind",
-        "imageDownloaded": "E",
         "fiction": "Y",
         "prose": "Y",
         "lgbtqia": "Y",
@@ -7215,7 +6862,6 @@ const data = [
     {
         "title": "Dark and Deepest Red",
         "author": "Anna-Marie McLenore",
-        "imageDownloaded": "E",
         "urbanfantasy": "Y",
         "prose": "Y",
         "latinx": "Y",
@@ -7226,7 +6872,6 @@ const data = [
     {
         "title": "Red Hood",
         "author": "Elana K. Arnold",
-        "imageDownloaded": "E",
         "urbanfantasy": "Y",
         "prose": "Y",
         "africanamericanOrBlack": "Y"
@@ -7234,7 +6879,6 @@ const data = [
     {
         "title": "A Blade So Black",
         "author": "L.L. McKinney",
-        "imageDownloaded": "E",
         "urbanfantasy": "Y",
         "prose": "Y",
         "africanamericanOrBlack": "Y",
@@ -7246,7 +6890,6 @@ const data = [
     {
         "title": "Two Boys Kissing",
         "author": "David Levithan",
-        "imageDownloaded": "E",
         "fiction": "Y",
         "romance": "Y",
         "prose": "Y",
@@ -7257,7 +6900,6 @@ const data = [
     {
         "title": "The Sky Blues",
         "author": "Robbie Couch",
-        "imageDownloaded": "E",
         "fiction": "Y",
         "prose": "Y",
         "africanamericanOrBlack": "Y",
@@ -7269,7 +6911,6 @@ const data = [
     {
         "title": "Autoboyography",
         "author": "Christina Lauren",
-        "imageDownloaded": "E",
         "fiction": "Y",
         "romance": "Y",
         "prose": "Y",
@@ -7280,7 +6921,6 @@ const data = [
     {
         "title": "To Break a Covenant",
         "author": "Alison Ames",
-        "imageDownloaded": "E",
         "fiction": "Y",
         "mysteryHorror": "Y",
         "prose": "Y",
@@ -7289,7 +6929,6 @@ const data = [
     {
         "title": "The Dead and the Dark",
         "author": "Courtney Gould",
-        "imageDownloaded": "E",
         "fiction": "Y",
         "mysteryHorror": "Y",
         "prose": "Y",
@@ -7302,7 +6941,6 @@ const data = [
     {
         "title": "Love & Other Natural Disasters",
         "author": "Misa Sugiuara",
-        "imageDownloaded": "E",
         "fiction": "Y",
         "romance": "Y",
         "prose": "Y",
@@ -7316,7 +6954,6 @@ const data = [
     {
         "title": "Somebody That I Used to Know",
         "author": "Dana L. Davis",
-        "imageDownloaded": "E",
         "fiction": "Y",
         "prose": "Y",
         "africanamericanOrBlack": "Y",
@@ -7326,7 +6963,6 @@ const data = [
     {
         "title": "Cool for the Summer",
         "author": "Dahlia Adler",
-        "imageDownloaded": "E",
         "fiction": "Y",
         "romance": "Y",
         "prose": "Y",
@@ -7340,7 +6976,6 @@ const data = [
     {
         "title": "Love, Decoded",
         "author": "Jennifer Yen",
-        "imageDownloaded": "E",
         "fiction": "Y",
         "prose": "Y",
         "asianamericanAndPacificIslander": "Y",
@@ -7349,7 +6984,6 @@ const data = [
     {
         "title": "Primal Animals",
         "author": "Julia Lynn Rubin",
-        "imageDownloaded": "E",
         "fiction": "Y",
         "prose": "Y",
         "lgbtqia": "Y"
@@ -7357,7 +6991,6 @@ const data = [
     {
         "title": "Anything But Fine",
         "author": "Tobias Madden",
-        "imageDownloaded": "E",
         "fiction": "Y",
         "prose": "Y",
         "asianamericanAndPacificIslander": "Y",
@@ -7370,7 +7003,6 @@ const data = [
     {
         "title": "Rima's Rebellion",
         "author": "Margarita Engle",
-        "imageDownloaded": "E",
         "historicalfiction": "Y",
         "verse": "Y",
         "latinx": "Y",
@@ -7380,7 +7012,6 @@ const data = [
     {
         "title": "96 Words For Love",
         "author": "Ava Dash, Rachel Roy",
-        "imageDownloaded": "E",
         "fiction": "Y",
         "romance": "Y",
         "prose": "Y",
@@ -7391,7 +7022,6 @@ const data = [
     {
         "title": "The Best Lies",
         "author": "Sarah Lyu",
-        "imageDownloaded": "E",
         "fiction": "Y",
         "mysteryHorror": "Y",
         "prose": "Y",
@@ -7402,7 +7032,6 @@ const data = [
     {
         "title": "!Ay Mija!",
         "author": "Christine Suggs",
-        "imageDownloaded": "E",
         "fiction": "Y",
         "graphicnovel": "Y",
         "latinx": "Y",
@@ -7411,7 +7040,6 @@ const data = [
     {
         "title": "Belle of the Ball",
         "author": "Mari Costa",
-        "imageDownloaded": "E",
         "fiction": "Y",
         "romance": "Y",
         "graphicnovel": "Y",
@@ -7424,7 +7052,6 @@ const data = [
     {
         "title": "A Condition Called Love",
         "author": "Megumi Morino",
-        "imageDownloaded": "E",
         "fiction": "Y",
         "romance": "Y",
         "manga": "Y",
@@ -7434,7 +7061,6 @@ const data = [
     {
         "title": "The Gay Who Turned Kaiju",
         "author": "Kazuki Minamoto",
-        "imageDownloaded": "E",
         "urbanfantasy": "Y",
         "manga": "Y",
         "asianamericanAndPacificIslander": "Y",
@@ -7444,7 +7070,6 @@ const data = [
     {
         "title": "In Limbo",
         "author": "Deb JJ Lee",
-        "imageDownloaded": "E",
         "memoirautobiograohy": "Y",
         "graphicnovel": "Y",
         "asianamericanAndPacificIslander": "Y",
@@ -7454,7 +7079,6 @@ const data = [
     {
         "title": "Forest Hills Bootleg Society",
         "author": "Dave Baker, Nicole Goux",
-        "imageDownloaded": "E",
         "fiction": "Y",
         "graphicnovel": "Y",
         "africanamericanOrBlack": "Y",
@@ -7463,7 +7087,6 @@ const data = [
     {
         "title": "Run on Your New Legs",
         "author": "Wataru Midori",
-        "imageDownloaded": "E",
         "fiction": "Y",
         "manga": "Y",
         "asianamericanAndPacificIslander": "Y",
@@ -7473,7 +7096,6 @@ const data = [
     {
         "title": "Shonen Note",
         "author": "Yuhki Kamatani",
-        "imageDownloaded": "E",
         "fiction": "Y",
         "manga": "Y",
         "asianamericanAndPacificIslander": "Y",
@@ -7482,7 +7104,6 @@ const data = [
     {
         "title": "Thieves",
         "author": "Lucie Bryon",
-        "imageDownloaded": "E",
         "fiction": "Y",
         "romance": "Y",
         "graphicnovel": "Y",
@@ -7494,7 +7115,6 @@ const data = [
     {
         "title": "The Well",
         "author": "Jake Wyatt, Choo",
-        "imageDownloaded": "E",
         "fantasy": "Y",
         "graphicnovel": "Y",
         "asianamericanAndPacificIslander": "Y",
@@ -7505,7 +7125,6 @@ const data = [
     {
         "title": "In the Clear Moonlit Dusk",
         "author": "Mika Yamamori",
-        "imageDownloaded": "E",
         "fiction": "Y",
         "romance": "Y",
         "manga": "Y",
@@ -7515,7 +7134,6 @@ const data = [
     {
         "title": "Mermaid Scales and the Town of Sand",
         "author": "Yoko Komori",
-        "imageDownloaded": "E",
         "urbanfantasy": "Y",
         "manga": "Y",
         "asianamericanAndPacificIslander": "Y",
@@ -7525,7 +7143,6 @@ const data = [
     {
         "title": "Marry Me a Little",
         "author": "Rob Kirby",
-        "imageDownloaded": "E",
         "memoirautobiograohy": "Y",
         "graphicnovel": "Y",
         "lgbtqia": "Y",
@@ -7536,7 +7153,6 @@ const data = [
     {
         "title": "Djeliya",
         "author": "Juni Ba",
-        "imageDownloaded": "E",
         "mythology": "Y",
         "graphicnovel": "Y",
         "africanamericanOrBlack": "Y",
@@ -7545,7 +7161,6 @@ const data = [
     {
         "title": "The Girl That Can't Get a Girlfriend",
         "author": "Mieri Hiranishi",
-        "imageDownloaded": "E",
         "memoirautobiograohy": "Y",
         "manga": "Y",
         "asianamericanAndPacificIslander": "Y",
@@ -7556,7 +7171,6 @@ const data = [
     {
         "title": "The Magic Fish",
         "author": "Trung Le Nguyen",
-        "imageDownloaded": "E",
         "urbanfantasy": "Y",
         "graphicnovel": "Y",
         "asianamericanAndPacificIslander": "Y",
@@ -7565,7 +7179,6 @@ const data = [
     {
         "title": "Never Open It",
         "author": "Ken Niimura",
-        "imageDownloaded": "E",
         "mythology": "Y",
         "graphicnovel": "Y",
         "asianamericanAndPacificIslander": "Y",
@@ -7574,7 +7187,6 @@ const data = [
     {
         "title": "Pardalita",
         "author": "Joana Esrela",
-        "imageDownloaded": "E",
         "fiction": "Y",
         "romance": "Y",
         "verse": "Y",
@@ -7587,7 +7199,6 @@ const data = [
     {
         "title": "My Special One",
         "author": "Momoka Koda",
-        "imageDownloaded": "E",
         "fiction": "Y",
         "romance": "Y",
         "manga": "Y",
@@ -7597,7 +7208,6 @@ const data = [
     {
         "title": "Though I Am an Inept Villainess",
         "author": "Satsuki Nakamura",
-        "imageDownloaded": "E",
         "fantasy": "Y",
         "manga": "Y",
         "asianamericanAndPacificIslander": "Y",
@@ -7606,7 +7216,6 @@ const data = [
     {
         "title": "Touring After the Apocalypse",
         "author": "Sakae Sito",
-        "imageDownloaded": "E",
         "dystopian": "Y",
         "manga": "Y",
         "asianamericanAndPacificIslander": "Y",
@@ -7615,7 +7224,6 @@ const data = [
     {
         "title": "Nearer My Freedom",
         "author": "Monica Edinger, Leslie Younge",
-        "imageDownloaded": "E",
         "nonfiction": "Y",
         "verse": "Y",
         "africanamericanOrBlack": "Y"
@@ -7623,7 +7231,6 @@ const data = [
     {
         "title": "Black Birds in the Sky",
         "author": "Brandy Colbert",
-        "imageDownloaded": "E",
         "nonfiction": "Y",
         "prose": "Y",
         "africanamericanOrBlack": "Y",
@@ -7632,7 +7239,6 @@ const data = [
     {
         "title": "Picking Up the Pieces",
         "author": "Carey Newman",
-        "imageDownloaded": "E",
         "nonfiction": "Y",
         "prose": "Y",
         "nativeamerican": "Y",
@@ -7641,7 +7247,6 @@ const data = [
     {
         "title": "Seen and Unseen",
         "author": "Elizabeth Partridge, Lauren Tamaki",
-        "imageDownloaded": "E",
         "nonfiction": "Y",
         "prose": "Y",
         "asianamericanAndPacificIslander": "Y",
@@ -7650,7 +7255,6 @@ const data = [
     {
         "title": "Unspeakable",
         "author": "Carole Boston Weatherford, Floyd Cooper",
-        "imageDownloaded": "E",
         "nonfiction": "Y",
         "prose": "Y",
         "africanamericanOrBlack": "Y",
@@ -7659,7 +7263,6 @@ const data = [
     {
         "title": "Afterglow",
         "author": "Phil Stamper, May van Millingen",
-        "imageDownloaded": "E",
         "fiction": "Y",
         "prose": "Y",
         "lgbtqia": "Y",
@@ -7669,7 +7272,6 @@ const data = [
     {
         "title": "Always the Almost",
         "author": "Edward Underhill",
-        "imageDownloaded": "E",
         "fiction": "Y",
         "romance": "Y",
         "prose": "Y",
@@ -7678,11 +7280,11 @@ const data = [
         "mlmOrNblm": "Y",
         "trans": "Y"
     }
-  ];
+];
 
 
 const all_tags = ["fantasy", "fiction", "scifi", "romance", "urbanfantasy", "historicalfiction", "memoirautobiograohy", "nonfiction",
-"mythology", "dystopian", "mysteryHorror", "verse", "prose", "graphicnovel", "manga", "africanamericanOrBlack", "aapi", "latinx", "arabOrArabamerican", "nativeamerican", "lgbtqia", "wlwOrNblw", "mlmOrNblm", "trans", "nonbinary", "aroace", "closetsafe", "migrantstories", "ownvoices", "jewish", "muslim","invisibledisability", "mentalhealth", "characterwithdisability", "neurodiverdent", "depression", "mutedeafblind", "middleGrade", "newAdultAdultBookWithTeenInterest"]
+"mythology", "dystopian", "mysteryHorror", "verse", "prose", "graphicnovel", "manga", "africanamericanOrBlack", "asianamericanAndPacificIslander", "latinx", "arabOrArabamerican", "nativeamerican", "lgbtqia", "wlwOrNblw", "mlmOrNblm", "trans", "nonbinary", "aroace", "closetsafe", "migrantstories", "ownvoices", "jewish", "muslim","invisibledisability", "mentalhealth", "characterwithdisability", "neurodiverdent", "depression", "mutedeafblind", "middleGrade", "newAdultAdultBookWithTeenInterest"]
 
 const tag_display_list = ["Fantasy", "Fiction", "Sci-Fi", "Romance",	"Urban Fantasy",	"Historical Fiction",	"Memoir or Autobiography",	"Non-Fiction",
                   "Mythology",	"Dystopian", "Mystery or Horror",	"Verse", "Prose",	"Graphic Novel",	"Manga", "African American or Black",	"AAPI",
