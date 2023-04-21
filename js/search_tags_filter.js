@@ -10,7 +10,9 @@ var book_blocks = [];
 var books_html = "";
 var books_html_list = [];
 var url = window.location.href;
-var books_per_page = 24;
+var books_per_page = 48;
+var libraryBibnumbers = [];
+var pageNumber = parseInt(from_url("page"));
 
 if (from_url('search') != 'undefined'){
   document.getElementById("input").value = decodeURIComponent(from_url('search')); //input value set to url search param value
@@ -31,6 +33,16 @@ document.getElementById("search_list").innerHTML = search_data;
 search_func();
 
 correct_url();
+
+linkToSLCPL();
+
+function linkToSLCPL(){
+  for(let i=0; i<document.getElementsByClassName("linkToSLCPL").length/3; i++){
+    document.getElementsByClassName("linkToSLCPL")[3*i].href = "https://catalog.slcpl.org/search/title.aspx?ctx=1.1033.0.0.7&pos=2&cn=" + libraryBibnumbers[pageNumber*books_per_page+i][0]
+    document.getElementsByClassName("linkToSLCPL")[3*i+1].href = "https://catalog.slcpl.org/search/title.aspx?ctx=1.1033.0.0.7&pos=2&cn=" + libraryBibnumbers[pageNumber*books_per_page+i][1]
+    document.getElementsByClassName("linkToSLCPL")[3*i+2].href = "https://catalog.slcpl.org/search/title.aspx?ctx=1.1033.0.0.7&pos=2&cn=" + libraryBibnumbers[pageNumber*books_per_page+i][2]
+  }
+}
 
 function nextPage(){
   window.location.href = window.location.href.split("page=")[0] + "page=" + (parseInt(from_url("page")) + parseInt(1));
@@ -215,7 +227,23 @@ function add_formated_to_filtered_data_list(value, book_tags_string){
     image_path = image_path.replace(/\s/g, '');
     image_path = image_path.replace(':', '-');
 
-    books_html_list.push('<div class="book_format"> <img src="./images/covers/' + image_path + '" class="book_img" id="test">' +  '<div class="book_text"> <p style="display: block; font-size: 200%; font-weight: bold; margin-block-start: 0em; margin-block-end: 0em;">' + value.title + "</p>" + '<p style="display: block; font-size: 150%; font-weight: bold; margin-block-start: 0em; margin-block-end: 0em;">' + value.author + "</p>" + '<p>' + publishersSummary + '</p>' + "</div> <div style='margin:1%; padding-top:65%'> <h3>" + book_tags_string + "</h3> </div></div>");
+    if(window.innerWidth <= 940){
+      book_width_minimum = 350;
+    }
+    else{
+      book_width_minimum = 400;
+    }
+    let book_padding = book_width_minimum - borderWidth*2 - marginWidth*2 - 1 + fit_window();
+
+    books_html_list.push('<div class="book_format"> <img src="./images/covers/' + image_path + '" class="book_img">' + "<a class='linkToSLCPL' target='_blank'><img class='bookLink' src='./images/book_icon.jpeg' + style=top:" + String(book_padding*book_height_ratio*0.65) + "px;left:" + String(book_padding*0.37) +'px;></a>' + "<a class='linkToSLCPL' target:'_blank'> <img class='ebookLink' src='./images/ebook_icon.jpeg' + style=top:" + String(book_padding*book_height_ratio*0.65) + "px;left:" + String(book_padding*0.37) +'px;></a>' + "<a class='linkToSLCPL' target:'_blank'> <img class='audiobookLink' src='./images/audiobook_icon.jpeg' + style=top:" + String(book_padding*book_height_ratio*0.65) + "px;left:" + String(book_padding*0.37) +'px;></a>'+ '<div class="book_text"> <p style="display: block; font-size: 200%; font-weight: bold; margin-block-start: 0em; margin-block-end: 0em;">' + value.title + "</p>" + '<p style="display: block; font-size: 150%; font-weight: bold; margin-block-start: 0em; margin-block-end: 0em;">' + value.author + "</p>" + '<p>' + publishersSummary + '</p>' + "</div> <div style='margin:1%; padding-top:65%'> <h3>" + book_tags_string + "</h3> </div></div>");
+
+    bibnumbers = [];
+
+    bibnumbers.push(value.bookBibnumber);
+    bibnumbers.push(value.ebookBibnumber);
+    bibnumbers.push(value.audioBibnumber);
+
+    libraryBibnumbers.push(bibnumbers)
 }
 
 function search_func(){
