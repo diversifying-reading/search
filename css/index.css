@@ -321,10 +321,28 @@ body {
   color: #033616
 }
 
-.libraryLinks{
+.bookLink{
   position: relative;
-  width: 8%;
-  background-color:red;
+  border:1px solid black;
+  background-color: black;
+}
+
+.ebookLink{
+  position: relative;
+  border: 1px solid black;
+  background-color: black;
+}
+
+.audiobookLink{
+  position: relative;
+  border: 1px solid black;
+  background-color: black;
+}
+
+.linkToSLCPL{
+  display:block;
+  height:0px;
+  width:0px;
 }
 
 .tagDictionary{
