@@ -1,4 +1,4 @@
-var sidenav_scrollOnLoad; 
+var sidenav_scrollOnLoad;
 
 setTimeout(function(){ // "no" delay to allow website to load (it works?)
   sidenav_scrollOnLoad = document.documentElement.scrollTop
