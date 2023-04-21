@@ -128,12 +128,12 @@ function resize_sidenav(){
 	}
 
   // set sidenav text height
-  document.getElementsByClassName("sidenav-text")[0].style.height = document.getElementById("buttons").offsetHeight + 150 + "px";
+  document.getElementsByClassName("sidenav-text")[0].style.height = document.getElementById("buttons").offsetHeight + document.getElementById("tag_dictionary_button").offsetHeight + 150 + "px";
 
-//   document.getElementsByClassName("tagDictionary")[0].style.width = 0.9*window.innerWidth-(document.getElementById("sidenav").offsetWidth) + "px"
-//   document.getElementsByClassName("tagDictionary")[0].style.left = 0.05*window.innerWidth+(document.getElementById("sidenav").offsetWidth) + "px"
-//   document.getElementsByClassName("tagDictionary")[0].style.top = 0.05*window.innerWidth+(document.getElementById("topnav").offsetHeight) + "px"
-//   document.getElementsByClassName("tagDictionary")[0].style.height = window.innerHeight-(document.getElementById("topnav").offsetHeight) - 0.1*window.innerWidth+ "px"
+  document.getElementsByClassName("tagDictionary")[0].style.width = 0.9*window.innerWidth-(document.getElementById("sidenav").offsetWidth) + "px"
+  document.getElementsByClassName("tagDictionary")[0].style.left = 0.05*window.innerWidth+(document.getElementById("sidenav").offsetWidth) + "px"
+  document.getElementsByClassName("tagDictionary")[0].style.top = 0.05*window.innerWidth+(document.getElementById("topnav").offsetHeight) + "px"
+  document.getElementsByClassName("tagDictionary")[0].style.height = window.innerHeight-(document.getElementById("topnav").offsetHeight) - 0.1*window.innerWidth+ "px"
 }
 
 function resize_books(){
@@ -152,9 +152,49 @@ function resize_books(){
 	document.getElementById("book_div_position").style.paddingTop = parseInt(topnav_padding) + "px";
 
 	for(let i=0; i<document.getElementsByClassName("book_format").length; i++){
+
+    let ebookTop = book_padding*0.072 + 6;
+    let audiobookTop = book_padding*0.144 + 6;
+
+    // resize links based on avaliablility
+    if(libraryBibnumbers[pageNumber*books_per_page+i][0] == undefined || libraryBibnumbers[pageNumber*books_per_page+i][0] == 0){ // book is gone, move up ebook and audiobook
+      document.getElementsByClassName("bookLink")[i].style.display = "none";
+      ebookTop -= book_padding*0.072;
+      audiobookTop -= book_padding*0.072;
+    }
+    if(libraryBibnumbers[pageNumber*books_per_page+i][1] == undefined || libraryBibnumbers[pageNumber*books_per_page+i][1] == 0){ // ebook is gone, move up audiobook
+      document.getElementsByClassName("ebookLink")[i].style.display = "none";
+      audiobookTop -= book_padding*0.072;
+    }
+    if(libraryBibnumbers[pageNumber*books_per_page+i][2] == undefined || libraryBibnumbers[pageNumber*books_per_page+i][2] == 0){ // audiobook is gone
+      document.getElementsByClassName("audiobookLink")[i].style.display = "none";
+    }
+
 		document.getElementsByClassName("book_format")[i].style.width = book_padding + "px";
 		document.getElementsByClassName("book_format")[i].style.height = book_padding*book_height_ratio + "px";
+
+    if(document.getElementsByClassName("bookLink")[i] != undefined && document.getElementsByClassName("bookLink")[i].style.display != "none"){
+      document.getElementsByClassName("bookLink")[i].style.width = book_padding*0.07 + "px";
+      document.getElementsByClassName("bookLink")[i].style.height = book_padding*0.07 + "px";
+      document.getElementsByClassName("bookLink")[i].style.left = (document.getElementsByClassName("book_img")[0].style.width - book_padding*0.071 - 7)+ "px";
+      document.getElementsByClassName("bookLink")[i].style.top = "6px";
+    }
+
+    if(document.getElementsByClassName("ebookLink")[i] != undefined && document.getElementsByClassName("ebookLink")[i].style.display != "none"){
+      document.getElementsByClassName("ebookLink")[i].style.width = book_padding*0.07 + "px";
+      document.getElementsByClassName("ebookLink")[i].style.height = book_padding*0.07 + "px";
+      document.getElementsByClassName("ebookLink")[i].style.left = (document.getElementsByClassName("book_img")[0].style.width - book_padding*0.071 - 7)+ "px";
+      document.getElementsByClassName("ebookLink")[i].style.top = ebookTop + "px";
+    }
+
+    if(document.getElementsByClassName("audiobookLink")[i] != undefined && document.getElementsByClassName("audiobookLink")[i].style.display != "none"){
+      document.getElementsByClassName("audiobookLink")[i].style.width = book_padding*0.07 + "px";
+      document.getElementsByClassName("audiobookLink")[i].style.height = book_padding*0.07 + "px";
+      document.getElementsByClassName("audiobookLink")[i].style.left = (document.getElementsByClassName("book_img")[0].style.width - book_padding*0.071 - 7)+ "px";
+      document.getElementsByClassName("audiobookLink")[i].style.top = audiobookTop + "px";
+    }
 	}
+
 }
 
 function fit_window(){
