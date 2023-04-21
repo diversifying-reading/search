@@ -8,7 +8,7 @@ const data = [
         "lgbtqia": "Y",
         "bookBibnumber": 833301,
         "ebookBibnumber": 834599,
-        "audioBibnumber": 834599,
+        "audioBibnumber": 841247,
         "publishersSummary": "Nirrim endures a grim and punishing life as a Half Caste until she encounters Sid, a rakish traveler from far away who whispers rumors that the High Caste possess magic and tempts Nirrim to seek that magic for herself."
     },
     {
@@ -281,7 +281,7 @@ const data = [
         "invisibledisability": "Y",
         "mentalhealth": "Y",
         "depression": "Y",
-        "bookBibnumber": 827052,
+        "bookBibnumber": 793812,
         "ebookBibnumber": 827052,
         "audioBibnumber": 0,
         "publishersSummary": "Sixteen-year-old Biz sees her father every day, though he died when she was seven, but when Biz's almost-normal life turns upside-down and her father disappears again, she tumbles into a disaster-land of grief and depression from which she must find her way back"
@@ -336,7 +336,7 @@ const data = [
         "prose": "Y",
         "lgbtqia": "Y",
         "mlmOrNblm": "Y",
-        "bookBibnumber": 814986,
+        "bookBibnumber": 793167,
         "ebookBibnumber": 814986,
         "audioBibnumber": 0,
         "publishersSummary": "As penpals for a high school English assignment, poetry-loving sophomore Jonathan and popular-athlete senior Adam explore their growing relationship through a series of letters."
@@ -2157,7 +2157,7 @@ const data = [
         "lgbtqia": "Y",
         "mlmOrNblm": "Y",
         "bookBibnumber": 766736,
-        "ebookBibnumber": 766736,
+        "ebookBibnumber": 756294,
         "audioBibnumber": 0,
         "publishersSummary": "Budding screenwriter Nate, sixteen, finds his conviction that happy endings do not happen in real life sorely tested when his childhood best friend and crush, Oliver James Hernandez, moves back to town."
     },
@@ -2308,7 +2308,6 @@ const data = [
         "fiction": "Y",
         "romance": "Y",
         "africanamericanOrBlack": "Y",
-        "newAdultAdultBookWithTeenInterest": "Y",
         "bookBibnumber": 847678,
         "ebookBibnumber": 0,
         "audioBibnumber": 848192,
@@ -2772,7 +2771,7 @@ const data = [
         "lgbtqia": "Y",
         "mlmOrNblm": "Y",
         "bookBibnumber": 929789,
-        "ebookBibnumber": 929789,
+        "ebookBibnumber": 970355,
         "audioBibnumber": 0,
         "publishersSummary": "\"Sixteen-year-old dock boy Will is on the run, pursued by the men who killed his mother. Then an old servant tells him of his destiny to fight beside the Stewards, who have sworn to protect humanity if the Dark King ever returns. Will is thrust into a world of magic, where he starts training for a vital role in the oncoming battle against the Dark\""
     },
@@ -4022,7 +4021,7 @@ const data = [
         "publishersSummary": "Seventeen-year-old Pakistani immigrant Zara Hossain has been leading a fairly typical life in Corpus Christi, Texas, since her family moved there for her father to work as a pediatrician. While dealing with the Islamophobia that she faces at school, Zara has to lay low, trying not to stir up any trouble and jeopardize their family's dependent visa status while they await their green card approval, which has been in process for almost nine years. But one day her tormentor, star football player Tyler Benson, takes things too far--[defacing her locker with a racist message]--and gets suspended\""
     },
     {
-        "title": "The Marvelous Mizra Girls",
+        "title": "The Marvelous Mirza Girls",
         "author": "Sheba Karim ",
         "fiction": "Y",
         "prose": "Y",
@@ -4066,7 +4065,7 @@ const data = [
         "publishersSummary": "In Amsterdam, the Netherlands, in 2034, a comet is due to hit the Earth within the hour. Denise, who's sixteen years old and autistic, must try to find her missing sister and also help her neglectful, undependable mother safely aboard a spaceship"
     },
     {
-        "title": "The Thing the Eye Can't See",
+        "title": "Things the Eye Can't See",
         "author": "Penny Joelson",
         "fiction": "Y",
         "prose": "Y",
@@ -4151,7 +4150,7 @@ const data = [
     },
     {
         "title": "Survive the Dome",
-        "author": "Kosovo Jackson",
+        "author": "Kosoko Jackson",
         "scifi": "Y",
         "prose": "Y",
         "africanamericanOrBlack": "Y",
@@ -4206,7 +4205,7 @@ const data = [
     },
     {
         "title": "Crown of Feathers",
-        "author": "Nicki Pau-Preto",
+        "author": "Nicki Pau Preto",
         "fantasy": "Y",
         "prose": "Y",
         "asianamericanAndPacificIslander": "Y",
@@ -4813,7 +4812,7 @@ const data = [
         "migrantstories": "Y",
         "ownvoices": "Y",
         "bookBibnumber": 840996,
-        "ebookBibnumber": 840996,
+        "ebookBibnumber": 882874,
         "audioBibnumber": 0,
         "publishersSummary": "A wealthy Chinese teen is sent to America on her own to attend private school. Claire is a rich 11th grader in Shanghai; Dani is a scholarship student at a private school in Southern California who helps her mother clean houses. When Claire is parachuted into America to finish high school and Dani's mother needs the income from a boarder, they become unlikely housemates."
     },
@@ -5781,7 +5780,7 @@ const data = [
         "graphicnovel": "Y",
         "lgbtqia": "Y",
         "mlmOrNblm": "Y",
-        "publishersSummary": "Nimona is an impulsive \nyoung shapeshifter with \na knack for villainy. Lord Ballister Blackheart is a villain with a vendetta. As sidekick and supervillain, Nimona and Lord Blackheart are about to wreak some serious havoc. Their mission: prove to the kingdom that Sir Ambrosius Goldenloin and his buddies at the Institution of Law Enforcement and Heroics aren't the heroes everyone thinks they are. But as small acts of mischief escalate into a vicious battle, Lord Blackheart realizes that Nimona's powers are as murky and mysterious as her past. And her unpredictable wild side might be more dangerous than he is willing to admit"
+        "publishersSummary": "Nimona is an impulsive young shapeshifter with a knack for villainy. Lord Ballister Blackheart is a villain with a vendetta. As sidekick and supervillain, Nimona and Lord Blackheart are about to wreak some serious havoc. Their mission: prove to the kingdom that Sir Ambrosius Goldenloin and his buddies at the Institution of Law Enforcement and Heroics aren't the heroes everyone thinks they are. But as small acts of mischief escalate into a vicious battle, Lord Blackheart realizes that Nimona's powers are as murky and mysterious as her past. And her unpredictable wild side might be more dangerous than he is willing to admit"
     },
     {
         "title": "Gracefully Grayson",
@@ -5887,7 +5886,7 @@ const data = [
         "urbanfantasy": "Y",
         "prose": "Y",
         "nativeamerican": "Y",
-        "publishersSummary": "\"Ghosts aren't meant to stick around forever . . . Ghosts are everywhere in Shelly's life. Recently passed people, pets, and a boy who lives in the local graveyard and lends her Smiths tapes are all part of spirit world she and her grandmother are privy to. In the tradition of their Cree ancestors, Shelly and her grandmother help these lost souls transition to the next world by catching them in their hair. But when Shelly's mom dies, her relationship to ghosts--and death--changes. Instead of helping spirits move on, she starts bringing them home and hiding them in her room. But no matter how many ghosts she collects, Shelly can't ignore the one that's missing. Why hasn't her mom's ghost come home yet? Rooted in a Cree worldview and inspired by the author's great-grandmother's stories, The Ghost Collector delves into questions of grief, loss, and the many ways people can linger after death.\"-- Provided by publisher."
+        "publishersSummary": "\"Ghosts aren't meant to stick around forever . . . Ghosts are everywhere in Shelly's life. Shelly and her grandmother help these lost souls transition to the next world by catching them in their hair. But when Shelly's mom dies, her relationship to ghosts--and death--changes. Instead of helping spirits move on, she starts bringing them home and hiding them in her room. But no matter how many ghosts she collects, Shelly can't ignore the one that's missing. Why hasn't her mom's ghost come home yet? "
     },
     {
         "title": "Four Faces of the Moon",
@@ -7280,7 +7279,7 @@ const data = [
         "mlmOrNblm": "Y",
         "trans": "Y"
     }
-];
+]
 
 
 const all_tags = ["fantasy", "fiction", "scifi", "romance", "urbanfantasy", "historicalfiction", "memoirautobiograohy", "nonfiction",
