@@ -7261,7 +7261,7 @@ const data = [
     },
     {
         "title": "Afterglow",
-        "author": "Phil Stamper",
+        "author": "Phil Stamper, May van Millingen",
         "fiction": "Y",
         "prose": "Y",
         "lgbtqia": "Y",
@@ -7282,11 +7282,11 @@ const data = [
 ]
 
 
-const all_tags = ["fantasy", "fiction", "scifi", "romance", "urbanfantasy", "historicalfiction", "memoirautobiograohy", "nonfiction",
-"mythology", "dystopian", "mysteryHorror", "verse", "prose", "graphicnovel", "manga", "africanamericanOrBlack", "asianamericanAndPacificIslander", "latinx", "arabOrArabamerican", "nativeamerican", "lgbtqia", "wlwOrNblw", "mlmOrNblm", "trans", "nonbinary", "aroace", "closetsafe", "migrantstories", "ownvoices", "jewish", "muslim","invisibledisability", "mentalhealth", "characterwithdisability", "neurodiverdent", "depression", "mutedeafblind", "middleGrade", "newAdultAdultBookWithTeenInterest"]
+const all_tags = ["fiction", "nonfiction", "prose", "verse", "graphicnovel", "manga", "fantasy", "urbanfantasy", "dystopian", "scifi", "romance", "historicalfiction", "mythology", "memoirautobiograohy",
+"mysteryHorror", "africanamericanOrBlack", "asianamericanAndPacificIslander", "latinx", "arabOrArabamerican", "nativeamerican", "migrantstories", "lgbtqia", "mlmOrNblm", "wlwOrNblw", "trans", "nonbinary", "aroace", "closetsafe", "jewish", "muslim", "characterwithdisability", "mutedeafblind", "invisibledisability", "neurodiverdent", "mentalhealth", "depression", "newAdultAdultBookWithTeenInterest", "middleGrade", "ownvoices"]
 
-const tag_display_list = ["Fantasy", "Fiction", "Sci-Fi", "Romance",	"Urban Fantasy",	"Historical Fiction",	"Memoir or Autobiography",	"Non-Fiction",
-                  "Mythology",	"Dystopian", "Mystery or Horror",	"Verse", "Prose",	"Graphic Novel",	"Manga", "African American or Black",	"AAPI",
-                  "Latinx",	"Arab or Arab American", "Native American",	"LGBTQIA+",	"WLW or NBLW", "MLM or NBLM",	"Trans", "Non-Binary",
-                  "Aroace",	"Closet Safe",	"Migrant Stories",	"Own Voices",	"Jewish",	"Muslim",	"Invisible Disability",	"Mental Health",
-                  "Character with Disability", "Neurodiverdent",	"Depression",	"Mute/Deaf/Blind",	"Middle Grade",	"New Adult or Adult Book With Teen Interest"];
+const tag_display_list = ["Fiction", "Non-Fiction", "Prose", "Verse",	"Graphic Novel",	"Manga",	"Fantasy",	"Urban Fantasy",
+                  "Dystopian",	"Sci-Fi", "Romance",	"Historical Fiction", "Mythology", "Memoir/Autobiography",	"Mystery/Horror",	"African American or Black",	"AAPI",
+                  "Latinx",	"Arab American or Arab", "Native American",	"Migrant Stories", "LGBTQIA+", "MLM or NBLM",	"WLW or NBLW", "Transgender", "Non-Binary",
+                  "AroAce",	"Closet Safe", "Jewish",	"Muslim",	"Character with Disability", "Mute/Deaf/Blind", "Invisible Disability",	"Neurodiverdent",	"Mental Health",
+                  "Depression",	"New Adult or Adult Book With Teen Interest",	"Middle Grade",	"Own Voices",];
