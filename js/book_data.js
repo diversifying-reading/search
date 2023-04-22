@@ -3824,7 +3824,7 @@ const data = [
         "publishersSummary": "erónica has had many surgeries to manage her disability. The best form of rehabilitation is swimming, so she spends hours in the pool, but not just to strengthen her body. Her Florida town is home to Mermaid Cove, a kitschy underwater attraction where professional mermaids perform in giant tanks . . . and Verónica wants to audition. But her conservative Peruvian parents would never go for it. And they definitely would never let her be with Alex, her cute new neighbor. She decides it's time to seize control of her life, but her plans come crashing down when she learns her parents have been hiding the truth from her--the truth about her own body."
     },
     {
-        "title": "The Book Theif",
+        "title": "The Book Thief",
         "author": "Marcus Zuzak",
         "historicalfiction": "Y",
         "prose": "Y",
@@ -6761,7 +6761,7 @@ const data = [
         "publishersSummary": "An Indie Next Pick! Some people are extraordinary. Some are just extra. TJ Klune's YA debut, The Extraordinaries, is a queer coming-of-age story about a fanboy with ADHD and the heroes he loves. Hardcover edition comes with an exclusive, reversible jacket! Nick Bell' Not extraordinary. But being the most popular fanfiction writer in the Extraordinaries fandom is a superpower, right' After a chance encounter with Shadow Star, Nova City's mightiest hero (and Nick's biggest crush), Nick sets out to make himself extraordinary. And he'll do it with or without the reluctant help of Seth Gray, Nick's best friend (and maybe the love of his life). Rainbow Rowell's Fangirl meets Marissa Meyer's Renegades in TJ Klune's YA debut"
     },
     {
-        "title": "The Heart Break Bakery",
+        "title": "The Heartbreak Bakery",
         "author": "A.R. Capetta",
         "fiction": "Y",
         "prose": "Y",
@@ -7029,7 +7029,7 @@ const data = [
         "mentalhealth": "Y"
     },
     {
-        "title": "!Ay Mija!",
+        "title": "¡Ay Mija!",
         "author": "Christine Suggs",
         "fiction": "Y",
         "graphicnovel": "Y",
@@ -7261,7 +7261,7 @@ const data = [
     },
     {
         "title": "Afterglow",
-        "author": "Phil Stamper, May van Millingen",
+        "author": "Phil Stamper",
         "fiction": "Y",
         "prose": "Y",
         "lgbtqia": "Y",
