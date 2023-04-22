@@ -312,9 +312,29 @@ body {
 }
 
 .tagDictionary{
-  height: 90%;
-  top: 5%;
+  height: 90vh;
+  top: 5vh;
   position: fixed;
   background-color:#c6d6bd;
   border: 2px solid #7DA468;
+  overflow:scroll;
+}
+
+.tagDictionaryClose{
+  background-color: #7DA468;
+  color: #033616;
+  width:36px;
+  height:36px;
+  position:fixed;
+  border: 2px solid #033616;
+}
+
+.tagDictionaryClose:hover{
+  background-color: #033616;
+  color: #7DA468;
+}
+
+.tagDictionaryOpen{
+  font-family:serif;
+  font-size:12px;
 }
