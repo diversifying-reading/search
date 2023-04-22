@@ -134,7 +134,7 @@ function currentRepository(url_test){
   else if(url_test.split("/")[4] == "suggest"){
     return String("suggest");
   }
-  else if(url_test.split("/")[3] == "diversifying-reading-slcpl"){
+  else if(url_test.split("/")[3] == "home"){
     return String("home");
   }
 }
