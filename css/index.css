@@ -252,8 +252,8 @@ body {
 .previous_page_btn {
   margin-right: 5px;
   font-family: tahoma;
-  width: 55px;
-  height: 55px;
+  width: 140px;
+  height: 38px;
   font-weight: bold;
   font-size: 20px;
   padding: 0.3%;
@@ -268,31 +268,14 @@ body {
   color: #033616
 }
 
-.first_page_btn {
-  font-family: tahoma;
-  width: 55px;
-  height: 55px;
-  font-weight: bold;
-  font-size: 20px;
-  padding: 0.3%;
-  background-color: #033616;
-  color: #FFFFFF;
-  border: 1px #000000 solid;
-  border-right: 0.5px #000000 solid;
-}
-.first_page_btn:hover{
-  background-color: #7DA468;
-  color: #033616
-}
-
 .next_page_btn {
   margin-left: 5px;
   padding: 0.3%;
   background-color: #033616;
   color: #FFFFFF;
   font-family: tahoma;
-  width: 55px;
-  height: 55px;
+  width: 140px;
+  height: 38px;
   font-weight: bold;
   font-size: 20px;
   border: 1px #000000 solid;
@@ -300,23 +283,6 @@ body {
   border-left: 0.5px #000000 solid;
 }
 .next_page_btn:hover{
-  background-color: #7DA468;
-  color: #033616
-}
-
-.last_page_btn {
-  font-family: tahoma;
-  width: 55px;
-  height: 55px;
-  font-weight: bold;
-  font-size: 20px;
-  padding: 0.3%;
-  background-color: #033616;
-  color: #FFFFFF;
-  border: 1px #000000 solid;
-  border-left: 0.5px #000000 solid;
-}
-.last_page_btn:hover{
   background-color: #7DA468;
   color: #033616
 }
