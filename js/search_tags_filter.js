@@ -50,12 +50,6 @@ function nextPage(){
 function previousPage(){
   window.location.href = window.location.href.split("page=")[0] + "page=" + (parseInt(from_url("page")) + parseInt(-1));
 }
-function firstPage(){
-  window.location.href = window.location.href.split("page=")[0] + "page=0";
-}
-function lastPage(){
-  window.location.href = window.location.href.split("page=")[0] + "page=" + String(Math.ceil(search_data_list.length/books_per_page)-1);
-}
 
 function correct_url(){
 //	if param 'search' is not included in paramString (already includes line 'if param.includes("search")' maybe if paramString includes might work? rewrite with selections
@@ -225,6 +219,7 @@ function add_formated_to_filtered_data_list(value, book_tags_string){
     }
     let image_path = value.title + "," + value.author + ".jpeg";
     image_path = image_path.replace(/\s/g, '');
+    image_path = image_path.replace("?", '');
     image_path = image_path.replace(':', '-');
 
     if(window.innerWidth <= 940){
@@ -298,12 +293,6 @@ function search_func(){
   }
   if(0 <= books_per_page*(parseInt(from_url("page"))-1)) {
     document.getElementsByClassName("previous_page_btn")[0].style.display = "";
-  }
-  if(parseInt(from_url("page")) != 0) {
-    document.getElementsByClassName("first_page_btn")[0].style.display = "";
-  }
-  if(parseInt(from_url("page")) != Math.ceil(search_data_list.length/books_per_page)-1){
-    document.getElementsByClassName("last_page_btn")[0].style.display = "";
   }
   document.getElementById("book_div").innerHTML = books_html;
 }
