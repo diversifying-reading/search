@@ -217,6 +217,7 @@ function add_formated_to_filtered_data_list(value, book_tags_string){
     if(publishersSummary == undefined){
       publishersSummary = "Sorry, we don't have a summary for this yet!";
     }
+
     let image_path = value.title + "," + value.author + ".jpeg";
     image_path = image_path.replace(/\s/g, '');
     image_path = image_path.replace("?", '');
@@ -230,7 +231,11 @@ function add_formated_to_filtered_data_list(value, book_tags_string){
     }
     let book_padding = book_width_minimum - borderWidth*2 - marginWidth*2 - 1 + fit_window();
 
-    books_html_list.push('<div class="book_format"> <img src="./images/covers/' + image_path + '" class="book_img">' + "<a class='linkToSLCPL' target='_blank'><img class='bookLink' src='./images/book_icon.jpeg' + style=top:" + String(book_padding*book_height_ratio*0.65) + "px;left:" + String(book_padding*0.37) +'px;></a>' + "<a class='linkToSLCPL' target:'_blank'> <img class='ebookLink' src='./images/ebook_icon.jpeg' + style=top:" + String(book_padding*book_height_ratio*0.65) + "px;left:" + String(book_padding*0.37) +'px;></a>' + "<a class='linkToSLCPL' target:'_blank'> <img class='audiobookLink' src='./images/audiobook_icon.jpeg' + style=top:" + String(book_padding*book_height_ratio*0.65) + "px;left:" + String(book_padding*0.37) +'px;></a>'+ '<div class="book_text"> <p style="display: block; font-size: 200%; font-weight: bold; margin-block-start: 0em; margin-block-end: 0em;">' + value.title + "</p>" + '<p style="display: block; font-size: 150%; font-weight: bold; margin-block-start: 0em; margin-block-end: 0em;">' + value.author + "</p>" + '<p>' + publishersSummary + '</p>' + "</div> <div style='margin:1%; padding-top:65%'> <h3>" + book_tags_string + "</h3> </div></div>");
+    let goodreadsURL = "https://www.goodreads.com/search?utf8=%E2%9C%93&q=";
+    goodreadsURL += value.title.replace(/s\s/g,'+') + " by " +  value.author.replace(/s\s/g,'+');
+    book_tags_string += '<h5> <a style="color:#591b83; text-decoration: none;" href="'+ goodreadsURL + '">More on Goodreads ></a> </h5>'
+
+    books_html_list.push('<div class="book_format"> <img src="./images/covers/' + image_path + '" class="book_img">' + "<a class='linkToSLCPL' target='_blank'><img class='bookLink' src='./images/book_icon.jpeg' + style=top:" + String(book_padding*book_height_ratio*0.65) + "px;left:" + String(book_padding*0.37) +'px;></a>' + "<a class='linkToSLCPL' target:'_blank'> <img class='ebookLink' src='./images/ebook_icon.jpeg' + style=top:" + String(book_padding*book_height_ratio*0.65) + "px;left:" + String(book_padding*0.37) +'px;></a>' + "<a class='linkToSLCPL' target:'_blank'> <img class='audiobookLink' src='./images/audiobook_icon.jpeg' + style=top:" + String(book_padding*book_height_ratio*0.65) + "px;left:" + String(book_padding*0.37) +'px;></a>'+ '<div class="book_text"> <p style="display: block; font-size: 200%; font-weight: bold; margin-block-start: 0em; margin-block-end: 0em;">' + value.title + "</p>" + '<p style="display: block; font-size: 150%; font-weight: bold; margin-block-start: 0em; margin-block-end: 0em;">' + value.author + "</p>" + '<p>' + publishersSummary + '</p>' + "</div> <div style='margin:1%; padding-top:65%'> <h4>" + book_tags_string + "</h4> </div></div>");
 
     bibnumbers = [];
 
