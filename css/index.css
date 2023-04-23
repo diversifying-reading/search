@@ -202,12 +202,15 @@ body {
   margin-bottom: 2px;
   margin-right: 2px;
   border-radius: 5px;
-  border-color:#999999;
-  color: #dedede;
+  border-color: #999999;
+  color: #ffffff;
   text-shadow: 0 1px 1px #000000;
-  background: linear-gradient(to bottom, #97a5b0 0%,#adbbc7 77%,#bcc6cf 100%);
-  box-shadow: inset 0px 5px 5px 1px rgba(0, 0, 0, .3);
-
+  background: linear-gradient(to bottom, #97b0a5 0%,#adc7ba 77%,#bccfc4 100%);
+  box-shadow: inset 0px 5px 5px 1px rgb(0 0 0 / 30%);
+  border-top-color: #789088;
+  border-left-color: #789088;
+  border-right-color: #e4fff0;
+  border-bottom-color: #e4fff0;
 }
 
 .pressed:active {
@@ -215,13 +218,13 @@ body {
   margin-right: 2px;
   border-radius: 5px;
   color: #000000;
-  text-shadow: 0 1px 1px #fafafa;
-  background: linear-gradient(to bottom, #e4e7eb 0%,#afb5ba 44%, #91969c 100%);
-  box-shadow: 0px 2px 5px 1px rgba(0, 0, 0, .5);
-  border-top-color: #bdc2c7;
-  border-left-color: #bdc2c7;
-  border-right-color: #5c646b;
-  border-bottom-color: #5c646b;
+  text-shadow: 0 1px 1px #d5d5d5;
+  background: linear-gradient(to bottom, #c5d3ca 0%,#94a499 44%, #828f86 100%);
+  box-shadow: 0px 2px 5px 1px rgb(0 0 0 / 50%);
+  border-top-color: #e4fff0;
+  border-left-color: #e4fff0;
+  border-right-color: #789088;
+  border-bottom-color: #789088;
 }
 
 .unpressed {
@@ -229,24 +232,28 @@ body {
   margin-right: 2px;
   border-radius: 5px;
   color: #000000;
-  text-shadow: 0 1px 1px #fafafa;
-  background: linear-gradient(to bottom, #e4e7eb 0%,#afb5ba 44%, #91969c 100%);
-  box-shadow: 0px 2px 5px 1px rgba(0, 0, 0, .5);
-  border-top-color: #bdc2c7;
-  border-left-color: #bdc2c7;
-  border-right-color: #5c646b;
-  border-bottom-color: #5c646b;
+  text-shadow: 0 1px 1px #d5d5d5;
+  background: linear-gradient(to bottom, #c5d3ca 0%,#94a499 44%, #828f86 100%);
+  box-shadow: 0px 2px 5px 1px rgb(0 0 0 / 50%);
+  border-top-color: #abb9b1;
+  border-left-color: #abb9b1;
+  border-right-color: #a1cda8;
+  border-bottom-color: #a1cda8;
 }
 
 .unpressed:active {
   margin-bottom: 2px;
   margin-right: 2px;
   border-radius: 5px;
-  border-color:#999999;
-  color: #eeeeee;
+  border-color: #999999;
+  color: #ffffff;
   text-shadow: 0 1px 1px #000000;
-  background: linear-gradient(to bottom, #97a5b0 0%,#adbbc7 77%,#bcc6cf 100%);
-  box-shadow: inset 0px 5px 5px 1px rgba(0, 0, 0, .3);
+  background: linear-gradient(to bottom, #97b0a5 0%,#adc7ba 77%,#bccfc4 100%);
+  box-shadow: inset 0px 5px 5px 1px rgb(0 0 0 / 30%);
+  border-right-color: #a1cda8;
+  border-bottom-color: #a1cda8;
+  border-top-color: #abb9b1;
+  border-left-color: #abb9b1;
 }
 
 .previous_page_btn {
