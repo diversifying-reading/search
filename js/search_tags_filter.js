@@ -225,7 +225,7 @@ function add_formated_to_filtered_data_list(value, book_tags_string){
     image_path = image_path.replace("?", '');
     image_path = image_path.replace(':', '-');
 
-    if(window.innerWidth <= 940){
+    if(screenWidth <= 940){
       book_width_minimum = 350;
     }
     else{
