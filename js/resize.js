@@ -307,6 +307,9 @@ addEventListener('resize', (event) => {
   if(mobileDevice()){
     screenWidth = screen.width;
   }
+  if(document.getElementsByClassName("topnav_text_links").length == 4){
+    document.getElementsByClassName("topnav_text_links")[3].className = "currentTextLink";
+  }
 });
 addEventListener('scroll', (event) => {
   resize_sequence();
