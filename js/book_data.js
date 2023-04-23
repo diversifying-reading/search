@@ -1,7 +1,7 @@
 const data = [
     {
         "title": "The Midnight Lie",
-        "author": "Marie Rutkowski  ",
+        "author": "Marie Rutkoski",
         "fantasy": "Y",
         "romance": "Y",
         "prose": "Y",
