@@ -15,11 +15,16 @@ function resize_sequence(){
   setTimeout(() => {  resize_books(); }, 200); // helps to stay current with resizing: resizes after .2 sec
   resize_sidenav();
 
-	if((parseFloat((document.getElementsByClassName("book_format")[0].style.width))+marginWidth*2+borderWidth*2+1)*Math.floor(book_div.offsetWidth/document.getElementsByClassName("book_format")[0].offsetWidth) <= book_div.offsetWidth+0.002){
+	if(document.getElementsByClassName("book_format").length > 0 && (parseFloat((document.getElementsByClassName("book_format")[0].style.width))+marginWidth*2+borderWidth*2+1)*Math.floor(book_div.offsetWidth/document.getElementsByClassName("book_format")[0].offsetWidth) <= book_div.offsetWidth+0.002){
 		// second check
 	  setTimeout(() => {  resize_sequence(); }, 1); // redue sequence
-	}
+  }
 
+  if(document.getElementsByClassName("topnav_text_links").length > 0 && document.getElementsByClassName("topnav_text_links")[0].offsetHeight != parseInt(document.getElementById("topnav").style.height)){
+    setTimeout(function(){
+      resize_sequence();
+    },1);
+  }
   // setTimeout(() => {  resize_books(); }, 500); // account for animation time
 }
 
