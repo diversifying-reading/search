@@ -258,7 +258,12 @@ function sidenav_scroll(){
 }
 
 function openTagDictionary(){
-  document.getElementById("tagDictionary").style.display = "block";
+  if(document.getElementById("tagDictionary").style.display == "block"){
+    document.getElementById("tagDictionary").style.display = "none";
+  }
+  else{
+    document.getElementById("tagDictionary").style.display = "block";
+  }
 }
 
 function closeTagDictionary(){
