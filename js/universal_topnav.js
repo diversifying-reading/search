@@ -1,3 +1,7 @@
+var screenWidth = window.innerWidth;
+if(mobileDevice()){
+  screenWidth = screen.width;
+}
 var window_url = "https://diversifying-reading.github.io/home/?search=undefined";
 var repository = window_url.split("https://diversifying-reading.github.io/")[1].split("/")[0];
 var scrollOnLoad = document.documentElement.scrollTop;
@@ -46,7 +50,7 @@ function scroll_function(){
     topnav_paddingTop = 17.5;
   }
 
-  if(window.innerWidth <= 1390){
+  if(screenWidth <= 1390){
     topnav_paddingTop = 8;
   }
 
@@ -82,7 +86,7 @@ function resize_topnav(){
     optionsFormatted += "</option>"
   }
 
-  if(window.innerWidth <= 687 && document.getElementsByClassName("topnav_text")[0].style.height == ""){
+  if(screenWidth <= 687 && document.getElementsByClassName("topnav_text")[0].style.height == ""){
     document.getElementsByClassName("topnav_text")[0].innerHTML = '<select class="select" onchange="selectTopnavUpdate()">' + optionsFormatted + '</select>';
     document.getElementsByClassName("topnav_text")[0].style.height = "100%";
     document.getElementsByClassName("topnav_text")[0].style.width = document.getElementsByClassName("select")[0].offsetWidth+10 + "px";
@@ -94,7 +98,7 @@ function resize_topnav(){
 
     scroll_function();
   }
-  else if(window.innerWidth > 687 && document.getElementsByClassName("select").length > 0){
+  else if(screenWidth > 687 && document.getElementsByClassName("select").length > 0){
     document.getElementsByClassName("topnav_text")[0].style.height = "";
     document.getElementsByClassName("topnav_text")[0].style.paddingLeft = "14px";
     document.getElementsByClassName("topnav_text")[0].style.width = "";
@@ -108,13 +112,13 @@ function resize_topnav(){
 
     scroll_function();
   }
-  if(window.innerWidth > 687){
+  if(screenWidth > 687){
     document.getElementsByClassName("topnav_text")[0].style.fontSize = document.getElementById("topnav").offsetHeight/2 +"px";
     document.getElementsByClassName("topnav_text")[0].style.fontSize = parseFloat(document.getElementsByClassName("topnav_text")[0].style.fontSize) * document.getElementById("topnav").offsetHeight/document.getElementsByClassName("topnav_text")[0].offsetHeight;
   }
 
   if(document.getElementsByClassName("select").length > 0){
-    document.getElementsByClassName("select")[0].style.width = window.innerWidth - (document.getElementById("topnav").offsetHeight/2 + document.getElementById("topnav").offsetHeight*4/7) + "px";
+    document.getElementsByClassName("select")[0].style.width = screenWidth - document.getElementById("menu_button").offsetWidth + "px";
   }
 
 	document.getElementById("menu_button").style.height = document.getElementById("topnav").offsetHeight-document.getElementById("topnav").offsetHeight/2 +"px";
@@ -122,6 +126,20 @@ function resize_topnav(){
   document.getElementById("menu_button").style.paddingRight = document.getElementById("topnav").offsetHeight*2/7 +"px";
   document.getElementById("menu_button").style.paddingTop = (document.getElementById("topnav").offsetHeight-parseInt(document.getElementById("menu_button").style.height))/2-2.5 +"px";
   document.getElementById("menu_button").style.paddingBottom = (document.getElementById("topnav").offsetHeight-parseInt(document.getElementById("menu_button").style.height))/2-2.5 +"px";
+}
+
+function mobileDevice() {
+     if (navigator.userAgent.match(/Android/i)
+     || navigator.userAgent.match(/webOS/i)
+     || navigator.userAgent.match(/iPhone/i)
+     || navigator.userAgent.match(/iPad/i)
+     || navigator.userAgent.match(/iPod/i)
+     || navigator.userAgent.match(/BlackBerry/i)
+     || navigator.userAgent.match(/Windows Phone/i)) {
+        return true;
+     } else {
+        return false ;
+     }
 }
 
 function currentRepository(url_test){
