@@ -29,8 +29,9 @@ function resize_sequence(){
 }
 
 function switch_menu_state() {
+  resize_sequence();
 
-  if(window.innerWidth <= 687){ // set sidenav screen size class
+  if(screenWidth <= 687){ // set sidenav screen size class
 		document.getElementById("sidenav").className = "sidenav_smallScreen";
 	}
 	else{
@@ -42,10 +43,10 @@ function switch_menu_state() {
 		if(document.getElementById("sidenav").className == "sidenav_largeScreen"){
 			sidenav_openStatus = 2; // reset to "untouched"
 
-			if(window.innerWidth <= 700){
+			if(screenWidth <= 700){
 				document.getElementById("sidenav").style.width = "40vw";
 			}
-			else if (window.innerWidth <= 940){
+			else if (screenWidth <= 940){
 				document.getElementById("sidenav").style.width = "30vw";
 			}
 			else{
@@ -58,7 +59,7 @@ function switch_menu_state() {
 		}
 
 		document.getElementById("menu_button").className = "menu_button_open";
-		sidenav_padding = 20*window.innerWidth/100 + 5; //20vw
+		sidenav_padding = 20*screenWidth/100 + 5; //20vw
 
 	}
 	else if(sidenav_openStatus == 1){ // close sidenav
@@ -79,7 +80,7 @@ function switch_menu_state() {
 
 			document.getElementById("sidenav").style.width = "100vw";
 			document.getElementById("menu_button").className = "menu_button_open";
-			sidenav_padding = window.innerWidth/5 + 5;
+			sidenav_padding = screenWidth/5 + 5;
 		}
 		else{ // close with large screen
 			sidenav_openStatus = 0;
@@ -92,13 +93,10 @@ function switch_menu_state() {
 
 
 	document.getElementById("book_div_position").style.paddingLeft = parseInt(sidenav_padding) + "px";
-
-
-	resize_sequence();
 }
 
 function resize_sidenav(){
-	if(window.innerWidth <= 687){ // set sidenav screen size class
+	if(screenWidth <= 687){ // set sidenav screen size class
 		document.getElementById("sidenav").className = "sidenav_smallScreen";
 	}
 	else{
@@ -120,10 +118,10 @@ function resize_sidenav(){
 			document.getElementById("sidenav").style.width = "0vw";
 		}
 		else{ // sidenav was manually opened or not touched
-			if(window.innerWidth <= 700){
+			if(screenWidth <= 700){
 				document.getElementById("sidenav").style.width = "40vw";
 			}
-			else if (window.innerWidth <= 1025){
+			else if (screenWidth <= 1025){
 				document.getElementById("sidenav").style.width = "30vw";
 			}
 			else{
@@ -135,18 +133,18 @@ function resize_sidenav(){
   // set sidenav text height
   document.getElementsByClassName("sidenav-text")[0].style.height = document.getElementById("buttons").offsetHeight + document.getElementById("tag_dictionary_open").offsetHeight + 150 + "px";
 
-  document.getElementsByClassName("tagDictionary")[0].style.width = 0.9*window.innerWidth-(document.getElementById("sidenav").offsetWidth) + "px"
-  document.getElementsByClassName("tagDictionary")[0].style.left = 0.05*window.innerWidth+(document.getElementById("sidenav").offsetWidth) + "px"
-  document.getElementsByClassName("tagDictionary")[0].style.top = 0.05*window.innerWidth+(document.getElementById("topnav").offsetHeight) + "px"
-  document.getElementsByClassName("tagDictionary")[0].style.height = window.innerHeight-(document.getElementById("topnav").offsetHeight) - 0.1*window.innerWidth+ "px"
+  document.getElementsByClassName("tagDictionary")[0].style.width = 0.9*screenWidth-(document.getElementById("sidenav").offsetWidth) + "px"
+  document.getElementsByClassName("tagDictionary")[0].style.left = 0.05*screenWidth+(document.getElementById("sidenav").offsetWidth) + "px"
+  document.getElementsByClassName("tagDictionary")[0].style.top = 0.05*screenWidth+(document.getElementById("topnav").offsetHeight) + "px"
+  document.getElementsByClassName("tagDictionary")[0].style.height = window.innerHeight-(document.getElementById("topnav").offsetHeight) - 0.1*screenWidth+ "px"
 
-  document.getElementsByClassName("tagDictionaryClose")[0].style.top = 0.05*window.innerWidth+(document.getElementById("topnav").offsetHeight) + "px"
-  document.getElementsByClassName("tagDictionaryClose")[0].style.right = window.innerWidth - document.getElementsByClassName("tagDictionary")[0].offsetWidth - document.getElementsByClassName("tagDictionary")[0].offsetLeft + "px"
+  document.getElementsByClassName("tagDictionaryClose")[0].style.top = 0.05*screenWidth+(document.getElementById("topnav").offsetHeight) + "px"
+  document.getElementsByClassName("tagDictionaryClose")[0].style.right = screenWidth - document.getElementsByClassName("tagDictionary")[0].offsetWidth - document.getElementsByClassName("tagDictionary")[0].offsetLeft + "px"
 
 }
 
 function resize_books(){
-	if(window.innerWidth <= 940){
+	if(screenWidth <= 940){
 		book_width_minimum = 350;
 	}
 	else{
@@ -230,25 +228,25 @@ function sidenav_scroll(){
     sidenav_scrollOnLoad = document.documentElement.scrollTop;
   }
 
-  if(window.innerWidth <= 700 && sidenav_openStatus != 0){
-    sidenav_width = window.innerWidth*0.4;
+  if(screenWidth <= 700 && sidenav_openStatus != 0){
+    sidenav_width = screenWidth*0.4;
   }
-  else if (window.innerWidth <= 940 && sidenav_openStatus != 0){
-    sidenav_width = window.innerWidth*0.3;
+  else if (screenWidth <= 940 && sidenav_openStatus != 0){
+    sidenav_width = screenWidth*0.3;
   }
   else if (sidenav_openStatus != 0){
-    sidenav_width = window.innerWidth*0.2;
+    sidenav_width = screenWidth*0.2;
   }
 
   if(scrollFromOnLoad >= 200){
-    if(window.innerWidth <= 700 && sidenav_openStatus == 2){
-      sidenav_width = window.innerWidth*0.4-((scrollFromOnLoad-200)*2);
+    if(screenWidth <= 700 && sidenav_openStatus == 2){
+      sidenav_width = screenWidth*0.4-((scrollFromOnLoad-200)*2);
     }
-    else if (window.innerWidth <= 940 && sidenav_openStatus == 2){
-      sidenav_width = window.innerWidth*0.3-((scrollFromOnLoad-200)*2);
+    else if (screenWidth <= 940 && sidenav_openStatus == 2){
+      sidenav_width = screenWidth*0.3-((scrollFromOnLoad-200)*2);
     }
     else if (sidenav_openStatus == 2){
-      sidenav_width = window.innerWidth*0.2-((scrollFromOnLoad-200)*2);
+      sidenav_width = screenWidth*0.2-((scrollFromOnLoad-200)*2);
     }
   }
 
@@ -259,7 +257,6 @@ function sidenav_scroll(){
   }
 
   document.getElementById("sidenav").style.width = sidenav_width + "px";
-
 }
 
 function openTagDictionary(){
@@ -305,6 +302,11 @@ setTimeout(function(){
 
 addEventListener('resize', (event) => {
   resize_sequence();
+  screenWidth = window.innerWidth;
+
+  if(mobileDevice()){
+    screenWidth = screen.width;
+  }
 });
 addEventListener('scroll', (event) => {
   resize_sequence();
