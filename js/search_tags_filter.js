@@ -182,9 +182,11 @@ function filter(value) {
   }
 
   for(var i = 0; i < book_tags.length; i++){
+    book_tags_string += "<a style='color: #000000;text-decoration: none;background-color: #cdbead;padding-left: 5px;padding-right: 5px;padding-top: 2px;padding-bottom: 2px;border-radius: 4px;' href='" + "https://diversifying-reading.github.io/search/?" + book_tags[i] + "&search=undefined&page=0'>"
     book_tags_string += display_book_tags(book_tags[i]);
+    book_tags_string += "</a>"
     if (i < book_tags.length - 1){
-      book_tags_string += ', ';
+      book_tags_string += "&nbsp&nbsp";
     }
   }
 
@@ -235,7 +237,7 @@ function add_formated_to_filtered_data_list(value, book_tags_string){
     goodreadsURL += value.title.replace(/s\s/g,'+') + " by " +  value.author.replace(/s\s/g,'+');
     book_tags_string += '<h5> <a style="color:#591b83; text-decoration: none;" href="'+ goodreadsURL + '">More on Goodreads ></a> </h5>'
 
-    books_html_list.push('<div class="book_format"> <img src="./images/covers/' + image_path + '" class="book_img">' + "<a class='linkToSLCPL' target='_blank'><img class='bookLink' src='./images/book_icon.jpeg' + style=top:" + String(book_padding*book_height_ratio*0.65) + "px;left:" + String(book_padding*0.37) +'px;></a>' + "<a class='linkToSLCPL' target:'_blank'> <img class='ebookLink' src='./images/ebook_icon.jpeg' + style=top:" + String(book_padding*book_height_ratio*0.65) + "px;left:" + String(book_padding*0.37) +'px;></a>' + "<a class='linkToSLCPL' target:'_blank'> <img class='audiobookLink' src='./images/audiobook_icon.jpeg' + style=top:" + String(book_padding*book_height_ratio*0.65) + "px;left:" + String(book_padding*0.37) +'px;></a>'+ '<div class="book_text"> <p style="display: block; font-size: 200%; font-weight: bold; margin-block-start: 0em; margin-block-end: 0em;">' + value.title + "</p>" + '<p style="display: block; font-size: 150%; font-weight: bold; margin-block-start: 0em; margin-block-end: 0em;">' + value.author + "</p>" + '<p>' + publishersSummary + '</p>' + "</div> <div style='margin:1%; padding-top:65%'> <h4>" + book_tags_string + "</h4> </div></div>");
+    books_html_list.push('<div class="book_format"> <img src="./images/covers/' + image_path + '" class="book_img">' + "<a class='linkToSLCPL' target='_blank'><img class='bookLink' src='./images/book_icon.jpeg' + style=top:" + String(book_padding*book_height_ratio*0.65) + "px;left:" + String(book_padding*0.37) +'px;></a>' + "<a class='linkToSLCPL' target:'_blank'> <img class='ebookLink' src='./images/ebook_icon.jpeg' + style=top:" + String(book_padding*book_height_ratio*0.65) + "px;left:" + String(book_padding*0.37) +'px;></a>' + "<a class='linkToSLCPL' target:'_blank'> <img class='audiobookLink' src='./images/audiobook_icon.jpeg' + style=top:" + String(book_padding*book_height_ratio*0.65) + "px;left:" + String(book_padding*0.37) +'px;></a>'+ '<div class="book_text"> <p style="display: block; font-size: 200%; font-weight: bold; margin-block-start: 0em; margin-block-end: 0em;">' + value.title + "</p>" + '<p style="display: block; font-size: 150%; font-weight: bold; margin-block-start: 0em; margin-block-end: 0em;">' + value.author + "</p>" + '<p>' + publishersSummary + '</p>' + "</div> <div style='margin:1%; padding-top:65%'> <h4 style='line-height:26px;margin-top:0px;'>" + book_tags_string + "</h4> </div></div>");
 
     bibnumbers = [];
 
@@ -296,6 +298,25 @@ function search_func(){
   if(search_data_list.length > books_per_page*(parseInt(from_url("page"))+1)) {
     document.getElementsByClassName("next_page_btn")[0].style.display = "";
   }
+  else{ // end of book message
+    if(search_data_list == 0){
+      if (document.getElementById("input").value != "" && required_tags.length == 0){ // search value and no tag values
+        document.getElementById("end_of_books_msg").innerHTML = "Sorry, we don't currently have any books that match these critera. Please check your spelling or broaden your search to allow us to reccomend you books. <br>Our collection is always growing, and to help us grow our collection, we encourage you to submit a suggestion to our 'Suggest a Book' page. Thank you and happy reading!"
+      }
+      else if(document.getElementById("input").value != ""){ // search value and tag values
+        document.getElementById("end_of_books_msg").innerHTML = "Sorry, we don't currently have any books that match these critera. Please check your spelling or reduce the number of tags you are searching by to allow us to reccomend you books. <br>Our collection is always growing, and to help us grow our collection, we encourage you to submit a suggestion to our 'Suggest a Book' page. Thank you and happy reading!"
+      }
+      else{ // tag values
+        document.getElementById("end_of_books_msg").innerHTML = "Sorry, we don't currently have any books that match these critera. Please reduce the number of tags you are searching by to allow us to reccomend you books. <br>Our collection is always growing, and to help us grow our collection, we encourage you to submit a suggestion to our 'Suggest a Book' page. Thank you and happy reading!"
+      }
+      document.getElementById("book_div").style.display = "none"
+    }
+    else{
+      document.getElementById("end_of_books_msg").innerHTML = "Sorry, we don't have any more books that match these critera, but our collection is always growing. To help us grow our collection, we encourage you to submit a suggestion to our 'Suggest a Book' page. Thank you and happy reading!"
+      document.getElementById("book_div").style.display = ""
+    }
+  }
+
   if(0 <= books_per_page*(parseInt(from_url("page"))-1)) {
     document.getElementsByClassName("previous_page_btn")[0].style.display = "";
   }
