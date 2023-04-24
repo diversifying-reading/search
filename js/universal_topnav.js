@@ -15,16 +15,16 @@ for(let i = 0; i < document.getElementsByClassName("topnav_text").length; i++){
 function selectTopnavUpdate(){
   var link = document.getElementsByClassName("select")[0].value;
   if(link == "Catalog"){
-    window.location.href = "https://diversifying-reading.github.io/search";
+    window.location.href = "https://diversifying-reading.github.io/search/";
   }
   else if(link == "Resources"){
-    window.location.href = "https://diversifying-reading.github.io/diversifyingreadingslcpl/resources";
+    window.location.href = "https://diversifying-reading.github.io/diversifyingreadingslcpl/resources/";
   }
   else if(link == "Suggest"){
-    window.location.href = "https://diversifying-reading.github.io/diversifyingreadingslcpl/suggest";
+    window.location.href = "https://diversifying-reading.github.io/diversifyingreadingslcpl/suggest/";
   }
   else if(link == "Home"){
-    window.location.href = "https://diversifying-reading.github.io/home";
+    window.location.href = "https://diversifying-reading.github.io/home/";
   }
 }
 
@@ -106,7 +106,7 @@ function resize_topnav(){
 
     sidenav_openStatus = 2; //untouched
 
-    document.getElementsByClassName("topnav_text")[0].innerHTML = '\n  <a href="https://diversifying-reading.github.io/home" class="topnav_text_links" style="float: left; padding-top: 8px; padding-bottom: 8px;">Home</a>\n  <a href="https://diversifying-reading.github.io/suggest" class="topnav_text_links" style="float: right; padding-top: 8px; padding-bottom: 8px;">Suggest a Book</a>\n  <a href="https://diversifying-reading.github.io/resources" class="topnav_text_links" style="float: right; padding-top: 8px; padding-bottom: 8px;">Resources</a>\n  <a href="https://diversifying-reading.github.io/search/" class="topnav_text_links" style="float: right; padding-top: 8px; padding-bottom: 8px;">Catalog</a>\n  ';
+    document.getElementsByClassName("topnav_text")[0].innerHTML = '\n  <a href="https://diversifying-reading.github.io/home/" class="topnav_text_links" style="float: left; padding-top: 8px; padding-bottom: 8px;">Home</a>\n  <a href="https://diversifying-reading.github.io/suggest/" class="topnav_text_links" style="float: right; padding-top: 8px; padding-bottom: 8px;">Suggest a Book</a>\n  <a href="https://diversifying-reading.github.io/resources/" class="topnav_text_links" style="float: right; padding-top: 8px; padding-bottom: 8px;">Resources</a>\n  <a href="https://diversifying-reading.github.io/search/" class="currentTextLink" style="float: right; padding-top: 8px; padding-bottom: 8px;">Catalog</a>\n  ';
     document.getElementById("menu_button").style.float = "left";
     document.getElementsByClassName('topnav_text')[0].style.marginLeft = "1vmin";
 
