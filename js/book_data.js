@@ -1,7 +1,7 @@
 const data = [
     {
         "title": "The Midnight Lie",
-        "author": "Marie Rutkoski",
+        "author": "Marie Rutkoski  ",
         "fantasy": "Y",
         "romance": "Y",
         "prose": "Y",
@@ -1216,7 +1216,8 @@ const data = [
         "graphicnovel": "Y",
         "africanamericanOrBlack": "Y",
         "bookBibnumber": 0,
-        "ebookBibnumber": 0
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0
     },
     {
         "title": "The Black Panther Party",
@@ -1251,7 +1252,8 @@ const data = [
         "ownvoices": "Y",
         "newAdultAdultBookWithTeenInterest": "Y",
         "bookBibnumber": 0,
-        "ebookBibnumber": 0
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0
     },
     {
         "title": "Harsh Times",
@@ -1318,6 +1320,7 @@ const data = [
         "depression": "Y",
         "bookBibnumber": 0,
         "ebookBibnumber": 0,
+        "audioBibnumber": 0,
         "publishersSummary": "Right before Jade is about to leave for a summer art intensive, her best friend, Phoebe, attempts suicide. How is Jade supposed to focus on herself right now?"
     },
     {
@@ -1354,7 +1357,8 @@ const data = [
         "graphicnovel": "Y",
         "characterwithdisability": "Y",
         "bookBibnumber": 0,
-        "ebookBibnumber": 0
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0
     },
     {
         "title": "Deep in Providence",
@@ -1368,7 +1372,8 @@ const data = [
         "wlwOrNblw": "Y",
         "mentalhealth": "Y",
         "bookBibnumber": 0,
-        "ebookBibnumber": 0
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0
     },
     {
         "title": "Fight + Flight",
@@ -1392,6 +1397,8 @@ const data = [
         "lgbtqia": "Y",
         "mlmOrNblm": "Y",
         "bookBibnumber": "22479359&db=3213",
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0,
         "publishersSummary": "Sparks fly when Orion and Ray meet for the first time at a roller rink in Memphis. But these star-crossed souls have a past filled with secrets that threaten to tear them apart before their love story even begins. ..."
     },
     {
@@ -1722,6 +1729,8 @@ const data = [
         "prose": "Y",
         "lgbtqia": "Y",
         "wlwOrNblw": "Y",
+        "bookBibnumber": 0,
+        "ebookBibnumber": 0,
         "publishersSummary": "Tamsin is the most powerful witch of her generation. But after committing the worst magical sin, she's exiled by the ruling Coven and cursed with the inability to love. The only way she can get those feelings back—even for just a little while—is to steal love from others."
     },
     {
@@ -4027,7 +4036,10 @@ const data = [
         "prose": "Y",
         "asianamericanAndPacificIslander": "Y",
         "migrantstories": "Y",
-        "ownvoices": "Y"
+        "ownvoices": "Y",
+        "bookBibnumber": 0,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0
     },
     {
         "title": "Peta Lyre's Rating Normal",
@@ -4801,6 +4813,7 @@ const data = [
         "asianamericanAndPacificIslander": "Y",
         "bookBibnumber": 840996,
         "ebookBibnumber": 882874,
+        "audioBibnumber": 0,
         "publishersSummary": "When Long Island teens Miri, Soleil, Penny, and Jonah befriend a bestselling YA novelist, they find their deepest, darkest secrets in the pages of her next novel, with devastating consequences. Told from different perspectives as interviews, journal entries, and book excerpts."
     },
     {
@@ -4852,6 +4865,9 @@ const data = [
         "romance": "Y",
         "prose": "Y",
         "latinx": "Y",
+        "bookBibnumber": 0,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0,
         "publishersSummary": "A Cuban Girl's Guide to Tea and Tomorrow is an absolute delight. Cozier than a hand-knit gray cardigan and richer than Abuela's pastelito recipe, Namey takes you from Miami to Winchester, and leaves your heart belonging to both.\" --Rachael Lippincott, #1 New York Times bestselling author of Five Feet Apart Love & Gelato meets Don't Date Rosa Santos in this charming, heartfelt story following a Miami girl who unexpectedly finds love--and herself--in a small English town.For Lila Reyes, a summer in England was never part of the plan. The plan was 1) take over her abuela's role as head baker at their panadería, 2) move in with her best friend after graduation, and 3) live happily ever after with her boyfriend. But then the Trifecta happened, and everything--including Lila herself--fell apart. Worried about Lila's mental health, her parents make a new plan for her: Spend three months with family friends in Winchester, England, to relax and reset. But with the lack of sun, a grumpy inn cook, and a small town lacking Miami flavor (both in food and otherwise), what would be a dream trip for some feels more like a nightmare to Lila...until she meets Orion Maxwell. A teashop clerk with troubles of his own, Orion is determined to help Lila out of her funk, and appoints himself as her personal tour guide. From Winchester's drama-filled music scene to the sweeping English countryside, it isn't long before Lila is not only charmed by Orion, but England itself. Soon a new future is beginning to form in Lila's mind--one that would mean leaving everything she ever planned behind."
     },
     {
@@ -4999,6 +5015,9 @@ const data = [
         "prose": "Y",
         "asianamericanAndPacificIslander": "Y",
         "ownvoices": "Y",
+        "bookBibnumber": 931223,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0,
         "publishersSummary": "Ahn is no one, with no past and no family. Altan is a lost heir, his future stolen away as a child. When they meet, Altan sees in Ahn a path to reclaiming the throne. Ahn sees a way to finally unlock her past and understand her lethal magical abilities. But they may have to pay a far deadlier price than either could have imagined"
     },
     {
@@ -5008,6 +5027,9 @@ const data = [
         "prose": "Y",
         "asianamericanAndPacificIslander": "Y",
         "ownvoices": "Y",
+        "bookBibnumber": 914078,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0,
         "publishersSummary": "A street thief and a princess discover they are twins separated at birth-and must switch places to find an all-powerful stone and prevent a deadly war from taking place"
     },
     {
@@ -5017,6 +5039,9 @@ const data = [
         "prose": "Y",
         "asianamericanAndPacificIslander": "Y",
         "ownvoices": "Y",
+        "bookBibnumber": 585688,
+        "ebookBibnumber": 625849,
+        "audioBibnumber": 0,
         "publishersSummary": "Treated with scorn and fear in her father's kingdom because of a formidable horoscope, 17-year-old Maya commits herself to her education only to land in an arranged marriage that culminates in her sudden elevation to the throne, a situation that's threatened by dark secrets and Otherworldly magic."
     },
     {
@@ -5025,7 +5050,10 @@ const data = [
         "fantasy": "Y",
         "prose": "Y",
         "asianamericanAndPacificIslander": "Y",
-        "ownvoices": "Y"
+        "ownvoices": "Y",
+        "bookBibnumber": 803145,
+        "ebookBibnumber": 802716,
+        "audioBibnumber": 804157
     },
     {
         "title": "Forest of a Thousand Lanterns",
@@ -5034,6 +5062,9 @@ const data = [
         "prose": "Y",
         "asianamericanAndPacificIslander": "Y",
         "ownvoices": "Y",
+        "bookBibnumber": 683971,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0,
         "publishersSummary": "Beautiful eighteen-year-old Xifeng, raised by a cruel aunt who says the stars destine her to be Empress of Feng Lu, chooses to spurn the man who loves her and exploit the dark magic that can make her dream real."
     },
     {
@@ -5042,7 +5073,10 @@ const data = [
         "fantasy": "Y",
         "prose": "Y",
         "asianamericanAndPacificIslander": "Y",
-        "ownvoices": "Y"
+        "ownvoices": "Y",
+        "bookBibnumber": 793808,
+        "ebookBibnumber": 97361,
+        "audioBibnumber": 884711
     },
     {
         "title": "The Wrath & the Dawn",
@@ -5051,6 +5085,9 @@ const data = [
         "prose": "Y",
         "asianamericanAndPacificIslander": "Y",
         "ownvoices": "Y",
+        "bookBibnumber": 512362,
+        "ebookBibnumber": 518196,
+        "audioBibnumber": 518077,
         "publishersSummary": "A BuzzFeed Pick for \"YA Books You Absolutely Must Read This Spring\" A Bustle 's Most Anticipated 2019 YA Release Paste Magazine 's Top 10 Most Anticipated YA Novels of 2019 \"Lyrical and spellbinding\" —Marieke Njikamp, #1 New York Times Bestselling Author Set in a richly detailed world inspired by ancient Arabia, Hafsah Faizal's We Hunt the Flame — first in the Sands of Arawiya series—is a gripping debut of discovery, conquering fear, and taking identity into your own hands. People lived because she killed. People died because he lived. Zafira is the Hunter, disguising herself as a man when she braves the cursed forest of the Arz to feed her people. Nasir is the Prince of Death, assassinating those foolish enough to defy his autocratic father, the sultan. If Zafira was exposed as a girl, all of her achievements would be rejected; if Nasir displayed his compassion, his father would punish him in the most brutal of ways. Both Zafira and Nasir are legends in the kingdom of Arawiya—but neither wants to be. War is brewing, and the Arz sweeps closer with each passing day, engulfing the land in shadow. When Zafira embarks on a quest to uncover a lost artifact that can restore magic to her suffering world and stop the Arz, Nasir is sent by the sultan on a similar mission: retrieve the artifact and kill the Hunter. But an ancient evil stirs as their journey unfolds—and the prize they seek may pose a threat greater than either can imagine."
     },
     {
@@ -5060,6 +5097,9 @@ const data = [
         "prose": "Y",
         "asianamericanAndPacificIslander": "Y",
         "ownvoices": "Y",
+        "bookBibnumber": 815666,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 952796,
         "publishersSummary": "After eighteen-year-old Gu Miyoung, a nine-tailed fox surviving in modern-day Seoul by eating the souls of evil men, kills a murderous goblin to save Jihoon, she is forced to choose between her immortal life and his. Includes glossary."
     },
     {
@@ -5069,6 +5109,9 @@ const data = [
         "prose": "Y",
         "asianamericanAndPacificIslander": "Y",
         "ownvoices": "Y",
+        "bookBibnumber": 797162,
+        "ebookBibnumber": 843776,
+        "audioBibnumber": 797359,
         "publishersSummary": "Fatima lives in the city of Noor, on the Silk Road, which is currently protected by the Ifrit, djinn of order and reason, from attacks by the violent and ruthless Shayateen djinn--but Fatima was infused with the fire of the Ifrit who died saving her when she was four years old, and when one of the most important Ifrit dies she finds herself drawn into the intrigues of the court, the affairs of the djinn, and the very real dangers of a magical battlefield."
     },
     {
@@ -5079,7 +5122,10 @@ const data = [
         "prose": "Y",
         "asianamericanAndPacificIslander": "Y",
         "arabOrArabamerican": "Y",
-        "muslim": "Y"
+        "muslim": "Y",
+        "bookBibnumber": 0,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0
     },
     {
         "title": "Rebel of the Sands",
@@ -5089,6 +5135,9 @@ const data = [
         "asianamericanAndPacificIslander": "Y",
         "arabOrArabamerican": "Y",
         "ownvoices": "Y",
+        "bookBibnumber": 584390,
+        "ebookBibnumber": 580275,
+        "audioBibnumber": 840443,
         "publishersSummary": "Sixteen-year-old sharpshooter Amani Al'Hiza never doubted she'd escape the miserable one-horse desert town where she was born. Getting out had always been the plan. But she never figured she'd wind up running for her life--with a boy wanted for treason. When Amani enters a disastrous shooting contest against Jin, a rakish foreigner, she has no idea of his connection to the ongoing war between the ruthless Sultan of Miraji and his exiled son, the Rebel Prince. But soon the pair are fleeing across a desert crawling with vicious bandits, terrifying ghuls, and powerful djinni, and the Sultan's army is getting closer every day. When Amani and Jin stumble across the ruins of a town destroyed by an unearthly fire, it's clear the war's stakes are higher than either of them realized. The Rebel Prince has a secret weapon, and now he wants Amani to join his revolution. All Amani ever wanted was to escape the desert and find adventure--but will the desert let her go?"
     },
     {
@@ -5098,6 +5147,9 @@ const data = [
         "prose": "Y",
         "arabOrArabamerican": "Y",
         "ownvoices": "Y",
+        "bookBibnumber": 691154,
+        "ebookBibnumber": 738142,
+        "audioBibnumber": 738158,
         "publishersSummary": "Step into The City of Brass, the spellbinding debut from S. A. Chakraborty--an imaginative alchemy of The Golem and the Jinni, The Grace of Kings, and Uprooted, in which the future of a magical Middle Eastern kingdom rests in the hands of a clever and defiant young con artist with miraculous healing gifts. Nahri has never believed in magic. Certainly, she has power; on the streets of eighteenth-century Cairo, she's a con woman of unsurpassed talent. But she knows better than anyone that the trade she uses to get by--palm readings, zars, healings--are all tricks, sleights of hand, learned skills; a means to the delightful end of swindling Ottoman nobles and a reliable way to survive. But when Nahri accidentally summons an equally sly, darkly mysterious djinn warrior to her side during one of her cons, she's forced to question all she believes. For the warrior tells her an extraordinary tale: across hot, windswept sands teeming with creatures of fire, and rivers where the mythical marid sleep; past ruins of once-magnificent human metropolises, and mountains where the circling birds of prey are not what they seem, lies Daevabad, the legendary city of brass--a city to which Nahri is irrevocably bound. In Daevabad, behind gilded brass walls laced with enchantments, behind the six gates of the six djinn tribes, old resentments are simmering. A young prince dreams of rebellion. And when Nahri decides to enter this world, she learns that true power is fierce and brutal. That magic cannot shield her from the dangerous web of court politics. That even the cleverest of schemes can have deadly consequences. After all, there is a reason they say to be careful what you wish for . . ."
     },
     {
@@ -5106,7 +5158,10 @@ const data = [
         "fantasy": "Y",
         "prose": "Y",
         "asianamericanAndPacificIslander": "Y",
-        "ownvoices": "Y"
+        "ownvoices": "Y",
+        "bookBibnumber": 767231,
+        "ebookBibnumber": 809476,
+        "audioBibnumber": 0
     },
     {
         "title": "Reign the Earth",
@@ -5116,6 +5171,9 @@ const data = [
         "africanamericanOrBlack": "Y",
         "arabOrArabamerican": "Y",
         "ownvoices": "Y",
+        "bookBibnumber": 706083,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 742879,
         "publishersSummary": "Having sacrificed her freedom to establish peace with a neighboring kingdom, Shalia discovers that she has the power to control earth the day she marries Calix, whose only motivation is to eliminate the Elementae."
     },
     {
@@ -5128,6 +5186,9 @@ const data = [
         "mlmOrNblm": "Y",
         "migrantstories": "Y",
         "ownvoices": "Y",
+        "bookBibnumber": 796787,
+        "ebookBibnumber": 842260,
+        "audioBibnumber": 802702,
         "publishersSummary": "It's 1989 in New York City, and for three teens, the world is changing. Reza is an Iranian boy who has just moved to the city with his mother to live with his stepfather and stepbrother. He's terrified that someone will guess the truth he can barely acknowledge about himself. Reza knows he's gay, but all he knows of gay life are the media's images of men dying of AIDS. Judy is an aspiring fashion designer who worships her uncle Stephen, a gay man with AIDS who devotes his time to activism as a member of ACT UP. Judy has never imagined finding romance... until she falls for Reza and they start dating. Art is Judy's best friend, their school's only out and proud teen. He'll never be who his conservative parents want him to be, so he rebels by documenting the AIDS crisis through his photographs. As Reza and Art grow closer, Reza struggles to find a way out of his deception that won't break Judy's heart -- and destroy the most meaningful friendship he's ever known. This is a bighearted, sprawling epic about friendship and love and the revolutionary act of living life to the fullest in the face of impossible odds."
     },
     {
@@ -6074,6 +6135,8 @@ const data = [
         "prose": "Y",
         "africanamericanOrBlack": "Y",
         "bookBibnumber": 983238,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0,
         "publishersSummary": "When signs of the eight ajogun begin to appear, Simi teams up with the corrupt trickster god Esu to stop the demon warlords before they enter the human realm and ruin humankind."
     },
     {
@@ -7233,7 +7296,10 @@ const data = [
         "nonfiction": "Y",
         "prose": "Y",
         "africanamericanOrBlack": "Y",
-        "ownvoices": "Y"
+        "ownvoices": "Y",
+        "bookBibnumber": 931740,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0
     },
     {
         "title": "Picking Up the Pieces",
@@ -7241,7 +7307,10 @@ const data = [
         "nonfiction": "Y",
         "prose": "Y",
         "nativeamerican": "Y",
-        "ownvoices": "Y"
+        "ownvoices": "Y",
+        "bookBibnumber": 0,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0
     },
     {
         "title": "Seen and Unseen",
@@ -7249,7 +7318,10 @@ const data = [
         "nonfiction": "Y",
         "prose": "Y",
         "asianamericanAndPacificIslander": "Y",
-        "ownvoices": "Y"
+        "ownvoices": "Y",
+        "bookBibnumber": 986870,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0
     },
     {
         "title": "Unspeakable",
@@ -7257,16 +7329,22 @@ const data = [
         "nonfiction": "Y",
         "prose": "Y",
         "africanamericanOrBlack": "Y",
-        "ownvoices": "Y"
+        "ownvoices": "Y",
+        "bookBibnumber": 878696,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 884793
     },
     {
         "title": "Afterglow",
-        "author": "Phil Stamper, May van Millingen",
+        "author": "Phil Stamper",
         "fiction": "Y",
         "prose": "Y",
         "lgbtqia": "Y",
         "mlmOrNblm": "Y",
-        "trans": "Y"
+        "trans": "Y",
+        "bookBibnumber": 1003571,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0
     },
     {
         "title": "Always the Almost",
@@ -7277,9 +7355,117 @@ const data = [
         "asianamericanAndPacificIslander": "Y",
         "lgbtqia": "Y",
         "mlmOrNblm": "Y",
-        "trans": "Y"
+        "trans": "Y",
+        "bookBibnumber": 999158,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0
+    },
+    {
+        "title": "Rain, Reign",
+        "author": "Anna M. Martin",
+        "fiction": "Y",
+        "prose": "Y",
+        "invisibledisability": "Y",
+        "neurodiverdent": "Y",
+        "middleGrade": "Y",
+        "bookBibnumber": 443880,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 496087
+    },
+    {
+        "title": "No Boy Summer",
+        "author": "Amy Spalding",
+        "fiction": "Y",
+        "romance": "Y",
+        "prose": "Y",
+        "latinx": "Y",
+        "lgbtqia": "Y",
+        "wlwOrNblw": "Y",
+        "bookBibnumber": 0,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0
+    },
+    {
+        "title": "I Kick and Fly",
+        "author": "Ruchira Gupta",
+        "fiction": "Y",
+        "prose": "Y",
+        "asianamericanAndPacificIslander": "Y",
+        "ownvoices": "Y",
+        "bookBibnumber": 0,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0
+    },
+    {
+        "title": "Sunshine",
+        "author": "Jarrett J. Krosoczka",
+        "memoirautobiograohy": "Y",
+        "graphicnovel": "Y",
+        "ownvoices": "Y",
+        "invisibledisability": "Y",
+        "mentalhealth": "Y",
+        "characterwithdisability": "Y",
+        "neurodiverdent": "Y",
+        "bookBibnumber": 0,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0,
+        "publishersSummary": "In this stand-alone companion to Krosoczka's graphic memoir, Hey, Kiddo (2018), 16-year-old Jarrett spends a life-changing week at Camp Sunshine, a summer camp for seriously ill children and their families."
+    },
+    {
+        "title": "Alondra",
+        "author": "Gina Femia",
+        "fiction": "Y",
+        "prose": "Y",
+        "africanamericanOrBlack": "Y",
+        "latinx": "Y",
+        "ownvoices": "Y",
+        "bookBibnumber": 0,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0,
+        "publishersSummary": "Against the backdrop of a Coney Island summer, a 17-year-old Puerto Rican teenager tries to find her place in the world."
+    },
+    {
+        "title": "Wings in the Wild",
+        "author": "Margarita Engle",
+        "fiction": "Y",
+        "romance": "Y",
+        "verse": "Y",
+        "latinx": "Y",
+        "ownvoices": "Y",
+        "bookBibnumber": 0,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0
+    },
+    {
+        "title": "If I See You Again Tomorrow",
+        "author": "Robbie Couch",
+        "fiction": "Y",
+        "romance": "Y",
+        "prose": "Y",
+        "africanamericanOrBlack": "Y",
+        "lgbtqia": "Y",
+        "mlmOrNblm": "Y",
+        "ownvoices": "Y",
+        "bookBibnumber": 0,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0
+    },
+    {
+        "title": "The Bones of Ruin",
+        "author": "Sarah Raughley",
+        "fantasy": "Y",
+        "historicalfiction": "Y",
+        "prose": "Y",
+        "africanamericanOrBlack": "Y",
+        "asianamericanAndPacificIslander": "Y",
+        "latinx": "Y",
+        "migrantstories": "Y",
+        "ownvoices": "Y",
+        "bookBibnumber": 0,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0
     }
-]
+];
 
 
 const all_tags = ["fiction", "nonfiction", "prose", "verse", "graphicnovel", "manga", "fantasy", "urbanfantasy", "dystopian", "scifi", "romance", "historicalfiction", "mythology", "memoirautobiograohy",
