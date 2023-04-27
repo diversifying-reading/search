@@ -1311,7 +1311,7 @@ const data = [
     },
     {
         "title": "Slip",
-        "author": "Marika McCoola, Aatmaja Pandajo",
+        "author": "Marika McCoola, Aatmaja Pandya",
         "fiction": "Y",
         "graphicnovel": "Y",
         "lgbtqia": "Y",
