@@ -31,7 +31,7 @@ function resize_sequence(){
 function switch_menu_state() {
   resize_sequence();
 
-  if(screenWidth <= 687){ // set sidenav screen size class
+  if(screenWidth <= 695){ // set sidenav screen size class
 		document.getElementById("sidenav").className = "sidenav_smallScreen";
 	}
 	else{
@@ -96,7 +96,7 @@ function switch_menu_state() {
 }
 
 function resize_sidenav(){
-	if(screenWidth <= 687){ // set sidenav screen size class
+	if(screenWidth <= 695){ // set sidenav screen size class
 		document.getElementById("sidenav").className = "sidenav_smallScreen";
 	}
 	else{
