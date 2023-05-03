@@ -40,7 +40,7 @@ function scroll_function(){
     scrollOnLoad = document.documentElement.scrollTop;
   }
 
-  let topnav_paddingTop = 17.5-(scrollFromOnLoad-30)/30;
+  let topnav_paddingTop = 17.5-(scrollFromOnLoad-30)/30 // 315: 8
 
   if(topnav_paddingTop < 8){
     topnav_paddingTop = 8;
@@ -50,6 +50,18 @@ function scroll_function(){
     topnav_paddingTop = 17.5;
   }
 
+  if(screenWidth > 696 && document.getElementById("diversifying-reading-topnav") != undefined){
+    document.getElementById("diversifying-reading-topnav").style.display = "";
+
+    if(topnav_paddingTop > 13){ // 12 - 17.5 5-10
+      document.getElementById("diversifying-reading-topnav").style.display = "none";
+    }
+    else{
+      document.getElementById("diversifying-reading-topnav").style.height = (13-12)*2 + 28 +"px";
+    }
+    document.getElementById("diversifying-reading-topnav").style.paddingBottom = (parseInt(document.getElementById("topnav").offsetHeight-(17.5-topnav_paddingTop)*5)/6 +  "px");
+    document.getElementById("diversifying-reading-topnav").style.paddingRight = "15px";
+  }
   if(screenWidth <= 1390){
     topnav_paddingTop = 8;
   }
@@ -72,7 +84,17 @@ function scroll_function(){
   }
 
   document.getElementById("sidenav").style.top = document.getElementById("topnav").offsetHeight + "px";
-
+  if(screenWidth > 696 && document.getElementById("diversifying-reading-topnav") != undefined){
+    if(screenWidth <= 1390){
+      document.getElementById("diversifying-reading-topnav").style.display = "";
+      document.getElementById("diversifying-reading-topnav").style.height = "30px";
+      document.getElementById("diversifying-reading-topnav").style.paddingBottom = "0.5px";
+      document.getElementById("diversifying-reading-topnav").style.paddingRight = "15px";
+    }
+    if(screenWidth < 1032){
+      document.getElementById("diversifying-reading-topnav").style.display = "none";
+    }
+  }
 }
 
 function resize_topnav(){
@@ -86,7 +108,7 @@ function resize_topnav(){
     optionsFormatted += "</option>"
   }
 
-  if(screenWidth <= 687 && document.getElementsByClassName("topnav_text")[0].style.height == ""){
+  if(screenWidth <= 696 && document.getElementsByClassName("topnav_text")[0].style.height == ""){
     document.getElementsByClassName("topnav_text")[0].innerHTML = '<select class="select" onchange="selectTopnavUpdate()">' + optionsFormatted + '</select>';
     document.getElementsByClassName("topnav_text")[0].style.height = "100%";
     document.getElementsByClassName("topnav_text")[0].style.width = document.getElementsByClassName("select")[0].offsetWidth+10 + "px";
@@ -98,7 +120,7 @@ function resize_topnav(){
 
     scroll_function();
   }
-  else if(screenWidth > 687 && document.getElementsByClassName("select").length > 0){
+  else if(screenWidth > 696 && document.getElementsByClassName("select").length > 0){
     document.getElementsByClassName("topnav_text")[0].style.height = "";
     document.getElementsByClassName("topnav_text")[0].style.paddingLeft = "14px";
     document.getElementsByClassName("topnav_text")[0].style.width = "";
@@ -106,13 +128,13 @@ function resize_topnav(){
 
     sidenav_openStatus = 2; //untouched
 
-    document.getElementsByClassName("topnav_text")[0].innerHTML = '\n  <a href="https://diversifying-reading.github.io/home/" class="topnav_text_links" style="float: left; padding-top: 8px; padding-bottom: 8px;">Home</a>\n  <a href="https://diversifying-reading.github.io/suggest/" class="topnav_text_links" style="float: right; padding-top: 8px; padding-bottom: 8px;">Suggest a Book</a>\n  <a href="https://diversifying-reading.github.io/resources/" class="topnav_text_links" style="float: right; padding-top: 8px; padding-bottom: 8px;">Resources</a>\n  <a href="https://diversifying-reading.github.io/search/" class="currentTextLink" style="float: right; padding-top: 8px; padding-bottom: 8px;">Catalog</a>\n  ';
+    document.getElementsByClassName("topnav_text")[0].innerHTML = '\n\t<a href="https://diversifying-reading.github.io/home/" id="home" class="topnav_text_links" style="float: left; padding-top: 8px; padding-bottom: 8px;">Home</a>\n  <a href="https://diversifying-reading.github.io/home/" style="text-decoration: none;"> <img src="images/topnav_text.png" id="diversifying-reading-topnav" style="height: 30px; padding-bottom: 0.5px; padding-right: 15px;">\n  <img src="images/favicon.png" id="topnav_logo" style="height: 36px; padding-top: 7.33333px;"></a>\n  <a href="https://diversifying-reading.github.io/suggest/" id="suggest" class="topnav_text_links" style="float: right; padding-top: 8px; padding-bottom: 8px;">Suggest a Book</a>\n  <a href="https://diversifying-reading.github.io/resources/" id="resources" class="topnav_text_links" style="float: right; padding-top: 8px; padding-bottom: 8px;">Resources</a>\n  <a href="https://diversifying-reading.github.io/search/" id="search" class="currentTextLink" style="float: right; padding-top: 8px; padding-bottom: 8px;">Catalog</a>\n  ';
     document.getElementById("menu_button").style.float = "left";
     document.getElementsByClassName('topnav_text')[0].style.marginLeft = "1vmin";
 
     scroll_function();
   }
-  if(screenWidth > 687){
+  if(screenWidth > 696 && document.getElementsByClassName("topnav_text").length > 0){
     document.getElementsByClassName("topnav_text")[0].style.fontSize = document.getElementById("topnav").offsetHeight/2 +"px";
     document.getElementsByClassName("topnav_text")[0].style.fontSize = parseFloat(document.getElementsByClassName("topnav_text")[0].style.fontSize) * document.getElementById("topnav").offsetHeight/document.getElementsByClassName("topnav_text")[0].offsetHeight;
   }
@@ -126,6 +148,25 @@ function resize_topnav(){
   document.getElementById("menu_button").style.paddingRight = document.getElementById("topnav").offsetHeight*2/7 +"px";
   document.getElementById("menu_button").style.paddingTop = (document.getElementById("topnav").offsetHeight-parseInt(document.getElementById("menu_button").style.height))/2-2.5 +"px";
   document.getElementById("menu_button").style.paddingBottom = (document.getElementById("topnav").offsetHeight-parseInt(document.getElementById("menu_button").style.height))/2-2.5 +"px";
+
+  if(screenWidth > 696 && document.getElementById("topnav_logo") != undefined){
+    if(document.getElementById("topnav_logo") != undefined){
+      document.getElementById("topnav_logo").style.display = "";
+      document.getElementById("topnav_logo").style.height = document.getElementById("topnav").offsetHeight*2/3 +"px";
+      document.getElementById("topnav_logo").style.paddingTop = (document.getElementById("topnav").offsetHeight-10)/6 +"px";
+    }
+  }
+  if(screenWidth < 765){
+    if(document.getElementById("topnav_logo") != undefined){
+      document.getElementById("topnav_logo").style.display = "none";
+    }
+    if(document.getElementById("diversifying-reading-text") != undefined){
+      document.getElementById("diversifying-reading-text").style.display = "none";
+    }
+  }
+  else if(document.getElementById("topnav_logo") != undefined){
+    document.getElementById("topnav_logo").style.display = "";
+  }
 }
 
 function mobileDevice() {
