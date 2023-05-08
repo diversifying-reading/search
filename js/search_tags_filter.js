@@ -57,14 +57,14 @@ function correct_url(){
 var paramString = url.split('?')[1];
 if(paramString == undefined || !url.includes("search=") && !url.includes("page=")){
   if (!url.includes("?") || !url.includes("search=") && !url.includes("page=")){
-    window.location.href = 'https://diversifying-reading.github.io/search/?' + required_tag_url_format + 'search=undefined&page=0';
+    window.location.href = 'https://search.diversereading.com/?' + required_tag_url_format + 'search=undefined&page=0';
   }
 }
 else if(!url.includes("search=") || !Boolean(parseInt(from_url("page"))>=0)){
-  window.location.href = 'https://diversifying-reading.github.io/search/?' + required_tag_url_format + 'search=' + from_url("search") + "&page=0";
+  window.location.href = 'https://search.diversereading.com/?' + required_tag_url_format + 'search=' + from_url("search") + "&page=0";
 }
 else if(!url.includes("page=")){
-  window.location.href = 'https://diversifying-reading.github.io/search/?' + required_tag_url_format + 'search=undefined&page=' + from_url("page");
+  window.location.href = 'https://search.diversereading.com/?' + required_tag_url_format + 'search=undefined&page=' + from_url("page");
 }
 
 let includesSearchParam = false;
