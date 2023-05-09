@@ -47,10 +47,10 @@ function linkToSLCPL(){
 }
 
 function nextPage(){
-  window.location.href = window.location.href.split("page=")[0] + "page=" + (parseInt(from_url("page")) + parseInt(1));
+  window.location.href = window.location.href.split("&page=")[0] + "&page=" + (parseInt(from_url("page")) + parseInt(1));
 }
 function previousPage(){
-  window.location.href = window.location.href.split("page=")[0] + "page=" + (parseInt(from_url("page")) + parseInt(-1));
+  window.location.href = window.location.href.split("&page=")[0] + "&page=" + (parseInt(from_url("page")) + parseInt(-1));
 }
 
 function correct_url(){
