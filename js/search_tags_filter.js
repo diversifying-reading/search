@@ -34,6 +34,8 @@ search_func();
 
 correct_url();
 
+data.forEach(add_bibnumbers);
+
 linkToSLCPL();
 
 function linkToSLCPL(){
@@ -57,14 +59,14 @@ function correct_url(){
 var paramString = url.split('?')[1];
 if(paramString == undefined || !url.includes("search=") && !url.includes("page=")){
   if (!url.includes("?") || !url.includes("search=") && !url.includes("page=")){
-    window.location.href = 'https://search.diversereading.com/?' + required_tag_url_format + 'search=undefined&page=0';
+    window.location.href = 'https://diversifying-reading.github.io/search/?' + required_tag_url_format + 'search=undefined&page=0';
   }
 }
 else if(!url.includes("search=") || !Boolean(parseInt(from_url("page"))>=0)){
-  window.location.href = 'https://search.diversereading.com/?' + required_tag_url_format + 'search=' + from_url("search") + "&page=0";
+  window.location.href = 'https://diversifying-reading.github.io/search/?' + required_tag_url_format + 'search=' + from_url("search") + "&page=0";
 }
 else if(!url.includes("page=")){
-  window.location.href = 'https://search.diversereading.com/?' + required_tag_url_format + 'search=undefined&page=' + from_url("page");
+  window.location.href = 'https://diversifying-reading.github.io/search/?' + required_tag_url_format + 'search=undefined&page=' + from_url("page");
 }
 
 let includesSearchParam = false;
@@ -182,7 +184,7 @@ function filter(value) {
   }
 
   for(var i = 0; i < book_tags.length; i++){
-    book_tags_string += "<a style='color: #000000;text-decoration: none;background-color: #cdbead;padding-left: 5px;padding-right: 5px;padding-top: 2px;padding-bottom: 2px;border-radius: 4px;' href='" + "https://search.diversereading.com/?" + book_tags[i] + "&search=undefined&page=0'>"
+    book_tags_string += "<a style='color: #000000;text-decoration: none;background-color: #cdbead;padding-left: 5px;padding-right: 5px;padding-top: 2px;padding-bottom: 2px;border-radius: 4px;' href='" + "https://diversifying-reading.github.io/search/?" + book_tags[i] + "&search=undefined&page=0'>"
     book_tags_string += display_book_tags(book_tags[i]);
     book_tags_string += "</a>"
     if (i < book_tags.length - 1){
@@ -238,14 +240,6 @@ function add_formated_to_filtered_data_list(value, book_tags_string){
     book_tags_string += '<h5> <a target="_blank" style="color:#591b83; text-decoration: none;" href="'+ goodreadsURL + '">More on Goodreads ></a> </h5>'
 
     books_html_list.push('<div class="book_format"> <img src="./images/covers/' + image_path + '" class="book_img">' + "<a class='linkToSLCPL' target='_blank'><img class='bookLink' src='./images/book_icon.jpeg' + style=top:" + String(book_padding*book_height_ratio*0.65) + "px;left:" + String(book_padding*0.37) +'px;></a>' + "<a class='linkToSLCPL' target:'_blank'> <img class='ebookLink' src='./images/ebook_icon.jpeg' + style=top:" + String(book_padding*book_height_ratio*0.65) + "px;left:" + String(book_padding*0.37) +'px;></a>' + "<a class='linkToSLCPL' target:'_blank'> <img class='audiobookLink' src='./images/audiobook_icon.jpeg' + style=top:" + String(book_padding*book_height_ratio*0.65) + "px;left:" + String(book_padding*0.37) +'px;></a>'+ '<div class="book_text"> <p style="display: block; font-size: 200%; font-weight: bold; margin-block-start: 0em; margin-block-end: 0em;">' + value.title + "</p>" + '<p style="display: block; font-size: 150%; font-weight: bold; margin-block-start: 0em; margin-block-end: 0em;">' + value.author + "</p>" + '<p>' + publishersSummary + '</p>' + "</div> <div style='margin:1%; padding-top:65%'> <h4 style='line-height:26px;margin-top:0px;word-break:break-word;'>" + book_tags_string + "</h4> </div></div>");
- 
-    bibnumbers = [];
-
-    bibnumbers.push(value.bookBibnumber);
-    bibnumbers.push(value.ebookBibnumber);
-    bibnumbers.push(value.audioBibnumber);
-
-    libraryBibnumbers.push(bibnumbers)
 }
 
 function search_func(){
@@ -345,4 +339,51 @@ function search_format(value){
 function search_and_tag_filter(value){ // search data list
   filtered_data += book_blocks[filtered_data_list.indexOf(value)];
   books_html += books_html_list[filtered_data_list.indexOf(value)];
+}
+
+function add_bibnumbers(value) {
+  var required_tag_count = required_tags.length;
+  var valid_tags = 0;
+  var book_tags = Object.keys(value);
+  var book_tags_string = '';
+
+  book_tags.shift(); //remove first two and last 4 tags (if last 4 tags exist)
+  book_tags.shift();
+  if(value.publishersSummary != undefined){
+    book_tags.pop();
+  }
+  if(value.audioBibnumber != undefined){
+    book_tags.pop();
+  }
+  if(value.ebookBibnumber != undefined){
+    book_tags.pop();
+  }
+  if(value.bookBibnumber != undefined){
+    book_tags.pop();
+  }
+
+  for(var i = 0; i < required_tag_count; i++) { //for each required tag; i=index value of required tag
+    var required_tag = required_tags[i];
+
+    if (book_tags.includes(required_tag)) { //if the book tags include the required tag
+      valid_tags += 1;
+    }
+
+  }
+
+  if (valid_tags == required_tag_count) { //if every required tag is in the book's tags
+    for(i=0; i<search_data_list.length; i++){
+      if(search_data_list[i].includes(value.title)){
+        // console.log(value.title + ", " + filtered_data_list.indexOf(search_data_list[i]));
+        bibnumbers = [];
+
+        bibnumbers.push(value.bookBibnumber);
+        bibnumbers.push(value.ebookBibnumber);
+        bibnumbers.push(value.audioBibnumber);
+
+        libraryBibnumbers.push(bibnumbers)
+      }
+    }
+  }
+
 }
