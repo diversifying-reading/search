@@ -47,10 +47,10 @@ function linkToSLCPL(){
 }
 
 function nextPage(){
-  window.location.href = window.location.href.split("&page=")[0] + "&page=" + (parseInt(from_url("page")) + parseInt(1));
+  window.location.href = window.location.href.split("page=")[0] + "page=" + (parseInt(from_url("page")) + parseInt(1));
 }
 function previousPage(){
-  window.location.href = window.location.href.split("&page=")[0] + "&page=" + (parseInt(from_url("page")) + parseInt(-1));
+  window.location.href = window.location.href.split("page=")[0] + "page=" + (parseInt(from_url("page")) + parseInt(-1));
 }
 
 function correct_url(){
@@ -62,12 +62,12 @@ if(paramString == undefined || !url.includes("search=") && !url.includes("page="
     window.location.href = 'https://diversifying-reading.github.io/search/?' + required_tag_url_format + 'search=undefined&page=0';
   }
 }
-else if(!url.includes("search=") || !Boolean(parseInt(from_url("page"))>=0)){
-  window.location.href = 'https://diversifying-reading.github.io/search/?' + required_tag_url_format + 'search=' + from_url("search") + "&page=0";
-}
-else if(!url.includes("page=")){
-  window.location.href = 'https://diversifying-reading.github.io/search/?' + required_tag_url_format + 'search=undefined&page=' + from_url("page");
-}
+// else if(!url.includes("search=") || !Boolean(parseInt(from_url("page"))>=0)){
+//   window.location.href = 'https://diversifying-reading.github.io/search/?' + required_tag_url_format + 'search=' + from_url("search") + "&page=0";
+// }
+// else if(!url.includes("page=")){
+//   window.location.href = 'https://diversifying-reading.github.io/search/?' + required_tag_url_format + 'search=undefined&page=' + from_url("page");
+// }
 
 let includesSearchParam = false;
 let otherParams = false;
@@ -153,12 +153,14 @@ if (paramString != '' && typeof paramString != "undefined"){
 
 function from_url(inputParam) {
   var paramString = url.split('?')[1];
+  var paramResults = [];
 if (paramString != '' && typeof paramString != "undefined"){
   for(let param of paramString.split('&')){
    if (param.includes(inputParam)){
-      return param.split('=')[1];
+      paramResults.push(param.split('=')[1]);
    }
   }
+  return paramResults[paramResults.length-1]
 }
 }
 
