@@ -6,6 +6,7 @@ const data = [
         "romance": "Y",
         "prose": "Y",
         "lgbtqia": "Y",
+        "wlwOrNblw": "Y",
         "bookBibnumber": 833301,
         "ebookBibnumber": 834599,
         "audioBibnumber": 841247,
@@ -2215,7 +2216,10 @@ const data = [
         "historicalfiction": "Y",
         "prose": "Y",
         "latinx": "Y",
-        "newAdultAdultBookWithTeenInterest": "Y"
+        "newAdultAdultBookWithTeenInterest": "Y",
+        "bookBibnumber": 0,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0
     },
     {
         "title": "When We Collided",
@@ -2412,7 +2416,10 @@ const data = [
         "title": "The Gravity of Missing Things",
         "author": "Marisa Urgo",
         "mysteryHorror": "Y",
-        "prose": "Y"
+        "prose": "Y",
+        "bookBibnumber": 0,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0
     },
     {
         "title": "The Guinevere Deception",
@@ -2584,7 +2591,10 @@ const data = [
         "lgbtqia": "Y",
         "mlmOrNblm": "Y",
         "ownvoices": "Y",
-        "newAdultAdultBookWithTeenInterest": "Y"
+        "newAdultAdultBookWithTeenInterest": "Y",
+        "bookBibnumber": 0,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0
     },
     {
         "title": "Life is Wonderful, People are Terrific",
@@ -2593,7 +2603,10 @@ const data = [
         "prose": "Y",
         "latinx": "Y",
         "lgbtqia": "Y",
-        "newAdultAdultBookWithTeenInterest": "Y"
+        "newAdultAdultBookWithTeenInterest": "Y",
+        "bookBibnumber": 0,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0
     },
     {
         "title": "Small Town Pride",
@@ -2677,7 +2690,8 @@ const data = [
         "ownvoices": "Y",
         "bookBibnumber": 747832,
         "ebookBibnumber": 0,
-        "audioBibnumber": 0
+        "audioBibnumber": 0,
+        "publishersSummary": "not avalible at slcpl"
     },
     {
         "title": "Honor Girl: A Graphic Memoir",
@@ -2874,7 +2888,8 @@ const data = [
         "nonbinary": "Y",
         "bookBibnumber": 902997,
         "ebookBibnumber": 855098,
-        "audioBibnumber": 855071
+        "audioBibnumber": 855071,
+        "publishersSummary": "In the holy city of Tova, the winter solstice is usually a time for celebration and renewal, but this year it coincides with a solar eclipse, a rare celestial event proscribed by the Sun Priest as an unbalancing of the world. Meanwhile, a ship launches from a distant city bound for Tova and is set to arrive on the solstice. The captain of the ship, Xiala, is a disgraced Teek whose song can calm the waters around her as easily as it can warp a man's mind. Her ship carries one passenger. Described as harmless, the passenger, Serapio, is a young man, blind, scarred, and cloaked in destiny. As Xiala well knows, when a man is described as harmless, he usually ends up being a villain.A god will return when the earth and sky converge under the black sun in the holy city of Tova."
     },
     {
         "title": "She Who Became the Sun",
@@ -3022,7 +3037,8 @@ const data = [
         "wlwOrNblw": "Y",
         "bookBibnumber": "22073989&db=3213",
         "ebookBibnumber": 0,
-        "audioBibnumber": 0
+        "audioBibnumber": 0,
+        "publishersSummary": "not available at slcpl"
     },
     {
         "title": "Ahmed Aziz's Epic Year",
@@ -3055,7 +3071,8 @@ const data = [
         "mutedeafblind": "Y",
         "bookBibnumber": "15993612&db=3213",
         "ebookBibnumber": 0,
-        "audioBibnumber": 0
+        "audioBibnumber": 0,
+        "publishersSummary": "not available at slcpl"
     },
     {
         "title": "What the Night Sings",
@@ -3090,7 +3107,8 @@ const data = [
         "lgbtqia": "Y",
         "bookBibnumber": 0,
         "ebookBibnumber": 0,
-        "audioBibnumber": 0
+        "audioBibnumber": 0,
+        "publishersSummary": "not available at slcpl"
     },
     {
         "title": "The Loophole",
@@ -3122,7 +3140,8 @@ const data = [
         "wlwOrNblw": "Y",
         "bookBibnumber": 974065,
         "ebookBibnumber": 0,
-        "audioBibnumber": 0
+        "audioBibnumber": 0,
+        "publishersSummary": "Seventeen-year-olds Kat Finn and Taylor Sanger, two queer bloodsuckers at an elite vampire-only boarding school, must go up against all of Vampirdom when they uncover a frightening conspiracy on campus."
     },
     {
         "title": "Everything You Wanted to Know About Indians but Were Afraid to Ask",
@@ -3226,7 +3245,8 @@ const data = [
         "asianamericanAndPacificIslander": "Y",
         "bookBibnumber": "21577294&db=3213",
         "ebookBibnumber": "21912127&db=3213",
-        "audioBibnumber": 0
+        "audioBibnumber": 0,
+        "publishersSummary": "Known as the the Weakest Hunter of All Mankind, E-rank hunter Jinwoo Sung's contribution to raids amounts to trying not to get killed. Unfortunately, between his mother's hospital bills, his sister's tuition, and his own lack of job prospects, he has no choice but to continue to put his life on the line. So when an opportunity arises for a bigger payout, he takes it...only to come face-to-face with a being whose power outranks anything he's ever seen! With the party leader missing an arm and the only healer a quivering mess, can Jinwoo someƯhow find them a way out?"
     },
     {
         "title": "Solo Leveling",
@@ -3295,7 +3315,8 @@ const data = [
         "mlmOrNblm": "Y",
         "bookBibnumber": 0,
         "ebookBibnumber": 0,
-        "audioBibnumber": 0
+        "audioBibnumber": 0,
+        "publishersSummary": "not available at slcpl"
     },
     {
         "title": "The Other Side of Perfect",
@@ -3306,7 +3327,8 @@ const data = [
         "ownvoices": "Y",
         "bookBibnumber": "21597036&db=3213",
         "ebookBibnumber": 0,
-        "audioBibnumber": 0
+        "audioBibnumber": 0,
+        "publishersSummary": "not available at slcpl"
     },
     {
         "title": "Perfectly Parvin",
@@ -3329,7 +3351,8 @@ const data = [
         "lgbtqia": "Y",
         "bookBibnumber": 901553,
         "ebookBibnumber": 0,
-        "audioBibnumber": 0
+        "audioBibnumber": 0,
+        "publishersSummary": "Return to the beloved world of Julie Murphy's #1 New York Times bestselling Dumplin'--now a popular Netflix feature film starring Jennifer Aniston--in this fabulously joyful, final companion novel about drag, prom, and embracing your inner Queen.\"--Publisher's description."
     },
     {
         "title": "Somewhere Between Bitter and Sweet",
@@ -3359,7 +3382,7 @@ const data = [
         "publishersSummary": "\"Anna Chiu has her hands full. When she's not looking after her brother and sister or helping out at her father's restaurant, she's taking care of her mother, whose debilitating mental illness keeps her in bed most days. Her father's new delivery boy Rory is a welcome distraction, and even though she knows that things aren't right at home, she's starting to feel like she could be a normal teen\""
     },
     {
-        "title": "Home is not a Country",
+        "title": "Home is Not a Country",
         "author": "Safia Elhillo",
         "fiction": "Y",
         "prose": "Y",
@@ -3401,7 +3424,8 @@ const data = [
         "wlwOrNblw": "Y",
         "bookBibnumber": 0,
         "ebookBibnumber": 0,
-        "audioBibnumber": 0
+        "audioBibnumber": 0,
+        "publishersSummary": "not available at slcpl"
     },
     {
         "title": "List of Ten",
@@ -3413,7 +3437,8 @@ const data = [
         "characterwithdisability": "Y",
         "bookBibnumber": "22534477&db=3213",
         "ebookBibnumber": 0,
-        "audioBibnumber": 0
+        "audioBibnumber": 0,
+        "publishersSummary": "not available at slcpl"
     },
     {
         "title": "Love in English",
@@ -3547,7 +3572,8 @@ const data = [
         "nativeamerican": "Y",
         "bookBibnumber": 0,
         "ebookBibnumber": 0,
-        "audioBibnumber": 0
+        "audioBibnumber": 0,
+        "publishersSummary": "not available at slcpl"
     },
     {
         "title": "Rabbit Chase",
@@ -3574,7 +3600,8 @@ const data = [
         "muslim": "Y",
         "bookBibnumber": "22555623&db=3213",
         "ebookBibnumber": "22563466&db=3213",
-        "audioBibnumber": 0
+        "audioBibnumber": 0,
+        "publishersSummary": "not available at slcpl"
     },
     {
         "title": "All Boys Aren't Blue",
@@ -3773,7 +3800,8 @@ const data = [
         "nativeamerican": "Y",
         "bookBibnumber": 957715,
         "ebookBibnumber": 0,
-        "audioBibnumber": 0
+        "audioBibnumber": 0,
+        "publishersSummary": "An Indigenous woman adopted by white parents goes in search of her identity in this unforgettable debut novel about family, race, and history. This is the story of a woman in search of herself, in every sense."
     },
     {
         "title": "Your Nostalgia Is Killing Me",
@@ -4039,7 +4067,8 @@ const data = [
         "ownvoices": "Y",
         "bookBibnumber": 0,
         "ebookBibnumber": 0,
-        "audioBibnumber": 0
+        "audioBibnumber": 0,
+        "publishersSummary": "not available at slcpl"
     },
     {
         "title": "Peta Lyre's Rating Normal",
@@ -4050,7 +4079,8 @@ const data = [
         "neurodiverdent": "Y",
         "bookBibnumber": 0,
         "ebookBibnumber": 0,
-        "audioBibnumber": 0
+        "audioBibnumber": 0,
+        "publishersSummary": "not available at slcpl"
     },
     {
         "title": "A Time to Dance",
@@ -4085,7 +4115,8 @@ const data = [
         "mutedeafblind": "Y",
         "bookBibnumber": 0,
         "ebookBibnumber": 0,
-        "audioBibnumber": 0
+        "audioBibnumber": 0,
+        "publishersSummary": "not available at slcpl"
     },
     {
         "title": "A Quiet Kind of Thunder",
@@ -4179,7 +4210,8 @@ const data = [
         "asianamericanAndPacificIslander": "Y",
         "bookBibnumber": 0,
         "ebookBibnumber": 0,
-        "audioBibnumber": 0
+        "audioBibnumber": 0,
+        "publishersSummary": "not available at slcpl"
     },
     {
         "title": "This Place is Still Beautiful",
@@ -4202,7 +4234,8 @@ const data = [
         "closetsafe": "Y",
         "bookBibnumber": 0,
         "ebookBibnumber": 0,
-        "audioBibnumber": 0
+        "audioBibnumber": 0,
+        "publishersSummary": "not available at slcpl"
     },
     {
         "title": "Yesterday is History",
@@ -4213,7 +4246,8 @@ const data = [
         "mlmOrNblm": "Y",
         "bookBibnumber": 897477,
         "ebookBibnumber": 0,
-        "audioBibnumber": 0
+        "audioBibnumber": 0,
+        "publishersSummary": "After a liver transplant, Andre suddenly becomes a time traveler, but is his soulmate Michael, who lives in 1969, or Blake, his donor's brother, who is training him in 2021?"
     },
     {
         "title": "Crown of Feathers",
@@ -4249,7 +4283,8 @@ const data = [
         "ownvoices": "Y",
         "bookBibnumber": 881128,
         "ebookBibnumber": 0,
-        "audioBibnumber": 0
+        "audioBibnumber": 0,
+        "publishersSummary": "Reeling from her father's coma and kissing a female teacher, seventeen-year-old Corazon suddenly finds herself in the Philippines with a half-brother she had never met."
     },
     {
         "title": "The Darkness Outside Us",
@@ -4359,7 +4394,8 @@ const data = [
         "wlwOrNblw": "Y",
         "bookBibnumber": 0,
         "ebookBibnumber": 0,
-        "audioBibnumber": 0
+        "audioBibnumber": 0,
+        "publishersSummary": "not available at slcpl"
     },
     {
         "title": "Jay's Gay Agenda",
@@ -4499,7 +4535,8 @@ const data = [
         "ownvoices": "Y",
         "bookBibnumber": 0,
         "ebookBibnumber": 0,
-        "audioBibnumber": 0
+        "audioBibnumber": 0,
+        "publishersSummary": "not available at slcpl"
     },
     {
         "title": "Ophelia After All",
@@ -4523,7 +4560,8 @@ const data = [
         "ownvoices": "Y",
         "bookBibnumber": 0,
         "ebookBibnumber": 0,
-        "audioBibnumber": 0
+        "audioBibnumber": 0,
+        "publishersSummary": "not available at slcpl"
     },
     {
         "title": "This Is Why They Hate Us",
@@ -4550,7 +4588,8 @@ const data = [
         "ownvoices": "Y",
         "bookBibnumber": 0,
         "ebookBibnumber": 487654,
-        "audioBibnumber": 296175
+        "audioBibnumber": 296175,
+        "publishersSummary": "not available at slcpl"
     },
     {
         "title": "The Ghosts of Rose Hill",
@@ -4718,7 +4757,8 @@ const data = [
         "depression": "Y",
         "bookBibnumber": 0,
         "ebookBibnumber": 0,
-        "audioBibnumber": 0
+        "audioBibnumber": 0,
+        "publishersSummary": "Adam Thorn doesn't know it yet, but today will change his life. Between his religious family, a deeply unpleasant ultimatum from his boss, and his own unrequited love for his sort-of ex, Enzo, it seems as though Adam's life is falling apart. At least he has two people to keep him sane: his new boyfriend (he does love Linus, doesn't he?) and his best friend, Angela. But all day long, old memories and new heartaches come crashing together, throwing Adam's life into chaos. The bindings of his world are coming untied one by one; yet in spite of everything he has to let go, he may also find freedom in the release. Time is running out, though. Because way across town, a ghost has just risen from the lake."
     },
     {
         "title": "My Heart and Other Black Holes",
@@ -4778,7 +4818,8 @@ const data = [
         "depression": "Y",
         "bookBibnumber": 983248,
         "ebookBibnumber": 0,
-        "audioBibnumber": 0
+        "audioBibnumber": 0,
+        "publishersSummary": "As a preacher's daughter, Monique is expected to be an example at church although she hates its restrictive rules. When she discovers she physically cannot have sex, and after her boyfriend breaks up with her for that reason, two unexpected teens from church become her main supports as she desperately tries to break the rules against all the odds."
     },
     {
         "title": "The Brilliant Death",
@@ -4803,7 +4844,8 @@ const data = [
         "trans": "Y",
         "bookBibnumber": 881094,
         "ebookBibnumber": 0,
-        "audioBibnumber": 0
+        "audioBibnumber": 0,
+        "publishersSummary": "Forced to search for an ancient fae relic on behalf of a sadistic royal sorcerer, a streetwise thief discovers that the relic is actually an ancient, distractingly handsome fae prince who becomes his unlikely partner in an effort to save both of their worlds."
     },
     {
         "title": "All of This is True",
@@ -4891,7 +4933,8 @@ const data = [
         "ownvoices": "Y",
         "bookBibnumber": 0,
         "ebookBibnumber": 0,
-        "audioBibnumber": 0
+        "audioBibnumber": 0,
+        "publishersSummary": "not available at slcpl"
     },
     {
         "title": "Only on the Weekends",
@@ -4905,7 +4948,8 @@ const data = [
         "ownvoices": "Y",
         "bookBibnumber": 965420,
         "ebookBibnumber": 0,
-        "audioBibnumber": 0
+        "audioBibnumber": 0,
+        "publishersSummary": "The son of a film director, Mack grows up on set and into a hopeless romantic -- one who falls hard for the handsome and popular Karim, who eventually notices him back, right before Mack has to relocate to Scotland. Not wanting to lose his first love, Mack asks Karim to be long-distance, but while they're trying, fearless and confident Finlay shows up on set, and Mack's world turns upside down yet again."
     },
     {
         "title": "Nothing Burns as Bright as You",
@@ -4968,7 +5012,8 @@ const data = [
         "mlmOrNblm": "Y",
         "bookBibnumber": 0,
         "ebookBibnumber": 0,
-        "audioBibnumber": 0
+        "audioBibnumber": 0,
+        "publishersSummary": "not available at slcpl"
     },
     {
         "title": "I Kissed Shara Wheeler",
@@ -5006,7 +5051,8 @@ const data = [
         "wlwOrNblw": "Y",
         "bookBibnumber": 947579,
         "ebookBibnumber": 0,
-        "audioBibnumber": 73818
+        "audioBibnumber": 73818,
+        "publishersSummary": "You should know, right now, that I'm a liar. They're usually little lies. Tiny lies. Baby lies. Not so much lies as lie adjacent. But they're still lies. Twenty one-year-old Max Monroe has it all: beauty, friends, and a glittering life filled with adventure. With tons of followers on Instagram, her picture-perfect existence seems eminently enviable. Except it's all fake. Max is actually 16-year-old Kat Sanchez, a quiet and sarcastic teenager living in drab Bakersfield, California. Nothing glamorous in her existence--just sprawl, bad house parties, a crap school year, and the awkwardness of dealing with her best friend Hari's unrequited love. But while Kat's life is far from perfect, she thrives as Max: doling out advice, sharing beautiful photos, networking with famous influencers, even making a real friend in a follower named Elena. The closer Elena and \"Max\" get--texting, Snapping, and even calling--the more Kat feels she has to keep up the façade. But when one of Max's posts goes ultra-viral and gets back to the very person she's been stealing photos from, her entire world - real and fake -- comes crashing down around her. She has to figure out a way to get herself out of the huge web of lies she's created without hurting the people she loves. But it might already be too late."
     },
     {
         "title": "Jade Fire Gold",
@@ -5053,7 +5099,8 @@ const data = [
         "ownvoices": "Y",
         "bookBibnumber": 803145,
         "ebookBibnumber": 802716,
-        "audioBibnumber": 804157
+        "audioBibnumber": 804157,
+        "publishersSummary": "Maia Tamarin dreams of becoming the greatest tailor in the land, but as a girl, the best she can hope for is to marry well. When a royal messenger summons her ailing father, once a tailor of renown, to court, Maia poses as a boy and takes his place. She knows her life is forfeit if her secret is discovered, but she'll take that risk to achieve her dream and save her family from ruin. There's just one catch--Maia is one of twelve tailors vying for the job. Backstabbing and lies run rampant as the tailors compete in challenges to prove their artistry and skill. Maia's task is further complicated when she draws the attention of the court magician, Edan, whose piercing eyes seem to see straight through her disguise."
     },
     {
         "title": "Forest of a Thousand Lanterns",
@@ -5076,7 +5123,8 @@ const data = [
         "ownvoices": "Y",
         "bookBibnumber": 793808,
         "ebookBibnumber": 97361,
-        "audioBibnumber": 884711
+        "audioBibnumber": 884711,
+        "publishersSummary": "Set in a richly detailed world inspired by ancient Arabia, Hafsah Faizal's We Hunt the Flame--first in the Sands of Arawiya series--is a gripping debut of discovery, conquering fear, and taking identity into your own hands. People lived because she killed. People died because he lived. Zafira is the Hunter, disguising herself as a man when she braves the cursed forest of the Arz to feed her people. Nasir is the Prince of Death, assassinating those foolish enough to defy his autocratic father, the sultan. If Zafira was exposed as a girl, all of her achievements would be rejected; if Nasir displayed his compassion, his father would punish him in the most brutal of ways. Both Zafira and Nasir are legends in the kingdom of Arawiya--but neither wants to be.War is brewing, and the Arz sweeps closer with each passing day, engulfing the land in shadow. When Zafira embarks on a quest to uncover a lost artifact that can restore magic to her suffering world and stop the Arz, Nasir is sent by the sultan on a similar mission: retrieve the artifact and kill the Hunter. But an ancient evil stirs as their journey unfolds--and the prize they seek may pose a threat greater than either can imagine."
     },
     {
         "title": "The Wrath & the Dawn",
@@ -5125,7 +5173,8 @@ const data = [
         "muslim": "Y",
         "bookBibnumber": 0,
         "ebookBibnumber": 0,
-        "audioBibnumber": 0
+        "audioBibnumber": 0,
+        "publishersSummary": "not available at slcpl"
     },
     {
         "title": "Rebel of the Sands",
@@ -5161,7 +5210,8 @@ const data = [
         "ownvoices": "Y",
         "bookBibnumber": 767231,
         "ebookBibnumber": 809476,
-        "audioBibnumber": 0
+        "audioBibnumber": 0,
+        "publishersSummary": "When their father names a male cousin as next ruler of the Empire of the First Flame, Lu must go on the run to reclaim her birthright, leaving her younger, timid sister, Min, to discover her own hidden power."
     },
     {
         "title": "Reign the Earth",
@@ -5197,6 +5247,9 @@ const data = [
         "fiction": "Y",
         "prose": "Y",
         "invisibledisability": "Y",
+        "bookBibnumber": 0,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 703476,
         "publishersSummary": "Norah has agoraphobia and OCD. When groceries are left on the porch, she can't step out to get them. Struggling to snag the bags with a stick, she meets Luke. He's sweet and funny, and he just caught her fishing for groceries. Because of course he did. Norah can't leave the house, but can she let someone in? As their friendship grows deeper, Norah realizes Luke deserves a normal girl. One who can lie on the front lawn and look up at the stars. One who isn't so screwed up. Listeners themselves will fall in love with Norah in this poignant, humorous, and deeply engaging portrait of a teen struggling to find the strength to face her demons"
     },
     {
@@ -5205,6 +5258,9 @@ const data = [
         "fiction": "Y",
         "prose": "Y",
         "invisibledisability": "Y",
+        "bookBibnumber": 515021,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0,
         "publishersSummary": "Armed with her camera and a Magic 8-Ball and her only ally (her little sister), Alex wages a war against her schizophrenia, determined to stay sane long enough to get into college"
     },
     {
@@ -5217,6 +5273,9 @@ const data = [
         "invisibledisability": "Y",
         "characterwithdisability": "Y",
         "neurodiverdent": "Y",
+        "bookBibnumber": 747823,
+        "ebookBibnumber": 963248,
+        "audioBibnumber": 0,
         "publishersSummary": "An anthology of stories in various genres, featuring disabled characters and written by disabled creators, ranging from established best selling authors to debut authors."
     },
     {
@@ -5225,6 +5284,9 @@ const data = [
         "fantasy": "Y",
         "prose": "Y",
         "asianamericanAndPacificIslander": "Y",
+        "bookBibnumber": 901964,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0,
         "publishersSummary": "Sirscha Ashwyn comes from nothing, but she's intent on becoming something. After years of training to become the queen's next royal spy, her plans are derailed when shamans attack and kill her best friend Saengo. And then Sirscha, somehow, restores Saengo to life. Unveiled as the first soulguide in living memory, Sirscha is summoned to the domain of the Spider King. For centuries, he has used his influence over the Dead Wood--an ancient forest possessed by souls--to enforce peace between the kingdoms. Now, with the trees growing wild and untamed, only a soulguide can restrain them. As war looms, Sirscha must master her newly awakened abilities before the trees shatter the brittle peace, or worse, claim Saengo, the friend she would die for."
     },
     {
@@ -5233,6 +5295,9 @@ const data = [
         "historicalfiction": "Y",
         "prose": "Y",
         "africanamericanOrBlack": "Y",
+        "bookBibnumber": 881221,
+        "ebookBibnumber": 882896,
+        "audioBibnumber": 882745,
         "publishersSummary": "If there's one thing seventeen-year-old Maverick Carter knows, it's that a real man takes care of his family. As the son of a former gang legend, Mav does that the only way he knows how: dealing for the King Lords. With this money he can help his mom, who works two jobs while his dad's in prison. Life's not perfect, but with a fly girlfriend and a cousin who always has his back, Mav's got everything under control. Until he finds out he's a father. Suddenly he has a baby, Seven, who depends on him for everything. But it's not so easy to sling dope, finish school, and raise a child. So when he's offered the chance to go straight, he takes it. In a world where he's expected to amount to nothing, maybe Mav can prove he's different. With King Lord blood running through his veins, though, he can't just walk away."
     },
     {
@@ -5245,6 +5310,9 @@ const data = [
         "wlwOrNblw": "Y",
         "mentalhealth": "Y",
         "depression": "Y",
+        "bookBibnumber": 557505,
+        "ebookBibnumber": 558654,
+        "audioBibnumber": 0,
         "publishersSummary": "Minutes after the principal of Opportunity High School in Alabama finishes her speech welcoming the student body to a new semester, they discover that the auditorium doors will not open and someone starts shooting as four teens, each with a personal reason to fear the shooter, tell the tale from separate perspectives."
     },
     {
@@ -5254,6 +5322,9 @@ const data = [
         "romance": "Y",
         "prose": "Y",
         "africanamericanOrBlack": "Y",
+        "bookBibnumber": 0,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0,
         "publishersSummary": "Carli and Rex have an immediate connection, an understanding that must mean first love, but family secrets, disappointments--and basketball, which holds center stage in both their lives--all create complications"
     },
     {
@@ -5263,7 +5334,11 @@ const data = [
         "prose": "Y",
         "africanamericanOrBlack": "Y",
         "asianamericanAndPacificIslander": "Y",
-        "lgbtqia": "Y"
+        "lgbtqia": "Y",
+        "bookBibnumber": 0,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0,
+        "publishersSummary": "not available at slcpl"
     },
     {
         "title": "Not Here to be Liked",
@@ -5274,6 +5349,9 @@ const data = [
         "africanamericanOrBlack": "Y",
         "asianamericanAndPacificIslander": "Y",
         "migrantstories": "Y",
+        "bookBibnumber": 929309,
+        "ebookBibnumber": 941477,
+        "audioBibnumber": 0,
         "publishersSummary": "After losing the editor-in-chief job of the student newspaper to inexperienced newcomer Len, Eliza inadvertently starts a feminist movement in her school, but amid growing tensions within the school, she begins developing feelings for Len."
     },
     {
@@ -5283,6 +5361,9 @@ const data = [
         "prose": "Y",
         "lgbtqia": "Y",
         "trans": "Y",
+        "bookBibnumber": 928158,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0,
         "publishersSummary": "After escaping her abusive family's interstellar merchant ship, seventeen-year-old Pendt lands on a remote space station run by the Brannick twins, and together they make plans to thwart the destinies they never wanted."
     },
     {
@@ -5293,6 +5374,9 @@ const data = [
         "asianamericanAndPacificIslander": "Y",
         "migrantstories": "Y",
         "ownvoices": "Y",
+        "bookBibnumber": 831167,
+        "ebookBibnumber": 879311,
+        "audioBibnumber": 0,
         "publishersSummary": "Years after the evil Snow Queen desolated the magical kingdom of Avalon, Prince Alexei, his friend Tala, and a ragtag band, inspired by the appearance of the Firebird, try to reclaim their land."
     },
     {
@@ -5303,6 +5387,9 @@ const data = [
         "africanamericanOrBlack": "Y",
         "ownvoices": "Y",
         "mentalhealth": "Y",
+        "bookBibnumber": 901547,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0,
         "publishersSummary": "A teen journalist uncovers the #metoo scandal of the decade: a bigshot Hollywood director is taking advantage of cast members"
     },
     {
@@ -5312,6 +5399,9 @@ const data = [
         "prose": "Y",
         "africanamericanOrBlack": "Y",
         "asianamericanAndPacificIslander": "Y",
+        "bookBibnumber": 850271,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0,
         "publishersSummary": "Bound for humanity's new colony planet, seventeen-year-old Andra wakes up from a cryogenic sleep 1,000 years later than scheduled, forcing her to navigate an unfamiliar planet where technology is considered magic and its practitioners revered as deities."
     },
     {
@@ -5320,7 +5410,11 @@ const data = [
         "historicalfiction": "Y",
         "prose": "Y",
         "asianamericanAndPacificIslander": "Y",
-        "ownvoices": "Y"
+        "ownvoices": "Y",
+        "bookBibnumber": 931235,
+        "ebookBibnumber": 952798,
+        "audioBibnumber": 0,
+        "publishersSummary": "Told in two voices, fifteen-year-old Copper struggles to confront inevitable and enormous change after his father's death and his uncle writes to him in a journal, sharing knowledge and advice in 1937 Japan."
     },
     {
         "title": "Skin of the Sea",
@@ -5329,6 +5423,9 @@ const data = [
         "prose": "Y",
         "africanamericanOrBlack": "Y",
         "ownvoices": "Y",
+        "bookBibnumber": 928177,
+        "ebookBibnumber": 970260,
+        "audioBibnumber": 941473,
         "publishersSummary": "Transformed by the goddess Yemoja into a Mami Wati, an African mermaid charged with collecting the souls of those who die at sea, Simi goes against the gods to save a living boy, Kola, from drowning."
     },
     {
@@ -5341,7 +5438,10 @@ const data = [
         "asianamericanAndPacificIslander": "Y",
         "lgbtqia": "Y",
         "wlwOrNblw": "Y",
-        "publishersSummary": "The second floor of the gym. That's our spot. Class is in session right now, but they don't hold class in a place like this. This is where Shimamura and I became friends. What is this feeling? Yesterday, I dreamed of kissing her. I'm not like that, and I'm sure Shimamura isn't either. But...when Shimamura thinks of the word friend, I want to be the first thing that comes to her mind. That's all."
+        "bookBibnumber": 982076,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0,
+        "publishersSummary": "The second floor of the gym. That's our spot. Class is in session right now, but they don't hold class in a place like this. This is where Shimamura and I became friends. What is this feeling? Yesterday, I dreamed of kissing her. I'm not like that, and I'm sure Shimamura isn't either. But...when Shimamura thinks of the word friend, I want to be the first thing that comes to her mind. That's all"
     },
     {
         "title": "Catch These Hands",
@@ -5352,6 +5452,9 @@ const data = [
         "manga": "Y",
         "asianamericanAndPacificIslander": "Y",
         "lgbtqia": "Y",
+        "bookBibnumber": 982079,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0,
         "publishersSummary": "Back in the day, Takebe was a tough-as-nails delinquent who could throw hands with anyone. But right when she finally decides to leave her old ways behind, Takebe has a surprise reunion with her old rival, the \"Bloody Cardigan\" Soramori. After all these years, she still wants a piece of Takebe--but not in the way anyone expected! Her proposal: If Soramori can beat Takebe in a fight, they have to start dating?!"
     },
     {
@@ -5362,6 +5465,9 @@ const data = [
         "manga": "Y",
         "asianamericanAndPacificIslander": "Y",
         "lgbtqia": "Y",
+        "bookBibnumber": 982081,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0,
         "publishersSummary": "Fujishiro Nanaki is super cute, super popular, and super annoyed with anyone as plain as her classmate Kurokawa Kanade. When Nanaki finds out her boyfriend's cheating on her, however, her life makes a complete 180--as does her relationship with Kanade."
     },
     {
@@ -5371,16 +5477,23 @@ const data = [
         "prose": "Y",
         "invisibledisability": "Y",
         "neurodiverdent": "Y",
+        "bookBibnumber": 708832,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 730951,
         "publishersSummary": "Alvie Fitz doesn't fit in, and she doesn't care. She's spent years swallowing meds and bad advice from doctors and social workers. Adjust, adapt. Pretend to be normal. It sounds so easy. If she can make it to her eighteenth birthday without any major mishaps, she'll be legally emancipated. Free. But if she fails, she'll become a ward of the state and be sent back to the group home"
     },
     {
-        "title": "A Girl on the Line",
+        "title": "Girl on the Line",
         "author": "Faith Gardner",
         "fiction": "Y",
         "prose": "Y",
         "ownvoices": "Y",
         "mentalhealth": "Y",
-        "depression": "Y"
+        "depression": "Y",
+        "bookBibnumber": 0,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0,
+        "publishersSummary": "Journey hadn't planned for a future, but when her suicide attempt fails she finds the life she never meant to live challenging in more ways than before: her parents don't trust her, her friends have moved on for their own good, her bipolar disorder is overwhelming. At odds with herself and lacking concrete goals, she begins volunteering at a local helpline, where she finds a community as strong yet broken as she is."
     },
     {
         "title": "The Dangerous Art of Blending In",
@@ -5392,7 +5505,11 @@ const data = [
         "mlmOrNblm": "Y",
         "migrantstories": "Y",
         "ownvoices": "Y",
-        "mentalhealth": "Y"
+        "mentalhealth": "Y",
+        "bookBibnumber": 706517,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0,
+        "publishersSummary": "Seventeen-year-old Evan struggles to deal with his mother's abuse and his new feelings for his friend Henry."
     },
     {
         "title": "American Panda",
@@ -5400,7 +5517,11 @@ const data = [
         "fiction": "Y",
         "prose": "Y",
         "asianamericanAndPacificIslander": "Y",
-        "migrantstories": "Y"
+        "migrantstories": "Y",
+        "bookBibnumber": 706140,
+        "ebookBibnumber": 722489,
+        "audioBibnumber": 795216,
+        "publishersSummary": "A freshman at MIT, seventeen-year-old Mei Lu tries to live up to her Taiwanese parents' expectations, but no amount of tradition, obligation, or guilt prevent her from hiding several truths--that she is a germaphobe who cannot become a doctor, she prefers dancing to biology, she decides to reconnect with her estranged older brother, and she is dating a Japanese boy."
     },
     {
         "title": "The Black Flamingo",
@@ -5409,6 +5530,9 @@ const data = [
         "verse": "Y",
         "latinx": "Y",
         "lgbtqia": "Y",
+        "bookBibnumber": 829727,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0,
         "publishersSummary": "Michael is a mixed-race gay teen growing up in London. All his life, he's navigated what it means to be Greek-Cypriot and Jamaican--but never quite feeling Greek or Black enough. As he gets older, Michael's coming out is only the start of learning who he is and where he fits in. When he discovers the Drag Society, he finally finds where he belongs--and the Black Flamingo is born. Told with raw honesty, insight, and lyricism, this debut explores the layers of identity that make us who we are--and allow us to shine."
     },
     {
@@ -5416,7 +5540,11 @@ const data = [
         "author": "Michelle Ruiz Keil",
         "urbanfantasy": "Y",
         "prose": "Y",
-        "latinx": "Y"
+        "latinx": "Y",
+        "bookBibnumber": 0,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0,
+        "publishersSummary": "not available at slcpl"
     },
     {
         "title": "The Gilded Wolves",
@@ -5430,6 +5558,9 @@ const data = [
         "ownvoices": "Y",
         "jewish": "Y",
         "neurodiverdent": "Y",
+        "bookBibnumber": 765215,
+        "ebookBibnumber": 773887,
+        "audioBibnumber": 0,
         "publishersSummary": "Set in a darkly glamorous world The Gilded Wolves is full of mystery, decadence and dangerous but thrilling adventure. Paris, 1889: The world is on the cusp of industry and power, and the Exposition Universelle has breathed new life into the streets and dredged up ancient secrets. In this city, no one keeps tabs on secrets better than treasure-hunter and wealthy hotelier, Séverin Montagnet-Alarie. But when the all-powerful society, the Order of Babel, seeks him out for help, Séverin is offered a treasure that he never imagined: his true inheritance. To find the ancient artifact the Order seeks, Séverin will need help from a band of experts: An engineer with a debt to pay. A historian who can't yet go home. A dancer with a sinister past. And a brother in all but blood, who might care too much. Together, they'll have to use their wits and knowledge to hunt the artifact through the dark and glittering heart of Paris. What they find might change the world, but only if they can stay alive."
     },
     {
@@ -5438,7 +5569,11 @@ const data = [
         "historicalfiction": "Y",
         "prose": "Y",
         "lgbtqia": "Y",
-        "mlmOrNblm": "Y"
+        "mlmOrNblm": "Y",
+        "bookBibnumber": 929790,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0,
+        "publishersSummary": "Rose Montgomery parks her family's trailer in Fort Glory, Oregon to carve out a new life for herself and her little brother, Charlie. They need a fresh start for their family, and she thinks she's finally found it in a town where nobody knows them. Then Fort Glory disappears and every person in town vanishes into thin air-- including Charlie. Rose and four other teens become trapped in the Fold, a patch of woods caught halfway between the real world and the lost town. A mysterious force suspends the laws of physics, and everyone's inner darkness has the power to kill. To survive, Rose must unravel the clues Charlie sends her from the missing town-- before he's gone forever."
     },
     {
         "title": "Tarnished are the Stars",
@@ -5448,6 +5583,9 @@ const data = [
         "lgbtqia": "Y",
         "aroace": "Y",
         "closetsafe": "Y",
+        "bookBibnumber": 818750,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0,
         "publishersSummary": "A secret beats inside Anna Thatcher's chest: an illegal clockwork heart. Anna works cog by cog--donning the moniker Technician--to supply black market medical technology to the sick and injured, against the Commissioner's tyrannical laws. Nathaniel Fremont, the Commissioner's son, has never had to fear the law. Determined to earn his father's respect, Nathaniel sets out to capture the Technician. But the more he learns about the outlaw, the more he questions whether his father's elusive affection is worth chasing at all."
     },
     {
@@ -5457,7 +5595,11 @@ const data = [
         "prose": "Y",
         "lgbtqia": "Y",
         "aroace": "Y",
-        "closetsafe": "Y"
+        "closetsafe": "Y",
+        "bookBibnumber": 0,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0,
+        "publishersSummary": "not available at slcpl"
     },
     {
         "title": "That's Not What Happened",
@@ -5466,7 +5608,11 @@ const data = [
         "prose": "Y",
         "lgbtqia": "Y",
         "aroace": "Y",
-        "closetsafe": "Y"
+        "closetsafe": "Y",
+        "bookBibnumber": 738524,
+        "ebookBibnumber": 756364,
+        "audioBibnumber": 0,
+        "publishersSummary": "In the three years since the Virgil County High School Massacre, a story has grown up around one of the victims, Sarah McHale, that says she died proclaiming her Christian faith--but Leanne Bauer was there, and knows what happened, and she has a choice: stay silent and let people believe in Sarah's martyrdom, or tell the truth."
     },
     {
         "title": "Summer Bird Blue",
@@ -5476,7 +5622,11 @@ const data = [
         "lgbtqia": "Y",
         "aroace": "Y",
         "closetsafe": "Y",
-        "mentalhealth": "Y"
+        "mentalhealth": "Y",
+        "bookBibnumber": 741997,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0,
+        "publishersSummary": "After her sister and songwriting partner, Lea, dies in an automobile accident, seventeen-year-old Rumi is sent to Hawaii with an aunt she barely knows while she and her mother grieve separately."
     },
     {
         "title": "Summer of Salt",
@@ -5485,7 +5635,11 @@ const data = [
         "prose": "Y",
         "lgbtqia": "Y",
         "aroace": "Y",
-        "closetsafe": "Y"
+        "closetsafe": "Y",
+        "bookBibnumber": 727524,
+        "ebookBibnumber": 756361,
+        "audioBibnumber": 0,
+        "publishersSummary": "Magic passed down through generations. An island where strange things happen. One summer that will become legend."
     },
     {
         "title": "Dare Mighty Things",
@@ -5495,7 +5649,11 @@ const data = [
         "asianamericanAndPacificIslander": "Y",
         "lgbtqia": "Y",
         "aroace": "Y",
-        "closetsafe": "Y"
+        "closetsafe": "Y",
+        "bookBibnumber": 0,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0,
+        "publishersSummary": "not available at slcpl"
     },
     {
         "title": "My Mechanical Romance",
@@ -5503,6 +5661,9 @@ const data = [
         "fiction": "Y",
         "prose": "Y",
         "asianamericanAndPacificIslander": "Y",
+        "bookBibnumber": 0,
+        "ebookBibnumber": 1012405,
+        "audioBibnumber": 970407,
         "publishersSummary": "Bel would rather die than think about the future. College apps? You're funny. Extracurriculars? Not a chance. But when she accidentally reveals a talent for engineering at school, she's basically forced into joining the robotics club. Even worse? All the boys ignore Bel--and Neelam, the only other girl on the team, doesn't seem to like her either. Enter Mateo Luna, captain of the club, who recognizes Bel as a potential asset--until they start butting heads. Bel doesn't care about Nationals, while Teo cares too much. But as the nights of after-school work grow longer and longer, Bel and Teo realize they've built more than just a combat-ready robot for the championship: they've made space for each other and themselves. Sharply funny with a slow-burn, all-the-feels romance, Alexene Farol Follmuth's My Mechanical Romance explores both the challenges girls of color face in STEM and the vulnerability of first love with unfailing wit and honesty."
     },
     {
@@ -5511,7 +5672,11 @@ const data = [
         "fiction": "Y",
         "prose": "Y",
         "characterwithdisability": "Y",
-        "mutedeafblind": "Y"
+        "mutedeafblind": "Y",
+        "bookBibnumber": 0,
+        "ebookBibnumber": 963278,
+        "audioBibnumber": 0,
+        "publishersSummary": "Bo Dickinson is a seventeen-year-old girl from a bad family, but she is also over-protected, legally blind, Agnes Atwood's best friend--so when Bo calls in the middle of the night, desperate to get out of town, Agnes helps her to steal the Atwoods' car and the two girls go on the run, even though Agnes is not sure exactly what they are running from."
     },
     {
         "title": "The One Thing",
@@ -5519,7 +5684,11 @@ const data = [
         "fiction": "Y",
         "prose": "Y",
         "characterwithdisability": "Y",
-        "mutedeafblind": "Y"
+        "mutedeafblind": "Y",
+        "bookBibnumber": 0,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0,
+        "publishersSummary": "not available at slcpl"
     },
     {
         "title": "Not If I See You First",
@@ -5527,7 +5696,11 @@ const data = [
         "fiction": "Y",
         "prose": "Y",
         "characterwithdisability": "Y",
-        "mutedeafblind": "Y"
+        "mutedeafblind": "Y",
+        "bookBibnumber": 0,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0,
+        "publishersSummary": "not available at slcpl"
     },
     {
         "title": "The Summer of Lost Letters",
@@ -5538,6 +5711,9 @@ const data = [
         "migrantstories": "Y",
         "ownvoices": "Y",
         "jewish": "Y",
+        "bookBibnumber": 950024,
+        "ebookBibnumber": 913391,
+        "audioBibnumber": 0,
         "publishersSummary": "The discovery of a packet of old letters sends seventeen-year-old Abby Schoenberg to Nantucket to unravel a family mystery about her grandmother's past, but things get complicated when Abby meets the cute grandson of a prominent family who wants to stop her from investigating."
     },
     {
@@ -5547,7 +5723,11 @@ const data = [
         "prose": "Y",
         "africanamericanOrBlack": "Y",
         "migrantstories": "Y",
-        "ownvoices": "Y"
+        "ownvoices": "Y",
+        "bookBibnumber": 637151,
+        "ebookBibnumber": 722327,
+        "audioBibnumber": 722019,
+        "publishersSummary": "American Street is an evocative and powerful coming-of-age story perfect for fans of Everything, Everything; Bone Gap; and All American Boys. In this stunning debut novel, Pushcart-nominated author Ibi Zoboi draws on her own experience as a young Haitian immigrant, infusing this lyrical exploration of America with magical realism and vodou culture. On the corner of American Street and Joy Road, Fabiola Toussaint thought she would finally find une belle vie--a good life. But after they leave Port-au-Prince, Haiti, Fabiola's mother is detained by U.S. immigration, leaving Fabiola to navigate her loud American cousins, Chantal, Donna, and Princess; the grittiness of Detroit's west side; a new school; and a surprising romance, all on her own. Just as she finds her footing in this strange new world, a dangerous proposition presents itself, and Fabiola soon realizes that freedom comes at a cost. Trapped at the crossroads of an impossible choice, will she pay the price for the American dream?"
     },
     {
         "title": "Rising troublemaker : a fear-fighter manual for teens",
@@ -5555,6 +5735,9 @@ const data = [
         "nonfiction": "Y",
         "prose": "Y",
         "africanamericanOrBlack": "Y",
+        "bookBibnumber": 977943,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0,
         "publishersSummary": "In this young readers edition of her New York Times bestseller Professional Troublemaker, Luvvie Ajayi Jones uses her honesty and humor to inspire teens to be their bravest, boldest, truest selves, in order to create a world they would be proud to live i"
     },
     {
@@ -5563,6 +5746,9 @@ const data = [
         "fiction": "Y",
         "prose": "Y",
         "latinx": "Y",
+        "bookBibnumber": 973677,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0,
         "publishersSummary": "A timely story of two teenagers who discover the power of friendship, feminism, and standing up for what you believe in, no matter where you come from"
     },
     {
@@ -5571,14 +5757,22 @@ const data = [
         "fantasy": "Y",
         "prose": "Y",
         "asianamericanAndPacificIslander": "Y",
-        "ownvoices": "Y"
+        "ownvoices": "Y",
+        "bookBibnumber": 972256,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0,
+        "publishersSummary": "Spirited away to the subterranean realm of Nagalok as children, seventeen-year-olds Tanvi and Venkat are charged with harvesting human dreams for the entertainment of the naga court--until one of them begins to remember the mortal life she left behind."
     },
     {
         "title": "Forging Silver into Stars",
         "author": "Brigid Kemmerer",
         "fantasy": "Y",
         "prose": "Y",
-        "characterwithdisability": "Y"
+        "characterwithdisability": "Y",
+        "bookBibnumber": 966118,
+        "ebookBibnumber": 1012498,
+        "audioBibnumber": 0,
+        "publishersSummary": "When ancient magic tests a newfound love, a dark fate beckons ... Magic has been banished in the land of Syhl Shallow for as long as best friends Jax and Callyn can remember. They once loved the stories of the powerful magesmiths and mythical scravers who could conjure fire or control ice, but now they've learned that magic only leads to danger: magic is what killed Callyn's parents, leaving her alone to raise her younger sister. Magic never helped Jax, whose leg was crushed in an accident that his father has been punishing him for ever since. Magic won't save either of them when the tax collector comes calling, threatening to take their homes if they can't pay what they owe. Meanwhile, Jax and Callyn are astonished to learn magic has already returned to Syhl Shallow--in the form of a magesmith who's now married to their queen. Now, the people of Syhl Shallow are expected to allow dangerous magic in their midst, and no one is happy about it. When a stranger rides into town offering Jax and Callyn silver in exchange for holding secret messages for an anti-magic faction, the choice is obvious--even if it means they may be aiding in a plot to destroy their new king. It's a risk they're both willing to take. That is, until another visitor arrives: handsome Lord Tycho, the King's Courier, the man who's been tasked with discovering who's conspiring against the throne. Suddenly, Jax and Callyn find themselves embroiled in a world of shifting alliances, dangerous flirtations, and ancient magic ... where even the deepest loyalties will be tested."
     },
     {
         "title": "TJ Powar Has Something to Prove",
@@ -5587,7 +5781,11 @@ const data = [
         "romance": "Y",
         "prose": "Y",
         "asianamericanAndPacificIslander": "Y",
-        "ownvoices": "Y"
+        "ownvoices": "Y",
+        "bookBibnumber": 0,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0,
+        "publishersSummary": "not available at slcpl"
     },
     {
         "title": "The Black Girls Left Standing",
@@ -5595,6 +5793,9 @@ const data = [
         "fiction": "Y",
         "prose": "Y",
         "africanamericanOrBlack": "Y",
+        "bookBibnumber": 983254,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0,
         "publishersSummary": "Sixteen-year-old Beau Willet has dreams of being an artist and one day leaving the Chicago projects she's grown up in. But after her older sister, Katia, is killed by an off-duty police officer, Beau knows she has to clear her sister's name by finding the only witness to the murder; Katia's no-good boyfriend, Jordan, who has gone missing. If she doesn't find him and tell the world what really happened, Katia's death will be ignored, like the deaths of so many other Black women who are wrongfully killed. With the help of her friend, Sonnet, Beau sets up a Twitter account to gather anonymous tips. But the more that Beau finds out about her sister's death, the more danger she finds herself in. And with a new relationship developing with her childhood friend, Champion, and the struggle to keep her family together, Beau is soon in way over her head. How much is she willing to risk to clear her sister's name and make sure she's not forgotten?"
     },
     {
@@ -5603,7 +5804,11 @@ const data = [
         "scifi": "Y",
         "prose": "Y",
         "africanamericanOrBlack": "Y",
-        "ownvoices": "Y"
+        "ownvoices": "Y",
+        "bookBibnumber": 811392,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0,
+        "publishersSummary": "In 2172, when much of the world is unlivable, sisters Onyii and Ify dream of escaping war-torn Nigeria and finding a better future together but are, instead, torn apart."
     },
     {
         "title": "Twice as Perfect",
@@ -5612,7 +5817,11 @@ const data = [
         "prose": "Y",
         "africanamericanOrBlack": "Y",
         "migrantstories": "Y",
-        "ownvoices": "Y"
+        "ownvoices": "Y",
+        "bookBibnumber": 0,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0,
+        "publishersSummary": "not available at slcpl"
     },
     {
         "title": "Daughters of Nri",
@@ -5622,6 +5831,9 @@ const data = [
         "prose": "Y",
         "africanamericanOrBlack": "Y",
         "ownvoices": "Y",
+        "bookBibnumber": 816192,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0,
         "publishersSummary": "A gruesome war results in the old gods' departure from earth. The only remnants of their existence lie in two girls. Twins, separated at birth. Goddesses who grow up believing that they are human. Daughters Of Nri explores their epic journey of self-discovery as they embark on a path back to one another. Strong-willed Naala grows up seeking adventure in her quiet and small village. While the more reserved Sinai resides in the cold and political palace of Nri. Though miles apart, both girls share an indestructible bond: they share the same blood, the same face, and possess the same unspoken magic, thought to have vanished with the lost gods. The twin girls were separated at birth, a price paid to ensure their survival from Eze Ochichiri, the man who rules the Kingdom of Nri. Both girls are tested in ways that awaken a mystical, formidable power deep within themselves. Eventually, their paths both lead back to the mighty Eze"
     },
     {
@@ -5632,7 +5844,11 @@ const data = [
         "prose": "Y",
         "africanamericanOrBlack": "Y",
         "migrantstories": "Y",
-        "ownvoices": "Y"
+        "ownvoices": "Y",
+        "bookBibnumber": 833298,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0,
+        "publishersSummary": "Black girls, including gender non-conforming individuals, star in this collection of sixteen stories of fantasy, science fiction, and magic."
     },
     {
         "title": "Warcross",
@@ -5641,6 +5857,9 @@ const data = [
         "prose": "Y",
         "asianamericanAndPacificIslander": "Y",
         "ownvoices": "Y",
+        "bookBibnumber": 674817,
+        "ebookBibnumber": 677688,
+        "audioBibnumber": 756257,
         "publishersSummary": "When teenage coder Emika Chen hacks her way into the opening tournament of the Warcross Championships, she glitches herself into the game as well as a sinister plot with major consequences for the entire Warcross empire"
     },
     {
@@ -5649,7 +5868,11 @@ const data = [
         "fantasy": "Y",
         "prose": "Y",
         "asianamericanAndPacificIslander": "Y",
-        "ownvoices": "Y"
+        "ownvoices": "Y",
+        "bookBibnumber": 918593,
+        "ebookBibnumber": 926442,
+        "audioBibnumber": 918914,
+        "publishersSummary": "The exiled Princess Shiori must unravel the curse that turned her six brothers into cranes, and she is assisted by her spurned betrothed, a capricious dragon, and a paper bird brought to life by her own magic."
     },
     {
         "title": "Descendant of the Crane",
@@ -5658,6 +5881,9 @@ const data = [
         "prose": "Y",
         "asianamericanAndPacificIslander": "Y",
         "ownvoices": "Y",
+        "bookBibnumber": 788607,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0,
         "publishersSummary": "Princess Hesina of Yan is thrust into power when her beloved father is murdered, and she's determined to find his killer--whatever the cost"
     },
     {
@@ -5666,6 +5892,9 @@ const data = [
         "fantasy": "Y",
         "prose": "Y",
         "asianamericanAndPacificIslander": "Y",
+        "bookBibnumber": 0,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0,
         "publishersSummary": "Fifteen-year-old Dashti, sworn to obey her sixteen-year-old mistress, the Lady Saren, shares Saren's years of punishment locked in a tower, then brings her safely to the lands of her true love, where both must hide who they are as they work as kitchen maids."
     },
     {
@@ -5676,6 +5905,9 @@ const data = [
         "prose": "Y",
         "africanamericanOrBlack": "Y",
         "arabOrArabamerican": "Y",
+        "bookBibnumber": 691154,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 738158,
         "publishersSummary": "Nahri has never believed in magic. Certianly, she has power; on the streets of eighteenth-century Csairo, she's a con woman of unsurpassed talent. But she knows better than anyone that the trades she uses to get by--palm readings, zars, and a mysterious gift for healing--are all tricks, both the means to the delightful end of swindling Ottoman nobles and a reliable way to survive. But when Nahri accidentally summons Dara, an equally sly, darkly mysterious djinn warrior, to her side during one of her cons, she's forced to reconsider her beliefs. For Dara tells Nahri an extraordinary tale: across hot, windswept sands teeming with creatures of fire and rivers where the mythical marid sleep, past ruins of once-magnificent human metropolises and mountains where the circling birds of prey are more than what they seem, lies Daevabad, the legendary city of brass--a city to which Nahri is irrevocably bound. In Daevabad, wtihin gilded brass walls laced with enchantments and behind the six gates of the six djinn tribes, old resentments run deep. And when Nahri decides to enter this world, her arrival threatens to ignite a war that has been simmering for centuries. Spurning Dara's warning of the treachery surrounding her, she embarks on a hestiant friendship with Alizayd, an idealistic prince who dreams of revolutionizing his father's corrupt regime. All too soon, Nahri learns that true power is fierce and brutal. That magic cannot shield her from the dangerous web of court politics. That even the cleverest of schemes can have deadly consequences. After all, there is a reason they say to be careful what you wish for..."
     },
     {
@@ -5685,6 +5917,9 @@ const data = [
         "prose": "Y",
         "latinx": "Y",
         "ownvoices": "Y",
+        "bookBibnumber": 0,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0,
         "publishersSummary": "Ximena is the decoy Condesa, a stand-in for the last remaining Illustrian royal. Her people lost everything when the usurper, Atoc, used an ancient relic to summon ghosts and drive the Illustrians from La Ciudad. Now Ximena's motivated by her insatiable thirst for revenge, and her rare ability to spin thread from moonlight. When Atoc demands the real Condesa's hand in marriage, it's Ximena's duty to go in her stead. She relishes the chance, as Illustrian spies have reported that Atoc's no longer carrying his deadly relic. If Ximena can find it, she can return the true aristócrata to their rightful place."
     },
     {
@@ -5696,7 +5931,11 @@ const data = [
         "lgbtqia": "Y",
         "mlmOrNblm": "Y",
         "migrantstories": "Y",
-        "ownvoices": "Y"
+        "ownvoices": "Y",
+        "bookBibnumber": 0,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0,
+        "publishersSummary": "In the former United States, sixteen-year-old Noam Álvaro wakes up in a hospital bed, the sole survivor of the viral magic that killed his family and made him a technopath. His ability to control technology attracts the attention of the minister of defense and thrusts him into the magical elite of the nation of Carolinia. The son of undocumented immigrants, Noam has spent his life fighting for the rights of refugees fleeing magical outbreaks--refugees Carolinia routinely deports with vicious efficiency. Sensing a way to make change, Noam accepts the minister's offer to teach him the science behind his magic, secretly planning to use it against the government. But then he meets the minister's son--cruel, dangerous, and achingly beautiful--and the way forward becomes less clear."
     },
     {
         "title": "A Spark of White Fire",
@@ -5704,6 +5943,9 @@ const data = [
         "scifi": "Y",
         "prose": "Y",
         "asianamericanAndPacificIslander": "Y",
+        "bookBibnumber": 804776,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0,
         "publishersSummary": "In a universe of capricious gods, dark moons, and kingdoms built on the backs of spaceships, a cursed queen sends her infant daughter away, a jealous uncle steals the throne of Kali from his nephew, and an exiled prince vows to take his crown back. Raised alone and far away from her home on Kali, Esmae longs to return to her family. When the King of Wychstar offers to gift the unbeatable, sentient warship Titania to a warrior that can win his competition, she sees her way home: she'll enter the competition, reveal her true identity to the world, and help her famous brother win back the crown of Kali\""
     },
     {
@@ -5712,7 +5954,11 @@ const data = [
         "scifi": "Y",
         "prose": "Y",
         "latinx": "Y",
-        "ownvoices": "Y"
+        "ownvoices": "Y",
+        "bookBibnumber": 0,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0,
+        "publishersSummary": "not available at slcpl"
     },
     {
         "title": "Mirage",
@@ -5720,7 +5966,11 @@ const data = [
         "scifi": "Y",
         "prose": "Y",
         "africanamericanOrBlack": "Y",
-        "ownvoices": "Y"
+        "ownvoices": "Y",
+        "bookBibnumber": 0,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0,
+        "publishersSummary": "In a world dominated by the brutal Vathek empire, eighteen-year-old Amani is a dreamer. She dreams of what life was like before the occupation; she dreams of writing poetry; she dreams of having adventures, and travelling beyond her isolated home. But when adventure comes for Amani, it is not what she expects: she is kidnapped and brought to the royal palace, where she discovers that she is to become a body double for the hated princess Maram"
     },
     {
         "title": "The Light at the Bottom of the World",
@@ -5730,6 +5980,9 @@ const data = [
         "arabOrArabamerican": "Y",
         "ownvoices": "Y",
         "muslim": "Y",
+        "bookBibnumber": 822924,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0,
         "publishersSummary": "Teenaged Leyla McQueen, who lives beneath the ruins of a submerged London in 2099, joins a prestigious submersible race in the hope of clearing her father's name before encountering government corruption and a hidden world."
     },
     {
@@ -5738,7 +5991,11 @@ const data = [
         "mysteryHorror": "Y",
         "prose": "Y",
         "lgbtqia": "Y",
-        "wlwOrNblw": "Y"
+        "wlwOrNblw": "Y",
+        "bookBibnumber": 983255,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0,
+        "publishersSummary": "Desperate to escape suffocating expectations and menacing families, seventeen-year-old Maude and her step-cousin Frankie fake their own deaths while on a family vacation in Hawaii, with deadly consequences."
     },
     {
         "title": "Trouble Girls",
@@ -5746,7 +6003,11 @@ const data = [
         "fiction": "Y",
         "prose": "Y",
         "lgbtqia": "Y",
-        "wlwOrNblw": "Y"
+        "wlwOrNblw": "Y",
+        "bookBibnumber": 0,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0,
+        "publishersSummary": "High schoolers Trixie and Lux pack light for a weekend getaway, but after a single night of violence derails their trip they become wanted fugitives and the face of a #MeToo movement."
     },
     {
         "title": "Dead Dead Girls",
@@ -5757,6 +6018,9 @@ const data = [
         "africanamericanOrBlack": "Y",
         "lgbtqia": "Y",
         "wlwOrNblw": "Y",
+        "bookBibnumber": 907121,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0,
         "publishersSummary": "The start of an exciting new historical mystery series set during the Harlem Renaissance from debut author Nekesa Afia. Harlem, 1926. Young black women like Louise Lloyd are ending up dead. Following a harrowing kidnapping ordeal when she was in her teens, Louise is doing everything she can to maintain a normal life. She's succeeding, too. She spends her days working at Maggie's Café and her nights at the Zodiac, Harlem's hottest speakeasy. Louise's friends might say she's running from her past and the notoriety that still stalks her, but don't tell her that. When a girl turns up dead in front of the café, Louise is forced to confront something she's been trying to ignore-two other local black girls have been murdered over the past few weeks. After an altercation with a police officer gets her arrested, Louise is given an ultimatum: She can either help solve the case or wind up in a jail cell. Louise has no choice but to investigate and soon finds herself toe-to-toe with a murderous mastermind hell-bent on taking more lives, maybe even her own"
     },
     {
@@ -5766,6 +6030,9 @@ const data = [
         "prose": "Y",
         "lgbtqia": "Y",
         "wlwOrNblw": "Y",
+        "bookBibnumber": 802509,
+        "ebookBibnumber": 848424,
+        "audioBibnumber": 848438,
         "publishersSummary": "Among the ashes of a dying world, an agent of the Commandant finds a letter. It reads: Burn before reading. Thus begins an unlikely correspondence between two rival agents hellbent on securing the best possible future for their warring factions. Now, what began as a taunt, a battlefield boast, grows into something more. Something epic. Something romantic. Something that could change the past and the future. Except the discovery of their bond would mean death for each of them."
     },
     {
@@ -5775,6 +6042,9 @@ const data = [
         "graphicnovel": "Y",
         "lgbtqia": "Y",
         "mutedeafblind": "Y",
+        "bookBibnumber": 816830,
+        "ebookBibnumber": 965772,
+        "audioBibnumber": 0,
         "publishersSummary": "Nova Huang knows more about magic than your average teen witch. She works at her grandmothers? bookshop, where she helps them loan out spell books and investigate any supernatural occurrences in their New England town. One fateful night, she follows reports of a white wolf into the woods, and she comes across the unexpected: her childhood crush, Tam Lang, battling a horse demon in the woods. As a werewolf, Tam has been wandering from place to place for years, unable to call any town home. Pursued by dark forces eager to claim the magic of wolves and out of options, Tam turns to Nova for help. Their latent feelings are rekindled against the backdrop of witchcraft, untested magic, occult rituals, and family ties both new and old in this enchanting tale of self-discovery."
     },
     {
@@ -5785,6 +6055,9 @@ const data = [
         "prose": "Y",
         "lgbtqia": "Y",
         "mlmOrNblm": "Y",
+        "bookBibnumber": 436677,
+        "ebookBibnumber": 496509,
+        "audioBibnumber": 0,
         "publishersSummary": "A story of first love, family, loss, and betrayal told from different points in time, and in separate voices, by artists Jude and her twin brother Noah"
     },
     {
@@ -5794,6 +6067,9 @@ const data = [
         "prose": "Y",
         "lgbtqia": "Y",
         "wlwOrNblw": "Y",
+        "bookBibnumber": 0,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0,
         "publishersSummary": "Life has just become very complicated for seventeen-year-old Katie; her father walked out a year ago, her mother is stressed out, her brother is a \"special needs\" teenager, and she is caring for the maternal grandmother she has never met, who is suffering from Alzheimer's--and Katie has a secret of her own that she cannot reveal."
     },
     {
@@ -5810,7 +6086,11 @@ const data = [
         "nonbinary": "Y",
         "ownvoices": "Y",
         "mentalhealth": "Y",
-        "characterwithdisability": "Y"
+        "characterwithdisability": "Y",
+        "bookBibnumber": 0,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 482555,
+        "publishersSummary": "A has no friends. No parents. No family. No possessions. No home, even. Because every day, A wakes up in the body of a different person. Every morning, a different bed. A different room. A different house. A different life. A is able to access each person's memory, enough to be able to get through the day without parents, friends, and teachers realizing this is not their child, not their friend, not their student. Because it isn't. It's A. Inhabiting each person's body. Seeing the world through their eyes. Thinking with their brain. Speaking with their voice. It's a lonely existence--until, one day, it isn't. A meets a girl named Rhiannon. And, in an instant, A falls for her, after a perfect day together. But when night falls, it's over. Because A can never be the same person twice. But yet, A can't stop thinking about her. She becomes A's reason for existing. So each day, in different bodies--of all shapes, sizes, backgrounds, walks of life--A tries to get back to her. And convince her of their love. But can their love transcend such an obstacle?"
     },
     {
         "title": "We Are The Ants",
@@ -5822,6 +6102,9 @@ const data = [
         "ownvoices": "Y",
         "mentalhealth": "Y",
         "depression": "Y",
+        "bookBibnumber": 558957,
+        "ebookBibnumber": 560488,
+        "audioBibnumber": 0,
         "publishersSummary": "Abducted by aliens periodically throughout his youth, Henry Denton is informed by his erstwhile captors that they will end the world in 144 days unless he stops them by deciding that humanity is worth saving."
     },
     {
@@ -5832,6 +6115,9 @@ const data = [
         "prose": "Y",
         "lgbtqia": "Y",
         "mlmOrNblm": "Y",
+        "bookBibnumber": 675000,
+        "ebookBibnumber": 488153,
+        "audioBibnumber": 481103,
         "publishersSummary": "When Paul falls hard for Noah, he thinks he has found his one true love, but when Noah walks out of his life, Paul has to find a way to get him back and make everything right once more."
     },
     {
@@ -5841,6 +6127,9 @@ const data = [
         "graphicnovel": "Y",
         "lgbtqia": "Y",
         "mlmOrNblm": "Y",
+        "bookBibnumber": 0,
+        "ebookBibnumber": 673695,
+        "audioBibnumber": 0,
         "publishersSummary": "Nimona is an impulsive young shapeshifter with a knack for villainy. Lord Ballister Blackheart is a villain with a vendetta. As sidekick and supervillain, Nimona and Lord Blackheart are about to wreak some serious havoc. Their mission: prove to the kingdom that Sir Ambrosius Goldenloin and his buddies at the Institution of Law Enforcement and Heroics aren't the heroes everyone thinks they are. But as small acts of mischief escalate into a vicious battle, Lord Blackheart realizes that Nimona's powers are as murky and mysterious as her past. And her unpredictable wild side might be more dangerous than he is willing to admit"
     },
     {
@@ -5850,6 +6139,9 @@ const data = [
         "prose": "Y",
         "lgbtqia": "Y",
         "trans": "Y",
+        "bookBibnumber": 464021,
+        "ebookBibnumber": 795242,
+        "audioBibnumber": 0,
         "publishersSummary": "Grayson, a transgender twelve-year-old, learns to accept her true identity and share it with the world"
     },
     {
@@ -5860,7 +6152,11 @@ const data = [
         "lgbtqia": "Y",
         "trans": "Y",
         "closetsafe": "Y",
-        "ownvoices": "Y"
+        "ownvoices": "Y",
+        "bookBibnumber": 797153,
+        "ebookBibnumber": 842199,
+        "audioBibnumber": 0,
+        "publishersSummary": "Eric and Morgan decided they were best friends for life. They've stuck by each other's side as Morgan's mom died, as he moved across town, as Eric joined the football team, as his parents started fighting. But Morgan feels trapped in a mixed-up body, in a wrong life, in Nowheresville, Tennessee, on repeat. With a dad who cares about his football team more than his son, and a best friend who can never know his biggest secret. Six years of birthdays reveal Eric and Morgan's destiny as they come together, drift apart, fall in love, and discover who they're meant to be-- and if they're meant to be together."
     },
     {
         "title": "Gender Queer",
@@ -5870,6 +6166,9 @@ const data = [
         "lgbtqia": "Y",
         "trans": "Y",
         "nonbinary": "Y",
+        "bookBibnumber": 798224,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0,
         "publishersSummary": "Gender Queer is here. Maia's intensely cathartic autobiography charts eir journey of self-identity, which includes the mortification and confusion of adolescent crushes, grappling with how to come out to family and society, bonding with friends over erotic gay fanfiction, and facing the trauma and fundamental violation of pap smears. Started as a way to explain to eir family what it means to be nonbinary and asexual, Gender Queer is more than a personal story: it is a useful and touching guide on gender identity."
     },
     {
@@ -5879,6 +6178,9 @@ const data = [
         "prose": "Y",
         "lgbtqia": "Y",
         "trans": "Y",
+        "bookBibnumber": 750466,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0,
         "publishersSummary": "A ragtag crew travels to the deepest reaches of space, rebuilding beautiful, broken structures to piece the past together. Two girls meet in boarding school and fall deeply in love, only to lear the pain of loss. With interwoven timelines and stunning art, award-winning graphic novelist Tillie Walden creates an inventive world, breathtaking romance, and an epic quest for love."
     },
     {
@@ -5889,6 +6191,9 @@ const data = [
         "africanamericanOrBlack": "Y",
         "lgbtqia": "Y",
         "trans": "Y",
+        "bookBibnumber": 800459,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0,
         "publishersSummary": "In a near-future society that claims to have gotten rid of all monstrous people, a creature emerges from a painting seventeen-year-old Jam's mother created, a hunter from another world seeking a real-life monster."
     },
     {
@@ -5899,6 +6204,9 @@ const data = [
         "latinx": "Y",
         "lgbtqia": "Y",
         "trans": "Y",
+        "bookBibnumber": 0,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0,
         "publishersSummary": "not avalible at slcpl"
     },
     {
@@ -5907,6 +6215,9 @@ const data = [
         "fantasy": "Y",
         "prose": "Y",
         "nativeamerican": "Y",
+        "bookBibnumber": 874887,
+        "ebookBibnumber": 897623,
+        "audioBibnumber": 0,
         "publishersSummary": "\"Morgan and Eli, two Indigenous children forced away from their families and communities, are brought together in a foster home in Winnipeg, Manitoba. They each feel disconnected, from their culture and each other, and struggle to fit in at school and at their new home -- until they find a secret place, walled off in an unfinished attic bedroom. A portal opens to another reality, Askí, bringing them onto frozen, barren grounds, where they meet Ochek (Fisher). The only hunter supporting his starving community, Misewa, Ochek welcomes the human children, teaching them traditional ways to survive. But as the need for food becomes desperate, they embark on a dangerous mission. Accompanied by Arik, a sassy Squirrel they catch stealing from the trapline, they try to save Misewa before the icy grip of winter freezes everything -- including them."
     },
     {
@@ -5915,6 +6226,9 @@ const data = [
         "historicalfiction": "Y",
         "prose": "Y",
         "nativeamerican": "Y",
+        "bookBibnumber": 714343,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0,
         "publishersSummary": "After being taught in a boarding school run by whites that Navajo is a useless language, Ned Begay and other Navajo men are recruited by the Marines to become Code Talkers, sending messages during World War II in their native tongue."
     },
     {
@@ -5923,6 +6237,9 @@ const data = [
         "memoirautobiograohy": "Y",
         "prose": "Y",
         "nativeamerican": "Y",
+        "bookBibnumber": 0,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0,
         "publishersSummary": "not avalible at slcpl"
     },
     {
@@ -5931,6 +6248,9 @@ const data = [
         "fiction": "Y",
         "prose": "Y",
         "nativeamerican": "Y",
+        "bookBibnumber": 465108,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0,
         "publishersSummary": "Margaritte, an American-Indian teenager is trapped in a Colorado town crippled by intense poverty, unemployment, and drug abuse. She deals drugs, gets pregnant, and fights against a life she hates."
     },
     {
@@ -5939,6 +6259,9 @@ const data = [
         "fiction": "Y",
         "prose": "Y",
         "nativeamerican": "Y",
+        "bookBibnumber": 0,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0,
         "publishersSummary": "not avalible at slcpl"
     },
     {
@@ -5947,6 +6270,9 @@ const data = [
         "urbanfantasy": "Y",
         "prose": "Y",
         "nativeamerican": "Y",
+        "bookBibnumber": 808149,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0,
         "publishersSummary": "\"Ghosts aren't meant to stick around forever . . . Ghosts are everywhere in Shelly's life. Shelly and her grandmother help these lost souls transition to the next world by catching them in their hair. But when Shelly's mom dies, her relationship to ghosts--and death--changes. Instead of helping spirits move on, she starts bringing them home and hiding them in her room. But no matter how many ghosts she collects, Shelly can't ignore the one that's missing. Why hasn't her mom's ghost come home yet? "
     },
     {
@@ -5954,6 +6280,9 @@ const data = [
         "author": "Amanda Strong",
         "fantasy": "Y",
         "graphicnovel": "Y",
+        "bookBibnumber": 994432,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0,
         "publishersSummary": "\"On a journey to uncover her family's story, Spotted Fawn travels through time and space to reclaim connection to ancestors, language, and the land--creating a path forward in this essential graphic novel. In the dreamworld she bears witness to a mountain of buffalo skulls. They stand as a ghostly monument to the slaughter of the Plains bison to near extinction-- a key tactic to starve and contain the Indigenous People onto reservations. On this path, Spotted Fawn knows she must travel through her own family history to confront the harsh realities of the past and reignite her connection to her people and the land. Her darkroom becomes a portal, and her photographs allow her glimpses into the lives of her relatives over the course of four chapters of this book, which follow the phases of the moon. Time and space become unlocked and unfurl in front of her eyes. Guided by her ancestors, Spotted Fawn's travels through the past allow her to come into full face--like the moon itself. Adapted from the acclaimed stop-motion animated film of the same name, written and directed by Amanda Strong, Four Faces of the Moon brings the oral and written history of the Michif, Cree, Nakoda and Anishinaabe Peoples and their cultural link to the buffalo alive on the page. Deeply resonant and beautifully rendered, this graphic novel retelling is essential reading. Backmatter by Dr. Sherry Farrell-Racette (Michif), an associate professor of Native Studies and Women's and Gender Studies at the University of Manitoba, provides information on Michif culture and history and the injustices of colonialism.\"-- Provided by publisher."
     },
     {
@@ -5964,6 +6293,9 @@ const data = [
         "prose": "Y",
         "jewish": "Y",
         "newAdultAdultBookWithTeenInterest": "Y",
+        "bookBibnumber": 999734,
+        "ebookBibnumber": 937588,
+        "audioBibnumber": 937679,
         "publishersSummary": "\"Rachel Rubenstein-Goldblatt is a nice Jewish girl with a shameful secret: she loves Christmas. For a decade she's hidden her career as a Christmas romance novelist from her family. Her talent has made her a bestseller even as her chronic illness has always kept the kind of love she writes about out of reach. But when her diversity-conscious publisher insists she write a Hanukkah romance, her well of inspiration suddenly runs dry. Hanukkah's not magical. It's not merry. It's not Christmas. Desperate not to lose her contract, Rachel's determined to find her muse at the Matzah Ball, a Jewish music celebration on the last night of Hanukkah, even if it means working with her summer camp archenemy--Jacob Greenberg. Though Rachel and Jacob haven't seen each other since they were kids, their grudge still glows brighter than a menorah. But as they spend more time together, Rachel finds herself drawn to Hanukkah--and Jacob--in a way she never expected. Maybe this holiday of lights will be the spark she needed to set her heart ablaze\"-- Provided by publisher."
     },
     {
@@ -5974,6 +6306,9 @@ const data = [
         "latinx": "Y",
         "lgbtqia": "Y",
         "closetsafe": "Y",
+        "bookBibnumber": 0,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0,
         "publishersSummary": "not avalible at slcpl"
     },
     {
@@ -5988,6 +6323,9 @@ const data = [
         "nonbinary": "Y",
         "closetsafe": "Y",
         "ownvoices": "Y",
+        "bookBibnumber": 0,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0,
         "publishersSummary": "not avalible at slcpl"
     },
     {
@@ -6000,6 +6338,9 @@ const data = [
         "wlwOrNblw": "Y",
         "trans": "Y",
         "closetsafe": "Y",
+        "bookBibnumber": 901551,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0,
         "publishersSummary": "Tired of hiding in obscurity on Earth, Tina, the human clone of a brilliant alien tactician, pursues her destiny in space, but success is elusive until Tina and her best friend Rachel assemble a ragtag crew of humans and set out to save all the worlds."
     },
     {
@@ -6010,6 +6351,9 @@ const data = [
         "lgbtqia": "Y",
         "wlwOrNblw": "Y",
         "closetsafe": "Y",
+        "bookBibnumber": 0,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0,
         "publishersSummary": "Fourteen-year-old twins Mae and Rossa's summer away from home takes a life-altering turn when they discover their great aunt Rita's home is full of secrets."
     },
     {
@@ -6021,6 +6365,9 @@ const data = [
         "nonbinary": "Y",
         "closetsafe": "Y",
         "ownvoices": "Y",
+        "bookBibnumber": 0,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0,
         "publishersSummary": "For nearly a century, the Nomeolvides women have tended the grounds of La Pradera, hiding a terrible legacy, until mysterious Fel arrives and Estrella helps him explore his dangerous past."
     },
     {
@@ -6030,6 +6377,9 @@ const data = [
         "prose": "Y",
         "lgbtqia": "Y",
         "wlwOrNblw": "Y",
+        "bookBibnumber": 0,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0,
         "publishersSummary": "not avalible at slcpl"
     },
     {
@@ -6041,6 +6391,9 @@ const data = [
         "lgbtqia": "Y",
         "nonbinary": "Y",
         "ownvoices": "Y",
+        "bookBibnumber": 0,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0,
         "publishersSummary": "not avalible at slcpl"
     },
     {
@@ -6052,6 +6405,9 @@ const data = [
         "lgbtqia": "Y",
         "mlmOrNblm": "Y",
         "ownvoices": "Y",
+        "bookBibnumber": 0,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0,
         "publishersSummary": "not avalible at slcpl"
     },
     {
@@ -6062,6 +6418,9 @@ const data = [
         "mysteryHorror": "Y",
         "prose": "Y",
         "jewish": "Y",
+        "bookBibnumber": 0,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0,
         "publishersSummary": "not avalible at slcpl"
     },
     {
@@ -6072,6 +6431,9 @@ const data = [
         "ownvoices": "Y",
         "mentalhealth": "Y",
         "depression": "Y",
+        "bookBibnumber": 0,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0,
         "publishersSummary": "not avalible at slcpl"
     },
     {
@@ -6083,6 +6445,9 @@ const data = [
         "lgbtqia": "Y",
         "wlwOrNblw": "Y",
         "ownvoices": "Y",
+        "bookBibnumber": 0,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0,
         "publishersSummary": "not avalible at slcpl"
     },
     {
@@ -6095,6 +6460,9 @@ const data = [
         "asianamericanAndPacificIslander": "Y",
         "lgbtqia": "Y",
         "wlwOrNblw": "Y",
+        "bookBibnumber": 0,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0,
         "publishersSummary": "not avalible at slcpl"
     },
     {
@@ -6106,6 +6474,9 @@ const data = [
         "migrantstories": "Y",
         "ownvoices": "Y",
         "muslim": "Y",
+        "bookBibnumber": 0,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0,
         "publishersSummary": "not avalible at slcpl"
     },
     {
@@ -6117,6 +6488,9 @@ const data = [
         "asianamericanAndPacificIslander": "Y",
         "lgbtqia": "Y",
         "trans": "Y",
+        "bookBibnumber": 974084,
+        "ebookBibnumber": 1012334,
+        "audioBibnumber": 1011238,
         "publishersSummary": "In 1931 Shanghai, two Nationalist spies pose as a married couple to investigate a series of brutal murders causing unrest in the city"
     },
     {
@@ -6126,6 +6500,9 @@ const data = [
         "verse": "Y",
         "africanamericanOrBlack": "Y",
         "ownvoices": "Y",
+        "bookBibnumber": 973161,
+        "ebookBibnumber": 1003855,
+        "audioBibnumber": 0,
         "publishersSummary": "A novel in verse about a boy escaping slavers during the nineteenth century"
     },
     {
@@ -6148,6 +6525,9 @@ const data = [
         "africanamericanOrBlack": "Y",
         "lgbtqia": "Y",
         "wlwOrNblw": "Y",
+        "bookBibnumber": 938399,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0,
         "publishersSummary": "Before Buffy, before Twilight, before Octavia Butler's Fledgling, there was The Gilda Stories, Jewelle Gomez's sexy vampire novel.\"The Gilda Stories is groundbreaking not just for the wild lives it portrays, but for how it portrays them--communally, unapologetically, roaming fiercely over space and time.\"--Emma Donoghue, author of Room\"Jewelle Gomez sees right into the heart. This is a book to give to those you want most to find their own strength.\"-Dorothy Allison\"Gomez's women are savvy and bold, with a sense of ancestry and history. The author's compassion, affection, and respect for her characters are infectious.\"-Library Journal This remarkable novel begins in 1850s Louisiana, where Gilda escapes slavery and learns about freedom while working in a brothel. After being initiated into eternal life as one who \"shares the blood\" by two women there, Gilda spends the next two hundred years searching for a place to call home. An instant lesbian classic when it was first published in 1991, The Gilda Stories has endured as an auspiciously prescient book in its explorations of blackness, radical ecology, re-definitions of family, and yes, the erotic potential of the vampire story. Jewelle Gomez is a writer, activist, and the author of many books including Forty-Three Septembers, Don't Explain, The Lipstick Papers, Flamingoes and Bears, and Oral Tradition. The Gilda Stories was the recipient of two Lambda Literary Awards, and was adapted for the stage by the Urban Bush Women theater company in thirteen United States cities. Alexis Pauline Gumbs was named one of UTNE Reader's 50 Visionaries Transforming the World, a Reproductive Reality Check Shero, a Black Woman Rising nominee, and was awarded one of the first-ever \"Too Sexy for 501c3\" trophies. She lives in Durham, North Carolina. More praise for The Gilda Stories:\"Jewelle's big-hearted novel pulls old rhythms out of the earth, the beauty shops and living rooms of black lesbian herstory, expressed by the dazzling vampire Gilda. Her resilience is a testament to black queer women's love, power, and creativity. Brilliant!\"--Joan Steinau Lester, author of Black, White, Other"
     },
     {
@@ -6156,7 +6536,11 @@ const data = [
         "fiction": "Y",
         "prose": "Y",
         "africanamericanOrBlack": "Y",
-        "ownvoices": "Y"
+        "ownvoices": "Y",
+        "bookBibnumber": 0,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0,
+        "publishersSummary": "not available at slcpl"
     },
     {
         "title": "The Beauty That Remains",
@@ -6168,6 +6552,9 @@ const data = [
         "lgbtqia": "Y",
         "mlmOrNblm": "Y",
         "mentalhealth": "Y",
+        "bookBibnumber": 0,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0,
         "publishersSummary": "Autumn, Shay, and Logan, whose lives intersect in complicated ways, each lose someone close to them and must work through their grief."
     },
     {
@@ -6177,6 +6564,9 @@ const data = [
         "prose": "Y",
         "africanamericanOrBlack": "Y",
         "mentalhealth": "Y",
+        "bookBibnumber": 0,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0,
         "publishersSummary": "Four years after Theo's best friend, Donovan, disappeared at age thirteen, he is found and brought home and Theo puts her health at risk as she decides whether to tell the truth about the abductor, knowing her revelation could end her life-long dream of becoming a professional ballet dancer."
     },
     {
@@ -6190,6 +6580,9 @@ const data = [
         "ownvoices": "Y",
         "muslim": "Y",
         "invisibledisability": "Y",
+        "bookBibnumber": 0,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0,
         "publishersSummary": "Amidst the Chinese-Malay conflict in Kuala Lumpur in 1969, sixteen-year-old Melati must overcome prejudice, violence, and her own OCD to find her way back to her mother"
     },
     {
@@ -6202,6 +6595,9 @@ const data = [
         "arabOrArabamerican": "Y",
         "ownvoices": "Y",
         "muslim": "Y",
+        "bookBibnumber": 702083,
+        "ebookBibnumber": 714023,
+        "audioBibnumber": 0,
         "publishersSummary": "Maya Aziz, seventeen, is caught between her India-born parents' world of college and marrying a suitable Muslim boy and her dream world of film school and dating her classmate, Phil, when a terrorist attack changes her life forever."
     },
     {
@@ -6215,6 +6611,9 @@ const data = [
         "ownvoices": "Y",
         "muslim": "Y",
         "newAdultAdultBookWithTeenInterest": "Y",
+        "bookBibnumber": 803391,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0,
         "publishersSummary": "Ayesha Shamsi has a lot going on. Her dreams of being a poet have been set aside for a teaching job so she can pay off her debts to her wealthy uncle. She lives with her boisterous Muslim family and is always being reminded that her flighty younger cousin, Hafsa, is close to rejecting her one hundredth marriage proposal. Though Ayesha is lonely, she doesn't want an arranged marriage. Then she meets Khalid who is just as smart and handsome as he is conservative and judgmental. She is irritatingly attracted to someone who looks down on her choices and dresses like he belongs in the seventh century. When his engagement to Hafsa is announced, Ayesha must deal with the truth about Khalid, her family... and herself."
     },
     {
@@ -6228,6 +6627,9 @@ const data = [
         "ownvoices": "Y",
         "muslim": "Y",
         "middleGrade": "Y",
+        "bookBibnumber": 0,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0,
         "publishersSummary": "Cora and her friends have escaped the Kindred station and landed at Armstrong -- a supposed safe haven on a small moon -- where they plan to regroup and figure out how to win the Gauntlet, the challenging competition to prove humanity's intelligence and set them free. But Armstrong is no paradise; ruled by a power-hungry sheriff, it's a violent world where the teens are enslaved and put to work in mines. As Nok's due date grows closer, and Mali and Leon journey across space to rescue Cassian, the former inhabitants of the Cage are up against impossible odds. With the whole universe at stake, Cora will do whatever it takes, including pushing her body and mind to the breaking point, to escape Armstrong and run the Gauntlet. But it isn't just a deranged sheriff she has to overcome: the other intelligent species -- the Axion, Kindred, Gatherers, and Mosca -- all have their own reasons to stop her. Not knowing who to trust, Cora must rely on her own instincts to win the competition, which could change the world -- though it might destroy her in the process."
     },
     {
@@ -6236,6 +6638,9 @@ const data = [
         "fiction": "Y",
         "prose": "Y",
         "jewish": "Y",
+        "bookBibnumber": 0,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0,
         "publishersSummary": "Standing in opposition to a class assignment to debate Hitler's Final Solution, seniors Cade and Logan become embroiled in turmoil involving their teacher, principal, Commissioner of Education, white supremacists, and their entire community."
     },
     {
@@ -6245,6 +6650,9 @@ const data = [
         "romance": "Y",
         "prose": "Y",
         "jewish": "Y",
+        "bookBibnumber": 990206,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0,
         "publishersSummary": "Sixteen-year-old Shira is on a mission to find the perfect boyfriend over Hanukkah, but after getting snowed in on Nantucket with her nemesis-slash-former-crush her plans begin to go off the rails."
     },
     {
@@ -6256,6 +6664,9 @@ const data = [
         "lgbtqia": "Y",
         "migrantstories": "Y",
         "jewish": "Y",
+        "bookBibnumber": 994033,
+        "ebookBibnumber": 1012359,
+        "audioBibnumber": 1012492,
         "publishersSummary": "Uriel the angel and Little Ash (short for Ashmedai) are the only two supernatural creatures in their shtetl (which is so tiny, it doesn't have a name other than Shetl). The angel and the demon have been studying together for centuries, but pogroms and the search for a new life have drawn all the young people from their village to America. When one of those young people, Essie, goes missing. Uriel and Little Ash set off to find her. Along the way the angel and demon encounter humans in need of their help, including Rose Cohen, whose best friend (and the love of her life) has abandoned her to marry a man, and Malke Shulman, whose father died mysteriously on his way to America. But there are obstacles ahead of them as difficult as what they've left behind. Medical exams (and demons) at Ellis Island. Corrupt officials, cruel mob bosses, murderers, poverty. The streets are far from paved with gold. With cinematic sweep and tender observation, Sacha Lamb presents a totally original drama about individual purpose, the fluid nature of identity, and the power of love to change and endure."
     },
     {
@@ -6264,6 +6675,9 @@ const data = [
         "fiction": "Y",
         "prose": "Y",
         "invisibledisability": "Y",
+        "bookBibnumber": 437174,
+        "ebookBibnumber": 486845,
+        "audioBibnumber": 932909,
         "publishersSummary": "On a winter night in 1964, Dr. David Henry is forced by a blizzard to deliver his own twins. His son, born first, is perfectly healthy. Yet when his daughter is born, he sees immediately that she has Down's Syndrome. Rationalizing it as a need to protect Norah, his wife, he makes a split-second decision that will alter all of their lives forever. He asks his nurse to take the baby away to an institution and never to reveal the secret. But Caroline, the nurse, cannot leave the infant. Instead, she disappears into another city to raise the child herself. So begins this beautifully told story that unfolds over a quarter of a century in which these two families, ignorant of each other, are yet bound by the fateful decision made that long-ago winter night. A brilliantly crafted, stunning debut, The Memory Keeper's Daughter explores the way life takes unexpected turns, and how the mysterious ties that hold a family together help us survive the heartache that occurs when long-buried secrets burst into the open."
     },
     {
@@ -6279,6 +6693,9 @@ const data = [
         "ownvoices": "Y",
         "invisibledisability": "Y",
         "characterwithdisability": "Y",
+        "bookBibnumber": 1005653,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0,
         "publishersSummary": "Sixteen profiles of scientists who are changing the face of science and the future of Earth through their research."
     },
     {
@@ -6288,7 +6705,11 @@ const data = [
         "romance": "Y",
         "prose": "Y",
         "lgbtqia": "Y",
-        "mlmOrNblm": "Y"
+        "mlmOrNblm": "Y",
+        "bookBibnumber": 0,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0,
+        "publishersSummary": "not available at slcpl"
     },
     {
         "title": "Live Your Best Lie",
@@ -6298,7 +6719,11 @@ const data = [
         "prose": "Y",
         "asianamericanAndPacificIslander": "Y",
         "arabOrArabamerican": "Y",
-        "muslim": "Y"
+        "muslim": "Y",
+        "bookBibnumber": 0,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 1012360,
+        "publishersSummary": "Sometimes the prettiest Instagram feeds mask the darkest, and bloodiest, secrets. Social media influencer Summer Cartwright leads a very charmed life: millions of followers, the hottest designer and vintage clothes at her fingertips, a newly minted book deal, the coolest friends, and, until recently, the hottest boyfriend at her über-elite prep school. Every moment of her life has been carefully planned and cultivated to complement her \"imperfectly perfect\" social media persona. She is truly #LivingHerBestLife. But when Summer goes missing during her annual Halloween party and then an unscheduled post appears on her feed stating that she'll be dead within the next five minutes, those closest to Summer know something isn't quite right--or on-brand. Grace, Summer's camera-shy best friend; Adam, Summer's gamer ex-boyfriend; Laney, Summer's moody camp roommate; and Cora, an influencer wannabe, all decide to investigate. And when they come upon Summer's lifeless body, they soon realize that no filter is strong enough to mask the lies we tell ourselves. Told in multiple POVs interspersed with social media posts and flashbacks, Live Your Best Lie has twists and turns that will keep readers turning the page and no one will be able to guess the ending."
     },
     {
         "title": "Briarcliff Prep",
@@ -6308,6 +6733,9 @@ const data = [
         "africanamericanOrBlack": "Y",
         "asianamericanAndPacificIslander": "Y",
         "mentalhealth": "Y",
+        "bookBibnumber": 994035,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0,
         "publishersSummary": "Avi LeBeau juggles navigating her first year at a Historically Black Boarding School with the revelation that her older sister Belle is in an abusive romantic relationship"
     },
     {
@@ -6319,6 +6747,9 @@ const data = [
         "ownvoices": "Y",
         "mentalhealth": "Y",
         "depression": "Y",
+        "bookBibnumber": 994028,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 1012390,
         "publishersSummary": "When hospitalized for her clinical depression, Whimsy connects with a boy named Faerry, who also suffers from the traumatic loss of a sibling, and together they work to unearth buried memories and battle the fantastical physical embodiment of their depression."
     },
     {
@@ -6332,6 +6763,9 @@ const data = [
         "jewish": "Y",
         "invisibledisability": "Y",
         "mentalhealth": "Y",
+        "bookBibnumber": 991033,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0,
         "publishersSummary": "When 17-year-old Pavol fatally sets himself on fire in Prague in 1969 to protest the Soviet invasion of Czechoslovakia, his three best friends must figure out how to survive an oppressive regime without him"
     },
     {
@@ -6341,6 +6775,9 @@ const data = [
         "prose": "Y",
         "asianamericanAndPacificIslander": "Y",
         "ownvoices": "Y",
+        "bookBibnumber": 994039,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0,
         "publishersSummary": "After getting rejected from her dream college, sixteen-year-old Filipino American Perla Perez forges her own acceptance and commits to living a lie at university"
     },
     {
@@ -6355,6 +6792,9 @@ const data = [
         "ownvoices": "Y",
         "muslim": "Y",
         "mentalhealth": "Y",
+        "bookBibnumber": 0,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0,
         "publishersSummary": "After her mom is taken by ICE, seventeen-year-old Rania's hopes and dreams for the future are immediatly put on hold as she figures out how take care of her younger brother and survive in a country that seems to be closing around them"
     },
     {
@@ -6364,6 +6804,9 @@ const data = [
         "prose": "Y",
         "africanamericanOrBlack": "Y",
         "ownvoices": "Y",
+        "bookBibnumber": 984344,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0,
         "publishersSummary": "Twelve-year-old Lotus Blossom, normally a peace-loving free spirit, must summon the courage to fight against a racist dress code and stand up for herself."
     },
     {
@@ -6374,6 +6817,9 @@ const data = [
         "africanamericanOrBlack": "Y",
         "asianamericanAndPacificIslander": "Y",
         "ownvoices": "Y",
+        "bookBibnumber": 1003407,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0,
         "publishersSummary": "Nothing has gone right for twelve-year-old year old Lawrence since his Pop went away, but after getting expelled from school for fighting he discovers the world of chess and things begin to change."
     },
     {
@@ -6387,6 +6833,9 @@ const data = [
         "ownvoices": "Y",
         "muslim": "Y",
         "mentalhealth": "Y",
+        "bookBibnumber": 947574,
+        "ebookBibnumber": 958662,
+        "audioBibnumber": 958651,
         "publishersSummary": "Lahore, Pakistan. Then. Misbah is a dreamer and storyteller, newly married to Toufiq in an arranged match. After their young life is shaken by tragedy, they come to the United States and open the Clouds' Rest Inn Motel, hoping for a new start. Juniper, California. Now. Salahudin and Noor are more than best friends; they are family. Growing up as outcasts in the small desert town of Juniper, California, they understand each other the way no one else does. Until The Fight, which destroys their bond with the swift fury of a star exploding. Now, Sal scrambles to run the family motel as his mother Misbah's health fails and his grieving father loses himself to alcoholism. Noor, meanwhile, walks a harrowing tightrope: working at her wrathful uncle's liquor store while hiding the fact that she's applying to college so she can escape him--and Juniper--forever. When Sal's attempts to save the motel spiral out of control, he and Noor must ask themselves what friendship is worth--and what it takes to defeat the monsters in their pasts and the ones in their midst. From one of today's most cherished and bestselling young adult authors comes a breathtaking novel of young love, old regrets, and forgiveness--one that's both tragic and poignant in its tender ferocity."
     },
     {
@@ -6399,6 +6848,9 @@ const data = [
         "ownvoices": "Y",
         "mentalhealth": "Y",
         "depression": "Y",
+        "bookBibnumber": 0,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0,
         "publishersSummary": "When the president's daughter--eighteen-year-old Leigh Chen--ends up on the only ship escaping a dying earth, she and a group of teenagers must grapple with the challenges of what it will take to survive as the last remnants of humanity."
     },
     {
@@ -6409,6 +6861,9 @@ const data = [
         "latinx": "Y",
         "migrantstories": "Y",
         "ownvoices": "Y",
+        "bookBibnumber": 0,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0,
         "publishersSummary": "When four Mexican-American teenagers from Houston travel to Diamond Park to buy a 1959 Chevy Impala from Magaña's godfather, something goes very wrong, and one of them, Susi, ends up arrested for murder; convinced that the real killer is a drug trafficker called Anaconda, Flaco and Magaña head to Mexico hunting for him to clear Susi's name--but in the process of kidnapping Anaconda Flaco discovers how little he understands about what really happened in Diamond Park."
     },
     {
@@ -6421,6 +6876,9 @@ const data = [
         "lgbtqia": "Y",
         "wlwOrNblw": "Y",
         "ownvoices": "Y",
+        "bookBibnumber": 983243,
+        "ebookBibnumber": 1012503,
+        "audioBibnumber": 1012327,
         "publishersSummary": "When seventeen-year-old Avery moves to rural Georgia to live with her ailing grandmother, she encounters decades-old family secrets and a mystery surrounding the town's racist past"
     },
     {
@@ -6434,7 +6892,11 @@ const data = [
         "lgbtqia": "Y",
         "mlmOrNblm": "Y",
         "ownvoices": "Y",
-        "muslim": "Y"
+        "muslim": "Y",
+        "bookBibnumber": 952593,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0,
+        "publishersSummary": "On boy band Kiss & Tell's first major tour, lead singer Hunter Drake grapples with a painful breakup with his first boyfriend, his first rebound, and the stress of what it means to be queer in the public eye."
     },
     {
         "title": "Man Made Monsters",
@@ -6446,6 +6908,9 @@ const data = [
         "lgbtqia": "Y",
         "closetsafe": "Y",
         "ownvoices": "Y",
+        "bookBibnumber": 983250,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0,
         "publishersSummary": "Haunting illustrations are woven throughout these horror stories that follow one extended Cherokee family across the centuries and well into the future as they encounter predators of all kinds in each time period."
     },
     {
@@ -6458,6 +6923,9 @@ const data = [
         "mlmOrNblm": "Y",
         "trans": "Y",
         "nonbinary": "Y",
+        "bookBibnumber": 978720,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0,
         "publishersSummary": "Three teens chase their own version of the American Dream during the Roaring 20s in this YA remix of The Great Gatsby"
     },
     {
@@ -6467,6 +6935,9 @@ const data = [
         "graphicnovel": "Y",
         "asianamericanAndPacificIslander": "Y",
         "ownvoices": "Y",
+        "bookBibnumber": 956052,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0,
         "publishersSummary": "From two incredible rising talents comes the fantasy graphic novel Molly Knox Ostertag calls \"instantly compelling.\" Aiza has always dreamt of becoming a Knight. It's the highest military honor in the once-great Bayt-Sajji Empire, and as a member of the subjugated Ornu people, Knighthood is her only path to full citizenship. Ravaged by famine and mounting tensions, Bayt-Sajji finds itself on the brink of war once again, so Aiza can finally enlist in the competitive Squire training program. It's not how she imagined it, though. Aiza must navigate new friendships, rivalries, and rigorous training under the unyielding General Hende, all while hiding her Ornu background. As the pressure mounts, Aiza realizes that the \"greater good\" that Bayt-Sajji's military promises might not include her, and that the recruits might be in greater danger than she ever imagined. In this breathtaking and timely story, Aiza will have to choose, once and for all: loyalty to her heart and heritage, or loyalty to the Empire."
     },
     {
@@ -6479,7 +6950,11 @@ const data = [
         "ownvoices": "Y",
         "characterwithdisability": "Y",
         "mutedeafblind": "Y",
-        "middleGrade": "Y"
+        "middleGrade": "Y",
+        "bookBibnumber": 978787,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0,
+        "publishersSummary": "The reclusive Lord Whimsy plans to stop an old rival from uncovering the truth of a disappearance, and blind Safia finds herself experiencing an adventure and parts of the world she had only dreamed about."
     },
     {
         "title": "The Tryout",
@@ -6491,6 +6966,9 @@ const data = [
         "ownvoices": "Y",
         "muslim": "Y",
         "middleGrade": "Y",
+        "bookBibnumber": 973711,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0,
         "publishersSummary": "As one of the only Asian Americans in her school, Christina confronts both well-meaning ignorance and cruel racism, but in middle school, fitting in is important, which is why she and her best friend Megan are both excited and nervous to try out for the popular cheerleading squad."
     },
     {
@@ -6501,6 +6979,9 @@ const data = [
         "africanamericanOrBlack": "Y",
         "ownvoices": "Y",
         "middleGrade": "Y",
+        "bookBibnumber": 984031,
+        "ebookBibnumber": 1012499,
+        "audioBibnumber": 0,
         "publishersSummary": "Marlene loves three things: books, her cool tía Ruby, and hanging out with her best friend Camila. But according to her mother Paola, the only thing she needs to focus on is school and 'growing up.' That means straightening her hair every weekend so she could have 'presentable good hair.' But Marlene hates being in the salon and doesn't understand why her curls are not considered pretty by those around her. With a few hiccups, a dash of embarrassment, and the much-needed help of Camila and tía Ruby, she slowly starts a journey to learn to appreciate and proudly wear her curly hair"
     },
     {
@@ -6511,6 +6992,9 @@ const data = [
         "prose": "Y",
         "lgbtqia": "Y",
         "mlmOrNblm": "Y",
+        "bookBibnumber": 968449,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0,
         "publishersSummary": "Deciding to break away from everything, Tycho Zeling flies to America to spend his summer as a camp counselor, where he meets Oliver, another counselor, and feels his life stop, and finally begin again, as his."
     },
     {
@@ -6521,6 +7005,9 @@ const data = [
         "invisibledisability": "Y",
         "neurodiverdent": "Y",
         "middleGrade": "Y",
+        "bookBibnumber": 510665,
+        "ebookBibnumber": 590395,
+        "audioBibnumber": 590396,
         "publishersSummary": "The author of the beloved One for the Murphys gives listeners an emotionally-charged, uplifting novel that will speak to anyone who's ever thought there was something wrong with them because they didn't fit in. \"Everybody is smart in different ways. But if you judge a fish by its ability to climb a tree, it will live its life believing it is stupid.\" Ally has been smart enough to fool a lot of smart people. Every time she lands in a new school, she is able to hide her inability to read by creating clever yet disruptive distractions. She is afraid to ask for help; after all, how can you cure dumb? However, her newest teacher Mr. Daniels sees the bright, creative kid underneath the trouble maker. With his help, Ally learns not to be so hard on herself and that dyslexia is nothing to be ashamed of. As her confidence grows, Ally feels free to be herself and the world starts opening up with possibilities. She discovers that there's a lot more to her--and to everyone--than a label, and that great minds don't always think alike."
     },
     {
@@ -6532,6 +7019,9 @@ const data = [
         "lgbtqia": "Y",
         "mlmOrNblm": "Y",
         "ownvoices": "Y",
+        "bookBibnumber": 990227,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0,
         "publishersSummary": "Micah Summers runs a popular Instagram full of drawings of his numerous imaginary boyfriends (ninety-nine so far)--though he's never had a real boyfriend before. But when a meet-cute with Boy 100 goes wrong, Micah embarks on a Prince Charming-like quest throughout Chicago to find true love--for real this time."
     },
     {
@@ -6543,6 +7033,9 @@ const data = [
         "lgbtqia": "Y",
         "mlmOrNblm": "Y",
         "ownvoices": "Y",
+        "bookBibnumber": 918568,
+        "ebookBibnumber": 931567,
+        "audioBibnumber": 946748,
         "publishersSummary": "The boys of Huaxia dream of pairing up with girls to pilot Chrysalises, giant transforming robots that can battle the aliens that lurk beyond the Great Wall of China. It doesn't matter that the girls die from the mental strain. When 18-year-old Zetian offers herself up as a concubine-pilot, it's to assassinate the ace male pilot responsible for her sister's death. But when she gets her vengeance, it becomes clear that she is an Iron Widow, a rare kind of female pilot who can sacrifice males to power up Chrysalises instead. To tame her frightening yet valuable mental strength, she is paired up with Li Shimin, the strongest male pilot in Huaxia, yet feared and ostracized for killing his father and brothers. But now that Zetian has had a taste of power, she will not cower so easily. She will take over instead, then leverage their combined strength to force her society to stop failing its women and girls. Or die trying."
     },
     {
@@ -6555,7 +7048,11 @@ const data = [
         "latinx": "Y",
         "lgbtqia": "Y",
         "migrantstories": "Y",
-        "ownvoices": "Y"
+        "ownvoices": "Y",
+        "bookBibnumber": 0,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0,
+        "publishersSummary": "not available at slcpl"
     },
     {
         "title": "Going Dark",
@@ -6564,6 +7061,9 @@ const data = [
         "mysteryHorror": "Y",
         "prose": "Y",
         "asianamericanAndPacificIslander": "Y",
+        "bookBibnumber": 999142,
+        "ebookBibnumber": 1012544,
+        "audioBibnumber": 0,
         "publishersSummary": "When 19-year-old Josh returns from Rome without his budding influencer girlfriend Amelia, he immediately becomes a suspect in her disappearance, but as college sophomore and hacker Harper attempts to clear his name, she unearths secrets from both Josh and Amelia's past."
     },
     {
@@ -6573,14 +7073,22 @@ const data = [
         "historicalfiction": "Y",
         "prose": "Y",
         "africanamericanOrBlack": "Y",
-        "ownvoices": "Y"
+        "ownvoices": "Y",
+        "bookBibnumber": 994043,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0,
+        "publishersSummary": "The Davenports are one of the few Black families of immense wealth and status in 1910 Chicago, and the two daughters, Olivia and Helen, are finding their way and finding love--even where they are not supposed to."
     },
     {
         "title": "Thomas H. Begay and the Navajo Code Talkers",
         "author": "Alysa Landry",
         "nonfiction": "Y",
         "prose": "Y",
-        "nativeamerican": "Y"
+        "nativeamerican": "Y",
+        "bookBibnumber": 0,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0,
+        "publishersSummary": "not available at slcpl"
     },
     {
         "title": "Promise Boys",
@@ -6591,6 +7099,9 @@ const data = [
         "africanamericanOrBlack": "Y",
         "latinx": "Y",
         "ownvoices": "Y",
+        "bookBibnumber": 999138,
+        "ebookBibnumber": 1012463,
+        "audioBibnumber": 0,
         "publishersSummary": "J.B., Ramón, and Trey, students of the Urban Promise Prep School, must follow the school's strict rules, but when their principal is murdered, the three boys must band together to track down the real killer before they are arersted"
     },
     {
@@ -6600,6 +7111,9 @@ const data = [
         "mysteryHorror": "Y",
         "prose": "Y",
         "africanamericanOrBlack": "Y",
+        "bookBibnumber": 0,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 1003879,
         "publishersSummary": "Nova Albright was going to be the first Black homecoming queen at Lovett High--but now she's dead. Murdered on coronation night. Fans of One of Us Is Lying and The Other Black Girl will love this unputdownable thriller. Nova Albright, the first Black homecoming queen at Lovett High, is dead. Murdered the night of her coronation, her body found the next morning in the old slave cemetery she spent her weekends rehabilitating. Tinsley McArthur was supposed to be queen. Not only is she beautiful, wealthy, and white, it's her legacy--her grandmother, her mother, and even her sister wore the crown before her. Everyone in Lovett knows Tinsley would do anything to carry on the McArthur tradition. No one is more certain of that than Duchess Simmons, Nova's best friend. Duchess's father is the first Black police captain in Lovett. For Duchess, Nova's crown was more than just a win for Nova. It was a win for all the Black kids. Now her best friend is dead, and her father won't face the fact that the main suspect is right in front of him. Duchess is convinced that Tinsley killed Nova--and that Tinsley is privileged enough to think she can get away with it. But Duchess's father seems to be doing what he always does: fall behind the blue line. Which means that the white girl is going to walk. Duchess is determined to prove Tinsley's guilt. And to do that, she'll have to get close to her. But Tinsley has an agenda, too. Everyone loved Nova. And sometimes, love is exactly what gets you killed."
     },
     {
@@ -6609,6 +7123,9 @@ const data = [
         "romance": "Y",
         "prose": "Y",
         "africanamericanOrBlack": "Y",
+        "bookBibnumber": 999150,
+        "ebookBibnumber": 1012316,
+        "audioBibnumber": 0,
         "publishersSummary": "From the NAACP Image Award-nominated author of Happily Ever Afters comes a dual POV rom-com about Reggie and Delilah, who fall in love through missed connections and chance meetings on holidays over the course of a year. Perfect for fans of Nicola Yoon and Jenny Han, with crossover appeal for readers of Jasmine Guillory and Talia Hibbert romances. Delilah always keeps her messy, gooey insides hidden behind a wall of shrugs and yeah, whatevers. She goes with the flow--which is how she ends up singing in her friends' punk band as a favor, even though she'd prefer to hide at the merch table. Reggie is a D&D Dungeon Master and self-declared Blerd. He spends his free time leading quests and writing essays critiquing the game under a pseudonym, keeping it all under wraps from his disapproving family. These two, who have practically nothing in common, meet for the first time on New Year's Eve. And then again on Valentine's Day. And then again on St. Patrick's Day. It's almost like the universe is pushing them together for a reason."
     },
     {
@@ -6619,6 +7136,9 @@ const data = [
         "asianamericanAndPacificIslander": "Y",
         "migrantstories": "Y",
         "ownvoices": "Y",
+        "bookBibnumber": 999137,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0,
         "publishersSummary": "Seventeen-year-old Ocean Wu moves to New York City to start college, but she defers her enrollment, keeping it a secret from her immigrant mother, and instead uses the time to deal with her ambivalence about her place in the world."
     },
     {
@@ -6628,6 +7148,9 @@ const data = [
         "prose": "Y",
         "mentalhealth": "Y",
         "depression": "Y",
+        "bookBibnumber": 436723,
+        "ebookBibnumber": 754968,
+        "audioBibnumber": 604109,
         "publishersSummary": "One cold fall day, high school junior Liz Emerson steers her car into a tree. This haunting and heartbreaking story is told by a surprising and unexpected narrator and unfolds in nonlinear flashbacks even as Liz's friends, foes, and family gather at the hospital and Liz clings to life"
     },
     {
@@ -6638,7 +7161,11 @@ const data = [
         "latinx": "Y",
         "migrantstories": "Y",
         "mentalhealth": "Y",
-        "depression": "Y"
+        "depression": "Y",
+        "bookBibnumber": 0,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0,
+        "publishersSummary": "not available at slcpl"
     },
     {
         "title": "The Buried and the Bound",
@@ -6647,7 +7174,11 @@ const data = [
         "prose": "Y",
         "asianamericanAndPacificIslander": "Y",
         "arabOrArabamerican": "Y",
-        "ownvoices": "Y"
+        "ownvoices": "Y",
+        "bookBibnumber": 0,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0,
+        "publishersSummary": "not available at slcpl"
     },
     {
         "title": "The Minus-One Club",
@@ -6659,6 +7190,9 @@ const data = [
         "mlmOrNblm": "Y",
         "ownvoices": "Y",
         "mentalhealth": "Y",
+        "bookBibnumber": 1003583,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0,
         "publishersSummary": "Joining a secret group called the 'Minus-One Club,' whose members have all suffered the tragic loss of someone they loved, fifteen-year-old Kermit finds his crush Matt's headstrong approach to life helping to relieve his constant despair."
     },
     {
@@ -6669,6 +7203,9 @@ const data = [
         "arabOrArabamerican": "Y",
         "ownvoices": "Y",
         "muslim": "Y",
+        "bookBibnumber": 999140,
+        "ebookBibnumber": 1012301,
+        "audioBibnumber": 0,
         "publishersSummary": "The first book in an epic fantasy series set in an Arabian-inspired land with secret spice magic. Raised to protect her nation from the monsters lurking in the sands, sixteen-year-old Imani must fight to find her brother, whose betrayal is now the country's greatest threat"
     },
     {
@@ -6679,6 +7216,9 @@ const data = [
         "prose": "Y",
         "lgbtqia": "Y",
         "wlwOrNblw": "Y",
+        "bookBibnumber": 1003601,
+        "ebookBibnumber": 1012459,
+        "audioBibnumber": 1012323,
         "publishersSummary": "Penny and Tate have often clashed, despite their mothers' epic friendship; but now that they are living in the same house, beset by medical crises and Penny's problems dealing with the trauma of her father's death, they have to come to terms with their true feelings for each other."
     },
     {
@@ -6687,6 +7227,9 @@ const data = [
         "fiction": "Y",
         "prose": "Y",
         "africanamericanOrBlack": "Y",
+        "bookBibnumber": 999165,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0,
         "publishersSummary": "When rent increases put a teen mom at risk of losing her home, she resorts to a dangerous game to keep her family afloat. But all games have consequences, and this isn't one she can afford to lose. A gripping story about race, income instability, and the strength it takes to survive"
     },
     {
@@ -6698,6 +7241,9 @@ const data = [
         "lgbtqia": "Y",
         "mlmOrNblm": "Y",
         "ownvoices": "Y",
+        "bookBibnumber": 994037,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0,
         "publishersSummary": "After a disastrous promposal at a party, seventeen-year-old Theo has an existential crisis in an empty bedroom, but as the night progresses, various classmates also seek refuge from the party, and Theo finds he is not as alone as he thinks he is."
     },
     {
@@ -6707,7 +7253,11 @@ const data = [
         "prose": "Y",
         "latinx": "Y",
         "lgbtqia": "Y",
-        "mlmOrNblm": "Y"
+        "mlmOrNblm": "Y",
+        "bookBibnumber": 0,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0,
+        "publishersSummary": "not available at slcpl"
     },
     {
         "title": "The Boy Who Followed His Father into Auchwitz",
@@ -6716,7 +7266,11 @@ const data = [
         "prose": "Y",
         "migrantstories": "Y",
         "jewish": "Y",
-        "characterwithdisability": "Y"
+        "characterwithdisability": "Y",
+        "bookBibnumber": 826050,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0,
+        "publishersSummary": "not available at slcpl"
     },
     {
         "title": "This Time It's Real",
@@ -6726,6 +7280,9 @@ const data = [
         "prose": "Y",
         "asianamericanAndPacificIslander": "Y",
         "migrantstories": "Y",
+        "bookBibnumber": 999144,
+        "ebookBibnumber": 1012562,
+        "audioBibnumber": 0,
         "publishersSummary": "When seventeen-year-old Eliza Lin's entirely fictional essay about meeting her perfect boyfriend goes viral at her international school in Beijing, she has to make a deal with the handsome and charming Caz Song to play the part--but when the relationship starts to feel real all her career plans are suddenly threatened."
     },
     {
@@ -6738,7 +7295,11 @@ const data = [
         "latinx": "Y",
         "arabOrArabamerican": "Y",
         "nativeamerican": "Y",
-        "migrantstories": "Y"
+        "migrantstories": "Y",
+        "bookBibnumber": 0,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0,
+        "publishersSummary": "not available at slcpl"
     },
     {
         "title": "Out of Character",
@@ -6747,6 +7308,9 @@ const data = [
         "prose": "Y",
         "lgbtqia": "Y",
         "wlwOrNblw": "Y",
+        "bookBibnumber": 1003053,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 1003814,
         "publishersSummary": "Dumplin' meets Geekerella in debut author Jenna Miller's queer, body-positive love story that explores online and offline relationships in all of their messiness. If you asked seventeen-year-old Cass Williams to describe herself, she'd happily tell you she's fat, a lesbian, and obsessed with the Tide Wars books. What she won't tell you--or anyone in her life--is that she's part of an online Tide Wars roleplay community. Sure, it's nerdy as hell, but when she's behind the screen writing scenes as Captain Aresha, she doesn't have to think about her mother who walked out or how unexpectedly stressful it is dating resident cool girl Taylor Cooper. But secretly retreating to her online life is starting to catch up with Cass. For one, no one in her real life knows her secret roleplay addiction is the reason her grades have taken a big hit. Also? Cass has started catching feelings for Rowan Davies, her internet bestie ... and Taylor might be catching on. As Cass's lies continue to build, so does her anxiety. Roleplaying used to be the one place she could escape to, but this double life and offline-online love triangle have only made things worse. Cass must decide what to do--be honest and risk losing her safe space or keep it a secret and put everything else on the line."
     },
     {
@@ -6755,7 +7319,11 @@ const data = [
         "fiction": "Y",
         "prose": "Y",
         "asianamericanAndPacificIslander": "Y",
-        "migrantstories": "Y"
+        "migrantstories": "Y",
+        "bookBibnumber": 0,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0,
+        "publishersSummary": "not available at slcpl"
     },
     {
         "title": "A Tale of Two Princes",
@@ -6764,7 +7332,8 @@ const data = [
         "prose": "Y",
         "africanamericanOrBlack": "Y",
         "lgbtqia": "Y",
-        "mlmOrNblm": "Y"
+        "mlmOrNblm": "Y",
+        "publishersSummary": "not available at slcpl"
     },
     {
         "title": "The Music of What Happens",
@@ -6775,7 +7344,11 @@ const data = [
         "latinx": "Y",
         "lgbtqia": "Y",
         "mlmOrNblm": "Y",
-        "mentalhealth": "Y"
+        "mentalhealth": "Y",
+        "bookBibnumber": 775162,
+        "ebookBibnumber": 785059,
+        "audioBibnumber": 0,
+        "publishersSummary": "not available at slcpl"
     },
     {
         "title": "The Greatest Thing",
@@ -6787,7 +7360,11 @@ const data = [
         "lgbtqia": "Y",
         "wlwOrNblw": "Y",
         "mentalhealth": "Y",
-        "depression": "Y"
+        "depression": "Y",
+        "bookBibnumber": 0,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0,
+        "publishersSummary": "not available at slcpl"
     },
     {
         "title": "Bloom",
@@ -6797,6 +7374,9 @@ const data = [
         "graphicnovel": "Y",
         "lgbtqia": "Y",
         "mlmOrNblm": "Y",
+        "bookBibnumber": 788756,
+        "ebookBibnumber": 970287,
+        "audioBibnumber": 0,
         "publishersSummary": "Now that high school is over, Ari is dying to move to the big city with his ultra-hip band--if he can just persuade his dad to let him quit his job at their struggling family bakery. Though he loved working there as a kid, Ari cannot fathom a life wasting away over rising dough and hot ovens. But while interviewing candidates for his replacement, Ari meets Hector, an easygoing guy who loves baking as much as Ari wants to escape it. As they become closer over batches of bread, love is ready to bloom . . . that is, if Ari doesn't ruin everything."
     },
     {
@@ -6810,7 +7390,11 @@ const data = [
         "lgbtqia": "Y",
         "mlmOrNblm": "Y",
         "mentalhealth": "Y",
-        "characterwithdisability": "Y"
+        "characterwithdisability": "Y",
+        "bookBibnumber": 724988,
+        "ebookBibnumber": 842229,
+        "audioBibnumber": 730891,
+        "publishersSummary": "A story of resilience and loss, love and family, Mark Oshiro's Anger is a Gift testifies to the vulnerability and strength of a community living within a system of oppression. Six years ago, Moss Jefferies' father was murdered by an Oakland police officer. Along with losing a parent, the media's vilification of his father and lack of accountability has left Moss with near crippling panic attacks. Now, in his sophomore year of high school, Moss and his fellow classmates find themselves increasingly treated like criminals their own school. New rules. Random locker searches. Constant intimidation and Oakland Police Department stationed in their halls. Despite their youth, the students decide to organize and push back against the administration. When tensions hit a fever pitch and tragedy strikes, Moss must face a difficult choice: give in to fear and hate or realize that anger can actually be a gift."
     },
     {
         "title": "The Extraordinaries",
@@ -6821,6 +7405,9 @@ const data = [
         "lgbtqia": "Y",
         "mlmOrNblm": "Y",
         "neurodiverdent": "Y",
+        "bookBibnumber": 0,
+        "ebookBibnumber": 909188,
+        "audioBibnumber": 0,
         "publishersSummary": "An Indie Next Pick! Some people are extraordinary. Some are just extra. TJ Klune's YA debut, The Extraordinaries, is a queer coming-of-age story about a fanboy with ADHD and the heroes he loves. Hardcover edition comes with an exclusive, reversible jacket! Nick Bell' Not extraordinary. But being the most popular fanfiction writer in the Extraordinaries fandom is a superpower, right' After a chance encounter with Shadow Star, Nova City's mightiest hero (and Nick's biggest crush), Nick sets out to make himself extraordinary. And he'll do it with or without the reluctant help of Seth Gray, Nick's best friend (and maybe the love of his life). Rainbow Rowell's Fangirl meets Marissa Meyer's Renegades in TJ Klune's YA debut"
     },
     {
@@ -6830,12 +7417,20 @@ const data = [
         "prose": "Y",
         "lgbtqia": "Y",
         "nonbinary": "Y",
-        "aroace": "Y"
+        "aroace": "Y",
+        "bookBibnumber": 0,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0,
+        "publishersSummary": "not available at slcpl"
     },
     {
         "title": "It Doesn't Have to be Awkward",
         "author": "Dr. Drew, Paulina Pinsky",
-        "prose": "Y"
+        "prose": "Y",
+        "bookBibnumber": 982358,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0,
+        "publishersSummary": "Dr. Drew has spent decades talking to teens and young adults about sex and relationships, so he and his daughter take on a new generation of knowledge that incorporates current concerns with TCB: trust, compassion, and boundaries. Quizzes, real questions from patients, and life-experience from Paulina help the team tackle some of the toughest stuff to talk about."
     },
     {
         "title": "Obie is Man Enough",
@@ -6847,6 +7442,9 @@ const data = [
         "lgbtqia": "Y",
         "trans": "Y",
         "mentalhealth": "Y",
+        "bookBibnumber": 954425,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0,
         "publishersSummary": "A coming-of-age story about transgender tween Obie, who didn't think being himself would cause such a splash."
     },
     {
@@ -6858,6 +7456,9 @@ const data = [
         "latinx": "Y",
         "lgbtqia": "Y",
         "wlwOrNblw": "Y",
+        "bookBibnumber": 901569,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0,
         "publishersSummary": "When seventeen-year-old Veronica's photograph of her introverted girlfriend goes viral, they are sent into a spiral of fame and lethal danger as they navigate the turbulent waters of their relationship, secrets, acclaim, and the underground San Diego art scene."
     },
     {
@@ -6867,7 +7468,11 @@ const data = [
         "romance": "Y",
         "prose": "Y",
         "lgbtqia": "Y",
-        "mlmOrNblm": "Y"
+        "mlmOrNblm": "Y",
+        "bookBibnumber": 881217,
+        "ebookBibnumber": 872511,
+        "audioBibnumber": 0,
+        "publishersSummary": "Seventeen-year-old Raffy is determined to win a cosplay competition that could lead to art school admission and respect for his talent, but being paired with his main competitor, ex-boyfriend Luca, complicates things."
     },
     {
         "title": "The New Queer Conscience",
@@ -6879,6 +7484,9 @@ const data = [
         "mlmOrNblm": "Y",
         "ownvoices": "Y",
         "jewish": "Y",
+        "bookBibnumber": 942443,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0,
         "publishersSummary": "LGBTQIAA+ activist Adam Eli argues the urgent need for queer responsibility -- that queers anywhere are responsible for queers everywhere."
     },
     {
@@ -6888,7 +7496,11 @@ const data = [
         "mysteryHorror": "Y",
         "prose": "Y",
         "lgbtqia": "Y",
-        "wlwOrNblw": "Y"
+        "wlwOrNblw": "Y",
+        "bookBibnumber": 0,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0,
+        "publishersSummary": "not available at slcpl"
     },
     {
         "title": "Between Perfect & Real",
@@ -6896,7 +7508,11 @@ const data = [
         "fiction": "Y",
         "prose": "Y",
         "lgbtqia": "Y",
-        "trans": "Y"
+        "trans": "Y",
+        "bookBibnumber": 901556,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0,
+        "publishersSummary": "After being cast as Romeo in the school play, Dean realizes he wants everyone to see him as he really is, a male, and not just play one on the stage, despite the risk of losing everything."
     },
     {
         "title": "Almost Flying",
@@ -6911,6 +7527,9 @@ const data = [
         "jewish": "Y",
         "muslim": "Y",
         "middleGrade": "Y",
+        "bookBibnumber": 950022,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 946749,
         "publishersSummary": "In this unabashedly queer middle grade debut, a week-long amusement park road trip becomes a true roller coaster of emotion when Dalia realizes she has more-than-friend feelings for her new bestie.\"Dalia's journey to self-discovery is refreshingly honest, and this entire cast of characters will steal your heart.\"--Maulik Pancholy, actor and Stonewall Honor-winning author of The Best At It Would-be amusement park aficionado Dalia only has two items on her summer bucket list: (1) finally ride a roller coaster and (2) figure out how to make a new best friend. But when her dad suddenly announces that he's engaged, Dalia's schemes come to a screeching halt. With Dalia's future stepsister Alexa heading back to college soon, the grown-ups want the girls to spend the last weeks of summer bonding--meaning Alexa has to cancel the amusement park road trip she's been planning for months. Luckily Dalia comes up with a new plan: If she joins Alexa on her trip and brings Rani, the new girl from her swim team, along maybe she can have the perfect summer after all. But what starts out as a week of funnel cakes and Lazy River rides goes off the rails when Dalia discovers that Alexa's girlfriend is joining the trip. And keeping Alexa's secret makes Dalia realize one of her own: She might have more-than-friend feelings for Rani"
     },
     {
@@ -6919,7 +7538,11 @@ const data = [
         "fiction": "Y",
         "prose": "Y",
         "lgbtqia": "Y",
-        "mlmOrNblm": "Y"
+        "mlmOrNblm": "Y",
+        "bookBibnumber": "20467573&db=3213",
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0,
+        "publishersSummary": "not available at slcpl"
     },
     {
         "title": "Dark and Deepest Red",
@@ -6929,6 +7552,9 @@ const data = [
         "latinx": "Y",
         "lgbtqia": "Y",
         "ownvoices": "Y",
+        "bookBibnumber": 826548,
+        "ebookBibnumber": 840001,
+        "audioBibnumber": 0,
         "publishersSummary": "Summer, 1518. A strange sickness sweeps through Strasbourg: women dance in the streets, some until they fall down dead. As rumors of witchcraft spread, suspicion turns toward Lavinia and her family, and Lavinia may have to do the unimaginable to save herself and everyone she loves. Five centuries later, a pair of red shoes seal to Rosella Oliva's feet, making her dance uncontrollably. They draw her toward a boy who knows the dancing fever's history better than anyone: Emil, whose family was blamed for the fever five hundred years ago. But there's more to what happened in 1518 than even Emil knows, and discovering the truth may decide whether Rosella survives the red shoes."
     },
     {
@@ -6936,7 +7562,11 @@ const data = [
         "author": "Elana K. Arnold",
         "urbanfantasy": "Y",
         "prose": "Y",
-        "africanamericanOrBlack": "Y"
+        "africanamericanOrBlack": "Y",
+        "bookBibnumber": 0,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0,
+        "publishersSummary": "Since her grandmother became her caretaker when she was four years old, Bisou Martel has lived a quiet life in a little house in Seattle. She's kept mostly to herself. She's been good. But then comes the night of homecoming, when she finds herself running for her life over roots and between trees, a fury of claws and teeth behind her. A wolf attacks. Bisou fights back. A new moon rises. And with it, questions. About the blood in Bisou's past, and on her hands as she stumbles home. About broken boys and vicious wolves. About girls lost in the woods-frightened, but not alone"
     },
     {
         "title": "A Blade So Black",
@@ -6947,6 +7577,9 @@ const data = [
         "asianamericanAndPacificIslander": "Y",
         "latinx": "Y",
         "lgbtqia": "Y",
+        "bookBibnumber": 747831,
+        "ebookBibnumber": 750219,
+        "audioBibnumber": 0,
         "publishersSummary": "An ... urban fantasy retelling of Alice in Wonderland ... The first time the nightmares came, it nearly cost Alice her life. Now she's trained to battle monstrous creatures in the dark dream realm known as Wonderland with magic weapons and hardcore fighting skills. Yet even warriors have a curfew. Life in real-world Atlanta isn't always so simple, as Alice juggles an overprotective mom, a high-maintenance best friend, and a slipping GPA. Keeping the nightmares at bay is turning into a full-time job. But when Alice's handsome and mysterious mentor is poisoned, she has to find the antidote by venturing deeper into Wonderland than she's ever gone before. And she'll need to use everything she's learned in both worlds to keep from losing her head--literally"
     },
     {
@@ -6957,6 +7590,9 @@ const data = [
         "prose": "Y",
         "lgbtqia": "Y",
         "mlmOrNblm": "Y",
+        "bookBibnumber": 366603,
+        "ebookBibnumber": 754742,
+        "audioBibnumber": 0,
         "publishersSummary": "A chorus of men who died of AIDS observes and yearns to help a cross-section of today's gay teens who navigate new love, long-term relationships, coming out, self-acceptance, and more in a society that has changed in many ways."
     },
     {
@@ -6968,6 +7604,9 @@ const data = [
         "arabOrArabamerican": "Y",
         "lgbtqia": "Y",
         "mlmOrNblm": "Y",
+        "bookBibnumber": 0,
+        "ebookBibnumber": 909088,
+        "audioBibnumber": 909160,
         "publishersSummary": "Sky's small town turns absolutely claustrophobic when his secret promposal plans get leaked to the entire school in this witty, heartfelt, and ultimately hopeful debut novel for fans of What if it's Us? and I Wish You All the Best. Sky Baker may be openly gay, but in his small, insular town, making sure he was invisible has always been easier than being himself. Determined not to let anything ruin his senior year, Sky decides to make a splash at his high school's annual beach bum party by asking his crush, Ali, to prom--and he has thirty days to do it. What better way to start living loud and proud than by pulling off the gayest promposal Rock Ledge, Michigan, has ever seen? Then, Sky's plans are leaked by an anonymous hacker in a deeply homophobic e-blast that quickly goes viral. He's fully prepared to drop out and skip town altogether--until his classmates give him a reason to fight back by turning his thirty-day promposal countdown into a school-wide hunt to expose the e-blast perpetrator. But what happens at the end of the thirty days? Will Sky get to keep his hard-won visibility? Or will his small-town blues stop him from being his true self?"
     },
     {
@@ -6978,7 +7617,11 @@ const data = [
         "prose": "Y",
         "lgbtqia": "Y",
         "mlmOrNblm": "Y",
-        "jewish": "Y"
+        "jewish": "Y",
+        "bookBibnumber": 696644,
+        "ebookBibnumber": 722407,
+        "audioBibnumber": 913374,
+        "publishersSummary": "High school senior Tanner Scott has hidden his bisexuality since his family moved to Utah, but he falls hard for Sebastian, a Mormon mentoring students in a writing seminar Tanner's best friend convinced him to take."
     },
     {
         "title": "To Break a Covenant",
@@ -6986,7 +7629,11 @@ const data = [
         "fiction": "Y",
         "mysteryHorror": "Y",
         "prose": "Y",
-        "lgbtqia": "Y"
+        "lgbtqia": "Y",
+        "bookBibnumber": 0,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0,
+        "publishersSummary": "Moon Basin has been haunted for as long as anyone can remember. It started when an explosion in the mine killed sixteen people. The disaster made it impossible to live in town, with underground fires spewing ash into the sky. But life in New Basin is just as fraught."
     },
     {
         "title": "The Dead and the Dark",
@@ -6998,7 +7645,11 @@ const data = [
         "lgbtqia": "Y",
         "wlwOrNblw": "Y",
         "mlmOrNblm": "Y",
-        "ownvoices": "Y"
+        "ownvoices": "Y",
+        "bookBibnumber": 0,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0,
+        "publishersSummary": "When Ashley and Logan team up to figure out who—or what—is haunting Snakebite, their investigation reveals truths about the town, their families, and themselves that neither of them are ready for. As the danger intensifies, they realize that their growing feelings for each other could be a light in the darkness."
     },
     {
         "title": "Love & Other Natural Disasters",
@@ -7011,6 +7662,9 @@ const data = [
         "lgbtqia": "Y",
         "wlwOrNblw": "Y",
         "ownvoices": "Y",
+        "bookBibnumber": 985780,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0,
         "publishersSummary": "When Nozomi Nagai pictured the ideal summer romance, a fake one wasn't what she had in mind. That was before she met the perfect girl. Willow is gorgeous, glamorous, and...heartbroken? And when she enlists Nozomi to pose as her new girlfriend to make her ex jealous, Nozomi is a willing volunteer. Because Nozomi has a master plan of her own: one to show Willow she's better than a stand-in, and turn their fauxmance into something real. But as the lies pile up, it's not long before Nozomi's schemes take a turn toward disaster...and maybe a chance at love she didn't plan for"
     },
     {
@@ -7020,6 +7674,9 @@ const data = [
         "prose": "Y",
         "africanamericanOrBlack": "Y",
         "ownvoices": "Y",
+        "bookBibnumber": 999163,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0,
         "publishersSummary": "Dylan Woods hasn't seen her best friend, Langston, in years. After he moved to Los Angeles, he ghosted her. Then he became Legendary, the biggest teen R&B artist on the planet. For the most part, Dylan has moved on, with her sights set on Juilliard. But when her parents announce that Langston is coming for a short stay with them, the entire family is thrilled. Except for Dylan. The idea of sharing a house with music's biggest bad boy makes her stomach churn. But maybe Langston hasn't changed as much as Dylan thought--he's kept the bucket list they made together years ago. As they start checking off items on the list, Dylan starts to remember old times, her previous self, and their shared love of music. And there's something else. As Dylan considers giving Langston another chance, she starts to realize that maybe her feelings for him go beyond friendship. Maybe, just maybe, she's falling for her ex-best friend"
     },
     {
@@ -7033,6 +7690,9 @@ const data = [
         "wlwOrNblw": "Y",
         "ownvoices": "Y",
         "jewish": "Y",
+        "bookBibnumber": 907193,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0,
         "publishersSummary": "Seventeen-year-old Lara's dream of catching Chase Harding's eye finally comes true even as Jasmine, with whom she just spent a confusing, oddly romantic summer, reenters her life."
     },
     {
@@ -7041,14 +7701,22 @@ const data = [
         "fiction": "Y",
         "prose": "Y",
         "asianamericanAndPacificIslander": "Y",
-        "ownvoices": "Y"
+        "ownvoices": "Y",
+        "bookBibnumber": 1013682,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0,
+        "publishersSummary": "High school junior Gigi Wong is determined to be picked for a contest that could lead to an exclusive tech internship, but when her matchmaking app goes viral Gigi must deal with the unexpected consequences of helping her friends find love."
     },
     {
         "title": "Primal Animals",
         "author": "Julia Lynn Rubin",
         "fiction": "Y",
         "prose": "Y",
-        "lgbtqia": "Y"
+        "lgbtqia": "Y",
+        "bookBibnumber": 0,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0,
+        "publishersSummary": "not available at slcpl"
     },
     {
         "title": "Anything But Fine",
@@ -7060,7 +7728,11 @@ const data = [
         "lgbtqia": "Y",
         "mlmOrNblm": "Y",
         "ownvoices": "Y",
-        "muslim": "Y"
+        "muslim": "Y",
+        "bookBibnumber": 943236,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0,
+        "publishersSummary": "Luca Mason knows exactly who he is and what he wants: In six months, he's going to be accepted into the Australian Ballet School and live his life as a star of the stage--at least that's the plan until he falls down a flight of stairs and breaks his foot. With his dancing dreams dead on their feet, Luca loses his performing arts scholarship and transfers to the local public school. The only bright side is that he strikes up an unlikely friendship with the gorgeous, popular, and (reportedly) straight school captain, Jordan Tanaka-Jones. As Luca's bond with Jordan grows stronger, he starts to wonder: is he setting himself up for another heartbreak?"
     },
     {
         "title": "Rima's Rebellion",
@@ -7069,7 +7741,11 @@ const data = [
         "verse": "Y",
         "latinx": "Y",
         "ownvoices": "Y",
-        "middleGrade": "Y"
+        "middleGrade": "Y",
+        "bookBibnumber": 950002,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0,
+        "publishersSummary": "In 1920s Cuba, Rima is bullied and shunned for her illegitimacy, but finds solace in riding her horse and forges unexpected friendships with others who share her dreams of freedom and suffrage."
     },
     {
         "title": "96 Words For Love",
@@ -7079,7 +7755,11 @@ const data = [
         "prose": "Y",
         "africanamericanOrBlack": "Y",
         "asianamericanAndPacificIslander": "Y",
-        "ownvoices": "Y"
+        "ownvoices": "Y",
+        "bookBibnumber": 0,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0,
+        "publishersSummary": "Remy Tsai used to know how her story would turn out. But now, she doesn’t even know what tomorrow will look like. She was happy once. Remy had her boyfriend Jack, and Elise, her best friend—her soulmate—who understood her better than anyone else in the world. But now Jack is dead, shot through the chest… And it was Elise who pulled the trigger."
     },
     {
         "title": "The Best Lies",
@@ -7089,7 +7769,11 @@ const data = [
         "prose": "Y",
         "asianamericanAndPacificIslander": "Y",
         "ownvoices": "Y",
-        "mentalhealth": "Y"
+        "mentalhealth": "Y",
+        "bookBibnumber": 0,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0,
+        "publishersSummary": "not available at slcpl"
     },
     {
         "title": "¡Ay Mija!",
@@ -7097,7 +7781,12 @@ const data = [
         "fiction": "Y",
         "graphicnovel": "Y",
         "latinx": "Y",
-        "ownvoices": "Y"
+        "ownvoices": "Y",
+        "middleGrade": "Y",
+        "bookBibnumber": "21989439&db=3213",
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0,
+        "publishersSummary": "In this memoir, Christine Suggs explores a trip they took to Mexico to visit family, as Christine embraces and rebels against their heritage and finds a sense of belonging"
     },
     {
         "title": "Belle of the Ball",
@@ -7109,7 +7798,11 @@ const data = [
         "latinx": "Y",
         "lgbtqia": "Y",
         "wlwOrNblw": "Y",
-        "jewish": "Y"
+        "jewish": "Y",
+        "bookBibnumber": 0,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0,
+        "publishersSummary": "not avalible at slcpl"
     },
     {
         "title": "A Condition Called Love",
@@ -7118,7 +7811,11 @@ const data = [
         "romance": "Y",
         "manga": "Y",
         "asianamericanAndPacificIslander": "Y",
-        "ownvoices": "Y"
+        "ownvoices": "Y",
+        "bookBibnumber": 1001001,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0,
+        "publishersSummary": "Hotaru doesn't need a boyfriend. But an act of kindness to a classmate going through a breakup opens a door she never thought to step through, in and everything begins to change... A sweet new shojo romance manga from the creator of Wake Up, Sleeping Beauty! Hotaru is a 16-year-old high school first year who has always been ambivalent about love, preferring instead to have a lively life with her family and friends. So when she sees her schoolmate, Hananoi-kun, sitting in the snow after a messy, public breakup, she thinks nothing of offering to share her umbrella. But when he asks her out in the middle of her classroom the next day, she can't help but feel that her life is about to change in a big way..."
     },
     {
         "title": "The Gay Who Turned Kaiju",
@@ -7127,7 +7824,11 @@ const data = [
         "manga": "Y",
         "asianamericanAndPacificIslander": "Y",
         "lgbtqia": "Y",
-        "ownvoices": "Y"
+        "ownvoices": "Y",
+        "bookBibnumber": "22688409&db=3213",
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0,
+        "publishersSummary": "not avalible at slcpl"
     },
     {
         "title": "In Limbo",
@@ -7136,7 +7837,11 @@ const data = [
         "graphicnovel": "Y",
         "asianamericanAndPacificIslander": "Y",
         "migrantstories": "Y",
-        "ownvoices": "Y"
+        "ownvoices": "Y",
+        "bookBibnumber": 1016649,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0,
+        "publishersSummary": "not avalible at slcpl"
     },
     {
         "title": "Forest Hills Bootleg Society",
@@ -7144,7 +7849,11 @@ const data = [
         "fiction": "Y",
         "graphicnovel": "Y",
         "africanamericanOrBlack": "Y",
-        "asianamericanAndPacificIslander": "Y"
+        "asianamericanAndPacificIslander": "Y",
+        "bookBibnumber": "22488807&db=3213",
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0,
+        "publishersSummary": "not avalible at slcpl"
     },
     {
         "title": "Run on Your New Legs",
@@ -7153,7 +7862,11 @@ const data = [
         "manga": "Y",
         "asianamericanAndPacificIslander": "Y",
         "ownvoices": "Y",
-        "characterwithdisability": "Y"
+        "characterwithdisability": "Y",
+        "bookBibnumber": 0,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0,
+        "publishersSummary": "not avalible at slcpl"
     },
     {
         "title": "Shonen Note",
@@ -7161,7 +7874,11 @@ const data = [
         "fiction": "Y",
         "manga": "Y",
         "asianamericanAndPacificIslander": "Y",
-        "ownvoices": "Y"
+        "ownvoices": "Y",
+        "bookBibnumber": 0,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0,
+        "publishersSummary": "not avalible at slcpl"
     },
     {
         "title": "Thieves",
@@ -7172,7 +7889,11 @@ const data = [
         "lgbtqia": "Y",
         "wlwOrNblw": "Y",
         "ownvoices": "Y",
-        "mentalhealth": "Y"
+        "mentalhealth": "Y",
+        "bookBibnumber": 0,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0,
+        "publishersSummary": "not avalible at slcpl"
     },
     {
         "title": "The Well",
@@ -7182,7 +7903,11 @@ const data = [
         "asianamericanAndPacificIslander": "Y",
         "lgbtqia": "Y",
         "wlwOrNblw": "Y",
-        "ownvoices": "Y"
+        "ownvoices": "Y",
+        "bookBibnumber": 0,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0,
+        "publishersSummary": "not avalible at slcpl"
     },
     {
         "title": "In the Clear Moonlit Dusk",
@@ -7191,7 +7916,11 @@ const data = [
         "romance": "Y",
         "manga": "Y",
         "asianamericanAndPacificIslander": "Y",
-        "ownvoices": "Y"
+        "ownvoices": "Y",
+        "bookBibnumber": 0,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0,
+        "publishersSummary": "not avalible at slcpl"
     },
     {
         "title": "Mermaid Scales and the Town of Sand",
@@ -7200,7 +7929,11 @@ const data = [
         "manga": "Y",
         "asianamericanAndPacificIslander": "Y",
         "ownvoices": "Y",
-        "mentalhealth": "Y"
+        "mentalhealth": "Y",
+        "bookBibnumber": 0,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0,
+        "publishersSummary": "not avalible at slcpl"
     },
     {
         "title": "Marry Me a Little",
@@ -7210,7 +7943,11 @@ const data = [
         "lgbtqia": "Y",
         "mlmOrNblm": "Y",
         "ownvoices": "Y",
-        "newAdultAdultBookWithTeenInterest": "Y"
+        "newAdultAdultBookWithTeenInterest": "Y",
+        "bookBibnumber": 0,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0,
+        "publishersSummary": "not avalible at slcpl"
     },
     {
         "title": "Djeliya",
@@ -7218,7 +7955,11 @@ const data = [
         "mythology": "Y",
         "graphicnovel": "Y",
         "africanamericanOrBlack": "Y",
-        "ownvoices": "Y"
+        "ownvoices": "Y",
+        "bookBibnumber": "23064103&db=3213",
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0,
+        "publishersSummary": "not avalible at slcpl"
     },
     {
         "title": "The Girl That Can't Get a Girlfriend",
@@ -7228,7 +7969,11 @@ const data = [
         "asianamericanAndPacificIslander": "Y",
         "lgbtqia": "Y",
         "wlwOrNblw": "Y",
-        "ownvoices": "Y"
+        "ownvoices": "Y",
+        "bookBibnumber": 1001002,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0,
+        "publishersSummary": "\"Mieri is an awkward, nerdy college student with no dating experience, and her previous crushes on fellow butch women have all ended in disaster. That all changes when she meets Ash and has her feelings returned for the first time. But when first love turns to first heartbreak, Mieri will do everything possible to win Ash back.\""
     },
     {
         "title": "The Magic Fish",
@@ -7236,7 +7981,11 @@ const data = [
         "urbanfantasy": "Y",
         "graphicnovel": "Y",
         "asianamericanAndPacificIslander": "Y",
-        "ownvoices": "Y"
+        "ownvoices": "Y",
+        "bookBibnumber": 902004,
+        "ebookBibnumber": 909168,
+        "audioBibnumber": 0,
+        "publishersSummary": "Tiến loves his family and his friends...but Tiến has a secret he's been keeping from them, and it might change everything. An amazing YA graphic novel that deals with the complexity of family and how stories can bring us together. Real life isn't a fairytale. But Tiến still enjoys reading his favorite stories with his parents from the books he borrows from the local library. It's hard enough trying to communicate with your parents as a kid, but for Tiến, he doesn't even have the right words because his parents are struggling with their English. Is there a Vietnamese word for what he's going through? Is there a way to tell them he's gay? A beautifully illustrated story by Trung Le Nguyen that follows a young boy as he tries to navigate life through fairytales, an instant classic that shows us how we are all connected. The Magic Fish tackles tough subjects in a way that accessible with readers of all ages, and teaches us that no matter what--we can all have our own happy endings."
     },
     {
         "title": "Never Open It",
@@ -7244,7 +7993,11 @@ const data = [
         "mythology": "Y",
         "graphicnovel": "Y",
         "asianamericanAndPacificIslander": "Y",
-        "ownvoices": "Y"
+        "ownvoices": "Y",
+        "bookBibnumber": 0,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0,
+        "publishersSummary": "not avalible at slcpl"
     },
     {
         "title": "Pardalita",
@@ -7256,7 +8009,11 @@ const data = [
         "latinx": "Y",
         "lgbtqia": "Y",
         "wlwOrNblw": "Y",
-        "ownvoices": "Y"
+        "ownvoices": "Y",
+        "bookBibnumber": 0,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0,
+        "publishersSummary": "not avalible at slcpl"
     },
     {
         "title": "My Special One",
@@ -7265,7 +8022,11 @@ const data = [
         "romance": "Y",
         "manga": "Y",
         "asianamericanAndPacificIslander": "Y",
-        "ownvoices": "Y"
+        "ownvoices": "Y",
+        "bookBibnumber": 0,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0,
+        "publishersSummary": "not avalible at slcpl"
     },
     {
         "title": "Though I Am an Inept Villainess",
@@ -7273,7 +8034,11 @@ const data = [
         "fantasy": "Y",
         "manga": "Y",
         "asianamericanAndPacificIslander": "Y",
-        "ownvoices": "Y"
+        "ownvoices": "Y",
+        "bookBibnumber": "22926133&db=3213",
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0,
+        "publishersSummary": "not avalible at slcpl"
     },
     {
         "title": "Touring After the Apocalypse",
@@ -7281,14 +8046,22 @@ const data = [
         "dystopian": "Y",
         "manga": "Y",
         "asianamericanAndPacificIslander": "Y",
-        "ownvoices": "Y"
+        "ownvoices": "Y",
+        "bookBibnumber": "22688344&db=3213",
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0,
+        "publishersSummary": "not avalible at slcpl"
     },
     {
         "title": "Nearer My Freedom",
         "author": "Monica Edinger, Leslie Younge",
         "nonfiction": "Y",
         "verse": "Y",
-        "africanamericanOrBlack": "Y"
+        "africanamericanOrBlack": "Y",
+        "bookBibnumber": 0,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0,
+        "publishersSummary": "not avalible at slcpl"
     },
     {
         "title": "Black Birds in the Sky",
@@ -7299,7 +8072,8 @@ const data = [
         "ownvoices": "Y",
         "bookBibnumber": 931740,
         "ebookBibnumber": 0,
-        "audioBibnumber": 0
+        "audioBibnumber": 0,
+        "publishersSummary": "In the early morning of June 1, 1921, a white mob marched across the train tracks in Tulsa, Oklahoma, and into its predominantly Black Greenwood District--a thriving, affluent neighborhood known as America's Black Wall Street. They brought with them firearms, gasoline, and explosives. In a few short hours, they'd razed thirty-five square blocks to the ground, leaving hundreds dead. The Tulsa Race Massacre is one of the most devastating acts of racial violence in US history. But how did it come to pass? What exactly happened? And why are the events unknown to so many of us today? These are the questions that . . . author Brandy Colbert seeks to answer in this . . . nonfiction account of the Tulsa Race Massacre"
     },
     {
         "title": "Picking Up the Pieces",
@@ -7310,7 +8084,8 @@ const data = [
         "ownvoices": "Y",
         "bookBibnumber": 0,
         "ebookBibnumber": 0,
-        "audioBibnumber": 0
+        "audioBibnumber": 0,
+        "publishersSummary": "not avalible at slcpl"
     },
     {
         "title": "Seen and Unseen",
@@ -7321,7 +8096,8 @@ const data = [
         "ownvoices": "Y",
         "bookBibnumber": 986870,
         "ebookBibnumber": 0,
-        "audioBibnumber": 0
+        "audioBibnumber": 0,
+        "publishersSummary": "Legendary photographers Dorothea Lange, Toyo Miyatake, and Ansel Adams all photographed the Japanese American incarceration, but with different approaches-and different results. This nonfiction picture book for middle grade readers examines the Japanese-American incarceration-and the complexity of documenting it-through the work of these three photographers"
     },
     {
         "title": "Unspeakable",
@@ -7332,7 +8108,8 @@ const data = [
         "ownvoices": "Y",
         "bookBibnumber": 878696,
         "ebookBibnumber": 0,
-        "audioBibnumber": 884793
+        "audioBibnumber": 884793,
+        "publishersSummary": "\"Celebrated author Carole Boston Weatherford and illustrator Floyd Cooper provide a powerful look at the 1921 Tulsa race massacre, one of the worst incidents of racial violence in our nation's history\""
     },
     {
         "title": "Afterglow",
@@ -7344,7 +8121,8 @@ const data = [
         "trans": "Y",
         "bookBibnumber": 1003571,
         "ebookBibnumber": 0,
-        "audioBibnumber": 0
+        "audioBibnumber": 0,
+        "publishersSummary": "After a summer of life changing, Gabriel, Reese, Sal, and Heath are finally ready for senior year, but as graduation nears and the boys prepare to enter the real world, it is clear their friendship will never be the same."
     },
     {
         "title": "Always the Almost",
@@ -7358,7 +8136,8 @@ const data = [
         "trans": "Y",
         "bookBibnumber": 999158,
         "ebookBibnumber": 0,
-        "audioBibnumber": 0
+        "audioBibnumber": 0,
+        "publishersSummary": "Sixteen-year-old trans boy Miles Jacobson's New Year resolutions include winning back his ex-boyfriend and winning the Widewest's biggest classical piano competition, but when a new, proudly queer boy moves to town, Miles reconsiders who he was and who he is now."
     },
     {
         "title": "Rain, Reign",
@@ -7370,7 +8149,8 @@ const data = [
         "middleGrade": "Y",
         "bookBibnumber": 443880,
         "ebookBibnumber": 0,
-        "audioBibnumber": 496087
+        "audioBibnumber": 496087,
+        "publishersSummary": "Rose Howard is obsessed with homonyms. She's thrilled that her own name is a homonym, and she purposely gave her dog Rain a name with two homonyms (Reign, Rein), which, according to Rose's rules of homonyms, is very special. Not everyone understands Rose's obsessions, her rules, and the other things that make her different--not her teachers, not other kids, and not her single father. When a storm hits their rural town, rivers overflow, the roads are flooded, and Rain goes missing. Rose's father shouldn't have let Rain out. Now Rose has to find her dog, even if it means leaving her routines and safe places to search. Hearts will break and spirits will soar for this powerful story, brilliantly told from Rose's point of view."
     },
     {
         "title": "No Boy Summer",
@@ -7383,7 +8163,8 @@ const data = [
         "wlwOrNblw": "Y",
         "bookBibnumber": 0,
         "ebookBibnumber": 0,
-        "audioBibnumber": 0
+        "audioBibnumber": 0,
+        "publishersSummary": "not avalible at slcpl"
     },
     {
         "title": "I Kick and Fly",
@@ -7394,7 +8175,8 @@ const data = [
         "ownvoices": "Y",
         "bookBibnumber": 0,
         "ebookBibnumber": 0,
-        "audioBibnumber": 0
+        "audioBibnumber": 0,
+        "publishersSummary": "On the outskirts of the Red Light District in Bihar, India, fourteen-year-old Heera is living on borrowed time until her father sells her into the sex trade to help feed their family and repay his loans. It is, as she's been told, the fate of the women in her community to end up here. But when a local hostel owner shows up at Heera's home with the money to repay her family's debt, Heera begins to learn that fate can change. Destiny can be disrupted"
     },
     {
         "title": "Sunshine",
@@ -7434,7 +8216,8 @@ const data = [
         "ownvoices": "Y",
         "bookBibnumber": 0,
         "ebookBibnumber": 0,
-        "audioBibnumber": 0
+        "audioBibnumber": 0,
+        "publishersSummary": "When a hurricane exposes Soleida's family's secret sculpture garden, the Cuban government arrests her artist parents, forcing her to escape alone to Central America where she meets Dariel, a Cuban American boy, and together they work to protect the environment and bring attention to the imprisoned artists in Cuba."
     },
     {
         "title": "If I See You Again Tomorrow",
@@ -7446,9 +8229,10 @@ const data = [
         "lgbtqia": "Y",
         "mlmOrNblm": "Y",
         "ownvoices": "Y",
-        "bookBibnumber": 0,
+        "bookBibnumber": 1007548,
         "ebookBibnumber": 0,
-        "audioBibnumber": 0
+        "audioBibnumber": 0,
+        "publishersSummary": "Clark is stuck in a time loop that is endlessly monotonous until he meets Beau, the boy of his dreams."
     },
     {
         "title": "The Bones of Ruin",
@@ -7463,7 +8247,283 @@ const data = [
         "ownvoices": "Y",
         "bookBibnumber": 0,
         "ebookBibnumber": 0,
-        "audioBibnumber": 0
+        "audioBibnumber": 0,
+        "publishersSummary": "not avalible at slcpl"
+    },
+    {
+        "title": "That Self-Same Metal",
+        "author": "Brittany N. Williams",
+        "fantasy": "Y",
+        "historicalfiction": "Y",
+        "prose": "Y",
+        "africanamericanOrBlack": "Y",
+        "lgbtqia": "Y",
+        "ownvoices": "Y",
+        "bookBibnumber": 0,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0,
+        "publishersSummary": "not avalible at slcpl"
+    },
+    {
+        "title": "Ghosts, Toast, and Other Hazards",
+        "author": "Susan Tan",
+        "urbanfantasy": "Y",
+        "prose": "Y",
+        "asianamericanAndPacificIslander": "Y",
+        "ownvoices": "Y",
+        "middleGrade": "Y",
+        "bookBibnumber": 0,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 1011219,
+        "publishersSummary": "\"Susan Tan's writing is funny, fun, and hits straight to the heart.\"--Christina Soontorvat, two-time Newbery Honor recipient. From APALA Honor award-winning author Susan Tan, a middle-grade novel about a girl who must overcome her worries to find the truth behind her town's urban legend. Mo is not afraid of toast. Just to be clear. She is afraid of fires, though. Which can be caused by everyday appliances, like toasters. So toast isn't the problem, but you could say it's the start of a slippery slope. Since her family's recent move, Mo's been eating oatmeal for breakfast. Moving to a new town is never easy, but it's even harder when you're dealing with a stepdad who just left and a mom who can't get out of bed long enough to find a new a job. But Mo doesn't have time to dwell on these things. Because it's her job to keep her family together. To keep them safe. So when an elephant starts to haunt her dreams--and a mysterious spirit attacks her home--Mo knows it's up to her to intervene before things get too dangerous. With her new friend, Nathaniel, she embarks on an investigation, searching for the truth about the town, its people, and their history. But things are much more complicated and tangled than she thought. To find out what's really going on, Mo might have to live a little dangerously after all."
+    },
+    {
+        "title": "Calling the Moon",
+        "author": "Yamile Saied Mendez, Aida Salazar",
+        "fiction": "Y",
+        "verse": "Y",
+        "prose": "Y",
+        "africanamericanOrBlack": "Y",
+        "asianamericanAndPacificIslander": "Y",
+        "latinx": "Y",
+        "lgbtqia": "Y",
+        "migrantstories": "Y",
+        "ownvoices": "Y",
+        "middleGrade": "Y",
+        "bookBibnumber": 1003410,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0,
+        "publishersSummary": "For Angela, it came on the basketball court--while playing on the boys' team. For Penny, it came on a school field trip to the lake (making for some cringeworthy moments of humor). And to Layla's disappointment, it came at the start of her first fasting Ramadan, meaning that she won't be able to fast after all. Whether it spurs silence or celebration, whether the subjects are well prepared or totally in the dark, the young people in these sixteen stories find that getting a period not only brings change to their bodies, it also brings joy, sorrow, self-discovery, and yes, sometimes even gifts."
+    },
+    {
+        "title": "Aniana del Mar Jumps In",
+        "author": "Jasminne Mendez",
+        "fiction": "Y",
+        "verse": "Y",
+        "latinx": "Y",
+        "ownvoices": "Y",
+        "characterwithdisability": "Y",
+        "bookBibnumber": 1005614,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0,
+        "publishersSummary": "not avalible at slcpl"
+    },
+    {
+        "title": "Rebels of Fire and Flight",
+        "author": "Aneesa Marufu",
+        "fantasy": "Y",
+        "prose": "Y",
+        "arabOrArabamerican": "Y",
+        "ownvoices": "Y",
+        "muslim": "Y",
+        "bookBibnumber": 0,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0,
+        "publishersSummary": "not avalible at slcpl"
+    },
+    {
+        "title": "The Ghosts of Rancho Espanto",
+        "author": "Adrianna Cuevas",
+        "urbanfantasy": "Y",
+        "prose": "Y",
+        "latinx": "Y",
+        "ownvoices": "Y",
+        "mentalhealth": "Y",
+        "bookBibnumber": 1005584,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0,
+        "publishersSummary": "not avalible at slcpl"
+    },
+    {
+        "title": "The Making of Yolanda la Bruja",
+        "author": "Lorraine Avila",
+        "fiction": "Y",
+        "prose": "Y",
+        "africanamericanOrBlack": "Y",
+        "latinx": "Y",
+        "ownvoices": "Y",
+        "bookBibnumber": 1003561,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0,
+        "publishersSummary": "Yolanda Alvarez is having a good year. She's starting to feel at home at Julia De Burgos High. She has her best friend Victory, and maybe something with Jose, a senior boy. She's confident her initiation into her family's bruja tradition will happen soon. But then a white boy, the son of a politician, appears at her school, and his vibes are off. And Yolanda's initiation begins with a series of troubling visions of the violence this boy threatens. How can Yolanda protect her community, in a world that doesn't listen? "
+    },
+    {
+        "title": "Tim Te Maro and the Subterranean Heartsick Blues",
+        "author": "H.S. Valley",
+        "urbanfantasy": "Y",
+        "prose": "Y",
+        "asianamericanAndPacificIslander": "Y",
+        "lgbtqia": "Y",
+        "mlmOrNblm": "Y",
+        "ownvoices": "Y",
+        "bookBibnumber": 999154,
+        "ebookBibnumber": 0,
+        "audioBibnumber": 0,
+        "publishersSummary": "Tim Te Maro and Elliott Parker, classmates at Fox Glacier High School for the Magically Adept, have never gotten along. But when they both get dumped the day before the big egg-baby assignment, they reluctantly decide to ditch their exes and work together. When the two boys start to bond over their magically enchanted egg-baby, they realise that beneath their animosity is something like friendship... or physical attraction. Soon, a no-strings-attached hook-up seems like a good idea. Just for the duration of the assignment. After all, they don't have feelings for each other, so what could possibly go wrong?"
+    },
+    {
+        "title": "Punching the Air",
+        "author": "Ibi Zoboi, Yusef Salaam",
+        "fiction": "Y",
+        "verse": "Y",
+        "africanamericanOrBlack": "Y",
+        "ownvoices": "Y",
+        "bookBibnumber": 852323,
+        "ebookBibnumber": 872515,
+        "audioBibnumber": 0,
+        "publishersSummary": "A novel in verse about a 16-year-old boy, Amal, with a budding artistic talent and promising future, who is put away in prison for throwing a punch. But in a way, was he put away before that, by an uncaring and prejudiced system?"
+    },
+    {
+        "title": "The Infinity Particle",
+        "author": "Wendy Xu",
+        "scifi": "Y",
+        "graphicnovel": "Y",
+        "asianamericanAndPacificIslander": "Y",
+        "ownvoices": "Y"
+    },
+    {
+        "title": "My Father, the Panda Killer",
+        "author": "Jamie Jo Hoang",
+        "fiction": "Y",
+        "prose": "Y",
+        "asianamericanAndPacificIslander": "Y",
+        "ownvoices": "Y"
+    },
+    {
+        "title": "Her Radiant Curse",
+        "author": "Elizabeth Lim",
+        "fantasy": "Y",
+        "prose": "Y",
+        "asianamericanAndPacificIslander": "Y"
+    },
+    {
+        "title": "The Impossible Escape",
+        "author": "Steve Sheinkin",
+        "nonfiction": "Y",
+        "prose": "Y",
+        "jewish": "Y"
+    },
+    {
+        "title": "A Tall Dark Trouble",
+        "author": "Vanessa Montalban",
+        "urbanfantasy": "Y",
+        "mysteryHorror": "Y",
+        "prose": "Y",
+        "africanamericanOrBlack": "Y",
+        "latinx": "Y",
+        "ownvoices": "Y"
+    },
+    {
+        "title": "I Feed Her to the Beast and the Beast is Me",
+        "author": "Jamison Shea",
+        "urbanfantasy": "Y",
+        "mysteryHorror": "Y",
+        "prose": "Y",
+        "africanamericanOrBlack": "Y",
+        "ownvoices": "Y"
+    },
+    {
+        "title": "All You Have to Do",
+        "author": "Autumn Allen",
+        "historicalfiction": "Y",
+        "prose": "Y",
+        "africanamericanOrBlack": "Y",
+        "ownvoices": "Y"
+    },
+    {
+        "title": "Sign of the Slayer",
+        "author": "Sharina Harris",
+        "urbanfantasy": "Y",
+        "mysteryHorror": "Y",
+        "prose": "Y",
+        "africanamericanOrBlack": "Y",
+        "latinx": "Y",
+        "ownvoices": "Y"
+    },
+    {
+        "title": "Neverwraith",
+        "author": "Shakir Rashaan",
+        "urbanfantasy": "Y",
+        "prose": "Y",
+        "africanamericanOrBlack": "Y",
+        "ownvoices": "Y"
+    },
+    {
+        "title": "Savi and the Memory Keeper",
+        "author": "Bijal Vachharajani, Rajiv Eipe",
+        "urbanfantasy": "Y",
+        "graphicnovel": "Y",
+        "asianamericanAndPacificIslander": "Y",
+        "ownvoices": "Y"
+    },
+    {
+        "title": "Actually Super",
+        "author": "Adi Alsaid",
+        "fiction": "Y",
+        "prose": "Y",
+        "latinx": "Y",
+        "jewish": "Y"
+    },
+    {
+        "title": "Love and Other Wicked Things",
+        "author": "Philline Harms",
+        "fantasy": "Y",
+        "romance": "Y",
+        "prose": "Y",
+        "africanamericanOrBlack": "Y",
+        "lgbtqia": "Y",
+        "wlwOrNblw": "Y"
+    },
+    {
+        "title": "Everyone's Thinking It",
+        "author": "Aleema Omotoni",
+        "fiction": "Y",
+        "prose": "Y",
+        "africanamericanOrBlack": "Y",
+        "ownvoices": "Y",
+        "mentalhealth": "Y"
+    },
+    {
+        "title": "What Stalks Among Us",
+        "author": "Sarah Hollowell",
+        "fiction": "Y",
+        "mysteryHorror": "Y",
+        "prose": "Y",
+        "asianamericanAndPacificIslander": "Y"
+    },
+    {
+        "title": "Rez Ball",
+        "author": "Byron Graves",
+        "fiction": "Y",
+        "prose": "Y",
+        "nativeamerican": "Y",
+        "ownvoices": "Y"
+    },
+    {
+        "title": "In the Ring",
+        "author": "Sierra Isley",
+        "fiction": "Y",
+        "prose": "Y",
+        "ownvoices": "Y",
+        "jewish": "Y",
+        "mentalhealth": "Y",
+        "depression": "Y"
+    },
+    {
+        "title": "Goddess Crown",
+        "author": "Shade Lapite",
+        "fantasy": "Y",
+        "prose": "Y",
+        "africanamericanOrBlack": "Y",
+        "ownvoices": "Y"
+    },
+    {
+        "title": "There's No Way I'd Die First",
+        "author": "Lisa Springer",
+        "fiction": "Y",
+        "mysteryHorror": "Y",
+        "prose": "Y",
+        "africanamericanOrBlack": "Y"
     }
 ];
 
