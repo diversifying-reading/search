@@ -8928,7 +8928,7 @@ const data = [
         "publishersSummary": "Told over the course of forty-eight hours, seventeen-year-old Tony heads back to his old life in Des Moines, Washington after being released from a youth detention center, but toxic old relationships and unforseen challenges make staying on the straight-and-narrow nearly impossible."
     },
     {
-        "title": "The Black Girl Survives in this One",
+        "title": "The Black Girl Survives in This One",
         "author": "Desiree S Evans, Saraciea J Fennell",
         "fiction": "Y",
         "mysteryHorror": "Y",
