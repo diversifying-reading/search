@@ -55,18 +55,18 @@ function previousPage(){
 
 function correct_url(){
 //	if param 'search' is not included in paramString (already includes line 'if param.includes("search")' maybe if paramString includes might work? rewrite with selections
-//	if url exactly equals 'https://diversifying-reading.github.io/search/" or "https://diversifying-reading.github.io/search" rewrite with selections
+//	if url exactly equals 'https://search.diversereading.com/" or "https://search.diversereading.com" rewrite with selections
 var paramString = url.split('?')[1];
 if(paramString == undefined || !url.includes("search=") && !url.includes("page=")){
   if (!url.includes("?") || !url.includes("search=") && !url.includes("page=")){
-    window.location.href = 'https://diversifying-reading.github.io/search/?' + required_tag_url_format + 'search=undefined&page=0';
+    window.location.href = 'https://search.diversereading.com/?' + required_tag_url_format + 'search=undefined&page=0';
   }
 }
 // else if(!url.includes("search=") || !Boolean(parseInt(from_url("page"))>=0)){
-//   window.location.href = 'https://diversifying-reading.github.io/search/?' + required_tag_url_format + 'search=' + from_url("search") + "&page=0";
+//   window.location.href = 'https://search.diversereading.com/?' + required_tag_url_format + 'search=' + from_url("search") + "&page=0";
 // }
 // else if(!url.includes("page=")){
-//   window.location.href = 'https://diversifying-reading.github.io/search/?' + required_tag_url_format + 'search=undefined&page=' + from_url("page");
+//   window.location.href = 'https://search.diversereading.com/?' + required_tag_url_format + 'search=undefined&page=' + from_url("page");
 // }
 
 let includesSearchParam = false;
@@ -186,7 +186,7 @@ function filter(value) {
   }
 
   for(var i = 0; i < book_tags.length; i++){
-    book_tags_string += "<a style='color: #000000;text-decoration: none;background-color: #cdbead;padding-left: 5px;padding-right: 5px;padding-top: 2px;padding-bottom: 2px;border-radius: 4px;' href='" + "https://diversifying-reading.github.io/search/?" + book_tags[i] + "&search=undefined&page=0'>"
+    book_tags_string += "<a style='color: #000000;text-decoration: none;background-color: #cdbead;padding-left: 5px;padding-right: 5px;padding-top: 2px;padding-bottom: 2px;border-radius: 4px;' href='" + "https://search.diversereading.com/?" + book_tags[i] + "&search=undefined&page=0'>"
     book_tags_string += display_book_tags(book_tags[i]);
     book_tags_string += "</a>"
     if (i < book_tags.length - 1){
