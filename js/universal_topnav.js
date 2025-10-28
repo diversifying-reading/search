@@ -2,8 +2,8 @@ var screenWidth = window.innerWidth;
 if(mobileDevice()){
   screenWidth = screen.width;
 }
-var window_url = "https://search.diversereading.com/?search=undefined";
-var repository = window_url.split("https://")[1].split(".diversereading.com")[0];
+var window_url = "https://diversifying-reading.github.io/search/?search=undefined";
+var repository = window_url.split("https://diversifying-reading.github.io/")[1].split("/")[0];
 var scrollOnLoad = document.documentElement.scrollTop;
 
 for(let i = 0; i < document.getElementsByClassName("topnav_text").length; i++){
@@ -15,16 +15,16 @@ for(let i = 0; i < document.getElementsByClassName("topnav_text").length; i++){
 function selectTopnavUpdate(){
   var link = document.getElementsByClassName("select")[0].value;
   if(link == "Catalog"){
-    window.location.href = "https://search.diversereading.com";
+    window.location.href = "https://diversifying-reading.github.io/search/";
   }
   else if(link == "Resources"){
-    window.location.href = "https://resources.diversereading.com";
+    window.location.href = "https://diversifying-reading.github.io/resources/";
   }
   else if(link == "Suggest a Book"){
-    window.location.href = "https://suggest.diversereading.com";
+    window.location.href = "hhttps://diversifying-reading.github.io/suggest/";
   }
   else if(link == "Home"){
-    window.location.href = "https://diversereading.com";
+    window.location.href = "https://diversifying-reading.github.io/home/";
   }
 }
 
@@ -128,7 +128,7 @@ function resize_topnav(){
 
     sidenav_openStatus = 2; //untouched
 
-    document.getElementsByClassName("topnav_text")[0].innerHTML = '\n\t<a href="https://diversereading.com" id="home" class="topnav_text_links" style="float: left; padding-top: 8px; padding-bottom: 8px;">Home</a>\n  <a href="https://diversereading.com" style="text-decoration: none;"> <img src="images/topnav_text.png" id="diversifying-reading-topnav" style="height: 30px; padding-bottom: 0.5px; padding-right: 15px;">\n  <img src="images/favicon.png" id="topnav_logo" style="height: 36px; padding-top: 7.33333px;"></a>\n  <a href="https://suggest.diversereading.com" id="suggest" class="topnav_text_links" style="float: right; padding-top: 8px; padding-bottom: 8px;">Suggest a Book</a>\n  <a href="https://suggest.diversereading.com" id="resources" class="topnav_text_links" style="float: right; padding-top: 8px; padding-bottom: 8px;">Resources</a>\n  <a href="https://search.diversereading.com" id="search" class="currentTextLink" style="float: right; padding-top: 8px; padding-bottom: 8px;">Catalog</a>\n  ';
+    document.getElementsByClassName("topnav_text")[0].innerHTML = '\n\t<a href="https://diversifying-reading.github.io/home/" id="home" class="topnav_text_links" style="float: left; padding-top: 8px; padding-bottom: 8px;">Home</a>\n  <a href="https://diversereading.com" style="text-decoration: none;"> <img src="images/topnav_text.png" id="diversifying-reading-topnav" style="height: 30px; padding-bottom: 0.5px; padding-right: 15px;">\n  <img src="images/favicon.png" id="topnav_logo" style="height: 36px; padding-top: 7.33333px;"></a>\n  <a href="https://suggest.diversereading.com" id="suggest" class="topnav_text_links" style="float: right; padding-top: 8px; padding-bottom: 8px;">Suggest a Book</a>\n  <a href="https://suggest.diversereading.com" id="resources" class="topnav_text_links" style="float: right; padding-top: 8px; padding-bottom: 8px;">Resources</a>\n  <a href="https://search.diversereading.com" id="search" class="currentTextLink" style="float: right; padding-top: 8px; padding-bottom: 8px;">Catalog</a>\n  ';
     document.getElementById("menu_button").style.float = "left";
     document.getElementsByClassName('topnav_text')[0].style.marginLeft = "1vmin";
 
@@ -199,16 +199,16 @@ function currentRepository(url_test){
 }
 
 let topnav_text_links_index;
-if(currentRepository("https://search.diversereading.com/?search=undefined&page=0") == "home"){
+if(currentRepository("https://diversifying-reading.github.io/search/?search=undefined&page=0") == "home"){
   topnav_text_links_index = 0;
 }
-else if(currentRepository("https://search.diversereading.com/?search=undefined&page=0") == "suggest"){
+else if(currentRepository("https://diversifying-reading.github.io/search/?search=undefined&page=0") == "suggest"){
   topnav_text_links_index = 1;
 }
-else if(currentRepository("https://search.diversereading.com/?search=undefined&page=0") == "resources"){
+else if(currentRepository("https://diversifying-reading.github.io/search/?search=undefined&page=0") == "resources"){
   topnav_text_links_index = 2;
 }
-else if(currentRepository("https://search.diversereading.com/?search=undefined&page=0") == "search"){
+else if(currentRepository("https://diversifying-reading.github.io/search/?search=undefined&page=0") == "search"){
   topnav_text_links_index = 3;
 }
 
